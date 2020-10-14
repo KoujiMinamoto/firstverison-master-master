@@ -463,10 +463,11 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-walking"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info"> 
-                                <span class="gallary_div_article"> </span>                               
+                            <p>Here are some text to describe the product</p>
+                                <span class="gallary_div_article"></span>                               
                             </div>
                         </div>
                     </div>
@@ -474,7 +475,7 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-snowflake"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info">
                                 <span class="gallary_div_article"> </span>
@@ -485,7 +486,7 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-snowflake"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info">
                                 <span class="gallary_div_article"> </span>
@@ -496,7 +497,7 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-snowflake"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info">
                                 <span class="gallary_div_article"> </span>
@@ -507,7 +508,7 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-snowflake"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info">
                                 <span class="gallary_div_article"> </span>
@@ -518,7 +519,7 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-tint"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info">
                                 <span class="gallary_div_article"> </span>
@@ -530,7 +531,7 @@
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
-                                <i class="gallary_div_fas fa-sun"></i>
+                                <i class="fas fa-angle-right"></i>
                             </div>
                             <div class="gallary_div_info">                               
                                 <span class="gallary_div_article"> </span>
