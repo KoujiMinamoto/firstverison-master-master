@@ -255,6 +255,22 @@ function getNowFormatDate() {
     return currentdate;
 }
 
+function getStartFormatDate() {
+    var date = new Date();
+    var seperator = "-";
+    var year = date.getFullYear() - 1;
+    var month = date.getMonth() + 1;
+    var strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    var currentdate = year + seperator + month + seperator + strDate;
+    return currentdate;
+}
+
 function onclickHeader(headerName) {
     onreset();
     reset();
@@ -362,7 +378,7 @@ function inituserprofile(user){
 
 function initDashboard(msg) {
     
-    var start = "2020-09-01";
+    var start = getStartFormatDate();
     var end =getNowFormatDate();
     var user =msg.username;
     var userType = msg.type;
