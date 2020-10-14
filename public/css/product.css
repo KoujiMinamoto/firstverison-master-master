@@ -1,0 +1,137 @@
+/* .product_div_display1 {
+    margin-left: 10rem;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+.product_div_display2 {
+    margin-left: 10rem;
+    margin-right: auto;
+    margin-top: 10rem;
+}
+
+.product_div_display3 {
+    margin-top: 10rem;
+    margin-left: 10rem;
+} */
+.product_div_main {
+    width: 100rem;
+    min-height:200rem;
+    margin: 0 auto;
+}
+
+.product_div_first {
+    width: 90rem;
+    height: 40rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+.product_div_second,
+.product_div_third,
+.product_div_forth,
+.product_div_fivth {
+    margin-top: 6rem;
+    width: 90rem;
+    height: 40rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+.product_div_img1,
+.product_div_img2,
+.product_div_img3,
+.product_div_img4,
+.product_div_img5 {
+    width: 40rem;
+    height: 30rem;
+    margin-left: 0;
+    margin-top: 0;
+    display: inline-block;
+    /* margin-top: 5rem; */
+    position: relative;
+    top: 5rem;
+}
+.product_div_message {
+    width: 45rem;
+    height: 35rem;
+    margin-left: 4rem;
+    margin-top: 0;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+.product_div_img1 {
+    background: url(../image/product/Product1.jpg) no-repeat center top;
+}
+.product_div_img2 {
+    background: url(../image/product/Product2.jpg) no-repeat center top;
+}
+.product_div_img3 {
+    background: url(../image/product/Product3.jpg) no-repeat center top;
+}
+.product_div_img4 {
+    background: url(../image/product/Product4.jpg) no-repeat center top;
+}
+.product_div_img5 {
+    background: url(../image/product/Product5.jpg) no-repeat center top;
+}
+
+.product_name {
+    margin-top: 3rem;
+    font-size: 3rem;
+    color: black;
+    margin: 0;
+}
+.product_name :hover {
+    color: darkorange;
+}
+.product_price {
+    margin-top: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+.product_describe {
+    width: 45rem;
+    height: 15rem;
+    border: solid;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+}
+.product_describe_message {
+    margin: 1rem;
+}   
+#product_addCart1,
+#product_addCart2,
+#product_addCart3,
+#product_addCart4,
+#product_addCart5 {
+    width: 15rem;
+    height: 5rem;
+    border: 0.2rem solid;
+    border-color: gray;
+    position: relative;
+    top: 3rem;
+    margin: 0;
+}
+#product_addCart1 p,
+#product_addCart2 p,
+#product_addCart3 p,
+#product_addCart4 p,
+#product_addCart5 p {
+    color: black;
+    margin: 0 auto;
+    font-size: 2rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
