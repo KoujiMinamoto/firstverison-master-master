@@ -318,7 +318,8 @@
                                 <p class="product_price">$300</p>
                                 <div class="product_describe">
                                     <div class="product_describe_message">
-                                        <p>Here are some text to describe the product</p>
+                                        <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you receive a quality product at the lowest possible price.</p>
+                                        <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm - 170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
                                     </div>
                                 </div>
                             </div>
@@ -337,6 +338,8 @@
                                 <div class="product_describe">
                                     <div class="product_describe_message">
                                         <p>Here are some text to describe the product</p>
+                                        <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you receive a quality product at the lowest possible price.</p>
+                                        <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm - 170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
                                     </div>
                                 </div>
                             </div>
@@ -355,6 +358,8 @@
                                 <div class="product_describe">
                                     <div class="product_describe_message">
                                         <p>Here are some text to describe the product</p>
+                                        <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you receive a quality product at the lowest possible price.</p>
+                                        <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm - 170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
                                     </div>
                                 </div>
                             </div>
@@ -373,6 +378,8 @@
                                 <div class="product_describe">
                                     <div class="product_describe_message">
                                         <p>Here are some text to describe the product</p>
+                                        <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you receive a quality product at the lowest possible price.</p>
+                                        <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm - 170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
                                     </div>
                                 </div>
                             </div>
@@ -391,6 +398,8 @@
                                 <div class="product_describe">
                                     <div class="product_describe_message">
                                         <p>Here are some text to describe the product</p>
+                                        <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you receive a quality product at the lowest possible price.</p>
+                                        <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm - 170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
                                     </div>
                                 </div>
                             </div>
