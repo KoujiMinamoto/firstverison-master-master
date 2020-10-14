@@ -469,7 +469,7 @@
                             <p>Here are some text to describe the product</p>
                                 <span class="gallary_div_article"></span>                               
                             </div>
-                        </div>
+                        </div> 
                     </div>
                     <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary2.jpeg);">
                         <div class="gallary_div_shadow"></div>
