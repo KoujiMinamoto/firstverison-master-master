@@ -320,6 +320,7 @@ html {
     border: 0.1rem solid rgb(231, 231, 231);
     margin-left: -0.1rem;
     margin-top: -0.1rem;
+    cursor:pointer;
 }
 .home>p,
 .product>p,
@@ -364,6 +365,7 @@ html {
     font-size: 1.8rem;
     border: 0.1rem solid #fff;
     font-family: Candara;
+    cursor:pointer;
 }
 .cart:hover,
 .login:hover,

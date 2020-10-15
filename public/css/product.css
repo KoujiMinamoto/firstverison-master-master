@@ -112,6 +112,7 @@
     position: relative;
     top: 3rem;
     margin: 0;
+    cursor:pointer;
 }
 #product_addCart1 p,
 #product_addCart2 p,

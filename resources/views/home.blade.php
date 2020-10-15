@@ -23,27 +23,9 @@
     <script type="text/javascript" src="{{URL::asset('/js/vue-router.js') }}"></script> --}}
     <script type="text/javascript" src="{{URL::asset('/js/dashboard.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/profile.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/product.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/cart.js') }}"></script>
     <script type="text/javascript">
-    // (function(doc, win) {
-    //     setRem();
-    //     var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-    //         recalc = function() {
-    //             setRem();
-    //         };
-    //     if (!doc.addEventListener)
-    //         return;
-    //     win.addEventListener(resizeEvt, recalc, false);
-    //     // doc.addEventListener('DOMContentLoaded', recalc, false);
-    // })(document, window);
-    
-    // function setRem() {
-    //     var docEl = document.documentElement;
-    //     var clientWidth = docEl.clientWidth;
-    //     if (!clientWidth) {
-    //         return;
-    //     }
-    //     docEl.style.fontSize = 100 * (clientWidth / 1080) + 'px';
-    //}
     </script>
     </head>
     <body onload="initPage()">
@@ -314,7 +296,7 @@
                         </div>
                         <div class="product_div_message">
                             <div class="product_div_name">
-                                <p class="product_name">CD Print</p>
+                                <p class="product_name">CD Print1</p>
                                 <p class="product_price">$300</p>
                                 <div class="product_describe">
                                     <div class="product_describe_message">
@@ -323,7 +305,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="product_addCart1">
+                            <div id="product_addCart1" onclick="addCard(1)">
                                 <p>ADD TO CART</p>
                             </div>		
                         </div>
@@ -333,7 +315,7 @@
                         <div class="product_div_img2"></div>
                         <div class="product_div_message">
                             <div class="product_div_name">
-                                <p class="product_name">CD Print</p>
+                                <p class="product_name">CD Print2</p>
                                 <p class="product_price">$300</p>
                                 <div class="product_describe">
                                     <div class="product_describe_message">
@@ -343,7 +325,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="product_addCart2">
+                            <div id="product_addCart2" onclick="addCard(2)">
                                 <p>ADD TO CART</p>
                             </div>		
                         </div>
@@ -353,7 +335,7 @@
                         <div class="product_div_img3"></div>
                         <div class="product_div_message">
                             <div class="product_div_name">
-                                <p class="product_name">CD Print</p>
+                                <p class="product_name">CD Print3</p>
                                 <p class="product_price">$300</p>
                                 <div class="product_describe">
                                     <div class="product_describe_message">
@@ -363,7 +345,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="product_addCart3">
+                            <div id="product_addCart3" onclick="addCard(3)">
                                 <p>ADD TO CART</p>
                             </div>		
                         </div>
@@ -373,7 +355,7 @@
                         <div class="product_div_img4"></div>
                         <div class="product_div_message">
                             <div class="product_div_name">
-                                <p class="product_name">CD Print</p>
+                                <p class="product_name">CD Print4</p>
                                 <p class="product_price">$300</p>
                                 <div class="product_describe">
                                     <div class="product_describe_message">
@@ -383,7 +365,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="product_addCart4">
+                            <div id="product_addCart4" onclick="addCard(4)">
                                 <p>ADD TO CART</p>
                             </div>		
                         </div>
@@ -393,7 +375,7 @@
                         <div class="product_div_img5"></div>
                         <div class="product_div_message">
                             <div class="product_div_name">
-                                <p class="product_name">CD Print</p>
+                                <p class="product_name">CD Print5</p>
                                 <p class="product_price">$300</p>
                                 <div class="product_describe">
                                     <div class="product_describe_message">
@@ -403,7 +385,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="product_addCart5">
+                            <div id="product_addCart5" onclick="addCard(5)">
                                 <p>ADD TO CART</p>
                             </div>		
                         </div>
@@ -789,7 +771,7 @@
             <div class = "cart_div" id="cart_div_id" style="display:none">
                 <!-- shop-cart-area -->			
                 <div class="cart_main">
-                    <table>
+                    <table id="cart_table">
                         <thead>
                             <tr>
                                 <th class="product-thumbnail">Image</th>
@@ -801,7 +783,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            {{-- <tr>
                                 <td class="product-thumbnail"><img src="img/product/1.jpg" alt=""></td>
                                 <td class="product-name"><a href="#">Vestibulum suscipit</a></td>
                                 <td class="product-price"><span class="amount">£165.00</span></td>
@@ -816,7 +798,7 @@
                                 <td class="product-quantity"><input type="number" value="1"></td>
                                 <td class="product-subtotal">£50.00</td>
                                 <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                            </tr>
+                            </tr> --}}
                         </tbody>
                     </table>
                 </div>
@@ -825,14 +807,14 @@
                         <h2>Cart Totals</h2>
                         <table>
                             <tbody>
-                                <tr class="cart-subtotal">
+                                {{-- <tr class="cart-subtotal">
                                     <th>Subtotal</th>
-                                    <td><span class="amount">£215.00</span></td>
-                                </tr>
+                                    <td><span class="amount">$0.00</span></td>
+                                </tr> --}}
                                 <tr class="order-total">
                                     <th>Total</th>
                                     <td>
-                                        <strong><span class="amount">£215.00</span></strong>
+                                        <strong><p class="amount">$0.00</p></strong>
                                     </td>
                                 </tr>											
                             </tbody>
@@ -1427,6 +1409,8 @@
                 }
             );
         }); // end ready
+
+        
     </script>
 
     <!-- dashboard -->
