@@ -687,7 +687,7 @@
                                     </table>
                                 </div>
                                 </form>
-                                <div class="quotes_login" style="padding-top:20px; padding-bottom:20px; text-align:right"><a class="black_link" href="http://web.archive.org/web/20180312225318/https://www.1print.net.au/custom-quotes.php?action=login">Quotes Login &raquo;</a></div>
+                                <div class="quotes_login" style="padding-top:20px; padding-bottom:20px; text-align:right"><a class="black_link" href=""> Login &raquo;</a></div>
 
                                 </div>
                                 <div class="clear"></div>
