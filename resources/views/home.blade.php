@@ -1000,12 +1000,7 @@
                         <p class="az-dashboard-text">Your web analytics dashboard</p>
                         </div>
                         <div class="az-content-header-right">
-                        <div class="media">
-                            <div class="media-body">
-                            <label>Start Date</label>
-                            <h6>Oct 10, 2018</h6>
-                            </div><!-- media-body -->
-                        </div><!-- media -->
+                        
                         <div class="media">
                             <div class="media-body">
                             <label>Now</label>
@@ -1212,12 +1207,7 @@
                 <p class="az-dashboard-text">Your web analytics dashboard</p>
                 </div>
                 <div class="az-content-header-right">
-                <div class="media">
-                    <div class="media-body">
-                    <label>Start Date</label>
-                    <h6>Oct 10, 2018</h6>
-                    </div><!-- media-body -->
-                </div><!-- media -->
+                
                 <div class="media">
                     <div class="media-body">
                     <label>Now</label>
