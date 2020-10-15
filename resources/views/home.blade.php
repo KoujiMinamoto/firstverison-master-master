@@ -41,12 +41,12 @@
                 </div>
                 <div class="product" id="product_id" onclick="clickHeader(1)">
                     <p>product</p>
-                    <!-- <ul id="product_ul">
+                    <ul id="product_ul">
                         <li>&nbsp;&nbsp;product1</li>
                         <li>&nbsp;&nbsp;product2</li>
                         <li>&nbsp;&nbsp;product3</li>
                         <li>&nbsp;&nbsp;product4</li>
-                    </ul> -->
+                    </ul>
                 </div>
                 <div class="design" id="design_id" onclick="clickHeader(2)">
                     <p>design</p>
@@ -398,6 +398,308 @@
                 <div style="clear:both"></div>
             </div>
 
+            <div class = "product_div" id="product_div_id_1" style="display:none">
+                <div class="text_holder">
+                    <div class="main_product_container booklet_holder">
+                        <div class="product_main_left">
+                            <div class="product_main_left_left">
+                                <h1>Online Booklet Printing</h1>
+                                <h2>Promote your company's products and services with quality booklets.</h2>
+                                <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you receive a quality product at the lowest possible price.
+                                </p>
+                                <p>&nbsp;</p>
+                                <p>
+                                    Our booklets can be printed on a range of paper weights (ranging from 80gsm - 170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).
+                                </p>
+                                <p>&nbsp;</p>
+                                <p>
+                                    Choose from three standard finishes on our booklets: Gloss, Matt and Uncoated.
+                                </p>
+                                <p>&nbsp;</p>
+                                <p>
+                                    To further enhance the look and feel of your finished product, we also offer the option to select a different paper weight or finish for your cover.
+                                </p>
+                                <p>&nbsp;</p>
+                                <p>
+                                    A selection of additional options are also available to further enhance your booklet, call us to discuss any further details or send a quote request using the form provided.</p>
+                                </p>
+                                <br/>
+                                <div class="product_main_left_right">
+                                    <h4>Booklet Options</h4>
+                                    <div class="option_holder paper_option">
+                                        <div class="option_icon_holder"></div>
+                                        <div class="option_text_holder">
+                                            <div class="option_heading">Paper</div>
+                                            <ul>
+                                                <li>Gloss, Matt or Bond stock</li>
+                                                <li>Various weights ranging from 80-170gsm</li>
+                                            </ul>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="option_holder finish_option">
+                                        <div class="option_icon_holder"></div>
+                                        <div class="option_text_holder">
+                                            <div class="option_heading">Finished Sizes</div>
+                                            <ul>
+                                                <li>DL, A6, A5, A4 and custom sizes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="option_holder colour_option">
+                                        <div class="option_icon_holder"></div>
+                                        <div class="option_text_holder">
+                                            <div class="option_heading">Colour Options</div>
+                                            <ul>
+                                                <li>Printed from one to full colour</li>
+                                                <li>Pantone or metallic ink</li>
+                                                <li>Gloss or satin Machine varnish available</li>
+                                            </ul>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="option_holder bind_option">
+                                        <div class="option_icon_holder"></div>
+                                        <div class="option_text_holder">
+                                            <div class="option_heading">Binding Options</div>
+                                            <ul>
+                                                <li>Saddlestitch - Stapled at the spine</li>
+                                                <li>Perfect Bound with a flat edged spine</li>
+                                            </ul>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="option_holder effect_option">
+                                        <div class="option_icon_holder"></div>
+                                        <div class="option_text_holder">
+                                            <div class="option_heading">Special Effect Printing</div>
+                                            <ul>
+                                                <li>Embossing</li>
+                                                <li>Foil Stamping</li>
+                                                <li>Spot UV</li>
+                                            </ul>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <h3 class="padding_top">Machine varnish for a superior finish (offset only)</h3>
+                                <p>
+                                    Machine vanishing ensures a silky smooth finish. We use this finish on booklets that have large areas of ink coverage to protect the product and reduce finger marking and scuffing or simply to enhance the look and feel of the finished product.
+                                    <br/><a href="http://web.archive.org/web/20180312225318/http://www.1print.net.au/contact.php?osCsid=nb76osbj4uatvq4prjqu3rr5h5" class="black_link_underline">Contact us for more information</a>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="product_main_right">
+                            <div class="booklets_button_holder">
+
+                                <div class="booklet-quote-left">
+                                    <h2><span>Request </span>a quote</h2>
+                                </div>
+                                <div class="booklet-quote-right">
+                                    <form method="post" name="customquotes" id="customquotes" enctype="multipart/form-data">
+                                        <div class="create-account-table3 quotes_table">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+                                                                <td style="padding-bottom:0" class="quote_list_table" colspan="2">
+                                                                    <div id="custom_table">
+                                                                        <table width="100%">
+                                                                            <tr>
+                                                                                <td class="option_first_col">
+                                                                                    Finished Book Size
+                                                                                    <input type="hidden" value="49" name="quote_fields[]" />
+                                                                                    <input type="hidden" value="Finished Book Size" name="field_name_49" id="field_name_49" />
+                                                                                    <input type="hidden" value="49" name="field_id_49" id="field_id_49" />
+                                                                                </td>
+                                                                                <td class="option_second_col"><select style="width:100%;" name="field_49" id="field_49" onchange="cqFieldOption(49)"><option value="A4 210X297mm">A4 210X297mm</option><option value="A5 148x210mm">A5 148x210mm</option><option value="A6 105x148mm">A6 105x148mm</option><option value="DL 99x210mm">DL 99x210mm</option><option value="-1">Custom</option><input type="hidden" value="49" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_49" style="display:none;"><input type="text" name="field_custom_49" value="" id="field_custom_49" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Orientation 
+                                        <input type="hidden" value="50" name="quote_fields[]"/>
+                                        <input type="hidden" value="Orientation" name="field_name_50" id="field_name_50"/>
+                                        <input type="hidden" value="50" name="field_id_50" id="field_id_50"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_50" id="field_50" onchange="cqFieldOption(50)"><option value="Portrait">Portrait</option><option value="Landscape">Landscape</option><input type="hidden" value="50" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_50" style="display:none;"><input type="text" name="field_custom_50" value="" id="field_custom_50" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Internal Pages 
+                                        <input type="hidden" value="52" name="quote_fields[]"/>
+                                        <input type="hidden" value="Internal Pages" name="field_name_52" id="field_name_52"/>
+                                        <input type="hidden" value="52" name="field_id_52" id="field_id_52"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_52" id="field_52" onchange="cqFieldOption(52)"><option value="150gsm Gloss">150gsm Gloss</option><option value="150gsm Silk">150gsm Silk</option><option value="130gsm Gloss">130gsm Gloss</option><option value="130gsm Silk">130gsm Silk</option><option value="115gsm Gloss">115gsm Gloss</option><option value="115gsm Silk">115gsm Silk</option><option value="170gsm Gloss">170gsm Gloss</option><option value="170gsm Silk">170gsm Silk</option><option value="100gsm Offset Uncoated">100gsm Offset Uncoated</option><option value="200gsm Silk">200gsm Silk</option><option value="200gsm Gloss">200gsm Gloss</option><option value="-1">Custom</option><input type="hidden" value="52" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_52" style="display:none;"><input type="text" name="field_custom_52" value="" id="field_custom_52" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Cover 
+                                        <input type="hidden" value="51" name="quote_fields[]"/>
+                                        <input type="hidden" value="Cover" name="field_name_51" id="field_name_51"/>
+                                        <input type="hidden" value="51" name="field_id_51" id="field_id_51"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_51" id="field_51" onchange="cqFieldOption(51)"><option value="Same as Internal Pages">Same as Internal Pages</option><option value="250gsm Gloss">250gsm Gloss</option><option value="250gsm Silk">250gsm Silk</option><option value="300gsm Gloss">300gsm Gloss</option><option value="300gsm Silk">300gsm Silk</option><option value="250gsm Uncoated">250gsm Uncoated</option><option value="-1">Custom</option><input type="hidden" value="51" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_51" style="display:none;"><input type="text" name="field_custom_51" value="" id="field_custom_51" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Number of pages including cover 
+                                        <input type="hidden" value="53" name="quote_fields[]"/>
+                                        <input type="hidden" value="Number of pages including cover" name="field_name_53" id="field_name_53"/>
+                                        <input type="hidden" value="53" name="field_id_53" id="field_id_53"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_53" id="field_53" onchange="cqFieldOption(53)"><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="20">20</option><option value="24">24</option><option value="28">28</option><option value="32">32</option><option value="36">36</option><option value="40">40</option><option value="44">44</option><option value="48">48</option><option value="52">52</option><option value="56">56</option><option value="60">60</option><option value="64">64</option><option value="68">68</option><option value="72">72</option><option value="76">76</option><option value="80">80</option><option value="84">84</option><option value="88">88</option><option value="92">92</option><option value="96">96</option><option value="100">100</option><option value="104">104</option><option value="108">108</option><option value="112">112</option><option value="116">116</option><option value="120">120</option><option value="-1">Custom</option><input type="hidden" value="53" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_53" style="display:none;"><input type="text" name="field_custom_53" value="" id="field_custom_53" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Internal Pages 
+                                        <input type="hidden" value="54" name="quote_fields[]"/>
+                                        <input type="hidden" value="Internal Pages" name="field_name_54" id="field_name_54"/>
+                                        <input type="hidden" value="54" name="field_id_54" id="field_id_54"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_54" id="field_54" onchange="cqFieldOption(54)"><option value="Printed Full Colour">Printed Full Colour</option><option value="Printed Black/White">Printed Black/White</option><option value="Printed 1PMS Colours">Printed 1PMS Colours</option><option value="Printed 2PMS Colours">Printed 2PMS Colours</option><option value="-1">Custom</option><input type="hidden" value="54" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_54" style="display:none;"><input type="text" name="field_custom_54" value="" id="field_custom_54" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Cover 
+                                        <input type="hidden" value="55" name="quote_fields[]"/>
+                                        <input type="hidden" value="Cover" name="field_name_55" id="field_name_55"/>
+                                        <input type="hidden" value="55" name="field_id_55" id="field_id_55"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_55" id="field_55" onchange="cqFieldOption(55)"><option value="Printed Full Colour">Printed Full Colour</option><option value="Printed Black/White">Printed Black/White</option><option value="-1">Custom</option><input type="hidden" value="55" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_55" style="display:none;"><input type="text" name="field_custom_55" value="" id="field_custom_55" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Binding 
+                                        <input type="hidden" value="58" name="quote_fields[]"/>
+                                        <input type="hidden" value="Binding" name="field_name_58" id="field_name_58"/>
+                                        <input type="hidden" value="58" name="field_id_58" id="field_id_58"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_58" id="field_58" onchange="cqFieldOption(58)"><option value="Saddlestitch (2 staples in middle)">Saddlestitch (2 staples in middle)</option><option value="Burst Bound or Perfect Bound">Burst Bound or Perfect Bound</option><option value="Wiro Binding">Wiro Binding</option><option value="-1">Custom</option><input type="hidden" value="58" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_58" style="display:none;"><input type="text" name="field_custom_58" value="" id="field_custom_58" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Laminate Cover 
+                                        <input type="hidden" value="56" name="quote_fields[]"/>
+                                        <input type="hidden" value="Laminate Cover" name="field_name_56" id="field_name_56"/>
+                                        <input type="hidden" value="56" name="field_id_56" id="field_id_56"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_56" id="field_56" onchange="cqFieldOption(56)"><option value="None">None</option><option value="Machine varnish 1 side">Machine varnish 1 side</option><option value="Machine varnish 2 sides">Machine varnish 2 sides</option><option value="Matt lamianted 1 side">Matt lamianted 1 side</option><option value="Matt laminated 2 sides">Matt laminated 2 sides</option><option value="Gloss laminated 1 sides">Gloss laminated 1 sides</option><option value="Gloss laminated 2 sides">Gloss laminated 2 sides</option><option value="-1">Custom</option><input type="hidden" value="56" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_56" style="display:none;"><input type="text" name="field_custom_56" value="" id="field_custom_56" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Cover Special Finish 
+                                        <input type="hidden" value="57" name="quote_fields[]"/>
+                                        <input type="hidden" value="Cover Special Finish" name="field_name_57" id="field_name_57"/>
+                                        <input type="hidden" value="57" name="field_id_57" id="field_id_57"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_57" id="field_57" onchange="cqFieldOption(57)"><option value="None">None</option><option value="Spot UV 1 Side">Spot UV 1 Side</option><option value="Spot UV 2 Sides">Spot UV 2 Sides</option><option value="Embossing">Embossing</option><option value="Foil">Foil</option><option value="-1">Custom</option><input type="hidden" value="57" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_57" style="display:none;"><input type="text" name="field_custom_57" value="" id="field_custom_57" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Artwork Supplied In 
+                                        <input type="hidden" value="59" name="quote_fields[]"/>
+                                        <input type="hidden" value="Artwork Supplied In" name="field_name_59" id="field_name_59"/>
+                                        <input type="hidden" value="59" name="field_id_59" id="field_id_59"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_59" id="field_59" onchange="cqFieldOption(59)"><option value="Ready to print PDF">Ready to print PDF</option><option value="Ready to print Illustrator">Ready to print Illustrator</option><option value="Ready to print photoshop">Ready to print photoshop</option><option value="Power Point">Power Point</option><option value="Microsoft Word">Microsoft Word</option><option value="Design to be created by 1Print">Design to be created by 1Print</option><option value="-1">Custom</option><input type="hidden" value="59" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_59" style="display:none;"><input type="text" name="field_custom_59" value="" id="field_custom_59" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Proof Required 
+                                        <input type="hidden" value="62" name="quote_fields[]"/>
+                                        <input type="hidden" value="Proof Required" name="field_name_62" id="field_name_62"/>
+                                        <input type="hidden" value="62" name="field_id_62" id="field_id_62"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_62" id="field_62" onchange="cqFieldOption(62)"><option value="None">None</option><option value="Soft Copy PDF">Soft Copy PDF</option><option value="High Res Hard Copy">High Res Hard Copy</option><option value="-1">Custom</option><input type="hidden" value="62" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_62" style="display:none;"><input type="text" name="field_custom_62" value="" id="field_custom_62" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr><tr>  <td class="option_first_col"> 
+                                        Quantity 
+                                        <input type="hidden" value="66" name="quote_fields[]"/>
+                                        <input type="hidden" value="Quantity" name="field_name_66" id="field_name_66"/>
+                                        <input type="hidden" value="66" name="field_id_66" id="field_id_66"/>
+                                        </td><td class="option_second_col"><select style="width:100%;" name="field_66" id="field_66" onchange="cqFieldOption(66)"><option value="100">100</option><option value="150">150</option><option value="200">200</option><option value="250">250</option><option value="300">300</option><option value="400">400</option><option value="500">500</option><option value="750">750</option><option value="1000">1000</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="3500">3500</option><option value="4000">4000</option><option value="4500">4500</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option><option value="-1">Custom</option><input type="hidden" value="66" name="custom_field[]"/><div class="extra_option">
+                                        <div id="div_custom_66" style="display:none;"><input type="text" name="field_custom_66" value="" id="field_custom_66" style="width:100%;" maxlength="80"/></div>
+                                        </div>
+                                        </td></tr></table></div></td>
+                                        </tr>
+                                            </table>
+                                        </tr><tr>
+                                            <td valign="top" style="padding-top:3px; vertical-align:top" class="one-line one-line-title"><strong>Job Description: </strong></td>
+                                            <td valign="top" class="one-line one-text st-input"><input type="hidden" name="custom_product" value="5"><textarea name="comments" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial; "></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="25" class="one-line one-line-title"><strong>Delivery Postcode:</strong></td>
+                                            <td class="one-line st-input"><input type="text" name="delivery_location" id="delivery_location" maxlength="80"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="25" class="one-line one-line-title"><strong>Business Name:</strong></td>
+                                            <td class="one-line st-input"><input type="text" name="company" id="company" maxlength="80"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="one-line one-line-title">Your 
+                                            Name: </font><span style="color:red">*</span></td>
+                                            <td class="one-line st-input"><input type="text" name="name" id="name" maxlength="80"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="25" class="one-line one-line-title">Email:<span style="color:red">*</span></td>
+                                            <td class="one-line st-input"><input type="text" name="email" id="email" maxlength="80"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="25" class="one-line one-line-title">Telephone:<span style="color:red">*</span> </td>
+                                            <td class="one-line st-input"><input type="text" name="phone" id="phone" maxlength="80"></td>
+                                        </tr>
+                                        <tr class="tr-pt15">
+                                            <td colspan="2" class="one-line one-line-title" style="padding-bottom:20px;">By previewing your artwork we can quote your job precisely</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                        <td height="25" align="left" class="one-line one-line-title">Preview 1</td>
+                                            <td class="one-line" style="padding:5px;"><input type="file" name="file1" id="file1"></td>
+                                        </tr>
+                                        <tr>
+                                        <td height="25" align="left" class="one-line one-line-title">Preview 2</td>
+                                            <td class="one-line" style="padding:5px;"><input type="file" name="file2" id="file2"></td>
+                                        </tr>
+                                        <tr>
+                                        <td height="25" align="left" class="one-line one-line-title">Preview 3</td>
+                                            <td class="one-line" style="padding:5px;"><input type="file" name="file3" id="file3"></td>
+                                        </tr>
+                                        <tr class="tr-pt15">
+                                        <td height="25" align="left" class="one-line one-line-title">How did you find us?</td>
+                                        <td class="one-line"><select name="select"><option value="1">Google</option><option value="2">Yellow Pages</option><option value="3">Yahoo</option><option value="4">Bing/MSN</option><option value="5">Link from another site</option><option value="6">Referral</option><option value="7">Mail Drop</option><option value="8">Other</option></select></td>
+                                                                                                </tr>
+
+                                        <tr class="tr-pt15">
+                                            <td valign="top" colspan="3" class="one-line">
+                                                <div class="subscribe_holder">
+                                                    <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked/>
+                                                </div>
+                                                <div class="subscribe_text">
+                                                    Subscribe to our newsletter for special offers
+                                                </div>
+                                                <div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes" /></div>
+                                                <div class="clear"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="tr-pt15">
+                                            <td class="one-line" style="margin-top:10px;" colspan="2">
+                                                <input type="submit" class="submit_btn blue_button" value="Submit" name="postemail" id="postemail" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                </form>
+                                <div class="quotes_login" style="padding-top:20px; padding-bottom:20px; text-align:right"><a class="black_link" href="http://web.archive.org/web/20180312225318/https://www.1print.net.au/custom-quotes.php?action=login">Quotes Login &raquo;</a></div>
+
+                                </div>
+                                <div class="clear"></div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+                    <div style="clear: both;"></div>    
+            </div>
+
             <!-- design -->
             <div class = "design_div" id="design_div_id" style="display:none">
                 <div class="design_div_leftContainer">
@@ -704,7 +1006,7 @@
 
             <!-- contact -->
             <div class = "contact_div" id="contact_div_id" style="display:none">
-            <div class="text_holder">
+                <div class="text_holder">
                 <div class="main_container">
                     <div class="design_div_leftContainer">
                     <h1>Contact us</h1>
