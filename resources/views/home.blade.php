@@ -41,12 +41,12 @@
                 </div>
                 <div class="product" id="product_id" onclick="clickHeader(1)">
                     <p>product</p>
-                    <ul id="product_ul">
+                    <!-- <ul id="product_ul">
                         <li>&nbsp;&nbsp;product1</li>
                         <li>&nbsp;&nbsp;product2</li>
                         <li>&nbsp;&nbsp;product3</li>
                         <li>&nbsp;&nbsp;product4</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="design" id="design_id" onclick="clickHeader(2)">
                     <p>design</p>
