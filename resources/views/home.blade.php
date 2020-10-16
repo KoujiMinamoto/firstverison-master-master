@@ -1201,7 +1201,7 @@
                             <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                             <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" value="Submit" class="clear_btn" onclick="ClearBookletsCache(&quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;0&quot;);">Clear</a></td><td><input type="submit" value="Submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);"  class="clear_btn" onclick="ClearBookletsCache(&quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;0&quot;);"></a></td><td><input type="submit"  class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                         </td></tr>
                     <tr><td class="product_options_price_footer"></td></tr>
