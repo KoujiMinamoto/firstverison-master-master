@@ -1221,14 +1221,297 @@
             </div>
 
 
-
-
-
-
-
-
             <div class = "product_div" id="product_div_id_3" style="display:none">
+                <div class="main_product_container bcards_holder">
+                
+
+                
+                    <div class="main_left">
+                            <div class="main_left_left">
+                                <h1 class="card_title">Online Business Card Printing</h1>
+                                <h3>We are dedicated to creating high quality business cards at the cheapest price possible.</h3>
+                                <p>1Print Premium Business cards are printed on thick, heavy premium 400gsm and are trimmed to the size you request. Express, gloss and unlaminated Business cards are printed on 310gsm.<br style=""><br style="">
+                                Our cards can be either matt or gloss laminated, printed on one or both sides and are available in full CMYK colour. Make a great first impression with a custom business card that expresses your brand identity. Submit your order by filling out the form on the right or contact us for your business card printing needs.			
+                                <!-- <div class="bcards_stock_left">
+                                    <div class="bcards_stock_bkgrd">
+                                        <span>400</span><br/>
+                                        gsm
+                                    </div>
+                                    <p class="black_heading">400gsm Hi Bulk Artboard</p>
+                                    <p>Business Cards are matt laminated both sides for order quantities over 500.</p>
+                                </div>
+                                <div class="bcards_stock_right">
+                                    <div class="bcards_stock_bkgrd">
+                                        <span>310</span><br/>
+                                        gsm
+                                    </div>
+                                    <p class="black_heading">310gsm Hi Bulk Artboard</p>
+                                    <p>Used on all other Business Cards incl. Express Printing and Gloss Laminated cards.</p>
+                                </div> -->
+                                </p><div class="clear"></div>
+                <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/custom-quotes.php" class="setup_banner_wrapper">
+                    
+                </a>	
+                    
+                </div>
+                
+                
+                <div class="main_left_right">
+                            <div class="panel_pricing">
+                            <h4>Pricing includes</h4>
+                            <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                            <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                            <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                
+                </div>
+                <div class="panel_extras">
+                    <h4 class="padding_top">Optional Extras</h4>	
+                <p class="black">These options can be selected once your items have been added to your shopping cart</p>
+                <p>&nbsp;</p>
+                <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">Convert your file to a print ready format including basic artwork changes</a></span>
+                <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">PDF Proof</a></span>
+                <span class="option_indent black">Priority Delivery</span>
+                <p>&nbsp;</p>
+                </div>
+                <div class="clear"></div> 
+                
+                                        <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-printing "><div class="bcards500"></div></a>
+                            </div>
+                            <div class="clear"></div>
+                            <div style="clear: both;"></div> 
+                            <div class="main_left_bottom1">
+                            <div class="product_info_express no_margin">
+                                <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/urgent-printing">
+                                    <div class="product_info_express_img">
+                                    </div>
+                                    <h4>Express Printing</h4>
+                                    <p>For a guaranteed 48 hour despatch after your order is placed</p>
+                                    </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/urgent-printing">read more+</a>
+                            </div>
+                            
+                            
+                            
+                            <div class="product_info_design margin_left20">
+                                <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">
+                                    <div class="product_info_design_img">
+                                    </div>
+                                    <h4>Design Services</h4>
+                                    <p>Need artwork setup? Our team of experienced designers can help</p>
+                                    </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">read more+</a>
+                                
+                            </div>
+                            <div class="product_info_gallery gallery_bcards">
+                                <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-gallery.php">
+                                    <div class="product_info_gallery_img">
+                                    </div>
+                                    <h4>Gallery</h4>
+                                    <p>Looking for design inspiration? See examples of our work</p>
+                                    </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-gallery.php">read more+</a>
+                                
+                            </div>
+                            <div class="product_info_templates">
+                                <a href="templates/sample-buisness-card-templates.pdf" target="_blank">
+                                    <div class="product_info_templates_img">
+                                    </div>
+                                    <h4>Artwork Templates</h4>
+                                    <p>Need artwork setup? Our team of experienced designers can help</p>
+                                    </a><a class="blue_link" href="templates/sample-buisness-card-templates.pdf" target="_blank">read more+</a>
+                                
+                            </div>
+                            <div class="product_info_guidelines">
+                                <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">
+                                    <div class="product_info_guidelines_img">
+                                    </div>
+                                    <h4>File Guidelines</h4>
+                                    <p>Print specifications to achieve best printing results</p>
+                                    </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                                
+                            </div>
+                            
+                            <div class="clear"></div>
+                            <br style=""><br style="">
+                            <div style="width:95%;text-align:justify">
+                                <p>
+                                    Even in today's digitally-driven world, business cards are still hugely popular, and are used by virtually every business. They're still considered a 
+                                    vital part of a business's marketing arsenal: as well as simply providing a potential client with your contact details, they do much more. The quality 
+                                    of your business card says a lot about what a client can expect from your business, what you stand for and the type and quality of the products and 
+                                    services you offer.
+                                </p>
+                                <br style="">
+                                <p>
+                                    A special, high quality business card shows your clients that you're serious about yourself and your business. When they're comparing your 
+                                    business card with the multitude of other business cards they've accumulated, you want yours to stand out to them.
+                                </p>
+                                <br style="">
+                                <p style="color:black">
+                                    <b>
+                                        Through the use of innovative materials and careful management we develop business cards that our customers are proud to hand to 
+                                        their potential clients.
+                                    </b>
+                                </p>
+                                <br style="">
+                                <p>
+                                    We start with a thick 400gsm premium stock. Both sides are printed in full colour as standard. We then apply an ultra thin layer of matt finish 
+                                    laminate to the front and back surfaces. This matt lamination gives the card a unique texture while offering protection against discolouration and 
+                                    fading.
+                                </p>
+                            </div>
+                            
+                            
+                            
+                            </div>
+                    
+                </div>
+                        <div class="main_right">
+                        <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
+                <div class="product_option_panel">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody><tr>
+                                    <td><div class="product_options_header">Options &amp; Prices</div></td>
+                                </tr>
+                                <tr>
+                                    <td class="product_options_price_bkgrd" align="left">
+                
+                                        <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
+                                            <tbody><tr>
+                
+                                                <td colspan="2" align="left" style="padding-top:5px;">
+                                                    <div class="prooption_desc">Your price will automatically update according to your options chosen.
+                                                                                                                                                                </div></td>
+                                            </tr>
+                                            
+                    
+                                            
+                                            
+                                                                            
+                                            
+                                                                            <tr style="display:none; ">
+                                                    <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(58)"><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option></select></td>
+                                                </tr>
+                                                
+                                                                                    <tr>
+                                                        <td class="pulldown"><strong>Printed Sides:</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="content_left">                                            <select onchange="UpdateBCPrice2(58)" style="width: 225px; font-size: 12px;" id="productprintedsidelist" name="productprintedsidelist">
+                                                                <option value="PRINTED 2 SIDES">PRINTED 2 SIDES</option>
+                                                                <option value="PRINTED 1 SIDE">PRINTED 1 SIDE</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                
+                                                        
+                                                    
+                                                                                                                                                                            <tr><td class="pulldown"><strong>Laminated:</strong></td></tr>
+                                                                                
+                                                                                    <tr>
+                                                        <td class="content_left" id="bcfinish"><select id="productstocklist" onchange="UpdateBCPrice(58)" style="width: 225px; font-size: 12px;" name="productstocklist">
+                                                                <option value="MATT LAMINATED 2 SIDES">MATT LAMINATED 2 SIDES</option>
+                                                                <option value="UNLAMINATED">UNLAMINATED</option>
+                                                            </select></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="pulldown"><strong>Finished Trimmed Size:<br style="">(Square Corners)</strong></td>
+                                                    </tr>
+                                        
+                                        <tr>
+                                            <td class="content_left">
+                                                <script style="">
+                                                    function changeTrimmedSize(){
+                                                        $("#producttrimmedsize").val($("#producttrimmedsizelist").val())
+                                                    }
+                                                </script>
+                                                <select id="producttrimmedsizelist" onchange="changeTrimmedSize();" style="width: 225px; font-size: 12px;" name="producttrimmedsizelist">
+                                                    <option value="90 x 55mm">90 x 55mm</option>
+                                                    <option value="89 x 54mm">89 x 54mm</option>
+                                                    <option value="90 x 50mm">90 x 50mm</option>
+                                                    <option value="90 x 45mm">90 x 45mm</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                                        
+                                                    
+                
+                
+                </tbody></table>
+                </td>
+                </tr>
+                </tbody></table>
+                </div>
+                <!-- custom quote panel -->
+                <div class="product_quote_panel">
+                <table class="product_quote_holder" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="product_options_quote">
+                            <div class="product_quote_text">Looking for more options?</div>
+                            <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                            <div class="clear"></div>
+                        </td>
+                    </tr>
+                    <tr><td class="price_holder_spacer"></td></tr>
+                </tbody></table>
+                </div>
+                
+                
+                <div class="product_price_panel">
+                <table class="product_price_holder" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
+                            <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
+                    <tr><td class="product_options_price_bkgrd" align="left">
+                
+                
+                
+                            <div id="productpriceupdate">
+                                    <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">250</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_250-productid_58" id="usersetqty_250-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_250-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;250&quot;, &quot;58&quot;, &quot;65.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice250" width="50px">$65.00<input type="hidden" name="updateselectedproductprice250" id="updateselectedproductprice250" value="65.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_250-productid_58-price_65.00" onclick="AddBCProduct(this.value, &quot;usersetqty_250-productid_58&quot;)"></td></tr><tr><td class="qty_left">500</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_500-productid_58" id="usersetqty_500-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_500-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;500&quot;, &quot;58&quot;, &quot;69.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice500" width="50px">$69.00<input type="hidden" name="updateselectedproductprice500" id="updateselectedproductprice500" value="69.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_500-productid_58-price_69.00" onclick="AddBCProduct(this.value, &quot;usersetqty_500-productid_58&quot;)"></td></tr><tr><td class="qty_left">1000</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_1000-productid_58" id="usersetqty_1000-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_1000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;1000&quot;, &quot;58&quot;, &quot;74.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice1000" width="50px">$74.00<input type="hidden" name="updateselectedproductprice1000" id="updateselectedproductprice1000" value="74.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_1000-productid_58-price_74.00" onclick="AddBCProduct(this.value, &quot;usersetqty_1000-productid_58&quot;)"></td></tr><tr><td class="qty_left">2000</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_2000-productid_58" id="usersetqty_2000-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_2000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;2000&quot;, &quot;58&quot;, &quot;148.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice2000" width="50px">$148.00<input type="hidden" name="updateselectedproductprice2000" id="updateselectedproductprice2000" value="148.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_2000-productid_58-price_148.00" onclick="AddBCProduct(this.value, &quot;usersetqty_2000-productid_58&quot;)"></td></tr><tr><td class="qty_left">3000</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_3000-productid_58" id="usersetqty_3000-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_3000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;3000&quot;, &quot;58&quot;, &quot;222.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice3000" width="50px">$222.00<input type="hidden" name="updateselectedproductprice3000" id="updateselectedproductprice3000" value="222.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_3000-productid_58-price_222.00" onclick="AddBCProduct(this.value, &quot;usersetqty_3000-productid_58&quot;)"></td></tr><tr><td class="qty_left">4000</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_4000-productid_58" id="usersetqty_4000-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_4000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;4000&quot;, &quot;58&quot;, &quot;296.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice4000" width="50px">$296.00<input type="hidden" name="updateselectedproductprice4000" id="updateselectedproductprice4000" value="296.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_4000-productid_58-price_296.00" onclick="AddBCProduct(this.value, &quot;usersetqty_4000-productid_58&quot;)"></td></tr><tr><td class="qty_left">5000</td>
+                            <td class="kinds_input"><input type="text" name="usersetqty_5000-productid_58" id="usersetqty_5000-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_5000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;5000&quot;, &quot;58&quot;, &quot;370.00&quot;)">&nbsp;</td>
+                            <td id="updateselectedproductprice5000" width="50px">$370.00<input type="hidden" name="updateselectedproductprice5000" id="updateselectedproductprice5000" value="370.00"></td>
+                            <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_5000-productid_58-price_370.00" onclick="AddBCProduct(this.value, &quot;usersetqty_5000-productid_58&quot;)"></td></tr><tr><td colspan="4"><input type="hidden" id="productid" name="productid" value="58"><input type="hidden" id="totalprice" name="totalprice" value="0.00"><input type="hidden" id="productstock" name="productstock" value="MATT LAMINATED 2 SIDES"><input type="hidden" id="productprintedside" name="productprintedside" value="PRINTED 2 SIDES"><input type="hidden" id="producttrimmedsize" name="producttrimmedsize" value="90 x 55mm"><hr></td></tr>
+                                                <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
+                                            <tr><td colspan="4" class="price_msg_1"><center><span style="class=" price_msg_first'="">Price include GST and delivery</span></center></td></tr>
+                                            <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
+                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBasketBCCache(58);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                
+                        </td></tr>
+                    <tr><td class="product_options_price_footer"></td></tr>
+                </tbody></table>
+                </div>
+                
+
+                
+                </div>
+                <!--end product_right_option-->
+                <!-- setting up own side bar bottom -->
+                
+                
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div style="clear: both;"></div> 
             </div>
+
+
+
+
 
             <div class = "product_div" id="product_div_id_4" style="display:none">
             </div>
