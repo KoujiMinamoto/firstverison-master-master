@@ -39,13 +39,13 @@
                 <div class="home" id="home_id" onclick="clickHeader(0)">
                     <p>home</p>
                 </div>
-                <div class="product" id="product_id" onclick="clickHeader(1)">
+                <div class="product" id="product_id">
                     <p>product</p>
                     <ul id="product_ul">
-                        <li>&nbsp;&nbsp;product1</li>
-                        <li>&nbsp;&nbsp;product2</li>
-                        <li>&nbsp;&nbsp;product3</li>
-                        <li>&nbsp;&nbsp;product4</li>
+                        <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;product1</li>
+                        <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;product2</li>
+                        <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;product3</li>
+                        <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;product4</li>
                     </ul>
                 </div>
                 <div class="design" id="design_id" onclick="clickHeader(2)">
@@ -723,20 +723,14 @@
                                 <a class="black_link_underline" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/contact.php">Contact us for more information</a>
                                 </p>
                                 <br style="">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/flyers-printing" class="flyer_link">
-                                        <div id="u56029-7">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/design icons-04.png" width="40" height="40" style="float:left">
-                                            <div style="float:left;height:46px">
-                                                <span class="span_looking">Are you looking for flyers (flat sheets)?</span> Click here
-                                            </div>
-                                        </div>
-                                    </a>
+                                    
                                 <div class="clear"></div>
+                                <div style="clear: both;"></div> 
 
                                 <div class="size_menu">
                                     <div class="size_4pages size_row">
                                         <div class="size_col1">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure-4pages-single.png" alt="4 Pages Single Fold" title="4 Pages Single Fold">
+                                            <img src="{{URL::asset('/image/brochure-4pages-single.png') }} " alt="4 Pages Single Fold" title="4 Pages Single Fold">
                                             <div class="fold_title">4 Pages</div>
                                             <div class="fold_info">Single Fold</div>
                                         </div>
@@ -765,11 +759,12 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_4pga4_420x297mm.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
+                                        <div style="clear: both;"></div> 
                                     </div>
                                     
                                     <div class="size_6rpages size_row">
                                         <div class="size_col1">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure folds-09.jpg" alt="4 Page Landscape" title="4 Page Landscape">
+                                            <img src="{{URL::asset('/image/brochure folds-09.jpg') }} " alt="4 Page Landscape" title="4 Page Landscape">
                                             <div class="fold_title">4 Page</div>
                                             <div class="fold_info">Landscape</div>
                                         </div>
@@ -798,11 +793,12 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
+                                        <div style="clear: both;"></div> 
                                     </div>
                                     
                                     <div class="size_6rpages size_row">
                                         <div class="size_col1">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure-6pages-roll.png" alt="6 Pages Roll Fold" title="6 Pages Roll Fold">
+                                            <img src="{{URL::asset('/image/brochure-6pages-roll.png') }} " alt="6 Pages Roll Fold" title="6 Pages Roll Fold">
                                             <div class="fold_title">6 Pages</div>
                                             <div class="fold_info">Roll Fold</div>
                                         </div>
@@ -832,13 +828,14 @@
                                         </div>
                                         
                                         <div class="clear"></div>
+                                        <div style="clear: both;"></div> 
                                     </div>
                                     
                                     
                                     
                                     <div class="size_6zpages size_row">
                                         <div class="size_col1">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure-6pages-z.png" alt="6 Pages Z Fold" title="6 Pages Z Fold">
+                                            <img src="{{URL::asset('/image/brochure-6pages-z.png') }} " alt="6 Pages Z Fold" title="6 Pages Z Fold">
                                             <div class="fold_title">6 Pages</div>
                                             <div class="fold_info">Z Fold</div>
                                         </div>
@@ -867,13 +864,14 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm_z_fold.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
+                                        <div style="clear: both;"></div> 
                                     </div>
                                     
                                     
                                     
                                     <div class="size_8rpages size_row">
                                         <div class="size_col1">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure-8pages-roll.png" alt="8 Pages Roll Fold" title="8 Pages Roll Fold">
+                                            <img src="{{URL::asset('/image/brochure-8pages-roll.png') }} " alt="8 Pages Roll Fold" title="8 Pages Roll Fold">
                                             <div class="fold_title">8 Pages</div>
                                             <div class="fold_info">Roll Fold</div>
                                         </div>
@@ -894,13 +892,14 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_8pga5_583x210mm.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
+                                        <div style="clear: both;"></div> 
                                     </div>
                                     
                                     
                                     
                                     <div class="size_8cpages size_row">
                                         <div class="size_col1">
-                                            <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure-8pages-c.png" alt="8 Pages Concertina Fold" title="8 Pages Concertina Fold">
+                                            <img src="{{URL::asset('/image/brochure-8pages-c.png') }} " alt="8 Pages Concertina Fold" title="8 Pages Concertina Fold">
                                             <div class="fold_title">8 Pages</div>
                                             <div class="fold_info">Concertina Fold</div>
                                         </div>
@@ -921,6 +920,7 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_8pga5_583x210mm_concertina.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
+                                        <div style="clear: both;"></div> 
                                     </div>
 
                                 </div>
@@ -950,27 +950,27 @@
                                 <div class="clear"></div>
                                     <h4>Brochure Folding</h4>	
                                     <div class="folding_list">
-                                    <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure%20folds-01.png">
+                                    <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
                                     <strong>Single Fold</strong>
                                     <span>4 Pages</span>
                                 </div>
                                 <div class="folding_list">
-                                    <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure%20folds-04.png">
+                                    <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
                                     <strong>Roll Fold</strong>
                                     <span>6 Pages</span>
                                 </div>
                                 <div class="folding_list">
-                                    <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure%20folds-05.png">
+                                    <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
                                     <strong>Z Fold</strong>
                                     <span>6 Pages</span>
                                 </div>
                                 <div class="folding_list">
-                                    <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure%20folds-02.png">
+                                    <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
                                     <strong>Roll Fold</strong>
                                     <span>8 Pages</span>
                                 </div>
                                 <div class="folding_list">
-                                    <img src="/web/20180903152038im_/http://www.1print.net.au/images/brochure%20folds-03.png">
+                                    <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
                                     <strong>Concertina</strong>
                                     <span>8 Pages</span>
                                 </div>
@@ -988,19 +988,11 @@
                             
                             <div class="main_left_bottom1">
                             
-                                <div class="product_info_express no_margin">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">
-                                        <div class="product_info_express_img">
-                                        </div>
-                                        <h4>Express Printing</h4>
-                                        <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                                        </a><a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">read more+</a>
-                                    
-                                </div>
+
                                 
                                 
                                 
-                                <div class="product_info_design margin_left20">
+                                <div class="product_info_design no_margin">
                                     <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">
                                         <div class="product_info_design_img">
                                         </div>
@@ -1018,24 +1010,7 @@
                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">read more+</a>
                                     
                                 </div>
-                                <div class="product_info_order">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">
-                                        <div class="product_info_order_img">
-                                        </div>
-                                        <h4>Order process</h4>
-                                        <p>The ordering process explained</p>
-                                        </a><a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">read more+</a>
-                                    
-                                </div>
-                                <div class="product_info_guidelines">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">
-                                        <div class="product_info_guidelines_img">
-                                        </div>
-                                        <h4>File Guidelines</h4>
-                                        <p>Print specifications to achieve best printing results</p>
-                                        </a><a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">read more+</a>
-                                    
-                                </div>
+
                                 
                                 <div class="clear"></div>
                             
@@ -1514,7 +1489,310 @@
 
 
             <div class = "product_div" id="product_div_id_4" style="display:none">
+                <div class="main_product_container notepad_holder">
+                            
+
+                    <div class="main_left">
+                        <div class="main_left_left">
+                                    
+
+                                        <h1>Online Deskpad &amp; Notepad Printing</h1>
+                                        <h3>Few things represent professionalism quite like custom branded stationery.</h3>
+                                        <p>Print custom desktop pads and note pads with your own company logo, for your staff's use, outbound meeting notes or internal communication. Make a big impression, as a company that pays attention to details.
+                                        </p><p>&nbsp;</p>
+                                        <p>
+                                        We can print your office pads in a range of colours, sizes, finishes, and on a range of different paper stocks. Whether you need an order of 50 or 5000, we can create the professional product for your business.
+                                        </p><p>&nbsp;</p>
+                                        <p>
+                                        Choose from A2, A3, A4, A6 or DL sized notepads or deskpads, and 1Print will find the single or full colour solution for your business. All our notepads and deskpads are printed on high quality 100gsm bond paper.
+                                        </p>
+
+                                    
+
+
+
+                        </div>
+                                    <div class="main_left_right">
+
+                                    <div class="panel_pricing">
+                                    <h4>FREE Setup</h4>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/pre-flight-checks.php">If print ready artwork is required, send us your logo and details and we'll setup your artwork for FREE*</a></span>
+                                    <p>&nbsp;</p>
+                                    <p class="small">
+                                    * Digital files remain the property of 1Print, files can be purchased once the design is approved. This offer cannot be used in conjunction with any other promotion.
+                                    </p><p>&nbsp;</p>
+                                    </div>
+                                    <div class="panel_pricing">
+                                    <h4>Pricing includes</h4>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                    <p>&nbsp;</p>
+                        <p class="small">* Limited to one PDF proof per print job.<br>
+                        Additional proofs will incur extra charges.</p>
+                        </div>
+
+                        <div class="clear"></div>
+                        <br>
+                                    
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div style="clear: both;"></div> 
+
+
+
+                        <div class="notepad_template_list">
+
+                            <div class="bro_setup">
+                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl" class="bro_link">
+                                </a>
+                                <div class="bro_sizing">DL</div>
+                                <div class="bro_title">4 Pages</div>
+                                <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                                <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download Template</a></div>
+                            </div>
+                            <div class="bro_setup">
+                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl" class="bro_link">
+                                </a>
+                                <div class="bro_sizing">DL</div>
+                                <div class="bro_title">4 Pages</div>
+                                <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                                <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download Template</a></div>
+                            </div>
+                            <div class="bro_setup">
+                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl" class="bro_link">
+                                </a>
+                                <div class="bro_sizing">DL</div>
+                                <div class="bro_title">4 Pages</div>
+                                <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                                <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download Template</a></div>
+                            </div>
+                            <div class="bro_setup">
+                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl" class="bro_link">
+                                </a>
+                                <div class="bro_sizing">DL</div>
+                                <div class="bro_title">4 Pages</div>
+                                <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                                <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download Template</a></div>
+                            </div>
+                            <div class="bro_setup">
+                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl" class="bro_link">
+                                </a>
+                                <div class="bro_sizing">DL</div>
+                                <div class="bro_title">4 Pages</div>
+                                <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                                <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download Template</a></div>
+                            </div>
+                            
+                                    </div>
+                                    <div style="clear: both;"></div> 
+
+
+
+                                    <div class="main_left_bottom1">
+
+
+
+
+
+                                    <div class="product_info_design">
+                                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/design-services.php">
+                                            <div class="product_info_design_img">
+                                            </div>
+                                            <h4>Design Services</h4>
+                                            <p>Need artwork setup? Our team of experienced designers can help</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/design-services.php">read more+</a>
+                                        
+                                    </div>
+                                    <div class="product_info_gallery gallery_notepad">
+                                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/deskpads-gallery.php">
+                                            <div class="product_info_gallery_img">
+                                            </div>
+                                            <h4>Gallery</h4>
+                                            <p>Looking for design inspiration? See examples of our work</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/deskpads-gallery.php">read more+</a>
+                                        
+                                    </div>
+                                    <div class="product_info_order">
+                                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/order.php">
+                                            <div class="product_info_order_img">
+                                            </div>
+                                            <h4>Order process</h4>
+                                            <p>The ordering process explained</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/order.php">read more+</a>
+                                        
+                                    </div>
+                                    <div class="product_info_guidelines">
+                                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/artwork-specifications.php">
+                                            <div class="product_info_guidelines_img">
+                                            </div>
+                                            <h4>File Guidelines</h4>
+                                            <p>Print specifications to achieve best printing results</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                                        
+                                    </div>
+
+                                    <div class="product_info_delivery">
+                                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">
+                                            <div class="product_info_delivery_img">
+                                            </div>
+                                            <h4>Free Delivery</h4>
+                                            <p>Free delivery Australia wide for all products</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">read more+</a>
+                                        
+                                    </div>
+
+
+
+
+                                    <div class="clear"></div>
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="main_right">
+                                <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
+                        <div class="product_option_panel">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody><tr>
+                                            <td><div class="product_options_header">Options &amp; Prices</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product_options_price_bkgrd" align="left">
+
+                                                <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
+                                                    <tbody><tr>
+
+                                                        <td colspan="2" align="left" style="padding-top:5px;">
+                                                            <div class="prooption_desc">Your price will automatically update according to your options chosen.
+                                                                                                                                                                        </div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                    <td class="pulldown">
+                                                                                                                    <strong>Size:</strong>
+                                                                            
+
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option><option value="A3 297 x 420">A3 297 x 420</option><option value="A2 594 x 420">A2 594 x 420</option></select></td>
+                                                                </tr>
+                                                                        
+                                                                    <tr>
+                                                                    <td class="pulldown" '=""><strong>No. of Pages:</strong></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="content_left"><select name="productpagelist" id="productpagelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="25 PAGES">25 PAGES</option><option value="50 PAGES">50 PAGES</option></select></td>
+                                                                </tr>
+                                                                
+                                                    
+                                                    
+                                                                                                                        <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
+                                                                                                    <tr>
+                                                                    <td class="content_left"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="100GSM BOND">100GSM BOND</option></select></td>
+                                                                </tr>
+                                                                
+                                                                                        <tr>
+                                                                <td class="pulldown"><strong>Colour:</strong></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="4 COLOUR 1 SIDE">4 COLOUR 1 SIDE</option><option value="4 COLOUR 2 SIDES">4 COLOUR 2 SIDES</option></select></td>
+                                                            </tr>
+                                                            
+                                                                                    <tr style="display:none; ">
+                                                            <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(67)"><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="150">150</option><option value="200">200</option><option value="300">300</option><option value="400">400</option><option value="500">500</option></select></td>
+                                                        </tr>
+                                                        
+                                                        
+                                                            
+                                                                                
+                                                        
+                                                            
+
+
+                        </tbody></table>
+                        </td>
+                        </tr>
+                        </tbody></table>
+                        </div>
+                        <!-- custom quote panel -->
+                        <div class="product_quote_panel">
+                        <table class="product_quote_holder" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td class="product_options_quote">
+                                    <div class="product_quote_text">Looking for more options?</div>
+                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="clear"></div>
+                                </td>
+                            </tr>
+                            <tr><td class="price_holder_spacer"></td></tr>
+                        </tbody></table>
+                        </div>
+
+
+                        <div class="product_price_panel">
+                        <table class="product_price_holder" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
+                                    <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
+                            <tr><td class="product_options_price_bkgrd" align="left">
+
+
+
+                                    <div id="productpriceupdate">
+                                            <div id="refreshselectproduct"><form name="frmSetProductPrice" data-function-name="class_product_php_update_booklets_price" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">25</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_25-productid_67" id="usersetqty_25-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_25-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;25&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;115.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice25" width="50px">$115.00<input type="hidden" name="updateselectedproductprice25" id="updateselectedproductprice25" value="115.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_25-productid_67-price_115.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_25-productid_67&quot;)"></td></tr><tr><td class="qty_left">50</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_50-productid_67" id="usersetqty_50-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_50-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;50&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;130.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice50" width="50px">$130.00<input type="hidden" name="updateselectedproductprice50" id="updateselectedproductprice50" value="130.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_50-productid_67-price_130.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_50-productid_67&quot;)"></td></tr><tr><td class="qty_left">100</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_100-productid_67" id="usersetqty_100-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_100-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;100&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;173.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice100" width="50px">$173.00<input type="hidden" name="updateselectedproductprice100" id="updateselectedproductprice100" value="173.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_100-productid_67-price_173.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_100-productid_67&quot;)"></td></tr><tr><td class="qty_left">150</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_150-productid_67" id="usersetqty_150-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_150-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;150&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;220.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice150" width="50px">$220.00<input type="hidden" name="updateselectedproductprice150" id="updateselectedproductprice150" value="220.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_150-productid_67-price_220.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_150-productid_67&quot;)"></td></tr><tr><td class="qty_left">200</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_200-productid_67" id="usersetqty_200-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_200-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;200&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;255.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice200" width="50px">$255.00<input type="hidden" name="updateselectedproductprice200" id="updateselectedproductprice200" value="255.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_200-productid_67-price_255.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_200-productid_67&quot;)"></td></tr><tr><td class="qty_left">300</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_300-productid_67" id="usersetqty_300-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_300-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;300&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;365.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice300" width="50px">$365.00<input type="hidden" name="updateselectedproductprice300" id="updateselectedproductprice300" value="365.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_300-productid_67-price_365.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_300-productid_67&quot;)"></td></tr><tr><td class="qty_left">400</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_400-productid_67" id="usersetqty_400-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_400-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;400&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;440.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice400" width="50px">$440.00<input type="hidden" name="updateselectedproductprice400" id="updateselectedproductprice400" value="440.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_400-productid_67-price_440.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_400-productid_67&quot;)"></td></tr><tr><td class="qty_left">500</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_500-productid_67" id="usersetqty_500-productid_67" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_500-productid_67&quot;, &quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;510.00&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice500" width="50px">$510.00<input type="hidden" name="updateselectedproductprice500" id="updateselectedproductprice500" value="510.00"></td><td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_500-productid_67-price_510.00" onclick="AddBookletProduct(this.value, &quot;usersetqty_500-productid_67&quot;)"></td></tr><tr><td colspan="4"><input type="hidden" id="productid" name="productid" value="67"><input type="hidden" id="totalprice" name="totalprice" value="0.00"><input type="hidden" id="productsize" name="productsize" value="DL 99 x 210"><input type="hidden" id="productstock" name="productstock" value="100GSM BOND"><input type="hidden" id="productcolor" name="productcolor" value="4 COLOUR 1 SIDE"><input type="hidden" id="productpage" name="productpage" value="25 PAGES"></td></tr>
+                                                    <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
+                                                    <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
+                                                    <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
+                                                    <tr><td colspan="4" align="right"><br><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBookletsCache(&quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+
+                                </td></tr>
+                            <tr><td class="product_options_price_footer"></td></tr>
+                        </tbody></table>
+                        </div>
+
+
+
+                        <!-- price match panel -->
+                        <div class="price_match_banner">
+                        </div>
+
+                        
+
+                        </div>
+                        <!--end product_right_option-->
+                        <!-- setting up own side bar bottom -->
+
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                <div style="clear: both;"></div> 
             </div>
+
+
 
             <div class = "product_div" id="product_div_id_5" style="display:none">
             </div>

@@ -78,10 +78,10 @@ function clickHeader(headerName) {
             $(".home").addClass("clickOn");
             document.getElementById("home_div_id").style.display = "block";
             break;
-        case 1:
-            $(".product").addClass("clickOn");
-            document.getElementById("product_div_id").style.display = "block";
-            break;
+        // case 1:
+        //     $(".product").addClass("clickOn");
+        //     document.getElementById("product_div_id").style.display = "block";
+        //     break;
         case 2:
             $(".design").addClass("clickOn");
             document.getElementById("design_div_id").style.display = "block";
@@ -170,6 +170,10 @@ function reset() {
     document.getElementById("login_div_id").style.display = "none";
     document.getElementById("register_div_id").style.display = "none";
     document.getElementById("cart_div_id").style.display = "none";
+    document.getElementById("product_div_id_1").style.display = "none";
+    document.getElementById("product_div_id_2").style.display = "none";
+    document.getElementById("product_div_id_3").style.display = "none";
+    document.getElementById("product_div_id_4").style.display = "none";
     
 }
 

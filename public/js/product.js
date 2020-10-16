@@ -1,3 +1,36 @@
+function clickProduct(headerName) {
+    reset();
+    switch (headerName) {
+        //product
+        case 0:
+            $(".product0").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_1").style.display = "block";
+            break;
+        case 1:
+            $(".product1").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_2").style.display = "block";
+            break;
+        case 2:
+            $(".product2").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_3").style.display = "block";
+            break;
+        case 3:
+            
+            $(".product3").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_4").style.display = "block";
+            break;
+        
+    } 
+    
+}
+
+
+
+
 function addCard(type) {
     if (type == 1) {
         addMessage1();

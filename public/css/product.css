@@ -294,6 +294,236 @@ button.blue_button:hover {
 }
 
 /* flyer_holder*/
+.size_4pages.size_row{
+	padding-top:40px;
+}
+.size_row{
+	padding-bottom:20px;
+}
+
+.size_col1{
+	float:left;
+	width:111px;
+}
+.size_col1 img{
+	height:71px;
+	width:71px;
+}
+.size_col1 .fold_title{
+	font-size: 21px;
+    line-height: 21px;
+	color:#323232;
+	font-weight:bold;
+}
+.size_col1 .fold_info{
+	font-size: 12px;
+    line-height: 14px;
+	color:#323232;
+	font-weight:bold;
+}
+.bro_setup{
+	width:127px;
+	height:111px;
+	background: #EBEBEB  repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #EBEBEB));
+	background: -webkit-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: -moz-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: -ms-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: -o-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: linear-gradient(to bottom,#FFFFFF ,#EBEBEB 100%);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	-moz-border-radius: 5px 5px 5px 5px ;
+	-webkit-border-radius: 5px 5px 5px 5px ;
+	-khtml-border-radius: 5px 5px 5px 5px ;
+	border-radius: 5px 5px 5px 5px ;
+	text-align: left;
+	position: relative;
+	-webkit-box-sizing:border-size;
+	-moz-box-sizing:border-size;
+	box-sizing:border-size;
+	float:left;
+	margin-left:12px;
+}
+.bro_subtitle{
+	font-size: 15px;
+	line-height: 18px;
+	padding-left: 9px;
+	color: #323232;
+	font-weight: bold;
+	height:20px;
+	margin-top:5px;
+}
+
+.bro_setup a.bro_link{
+	background:url(../image/overlay-learn-more.png) no-repeat;
+	opacity:0;
+	transition:opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+.bro_setup a.bro_link:hover{
+	opacity:1;
+}
+.bro_setup a.bro_link:link,
+.bro_setup a.bro_link:visited{
+	text-decoration:none !important;
+	color:#323232;
+	display:block;
+	height:92px;
+	width:127px;
+	position:absolute;
+	z-index:20;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	-khtml-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.bro_setup .bro_dl a{
+	width:127px;
+	min-height: 28px;
+	background: #323232  repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#606060),color-stop(100%, #323232));
+	background: -webkit-linear-gradient(top,#606060 ,#323232 100%);
+	background: -moz-linear-gradient(top,#606060 ,#323232 100%);
+	background: -ms-linear-gradient(top,#606060 ,#323232 100%);
+	background: -o-linear-gradient(top,#606060 ,#323232 100%);
+	background: linear-gradient(to bottom,#606060 ,#323232 100%);
+	-moz-border-radius: 0px 0px 3px 3px ;
+	-webkit-border-radius: 0px 0px 3px 3px ;
+	-khtml-border-radius: 0px 0px 3px 3px ;
+	border-radius: 0px 0px 3px 3px ;
+	padding-top: 6px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	font-weight: normal;
+	top: -1px;
+	margin-bottom: -1px;
+	display:inline-block;
+	position: relative;
+	text-decoration:none;
+}
+.bro_setup .bro_dl a:hover{
+	background: #0071BC  repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#29ABE2),color-stop(100%, #0071BC));
+	background: -webkit-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+	background: -moz-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+	background: -ms-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+	background: -o-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+	background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
+	border-color: #0071BC;
+}
+.bro_setup .bro_sizing{
+	font-size: 36px;
+	line-height: 43px;
+	color: #959595;
+	font-weight: bold;
+	text-align:center;
+	height:43px;
+	padding-top:10px;
+}
+.bro_title {
+	text-align:center;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	height:20px;
+	color:#323232;
+}
+.bro_sizing_sml {
+	text-align:center;
+	font-size: 12px;
+	line-height: 14px;
+	color: #323232;
+	font-weight: normal;
+	height:20px;
+}
+.folding_list {
+    float: left;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    width: 90px;
+}
+.folding_list strong {
+    color: #323232;
+    font-weight: bold;
+	display:block;
+}
+.folding_list img {
+    width:87px;
+	height:87px;
+}
+.margin_left20{
+	margin-left:20px;
+}
+.no_margin{
+	margin:0 !important
+}
+.product_info_design{
+	margin-left:0;
+	background:url(../image/panel_design.jpg) no-repeat left top;
+}
+.product_info_design:hover{
+	background:url(../image/panel_design_hover.jpg) no-repeat left top;
+}
+.product_info_gallery{
+	background:url(../image/panel_gallery.jpg) no-repeat left top;
+}
+.product_info_gallery:hover{
+	background:url(../image/panel_gallery_hover.jpg) no-repeat left top;
+}
+.product_info_design_img{
+	width: 165px;
+	height: 142px;
+	background: transparent url(../image/panel_design_hover.jpg) no-repeat left top;
+	transition:opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+	opacity:0;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.product_info_gallery_img{
+	width: 165px;
+	height: 142px;
+	background: transparent url(../image/panel_gallery_hover.jpg) no-repeat left top;
+	transition:opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+	opacity:0;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.product_info_design,
+.product_info_gallery,
+.product_info_order,
+.product_info_guidelines,
+.product_info_templates,
+.product_info_express,
+.product_info_delivery{
+	width:165px;
+	margin-left:20px;
+	float:left;
+}
+
+
+
+/* pro1done */
+
+
+
+
 #product_div_id_2 .main_left {
     float: left;
     width: 950px;
@@ -372,7 +602,7 @@ button.blue_button:hover {
     z-index: 3;
     width: 263px;
     min-height: 39px;
-    background: #EBEBEB url("/web/20180312231033im_/https://www.1print.net.au/images/u5923-grad.png") repeat-x left top;
+    background: #EBEBEB  repeat-x left top;
     background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), color-stop(100%, #EBEBEB));
     background: -webkit-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
     background: -moz-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
@@ -493,50 +723,53 @@ input.add_to_cart:hover {
 }
 
 /* Business Card Printing*/
+#product_div_id_4 .main_left,
 #product_div_id_3 .main_left {
     float: left;
     width: 950px;
 }
-
+#product_div_id_4 .main_left_left,
 #product_div_id_3 .main_left_left {
     width: 542px;
     float: left;
     text-align: justify;
 }
-
+#product_div_id_4 .main_left_right,
 #product_div_id_3 .main_left_right {
     width: 360px;
     float: left;
     padding-left: 47px;
 }
-
+#product_div_id_4 .main_left_right h4,
 #product_div_id_3 .main_left_right h4 {
     font-size: 26px;
     line-height: 31px;
 }
-
+#product_div_id_4 .main_right,
 #product_div_id_3 .main_right {
     width: 290px;
     float: right;
 }
+#product_div_id_4 .main_left_bottom1,
 #product_div_id_3 .main_left_bottom1 {
     padding: 30px 0;
     font-size: 13px;
 
 }
+#product_div_id_4 .product_options_header,
 #product_div_id_3 .product_options_header {
     font-size: 26px;
     font-weight: bold;
     line-height: 31px;
 }
-
+#product_div_id_4 .prooption_desc,
 #product_div_id_3 .prooption_desc {
     font-size: 13px;
     font-weight: normal;
     line-height: 16px;
     padding-bottom: 10px;
 }
-
+#product_div_id_4 .product_option_panel,
 #product_div_id_3 .product_option_panel {
     z-index: 16;
     width: 253px;
@@ -563,15 +796,16 @@ input.add_to_cart:hover {
     position: relative;
     padding-bottom: 10px;
 }
-
+#product_div_id_4 .product_option_panel strong,
 #product_div_id_3 .product_option_panel strong {
     font-weight: bold;
 }
+#product_div_id_4 .product_quote_panel,
 #product_div_id_3 .product_quote_panel {
     z-index: 3;
     width: 263px;
     min-height: 39px;
-    background: #EBEBEB url("/web/20180312231033im_/https://www.1print.net.au/images/u5923-grad.png") repeat-x left top;
+    background: #EBEBEB  repeat-x left top;
     background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), color-stop(100%, #EBEBEB));
     background: -webkit-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
     background: -moz-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
@@ -596,18 +830,18 @@ input.add_to_cart:hover {
     position: relative;
 }
 
-
+#product_div_id_4 .product_quote_text
 #product_div_id_3 .product_quote_text {
     width: 100px;
     float: left;
     color: #323232;
 }
-
+#product_div_id_4 .product_quote_link
 #product_div_id_3 .product_quote_link {
     width: 140px;
     float: right;
 }
-
+#product_div_id_4 .product_quote_link a,
 #product_div_id_3 .product_quote_link a {
     z-index: 11;
     width: 124px;
@@ -627,7 +861,7 @@ input.add_to_cart:hover {
     display: block;
     text-decoration: none;
 }
-
+#product_div_id_4 .product_quote_link a:hover,
 #product_div_id_3 .product_quote_link a:hover {
     background-color: #323232;
     padding-top: 8px;
@@ -635,7 +869,7 @@ input.add_to_cart:hover {
     min-height: 22px;
     margin: 0px;
 }
-
+#product_div_id_4 .product_price_panel,
 #product_div_id_3 .product_price_panel {
     z-index: 126;
     width: 257px;
@@ -660,8 +894,71 @@ input.add_to_cart:hover {
     padding: 17px 20px 25px 12px;
 }
 
+/* 
+notepad */
+.notepad_template_list{
+	height:130px;
+	padding-top:40px;
+}
+.rootelem /* the root of the artwork tree */
+{
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.colelem /* a child element of a column */
+{
+	display: inline;
+	float: left;
+	clear: both;
+}
+.grpelem /* a child element of a group */
+{
+	display: inline;
+	float: left;
+}
 
+.clearfix:after /* force a container to fit around floated items */
+{
+	content: "\0020";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+#pamphletu18808
+{
+	z-index: 405;
+	width: 0.01px;
+	height: 98px;
+	position: relative;
+}
+#u18892
+{
+	z-index: 390;
+	width: 123px;
+	padding-bottom: 0px;
+	position: relative;
+	margin-right: -10000px;
+	left: 138px;
+}
+#u18820
+{
+	z-index: 408;
+	width: 122px;
+	position: relative;
+	margin-right: -10000px;
+}
+#u18818popup
+{
+	z-index: 406;
+}
+.popup_anchor /* anchors an abspos popup */
+{
+	position: relative;
+	width: 0px;
+	height: 0px;
+}
 
 
 
