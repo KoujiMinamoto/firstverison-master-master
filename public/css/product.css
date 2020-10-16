@@ -145,6 +145,17 @@
     width: 60rem;
     float: right;
 }
+.main_product_container {
+    width: 1255px;
+    margin: 0 auto;
+    color: #7f7f7f;
+}
+
+.main_product_container h1 {
+    color: #323232;
+    font-size: 39px;
+    font-weight: bold;
+}
 
 
 /* booklet*/
@@ -282,8 +293,209 @@ button.blue_button:hover {
     background: #323232;
 }
 
+/* flyer_holder*/
+#product_div_id_2 .main_left {
+    float: left;
+    width: 950px;
+}
+
+#product_div_id_2 .main_left_left {
+    width: 542px;
+    float: left;
+    text-align: justify;
+}
+
+#product_div_id_2 .main_left_right {
+    width: 360px;
+    float: left;
+    padding-left: 47px;
+}
+
+#product_div_id_2 .main_left_right h4 {
+    font-size: 26px;
+    line-height: 31px;
+}
+
+#product_div_id_2 .main_right {
+    width: 290px;
+    float: right;
+}
+#product_div_id_2 .main_left_bottom1 {
+    padding: 30px 0;
+    font-size: 13px;
+
+}
+#product_div_id_2 .product_options_header {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 31px;
+}
+
+#product_div_id_2 .prooption_desc {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+
+#product_div_id_2 .product_option_panel {
+    z-index: 16;
+    width: 253px;
+    background: #EBEBEB  repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), color-stop(100%, #EBEBEB));
+    background: -webkit-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -moz-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -ms-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -o-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: linear-gradient(to bottom, #FFFFFF, #EBEBEB 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 24px;
+    text-align: left;
+    color: #323232;
+    margin-bottom: -1px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#product_div_id_2 .product_option_panel strong {
+    font-weight: bold;
+}
+#product_div_id_2 .product_quote_panel {
+    z-index: 3;
+    width: 263px;
+    min-height: 39px;
+    background: #EBEBEB url("/web/20180312231033im_/https://www.1print.net.au/images/u5923-grad.png") repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), color-stop(100%, #EBEBEB));
+    background: -webkit-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -moz-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -ms-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -o-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: linear-gradient(to bottom, #FFFFFF, #EBEBEB 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-right: 13px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
 
 
+#product_div_id_2 .product_quote_text {
+    width: 100px;
+    float: left;
+    color: #323232;
+}
+
+#product_div_id_2 .product_quote_link {
+    width: 140px;
+    float: right;
+}
+
+#product_div_id_2 .product_quote_link a {
+    z-index: 11;
+    width: 124px;
+    min-height: 22px;
+    background-color: #29ABE2;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+#product_div_id_2 .product_quote_link a:hover {
+    background-color: #323232;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    min-height: 22px;
+    margin: 0px;
+}
+
+#product_div_id_2 .product_price_panel {
+    z-index: 126;
+    width: 257px;
+    background: #EBEBEB  repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), color-stop(100%, #EBEBEB));
+    background: -webkit-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -moz-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -ms-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: -o-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
+    background: linear-gradient(to bottom, #FFFFFF, #EBEBEB 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    color: #323232;
+    margin-top: 10px;
+    position: relative;
+    margin-right: -10000px;
+    padding: 17px 20px 25px 12px;
+}
+a.clear_btn {
+    background: #29ABE2;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    width: 77px;
+    height: 30px;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+a.clear_btn:hover {
+    background: #323232;
+}
+
+input.add_to_cart {
+    background: #29ABE2;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    width: 144px;
+    height: 30px;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    cursor: pointer;
+}
+
+input.add_to_cart:hover {
+    background: #323232;
+}
 
 
 
