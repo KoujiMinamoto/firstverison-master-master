@@ -42,10 +42,22 @@
                 <div class="product" id="product_id">
                     <p>product</p>
                     <ul id="product_ul">
-                        <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;product1</li>
-                        <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;product2</li>
-                        <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;product3</li>
-                        <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;product4</li>
+                        <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;Booklets</li>
+                        <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;Brochures</li>
+                        <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;Business Cards</li>
+                        <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;Deskpads / Notepads</li>
+                        <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;Direct Marketing</li>
+                        <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;Docket Books</li>
+                        <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;Envelopes</li>
+                        <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;Express Printing</li>
+                        <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;Flyers</li>
+                        <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;Fridge Magnets</li>
+                        <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;Letterheads</li>
+                        <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;Postcards</li>
+                        <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;Posters</li>
+                        <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;Presentation Folders</li>
+                        <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;With Compliments</li>
+                        
                     </ul>
                 </div>
                 <div class="design" id="design_id" onclick="clickHeader(2)">

@@ -174,6 +174,17 @@ function reset() {
     document.getElementById("product_div_id_2").style.display = "none";
     document.getElementById("product_div_id_3").style.display = "none";
     document.getElementById("product_div_id_4").style.display = "none";
+    document.getElementById("product_div_id_5").style.display = "none";
+    document.getElementById("product_div_id_6").style.display = "none";
+    document.getElementById("product_div_id_7").style.display = "none";
+    document.getElementById("product_div_id_8").style.display = "none";
+    document.getElementById("product_div_id_9").style.display = "none";
+    document.getElementById("product_div_id_10").style.display = "none";
+    document.getElementById("product_div_id_11").style.display = "none";
+    document.getElementById("product_div_id_12").style.display = "none";
+    document.getElementById("product_div_id_13").style.display = "none";
+    document.getElementById("product_div_id_14").style.display = "none";
+    document.getElementById("product_div_id_15").style.display = "none";
     
 }
 

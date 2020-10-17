@@ -17,13 +17,67 @@ function clickProduct(headerName) {
             $(".product").addClass("clickOn");
             document.getElementById("product_div_id_3").style.display = "block";
             break;
-        case 3:
-            
+        case 3:        
             $(".product3").addClass("clickOn");
             $(".product").addClass("clickOn");
             document.getElementById("product_div_id_4").style.display = "block";
             break;
-        
+        case 4:        
+            $(".product4").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_5").style.display = "block";
+            break;
+        case 5:        
+            $(".product5").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_6").style.display = "block";
+            break;
+        case 6:        
+            $(".product6").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_7").style.display = "block";
+            break;
+        case 7:        
+            $(".product7").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_8").style.display = "block";
+            break;
+        case 8:
+            $(".product8").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_9").style.display = "block";
+            break;
+        case 9:
+            $(".product9").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_10").style.display = "block";
+            break;
+        case 10:
+            $(".product10").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_11").style.display = "block";
+            break;
+        case 11:        
+            $(".product11").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_12").style.display = "block";
+            break;
+        case 12:        
+            $(".product12").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_13").style.display = "block";
+            break;
+        case 13:        
+            $(".product13").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_14").style.display = "block";
+            break;
+        case 14:        
+            $(".product14").addClass("clickOn");
+            $(".product").addClass("clickOn");
+            document.getElementById("product_div_id_15").style.display = "block";
+            break;
+ 
     } 
     
 }
