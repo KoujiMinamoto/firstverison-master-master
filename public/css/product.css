@@ -723,45 +723,53 @@ input.add_to_cart:hover {
 }
 
 /* Business Card Printing*/
+#product_div_id_6 .main_left,
 #product_div_id_4 .main_left,
 #product_div_id_3 .main_left {
     float: left;
     width: 950px;
 }
+#product_div_id_6 .main_left_left,
 #product_div_id_4 .main_left_left,
 #product_div_id_3 .main_left_left {
     width: 542px;
     float: left;
     text-align: justify;
 }
+#product_div_id_6 .main_left_right,
 #product_div_id_4 .main_left_right,
 #product_div_id_3 .main_left_right {
     width: 360px;
     float: left;
     padding-left: 47px;
 }
+#product_div_id_6 .main_left_right h4,
 #product_div_id_4 .main_left_right h4,
 #product_div_id_3 .main_left_right h4 {
     font-size: 26px;
     line-height: 31px;
 }
+#product_div_id_6 .main_right,
 #product_div_id_4 .main_right,
 #product_div_id_3 .main_right {
     width: 290px;
     float: right;
 }
+#product_div_id_6 .main_left_bottom1,
 #product_div_id_4 .main_left_bottom1,
 #product_div_id_3 .main_left_bottom1 {
     padding: 30px 0;
     font-size: 13px;
 
 }
+#product_div_id_6 .product_options_header,
 #product_div_id_4 .product_options_header,
 #product_div_id_3 .product_options_header {
     font-size: 26px;
     font-weight: bold;
     line-height: 31px;
 }
+#product_div_id_6 .prooption_desc,
 #product_div_id_4 .prooption_desc,
 #product_div_id_3 .prooption_desc {
     font-size: 13px;
@@ -769,6 +777,7 @@ input.add_to_cart:hover {
     line-height: 16px;
     padding-bottom: 10px;
 }
+#product_div_id_6 .product_option_panel,
 #product_div_id_4 .product_option_panel,
 #product_div_id_3 .product_option_panel {
     z-index: 16;
@@ -796,10 +805,12 @@ input.add_to_cart:hover {
     position: relative;
     padding-bottom: 10px;
 }
+#product_div_id_6 .product_option_panel strong,
 #product_div_id_4 .product_option_panel strong,
 #product_div_id_3 .product_option_panel strong {
     font-weight: bold;
 }
+#product_div_id_6 .product_quote_panel,
 #product_div_id_4 .product_quote_panel,
 #product_div_id_3 .product_quote_panel {
     z-index: 3;
@@ -829,18 +840,20 @@ input.add_to_cart:hover {
     margin-top: 10px;
     position: relative;
 }
-
-#product_div_id_4 .product_quote_text
+#product_div_id_6 .product_quote_text,
+#product_div_id_4 .product_quote_text,
 #product_div_id_3 .product_quote_text {
     width: 100px;
     float: left;
     color: #323232;
 }
-#product_div_id_4 .product_quote_link
+#product_div_id_6 .product_quote_link,
+#product_div_id_4 .product_quote_link,
 #product_div_id_3 .product_quote_link {
     width: 140px;
     float: right;
 }
+#product_div_id_6 .product_quote_link a,
 #product_div_id_4 .product_quote_link a,
 #product_div_id_3 .product_quote_link a {
     z-index: 11;
@@ -861,6 +874,7 @@ input.add_to_cart:hover {
     display: block;
     text-decoration: none;
 }
+#product_div_id_6 .product_quote_link a:hover,
 #product_div_id_4 .product_quote_link a:hover,
 #product_div_id_3 .product_quote_link a:hover {
     background-color: #323232;
@@ -869,6 +883,7 @@ input.add_to_cart:hover {
     min-height: 22px;
     margin: 0px;
 }
+#product_div_id_6 .product_price_panel,
 #product_div_id_4 .product_price_panel,
 #product_div_id_3 .product_price_panel {
     z-index: 126;
@@ -960,6 +975,41 @@ notepad */
 	height: 0px;
 }
 
+/* Direct Marketing */
+#product_div_id_5 .container_left{
+	float:left;
+	width:425px;
+	padding-left:20px;
+	color:#7f7f7f;
+	text-align:justify;
+}
+#product_div_id_5 .container_right{
+	float:right;
+	width:425px;
+	padding-right:20px;
+	color:#7f7f7f;
+	text-align:justify;
+}
+#product_div_id_5 .main_container,
+#product_div_id_5 .main_product_container{
+	width:980px;
+	margin:0 auto;
+}
+#product_div_id_5 #product_div_id_5 h1{
+	font-size: 30px;
+	line-height:32px;
+}
 
-
+#product_div_id_5 h2{
+    font-size: 20px;
+}
+#product_div_id_5 h2.large{
+	font-size:30px;
+	line-height:32px;
+}
+/*products */
+#product_div_id_5 .main_left h1{
+		font-size:30px !important;
+		padding-bottom:5px;
+	}
 

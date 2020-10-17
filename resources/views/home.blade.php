@@ -1484,10 +1484,6 @@
                     <div style="clear: both;"></div> 
             </div>
 
-
-
-
-
             <div class = "product_div" id="product_div_id_4" style="display:none">
                 <div class="main_product_container notepad_holder">
                             
@@ -1795,9 +1791,340 @@
 
 
             <div class = "product_div" id="product_div_id_5" style="display:none">
+
+                <div class="text_holder">
+                    <div class="main_container">
+
+                    <div class="container_left">
+                    <h1>Direct Marketing</h1>
+                    <p>In addition to offering you quality printing, 1Print also have the experience and infrastructure required to provide comprehensive direct marketing services to Australian and international clients, for all aspects of advertising and bulk mailing.
+                    </p><p>&nbsp;</p><p>
+                    Direct mail marketing helps your company spread awareness about your products, services, upcoming events, product launches or other promotions. A well-targeted direct mail campaign finds the right demographics for your business and delivers a relevant call to action right to their mailbox.
+                    </p><p>&nbsp;</p><p>
+                    Direct marketing is widely used by small to large businesses alike, because it works. This low-cost marketing channel distributes your branded messaging to the right audience at the right time, in a way that they cannot ignore.
+                    </p><p>&nbsp;</p><p>
+                    We can help you formulate creative marketing strategies, manage the graphic design and provide copywriting and editing services prior to launch. Once the concept is completed we can manage printing and/or distributing of your advertising mail.
+                    </p><p>&nbsp;</p>
+                    <p class="black">
+                    For more information <b>Call</b> 1300 327 471 or <b>email</b> <a href="http://web.archive.org/web/20180903145613/mailto:info@1print.net.au" class="black_link">info@1print.net.au</a>
+                    </p>
+                    </div>
+                    <div class="container_right">
+                    <h2>Data Solutions</h2>
+                    <p>Choose the target audience for your business and your direct marketing campaigns. We have an extensive list of names and addresses that you can choose by industries and demographics.
+                    </p><p>&nbsp;</p><p>
+                    Tell us the outcome you need, the audience you desire, and we will provide the very best customer database and marketing lists for your target market.
+                    </p>
+                    <h2 class="padding_top">Additional Services</h2>
+                    <ul class="black_bullets">
+                    <li>Mailing of promotional advertising material, invoices, statements, product launches, events, reminder notices, prospectuses.
+                    </li><li>
+                    Supply and printing of the envelopes of your choice.
+                    </li><li>Addressing, labelling, inserting.
+                    </li><li>Plastic and shrink wrapping.
+                    </li><li>Packing and fulfillment, including hand-line assembly.
+                    </li><li>Barcoding addresses.
+                    </li>
+                    </ul>
+                    </div>
+                    <div class="clear"></div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div style="clear: both;"></div> 
             </div>
 
+
+
             <div class = "product_div" id="product_div_id_6" style="display:none">
+                <div class="main_product_container docket_holder">
+                        
+
+                            
+                    <div class="main_left">
+                        <div class="main_left_left">
+                                                    <h1>Online Docket Book Printing</h1>
+                                        <h3>Brand your invoice books, docket books or receipt books with your company logo and custom design.</h3>
+                                        <p>Docket booklets are typically used for receipt forms and invoices, with perforated pages that are easy to remove. A copy of the form can be easily torn from the booklet and given to the customer, while a copy can be left in the booklet for the business. A sturdy cover wrap maintains the booklet's integrity and can be inserted between forms to prevent transfer when completing the form.
+                                        </p><p>&nbsp;</p>
+                                        <p>
+                                        Purchase your order, docket, receipt or invoice books, which can all be designed and printed with numbering, perforated pages and colour coding if required.
+                                        </p><p>&nbsp;</p>
+                                        <p>
+                                        If you'd like 1Print to setup your artwork this option can be added into your shopping cart.
+                        </p>
+                        
+                        
+                            <div class="option_size_list docket_templates">
+                            
+                                    <div class="docket_setup_a5">
+                                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docket-books-printing/carbonless-a5" class="docket_link">
+                                        </a>
+                                        <div class="sizing">A5</div>
+                                        <div class="dock_title">Docket Book</div>
+                                        <div class="dock_sizing">148 x 210mm</div>
+                            
+                                        <div class="dock_dl"><a href="templates/1print_docket-book_a5_148x210mm.pdf" target="_blank">Download Template</a></div>
+                                    </div>
+                            
+                                    <div class="docket_setup_a4">
+                                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docket-books-printing/carbonless-a4" class="docket_link">
+                                        </a>
+                                        <div class="sizing">A4</div>
+                                        <div class="dock_title">Docket Book</div>
+                                        <div class="dock_sizing">210 x 297mm</div>
+                            
+                                        <div class="dock_dl"><a href="templates/1print_docket-book_a4_210x297mm.pdf" target="_blank">Download Template</a></div>
+                                    </div>
+                            
+                                    <div class="clear"></div>
+                            
+                            </div>
+                        
+                                    
+                        
+                        </div>
+                        <div class="main_left_right">
+                        
+                                    <div class="panel_pricing">
+                                    <h4>Pricing includes</h4>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                    <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                    <p>&nbsp;</p>
+                        <p class="small">* Limited to one PDF proof per print job.
+                        Additional proofs will incur extra charges.</p>
+                        </div>
+                        
+                        
+                        
+                        <div class="panel_extras">
+                            <h4 class="padding_top">Optional Extras</h4>
+                        <p class="black">These options can be selected once your items have been added to your shopping cart</p>
+                        <p>&nbsp;</p>
+                        <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                        <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                        
+                        <p>&nbsp;</p>
+                        </div>
+                        <div class="clear"></div>
+                            <div class="bx-up" style="margin-top:25%">
+                                                <div class="bcards500 notop">
+                                <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                                    </div>
+                        
+                            </div>
+                        
+                                    </div>
+                                    <div class="clear"></div>
+                        
+                        
+                                                <div class="main_left_bottom1">
+                        
+
+                        
+                        
+                        
+                                    <div class="product_info_design margin_left20">
+                                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">
+                                            <div class="product_info_design_img">
+                                            </div>
+                                            <h4>Design Services</h4>
+                                            <p>Need artwork setup? Our team of experienced designers can help</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">read more+</a>
+                                        
+                                    </div>
+                                    <div class="product_info_gallery gallery_docket">
+                                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docketbooks-gallery.php">
+                                            <div class="product_info_gallery_img">
+                                            </div>
+                                            <h4>Gallery</h4>
+                                            <p>Looking for design inspiration? See examples of our work</p>
+                                            </a><a class="blue_link" href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docketbooks-gallery.php">read more+</a>
+                                        
+                                    </div>
+
+                        
+                                    <div class="clear"></div>
+                        
+                        
+                        
+                        
+                                    </div>
+                        
+                                    </div>
+                                <div class="main_right">
+                                <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
+                        <div class="product_option_panel" data-product-id="68" id="product_id_68">
+                                    <script type="text/javascript" style="">
+                                    jQuery(document).ready(function ($) {
+                                        hideTwoColour();
+                                        $("body").on("change", "#product_id_68 select", function () {
+                                            hideTwoColour();
+                                        });
+                                    });
+                                    function hideTwoColour() {
+                                        $("#productcolorlist option").each(function () {
+                                            console.log($(this).val());
+                                            if ($(this).val() == "2 COLOURS") {
+                                                $(this).remove();
+                                            }
+                                        });
+                                    }
+                                </script>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody><tr>
+                                            <td><div class="product_options_header">Options &amp; Prices</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product_options_price_bkgrd" align="left">
+                        
+                                                <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
+                                                    <tbody><tr>
+                        
+                                                        <td colspan="2" align="left" style="padding-top:5px;">
+                                                            <div class="prooption_desc">Your price will automatically update according to your options chosen.
+                                                                                                                                                                        </div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                    <td class="pulldown">
+                                                                                                                    <strong>Size:</strong>
+                                                                            
+                        
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="A4">A4</option><option value="A5">A5</option></select></td>
+                                                                </tr>
+                                                                        
+                            
+                                                                                    <tr>
+                                                            <td class="pulldown"><strong>Copies:</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="content_left"><select name="productcopylist" id="productcopylist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="DUPLICATE">DUPLICATE</option><option value="TRIPLICATE">TRIPLICATE</option></select></td>
+                                                        </tr>
+                                                                                        <tr>
+                                                            <td class="pulldown"><strong>Carbonless Books:</strong></td>
+                                                        </tr>
+                                                        <tr id="carbonlessBookslist1">
+                                                            <td class="content_left">
+                                                    <select name="productcarbonlist" id="productcarbonlist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="Sets of 50">Sets of 50</option><option value="Sets of 100">Sets of 100</option></select>                                    </td>
+                                                        </tr>
+                                                        <tr id="carbonlessBookslist2" style="display:none">
+                                                            <td class="content_left">
+                                                        <select name="productcarbonlist2" id="productcarbonlist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="Sets of 50">Sets of 50</option></select>                                    </td>
+                                                        </tr>
+                                                        
+                                                    
+                                                    
+                                                                                        <tr>
+                                                                <td class="pulldown"><strong>Colour:</strong></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="1 COLOUR">1 COLOUR</option></select></td>
+                                                            </tr>
+                                                            
+                                                                                    <tr style="display:none; ">
+                                                            <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(68)"><option value="5">5</option><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="100">100</option></select></td>
+                                                        </tr>
+                                                        
+                                                                                                                                <tr>
+                                                                                                    <td class="pulldown"><strong>Printed Sides:</strong></td>
+                                                                                                </tr><tr>
+                                                                                                    <td class="content_left"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="1 SIDE">1 SIDE</option><option value="CONDITIONS ON BACK">CONDITIONS ON BACK</option></select></td>
+                                                                                                </tr>
+                                                                                                
+                                                            
+                                                    
+                        
+                        
+                        </tbody></table>
+                        </td>
+                        </tr>
+                        </tbody></table>
+                        </div>
+                        <!-- custom quote panel -->
+                        <div class="product_quote_panel">
+                        <table class="product_quote_holder" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td class="product_options_quote">
+                                    <div class="product_quote_text">Looking for more options?</div>
+                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="clear"></div>
+                                </td>
+                            </tr>
+                            <tr><td class="price_holder_spacer"></td></tr>
+                        </tbody></table>
+                        </div>
+                        
+                        
+                        <div class="product_price_panel">
+                        <table class="product_price_holder" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
+                                    <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
+                            <tr><td class="product_options_price_bkgrd" align="left">
+                        
+                        
+                        
+                                    <div id="productpriceupdate">
+                                            <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">5</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_5-productid_68" id="usersetqty_5-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_5-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;5&quot;, &quot;A4&quot;,  &quot;173.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice5" width="50px">$173.00<input type="hidden" name="updateselectedproductprice5" id="updateselectedproductprice5" value="173.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_5-productid_68-price_173.00" onclick="AddDockProduct(this.value, &quot;usersetqty_5-productid_68&quot;)"></td></tr><tr><td class="qty_left">10</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_10-productid_68" id="usersetqty_10-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_10-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;10&quot;, &quot;A4&quot;,  &quot;240.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice10" width="50px">$240.00<input type="hidden" name="updateselectedproductprice10" id="updateselectedproductprice10" value="240.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_10-productid_68-price_240.00" onclick="AddDockProduct(this.value, &quot;usersetqty_10-productid_68&quot;)"></td></tr><tr><td class="qty_left">20</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_20-productid_68" id="usersetqty_20-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_20-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;20&quot;, &quot;A4&quot;,  &quot;320.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice20" width="50px">$320.00<input type="hidden" name="updateselectedproductprice20" id="updateselectedproductprice20" value="320.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_20-productid_68-price_320.00" onclick="AddDockProduct(this.value, &quot;usersetqty_20-productid_68&quot;)"></td></tr><tr><td class="qty_left">30</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_30-productid_68" id="usersetqty_30-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_30-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;30&quot;, &quot;A4&quot;,  &quot;410.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice30" width="50px">$410.00<input type="hidden" name="updateselectedproductprice30" id="updateselectedproductprice30" value="410.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_30-productid_68-price_410.00" onclick="AddDockProduct(this.value, &quot;usersetqty_30-productid_68&quot;)"></td></tr><tr><td class="qty_left">40</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_40-productid_68" id="usersetqty_40-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_40-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;40&quot;, &quot;A4&quot;,  &quot;510.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice40" width="50px">$510.00<input type="hidden" name="updateselectedproductprice40" id="updateselectedproductprice40" value="510.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_40-productid_68-price_510.00" onclick="AddDockProduct(this.value, &quot;usersetqty_40-productid_68&quot;)"></td></tr><tr><td class="qty_left">50</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_50-productid_68" id="usersetqty_50-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_50-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;50&quot;, &quot;A4&quot;,  &quot;625.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice50" width="50px">$625.00<input type="hidden" name="updateselectedproductprice50" id="updateselectedproductprice50" value="625.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_50-productid_68-price_625.00" onclick="AddDockProduct(this.value, &quot;usersetqty_50-productid_68&quot;)"></td></tr><tr><td class="qty_left">100</td>
+                                    <td class="kinds_input"><input type="text" name="usersetqty_100-productid_68" id="usersetqty_100-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_100-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;100&quot;, &quot;A4&quot;,  &quot;975.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
+                                    <td id="updateselectedproductprice100" width="50px">$975.00<input type="hidden" name="updateselectedproductprice100" id="updateselectedproductprice100" value="975.00"></td>
+                                    <td><input type="checkbox" id="selectproduct[]" name="selectproduct[]" value="usersetqty_100-productid_68-price_975.00" onclick="AddDockProduct(this.value, &quot;usersetqty_100-productid_68&quot;)"></td></tr><tr><td colspan="4"><input type="hidden" id="productid" name="productid" value="68"><input type="hidden" id="totalprice" name="totalprice" value="0.00"><input type="hidden" id="productsize" name="productsize" value="A4"><input type="hidden" id="productcolor" name="productcolor" value="1 COLOUR">
+                        <input type="hidden" id="productprintedside" name="productprintedside" value="1 SIDE"><input type="hidden" id="productcopy" name="productcopy" value="DUPLICATE"><input type="hidden" id="productcarbon" name="productcarbon" value="Sets of 50"></td></tr>
+                                                    <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
+                                                    <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
+                                                    <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
+                                                    <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearDockbookCache(&quot;A4&quot;, &quot;1 COLOUR&quot;, &quot;500&quot;, &quot;68&quot;, &quot;0&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;Sets of 50&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                        
+                                </td></tr>
+                            <tr><td class="product_options_price_footer"></td></tr>
+                        </tbody></table>
+                        </div>
+                        
+                        
+                        
+                        
+
+                        
+                        </div>
+                        <!--end product_right_option-->
+                        <!-- setting up own side bar bottom -->
+                        
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+
+
+
+                <div style="clear: both;"></div> 
             </div>
 
             <div class = "product_div" id="product_div_id_7" style="display:none">
