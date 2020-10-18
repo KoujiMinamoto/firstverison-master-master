@@ -5059,8 +5059,23 @@
                     <form class="login_div_form1">
                     <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                     <input id="login_password_id"class="login_div_pass" type="password" align="center" placeholder="Password">
-                    <a class="login_div_submit" align="center" onclick="userLogin()">Log in</a>
-                    <p class="login_div_forgot" align="center"><a href="#">Forgot Password?</a></p>           
+                    <button class="login_div_submit" align="center" onclick="userLogin()">Log in</button>
+                    <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>           
+                </div>
+            </div>
+
+            <!-- forget passwd -->
+            <div class = "login_div_forgetpasswd" id="login_div_forgetpasswd_id" style="display:none">
+                <div class="login_div_main">
+                    <p class="login_div_sign" align="center">Forget Password</p>
+
+
+                    <div class="clear" style="padding-top: 40px"></div>
+                    <input id="forget_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
+                    <input id="forget_email_id"class="login_div_un" type="email" align="center" placeholder="Email">
+                    <button class="login_div_submit" align="center">Send</button>
+                    <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>      
+                       
                 </div>
             </div>
 
@@ -5164,7 +5179,7 @@
                         </div>
                     </div>
                 <div style="clear: both;"></div>
-            </div>
+                </div>
             </div>
     
     

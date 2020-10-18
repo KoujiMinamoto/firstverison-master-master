@@ -39,7 +39,7 @@
   margin-bottom: 27px;
   font-family: 'Ubuntu', sans-serif;
 }
-
+form.login_div_form2,
 form.login_div_form1 {
   padding-top: 40px;
 }
@@ -73,7 +73,7 @@ form.login_div_form1 {
 .login_div_submit {
   cursor: pointer;
   border-radius: 5em;
-  color: #fff;
+  color:white;
   background: linear-gradient(to right, #2752b0, #406cfb);
   border: 0;
   padding-left: 40px;

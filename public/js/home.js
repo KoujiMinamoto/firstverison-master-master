@@ -142,6 +142,10 @@ function clickHeader(headerName) {
             break;  
         default :
             break;
+        case 10:
+            $(".login").addClass("clickOn");
+            document.getElementById("login_div_forgetpasswd_id").style.display = "block";
+            break;
     } 
     
 }
@@ -185,6 +189,7 @@ function reset() {
     document.getElementById("product_div_id_13").style.display = "none";
     document.getElementById("product_div_id_14").style.display = "none";
     document.getElementById("product_div_id_15").style.display = "none";
+    document.getElementById("login_div_forgetpasswd_id").style.display = "none";
     
 }
 
