@@ -57,7 +57,6 @@
                         <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;Postcards</li>
                         <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;Posters</li>
                         <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;Presentation Folders</li>
-                        <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;With Compliments</li>
                         
                     </ul>
                 </div>
@@ -74,7 +73,7 @@
                         <li>&nbsp;&nbsp;more</li>
                     </ul> -->
                 </div>
-                <div class="gallary" id="gallary_id" onclick="clickHeader(3)">  
+                <div class="gallary" id="gallary_id" onclick="clickHeader(3)">
                     <p>gallary</p>
                     <!-- <ul id="gallary_ul">
                         <li>&nbsp;&nbsp;gallary1</li>
@@ -113,42 +112,42 @@
                        Booklets
                     </a>
                     </div>
-       
+
                     <div class="brochures_holder home_menu">
                     <a href="#" title="Online Brochure Printing Services">
                     <div class="home_panel_img brochures_img"></div>
                        Brochures
                     </a>
                     </div>
-       
+
                     <div class="business_cards_holder home_menu">
                     <a href="#" title="Online Business Card Printing Services">
                     <div class="home_panel_img business_cards_img"></div>
                        Business Cards
                     </a>
                     </div>
-       
+
                     <div class="notepads_holder home_menu">
                     <a href="#" title="Online Notepad Printing Services">
                     <div class="home_panel_img notepads_img"></div>
                        Deskpads / Notepads
                     </a>
                     </div>
-       
+
                     <div class="docketbooks_holder home_menu">
                     <a href="#" title="Online Docket Book Printing Services">
                     <div class="home_panel_img docketbooks_img"></div>
                        Docket Books
                     </a>
                     </div>
-       
+
                     <div class="envelopes_holder home_menu">
                     <a href="#" title="Online Envelope Printing Services">
                     <div class="home_panel_img envelopes_img"></div>
                        Envelopes
                     </a>
                     </div>
-       
+
                     <div class="flyers_holder home_menu">
                     <a href="#" title="Online Flyer Printing Services">
                     <div class="home_panel_img flyers_img"></div>
@@ -197,7 +196,7 @@
                        Website Design
                     </a>
                     </div>
-       
+
                     <div style="clear: both;"></div>
                 </div>
                 {{-- <div class="home_content_left">
@@ -279,7 +278,7 @@
                                     <h2>$290.00 <del>$490.00</del></h2>
                                 </div>
                                 <p>Design Book for your company</p>
-                                
+
                                 <div class="perched-info">
                                     <a href="#" class="btn add-card-btn">ADD TO CART</a>
                                 </div>
@@ -292,7 +291,7 @@
                                     <h2>$390.00 <del>$400.00</del></h2>
                                 </div>
                                 <p>Design Invitation card for your company</p>
-                                
+
                                 <div class="perched-info">
                                     <a href="#" class="btn add-card-btn">ADD TO CART</a>
                                 </div>
@@ -305,7 +304,7 @@
                 <div class="product_div_main">
                     <div class="product_div_first">
                         <div class="product_div_img1">
-                        
+
                         </div>
                         <div class="product_div_message">
                             <div class="product_div_name">
@@ -320,7 +319,7 @@
                             </div>
                             <div id="product_addCart1" onclick="addCard(1)">
                                 <p>ADD TO CART</p>
-                            </div>		
+                            </div>
                         </div>
                     </div>
 
@@ -340,7 +339,7 @@
                             </div>
                             <div id="product_addCart2" onclick="addCard(2)">
                                 <p>ADD TO CART</p>
-                            </div>		
+                            </div>
                         </div>
                     </div>
 
@@ -360,7 +359,7 @@
                             </div>
                             <div id="product_addCart3" onclick="addCard(3)">
                                 <p>ADD TO CART</p>
-                            </div>		
+                            </div>
                         </div>
                     </div>
 
@@ -380,7 +379,7 @@
                             </div>
                             <div id="product_addCart4" onclick="addCard(4)">
                                 <p>ADD TO CART</p>
-                            </div>		
+                            </div>
                         </div>
                     </div>
 
@@ -400,7 +399,7 @@
                             </div>
                             <div id="product_addCart5" onclick="addCard(5)">
                                 <p>ADD TO CART</p>
-                            </div>		
+                            </div>
                         </div>
                     </div>
 
@@ -535,96 +534,96 @@
                                                                                 <td class="option_second_col"><select style="width:100%;" name="field_49" id="field_49" onchange="cqFieldOption(49)"><option value="A4 210X297mm">A4 210X297mm</option><option value="A5 148x210mm">A5 148x210mm</option><option value="A6 105x148mm">A6 105x148mm</option><option value="DL 99x210mm">DL 99x210mm</option><option value="-1">Custom</option><input type="hidden" value="49" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_49" style="display:none;"><input type="text" name="field_custom_49" value="" id="field_custom_49" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Orientation 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Orientation
                                         <input type="hidden" value="50" name="quote_fields[]"/>
                                         <input type="hidden" value="Orientation" name="field_name_50" id="field_name_50"/>
                                         <input type="hidden" value="50" name="field_id_50" id="field_id_50"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_50" id="field_50" onchange="cqFieldOption(50)"><option value="Portrait">Portrait</option><option value="Landscape">Landscape</option><input type="hidden" value="50" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_50" style="display:none;"><input type="text" name="field_custom_50" value="" id="field_custom_50" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Internal Pages 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Internal Pages
                                         <input type="hidden" value="52" name="quote_fields[]"/>
                                         <input type="hidden" value="Internal Pages" name="field_name_52" id="field_name_52"/>
                                         <input type="hidden" value="52" name="field_id_52" id="field_id_52"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_52" id="field_52" onchange="cqFieldOption(52)"><option value="150gsm Gloss">150gsm Gloss</option><option value="150gsm Silk">150gsm Silk</option><option value="130gsm Gloss">130gsm Gloss</option><option value="130gsm Silk">130gsm Silk</option><option value="115gsm Gloss">115gsm Gloss</option><option value="115gsm Silk">115gsm Silk</option><option value="170gsm Gloss">170gsm Gloss</option><option value="170gsm Silk">170gsm Silk</option><option value="100gsm Offset Uncoated">100gsm Offset Uncoated</option><option value="200gsm Silk">200gsm Silk</option><option value="200gsm Gloss">200gsm Gloss</option><option value="-1">Custom</option><input type="hidden" value="52" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_52" style="display:none;"><input type="text" name="field_custom_52" value="" id="field_custom_52" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Cover 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Cover
                                         <input type="hidden" value="51" name="quote_fields[]"/>
                                         <input type="hidden" value="Cover" name="field_name_51" id="field_name_51"/>
                                         <input type="hidden" value="51" name="field_id_51" id="field_id_51"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_51" id="field_51" onchange="cqFieldOption(51)"><option value="Same as Internal Pages">Same as Internal Pages</option><option value="250gsm Gloss">250gsm Gloss</option><option value="250gsm Silk">250gsm Silk</option><option value="300gsm Gloss">300gsm Gloss</option><option value="300gsm Silk">300gsm Silk</option><option value="250gsm Uncoated">250gsm Uncoated</option><option value="-1">Custom</option><input type="hidden" value="51" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_51" style="display:none;"><input type="text" name="field_custom_51" value="" id="field_custom_51" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Number of pages including cover 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Number of pages including cover
                                         <input type="hidden" value="53" name="quote_fields[]"/>
                                         <input type="hidden" value="Number of pages including cover" name="field_name_53" id="field_name_53"/>
                                         <input type="hidden" value="53" name="field_id_53" id="field_id_53"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_53" id="field_53" onchange="cqFieldOption(53)"><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="20">20</option><option value="24">24</option><option value="28">28</option><option value="32">32</option><option value="36">36</option><option value="40">40</option><option value="44">44</option><option value="48">48</option><option value="52">52</option><option value="56">56</option><option value="60">60</option><option value="64">64</option><option value="68">68</option><option value="72">72</option><option value="76">76</option><option value="80">80</option><option value="84">84</option><option value="88">88</option><option value="92">92</option><option value="96">96</option><option value="100">100</option><option value="104">104</option><option value="108">108</option><option value="112">112</option><option value="116">116</option><option value="120">120</option><option value="-1">Custom</option><input type="hidden" value="53" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_53" style="display:none;"><input type="text" name="field_custom_53" value="" id="field_custom_53" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Internal Pages 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Internal Pages
                                         <input type="hidden" value="54" name="quote_fields[]"/>
                                         <input type="hidden" value="Internal Pages" name="field_name_54" id="field_name_54"/>
                                         <input type="hidden" value="54" name="field_id_54" id="field_id_54"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_54" id="field_54" onchange="cqFieldOption(54)"><option value="Printed Full Colour">Printed Full Colour</option><option value="Printed Black/White">Printed Black/White</option><option value="Printed 1PMS Colours">Printed 1PMS Colours</option><option value="Printed 2PMS Colours">Printed 2PMS Colours</option><option value="-1">Custom</option><input type="hidden" value="54" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_54" style="display:none;"><input type="text" name="field_custom_54" value="" id="field_custom_54" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Cover 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Cover
                                         <input type="hidden" value="55" name="quote_fields[]"/>
                                         <input type="hidden" value="Cover" name="field_name_55" id="field_name_55"/>
                                         <input type="hidden" value="55" name="field_id_55" id="field_id_55"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_55" id="field_55" onchange="cqFieldOption(55)"><option value="Printed Full Colour">Printed Full Colour</option><option value="Printed Black/White">Printed Black/White</option><option value="-1">Custom</option><input type="hidden" value="55" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_55" style="display:none;"><input type="text" name="field_custom_55" value="" id="field_custom_55" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Binding 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Binding
                                         <input type="hidden" value="58" name="quote_fields[]"/>
                                         <input type="hidden" value="Binding" name="field_name_58" id="field_name_58"/>
                                         <input type="hidden" value="58" name="field_id_58" id="field_id_58"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_58" id="field_58" onchange="cqFieldOption(58)"><option value="Saddlestitch (2 staples in middle)">Saddlestitch (2 staples in middle)</option><option value="Burst Bound or Perfect Bound">Burst Bound or Perfect Bound</option><option value="Wiro Binding">Wiro Binding</option><option value="-1">Custom</option><input type="hidden" value="58" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_58" style="display:none;"><input type="text" name="field_custom_58" value="" id="field_custom_58" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Laminate Cover 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Laminate Cover
                                         <input type="hidden" value="56" name="quote_fields[]"/>
                                         <input type="hidden" value="Laminate Cover" name="field_name_56" id="field_name_56"/>
                                         <input type="hidden" value="56" name="field_id_56" id="field_id_56"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_56" id="field_56" onchange="cqFieldOption(56)"><option value="None">None</option><option value="Machine varnish 1 side">Machine varnish 1 side</option><option value="Machine varnish 2 sides">Machine varnish 2 sides</option><option value="Matt lamianted 1 side">Matt lamianted 1 side</option><option value="Matt laminated 2 sides">Matt laminated 2 sides</option><option value="Gloss laminated 1 sides">Gloss laminated 1 sides</option><option value="Gloss laminated 2 sides">Gloss laminated 2 sides</option><option value="-1">Custom</option><input type="hidden" value="56" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_56" style="display:none;"><input type="text" name="field_custom_56" value="" id="field_custom_56" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Cover Special Finish 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Cover Special Finish
                                         <input type="hidden" value="57" name="quote_fields[]"/>
                                         <input type="hidden" value="Cover Special Finish" name="field_name_57" id="field_name_57"/>
                                         <input type="hidden" value="57" name="field_id_57" id="field_id_57"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_57" id="field_57" onchange="cqFieldOption(57)"><option value="None">None</option><option value="Spot UV 1 Side">Spot UV 1 Side</option><option value="Spot UV 2 Sides">Spot UV 2 Sides</option><option value="Embossing">Embossing</option><option value="Foil">Foil</option><option value="-1">Custom</option><input type="hidden" value="57" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_57" style="display:none;"><input type="text" name="field_custom_57" value="" id="field_custom_57" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Artwork Supplied In 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Artwork Supplied In
                                         <input type="hidden" value="59" name="quote_fields[]"/>
                                         <input type="hidden" value="Artwork Supplied In" name="field_name_59" id="field_name_59"/>
                                         <input type="hidden" value="59" name="field_id_59" id="field_id_59"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_59" id="field_59" onchange="cqFieldOption(59)"><option value="Ready to print PDF">Ready to print PDF</option><option value="Ready to print Illustrator">Ready to print Illustrator</option><option value="Ready to print photoshop">Ready to print photoshop</option><option value="Power Point">Power Point</option><option value="Microsoft Word">Microsoft Word</option><option value="Design to be created by 1Print">Design to be created by 1Print</option><option value="-1">Custom</option><input type="hidden" value="59" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_59" style="display:none;"><input type="text" name="field_custom_59" value="" id="field_custom_59" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Proof Required 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Proof Required
                                         <input type="hidden" value="62" name="quote_fields[]"/>
                                         <input type="hidden" value="Proof Required" name="field_name_62" id="field_name_62"/>
                                         <input type="hidden" value="62" name="field_id_62" id="field_id_62"/>
                                         </td><td class="option_second_col"><select style="width:100%;" name="field_62" id="field_62" onchange="cqFieldOption(62)"><option value="None">None</option><option value="Soft Copy PDF">Soft Copy PDF</option><option value="High Res Hard Copy">High Res Hard Copy</option><option value="-1">Custom</option><input type="hidden" value="62" name="custom_field[]"/><div class="extra_option">
                                         <div id="div_custom_62" style="display:none;"><input type="text" name="field_custom_62" value="" id="field_custom_62" style="width:100%;" maxlength="80"/></div>
                                         </div>
-                                        </td></tr><tr>  <td class="option_first_col"> 
-                                        Quantity 
+                                        </td></tr><tr>  <td class="option_first_col">
+                                        Quantity
                                         <input type="hidden" value="66" name="quote_fields[]"/>
                                         <input type="hidden" value="Quantity" name="field_name_66" id="field_name_66"/>
                                         <input type="hidden" value="66" name="field_id_66" id="field_id_66"/>
@@ -647,7 +646,7 @@
                                             <td class="one-line st-input"><input type="text" name="company" id="company" maxlength="80"></td>
                                         </tr>
                                         <tr>
-                                            <td class="one-line one-line-title">Your 
+                                            <td class="one-line one-line-title">Your
                                             Name: </font><span style="color:red">*</span></td>
                                             <td class="one-line st-input"><input type="text" name="name" id="name" maxlength="80"></td>
                                         </tr>
@@ -662,7 +661,7 @@
                                         <tr class="tr-pt15">
                                             <td colspan="2" class="one-line one-line-title" style="padding-bottom:20px;">By previewing your artwork we can quote your job precisely</td>
                                         </tr>
-                                        
+
                                         <tr>
                                         <td height="25" align="left" class="one-line one-line-title">Preview 1</td>
                                             <td class="one-line" style="padding:5px;"><input type="file" name="file1" id="file1"></td>
@@ -709,14 +708,14 @@
                             </div>
                         </div>
                     </div>
-                </div>        
-                    <div style="clear: both;"></div>    
+                </div>
+                    <div style="clear: both;"></div>
             </div>
 
             <div class = "product_div" id="product_div_id_2" style="display:none">
                 <div class="text_holder">
-                    <div class="main_product_container brochure_holder">                            
-                        	
+                    <div class="main_product_container brochure_holder">
+
                         <div class="main_left">
                             <div class="main_left_left">
                                 <h1>Online Brochure Printing</h1>
@@ -736,9 +735,9 @@
                                 <a class="black_link_underline" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/contact.php">Contact us for more information</a>
                                 </p>
                                 <br style="">
-                                    
+
                                 <div class="clear"></div>
-                                <div style="clear: both;"></div> 
+                                <div style="clear: both;"></div>
 
                                 <div class="size_menu">
                                     <div class="size_4pages size_row">
@@ -772,9 +771,9 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_4pga4_420x297mm.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
-                                        <div style="clear: both;"></div> 
+                                        <div style="clear: both;"></div>
                                     </div>
-                                    
+
                                     <div class="size_6rpages size_row">
                                         <div class="size_col1">
                                             <img src="{{URL::asset('/image/brochure folds-09.jpg') }} " alt="4 Page Landscape" title="4 Page Landscape">
@@ -806,9 +805,9 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
-                                        <div style="clear: both;"></div> 
+                                        <div style="clear: both;"></div>
                                     </div>
-                                    
+
                                     <div class="size_6rpages size_row">
                                         <div class="size_col1">
                                             <img src="{{URL::asset('/image/brochure-6pages-roll.png') }} " alt="6 Pages Roll Fold" title="6 Pages Roll Fold">
@@ -839,13 +838,13 @@
                                             <div class="bro_sizing_sml">210 x 297mm (folded)</div>
                                             <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm.pdf" target="_blank">Download Template</a></div>
                                         </div>
-                                        
+
                                         <div class="clear"></div>
-                                        <div style="clear: both;"></div> 
+                                        <div style="clear: both;"></div>
                                     </div>
-                                    
-                                    
-                                    
+
+
+
                                     <div class="size_6zpages size_row">
                                         <div class="size_col1">
                                             <img src="{{URL::asset('/image/brochure-6pages-z.png') }} " alt="6 Pages Z Fold" title="6 Pages Z Fold">
@@ -877,11 +876,11 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm_z_fold.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
-                                        <div style="clear: both;"></div> 
+                                        <div style="clear: both;"></div>
                                     </div>
-                                    
-                                    
-                                    
+
+
+
                                     <div class="size_8rpages size_row">
                                         <div class="size_col1">
                                             <img src="{{URL::asset('/image/brochure-8pages-roll.png') }} " alt="8 Pages Roll Fold" title="8 Pages Roll Fold">
@@ -905,11 +904,11 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_8pga5_583x210mm.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
-                                        <div style="clear: both;"></div> 
+                                        <div style="clear: both;"></div>
                                     </div>
-                                    
-                                    
-                                    
+
+
+
                                     <div class="size_8cpages size_row">
                                         <div class="size_col1">
                                             <img src="{{URL::asset('/image/brochure-8pages-c.png') }} " alt="8 Pages Concertina Fold" title="8 Pages Concertina Fold">
@@ -933,11 +932,11 @@
                                             <div class="bro_dl"><a href="templates/1print_brochure_8pga5_583x210mm_concertina.pdf" target="_blank">Download Template</a></div>
                                         </div>
                                         <div class="clear"></div>
-                                        <div style="clear: both;"></div> 
+                                        <div style="clear: both;"></div>
                                     </div>
 
                                 </div>
-                                                
+
                             </div>
                             <div class="main_left_right">
                                 <div class="panel_pricing">
@@ -951,7 +950,7 @@
                                 Additional proofs will incur extra charges.</p>
                                 </div>
                                 <div class="panel_extras">
-                                    <h4 class="padding_top">Optional Extras</h4>	
+                                    <h4 class="padding_top">Optional Extras</h4>
                                 <p class="black">These options can be selected once your items have been added to your shopping cart</p>
                                 <p>&nbsp;</p>
                                 <span class="option_indent"><a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/faq.php">Machine Varnish - Gloss or Matt</a></span>
@@ -961,7 +960,7 @@
                                 <p>&nbsp;</p>
                                 </div>
                                 <div class="clear"></div>
-                                    <h4>Brochure Folding</h4>	
+                                    <h4>Brochure Folding</h4>
                                     <div class="folding_list">
                                     <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
                                     <strong>Single Fold</strong>
@@ -987,24 +986,24 @@
                                     <strong>Concertina</strong>
                                     <span>8 Pages</span>
                                 </div>
-                                <div class="clear"></div> 
+                                <div class="clear"></div>
 
                                 <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/business-cards-printing "><div class="bcards500 notop"></div></a>
 
-                            </div>	
-  
-                            <div class="clear"></div>
-                            <div style="clear: both;"></div> 
-                            
-                            
-                                        
-                            
-                            <div class="main_left_bottom1">
-                            
+                            </div>
 
-                                
-                                
-                                
+                            <div class="clear"></div>
+                            <div style="clear: both;"></div>
+
+
+
+
+                            <div class="main_left_bottom1">
+
+
+
+
+
                                 <div class="product_info_design no_margin">
                                     <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">
                                         <div class="product_info_design_img">
@@ -1012,7 +1011,7 @@
                                         <h4>Design Services</h4>
                                         <p>Need artwork setup? Our team of experienced designers can help</p>
                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">read more+</a>
-                                    
+
                                 </div>
                                 <div class="product_info_gallery gallery_brochure">
                                     <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">
@@ -1021,15 +1020,15 @@
                                         <h4>Gallery</h4>
                                         <p>Looking for design inspiration? See examples of our work</p>
                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">read more+</a>
-                                    
+
                                 </div>
 
-                                
+
                                 <div class="clear"></div>
-                            
-                            
-                            
-                            
+
+
+
+
                             </div>
 
                         </div>
@@ -1048,22 +1047,22 @@
 
                                                 <td colspan="2" align="left" style="padding-top:5px;">
                                                     <div class="prooption_desc">Your price will automatically update according to your options chosen.
-                                                                                                                               
+
                                                                                                                             </div></td>
                                             </tr>
                                                                                     <tr>
                                                             <td class="pulldown">
-                                                        
+
                                                                     <strong>Folded Size:</strong>
 
-                                                                    
+
 
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="content_left"><select name="productsizelist" id="brochure_type" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(size)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option></select></td>
                                                         </tr>
-                                                                
+
                                                             <tr>
                                                             <td class="pulldown" '=""><strong>No. of Pages:</strong></td>
                                                         </tr>
@@ -1077,30 +1076,30 @@
                                                         <tr style="display: none;">
                                                             <td id="brouchernopagesupdate1" class="content_left"><select name="productpagelist2" id="brochure_page" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(page)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
                                                         </tr>
-                                                        
-                                            
-                                            
+
+
+
                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                             <tr>
                                                             <td class="content_left"><select name="productstocklist" id="brochure_stock" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(stock)"><option value="150GSM GLOSS OR SILK">150GSM GLOSS OR SILK</option><option value="170GSM GLOSS OR SILK">170GSM GLOSS OR SILK</option><option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK</option><option value="350GSM GLOSS OR SILK">350GSM GLOSS OR SILK</option></select></td>
                                                         </tr>
-                                                        
+
                                                                                 <tr>
                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="content_left"><select name="productcolorlist" id="brochure_colour" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(colour)"><option value="FULL COLOUR">FULL COLOUR</option></select></td>
                                                     </tr>
-                                                    
+
                                                                             <tr style="display:none; ">
                                                     <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(57)"><option value="50">50</option><option value="100">100</option><option value="150">150</option><option value="200">200</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option></select></td>
                                                 </tr>
-                                                
-                                                
-                                                    
-                                                                        
-                                                
-                                                    
+
+
+
+
+
+
 
 
                 </tbody></table>
@@ -1184,26 +1183,26 @@
                 <!--end product_right_option-->
                 <!-- setting up own side bar bottom -->
 
-                
+
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
-                <div style="clear: both;"></div> 
+                <div style="clear: both;"></div>
             </div>
 
 
             <div class = "product_div" id="product_div_id_3" style="display:none">
                 <div class="main_product_container bcards_holder">
-                
 
-                
+
+
                     <div class="main_left">
                             <div class="main_left_left">
                                 <h1 class="card_title">Online Business Card Printing</h1>
                                 <h3>We are dedicated to creating high quality business cards at the cheapest price possible.</h3>
                                 <p>1Print Premium Business cards are printed on thick, heavy premium 400gsm and are trimmed to the size you request. Express, gloss and unlaminated Business cards are printed on 310gsm.<br style=""><br style="">
-                                Our cards can be either matt or gloss laminated, printed on one or both sides and are available in full CMYK colour. Make a great first impression with a custom business card that expresses your brand identity. Submit your order by filling out the form on the right or contact us for your business card printing needs.			
+                                Our cards can be either matt or gloss laminated, printed on one or both sides and are available in full CMYK colour. Make a great first impression with a custom business card that expresses your brand identity. Submit your order by filling out the form on the right or contact us for your business card printing needs.
                                 <!-- <div class="bcards_stock_left">
                                     <div class="bcards_stock_bkgrd">
                                         <span>400</span><br/>
@@ -1222,22 +1221,22 @@
                                 </div> -->
                                 </p><div class="clear"></div>
                 <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/custom-quotes.php" class="setup_banner_wrapper">
-                    
-                </a>	
-                    
+
+                </a>
+
                 </div>
-                
-                
+
+
                 <div class="main_left_right">
                             <div class="panel_pricing">
                             <h4>Pricing includes</h4>
                             <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
                             <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                             <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
-                
+
                 </div>
                 <div class="panel_extras">
-                    <h4 class="padding_top">Optional Extras</h4>	
+                    <h4 class="padding_top">Optional Extras</h4>
                 <p class="black">These options can be selected once your items have been added to your shopping cart</p>
                 <p>&nbsp;</p>
                 <span class="option_indent"><a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">Convert your file to a print ready format including basic artwork changes</a></span>
@@ -1246,12 +1245,12 @@
                 <span class="option_indent black">Priority Delivery</span>
                 <p>&nbsp;</p>
                 </div>
-                <div class="clear"></div> 
-                
+                <div class="clear"></div>
+
                                         <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-printing "><div class="bcards500"></div></a>
                             </div>
                             <div class="clear"></div>
-                            <div style="clear: both;"></div> 
+                            <div style="clear: both;"></div>
                             <div class="main_left_bottom1">
                             <div class="product_info_express no_margin">
                                 <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/urgent-printing">
@@ -1261,9 +1260,9 @@
                                     <p>For a guaranteed 48 hour despatch after your order is placed</p>
                                     </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/urgent-printing">read more+</a>
                             </div>
-                            
-                            
-                            
+
+
+
                             <div class="product_info_design margin_left20">
                                 <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">
                                     <div class="product_info_design_img">
@@ -1271,7 +1270,7 @@
                                     <h4>Design Services</h4>
                                     <p>Need artwork setup? Our team of experienced designers can help</p>
                                     </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">read more+</a>
-                                
+
                             </div>
                             <div class="product_info_gallery gallery_bcards">
                                 <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-gallery.php">
@@ -1280,7 +1279,7 @@
                                     <h4>Gallery</h4>
                                     <p>Looking for design inspiration? See examples of our work</p>
                                     </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-gallery.php">read more+</a>
-                                
+
                             </div>
                             <div class="product_info_templates">
                                 <a href="templates/sample-buisness-card-templates.pdf" target="_blank">
@@ -1289,7 +1288,7 @@
                                     <h4>Artwork Templates</h4>
                                     <p>Need artwork setup? Our team of experienced designers can help</p>
                                     </a><a class="blue_link" href="templates/sample-buisness-card-templates.pdf" target="_blank">read more+</a>
-                                
+
                             </div>
                             <div class="product_info_guidelines">
                                 <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">
@@ -1298,42 +1297,42 @@
                                     <h4>File Guidelines</h4>
                                     <p>Print specifications to achieve best printing results</p>
                                     </a><a class="blue_link" href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">read more+</a>
-                                
+
                             </div>
-                            
+
                             <div class="clear"></div>
                             <br style=""><br style="">
                             <div style="width:95%;text-align:justify">
                                 <p>
-                                    Even in today's digitally-driven world, business cards are still hugely popular, and are used by virtually every business. They're still considered a 
-                                    vital part of a business's marketing arsenal: as well as simply providing a potential client with your contact details, they do much more. The quality 
-                                    of your business card says a lot about what a client can expect from your business, what you stand for and the type and quality of the products and 
+                                    Even in today's digitally-driven world, business cards are still hugely popular, and are used by virtually every business. They're still considered a
+                                    vital part of a business's marketing arsenal: as well as simply providing a potential client with your contact details, they do much more. The quality
+                                    of your business card says a lot about what a client can expect from your business, what you stand for and the type and quality of the products and
                                     services you offer.
                                 </p>
                                 <br style="">
                                 <p>
-                                    A special, high quality business card shows your clients that you're serious about yourself and your business. When they're comparing your 
+                                    A special, high quality business card shows your clients that you're serious about yourself and your business. When they're comparing your
                                     business card with the multitude of other business cards they've accumulated, you want yours to stand out to them.
                                 </p>
                                 <br style="">
                                 <p style="color:black">
                                     <b>
-                                        Through the use of innovative materials and careful management we develop business cards that our customers are proud to hand to 
+                                        Through the use of innovative materials and careful management we develop business cards that our customers are proud to hand to
                                         their potential clients.
                                     </b>
                                 </p>
                                 <br style="">
                                 <p>
-                                    We start with a thick 400gsm premium stock. Both sides are printed in full colour as standard. We then apply an ultra thin layer of matt finish 
-                                    laminate to the front and back surfaces. This matt lamination gives the card a unique texture while offering protection against discolouration and 
+                                    We start with a thick 400gsm premium stock. Both sides are printed in full colour as standard. We then apply an ultra thin layer of matt finish
+                                    laminate to the front and back surfaces. This matt lamination gives the card a unique texture while offering protection against discolouration and
                                     fading.
                                 </p>
                             </div>
-                            
-                            
-                            
+
+
+
                             </div>
-                    
+
                 </div>
                         <div class="main_right">
                         <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
@@ -1344,24 +1343,24 @@
                                 </tr>
                                 <tr>
                                     <td class="product_options_price_bkgrd" align="left">
-                
+
                                         <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
                                             <tbody><tr>
-                
+
                                                 <td colspan="2" align="left" style="padding-top:5px;">
                                                     <div class="prooption_desc">Your price will automatically update according to your options chosen.
                                                                                                                                                                 </div></td>
                                             </tr>
-                                            
-                    
-                                            
-                                            
-                                                                            
-                                            
+
+
+
+
+
+
                                                                             <tr style="display:none; ">
                                                     <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(58)"><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option></select></td>
                                                 </tr>
-                                                
+
                                                                                     <tr>
                                                         <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                     </tr>
@@ -1372,11 +1371,11 @@
                                                             </select>
                                                         </td>
                                                     </tr>
-                
-                                                        
-                                                    
+
+
+
                                                                                                                                                                             <tr><td class="pulldown"><strong>Laminated:</strong></td></tr>
-                                                                                
+
                                                                                     <tr>
                                                         <td class="content_left" id="bcfinish"><select id="bc_laminated" onchange="UpdateBCPrice(laminated)" style="width: 225px; font-size: 12px;" name="productstocklist">
                                                                 <option value="MATT LAMINATED 2 SIDES">MATT LAMINATED 2 SIDES</option>
@@ -1386,7 +1385,7 @@
                                                     <tr>
                                                         <td class="pulldown"><strong>Finished Trimmed Size:<br style="">(Square Corners)</strong></td>
                                                     </tr>
-                                        
+
                                         <tr>
                                             <td class="content_left">
                                                 <script style="">
@@ -1402,10 +1401,10 @@
                                                 </select>
                                             </td>
                                         </tr>
-                                                        
-                                                    
-                
-                
+
+
+
+
                 </tbody></table>
                 </td>
                 </tr>
@@ -1424,17 +1423,17 @@
                     <tr><td class="price_holder_spacer"></td></tr>
                 </tbody></table>
                 </div>
-                
-                
+
+
                 <div class="product_price_panel">
                 <table class="product_price_holder" cellpadding="0" cellspacing="0">
                     <tbody><tr>
                         <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
                             <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
                     <tr><td class="product_options_price_bkgrd" align="left">
-                
-                
-                
+
+
+
                             <div id="productpriceupdate">
                                     <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">250</td>
                             <td class="kinds_input"><input type="text" name="usersetqty_250-productid_58" id="usersetqty_250-productid_58" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_250-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;250&quot;, &quot;58&quot;, &quot;65.00&quot;)">&nbsp;</td>
@@ -1462,32 +1461,32 @@
                                             <tr><td colspan="4" class="price_msg_1"><center><span style="class=" price_msg_first'="">Price include GST and delivery</span></center></td></tr>
                                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                             <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBasketBCCache(58);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(bc)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
-                
+
                         </td></tr>
                     <tr><td class="product_options_price_footer"></td></tr>
                 </tbody></table>
                 </div>
-                
 
-                
+
+
                 </div>
                 <!--end product_right_option-->
                 <!-- setting up own side bar bottom -->
-                
-                
+
+
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <div style="clear: both;"></div> 
+                    <div style="clear: both;"></div>
             </div>
 
             <div class = "product_div" id="product_div_id_4" style="display:none">
                 <div class="main_product_container notepad_holder">
-                            
+
 
                     <div class="main_left">
                         <div class="main_left_left">
-                                    
+
 
                                         <h1>Online Deskpad &amp; Notepad Printing</h1>
                                         <h3>Few things represent professionalism quite like custom branded stationery.</h3>
@@ -1500,7 +1499,7 @@
                                         Choose from A2, A3, A4, A6 or DL sized notepads or deskpads, and 1Print will find the single or full colour solution for your business. All our notepads and deskpads are printed on high quality 100gsm bond paper.
                                         </p>
 
-                                    
+
 
 
 
@@ -1528,10 +1527,10 @@
 
                         <div class="clear"></div>
                         <br>
-                                    
+
                                     </div>
                                     <div class="clear"></div>
-                                    <div style="clear: both;"></div> 
+                                    <div style="clear: both;"></div>
 
 
 
@@ -1577,9 +1576,9 @@
                                 <div class="bro_sizing_sml">99 x 210m(folded)</div>
                                 <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download Template</a></div>
                             </div>
-                            
+
                                     </div>
-                                    <div style="clear: both;"></div> 
+                                    <div style="clear: both;"></div>
 
 
 
@@ -1596,7 +1595,7 @@
                                             <h4>Design Services</h4>
                                             <p>Need artwork setup? Our team of experienced designers can help</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/design-services.php">read more+</a>
-                                        
+
                                     </div>
                                     <div class="product_info_gallery gallery_notepad">
                                         <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/deskpads-gallery.php">
@@ -1605,7 +1604,7 @@
                                             <h4>Gallery</h4>
                                             <p>Looking for design inspiration? See examples of our work</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/deskpads-gallery.php">read more+</a>
-                                        
+
                                     </div>
                                     <div class="product_info_order">
                                         <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/order.php">
@@ -1614,7 +1613,7 @@
                                             <h4>Order process</h4>
                                             <p>The ordering process explained</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/order.php">read more+</a>
-                                        
+
                                     </div>
                                     <div class="product_info_guidelines">
                                         <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/artwork-specifications.php">
@@ -1623,7 +1622,7 @@
                                             <h4>File Guidelines</h4>
                                             <p>Print specifications to achieve best printing results</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/artwork-specifications.php">read more+</a>
-                                        
+
                                     </div>
 
                                     <div class="product_info_delivery">
@@ -1633,7 +1632,7 @@
                                             <h4>Free Delivery</h4>
                                             <p>Free delivery Australia wide for all products</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">read more+</a>
-                                        
+
                                     </div>
 
 
@@ -1669,44 +1668,44 @@
                                                                                             <tr>
                                                                     <td class="pulldown">
                                                                                                                     <strong>Size:</strong>
-                                                                            
+
 
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="content_left"><select name="productsizelist" id="dn_size" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(size)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option><option value="A3 297 x 420">A3 297 x 420</option><option value="A2 594 x 420">A2 594 x 420</option></select></td>
                                                                 </tr>
-                                                                        
+
                                                                     <tr>
                                                                     <td class="pulldown" '=""><strong>No. of Pages:</strong></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="content_left"><select name="productpagelist" id="dn_page" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(page)"><option value="25 PAGES">25 PAGES</option><option value="50 PAGES">50 PAGES</option></select></td>
                                                                 </tr>
-                                                                
-                                                    
-                                                    
+
+
+
                                                                                                                         <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                     <tr>
                                                                     <td class="content_left"><select name="productstocklist" id="dn_stock" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(stock)"><option value="100GSM BOND">100GSM BOND</option></select></td>
                                                                 </tr>
-                                                                
+
                                                                                         <tr>
                                                                 <td class="pulldown"><strong>Colour:</strong></td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="content_left"><select name="productcolorlist" id="dn_colour" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(colour)"><option value="4 COLOUR 1 SIDE">4 COLOUR 1 SIDE</option><option value="4 COLOUR 2 SIDES">4 COLOUR 2 SIDES</option></select></td>
                                                             </tr>
-                                                            
+
                                                                                     <tr style="display:none; ">
                                                             <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(67)"><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="150">150</option><option value="200">200</option><option value="300">300</option><option value="400">400</option><option value="500">500</option></select></td>
                                                         </tr>
-                                                        
-                                                        
-                                                            
-                                                                                
-                                                        
-                                                            
+
+
+
+
+
+
 
 
                         </tbody></table>
@@ -1772,7 +1771,7 @@
                         <div class="price_match_banner">
                         </div>
 
-                        
+
 
                         </div>
                         <!--end product_right_option-->
@@ -1782,7 +1781,7 @@
                                 <div class="clear"></div>
                             </div>
 
-                <div style="clear: both;"></div> 
+                <div style="clear: both;"></div>
             </div>
 
 
@@ -1833,16 +1832,16 @@
 
 
 
-                <div style="clear: both;"></div> 
+                <div style="clear: both;"></div>
             </div>
 
 
 
             <div class = "product_div" id="product_div_id_6" style="display:none">
                 <div class="main_product_container docket_holder">
-                        
 
-                            
+
+
                     <div class="main_left">
                         <div class="main_left_left">
                                                     <h1>Online Docket Book Printing</h1>
@@ -1855,10 +1854,10 @@
                                         <p>
                                         If you'd like 1Print to setup your artwork this option can be added into your shopping cart.
                         </p>
-                        
-                        
+
+
                             <div class="option_size_list docket_templates">
-                            
+
                                     <div class="bro_setup">
                                             <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank" class="bro_link">
                                             </a>
@@ -1876,16 +1875,16 @@
                                         <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank">Download Template</a></div>
                                     </div>
 
-                            
+
                                     <div class="clear"></div>
-                            
+
                             </div>
-                        
-                                    
-                        
+
+
+
                         </div>
                         <div class="main_left_right">
-                        
+
                                     <div class="panel_pricing">
                                     <h4>Pricing includes</h4>
                                     <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span><br />
@@ -1895,16 +1894,16 @@
                         <p class="small">* Limited to one PDF proof per print job.
                         Additional proofs will incur extra charges.</p>
                         </div>
-                        
-                        
-                        
+
+
+
                         <div class="panel_extras">
                             <h4 class="padding_top">Optional Extras</h4>
                         <p class="black">These options can be selected once your items have been added to your shopping cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span><br />
                         <span class="option_indent"><a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span><br />
-                        
+
                         <p>&nbsp;</p>
                         </div>
                         <div class="clear"></div>
@@ -1912,20 +1911,20 @@
                                                 <div class="bcards500 notop">
                                 <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
                                     </div>
-                        
+
                             </div>
-                        
+
                                     </div>
                                     <div style="clear: both;"></div>
                                     <div class="clear"></div>
-                        
-                        
-                                                <div class="main_left_bottom1">
-                        
 
-                        
-                        
-                        
+
+                                                <div class="main_left_bottom1">
+
+
+
+
+
                                     <div class="product_info_design margin_left20">
                                         <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">
                                             <div class="product_info_design_img">
@@ -1933,7 +1932,7 @@
                                             <h4>Design Services</h4>
                                             <p>Need artwork setup? Our team of experienced designers can help</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">read more+</a>
-                                        
+
                                     </div>
                                     <div class="product_info_gallery gallery_docket">
                                         <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docketbooks-gallery.php">
@@ -1942,17 +1941,17 @@
                                             <h4>Gallery</h4>
                                             <p>Looking for design inspiration? See examples of our work</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docketbooks-gallery.php">read more+</a>
-                                        
+
                                     </div>
 
-                        
+
                                     <div class="clear"></div>
-                        
-                        
-                        
-                        
+
+
+
+
                                     </div>
-                        
+
                                     </div>
                                 <div class="main_right">
                                 <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
@@ -1979,10 +1978,10 @@
                                         </tr>
                                         <tr>
                                             <td class="product_options_price_bkgrd" align="left">
-                        
+
                                                 <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
                                                     <tbody><tr>
-                        
+
                                                         <td colspan="2" align="left" style="padding-top:5px;">
                                                             <div class="prooption_desc">Your price will automatically update according to your options chosen.
                                                                                                                                                                         </div></td>
@@ -1990,15 +1989,15 @@
                                                                                             <tr>
                                                                     <td class="pulldown">
                                                                                                                     <strong>Size:</strong>
-                                                                            
-                        
+
+
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="content_left"><select name="productsizelist" id="docket_size" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(size)"><option value="A4">A4</option><option value="A5">A5</option></select></td>
                                                                 </tr>
-                                                                        
-                            
+
+
                                                                                     <tr>
                                                             <td class="pulldown"><strong>Copies:</strong></td>
                                                         </tr>
@@ -2016,30 +2015,30 @@
                                                             <td class="content_left">
                                                         <select name="productcarbonlist2" id="docket_carbonless" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(carbonless)"><option value="Sets of 50">Sets of 50</option></select>                                    </td>
                                                         </tr>
-                                                        
-                                                    
-                                                    
+
+
+
                                                                                         <tr>
                                                                 <td class="pulldown"><strong>Colour:</strong></td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="content_left"><select name="productcolorlist" id="docket_colour" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(colour)"><option value="1 COLOUR">1 COLOUR</option></select></td>
                                                             </tr>
-                                                            
+
                                                                                     <tr style="display:none; ">
                                                             <td class="content_left"><select name="productqtylist" id="docket_colour" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(colour)"><option value="5">5</option><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="100">100</option></select></td>
                                                         </tr>
-                                                        
+
                                                         <tr>
                                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                         </tr><tr>
                                                             <td class="content_left"><select name="productprintedsidelist" id="docket_side" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(side)"><option value="1 SIDE">1 SIDE</option><option value="CONDITIONS ON BACK">CONDITIONS ON BACK</option></select></td>
                                                         </tr>
-                                                                                                
-                                                            
-                                                    
-                        
-                        
+
+
+
+
+
                         </tbody></table>
                         </td>
                         </tr>
@@ -2058,17 +2057,17 @@
                             <tr><td class="price_holder_spacer"></td></tr>
                         </tbody></table>
                         </div>
-                        
-                        
+
+
                         <div class="product_price_panel">
                         <table class="product_price_holder" cellpadding="0" cellspacing="0">
                             <tbody><tr>
                                 <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
                                     <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
                             <tr><td class="product_options_price_bkgrd" align="left">
-                        
-                        
-                        
+
+
+
                                     <div id="productpriceupdate">
                                             <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">5</td>
                                     <td class="kinds_input"><input type="text" name="usersetqty_5-productid_68" id="usersetqty_5-productid_68" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_5-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;5&quot;, &quot;A4&quot;,  &quot;173.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;</td>
@@ -2097,21 +2096,21 @@
                                                     <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                     <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                                     <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearDockbookCache(&quot;A4&quot;, &quot;1 COLOUR&quot;, &quot;500&quot;, &quot;68&quot;, &quot;0&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;Sets of 50&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(docket)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
-                        
+
                                 </td></tr>
                             <tr><td class="product_options_price_footer"></td></tr>
                         </tbody></table>
                         </div>
-                        
-                        
-                        
-                        
 
-                        
+
+
+
+
+
                         </div>
                         <!--end product_right_option-->
                         <!-- setting up own side bar bottom -->
-                        
+
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -2120,12 +2119,12 @@
 
 
 
-                <div style="clear: both;"></div> 
+                <div style="clear: both;"></div>
             </div>
 
             <div class = "product_div" id="product_div_id_7" style="display:none">
                 <div class="main_product_container envelope_holder">
-                    
+
 
                    	<div class="main_left">
                         <div class="main_left_left">
@@ -2146,21 +2145,21 @@
                     <p class="small">* Limited to one PDF proof per print job.
                     Additional proofs will incur extra charges.</p>
                     </div>
-                    
+
                     <div class="clear"></div>
                                 <br style="">
                                     <div class="bcards500 notop">
                             <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
                                 </div>
-                    
+
                                 </div>
                                 <div class="clear"></div>
-                    <div style="clear: both;"></div> 
-                    
-                    
-                                
+                    <div style="clear: both;"></div>
+
+
+
                     <div class="option_size_list envelope_templates">
-                    
+
                         <div class="size_4pages size_row">
                             <div class="size_col1">
                                 <img src="{{URL::asset('/image/brochure-4pages-single.png') }} " alt="4 Pages Single Fold" title="4 Pages Single Fold">
@@ -2200,9 +2199,9 @@
                                 <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank">Download Template</a></div>
                             </div>
                             <div class="clear"></div>
-                            <div style="clear: both;"></div> 
+                            <div style="clear: both;"></div>
                         </div>
-                        
+
                         <div class="size_6rpages size_row">
                             <div class="size_col1">
                                 <img src="{{URL::asset('/image/brochure folds-09.jpg') }} " alt="4 Page Landscape" title="4 Page Landscape">
@@ -2242,16 +2241,16 @@
                                 <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank">Download Template</a></div>
                             </div>
                             <div class="clear"></div>
-                            <div style="clear: both;"></div> 
+                            <div style="clear: both;"></div>
                         </div>
-                        
+
                     </div>
-                    
+
                         <div class="description-box">
                             <div>
                             </div>
                         </div>
-                        
+
                         <div>
                         <p>&nbsp;</p>
                     <h3>A powerful marketing tool</h3>
@@ -2264,15 +2263,15 @@
                     <p>
                     For envelope printing at a minimum price but maximum convenience, 1Print is the company for you. We're proud to make life as easy as possible for our clients. That's why we offer free delivery Australia-wide. Envelope printing will be dispatched in 5-7 working days after we have received your order or artwork approval. The dispatch time will depend on the quantity and type of printing. If you're in need of express printing, we have a guaranteed 48 hour dispatch express factory. Orders must be placed daily by 2pm, excluding Saturday &amp; Sunday. Pickup is also available from our production facility daily between 8.00am to 5.00pm. For more information regarding the printing and delivery of your envelopes, click here.
                     </p><p>&nbsp;</p>
-                    If you'd like to request a quote, simply click here and fill out the form. Upon receiving your details, 1Print will contact you promptly to discuss the best solutions for your marketing needs. 
+                    If you'd like to request a quote, simply click here and fill out the form. Upon receiving your details, 1Print will contact you promptly to discuss the best solutions for your marketing needs.
                     <p></p>
                         </div>
-                        
-                        
-                        <div style="clear: both;"></div> 
+
+
+                        <div style="clear: both;"></div>
                                 <div class="main_left_bottom1">
-                    
-                    
+
+
                                 <div class="product_info_design">
                                     <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/design-services.php">
                                         <div class="product_info_design_img">
@@ -2280,7 +2279,7 @@
                                         <h4>Design Services</h4>
                                         <p>Need artwork setup? Our team of experienced designers can help</p>
                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/design-services.php">read more+</a>
-                                    
+
                                 </div>
                                 <div class="product_info_gallery gallery_envelope">
                                     <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/envelopes-gallery.php">
@@ -2289,17 +2288,17 @@
                                         <h4>Gallery</h4>
                                         <p>Looking for design inspiration? See examples of our work</p>
                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/envelopes-gallery.php">read more+</a>
-                                    
+
                                 </div>
 
-                    
+
                                 <div class="clear"></div>
-                    
-                    
-                    
-                    
+
+
+
+
                                 </div>
-                    
+
                                 </div>
                             <div class="main_right">
                             <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
@@ -2310,25 +2309,25 @@
                                     </tr>
                                     <tr>
                                         <td class="product_options_price_bkgrd" align="left">
-                    
+
                                             <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
                                                 <tbody><tr>
-                    
+
                                                     <td colspan="2" align="left" style="padding-top:5px;">
                                                         <div class="prooption_desc">Your price will automatically update according to your options chosen.
                                                                                                                                                                     </div></td>
                                                 </tr>
-                                                
-                        
-                                                
+
+
+
                                                                                 <tr>
                                                         <td class="pulldown"><strong>Envelope Type:&nbsp;</strong><br style="">White 100gsm, peel 'n' seal or self seal,<br style="">30% ink coverage</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="content_left"><select name="productenvlist" id="env_type" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(type)"><option value="DL PLAIN">DL PLAIN 110 x 220mm</option><option value="DL WINDOW">DL WINDOW 110 x 220mm</option><option value="DLX PLAIN">DLX PLAIN 120 x 235mm</option><option value="DLX WINDOW">DLX WINDOW 120 x 235mm</option><option value="C5 PLAIN">C5 PLAIN 162 x 229mm</option><option value="C5 WINDOW">C5 WINDOW 162 x 229mm</option><option value="C4 PLAIN">C4 PLAIN 229 x 324mm</option><option value="C4 WINDOW">C4 WINDOW 229 x 324mm</option></select></td>
                                                     </tr>
-                                                
-                                                
+
+
                                                                                     <tr>
                                                             <td class="pulldown"><strong>Colour:</strong></td>
                                                         </tr>
@@ -2341,16 +2340,16 @@
                                                         <tr style="display: none;">
                                                             <td id="envcolorupdate1" class="content_left"><select name="productcolorlist" id="env_colour" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(colour)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option></select></td>
                                                         </tr>
-                                                            
+
                                                                                 <tr style="display:none; ">
                                                         <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(62)"><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="10000">10000</option></select></td>
                                                     </tr>
-                                                    
-                                                    
-                                                        
-                                                
-                    
-                    
+
+
+
+
+
+
                     </tbody></table>
                     </td>
                     </tr>
@@ -2369,17 +2368,17 @@
                         <tr><td class="price_holder_spacer"></td></tr>
                     </tbody></table>
                     </div>
-                    
-                    
+
+
                     <div class="product_price_panel">
                     <table class="product_price_holder" cellpadding="0" cellspacing="0">
                         <tbody><tr>
                             <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
                                 <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
                         <tr><td class="product_options_price_bkgrd" align="left">
-                    
-                    
-                    
+
+
+
                                 <div id="productpriceupdate">
                                         <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table class="2" width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">500</td>
                                 <td class="kinds_input"><input type="text" name="usersetqty_500-productid_62" id="usersetqty_500-productid_62" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_500-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;120.00&quot;)">&nbsp;</td>
@@ -2407,18 +2406,18 @@
                                                 <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                 <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                                 <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearEnvCache(&quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(envelope)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
-                    
+
                             </td></tr>
                         <tr><td class="product_options_price_footer"></td></tr>
                     </tbody></table>
                     </div>
-                    
-                    
-                    
+
+
+
                     </div>
                     <!--end product_right_option-->
                     <!-- setting up own side bar bottom -->
-                    
+
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -2432,7 +2431,7 @@
 
             <div class = "product_div" id="product_div_id_8" style="display:none">
                 <div class="main_product_container express_holder">
-	
+
 
                     <div class="main_left">
                         <div class="main_left_left">
@@ -2444,7 +2443,7 @@
                                         <p>Pickup is available from our production facility daily between 8.00am to 5.00pm.</p>
                                         <p>&nbsp;</p>
                                         <p><a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/contact.php" target="_blank">Click here to view our factory location.</a></p>
-                        
+
                         </div>
                                     <div class="main_left_right">
                                     <div class="panel_pricing">
@@ -2463,12 +2462,12 @@
                                         <div class="bcards500 notop">
                                 <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
                                     </div>
-                        
-                        
+
+
                                     </div>
                                     <div class="clear"></div>
                                     <div style="clear: both;"></div>
-                        
+
                         <div class="option_size_list express_templates">
                             <div class="bro_setup">
                                 <a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf" target="_blank" class="bro_link">
@@ -2512,11 +2511,11 @@
                             </div>
                             <div style="clear: both;"></div>
                         </div>
-                        
-                        
+
+
                                     <div class="main_left_bottom1">
-                        
-                        
+
+
                                     <div class="product_info_design">
                                         <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/design-services.php">
                                             <div class="product_info_design_img">
@@ -2524,7 +2523,7 @@
                                             <h4>Design Services</h4>
                                             <p>Need artwork setup? Our team of experienced designers can help</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/design-services.php">read more+</a>
-                                        
+
                                     </div>
                                     <div class="product_info_gallery gallery_urgent">
                                         <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/gallery.php">
@@ -2533,16 +2532,16 @@
                                             <h4>Gallery</h4>
                                             <p>Looking for design inspiration? See examples of our work</p>
                                             </a><a class="blue_link" href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/gallery.php">read more+</a>
-                                        
+
                                     </div>
-                        
+
                                     <div class="clear"></div>
-                        
-                        
-                        
-                        
+
+
+
+
                                     </div>
-                        
+
                         </div>
                                 <div class="main_right">
                                 <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
@@ -2553,21 +2552,21 @@
                                         </tr>
                                         <tr>
                                             <td class="product_options_price_bkgrd" align="left">
-                        
+
                                                 <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
                                                     <tbody><tr>
-                        
+
                                                         <td colspan="2" align="left" style="padding-top:5px;">
                                                             <div class="prooption_desc">Your price will automatically update according to your options chosen.
                                                                                                                                                                             <script style="">
                                                                 //#add jquery for product_id 72 to hide 350GSM for Business card/ hide 400GSM for other SIZE
                                                                 //100dfdccec5db05c2d62228c9ef312f4
-                        
+
                                                                 jQuery(document).ready(function (){
                                                                     hide400();
                                                                 });
                                                                 function hide400(){
-                        
+
                                                                     if (jQuery('#productsizelist').val() == 32) {
                                                                         console.log(jQuery('#productsizelist').val());
                                                                         console.log(' start working ...');
@@ -2578,40 +2577,40 @@
                                                                         jQuery('#productstocklist option[value="51"]').remove();
                                                                     }
                                                                 }
-                        
-                        
-                        
+
+
+
                                                                 </script>
                                                                                                 </div></td>
                                                     </tr>
                                                     <tr><td class="pulldown"><strong>Size:</strong></td></tr><tr><td class="content_left" id="sizecontainer">
                                                                                                 <select name="productsizelist" onchange="UpdateExpProductPrice(size)" style="width: 225px; font-size: 12px;" id="express_size"><option value="32">BUSINESS CARD 90 x 55</option><option value="33">DL 99 x 210</option><option value="34">A6 105 x 148</option><option value="35">A5 148 x 210</option><option value="36">A4 210 x 297</option><option value="37">A3 297 x 420</option></select>                                        </td></tr>
-                                                            
-                            
-                                                    
-                                                    
+
+
+
+
                                                                                     <tr><td class="pulldown"><strong>Stock:</strong></td></tr><tr><td class="content_left" id="stockcontainer1" style="display: none;">
                                                                         {{-- <select name="productstocklist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productstocklist"><option value="35">150GSM GLOSS</option><option value="51">400GSM GLOSS</option><option value="36">350GSM GLOSS</option></select>                                                                                    </td> --}}
                                                                         <td class="content_left" id="stockcontainer2">
                                                                     <select name="productstocklist2" onchange="UpdateExpProductPrice('stock');" style="width: 225px; font-size: 12px;" id="express_stock"><option value="51">400GSM GLOSS</option></select>                                                </td></tr>
-                                                                    
-                                                    
+
+
                                                                                     <tr style="display:none; ">
                                                             <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="swap_exp_printing(72)"><option value="150">150</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option></select></td>
                                                         </tr>
-                                                        
+
                                                         <tr><td class="pulldown"><strong>Printed Sides:</strong></td></tr><tr><td class="content_left" id="printedsidecontainer">
                                                                 <select name="productprintedsidelist" onchange="swap_exp_printing(sides)" style="width: 225px; font-size: 12px;" id="express_sides"><option value="19">FULL COLOUR FRONT ONLY</option><option value="20">FULL COLOUR FRONT AND BACK</option></select>                                            </td></tr>
-                                                                
+
                                                             <tr><td class="pulldown"><strong>Finish:</strong></td></tr><tr><td class="content_left" id="finishcontainer1" style="display: none;">
                                                                 <select name="productfinishlist1" onchange="UpdateExpProductPrice(finish);" style="width: 225px; font-size: 12px;" id="express_finish"><option value="7">NO LAMINATION</option><option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option><option value="9">MATT OR GLOSS LAMINATED 2 SIDES</option></select>                                            </td>
                                                         <td class="content_left" id="finishcontainer2" style="display: none;">
                                                         {{-- <select name="productfinishlist2" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist2"><option value="7">NO LAMINATION</option></select>                                                                    </td> --}}
                                                         <td class="content_left" id="finishcontainer3">
                                                                                         <select name="productfinishlist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist"><option value="7">NO LAMINATION</option><option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option></select>                                                                    </td></tr>
-                                                        
-                                                                                
-                                                        
+
+
+
                                                             <tr><td class="pulldown" id="foldingcontainer_title" style="display: none;"><strong>Folding:</strong></td></tr><tr><td class="content_left" id="foldingcontainer1" style="display: none;">
                                                             <select name="productfoldinglist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfoldinglist"><option value="1">NO FOLDING</option><option value="2">FOLD A4 TO 4PP OR 6PP DL</option><option value="3">FOLD A3 TO A4</option><option value="4">FOLD A5 TO A6</option></select>                            </td>
                                                             <td class="content_left" id="foldingcontainer2" style="display: none;">
@@ -2622,11 +2621,11 @@
                                                             <select name="productfoldinglist4" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfoldinglist4"><option value="1">NO FOLDING</option><option value="4">FOLD A5 TO A6</option></select>                            </td>
                                                             <td class="content_left" id="foldingcontainer5" style="display: none;">
                                                             <select name="productfoldinglist5" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfoldinglist5"><option value="1">NO FOLDING</option></select>                            </td></tr>
-                                                            
+
                         <tr><td class="pulldown" id="scoringcontainer_title" style="display: none;"><strong>Scoring (Creasing):</strong></td></tr><tr><td class="content_left" id="scoringcontainer1" style="display: none;">
                                 <select name="productscoringlist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productscoringlist"><option value="2">NO SCORING</option><option value="1">SCORING</option></select>                                </td></tr>
-                                
-                        
+
+
                         </tbody></table>
                         </td>
                         </tr>
@@ -2645,17 +2644,17 @@
                             <tr><td class="price_holder_spacer"></td></tr>
                         </tbody></table>
                         </div>
-                        
-                        
+
+
                         <div class="product_price_panel">
                         <table class="product_price_holder" cellpadding="0" cellspacing="0">
                             <tbody><tr>
                                 <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
                                     <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
                             <tr><td class="product_options_price_bkgrd" align="left">
-                        
-                        
-                        
+
+
+
                                     <div id="productpriceupdate">
                                             <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr class="show"><td class="qty_left">150</td>
                                     <td class="kinds_input"><input type="text" name="usersetqty_150-productid_72" id="usersetqty_150-productid_72" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_150-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;150&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;75.00&quot;)">&nbsp;</td>
@@ -2705,22 +2704,22 @@
                                                     <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                                     <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearExpPrintingCache(&quot;32&quot;,&quot;36&quot;, &quot;19&quot;, &quot;500&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;0&quot;);"></a></td>
                                                     <td><input type="submit" class="add_to_cart" onclick="addToCard(express)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
-                        
+
                                 </td></tr>
                             <tr><td class="product_options_price_footer"></td></tr>
                         </tbody></table>
                         </div>
-                        
-                        
-                        
-                        
+
+
+
+
                         <!-- email your order in 3 steps -->
 
-                        
+
                         </div>
                         <!--end product_right_option-->
                         <!-- setting up own side bar bottom -->
-                        
+
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -2730,7 +2729,7 @@
 
             <div class = "product_div" id="product_div_id_9" style="display:none">
                 <div class="main_product_container flyer_holder">
-	
+
                 	<div class="main_left">
                                             <div class="main_left_left">
                                                             <h1>Online Flyer Printing</h1>
@@ -2744,10 +2743,10 @@
                                                 Reach potential customers with the right marketing message using cost effective, full colour flyers or economical, single colour flyer printing.
                                                 </p>
                                                 <br style="">
-                                    
+
                                     <div class="clear"></div>
                                     <div style="clear: both;"></div>
-                                
+
                                 <div class="option_size_list flyer_templates">
                                     <div class="bro_setup">
                                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5" class="bro_link">
@@ -2783,9 +2782,9 @@
                                     </div>
 
                                 </div>
-                                
-                                        
-                                
+
+
+
                                 </div>
                                             <div class="main_left_right">
                                             <div class="panel_pricing">
@@ -2810,19 +2809,19 @@
                                                 <div class="bcards500 notop">
                                         <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
                                             </div>
-                                
-                                
+
+
                                             </div>
                                             <div class="clear"></div>
                                             <div style="clear: both;"></div>
-                                
-                                
-                                            <div class="main_left_bottom1">
-                                
 
-                                
-                                
-                                
+
+                                            <div class="main_left_bottom1">
+
+
+
+
+
                                             <div class="product_info_design">
                                                 <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/design-services.php">
                                                     <div class="product_info_design_img">
@@ -2830,7 +2829,7 @@
                                                     <h4>Design Services</h4>
                                                     <p>Need artwork setup? Our team of experienced designers can help</p>
                                                     </a><a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/design-services.php">read more+</a>
-                                                
+
                                             </div>
                                             <div class="product_info_gallery gallery_flyer">
                                                 <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/flyers-gallery.php">
@@ -2839,17 +2838,17 @@
                                                     <h4>Gallery</h4>
                                                     <p>Looking for design inspiration? See examples of our work</p>
                                                     </a><a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/flyers-gallery.php">read more+</a>
-                                                
+
                                             </div>
 
-                                
+
                                             <div class="clear"></div>
-                                
-                                
-                                
-                                
+
+
+
+
                                             </div>
-                                
+
                                             </div>
                                         <div class="main_right">
                                         <div class="clearfix grpelem" id="ppu4866-6"><!-- column -->
@@ -2860,10 +2859,10 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="product_options_price_bkgrd" align="left">
-                                
+
                                                         <table cellpadding="0" cellspacing="0" border="0" width="236" class="product_option_holder">
                                                             <tbody><tr>
-                                
+
                                                                 <td colspan="2" align="left" style="padding-top:5px;">
                                                                     <div class="prooption_desc">Your price will automatically update according to your options chosen.
                                                                                                                                                                                 </div></td>
@@ -2884,10 +2883,10 @@
                                                                         <tr style="display: none;">
                                                                             <td id="flyersizeupdate2" class="content_left"><select name="productsizelist2" id="productsizelist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceFlyer(63)"><option value="A5 148 x 210">A5 148 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option></select></td>
                                                                         </tr>
-                                                                            
-                                    
-                                                            
-                                                            
+
+
+
+
                                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                             <tr>
                                                                             <td class="content_left" id="productflyer"><select id="flyer_stock" onchange="UpdateFlyerProductPrice(stock)" style="width: 225px; font-size: 12px;" name="productstocklist">
@@ -2896,7 +2895,7 @@
                                                                                     <option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK</option>
                                                                                 </select></td>
                                                                         </tr>
-                                                                            
+
                                                                                                 <tr>
                                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                                     </tr>
@@ -2914,18 +2913,18 @@
                                                                             <select id="productcolorlist" onchange="UpdateProductPrice4a(63)" style="width: 225px; font-size: 12px;" name="productcolorlist">
                                                                                 <option value="FULL COLOUR FRONT ONLY">FULL COLOUR FRONT ONLY</option><option value="FULL COLOUR BOTH SIDES">FULL COLOUR BOTH SIDES</option></select></td>
                                                                     </tr>
-                                                                    
+
                                                                                             <tr style="display:none; ">
                                                                     <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(63)"><option value="50">50</option><option value="100">100</option><option value="150">150</option><option value="200">200</option><option value="250">250</option><option value="500">500</option><option value="750">750</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option></select></td>
                                                                 </tr>
-                                                                
-                                                                
-                                                                    
-                                                                                        
-                                                                
-                                                                    
-                                
-                                
+
+
+
+
+
+
+
+
                                 </tbody></table>
                                 </td>
                                 </tr>
@@ -2944,17 +2943,17 @@
                                     <tr><td class="price_holder_spacer"></td></tr>
                                 </tbody></table>
                                 </div>
-                                
-                                
+
+
                                 <div class="product_price_panel">
                                 <table class="product_price_holder" cellpadding="0" cellspacing="0">
                                     <tbody><tr>
                                         <td class="product_options_price_bkgrd" style="padding-top:5px;" align="left">
                                             <div class="price_desc">Select items you would like to purchase, then press "Add to Cart"</div></td></tr>
                                     <tr><td class="product_options_price_bkgrd" align="left">
-                                
-                                
-                                
+
+
+
                                             <div id="productpriceupdate">
                                                     <div id="refreshselectproduct"><form name="frmSetProductPrice" method="post" action="cart.php" onsubmit="return submitadd2cart(this)"><table width="230" align="left"><tbody><tr><td class="qty_header"><strong>Qty</strong></td><td class="kinds_header"><strong>Kinds</strong></td><td class="price_header"><strong>Price</strong></td><td class="buy_header"><strong>Buy</strong></td></tr><tr><td class="qty_left">50</td>
                                             <td class="kinds_input"><input type="text" name="usersetqty_50-productid_63" id="usersetqty_50-productid_63" value="1" maxlength="2" style="width:30px" onkeyup="UpdateSelectedProduct3(&quot;usersetqty_50-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;50&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;77.00&quot;)">&nbsp;</td>
@@ -3018,21 +3017,21 @@
                                                             <tr><td colspan="4" class="price_msg_1"><center><span style="class=" price_msg_first'="">Price include GST and delivery</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                                             <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearFlyerCache(&quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;A4 210 x 297&quot;, &quot;50&quot;, &quot;63&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(flyer)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
-                                
+
                                         </td></tr>
                                     <tr><td class="product_options_price_footer"></td></tr>
                                 </tbody></table>
                                 </div>
-                                
-                                
-                                
-                                
 
-                                
+
+
+
+
+
                                 </div>
                                 <!--end product_right_option-->
                                 <!-- setting up own side bar bottom -->
-                                
+
                                         </div>
                                         <div class="clear"></div>
                                     </div>
@@ -3043,7 +3042,7 @@
 
             <div class = "product_div" id="product_div_id_10" style="display:none">
                 <div class="main_product_container magnet_holder">
-	
+
 
                     <div class="main_left">
                             <div class="main_left_left">
@@ -3094,7 +3093,7 @@
                                                 <h4>Design Services</h4>
                                                 <p>Need artwork setup? Our team of experienced designers can help</p>
                                                 </a><a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">read more+</a>
-                                            
+
                                         </div>
                                         <div class="product_info_gallery gallery_magnet">
                                             <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">
@@ -3103,9 +3102,9 @@
                                                 <h4>Gallery</h4>
                                                 <p>Looking for design inspiration? See examples of our work</p>
                                                 </a><a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">read more+</a>
-                                            
+
                                         </div>
-                                        
+
 
                                         <div class="clear"></div>
 
@@ -3138,31 +3137,31 @@
 
 
 
-                                                                                
+
 
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="content_left"><select name="productsizelist" id="fridge_size" style="width: 225px; font-size: 12px;" onchange="UpdateFridgeProductPrice(size)"><option value="50x50mm Square cut">50x50mm Square cut</option><option value="50x50mm Rounded corners cut">50x50mm Rounded corners cut</option><option value="70x50mm Square cut">70x50mm Square cut</option><option value="70x50mm Rounded corners cut">70x50mm Rounded corners cut</option><option value="90x50mm Square cut">90x50mm Square cut</option><option value="90x50mm Rounded corners cut">90x50mm Rounded corners cut</option></select></td>
                                                                     </tr>
-                                                                            
-                                
-                                                        
-                                                        
-                                                        
-                                                        
+
+
+
+
+
+
                                                                                         <tr style="display:none; ">
                                                                 <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(74)"><option value="500">500</option><option value="1000">1000</option><option value="2500">2500</option><option value="5000">5000</option></select></td>
                                                             </tr>
-                                                            
+
                                                                                                                                     <tr>
                                                                                                         <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                                                     </tr><tr>
                                                                                                         <td class="content_left"><select name="productprintedsidelist" id="fridge_sides" style="width: 225px; font-size: 12px;" onchange="UpdateFridgeProductPrice(sides)"><option value="1 SIDE">1 SIDE</option></select></td>
                                                                                                     </tr>
-                                                                                                    
-                                                                
-                                                        
+
+
+
 
 
                             </tbody></table>
@@ -3230,7 +3229,7 @@
 
             <div class = "product_div" id="product_div_id_11" style="display:none">
                 <div class="main_product_container letterhead_holder">
-	
+
 
                 <div class="main_left">
                         <div class="main_left_left">
@@ -3248,7 +3247,7 @@
                                         <div class="bro_sizing_sml">148 x 210m(folded)</div>
                                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download Template</a></div>
                                     </div>
-                                        
+
                                 </div>
 
 
@@ -3296,7 +3295,7 @@
                                                     <h4>Design Services</h4>
                                                     <p>Need artwork setup? Our team of experienced designers can help</p>
                                                     </a><a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">read more+</a>
-                                                
+
                                             </div>
                                             <div class="product_info_gallery gallery_letterhead">
                                                 <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">
@@ -3305,7 +3304,7 @@
                                                     <h4>Gallery</h4>
                                                     <p>Looking for design inspiration? See examples of our work</p>
                                                     </a><a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">read more+</a>
-                                                
+
                                             </div>
 
 
@@ -3337,22 +3336,22 @@
                                                                                                     <tr>
                                                                             <td class="pulldown">
                                                                                                                             <strong>Size:</strong>
-                                                                                    
+
 
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td class="content_left"><select name="productsizelist" id="lw_size" style="width: 225px; font-size: 12px;" onchange="UpdateLWProductPrice(size)"><option value="A4 210 x 297">A4 210 x 297</option></select></td>
                                                                         </tr>
-                                                                                
-                                    
-                                                            
-                                                            
+
+
+
+
                                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                             <tr>
                                                                             <td class="content_left" id="lw_stock"><select onchange="UpdateLWProductPrice(stock)" style="width: 225px; font-size: 12px;" id="productstocklist" name="productstocklist"><option value="100GSM LASER BOND">100GSM LASER BOND</option><option value="100GSM RECYCLED 100%">100GSM RECYCLED 100%</option></select></td>
                                                                         </tr>
-                                                                            
+
                                                                                                 <tr>
                                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                                     </tr>
@@ -3369,11 +3368,11 @@
                                                                     <tr style="display: none;">
                                                                         <td id="postcodecolorupdate1" class="content_left"><select name="productcolorlist" id="lw_colour" style="width: 225px; font-size: 12px;" onchange="UpdateLWProductPrice(colour)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="3 PMS COLOURS">3 PMS COLOURS</option><option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option></select></td>
                                                                     </tr>
-                                                                    
+
                                                                                             <tr style="display:none; ">
                                                                     <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(60)"><option value="500">500</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="10000">10000</option></select></td>
                                                                 </tr>
-                                                                
+
                                                                                                     <tr>
                                                                         <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                     </tr>
@@ -3383,11 +3382,11 @@
                                                                     <tr>
                                                                         <td id="lhprintedsideupdate1" class="content_left" style="display: none;"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceLW(60)"><option value="1 SIDE">1 SIDE</option></select></td>
                                                                     </tr>
-                                                                    
-                                                                    
-                                                                                        
-                                                                
-                                                                    
+
+
+
+
+
 
 
                                 </tbody></table>
@@ -3461,7 +3460,7 @@
 
 
 
-                      
+
 
                                 </div>
                                 <!--end product_right_option-->
@@ -3475,7 +3474,7 @@
 
             <div class = "product_div" id="product_div_id_12" style="display:none">
                 <div class="main_product_container postcard_holder">
-	
+
 
                     <div class="main_left">
                         <div class="main_left_left">
@@ -3535,7 +3534,7 @@
                                         </div>
                                     </div>
 
-                                                
+
 
                                     </div>
                                                 <div class="main_left_right">
@@ -3566,11 +3565,11 @@
                                     <p>&nbsp;</p>
                                     </div>
                                     <div class="clear"></div>
-                                                    
+
 
                                                 </div>
                                                 <div class="clear"></div>
-                                                
+
                                 <div style="clear: both;"></div>
 
                                                             <div class="main_left_bottom1">
@@ -3585,7 +3584,7 @@
                                                         <h4>Design Services</h4>
                                                         <p>Need artwork setup? Our team of experienced designers can help</p>
                                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">read more+</a>
-                                                    
+
                                                 </div>
                                                 <div class="product_info_gallery gallery_postcard">
                                                     <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">
@@ -3594,9 +3593,9 @@
                                                         <h4>Gallery</h4>
                                                         <p>Looking for design inspiration? See examples of our work</p>
                                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">read more+</a>
-                                                    
+
                                                 </div>
- 
+
 
                                                 <div class="clear"></div>
 
@@ -3621,24 +3620,24 @@
 
                                                                     <td colspan="2" align="left" style="padding-top:5px;">
                                                                         <div class="prooption_desc">Your price will automatically update according to your options chosen.
-                                                                                                                
+
                                                                                                                                                                                     </div></td>
                                                                 </tr>
                                                                                                         <tr>
                                                                                 <td class="pulldown">
                                                                                                                                 <strong>Size:</strong>
-                                                                                        
+
 
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td class="content_left"><select name="productsizelist" id="post_size" style="width: 225px; font-size: 12px;" onchange="UpdatePostProductPrice(size)"><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option><option value="A5 148 x 210">A5 148 x 210</option></select></td>
                                                                             </tr>
-                                                                                    
-                                        
-                                                                
-                                                                
-                                                                                                
+
+
+
+
+
                                                                                                     <tr>
                                                                             <td class="pulldown"><strong>Colour:</strong></td>
                                                                         </tr>
@@ -3660,22 +3659,22 @@
                                                                         <tr style="display: none;">
                                                                             <td id="postcodecolorupdate4" class="content_left"><select onchange="UpdateProductPrice(59)" style="width: 225px; font-size: 12px;" id="productcolorlist" name="productcolorlist"><option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option><option value="FULL COLOUR 2 SIDES" selected="selected">FULL COLOUR 2 SIDES</option></select></td>
                                                                         </tr>
-                                                                        
+
                                                                                                 <tr style="display:none; ">
                                                                         <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(59)"><option value="50">50</option><option value="100">100</option><option value="150">150</option><option value="200">200</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option></select></td>
                                                                     </tr>
-                                                                    
-                                                                    
-                                                                        
+
+
+
                                                                                                                                                                                                 <tr><td class="pulldown"><strong>Finish:</strong></td></tr>
-                                                                                                    
+
                                                                                                         <tr>
                                                                             <td class="content_left" id="stockfinish"><select name="productstocklist2" id="post_finish" style="width: 225px; font-size: 12px;" onchange="UpdatePostProductPrice(finish)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option></select></td>
                                                                             <td id="stockfinishupdate" class="content_left" style="display: none;"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice2(59)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option><option value="MATT OR GLOSS LAMINATED 2 SIDES">MATT OR GLOSS LAMINATED 2 SIDES</option></select></td>
                                                                             <td id="stockfinishupdate1" class="content_left" style="display: none;"><select name="productstocklist2" id="productstocklist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice3(59)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option></select></td>
                                                                         </tr>
-                                                                        
-                                                                        
+
+
 
 
                                     </tbody></table>
@@ -3791,7 +3790,7 @@
 
             <div class = "product_div" id="product_div_id_13" style="display:none">
                 <div class="main_product_container poster_holder">
-	
+
 
                     <div class="main_left">
                             <div class="main_left_left">
@@ -3806,7 +3805,7 @@
                                                     Available in sizes B0, A0, A1, A2 and A3, our posters arrive with a glossy finish in anything from one to full colour. Make a statement about your business; say it with posters.
                                     </p>
 
-                                                
+
 
 
 
@@ -3839,7 +3838,7 @@
 
                                                 </div>
                                                 <div class="clear"></div>
-                                                
+
                                         <div style="clear: both;"></div>
                                     <div class="option_size_list poster_templates">
                                         <div class="bro_setup">
@@ -3907,7 +3906,7 @@
                                                         <h4>Design Services</h4>
                                                         <p>Need artwork setup? Our team of experienced designers can help</p>
                                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">read more+</a>
-                                                    
+
                                                 </div>
                                                 <div class="product_info_gallery gallery_poster">
                                                     <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">
@@ -3916,9 +3915,9 @@
                                                         <h4>Gallery</h4>
                                                         <p>Looking for design inspiration? See examples of our work</p>
                                                         </a><a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">read more+</a>
-                                                    
+
                                                 </div>
-                                                
+
 
                                                 <div class="clear"></div>
 
@@ -3948,43 +3947,43 @@
                                                                                                         <tr>
                                                                                 <td class="pulldown">
                                                                                                                                 <strong>Size:</strong>
-                                                                                        
+
 
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td class="content_left"><select name="productsizelist" id="poster_size" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(size)"><option value="A3">A3</option><option value="A2">A2</option></select></td>
                                                                             </tr>
-                                                                                    
-                                        
-                                                                
-                                                                
+
+
+
+
                                                                                                                                     <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                                 <tr>
                                                                                 <td class="content_left"><select name="productstocklist" id="poster_stock" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(stock)"><option value="150GSM GLOSS">150GSM GLOSS</option><option value="170GSM GLOSS">170GSM GLOSS</option><option value="200GSM GLOSS">200GSM GLOSS</option></select></td>
                                                                             </tr>
-                                                                            
+
                                                                                                     <tr>
                                                                             <td class="pulldown"><strong>Colour:</strong></td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td class="content_left"><select name="productcolorlist" id="poster_colour" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(colour)"><option value="FULL COLOUR">FULL COLOUR</option></select></td>
                                                                         </tr>
-                                                                        
+
                                                                                                 <tr style="display:none; ">
                                                                         <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(66)"><option value="100">100</option><option value="250">250</option><option value="500">500</option><option value="750">750</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option></select></td>
                                                                     </tr>
-                                                                    
+
                                                                                                                                             <tr>
                                                                                                                 <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                                                             </tr><tr>
                                                                                                                 <td class="content_left"><select name="productprintedsidelist" id="poster_sides" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(sides)"><option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option></select></td>
                                                                                                             </tr>
-                                                                                                            
-                                                                        
-                                                                                            
-                                                                    
-                                                                        
+
+
+
+
+
 
 
                                     </tbody></table>
@@ -4078,7 +4077,7 @@
 
             <div class = "product_div" id="product_div_id_14" style="display:none">
                 <div class="main_product_container folder_holder">
-        
+
 
                     <div class="main_left">
                         <div class="main_left_left">
@@ -4096,7 +4095,7 @@
                                                         <span class="option_indent">Download a PDF template to setup your own design or send us your logo and details and we'll setup your artwork for FREE*</span>
                                                     </div>
 
-                                                    
+
                                                     </div>
                                                     <br style="">
                                                     <h3 style="padding-bottom: 0;">Short run presentation folders.</h3>
@@ -4160,7 +4159,7 @@
                                                             <h4>Design Services</h4>
                                                             <p id="folders_anchor">Need artwork setup? Our team of experienced designers can help</p>
                                                             </a><a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">read more+</a>
-                                                        
+
                                                     </div>
                                                     <div class="product_info_gallery gallery_folder">
                                                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">
@@ -4169,9 +4168,9 @@
                                                             <h4>Gallery</h4>
                                                             <p>Looking for design inspiration? See examples of our work</p>
                                                             </a><a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">read more+</a>
-                                                        
+
                                                     </div>
-                                                    
+
                                                     <div class="clear" id="anchor"></div>
 
 
@@ -4197,20 +4196,20 @@
                                                                         <div class="prooption_desc">Your price will automatically update according to your options chosen.
                                                                                                                                                                                     </div></td>
                                                                 </tr>
-                                                                
-                                        
-                                                                
-                                                                
+
+
+
+
                                                                                                                                     <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                                 <tr>
                                                                                 <td class="content_left"><select name="productstocklist" id="folder_stock" style="width: 225px; font-size: 12px;" onchange="UpdateFolderProductPricePres(stock)"><option value="310GSM ARTBOARD">310GSM ARTBOARD</option><option value="350GSM ARTBOARD">350GSM ARTBOARD</option><option value="400GSM ARTBOARD">400GSM ARTBOARD</option></select></td>
                                                                             </tr>
-                                                                            
-                                                                
+
+
                                                                                                 <tr style="display:none; ">
                                                                         <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(65)"><option value="100">100</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option></select></td>
                                                                     </tr>
-                                                                    
+
                                                                                                         <tr>
                                                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                         </tr>
@@ -4228,7 +4227,7 @@
                                                                                 </select>
                                                                             </td>
                                                                         </tr>
-                                                                            
+
                                                                                                             <tr>
                                                                             <td class="pulldown"><strong>Finish:</strong></td>
                                                                         </tr>
@@ -4241,10 +4240,10 @@
                                                                         <tr style="display: none;">
                                                                             <td id="presfolderfinishupdate1" class="content_left"><select name="productoptionlist" id="productoptionlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPricePresFinish(65)"><option value="FREE GLOSS OR MATT VARNISH">FREE GLOSS OR MATT VARNISH</option><option value="GLOSS LAMINATED 1 SIDE">GLOSS LAMINATED 1 SIDE</option><option value="MATT LAMINATED 1 SIDE">MATT LAMINATED 1 SIDE</option></select></td>
                                                                         </tr>
-                                                                        
-                                                                                            
-                                                                    
-                                                                        
+
+
+
+
 
 
                                     </tbody></table>
@@ -4326,7 +4325,7 @@
 
                                             </div>
                                             <div class="clear"></div>
-                                            
+
                                         <div style="clear: both;"></div>
 
 
@@ -4339,10 +4338,10 @@
                                         </div>
                 <div style="clear: both;"></div>
             </div>
- 
+
             <div class = "product_div" id="product_div_id_15" style="display:none">
                 <div class="main_product_container comp_holder">
-	
+
 
                     <div class="main_left">
                         <div class="main_left_left">
@@ -4366,7 +4365,7 @@
                                         <div class="bro_sizing_sml">148 x 210m(folded)</div>
                                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download Template</a></div>
                                     </div>
-                                        
+
                                 </div>
 
 
@@ -4396,12 +4395,12 @@
                                 </div>
                                 <div class="clear"></div>
 
-                                                
+
 
 
                                             </div>
                                             <div class="clear"></div>
-                                            
+
                                             <div style="clear: both;"></div>
                                             <div class="main_left_bottom1">
 
@@ -4416,7 +4415,7 @@
                                                     <h4>Design Services</h4>
                                                     <p>Need artwork setup? Our team of experienced designers can help</p>
                                                     </a><a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">read more+</a>
-                                                
+
                                             </div>
                                             <div class="product_info_gallery gallery_comp">
                                                 <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">
@@ -4425,9 +4424,9 @@
                                                     <h4>Gallery</h4>
                                                     <p>Looking for design inspiration? See examples of our work</p>
                                                     </a><a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">read more+</a>
-                                                
+
                                             </div>
-                                            
+
 
                                             <div class="clear"></div>
 
@@ -4457,22 +4456,22 @@
                                                                                                     <tr>
                                                                             <td class="pulldown">
                                                                                                                             <strong>Size:</strong>
-                                                                                    
+
 
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td class="content_left"><select name="productsizelist" id="comps_size" style="width: 225px; font-size: 12px;" onchange="UpdateCompsProductPrice(size)"><option value="DL 210 x 99">DL 210 x 99</option></select></td>
                                                                         </tr>
-                                                                                
-                                    
-                                                            
-                                                            
+
+
+
+
                                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                             <tr>
                                                                             <td class="content_left"><select name="productstocklist" id="comps_stock" style="width: 225px; font-size: 12px;" onchange="UpdateCompsProductPrice(stock)"><option value="100GSM LASER BOND">100GSM LASER BOND</option><option value="105GSM LASER 100% RECYCLED">105GSM LASER 100% RECYCLED</option></select></td>
                                                                         </tr>
-                                                                        
+
                                                                                                 <tr>
                                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                                     </tr>
@@ -4488,21 +4487,21 @@
                                                                     <tr style="display: none;">
                                                                         <td id="postcodecolorupdate1" class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceComps(61)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="3 PMS COLOURS">3 PMS COLOURS</option><option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option></select></td>
                                                                     </tr>
-                                                                        
+
                                                                                             <tr style="display:none; ">
                                                                     <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(61)"><option value="500">500</option><option value="1000">1000</option><option value="1500">1500</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="10000">10000</option></select></td>
                                                                 </tr>
-                                                                
+
                                                                                                                                         <tr>
                                                                                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                                                         </tr><tr>
                                                                                                             <td class="content_left"><select name="productprintedsidelist" id="comps_sides" style="width: 225px; font-size: 12px;" onchange="UpdateCompsProductPrice(sides)"><option value="1 SIDE">1 SIDE</option></select></td>
                                                                                                         </tr>
-                                                                                                        
-                                                                    
-                                                                                        
-                                                                
-                                                                    
+
+
+
+
+
 
 
                                 </tbody></table>
@@ -4584,7 +4583,7 @@
                                         </div>
                                         <div class="clear"></div>
                                     </div>
-                <div style="clear: both;"></div>        
+                <div style="clear: both;"></div>
             </div>
 
 
@@ -4606,7 +4605,7 @@
                         <li>Office Graphics</li>
                         <li>Retail Graphics and Signs </li>
                     </ul>
-                    
+
                 </div>
                 <div class="design_div_rightContainer">
                     <h3>PRINTING AND PRINT DESIGN</h3>
@@ -4637,11 +4636,11 @@
                             <div class="gallary_div_icon">
                                 <i class="fas fa-angle-right"></i>
                             </div>
-                            <div class="gallary_div_info"> 
+                            <div class="gallary_div_info">
                             <p>Here are some text to describe the product</p>
-                                <span class="gallary_div_article"></span>                               
+                                <span class="gallary_div_article"></span>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary2.jpeg);">
                         <div class="gallary_div_shadow"></div>
@@ -4698,14 +4697,14 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="gallary_div_option" style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
                         <div class="gallary_div_shadow"></div>
                         <div class="gallary_div_label">
                             <div class="gallary_div_icon">
                                 <i class="fas fa-angle-right"></i>
                             </div>
-                            <div class="gallary_div_info">                               
+                            <div class="gallary_div_info">
                                 <span class="gallary_div_article"> </span>
                             </div>
                         </div>
@@ -4785,10 +4784,10 @@
                     </p><p>&nbsp;</p>
                     <p class="black_bold">I have an urgent printing job. How quickly can I receive the finished product?</p>
                     <p>If you need your printing job completed and delivered in the shortest time possible, simply complete the Urgent Printing Form on the website before 3pm on a work day and the finished product will be dispatched in 2 working days by priority delivery.  You will be contacted to confirm dispatch.
-                    </p><p>&nbsp;</p> 
+                    </p><p>&nbsp;</p>
                     <p class="black_bold">Where can I view your privacy policy?</p>
                     <p>We value your privacy and you can view our policy on how we use the information you share with us <a href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/privacy.php" class="blue_link">here</a>.
-                    </p><p>&nbsp;</p> 
+                    </p><p>&nbsp;</p>
                     <p class="black_bold">I want to print something that does not appear as a choice in your ordering facility. Can you still help me?</p>
                     We are more than willing to accommodate anything your printing job requires. The more of our customers that ask for something, the more likely we will be to make the option available from the website. If the options you want are not available from the ordering facility, you can request it by filling out our <a href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/custom-quotes.php" class="blue_link">Custom Quote Form</a>.
                     <p></p><p>&nbsp;</p>
@@ -4797,7 +4796,7 @@
                     </p><p>&nbsp;</p>
                     <p>If you wish to make your order via email, over the phone or in person, we can be very flexible as to how you make payment, including credit card payments. Please be aware that we require a successful payment before your printing job commences. Payment methods are listed below.
                     </p><p>&nbsp;</p>
-                    <ul class="black_bullets"> 
+                    <ul class="black_bullets">
                     <li>Electronic Funds Transfer (EFT)</li>
                     <li>Credit Cards (Visa and Master Card)</li>
                     <li>Cheque (made out to 1Print Pty Ltd)</li>
@@ -4835,7 +4834,7 @@
                     <p>&nbsp;</p>
                     <p>Our vibrant, full colour, offset printing is of exceptional quality and our highly trained operators possess a keen eye for detail.</p>
                 </div>
-            
+
                 <div class="design_div_rightContainer">
                     <h2 class="large">We Print</h2>
 
@@ -4858,7 +4857,7 @@
                         <li><a href="">Presentation Folders</a></li>
                         <li><a href="">Booklets</a></li>
                         <li><a href="">Books</a></li>
-                        <li>Calendars</li> 
+                        <li>Calendars</li>
                         <li><a href="">Catalogues</a></li>
                         <li><a href="">Desk Pads</a></li>
                         <li><a href="">Flyers</a></li>
@@ -4873,7 +4872,7 @@
                         <li>Pamphlets</li>
                         <li>Brochures</li>
                         <li>Business Cards</li>
-                        <li>Cards</li> 
+                        <li>Cards</li>
                         <li>Newsletters</li>
                         <li>Docket Books</li>
                         </ul>
@@ -4905,17 +4904,17 @@
                     <span class="black_bold">Fax</span> (03) 9584 4708
                     </div>
 
-                
+
                     <div class="contact_email">
-                        <span class="contact-align-left">Quotes</span> 
+                        <span class="contact-align-left">Quotes</span>
                         <span class="contact-align"><a href="http://web.archive.org/web/20180903154238/mailto:quotes@1print.net.au" class="black_link">quotes@1print.net.au</a></span>
                     </div>
                     <div class="contact_email">
-                        <span class="contact-align-left">Orders</span> 
+                        <span class="contact-align-left">Orders</span>
                         <span class="contact-align"><a href="http://web.archive.org/web/20180903154238/mailto:orders@1print.net.au" class="black_link">orders@1print.net.au</a></span>
                     </div>
                     <div class="contact_email_last">
-                        <span class="contact-align-left">Accounts</span> 
+                        <span class="contact-align-left">Accounts</span>
                         <span class="contact-align"><a href="http://web.archive.org/web/20180903154238/mailto:accounts@1print.net.au" class="black_link">accounts@1print.net.au</a></span>
                     </div>
                     <p class="black_heading">You can visit us at:</p>
@@ -4939,9 +4938,9 @@
                     <textarea class="contact_div_msg" id="contact_div_msg" placeholder="Type your text here..." name="Message"></textarea>
                     <p></p>
                     <input class="contact_div_send" id="contact_div_send"  type="submit" value="Send Feedback">
-                    </form> 
+                    </form>
                     </div>
-                    <!-- Feedback Form Ends Here -->       
+                    <!-- Feedback Form Ends Here -->
                 </div>
 
                 <div style="clear: both;"></div>
@@ -4951,18 +4950,18 @@
                 <div id="map" style="width:100%;height:400px;margin:auto;">
                 <div style="overflow:hidden;width: 80%;position: relative;margin:auto;"><iframe width="1000" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=26%20Metropolital%20Ave%20Nunawading%20VIC%203131+(%E6%A0%87%E9%A2%98)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/">embedgooglemaps IT</a> & <a href="http://trovalink.it">Trova link</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
                 </div>
-          
+
 
                 </div>
                 </div>
             </div>
-            
+
             <!-- cart -->
             <div class = "cart_div" id="cart_div_id" style="display:none">
                 <!-- shop-cart-area -->
                 <div id="cart_none" display="block">
                     <p>There is nothing in your cart</p>
-                </div>		
+                </div>
                 <div class="cart_main" style="display:none">
                     <table id="cart_table">
                         <thead>
@@ -4975,7 +4974,7 @@
                                 <th class="product-remove">Remove</th>
                             </tr>
                         </thead>
-                        
+
                     </table>
                 </div>
                 <div class="cart_price" style="display:none">
@@ -4992,7 +4991,7 @@
                                     <td>
                                         <strong><p class="amount">$0.00</p></strong>
                                     </td>
-                                </tr>											
+                                </tr>
                             </tbody>
                         </table>
                         <div class="wc-proceed-to-checkout">
@@ -5003,7 +5002,7 @@
                 <!-- shop-cart-area-end -->
             </div>
 
-            
+
 
 
 
@@ -5015,7 +5014,7 @@
                     <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                     <input id="login_password_id"class="login_div_pass" type="password" align="center" placeholder="Password">
                     <button class="login_div_submit" align="center" onclick="userLogin()">Log in</button>
-                    <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>           
+                    <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
                 </div>
             </div>
 
@@ -5029,8 +5028,8 @@
                     <input id="forget_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                     <input id="forget_email_id"class="login_div_un" type="email" align="center" placeholder="Email">
                     <button class="login_div_submit" align="center">Send</button>
-                    <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>      
-                       
+                    <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>
+
                 </div>
             </div>
 
@@ -5042,18 +5041,18 @@
                         <h1 class="register_div_user_title">Register form</h1>
                     </header> -->
                     <p class="login_div_sign" align="center">Register</p>
-                    
+
                     <form class="register_div_form">
                         <div class="register_div_form_group">
                             <input type="text" placeholder="Username" class="register_div_form_input" />
                             <div class= "checkmsg" id = "usernamecheckmsg"></div>
                         </div>
-                        
+
                         <div class="register_div_form_group">
                             <input type="email" placeholder="Email" class="register_div_form_input" />
                             <div class= "checkmsg" id = "emailcheckmsg"></div>
                         </div>
-                        
+
                         <div class="register_div_form_group">
                             <input type="password" placeholder="Password" class="register_div_form_input" />
                             <div class= "checkmsg" id = "passwdcheckmsg"></div>
@@ -5083,15 +5082,15 @@
                             <input type="text" placeholder="Postcode" class="register_div_form_input" />
                             <div class= "checkmsg" id = "postcodecheckmsg"></div>
                         </div>
-                        
+
                         <button class="register_div_btn" type="button" onclick="userRegister()">Register</button>
                     </form>
                 </div>
             </div>
-            
+
             <!-- footer -->
             <div class = "footer" id="footer_id">
-                
+
                 <div class="footer_width_holder">
                     <div class="footer_col1">
                         <div class="footer_phone">
@@ -5128,17 +5127,17 @@
                         <a class="footer_twitter" href="" target="_blank" rel="nofollow"></a>
                         </div>
                         <div style="clear: both;"></div>
-                        <div class="credentials"> 
-                        Copyright © YellowStar 2020-2023. All Rights Reserved.&nbsp;&nbsp; 
+                        <div class="credentials">
+                        Copyright © YellowStar 2020-2023. All Rights Reserved.&nbsp;&nbsp;
                         <a href="" target="_blank">Web Design</a> by <strong>XXX</strong>
                         </div>
                     </div>
                 <div style="clear: both;"></div>
                 </div>
             </div>
-    
-    
-    
+
+
+
     </div>
 
 
@@ -5158,7 +5157,7 @@
                     <li class="nav-item" id="nav-dashboard_id" onclick="onclickHeader(0)">
                     <a class="nav-link" type = "button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
                     </li>
-                    
+
                     <li class="nav-item" id="nav-profile_id" onclick="onclickHeader(1)">
                     <a class="nav-link" type = "button"><i class="typcn typcn-chart-bar-outline"></i> Profile</a>
                     </li>
@@ -5172,8 +5171,8 @@
                 <div class="az-header-message">
                     <a href="#"><i class="typcn typcn-messages"></i></a>
                 </div><!-- az-header-message -->
-                
-                
+
+
                 </div><!-- az-header-right -->
             </div><!-- container -->
         </div>
@@ -5191,7 +5190,7 @@
                         <p class="az-dashboard-text">Your web analytics dashboard</p>
                         </div>
                         <div class="az-content-header-right">
-                        
+
                         <div class="media">
                             <div class="media-body">
                             <label>Now</label>
@@ -5201,7 +5200,7 @@
                         </div>
                     </div><!-- az-dashboard-one-title -->
 
-                
+
 
                     <div class="row row-sm mg-b-20">
                         <div class="col-lg-7 ht-lg-100p">
@@ -5211,10 +5210,10 @@
                                 <h6 class="card-title">Recent Orders</h6>
                                 <p class="card-text">Orders by month</p>
                             </div>
-                            
+
                             </div><!-- card-header -->
                             <div class="card-body">
-                            
+
                             <div class="flot-chart-wrapper">
                                 <div class="text_holder1" style="padding: 0px; position: relative; margin-left: auto; margin-right: auto; width: 90%;">
                                 <canvas id="income-month-bar-chart"></canvas>
@@ -5281,7 +5280,7 @@
                                     <th>Order Id</th>
                                     <th>Order Type</th>
                                 </tr>
-                            </thead> 
+                            </thead>
                             </table>
                         </div><!-- card-body -->
                     </div>
@@ -5300,7 +5299,7 @@
                                     <th>Order Id</th>
                                     <th>Order Type</th>
                                 </tr>
-                            </thead> 
+                            </thead>
                             </table>
                         </div><!-- card-body -->
 
@@ -5314,8 +5313,8 @@
                 <h6 class="card-title">Edit Account</h6>
 
                 <form>
-                    
-                            
+
+
 
                             <div class="form-group">
 
@@ -5323,21 +5322,21 @@
                                 <input type="password" class="form-control" id="pass_change">
 
                             </div>
-                            
+
                             <div class="row mt-5">
-                            
+
                                 <div class="col">
-                                
+
                                     <button type="button" class="btn btn-primary btn-block">Save Changes</button>
-                                
+
                                 </div>
-                                
+
                                 <div class="col">
-                                
+
                                     <button type="button" class="btn btn-default btn-block">Cancel</button>
-                                
+
                                 </div>
-                            
+
                             </div>
 
                 </form>
@@ -5364,7 +5363,7 @@
                         <li class="nav-item" id="nav-dashboard_id" onclick="onclickHeader(4)">
                         <a class="nav-link" type = "button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
                         </li>
-                        
+
                         <li class="nav-item" id="nav-profile_id" onclick="onclickHeader(3)">
                         <a class="nav-link" type = "button"><i class="typcn typcn-chart-bar-outline"></i> Profile</a>
                         </li>
@@ -5378,8 +5377,8 @@
             <div class="az-header-message">
                 <a href="#"><i class="typcn typcn-messages"></i></a>
             </div><!-- az-header-message -->
-            
-            
+
+
 
             </div><!-- az-header-right -->
         </div><!-- container -->
@@ -5398,7 +5397,7 @@
                 <p class="az-dashboard-text">Your web analytics dashboard</p>
                 </div>
                 <div class="az-content-header-right">
-                
+
                 <div class="media">
                     <div class="media-body">
                     <label>Now</label>
@@ -5408,7 +5407,7 @@
                 </div>
             </div><!-- az-dashboard-one-title -->
 
-            
+
 
             <div class="row row-sm mg-b-20">
                 <div class="col-lg-7 ht-lg-100p">
@@ -5418,10 +5417,10 @@
                         <h6 class="card-title">Recent Orders</h6>
                         <p class="card-text">Orders by month</p>
                     </div>
-                    
+
                     </div><!-- card-header -->
                     <div class="card-body">
-                    
+
                     <div class="flot-chart-wrapper">
                         <div class="text_holder1" style="padding: 0px; position: relative; margin-left: auto; margin-right: auto; width: 90%;">
                         <canvas id="income-month-bar-chart-user"></canvas>
@@ -5432,7 +5431,7 @@
                 </div><!-- col -->
                 <div class="col-lg-5 mg-t-20 mg-lg-t-0">
                 <div class="row row-sm">
-                
+
                     <div class="col-sm-12 mg-t-0">
                     <div class="card card-dashboard-three">
                         <div class="card-header">
@@ -5476,7 +5475,7 @@
                             <th>Order Type</th>
                             <th>Date</th>
                         </tr>
-                    </thead> 
+                    </thead>
                     </table>
                 </div><!-- card-body -->
             </div>
@@ -5486,7 +5485,7 @@
             </div><!-- row -->
             </div><!-- az-content-body -->
         </div>
-        
+
 
         <!-- profile -->
         <div class = "pro_div" id="profile_user_div_id" style="display:none">
@@ -5494,8 +5493,8 @@
                 <h6 class="card-title">Page Views by Page Title</h6>
 
                 <form>
-                    
-                            
+
+
                             <div class="form-group">
 
                                 <label for=email>Email</label>
@@ -5538,21 +5537,21 @@
                                 <input type="text" class="form-control" id="postcode_change_user">
 
                             </div>
-                            
+
                             <div class="row mt-5">
-                            
+
                                 <div class="col">
-                                
+
                                     <button type="button" class="btn btn-primary btn-block" onclick="updateUserMessage()">Save Changes</button>
-                                
+
                                 </div>
-                                
+
                                 <div class="col">
-                                
+
                                     <button type="button" class="btn btn-default btn-block">Cancel</button>
-                                
+
                                 </div>
-                            
+
                             </div>
 
                 </form>
@@ -5563,12 +5562,12 @@
 
 
 
-      
+
     <script type="text/javascript">
         $(".gallary_div_option").click(function(){
             $(".gallary_div_option").removeClass("active");
             $(this).addClass("active");
-            
+
         });
 
         //轮播
@@ -5591,7 +5590,7 @@
             );
         }); // end ready
 
-        
+
     </script>
 
     <!-- dashboard -->
@@ -5615,7 +5614,7 @@
     <script src="../public/azia-admin-master/js/azia.js"></script>
     <script type="text/javascript" src="{{URL::asset('/js/dashboard.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" type="text/javascript"></script>
-    
+
 
     <!-- </div> -->
     </body>
