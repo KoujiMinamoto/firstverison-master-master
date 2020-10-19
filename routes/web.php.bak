@@ -33,7 +33,6 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
 
     $api->post('userLogin', 'UserController@userLogin');
     $api->post('userRegister','UserController@userRegister');
-	$api->post('userLoginSuccess','UserController@userLoginSuccess');
     $api->post('userUpdateMessage','UserController@userUpdateMessage');
 
     $api->get('getNumOfOrders','DashboardController@getNumOfOrders');
@@ -46,6 +45,8 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
     $api->get('getOrderAndAmountByMonthUser/{startDate}/{endDate}/{user}','DashboardController@getOrderAndAmountByMonthUser');
     $api->get('getNumOfOrdersByUser/{user}','DashboardController@getNumOfOrdersByUser');
     $api->get('getAmountByUser/{user}','DashboardController@getAmountByUser');
+    $api->get('getProfile/{user}','DashboardController@getProfile');
+
 
 });
 

@@ -3,16 +3,6 @@
     width: 120rem;
     min-height: 30rem;
 }
-#cart_none {
-    margin: 0 auto;
-    width: 120rem;
-    min-height: 30rem;
-}
-#cart_none p{
-    margin: auto;
-    font-size:4rem;
-}
-
 .cart_price {
     margin-left: 110rem;
     height: 20rem;

@@ -1047,23 +1047,7 @@
 
                                                 <td colspan="2" align="left" style="padding-top:5px;">
                                                     <div class="prooption_desc">Your price will automatically update according to your options chosen.
-                                                                                                                                <script style="">
-                                                            jQuery(document).ready(function ($) {
-                                                                if ($('#productsizelist').val()) {
-                                                                    console.log($('#productsizelist').val());
-                                                                    console.log(' start working ...');
-                                                                    var i = 0;
-                                                                    $('#productstocklist option').each(function () {
-                                                                        i++;
-                                                                        console.log(' counting options ...' + i);
-                                                                        console.log($(this).val());
-                                                                        if ($(this).val() == '200GSM GLOSS OR SILK') {
-                                                                            $(this).remove();
-                                                                        }
-                                                                    });
-                                                                }
-                                                            });
-                                                        </script>
+                                                                                                                               
                                                                                                                             </div></td>
                                             </tr>
                                                                                     <tr>
@@ -1076,7 +1060,7 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(57)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option></select></td>
+                                                            <td class="content_left"><select name="productsizelist" id="brochure_type" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(size)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option></select></td>
                                                         </tr>
                                                                 
                                                             <tr>
@@ -1084,27 +1068,27 @@
                                                         </tr>
                                                         <tr>
                                                             <!--Gabriel Modification - Change default Brochures 57 DL Size -->
-                                                            <td class="content_left" id="brouchernopages"><select name="productpagelist2" id="productpagelist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure2(57)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
+                                                            <td class="content_left" id="brouchernopages"><select name="productpagelist2" id="brochure_page" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(page)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
                                                         </tr>
                                                         <tr style="display: none;">
-                                                            <td id="brouchernopagesupdate" class="content_left"><select name="productpagelist2" id="productpagelist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure2(57)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
+                                                            <td id="brouchernopagesupdate" class="content_left"><select name="productpagelist2" id="brochure_page" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(page)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
                                                         </tr>
                                                         <tr style="display: none;">
-                                                            <td id="brouchernopagesupdate1" class="content_left"><select name="productpagelist2" id="productpagelist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure2(57)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
+                                                            <td id="brouchernopagesupdate1" class="content_left"><select name="productpagelist2" id="brochure_page" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(page)"><option value="4 PAGES">4 PAGES</option><option value="6 PAGES">6 PAGES</option></select></td>
                                                         </tr>
                                                         
                                             
                                             
                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                             <tr>
-                                                            <td class="content_left"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure2(57)"><option value="150GSM GLOSS OR SILK">150GSM GLOSS OR SILK</option><option value="170GSM GLOSS OR SILK">170GSM GLOSS OR SILK</option><option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK</option><option value="350GSM GLOSS OR SILK">350GSM GLOSS OR SILK</option></select></td>
+                                                            <td class="content_left"><select name="productstocklist" id="brochure_stock" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(stock)"><option value="150GSM GLOSS OR SILK">150GSM GLOSS OR SILK</option><option value="170GSM GLOSS OR SILK">170GSM GLOSS OR SILK</option><option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK</option><option value="350GSM GLOSS OR SILK">350GSM GLOSS OR SILK</option></select></td>
                                                         </tr>
                                                         
                                                                                 <tr>
                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(57)"><option value="FULL COLOUR">FULL COLOUR</option></select></td>
+                                                        <td class="content_left"><select name="productcolorlist" id="brochure_colour" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceBrochure(colour)"><option value="FULL COLOUR">FULL COLOUR</option></select></td>
                                                     </tr>
                                                     
                                                                             <tr style="display:none; ">
@@ -1188,7 +1172,7 @@
                             <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                             <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);"  class="clear_btn" onclick="ClearBookletsCache(&quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;0&quot;);"></a></td><td><input type="submit"  class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);"  class="clear_btn" onclick="ClearBookletsCache(&quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;0&quot;);"></a></td><td><input type="submit"  class="add_to_cart" onclick="addToCard(brochure)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                         </td></tr>
                     <tr><td class="product_options_price_footer"></td></tr>
@@ -1381,7 +1365,7 @@
                                                         <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="content_left">                                            <select onchange="UpdateBCPrice2(58)" style="width: 225px; font-size: 12px;" id="productprintedsidelist" name="productprintedsidelist">
+                                                        <td class="content_left"><select onchange="UpdateBCPrice(side)" style="width: 225px; font-size: 12px;" id="bc_side" name="productprintedsidelist">
                                                                 <option value="PRINTED 2 SIDES">PRINTED 2 SIDES</option>
                                                                 <option value="PRINTED 1 SIDE">PRINTED 1 SIDE</option>
                                                             </select>
@@ -1393,7 +1377,7 @@
                                                                                                                                                                             <tr><td class="pulldown"><strong>Laminated:</strong></td></tr>
                                                                                 
                                                                                     <tr>
-                                                        <td class="content_left" id="bcfinish"><select id="productstocklist" onchange="UpdateBCPrice(58)" style="width: 225px; font-size: 12px;" name="productstocklist">
+                                                        <td class="content_left" id="bcfinish"><select id="bc_laminated" onchange="UpdateBCPrice(laminated)" style="width: 225px; font-size: 12px;" name="productstocklist">
                                                                 <option value="MATT LAMINATED 2 SIDES">MATT LAMINATED 2 SIDES</option>
                                                                 <option value="UNLAMINATED">UNLAMINATED</option>
                                                             </select></td>
@@ -1409,7 +1393,7 @@
                                                         $("#producttrimmedsize").val($("#producttrimmedsizelist").val())
                                                     }
                                                 </script>
-                                                <select id="producttrimmedsizelist" onchange="changeTrimmedSize();" style="width: 225px; font-size: 12px;" name="producttrimmedsizelist">
+                                                <select id="bc_size" onchange="UpdateBCPrice(size);" style="width: 225px; font-size: 12px;" name="producttrimmedsizelist">
                                                     <option value="90 x 55mm">90 x 55mm</option>
                                                     <option value="89 x 54mm">89 x 54mm</option>
                                                     <option value="90 x 50mm">90 x 50mm</option>
@@ -1476,7 +1460,7 @@
                                                 <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                             <tr><td colspan="4" class="price_msg_1"><center><span style="class=" price_msg_first'="">Price include GST and delivery</span></center></td></tr>
                                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBasketBCCache(58);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBasketBCCache(58);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(bc)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
                 
                         </td></tr>
                     <tr><td class="product_options_price_footer"></td></tr>
@@ -1689,28 +1673,28 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option><option value="A3 297 x 420">A3 297 x 420</option><option value="A2 594 x 420">A2 594 x 420</option></select></td>
+                                                                    <td class="content_left"><select name="productsizelist" id="dn_size" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(size)"><option value="DL 99 x 210">DL 99 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A4 210 x 297">A4 210 x 297</option><option value="A3 297 x 420">A3 297 x 420</option><option value="A2 594 x 420">A2 594 x 420</option></select></td>
                                                                 </tr>
                                                                         
                                                                     <tr>
                                                                     <td class="pulldown" '=""><strong>No. of Pages:</strong></td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="content_left"><select name="productpagelist" id="productpagelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="25 PAGES">25 PAGES</option><option value="50 PAGES">50 PAGES</option></select></td>
+                                                                    <td class="content_left"><select name="productpagelist" id="dn_page" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(page)"><option value="25 PAGES">25 PAGES</option><option value="50 PAGES">50 PAGES</option></select></td>
                                                                 </tr>
                                                                 
                                                     
                                                     
                                                                                                                         <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                     <tr>
-                                                                    <td class="content_left"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="100GSM BOND">100GSM BOND</option></select></td>
+                                                                    <td class="content_left"><select name="productstocklist" id="dn_stock" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(stock)"><option value="100GSM BOND">100GSM BOND</option></select></td>
                                                                 </tr>
                                                                 
                                                                                         <tr>
                                                                 <td class="pulldown"><strong>Colour:</strong></td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(67)"><option value="4 COLOUR 1 SIDE">4 COLOUR 1 SIDE</option><option value="4 COLOUR 2 SIDES">4 COLOUR 2 SIDES</option></select></td>
+                                                                <td class="content_left"><select name="productcolorlist" id="dn_colour" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceNotePadDeskPadPrinting(colour)"><option value="4 COLOUR 1 SIDE">4 COLOUR 1 SIDE</option><option value="4 COLOUR 2 SIDES">4 COLOUR 2 SIDES</option></select></td>
                                                             </tr>
                                                             
                                                                                     <tr style="display:none; ">
@@ -1774,7 +1758,7 @@
                                                     <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                     <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                     <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                    <tr><td colspan="4" align="right"><br><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBookletsCache(&quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                    <tr><td colspan="4" align="right"><br><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearBookletsCache(&quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(dn)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                 </td></tr>
                             <tr><td class="product_options_price_footer"></td></tr>
@@ -2010,7 +1994,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="A4">A4</option><option value="A5">A5</option></select></td>
+                                                                    <td class="content_left"><select name="productsizelist" id="docket_size" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(size)"><option value="A4">A4</option><option value="A5">A5</option></select></td>
                                                                 </tr>
                                                                         
                             
@@ -2018,18 +2002,18 @@
                                                             <td class="pulldown"><strong>Copies:</strong></td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="content_left"><select name="productcopylist" id="productcopylist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="DUPLICATE">DUPLICATE</option><option value="TRIPLICATE">TRIPLICATE</option></select></td>
+                                                            <td class="content_left"><select name="productcopylist" id="docket_copies" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(copies)"><option value="DUPLICATE">DUPLICATE</option><option value="TRIPLICATE">TRIPLICATE</option></select></td>
                                                         </tr>
                                                                                         <tr>
                                                             <td class="pulldown"><strong>Carbonless Books:</strong></td>
                                                         </tr>
                                                         <tr id="carbonlessBookslist1">
                                                             <td class="content_left">
-                                                    <select name="productcarbonlist" id="productcarbonlist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="Sets of 50">Sets of 50</option><option value="Sets of 100">Sets of 100</option></select>                                    </td>
+                                                    <select name="productcarbonlist" id="docket_carbonless" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(carbonless)"><option value="Sets of 50">Sets of 50</option><option value="Sets of 100">Sets of 100</option></select>                                    </td>
                                                         </tr>
                                                         <tr id="carbonlessBookslist2" style="display:none">
                                                             <td class="content_left">
-                                                        <select name="productcarbonlist2" id="productcarbonlist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="Sets of 50">Sets of 50</option></select>                                    </td>
+                                                        <select name="productcarbonlist2" id="docket_carbonless" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(carbonless)"><option value="Sets of 50">Sets of 50</option></select>                                    </td>
                                                         </tr>
                                                         
                                                     
@@ -2038,18 +2022,18 @@
                                                                 <td class="pulldown"><strong>Colour:</strong></td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="1 COLOUR">1 COLOUR</option></select></td>
+                                                                <td class="content_left"><select name="productcolorlist" id="docket_colour" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(colour)"><option value="1 COLOUR">1 COLOUR</option></select></td>
                                                             </tr>
                                                             
                                                                                     <tr style="display:none; ">
-                                                            <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(68)"><option value="5">5</option><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="100">100</option></select></td>
+                                                            <td class="content_left"><select name="productqtylist" id="docket_colour" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(colour)"><option value="5">5</option><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="100">100</option></select></td>
                                                         </tr>
                                                         
-                                                                                                                                <tr>
-                                                                                                    <td class="pulldown"><strong>Printed Sides:</strong></td>
-                                                                                                </tr><tr>
-                                                                                                    <td class="content_left"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(68)"><option value="1 SIDE">1 SIDE</option><option value="CONDITIONS ON BACK">CONDITIONS ON BACK</option></select></td>
-                                                                                                </tr>
+                                                        <tr>
+                                                            <td class="pulldown"><strong>Printed Sides:</strong></td>
+                                                        </tr><tr>
+                                                            <td class="content_left"><select name="productprintedsidelist" id="docket_side" style="width: 225px; font-size: 12px;" onchange="UpdateDockProductPrice(side)"><option value="1 SIDE">1 SIDE</option><option value="CONDITIONS ON BACK">CONDITIONS ON BACK</option></select></td>
+                                                        </tr>
                                                                                                 
                                                             
                                                     
@@ -2111,7 +2095,7 @@
                                                     <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                     <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                     <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                    <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearDockbookCache(&quot;A4&quot;, &quot;1 COLOUR&quot;, &quot;500&quot;, &quot;68&quot;, &quot;0&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;Sets of 50&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                    <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearDockbookCache(&quot;A4&quot;, &quot;1 COLOUR&quot;, &quot;500&quot;, &quot;68&quot;, &quot;0&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;Sets of 50&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(docket)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
                         
                                 </td></tr>
                             <tr><td class="product_options_price_footer"></td></tr>
@@ -2340,7 +2324,7 @@
                                                         <td class="pulldown"><strong>Envelope Type:&nbsp;</strong><br style="">White 100gsm, peel 'n' seal or self seal,<br style="">30% ink coverage</td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="content_left"><select name="productenvlist" id="productenvlist" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(62)"><option value="DL PLAIN">DL PLAIN 110 x 220mm</option><option value="DL WINDOW">DL WINDOW 110 x 220mm</option><option value="DLX PLAIN">DLX PLAIN 120 x 235mm</option><option value="DLX WINDOW">DLX WINDOW 120 x 235mm</option><option value="C5 PLAIN">C5 PLAIN 162 x 229mm</option><option value="C5 WINDOW">C5 WINDOW 162 x 229mm</option><option value="C4 PLAIN">C4 PLAIN 229 x 324mm</option><option value="C4 WINDOW">C4 WINDOW 229 x 324mm</option></select></td>
+                                                        <td class="content_left"><select name="productenvlist" id="env_type" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(type)"><option value="DL PLAIN">DL PLAIN 110 x 220mm</option><option value="DL WINDOW">DL WINDOW 110 x 220mm</option><option value="DLX PLAIN">DLX PLAIN 120 x 235mm</option><option value="DLX WINDOW">DLX WINDOW 120 x 235mm</option><option value="C5 PLAIN">C5 PLAIN 162 x 229mm</option><option value="C5 WINDOW">C5 WINDOW 162 x 229mm</option><option value="C4 PLAIN">C4 PLAIN 229 x 324mm</option><option value="C4 WINDOW">C4 WINDOW 229 x 324mm</option></select></td>
                                                     </tr>
                                                 
                                                 
@@ -2348,13 +2332,13 @@
                                                             <td class="pulldown"><strong>Colour:</strong></td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="content_left" id="envcolor"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice2(62)"><option value="FULL COLOUR">FULL COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="1 PMS COLOUR">1 PMS COLOUR</option></select></td>
+                                                            <td class="content_left" id="envcolor"><select name="productcolorlist" id="env_colour" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(colour)"><option value="FULL COLOUR">FULL COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="1 PMS COLOUR">1 PMS COLOUR</option></select></td>
                                                         </tr>
                                                         <tr style="display: none;">
-                                                            <td id="envcolorupdate" class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice2(62)"><option value="FULL COLOUR">FULL COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="1 PMS COLOUR">1 PMS COLOUR</option></select></td>
+                                                            <td id="envcolorupdate" class="content_left"><select name="productcolorlist" id="env_colour" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(colour)"><option value="FULL COLOUR">FULL COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="1 PMS COLOUR">1 PMS COLOUR</option></select></td>
                                                         </tr>
                                                         <tr style="display: none;">
-                                                            <td id="envcolorupdate1" class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice2(62)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option></select></td>
+                                                            <td id="envcolorupdate1" class="content_left"><select name="productcolorlist" id="env_colour" style="width: 225px; font-size: 12px;" onchange="UpdateEnvProductPrice(colour)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option></select></td>
                                                         </tr>
                                                             
                                                                                 <tr style="display:none; ">
@@ -2421,7 +2405,7 @@
                                                 <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                 <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                 <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearEnvCache(&quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearEnvCache(&quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(envelope)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
                     
                             </td></tr>
                         <tr><td class="product_options_price_footer"></td></tr>
@@ -2600,28 +2584,28 @@
                                                                                                 </div></td>
                                                     </tr>
                                                     <tr><td class="pulldown"><strong>Size:</strong></td></tr><tr><td class="content_left" id="sizecontainer">
-                                                                                                <select name="productsizelist" onchange="swap_exp_printing('72');hide400();" style="width: 225px; font-size: 12px;" id="productsizelist"><option value="32">BUSINESS CARD 90 x 55</option><option value="33">DL 99 x 210</option><option value="34">A6 105 x 148</option><option value="35">A5 148 x 210</option><option value="36">A4 210 x 297</option><option value="37">A3 297 x 420</option></select>                                        </td></tr>
+                                                                                                <select name="productsizelist" onchange="UpdateExpProductPrice(size)" style="width: 225px; font-size: 12px;" id="express_size"><option value="32">BUSINESS CARD 90 x 55</option><option value="33">DL 99 x 210</option><option value="34">A6 105 x 148</option><option value="35">A5 148 x 210</option><option value="36">A4 210 x 297</option><option value="37">A3 297 x 420</option></select>                                        </td></tr>
                                                             
                             
                                                     
                                                     
                                                                                     <tr><td class="pulldown"><strong>Stock:</strong></td></tr><tr><td class="content_left" id="stockcontainer1" style="display: none;">
-                                                                        <select name="productstocklist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productstocklist"><option value="35">150GSM GLOSS</option><option value="51">400GSM GLOSS</option><option value="36">350GSM GLOSS</option></select>                                                                                    </td>
+                                                                        {{-- <select name="productstocklist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productstocklist"><option value="35">150GSM GLOSS</option><option value="51">400GSM GLOSS</option><option value="36">350GSM GLOSS</option></select>                                                                                    </td> --}}
                                                                         <td class="content_left" id="stockcontainer2">
-                                                                    <select name="productstocklist2" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productstocklist2"><option value="51">400GSM GLOSS</option></select>                                                </td></tr>
+                                                                    <select name="productstocklist2" onchange="UpdateExpProductPrice('stock');" style="width: 225px; font-size: 12px;" id="express_stock"><option value="51">400GSM GLOSS</option></select>                                                </td></tr>
                                                                     
                                                     
                                                                                     <tr style="display:none; ">
-                                                            <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(72)"><option value="150">150</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option></select></td>
+                                                            <td class="content_left"><select name="productqtylist" id="productqtylist" style="width: 225px; font-size: 12px;" onchange="swap_exp_printing(72)"><option value="150">150</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="2500">2500</option><option value="3000">3000</option><option value="4000">4000</option><option value="5000">5000</option><option value="6000">6000</option><option value="7000">7000</option><option value="8000">8000</option><option value="9000">9000</option><option value="10000">10000</option></select></td>
                                                         </tr>
                                                         
                                                         <tr><td class="pulldown"><strong>Printed Sides:</strong></td></tr><tr><td class="content_left" id="printedsidecontainer">
-                                                                <select name="productprintedsidelist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productprintedsidelist"><option value="19">FULL COLOUR FRONT ONLY</option><option value="20">FULL COLOUR FRONT AND BACK</option></select>                                            </td></tr>
+                                                                <select name="productprintedsidelist" onchange="swap_exp_printing(sides)" style="width: 225px; font-size: 12px;" id="express_sides"><option value="19">FULL COLOUR FRONT ONLY</option><option value="20">FULL COLOUR FRONT AND BACK</option></select>                                            </td></tr>
                                                                 
                                                             <tr><td class="pulldown"><strong>Finish:</strong></td></tr><tr><td class="content_left" id="finishcontainer1" style="display: none;">
-                                                                <select name="productfinishlist1" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist1"><option value="7">NO LAMINATION</option><option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option><option value="9">MATT OR GLOSS LAMINATED 2 SIDES</option></select>                                            </td>
+                                                                <select name="productfinishlist1" onchange="UpdateExpProductPrice(finish);" style="width: 225px; font-size: 12px;" id="express_finish"><option value="7">NO LAMINATION</option><option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option><option value="9">MATT OR GLOSS LAMINATED 2 SIDES</option></select>                                            </td>
                                                         <td class="content_left" id="finishcontainer2" style="display: none;">
-                                                        <select name="productfinishlist2" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist2"><option value="7">NO LAMINATION</option></select>                                                                    </td>
+                                                        {{-- <select name="productfinishlist2" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist2"><option value="7">NO LAMINATION</option></select>                                                                    </td> --}}
                                                         <td class="content_left" id="finishcontainer3">
                                                                                         <select name="productfinishlist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist"><option value="7">NO LAMINATION</option><option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option></select>                                                                    </td></tr>
                                                         
@@ -2719,7 +2703,7 @@
                                                     <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                     <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                                     <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearExpPrintingCache(&quot;32&quot;,&quot;36&quot;, &quot;19&quot;, &quot;500&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;0&quot;);"></a></td>
-                                                    <td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                    <td><input type="submit" class="add_to_cart" onclick="addToCard(express)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
                         
                                 </td></tr>
                             <tr><td class="product_options_price_footer"></td></tr>
@@ -2888,7 +2872,7 @@
                                                                             <td class="pulldown"><strong>Size:</strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td class="content_left" id="flyersize"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceFlyer(63)"><option value="A4 210 x 297">A4 210 x 297</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option></select></td>
+                                                                            <td class="content_left" id="flyersize"><select name="productsizelist" id="flyer_size" style="width: 225px; font-size: 12px;" onchange="UpdateFlyerProductPrice(size)"><option value="A4 210 x 297">A4 210 x 297</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option></select></td>
                                                                         </tr>
                                                                         <tr style="display: none;">
                                                                             <td id="flyersizeupdate" class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceFlyer(63)"><option value="A4 210 x 297">A4 210 x 297</option><option value="A5 148 x 210">A5 148 x 210</option><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option></select></td>
@@ -2905,7 +2889,7 @@
                                                             
                                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                             <tr>
-                                                                            <td class="content_left" id="productflyer"><select id="productstocklist" onchange="UpdateProductFlyerPrice2(63)" style="width: 225px; font-size: 12px;" name="productstocklist">
+                                                                            <td class="content_left" id="productflyer"><select id="flyer_stock" onchange="UpdateFlyerProductPrice(stock)" style="width: 225px; font-size: 12px;" name="productstocklist">
                                                                                     <option value="150GSM GLOSS OR SILK">150GSM GLOSS OR SILK</option>
                                                                                     <option value="170GSM GLOSS OR SILK">170GSM GLOSS OR SILK</option>
                                                                                     <option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK</option>
@@ -2916,7 +2900,7 @@
                                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="content_left" id="flyercolor"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice63(63)"><option value="FULL COLOUR FRONT ONLY">FULL COLOUR FRONT ONLY</option><option value="FULL COLOUR BOTH SIDES">FULL COLOUR BOTH SIDES</option></select></td>
+                                                                        <td class="content_left" id="flyercolor"><select name="productcolorlist" id="flyer_colour" style="width: 225px; font-size: 12px;" onchange="UpdateFlyerProductPrice(colour)"><option value="FULL COLOUR FRONT ONLY">FULL COLOUR FRONT ONLY</option><option value="FULL COLOUR BOTH SIDES">FULL COLOUR BOTH SIDES</option></select></td>
                                                                     </tr>
                                                                     <tr style="display: none;">
                                                                         <td id="flyercolorupdate" class="content_left"><select id="productcolorlist" onchange="UpdateProductPrice4a(63)" style="width: 225px; font-size: 12px;" name="productcolorlist">
@@ -3032,7 +3016,7 @@
                                                             <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_1"><center><span style="class=" price_msg_first'="">Price include GST and delivery</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearFlyerCache(&quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;A4 210 x 297&quot;, &quot;50&quot;, &quot;63&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearFlyerCache(&quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;A4 210 x 297&quot;, &quot;50&quot;, &quot;63&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(flyer)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
                                 
                                         </td></tr>
                                     <tr><td class="product_options_price_footer"></td></tr>
@@ -3158,7 +3142,7 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(74)"><option value="50x50mm Square cut">50x50mm Square cut</option><option value="50x50mm Rounded corners cut">50x50mm Rounded corners cut</option><option value="70x50mm Square cut">70x50mm Square cut</option><option value="70x50mm Rounded corners cut">70x50mm Rounded corners cut</option><option value="90x50mm Square cut">90x50mm Square cut</option><option value="90x50mm Rounded corners cut">90x50mm Rounded corners cut</option></select></td>
+                                                                        <td class="content_left"><select name="productsizelist" id="fridge_size" style="width: 225px; font-size: 12px;" onchange="UpdateFridgeProductPrice(size)"><option value="50x50mm Square cut">50x50mm Square cut</option><option value="50x50mm Rounded corners cut">50x50mm Rounded corners cut</option><option value="70x50mm Square cut">70x50mm Square cut</option><option value="70x50mm Rounded corners cut">70x50mm Rounded corners cut</option><option value="90x50mm Square cut">90x50mm Square cut</option><option value="90x50mm Rounded corners cut">90x50mm Rounded corners cut</option></select></td>
                                                                     </tr>
                                                                             
                                 
@@ -3173,7 +3157,7 @@
                                                                                                                                     <tr>
                                                                                                         <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                                                     </tr><tr>
-                                                                                                        <td class="content_left"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceLW(74)"><option value="1 SIDE">1 SIDE</option></select></td>
+                                                                                                        <td class="content_left"><select name="productprintedsidelist" id="fridge_sides" style="width: 225px; font-size: 12px;" onchange="UpdateFridgeProductPrice(sides)"><option value="1 SIDE">1 SIDE</option></select></td>
                                                                                                     </tr>
                                                                                                     
                                                                 
@@ -3226,7 +3210,7 @@
                                                         <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                         <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                         <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                        <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(74);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                        <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(74);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(fridgeMagnet)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                     </td></tr>
                                 <tr><td class="product_options_price_footer"></td></tr>
@@ -3357,7 +3341,7 @@
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceLW(60)"><option value="A4 210 x 297">A4 210 x 297</option></select></td>
+                                                                            <td class="content_left"><select name="productsizelist" id="lw_size" style="width: 225px; font-size: 12px;" onchange="UpdateLWProductPrice(size)"><option value="A4 210 x 297">A4 210 x 297</option></select></td>
                                                                         </tr>
                                                                                 
                                     
@@ -3365,7 +3349,7 @@
                                                             
                                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                             <tr>
-                                                                            <td class="content_left" id="productflyer"><select onchange="UpdateProductPriceLW(60)" style="width: 225px; font-size: 12px;" id="productstocklist" name="productstocklist"><option value="100GSM LASER BOND">100GSM LASER BOND</option><option value="100GSM RECYCLED 100%">100GSM RECYCLED 100%</option></select></td>
+                                                                            <td class="content_left" id="lw_stock"><select onchange="UpdateLWProductPrice(stock)" style="width: 225px; font-size: 12px;" id="productstocklist" name="productstocklist"><option value="100GSM LASER BOND">100GSM LASER BOND</option><option value="100GSM RECYCLED 100%">100GSM RECYCLED 100%</option></select></td>
                                                                         </tr>
                                                                             
                                                                                                 <tr>
@@ -3382,7 +3366,7 @@
                                                                         <td id="postcodecolorupdate" class="content_left"></td>
                                                                     </tr>
                                                                     <tr style="display: none;">
-                                                                        <td id="postcodecolorupdate1" class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceLW(60)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="3 PMS COLOURS">3 PMS COLOURS</option><option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option></select></td>
+                                                                        <td id="postcodecolorupdate1" class="content_left"><select name="productcolorlist" id="lw_colour" style="width: 225px; font-size: 12px;" onchange="UpdateLWProductPrice(colour)"><option value="1 PMS COLOUR">1 PMS COLOUR</option><option value="2 PMS COLOURS">2 PMS COLOURS</option><option value="3 PMS COLOURS">3 PMS COLOURS</option><option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option></select></td>
                                                                     </tr>
                                                                     
                                                                                             <tr style="display:none; ">
@@ -3393,7 +3377,7 @@
                                                                         <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="content_left" id="lhprintedside"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceLW(60)"><option value="1 SIDE">1 SIDE</option><option value="2 SIDES">2 SIDES</option></select></td>
+                                                                        <td class="content_left" id="lhprintedside"><select name="productprintedsidelist" id="lw_sides" style="width: 225px; font-size: 12px;" onchange="UpdateLWProductPrice(sides)"><option value="1 SIDE">1 SIDE</option><option value="2 SIDES">2 SIDES</option></select></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td id="lhprintedsideupdate1" class="content_left" style="display: none;"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceLW(60)"><option value="1 SIDE">1 SIDE</option></select></td>
@@ -3466,7 +3450,7 @@
                                                             <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(60);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(60);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(letterhead)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                         </td></tr>
                                     <tr><td class="product_options_price_footer"></td></tr>
@@ -3636,23 +3620,7 @@
 
                                                                     <td colspan="2" align="left" style="padding-top:5px;">
                                                                         <div class="prooption_desc">Your price will automatically update according to your options chosen.
-                                                                                                                <script style="">
-                                                                                jQuery(document).ready(function ($) {
-                                                                                    if ($('#productsizelist').val()) {
-                                                                                        console.log($('#productsizelist').val());
-                                                                                        console.log(' start working ...');
-                                                                                        var i = 0;
-                                                                                        $('#productsizelist option').each(function () {
-                                                                                            i++;
-                                                                                            console.log(' counting options ...' + i);
-                                                                                            console.log($(this).val());
-                                                                                            if ($(this).val() == '2DL 198 x 210') {
-                                                                                                $(this).remove();
-                                                                                            }
-                                                                                        });
-                                                                                    }
-                                                                                });
-                                                                            </script>
+                                                                                                                
                                                                                                                                                                                     </div></td>
                                                                 </tr>
                                                                                                         <tr>
@@ -3663,7 +3631,7 @@
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(59)"><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option><option value="A5 148 x 210">A5 148 x 210</option></select></td>
+                                                                                <td class="content_left"><select name="productsizelist" id="post_size" style="width: 225px; font-size: 12px;" onchange="UpdatePostProductPrice(size)"><option value="A6 105 x 148">A6 105 x 148</option><option value="DL 99 x 210">DL 99 x 210</option><option value="A5 148 x 210">A5 148 x 210</option></select></td>
                                                                             </tr>
                                                                                     
                                         
@@ -3674,7 +3642,7 @@
                                                                             <td class="pulldown"><strong>Colour:</strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td class="content_left" id="postcodecolor"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice(59)"><option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option><option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option></select></td>
+                                                                            <td class="content_left" id="postcodecolor"><select name="productcolorlist" id="post_colour" style="width: 225px; font-size: 12px;" onchange="UpdatePostProductPrice(colour)"><option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option><option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option></select></td>
                                                                         </tr>
                                                                         <tr style="display: none;">
                                                                             <td id="postcodecolorupdate" class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice3(59)"><option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option></select></td>
@@ -3701,7 +3669,7 @@
                                                                                                                                                                                                 <tr><td class="pulldown"><strong>Finish:</strong></td></tr>
                                                                                                     
                                                                                                         <tr>
-                                                                            <td class="content_left" id="stockfinish"><select name="productstocklist2" id="productstocklist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice3(59)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option></select></td>
+                                                                            <td class="content_left" id="stockfinish"><select name="productstocklist2" id="post_finish" style="width: 225px; font-size: 12px;" onchange="UpdatePostProductPrice(finish)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option></select></td>
                                                                             <td id="stockfinishupdate" class="content_left" style="display: none;"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice2(59)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option><option value="MATT OR GLOSS LAMINATED 2 SIDES">MATT OR GLOSS LAMINATED 2 SIDES</option></select></td>
                                                                             <td id="stockfinishupdate1" class="content_left" style="display: none;"><select name="productstocklist2" id="productstocklist2" style="width: 225px; font-size: 12px;" onchange="UpdateProductPrice3(59)"><option value="NOT LAMINATED">NOT LAMINATED</option><option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS LAMINATED 1 SIDE</option></select></td>
                                                                         </tr>
@@ -3798,7 +3766,7 @@
                                                                 <tr><td colspan="4" class="price_msg_1"><center><span style="class=" price_msg_first'="">Price include GST and delivery</span></center></td></tr>
                                                                 <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
                                                                 <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearFlyerCache(&quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;A6 105 x 148&quot;, &quot;500&quot;, &quot;59&quot;, &quot;0&quot;);"></a></td>
-                                                                <td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                                <td><input type="submit" class="add_to_cart" onclick="addToCard(postcard)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                             </td></tr>
                                         <tr><td class="product_options_price_footer"></td></tr>
@@ -3984,7 +3952,7 @@
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdatePosterPrice(66)"><option value="A3">A3</option><option value="A2">A2</option></select></td>
+                                                                                <td class="content_left"><select name="productsizelist" id="poster_size" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(size)"><option value="A3">A3</option><option value="A2">A2</option></select></td>
                                                                             </tr>
                                                                                     
                                         
@@ -3992,14 +3960,14 @@
                                                                 
                                                                                                                                     <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                                 <tr>
-                                                                                <td class="content_left"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdatePosterPrice(66)"><option value="150GSM GLOSS">150GSM GLOSS</option><option value="170GSM GLOSS">170GSM GLOSS</option><option value="200GSM GLOSS">200GSM GLOSS</option></select></td>
+                                                                                <td class="content_left"><select name="productstocklist" id="poster_stock" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(stock)"><option value="150GSM GLOSS">150GSM GLOSS</option><option value="170GSM GLOSS">170GSM GLOSS</option><option value="200GSM GLOSS">200GSM GLOSS</option></select></td>
                                                                             </tr>
                                                                             
                                                                                                     <tr>
                                                                             <td class="pulldown"><strong>Colour:</strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td class="content_left"><select name="productcolorlist" id="productcolorlist" style="width: 225px; font-size: 12px;" onchange="UpdatePosterPrice(66)"><option value="FULL COLOUR">FULL COLOUR</option></select></td>
+                                                                            <td class="content_left"><select name="productcolorlist" id="poster_colour" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(colour)"><option value="FULL COLOUR">FULL COLOUR</option></select></td>
                                                                         </tr>
                                                                         
                                                                                                 <tr style="display:none; ">
@@ -4009,7 +3977,7 @@
                                                                                                                                             <tr>
                                                                                                                 <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                                                             </tr><tr>
-                                                                                                                <td class="content_left"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdatePosterPrice(66)"><option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option></select></td>
+                                                                                                                <td class="content_left"><select name="productprintedsidelist" id="poster_sides" style="width: 225px; font-size: 12px;" onchange="UpdatePosterProductPrice(sides)"><option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option></select></td>
                                                                                                             </tr>
                                                                                                             
                                                                         
@@ -4085,7 +4053,7 @@
                                                                 <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                                 <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                                 <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                                <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(66);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                                <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(66);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(poster)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                             </td></tr>
                                         <tr><td class="product_options_price_footer"></td></tr>
@@ -4234,7 +4202,7 @@
                                                                 
                                                                                                                                     <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                                 <tr>
-                                                                                <td class="content_left"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPricePresFolder(65)"><option value="310GSM ARTBOARD">310GSM ARTBOARD</option><option value="350GSM ARTBOARD">350GSM ARTBOARD</option><option value="400GSM ARTBOARD">400GSM ARTBOARD</option></select></td>
+                                                                                <td class="content_left"><select name="productstocklist" id="folder_stock" style="width: 225px; font-size: 12px;" onchange="UpdateFolderProductPricePres(stock)"><option value="310GSM ARTBOARD">310GSM ARTBOARD</option><option value="350GSM ARTBOARD">350GSM ARTBOARD</option><option value="400GSM ARTBOARD">400GSM ARTBOARD</option></select></td>
                                                                             </tr>
                                                                             
                                                                 
@@ -4247,7 +4215,7 @@
                                                                         </tr>
                                                                         <tr>
                                                                             <td class="content_left" id="lhprintedside">
-                                                                                <select id="productprintedsidelist" onchange="UpdateProductPricePres(65)" style="width: 225px; font-size: 11px;" name="productprintedsidelist">
+                                                                                <select id="folder_sides" onchange="UpdateFolderProductPricePres(sides)" style="width: 225px; font-size: 11px;" name="productprintedsidelist">
                                                                                     <option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option>
                                                                                     <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
                                                                                 </select>
@@ -4264,7 +4232,7 @@
                                                                             <td class="pulldown"><strong>Finish:</strong></td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td class="content_left" id="presfolderfinish"><select name="productoptionlist" id="productoptionlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPricePresFinish(65)"><option value="FREE GLOSS OR MATT VARNISH">FREE GLOSS OR MATT VARNISH</option><option value="GLOSS LAMINATED 1 SIDE">GLOSS LAMINATED 1 SIDE</option><option value="MATT LAMINATED 1 SIDE">MATT LAMINATED 1 SIDE</option></select></td>
+                                                                            <td class="content_left" id="presfolderfinish"><select name="productoptionlist" id="folder_finish" style="width: 225px; font-size: 12px;" onchange="UpdateFolderProductPricePres(finish)"><option value="FREE GLOSS OR MATT VARNISH">FREE GLOSS OR MATT VARNISH</option><option value="GLOSS LAMINATED 1 SIDE">GLOSS LAMINATED 1 SIDE</option><option value="MATT LAMINATED 1 SIDE">MATT LAMINATED 1 SIDE</option></select></td>
                                                                         </tr>
                                                                         <tr style="display: none;">
                                                                             <td id="presfolderfinishupdate" class="content_left"><select name="productoptionlist" id="productoptionlist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPricePresFinish(65)"><option value="FREE GLOSS OR MATT VARNISH">FREE GLOSS OR MATT VARNISH</option><option value="GLOSS LAMINATED 1 SIDE">GLOSS LAMINATED 1 SIDE</option><option value="MATT LAMINATED 1 SIDE">MATT LAMINATED 1 SIDE</option><option value="GLOSS LAMINATED 2 SIDES">GLOSS LAMINATED 2 SIDES</option><option value="MATT LAMINATED 2 SIDES">MATT LAMINATED 2 SIDES</option></select></td>
@@ -4339,7 +4307,7 @@
                                                                 <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                                 <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                                 <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                                <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearPresCache(&quot;310GSM ARTBOARD&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;500&quot;, &quot;FREE GLOSS OR MATT VARNISH&quot;, &quot;65&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                                <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearPresCache(&quot;310GSM ARTBOARD&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;500&quot;, &quot;FREE GLOSS OR MATT VARNISH&quot;, &quot;65&quot;, &quot;0&quot;);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(presentation)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                             </td></tr>
                                         <tr><td class="product_options_price_footer"></td></tr>
@@ -4493,7 +4461,7 @@
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td class="content_left"><select name="productsizelist" id="productsizelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceComps(61)"><option value="DL 210 x 99">DL 210 x 99</option></select></td>
+                                                                            <td class="content_left"><select name="productsizelist" id="comps_size" style="width: 225px; font-size: 12px;" onchange="UpdateCompsProductPrice(size)"><option value="DL 210 x 99">DL 210 x 99</option></select></td>
                                                                         </tr>
                                                                                 
                                     
@@ -4501,14 +4469,14 @@
                                                             
                                                                                                                                 <tr><td class="pulldown"><strong>Stock:</strong></td></tr>
                                                                                                             <tr>
-                                                                            <td class="content_left"><select name="productstocklist" id="productstocklist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceComps(61)"><option value="100GSM LASER BOND">100GSM LASER BOND</option><option value="105GSM LASER 100% RECYCLED">105GSM LASER 100% RECYCLED</option></select></td>
+                                                                            <td class="content_left"><select name="productstocklist" id="comps_stock" style="width: 225px; font-size: 12px;" onchange="UpdateCompsProductPrice(stock)"><option value="100GSM LASER BOND">100GSM LASER BOND</option><option value="105GSM LASER 100% RECYCLED">105GSM LASER 100% RECYCLED</option></select></td>
                                                                         </tr>
                                                                         
                                                                                                 <tr>
                                                                         <td class="pulldown"><strong>Colour:</strong></td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td class="content_left" id="postcodecolor"><select onchange="UpdateProductPriceComps(61)" style="width: 225px; font-size: 12px;" id="productcolorlist" name="productcolorlist">
+                                                                        <td class="content_left" id="comps_colour"><select onchange="UpdateCompsProductPrice(colour)" style="width: 225px; font-size: 12px;" id="productcolorlist" name="productcolorlist">
                                                                         <option value="4 COLOUR PROCESS" selected="">4 COLOUR PROCESS</option>
                                                                         </select>
                                                                         </td>
@@ -4527,7 +4495,7 @@
                                                                                                                                         <tr>
                                                                                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                                                                                         </tr><tr>
-                                                                                                            <td class="content_left"><select name="productprintedsidelist" id="productprintedsidelist" style="width: 225px; font-size: 12px;" onchange="UpdateProductPriceComps(61)"><option value="1 SIDE">1 SIDE</option></select></td>
+                                                                                                            <td class="content_left"><select name="productprintedsidelist" id="comps_sides" style="width: 225px; font-size: 12px;" onchange="UpdateCompsProductPrice(sides)"><option value="1 SIDE">1 SIDE</option></select></td>
                                                                                                         </tr>
                                                                                                         
                                                                     
@@ -4597,7 +4565,7 @@
                                                             <tr><td colspan="4" id="totalpriceupdate"><center><span style="font-weight: bold;">Total Price: AUD 0.00</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_1"><center><span class="price_msg_first">Price include GST and delivery</span></center></td></tr>
                                                             <tr><td colspan="4" class="price_msg_2"><center><span class="price_msg">All 1Print prices are based on final artwork supplied</span></center></td></tr>
-                                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(61);"></a></td><td><input type="submit" class="add_to_cart"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
+                                                            <tr><td colspan="4" align="right"><br style=""><table><tbody><tr><td><a href="javascript:void(0);" class="clear_btn" onclick="ClearLWCache(61);"></a></td><td><input type="submit" class="add_to_cart" onclick="addToCard(compliments)"></td></tr></tbody></table></td></tr></tbody></table></form></div>            </div>
 
                                         </td></tr>
                                     <tr><td class="product_options_price_footer"></td></tr>
@@ -4990,40 +4958,26 @@
             
             <!-- cart -->
             <div class = "cart_div" id="cart_div_id" style="display:none">
-                <!-- shop-cart-area -->			
-                <div class="cart_main">
+                <!-- shop-cart-area -->
+                <div id="cart_none" display="block">
+                    <p>There is nothing in your cart</p>
+                </div>		
+                <div class="cart_main" style="display:none">
                     <table id="cart_table">
                         <thead>
                             <tr>
-                                <th class="product-thumbnail">Image</th>
                                 <th class="product-name">Product</th>
                                 <th class="product-price">Price</th>
                                 <th class="product-quantity">Quantity</th>
+                                <th class="product-description">Description</th>
                                 <th class="product-subtotal">Total</th>
                                 <th class="product-remove">Remove</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            {{-- <tr>
-                                <td class="product-thumbnail"><img src="img/product/1.jpg" alt=""></td>
-                                <td class="product-name"><a href="#">Vestibulum suscipit</a></td>
-                                <td class="product-price"><span class="amount">£165.00</span></td>
-                                <td class="product-quantity"><input type="number" value="1"></td>
-                                <td class="product-subtotal">£165.00</td>
-                                <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                            </tr>
-                            <tr>
-                                <td class="product-thumbnail"><a href="#"><img src="img/product/2.jpg" alt=""></a></td>
-                                <td class="product-name"><a href="#">Vestibulum dictum magna</a></td>
-                                <td class="product-price"><span class="amount">£50.00</span></td>
-                                <td class="product-quantity"><input type="number" value="1"></td>
-                                <td class="product-subtotal">£50.00</td>
-                                <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                            </tr> --}}
-                        </tbody>
+                        
                     </table>
                 </div>
-                <div class="cart_price">
+                <div class="cart_price" style="display:none">
                     <div class="cart_totals">
                         <h2>Cart Totals</h2>
                         <table>

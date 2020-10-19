@@ -214,7 +214,6 @@ function userLogin(){
         logininfo.password = $('.login_div_pass').val();
         
         $.ajax({
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
             type: "POST",
             url: "api/userLogin",
             dataType:'json',
@@ -321,7 +320,6 @@ function userRegister() {
         document.getElementById('postcodecheckmsg').innerHTML='Please enter your postcode';
     }else{
         $.ajax({
-        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
         url: "api/userRegister",
         dataType:'json',

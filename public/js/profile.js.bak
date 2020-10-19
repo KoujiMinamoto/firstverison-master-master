@@ -34,7 +34,6 @@ function updateUserMessage() {
     }else
     {
     $.ajax({
-        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
         url: "api/userUpdateMessage",
         dataType:'json',
