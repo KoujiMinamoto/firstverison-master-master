@@ -10,8 +10,12 @@ html {
 
 .header {
     width: 130rem;
-    height: 10rem;
+    height: 11rem;
     display: grid;
+    position: sticky;
+    z-index:999;
+    top: 0;
+    background:white;
     grid-template-columns: 47% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3%;
     margin: 0 auto;
 }
@@ -28,7 +32,9 @@ div.header>div>p{
     display: none;
     z-index:10;
     position: absolute;
-    top: 10.3rem;
+    /* top: 10.3rem; */
+    top: 101%;
+    left: 67.8rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -43,7 +49,7 @@ div.header>div>p{
     background: linear-gradient(to bottom, white, #e8e8e9);
     color: #454d55;
     width: 105%;
-    height: 20%;
+    height: 110%;
     text-align: left;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif ;
@@ -294,6 +300,7 @@ div.header>div>p{
     padding-bottom: 5rem;
     margin-left: auto;
     margin-right: auto;
+    background: white;
 }
 .register_div{
     width: 144rem;
@@ -328,6 +335,8 @@ div.header>div>p{
     margin-top: -0.1rem;
     cursor:pointer;
 }
+
+
 .home>p,
 .product>p,
 .design>p,
@@ -385,6 +394,8 @@ div.header>div>p{
 
 /* displayBox */
 .displayBox{
+    position: sticky;
+    z-index:-1;
     width: 190rem;
     height: 45rem;
     overflow: hidden;
@@ -392,6 +403,7 @@ div.header>div>p{
     margin-right: auto;
     margin-top: 0.3rem;
     margin-bottom:3rem;
+    top:11.5rem;
 }
 .displayBox ul{
     /* position:absolute; */
