@@ -83,7 +83,7 @@ function clickProduct(headerName) {
 }
 
 
-//Brochure
+//Brochure-style
 function UpdateProductPriceBrochure(type) {
 
     if(type == "size") {

@@ -29,6 +29,7 @@
     </script>
     </head>
     <body onload="initPage()">
+
     <!-- <div id="container"> -->
     <div class="homepage" id="homepage_div_id" style="display:block">
             <!-- header -->
@@ -101,7 +102,7 @@
             </div>
 
 
-
+            <!-- home container -->
             <!-- home -->
             <div class = "home_div" id="home_div_id" style="display:block">
 
