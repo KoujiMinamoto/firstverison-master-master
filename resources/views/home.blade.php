@@ -741,7 +741,7 @@
                         </div>
                     </div>
                 </div>
-                    <div style="clear: both;"></div>
+                <div style="clear: both;"></div>
             </div>
 
             <div class = "product_div" id="product_div_id_2" style="display:none">
