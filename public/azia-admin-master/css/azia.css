@@ -133,10 +133,12 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
-*,
-*::before,
-*::after {
+  .dashboard_admin *,
+  .dashboard_admin *::before,
+  .dashboard_admin *::after ,
+  .dashboard_user_div *,
+  .dashboard_user_div *::before,
+  .dashboard_user_divdashboard_user_div *::after {
   box-sizing: border-box; }
 
 html {
@@ -165,12 +167,12 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
-
-h1, h2, h3, h4, h5, h6 {
+  .dashboard_admin  h1,.dashboard_admin  h2,.dashboard_admin  h3,.dashboard_admin  h4,.dashboard_admin  h5,.dashboard_admin  h6,
+  .dashboard_user_div h1, .dashboard_user_div h2,.dashboard_user_div h3,.dashboard_user_div h4,.dashboard_user_div h5,.dashboard_user_div h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
-
-p {
+  .dashboard_admin p,
+  .dashboard_user_div p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -391,29 +393,30 @@ template {
 
 [hidden] {
   display: none !important; }
-
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+  .dashboard_admin h1, .dashboard_admin h2,.dashboard_admin h3,.dashboard_admin  h4,.dashboard_admin  h5,.dashboard_admin  h6,
+  .dashboard_admin .h1,.dashboard_admin  .h2,.dashboard_admin  .h3,.dashboard_admin  .h4,.dashboard_admin  .h5,.dashboard_admin  .h6 ,
+.dashboard_user_div h1, .dashboard_user_div h2,.dashboard_user_div h3,.dashboard_user_div  h4,.dashboard_user_div  h5,.dashboard_user_div  h6,
+.dashboard_user_div .h1,.dashboard_user_div  .h2,.dashboard_user_div  .h3,.dashboard_user_div  .h4,.dashboard_user_div  .h5,.dashboard_user_div  .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2; }
-
-h1, .h1 {
+  .dashboard_user_div   h1,.dashboard_user_div  .h1,
+  .dashboard_user_div h1, .dashboard_user_div .h1 {
   font-size: 2.1875rem; }
-
-h2, .h2 {
+.dashboard_user_div h2,.dashboard_user_div .h2,
+.dashboard_admin h2,.dashboard_admin .h2 {
   font-size: 1.75rem; }
-
-h3, .h3 {
+  .dashboard_user_div  h3, .dashboard_user_div .h3,
+  .dashboard_user_div h3,.dashboard_user_div  .h3 {
   font-size: 1.53125rem; }
-
-h4, .h4 {
+  .dashboard_user_div h4, .dashboard_user_div .h4,
+  .dashboard_user_div h4,.dashboard_user_div  .h4 {
   font-size: 1.3125rem; }
-
-h5, .h5 {
+  .dashboard_user_div h5, .dashboard_user_div .h5,
+  .dashboard_user_div h5,.dashboard_user_div  .h5 {
   font-size: 1.09375rem; }
-
-h6, .h6 {
+  .dashboard_user_div h6, .dashboard_user_div .h6,
+  .dashboard_user_div h6, .dashboard_user_div .h6 {
   font-size: 0.875rem; }
 
 .lead {

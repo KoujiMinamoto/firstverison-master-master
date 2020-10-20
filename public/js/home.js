@@ -247,7 +247,7 @@ function userLogin(){
                     var usertype = storage.usertype;
                     let msgd = msg;
                     document.getElementById("homepage_div_id").style.display = "none";
-                    console.log(msgd);
+                    //console.log(msgd);
                     if(usertype == "1"){
                         initDashboard(msg);
                         document.getElementById("dashboard_admin_div_id").style.display = "block";}
