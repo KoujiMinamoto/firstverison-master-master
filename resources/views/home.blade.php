@@ -5154,6 +5154,35 @@
                           <li><a >Website Design</a></li>
                         </ul>
                         </div>
+                        <div class="footer_menu3">
+                            <div class="footer_heading">Company Info</div>
+                            <ul>
+                                <li><a >About Us</a></li>
+                                <li><a >Contact</a></li>
+                                <li><a >Privacy Policy</a></li>
+                                <li><a >Terms and Conditions</a></li>
+                                <li><a >Testimonials</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_menu4">
+                            <div class="footer_heading">Support</div>
+                            <ul>
+                                <li><a >Order Process</a></li>
+                                <li><a >Delivery</a></li>
+                                <li><a >File Guidelines</a></li>
+                                <li><a >FTP Accounts</a></li>
+                                <li><a >Colour Critical</a></li>
+                                <li><a >Sample Pack</a></li>
+                                <li><a >FAQ</a></li>
+                                <li><a >Sitemap</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_menu5">
+                            <div class="footer_heading">Community</div>
+                            <ul>
+                                <li><a >Blog</a></li>
+                            </ul>
+                        </div>
                         <div class="social_media_holder">
                         <a class="footer_facebook" href="" target="_blank" rel="nofollow"></a>
                         <a class="footer_twitter" href="" target="_blank" rel="nofollow"></a>

@@ -540,7 +540,7 @@ h1.hp_title {
 
 .footer_width_holder {
     width: 128rem;
-    margin: 0 auto;
+    margin: 0 10rem;
     padding-top: 3rem;
 }
 .footer_col1 {
@@ -602,7 +602,11 @@ input.btn_search {
     font-size: 1.2rem;
 }
 
-
+.footer_phone_number{
+    float:left;
+    width:36rem;
+    height:4.6rem;
+}
 .footer_menu1 {
     width: 14rem;
     font-size: 1rem;
