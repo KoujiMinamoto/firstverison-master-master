@@ -149,8 +149,8 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
-
-body {
+  .dashboard_user_div body,
+  .dashboard_admin body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.875rem;
@@ -8999,7 +8999,8 @@ a.text-dark:hover, a.text-dark:focus {
   border-top-width: 0; }
 
 /* ###### 6.3 Global  ###### */
-body {
+.dashboard_user_div body,
+  .dashboard_admin body {
   font-family: "Roboto", sans-serif; }
 
 .az-body,
