@@ -234,24 +234,55 @@
                             <div class="blog_post_container">
                                 <div class="blog_post_title"><a href="http://web.archive.org/web/20180903133919/http://www.1print.net.au/blog/5-kinds-of-office-stationary-that-will-always-be-relevant/">5 Kinds of Office Stationary That Will Always be Relevant  </a></div>
                                 <div class="blog_post_content"><p>It’s often been speculated that eventually, computers will replace the functions of paper stationary in the office. Whilst this prediction has ce...</p></div>
+                                <div class="blog_post_view"><a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/blog/effective-poster-design-in-1-2-3/">view post</a></div>
                             </div>
                             <div class="blog_post_container">
                                 <div class="blog_post_title"><a href="http://web.archive.org/web/20180903133919/http://www.1print.net.au/blog/business-card-etiquette-when-and-how-to-hand-them-out/">Business Card Etiquette: When And How To Hand Them Out</a></div>
                                 <div class="blog_post_content"><p>For those who have had business cards for a while, the concept of networking and distributing them is a no-brainer. But for those who are new to th...</p></div>
+                                <div class="blog_post_view"><a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/blog/understanding-rgb-101/">view post</a></div>
                             </div>
                             <div class="blog_post_container">
                                 <div class="blog_post_title"><a href="http://web.archive.org/web/20180903133919/http://www.1print.net.au/blog/2018-business-card-trends/">2018 Business Card Trends </a></div>
                                 <div class="blog_post_content"><p>Looking to upgrade your business cards to something cutting edge? Is it your first time printing business cards and your feeling a little lost when...</p></div>
+                                <div class="blog_post_view"><a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/blog/the-ultimate-print-ready-checklist/">view post</a></div>
                             </div>
                             <div class="clear: both;"></div>
                         </div>
                     </div>
                     <div class="home_content_right">
-                        <p class="home_content_p1">Yellow Star Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>
-                        <p class="home_content_p2">You send it, We Print It. It's That Easy!</p>
-                        <p >Our printing service is of the highest quality, at the lowest possible price.</p>
-                        <p >Design your own graphics and send the file to us ordering process. Our printing services are the </p>
-                        <p >21st century way of producing customised business stationary at reduced cost.</p>
+                        <div class="home_subtitle">an online store with a difference...</div>
+                        <div class="home_panel1">
+                            <a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/order.php">
+                                <div class="home_panel1_img">
+                                </div>
+                                <h4>Easy Ordering</h4>
+                                <p>Shopping cart, email, FTP or Dropbox services available.</p>
+                                <a class="blue_link" href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/order.php">read more+</a>
+                            </a>
+                        </div>
+                        <div class="home_panel2">
+                            <a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/delivery.php">
+                                <div class="home_panel2_img">
+                                </div>
+                                <h4>Free Delivery</h4>
+                                <p>Free delivery Australia wide for all products.</p>
+                                <a class="blue_link" href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/delivery.php">read more+</a>
+                            </a>
+                        </div>
+                        <div class="home_panel3">
+                            <a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/faq.php">
+                                <div class="home_panel3_img">
+                                </div>
+                                <h4>Need Help?</h4>
+                                <p>Our friendly team is ready to offer you industry help or advice.</p>
+                                <a class="blue_link" href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/faq.php">read more+</a>
+                            </a>
+                        </div>
+{{--                        <p class="home_content_p1">Yellow Star Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>--}}
+{{--                        <p class="home_content_p2">You send it, We Print It. It's That Easy!</p>--}}
+{{--                        <p >Our printing service is of the highest quality, at the lowest possible price.</p>--}}
+{{--                        <p >Design your own graphics and send the file to us ordering process. Our printing services are the </p>--}}
+{{--                        <p >21st century way of producing customised business stationary at reduced cost.</p>--}}
                     </div>
                     <div class="clear: both;"></div>
                 </div>
