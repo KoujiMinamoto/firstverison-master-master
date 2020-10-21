@@ -24,4 +24,23 @@
     margin-left: 2%;
     margin-right: 2%;
 }
+/*privacy&terms*/
+.privacy_div .main_container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.privacy_div .container_left{
+	float:left;
+	width:575px;
+	padding-left:20px;
+	color:#7f7f7f;
+	text-align:justify;
+}
+.privacy_div .container_right{
+	float:right;
+	width:575px;
+	padding-right:20px;
+	color:#7f7f7f;
+	text-align:justify;
+}
 

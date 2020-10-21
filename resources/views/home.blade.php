@@ -10643,6 +10643,107 @@
         </div>
     </div>
 
+    <!-- privacy -->
+    <div class="privacy_div" id="privacy_div_id" style="display:none">
+        <div class="main_container">
+            <div class="container_left">
+                <h1>Privacy Policy</h1>
+                <p>1Print Pty Ltd is committed to protecting and respecting your privacy. This Privacy Statement sets out our privacy policy and explains what we do with personal information that we collect from our customers. Please read the following to understand our views and practices regarding personal information, and how they pertain to you as you use our various products and services. This statement discloses our current privacy practices, if we make any changes to this policy, we will announce it via an e-mail and on our web site. If you have any questions or concerns regarding this statement, please e-mail <a href="http://web.archive.org/web/20180312231823/mailto:info@1print.net.au" class="blue_link">info@1print.net.au</a>
+                </p>
+                <p>&nbsp;</p>
+                <p class="black_bold">What information does 1Print gather about it's customers?</p>
+                <p>
+                The bulk of information 1Print has about its customers is the information we get through the "Registration Form" you complete when you first become a customer of 1Print. We may also gather information from your website, from the Australian Securities Commission and by querying a "Whois" tool on the Internet.
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                Sometimes we conduct surveys, and although these can be anonymous, we prefer to get your contact details so that we can follow-up on any issues that need clarification.
+                </p>
+                <p>&nbsp;</p>
+                <p class="black_bold">
+                Data Security</p>
+                <p>
+                1Print takes reasonable steps to keep any Personal Information in its possession secure and to protect that Personal Information from misuse or loss and from unauthorised access, modification or disclosure.
+                </p><p>&nbsp;</p>
+                <p>Credit Card details, where supplied, are encrypted during transmission to our bank for processing. 1Print stores credit card details to enable confirmation of payments to customers, however access to this Personal Information is controlled requiring executive approval.
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                Personal Information provided by customers on various forms or for specific transactions, including name and address and credit card details are accessible only to authorised personnel such as those staff involved in the processing of these forms/transactions.
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                When using the website you should be aware that no information transmitted over the internet can be guaranteed as totally secure. Although 1Print strives to protect such information, 1Print does not warrant the security of any information transmitted to it over the internet and you do so at your own risk.
+                </p>
+
+
+
+        
+            </div>
+            
+            <div class="container_right">
+                <p class="black_bold">
+                How do we handle email and Contact Us/Feedback information or other electronic messages?
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                We may preserve the content of any email or "Contact us/Feedback" or other electronic message that we receive. Any Personal Information contained in those messages will only be used or disclosed in ways set out in this Privacy Statement. The message content may be monitored by our service providers or our employees for purposes including troubleshooting, compliance auditing and maintenance or where email abuse is suspected.
+                </p>
+                <p>&nbsp;</p>
+                <p class="black_bold"> 
+                How does 1Print use your personal information?
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                1Print uses the information it has about its customers to:
+                </p><p>&nbsp;</p>
+                <ul class="black_bullets"> 
+                <li>Fulfil requests for products and services as requested by the customer.</li>
+                <li>Develop internal marketing programs and initiatives</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p class="black_bold"> 
+                Will 1Print disclose any of your personal information?
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                1Print will not disclose any information about its clients or prospective clients to any third party without consent.
+                </p>
+                <p>&nbsp;</p>
+                <p class="black_bold">  
+                Will 1Print use your information for direct mailings?
+                </p> <p>&nbsp;</p><p>
+                1Print will, from time to time, e-mail its customers with information that we believe is important for the smooth operation of the service, or is information which will improve the performance or value of the customer's website
+                </p>
+                <p>&nbsp;</p>
+                <p class="black_bold">  
+                How can you deactivate your account, or correct or revise information 1Print has about you or your business?
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                To change your account details simply email info@1print.net.au with your new details. To cancel your account with 1Print you must make your request in writing or facsimile on company letterhead.
+                </p>
+                <p>&nbsp;</p>
+                <p class="black_bold"> 
+                
+                How does 1Print use Cookies on its website
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                Ensure that only registered users gain access to the member area of the website, track, log and collate the use of the website so that we can improve the user experience.
+                </p>
+                <p>&nbsp;</p>
+                <p>
+                If you have any further questions regarding your privacy policy of 1Print please <b class="black_bold">email</b> info@1print.net.au
+                </p>
+
+
+            <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
     <!-- footer -->
     <div class="footer" id="footer_id">
 
