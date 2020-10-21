@@ -1712,8 +1712,17 @@
 
                     <div class="main_left_bottom1">
 
+                        <div class="product_info_express no_margin">
+                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">
+                                <div class="product_info_express_img">
+                                </div>
+                                <h4>Express Printing</h4>
+                                <p>For a guaranteed 48 hour despatch after your order is placed</p>
+                                <a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">read more+</a>
+                            </a>
+                        </div>
 
-                        <div class="product_info_design no_margin">
+                        <div class="product_info_design margin_left20">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">
                                 <div class="product_info_design_img">
                                 </div>
@@ -1735,7 +1744,24 @@
                                 more+</a>
 
                         </div>
-
+                        <div class="product_info_order">
+                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">
+                                <div class="product_info_order_img">
+                                </div>
+                                <h4>Order process</h4>
+                                <p>The ordering process explained</p>
+                                <a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">read more+</a>
+                            </a>
+                        </div>
+                        <div class="product_info_guidelines">
+                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">
+                                <div class="product_info_guidelines_img">
+                                </div>
+                                <h4>File Guidelines</h4>
+                                <p>Print specifications to achieve best printing results</p>
+                                <a class="blue_link" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            </a>
+                        </div>
 
                         <div class="clear"></div>
 
@@ -2346,6 +2372,16 @@
                                 </tbody>
                             </table>
                         </div>
+                        <!-- email your order in 3 steps -->
+                        <a class="nonblock nontext clip_frame grpelem" id="u76951" href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php" data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                            <img class="block" id="u76951_img" src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290" height="146" data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                        </a>
+
+                        <!-- corporate accounts call image -->
+                        <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471" data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                            <!-- image -->
+                            <img class="block" id="u76951_img" src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290" height="113" data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                        </a>
 
                     </div>
                     <!--end product_right_option-->
@@ -5351,9 +5387,6 @@
                             </tbody>
                         </table>
                     </div>
-
-
-                    <!-- email your order in 3 steps -->
 
 
                 </div>
