@@ -265,6 +265,13 @@ h3{
     color: #323232;
     font-weight: bold;
 }
+.main_left_bottom1{
+    padding:3rem 0;
+    display: inline-block;
+}
+
+
+
 /* booklet*/
 .booklet-quote-left {
     width: 30%;
@@ -571,19 +578,91 @@ button.blue_button:hover {
 .no_margin{
 	margin:0 !important
 }
+.product_info_design,
+.product_info_gallery,
+.product_info_order,
+.product_info_guidelines,
+.product_info_templates,
+.product_info_express,
+.product_info_delivery{
+    width:16.5rem;
+    margin-left:2rem;
+    float:left;
+}
+
+.product_info_design a,
+.product_info_gallery a,
+.product_info_order a,
+.product_info_guidelines a,
+.product_info_templates a,
+.product_info_express a,
+.product_info_delivery a{
+    text-decoration:none;
+    color: #7F7F7F;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.8rem;
+    display:block;
+}
 .product_info_design{
 	margin-left:0;
 	background:url(../image/panel_design.jpg) no-repeat left top;
 }
-.product_info_design:hover{
-	background:url(../image/panel_design_hover.jpg) no-repeat left top;
-}
 .product_info_gallery{
 	background:url(../image/panel_gallery.jpg) no-repeat left top;
+}
+.product_info_order{
+    background:url(../image/panel_order.jpg) no-repeat left top;
+}
+.product_info_guidelines{
+    background:url(../image/panel_guidelines.jpg) no-repeat left top;
+}
+.product_info_templates{
+    background:url(../image/panel_templates.jpg) no-repeat left top;
+}
+
+
+.product_info_design:hover{
+    background:url(../image/panel_design_hover.jpg) no-repeat left top;
 }
 .product_info_gallery:hover{
 	background:url(../image/panel_gallery_hover.jpg) no-repeat left top;
 }
+.product_info_order:hover{
+    background:url(../image/panel_order_hover.jpg) no-repeat left top;
+}
+.product_info_guidelines:hover{
+    background:url(../image/panel_guidelines_hover.jpg) no-repeat left top;
+}
+.product_info_templates:hover{
+    background:url(../image/panel_templates_hover.jpg) no-repeat left top;
+}
+
+.product_info_design h4,
+.product_info_gallery h4,
+.product_info_order h4,
+.product_info_guidelines h4,
+.product_info_templates h4,
+.product_info_express h4,
+.product_info_delivery h4{
+    color: #323232;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    padding-bottom:2rem;
+    padding-top:1rem;
+}
+.product_info_design a.blue_link,
+.product_info_gallery a.blue_link,
+.product_info_order a.blue_link,
+.product_info_guidelines a.blue_link,
+.product_info_templates a.blue_link,
+.product_info_express a.blue_link,
+.product_info_delivery a.blue_link{
+    color: #29ABE2;
+    text-decoration: none;
+}
+
 .product_info_design_img{
 	width: 165px;
 	height: 142px;
@@ -612,23 +691,48 @@ button.blue_button:hover {
 	-khtml-border-radius: 3px;
 	border-radius: 3px;
 }
-.product_info_design{
-    width:165px;
-	margin-left:0px;
-	float:left;
+.product_info_order_img{
+    width: 165px;
+    height: 142px;
+    background: transparent url(../image/panel_order_hover.jpg) no-repeat left top;
+    transition:opacity 0.5s;
+    -moz-transition: opacity 0.5s; /* Firefox 4 */
+    -webkit-transition:opacity 0.5s; /* Safari and Chrome */
+    -o-transition:opacity 0.5s; /* Opera */
+    opacity:0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
 }
-.product_info_gallery,
-.product_info_order,
-.product_info_guidelines,
-.product_info_templates,
-.product_info_express,
-.product_info_delivery{
-	width:165px;
-	margin-left:20px;
-	float:left;
+.product_info_guidelines_img{
+    width: 165px;
+    height: 142px;
+    background: transparent url(../image/panel_guidelines_hover.jpg) no-repeat left top;
+    transition:opacity 0.5s;
+    -moz-transition: opacity 0.5s; /* Firefox 4 */
+    -webkit-transition:opacity 0.5s; /* Safari and Chrome */
+    -o-transition:opacity 0.5s; /* Opera */
+    opacity:0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
 }
-
-
+.product_info_templates_img{
+    width: 165px;
+    height: 142px;
+    background: transparent url(../image/panel_templates_hover.jpg) no-repeat left top;
+    transition:opacity 0.5s;
+    -moz-transition: opacity 0.5s; /* Firefox 4 */
+    -webkit-transition:opacity 0.5s; /* Safari and Chrome */
+    -o-transition:opacity 0.5s; /* Opera */
+    opacity:0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
 
 /* pro1done */
 

@@ -1315,11 +1315,57 @@
 
 
                     </div>
-                </div>
+                </div><div class="clear"></div>
+                <div class="main_left_bottom1">
+                    <div class="product_info_design">
+                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/design-services.php">
+                            <div class="product_info_design_img">
+                            </div>
+                            <h4>Design Services</h4>
+                            <p>Need artwork setup? Our team of experienced designers can help</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_gallery">
+                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/gallery.php">
+                            <div class="product_info_gallery_img">
+                            </div>
+                            <h4>Gallery</h4>
+                            <p>Looking for design inspiration? See examples of our work</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/gallery.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_templates">
+                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/booklet_templates.php">
+                            <div class="product_info_templates_img">
+                            </div>
+                            <h4>Artwork Templates</h4>
+                            <p>Need artwork setup? Our team of experienced designers can help</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/booklet_templates.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="clear"></div>
             </div>
-        </div>
         <div style="clear: both;"></div>
-    </div>
+    </div> </div> </div>
 
     <div class="product_div" id="product_div_id_2" style="display:none">
         <div class="text_holder">
