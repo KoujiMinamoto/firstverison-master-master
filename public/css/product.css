@@ -175,11 +175,17 @@ h3{
     text-align: justify;
     padding-bottom:20px;
 }
+.black{
+    color:#323232;
+}
 .product_main_left_right h4{
     color: #323232;
     font-size: 22px;
     font-weight: bold;
     line-height:26px;
+}
+.main_product_container h1.card_title{
+    font-size:3.7rem;
 }
 .padding_top{
     padding-top:2rem;
@@ -497,8 +503,8 @@ button.blue_button:hover {
 	border-radius: 3px 3px 0 0;
 }
 .bro_setup .bro_dl a{
-	width:127px;
-	min-height: 28px;
+	width:12.7rem;
+	min-height: 1.7rem;
 	background: #323232  repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(#606060),color-stop(100%, #323232));
 	background: -webkit-linear-gradient(top,#606060 ,#323232 100%);
@@ -534,28 +540,28 @@ button.blue_button:hover {
 }
 .bro_setup .bro_sizing{
 	font-size: 36px;
-	line-height: 43px;
+	line-height: 41px;
 	color: #959595;
 	font-weight: bold;
 	text-align:center;
 	height:43px;
-	padding-top:10px;
+	padding-top:5px;
 }
 .bro_title {
 	text-align:center;
 	font-size: 14px;
 	font-weight: bold;
-	line-height: 17px;
+	line-height: 14px;
 	height:20px;
 	color:#323232;
 }
 .bro_sizing_sml {
 	text-align:center;
 	font-size: 12px;
-	line-height: 14px;
+	line-height: 10px;
 	color: #323232;
 	font-weight: normal;
-	height:20px;
+	height:23px;
 }
 .folding_list {
     float: left;
@@ -624,7 +630,9 @@ button.blue_button:hover {
 .product_info_express{
     background: url(../image/panel_express.jpg) no-repeat left top;
 }
-
+.product_info_delivery{
+    background: url(../image/panel_delivery.jpg) no-repeat left top;
+}
 .product_info_design:hover{
     background:url(../image/panel_design_hover.jpg) no-repeat left top;
 }
@@ -643,7 +651,48 @@ button.blue_button:hover {
 .product_info_express:hover{
     background:url(../image/panel_express_hover.jpg) no-repeat left top;
 }
-
+.product_info_delivery:hover{
+    background:url(../image/panel_delivery_hover.jpg) no-repeat left top;
+}
+.gallery_brochure{
+    background:url(../image/panel_gallery_brochure.jpg) no-repeat left top;
+}
+.gallery_bcards{
+    background:url(../image/panel_gallery_bcards.jpg) no-repeat left top;
+}
+.gallery_notepad{
+    background:url(../image/panel_gallery_notepad.jpg) no-repeat left top;
+}
+.gallery_docket{
+    background:url(../image/panel_gallery_docket.jpg) no-repeat left top;
+}
+.gallery_envelope{
+    background:url(../image/panel_gallery_envelope.jpg) no-repeat left top;
+}
+.gallery_flyer{
+    background:url(../image/panel_gallery_flyer.jpg) no-repeat left top;
+}
+.gallery_magnet{
+    background:url(../image/panel_gallery_magnet.jpg) no-repeat left top;
+}
+.gallery_letterhead{
+    background:url(../image/panel_gallery_letterhead.jpg) no-repeat left top;
+}
+.gallery_postcard{
+    background:url(../image/panel_gallery_postcard.jpg) no-repeat left top;
+}
+.gallery_poster{
+    background:url(../image/panel_gallery_poster.jpg) no-repeat left top;
+}
+.gallery_folder{
+    background:url(../image/panel_gallery_folder.jpg) no-repeat left top;
+}
+.gallery_comp{
+    background:url(../image/panel_gallery_comp.jpg) no-repeat left top;
+}
+.gallery_urgent{
+    background:url(../image/panel_gallery_urgent.jpg) no-repeat left top;
+}
 .product_info_design h4,
 .product_info_gallery h4,
 .product_info_order h4,
@@ -743,6 +792,20 @@ button.blue_button:hover {
     width: 165px;
     height: 142px;
     background: transparent url(../image/panel_express_hover.jpg) no-repeat left top;
+    transition:opacity 0.5s;
+    -moz-transition: opacity 0.5s; /* Firefox 4 */
+    -webkit-transition:opacity 0.5s; /* Safari and Chrome */
+    -o-transition:opacity 0.5s; /* Opera */
+    opacity:0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.product_info_delivery_img{
+    width: 165px;
+    height: 142px;
+    background: transparent url(../image/panel_delivery_hover.jpg) no-repeat left top;
     transition:opacity 0.5s;
     -moz-transition: opacity 0.5s; /* Firefox 4 */
     -webkit-transition:opacity 0.5s; /* Safari and Chrome */
@@ -989,7 +1052,44 @@ input.add_to_cart:hover {
     background: url(../image/btn_add_to_cart_hover.jpg) no-repeat;
     border: none;
 }
+/*a:link*/
+/*{*/
+/*    color: #0000FF;*/
+/*    text-decoration: underline;*/
+/*}*/
+/*a:visited{*/
+/*    color: #800080;*/
+/*    text-decoration: underline;*/
+/*}*/
+#u56029-7 {
+    background-color: #ebebeb;
+    border-radius: 3px;
+    color: #323232;
+    font-size: 16px;
+    line-height: 16px;
+    min-height: 33px;
+    padding-left: 19px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-align: left;
+    width: 506px;
+    z-index: 77;
+    float:left;
+}
+#u56029-7:hover {
+    background-color: #bcbcbc;
+    margin: 0;
+    min-height: 33px;
+    padding-bottom: 0;
+    padding-top: 3px;
+    width: 506px;
+}
 
+.span_looking {
+    font-weight:bold;
+    line-height: 42px;
+    margin-left:20px
+}
 /* Business Card Printing*/
 #product_div_id_15 .main_left,
 #product_div_id_14 .main_left,
@@ -1052,6 +1152,8 @@ input.add_to_cart:hover {
 #product_div_id_3 .main_left_right h4 {
     font-size: 26px;
     line-height: 31px;
+    color: #323232;
+    font-weight: bold;
 }
 #product_div_id_15 .main_right,
 #product_div_id_14 .main_right,
@@ -1390,21 +1492,21 @@ notepad */
 /* Direct Marketing */
 #product_div_id_5 .container_left{
 	float:left;
-	width:425px;
-	padding-left:20px;
+	width:57.5rem;
+	padding-left:2rem;
 	color:#7f7f7f;
 	text-align:justify;
 }
 #product_div_id_5 .container_right{
 	float:right;
-	width:425px;
-	padding-right:20px;
+	width:57.5rem;
+	padding-right:2rem;
 	color:#7f7f7f;
 	text-align:justify;
 }
 #product_div_id_5 .main_container,
 #product_div_id_5 .main_product_container{
-	width:980px;
+	width:128rem;
 	margin:0 auto;
 }
 #product_div_id_5 #product_div_id_5 h1{
@@ -1469,4 +1571,94 @@ notepad */
 	padding-top:20px;
 }
 
+.setup_banner_wrapper {
+    display:block;
+    border:none;
+    width:542px;
+    height:100px;
+    background: transparent url(../image/business%20card%20-%20spot%20uv-01.jpg) no-repeat center center;
+    margin-top:35px;
+}
+.kinds_input input{
+    text-align:center;
+    width:43px !important;
+    min-height:23px;
+}
+.product_price_holder{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    width:257px;
+}
+h1{
+    font-size: 39px;
+    line-height: 47px;
+    color: #323232;
+    font-weight:bold;
+    padding-bottom:20px;
+    text-align:left;
+}
+h2.large{
+    font-size: 39px;
+    line-height: 47px;
+    color: #323232;
+    font-weight:bold;
+    padding-bottom:20px;
+}
+h2{
+    color: #323232;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: justify;
+    padding-bottom:20px;
+}
+h3{
+    color: #323232;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: justify;
+    padding-bottom:20px;
+}
+.docket_templates{
+    padding-top:30px;
+}
+.price_header {
+    width: 83px;
+    font-weight: bold;
+}
+.click_a:link
+{
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.click_a:visited
+{
+    color: #800080;
+    text-decoration: underline;
+}
+
+.click_a:hover
+{
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.click_a:active
+{
+    color: #EE0000;
+    text-decoration: underline;
+}
+
+a.blue_link{
+    color:#29abe2;
+    text-decoration:none;
+}
+a.blue_link:hover{
+    color:#323232;
+    text-decoration:none;
+}
+/*prod
 
