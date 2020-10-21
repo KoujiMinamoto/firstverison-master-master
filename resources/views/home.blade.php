@@ -322,159 +322,159 @@
     <!-- product -->
     <div class="product_div" id="product_div_id" style="display:none">
         <!-- shop-details-area -->
-    {{-- <section class="shop-details-area pt-100 pb-100">
-                    <div class="home_content_left">
-                        <div class="product_div_display1">
-                            <img src="{{URL::asset('/image/Product1.jpg') }} " width=70% height=50%>
-                        </div>
-                        <div class="product_div_display2">
-                            <img src="{{URL::asset('/image/Product2.jpg') }} " width=70% height=50%>
-                        </div>
-                    </div>
-                    <div class="home_content_right">
-                        <div class="product_div_display1">
-                            <div class="shop-details-content">
-                                <h2>Book Design</h2>
-                                <div class="shop-details-price">
-                                    <h2>$290.00 <del>$490.00</del></h2>
-                                </div>
-                                <p>Design Book for your company</p>
-
-                                <div class="perched-info">
-                                    <a href="#" class="btn add-card-btn">ADD TO CART</a>
-                                </div>
+        {{-- <section class="shop-details-area pt-100 pb-100">
+                        <div class="home_content_left">
+                            <div class="product_div_display1">
+                                <img src="{{URL::asset('/image/Product1.jpg') }} " width=70% height=50%>
+                            </div>
+                            <div class="product_div_display2">
+                                <img src="{{URL::asset('/image/Product2.jpg') }} " width=70% height=50%>
                             </div>
                         </div>
-                        <div class="product_div_display3">
-                            <div class="shop-details-content">
-                                <h2>Invitation card Design</h2>
-                                <div class="shop-details-price">
-                                    <h2>$390.00 <del>$400.00</del></h2>
-                                </div>
-                                <p>Design Invitation card for your company</p>
+                        <div class="home_content_right">
+                            <div class="product_div_display1">
+                                <div class="shop-details-content">
+                                    <h2>Book Design</h2>
+                                    <div class="shop-details-price">
+                                        <h2>$290.00 <del>$490.00</del></h2>
+                                    </div>
+                                    <p>Design Book for your company</p>
 
-                                <div class="perched-info">
-                                    <a href="#" class="btn add-card-btn">ADD TO CART</a>
+                                    <div class="perched-info">
+                                        <a href="#" class="btn add-card-btn">ADD TO CART</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div style="clear:both"></div>
-                </section> --}}
-    <!-- shop-details-area-end -->
-        <div class="product_div_main">
-            <div class="product_div_first">
-                <div class="product_div_img1">
+                            <div class="product_div_display3">
+                                <div class="shop-details-content">
+                                    <h2>Invitation card Design</h2>
+                                    <div class="shop-details-price">
+                                        <h2>$390.00 <del>$400.00</del></h2>
+                                    </div>
+                                    <p>Design Invitation card for your company</p>
 
-                </div>
-                <div class="product_div_message">
-                    <div class="product_div_name">
-                        <p class="product_name">CD Print1</p>
-                        <p class="product_price">$300</p>
-                        <div class="product_describe">
-                            <div class="product_describe_message">
-                                <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
-                                    you receive a quality product at the lowest possible price.</p>
-                                <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
-                                    170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                                    <div class="perched-info">
+                                        <a href="#" class="btn add-card-btn">ADD TO CART</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="product_addCart1" onclick="addCard(1)">
-                        <p>ADD TO CART</p>
-                    </div>
-                </div>
-            </div>
+                        <div style="clear:both"></div>
+                    </section> --}}
+        <!-- shop-details-area-end -->
+            <div class="product_div_main">
+                <div class="product_div_first">
+                    <div class="product_div_img1">
 
-            <div class="product_div_second">
-                <div class="product_div_img2"></div>
-                <div class="product_div_message">
-                    <div class="product_div_name">
-                        <p class="product_name">CD Print2</p>
-                        <p class="product_price">$300</p>
-                        <div class="product_describe">
-                            <div class="product_describe_message">
-                                <p>Here are some text to describe the product</p>
-                                <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
-                                    you receive a quality product at the lowest possible price.</p>
-                                <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
-                                    170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                    </div>
+                    <div class="product_div_message">
+                        <div class="product_div_name">
+                            <p class="product_name">CD Print1</p>
+                            <p class="product_price">$300</p>
+                            <div class="product_describe">
+                                <div class="product_describe_message">
+                                    <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
+                                        you receive a quality product at the lowest possible price.</p>
+                                    <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
+                                        170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="product_addCart2" onclick="addCard(2)">
-                        <p>ADD TO CART</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product_div_third">
-                <div class="product_div_img3"></div>
-                <div class="product_div_message">
-                    <div class="product_div_name">
-                        <p class="product_name">CD Print3</p>
-                        <p class="product_price">$300</p>
-                        <div class="product_describe">
-                            <div class="product_describe_message">
-                                <p>Here are some text to describe the product</p>
-                                <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
-                                    you receive a quality product at the lowest possible price.</p>
-                                <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
-                                    170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
-                            </div>
+                        <div id="product_addCart1" onclick="addCard(1)">
+                            <p>ADD TO CART</p>
                         </div>
                     </div>
-                    <div id="product_addCart3" onclick="addCard(3)">
-                        <p>ADD TO CART</p>
-                    </div>
                 </div>
-            </div>
 
-            <div class="product_div_forth">
-                <div class="product_div_img4"></div>
-                <div class="product_div_message">
-                    <div class="product_div_name">
-                        <p class="product_name">CD Print4</p>
-                        <p class="product_price">$300</p>
-                        <div class="product_describe">
-                            <div class="product_describe_message">
-                                <p>Here are some text to describe the product</p>
-                                <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
-                                    you receive a quality product at the lowest possible price.</p>
-                                <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
-                                    170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                <div class="product_div_second">
+                    <div class="product_div_img2"></div>
+                    <div class="product_div_message">
+                        <div class="product_div_name">
+                            <p class="product_name">CD Print2</p>
+                            <p class="product_price">$300</p>
+                            <div class="product_describe">
+                                <div class="product_describe_message">
+                                    <p>Here are some text to describe the product</p>
+                                    <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
+                                        you receive a quality product at the lowest possible price.</p>
+                                    <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
+                                        170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="product_addCart4" onclick="addCard(4)">
-                        <p>ADD TO CART</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product_div_fivth">
-                <div class="product_div_img5"></div>
-                <div class="product_div_message">
-                    <div class="product_div_name">
-                        <p class="product_name">CD Print5</p>
-                        <p class="product_price">$300</p>
-                        <div class="product_describe">
-                            <div class="product_describe_message">
-                                <p>Here are some text to describe the product</p>
-                                <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
-                                    you receive a quality product at the lowest possible price.</p>
-                                <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
-                                    170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
-                            </div>
+                        <div id="product_addCart2" onclick="addCard(2)">
+                            <p>ADD TO CART</p>
                         </div>
                     </div>
-                    <div id="product_addCart5" onclick="addCard(5)">
-                        <p>ADD TO CART</p>
+                </div>
+
+                <div class="product_div_third">
+                    <div class="product_div_img3"></div>
+                    <div class="product_div_message">
+                        <div class="product_div_name">
+                            <p class="product_name">CD Print3</p>
+                            <p class="product_price">$300</p>
+                            <div class="product_describe">
+                                <div class="product_describe_message">
+                                    <p>Here are some text to describe the product</p>
+                                    <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
+                                        you receive a quality product at the lowest possible price.</p>
+                                    <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
+                                        170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product_addCart3" onclick="addCard(3)">
+                            <p>ADD TO CART</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div style="clear:both"></div>
+                <div class="product_div_forth">
+                    <div class="product_div_img4"></div>
+                    <div class="product_div_message">
+                        <div class="product_div_name">
+                            <p class="product_name">CD Print4</p>
+                            <p class="product_price">$300</p>
+                            <div class="product_describe">
+                                <div class="product_describe_message">
+                                    <p>Here are some text to describe the product</p>
+                                    <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
+                                        you receive a quality product at the lowest possible price.</p>
+                                    <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
+                                        170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product_addCart4" onclick="addCard(4)">
+                            <p>ADD TO CART</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product_div_fivth">
+                    <div class="product_div_img5"></div>
+                    <div class="product_div_message">
+                        <div class="product_div_name">
+                            <p class="product_name">CD Print5</p>
+                            <p class="product_price">$300</p>
+                            <div class="product_describe">
+                                <div class="product_describe_message">
+                                    <p>Here are some text to describe the product</p>
+                                    <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring
+                                        you receive a quality product at the lowest possible price.</p>
+                                    <p>Our booklets can be printed on a range of paper weights (ranging from 80gsm -
+                                        170gsm), as well as different paper sizes (A4, A5, A6, DL or a custom size).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="product_addCart5" onclick="addCard(5)">
+                            <p>ADD TO CART</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="clear:both"></div>
 
 
         </div>
@@ -9587,7 +9587,497 @@
     <!-- gallary -->
     <div class="gallary_div" id="gallary_div_id" style="display:none">
         <div class="text_holder">
-            <div class="gallary_div_options">
+            <div class="main_product_container gallery_holder">
+
+
+                <div class="clearfix grpelem" id="pu41515"><!-- group -->
+                    <div class="grpelem" id="u41515"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41516"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41517"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41518"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41519"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41520"><!-- simple frame --></div>
+                    <div class="SlideShowWidget clearfix grpelem" id="slideshowu41521"><!-- none box -->
+                    <div class="popup_anchor" id="u41567popup">
+                    <div class="SlideShowContentPanel clearfix" id="u41567" style="width: 0px; height: 0px;"><!-- stack box -->
+                    <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41578" style="display: none;"><!-- image -->
+                        <div id="u41578_clip">
+                        <img class="ImageInclude position_content" id="u41578_img" data-src="images/gallery%20-%20booklet%20-%20ray%20white.jpg" src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif" alt="" data-width="1015" data-height="677" style="visibility: hidden;">
+                        </div>
+                    </div>
+                    <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41570" style="display: none;"><!-- image -->
+                        <div id="u41570_clip">
+                        <img class="ImageInclude position_content" id="u41570_img" data-src="images/design%20-%20onalert944x678.jpg" src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif" alt="" data-width="944" data-height="677" style="visibility: hidden;">
+                        </div>
+                    </div>
+                    <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41572" style="display: none;"><!-- image -->
+                        <div id="u41572_clip">
+                        <img class="ImageInclude position_content" id="u41572_img" data-src="images/gallery%20-%20booklet%20-%20furphy.jpg" src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif" alt="" data-width="1019" data-height="677" style="visibility: hidden;">
+                        </div>
+                    </div>
+                    <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41574" style="display: none;"><!-- image -->
+                        <div id="u41574_clip">
+                        <img class="ImageInclude position_content" id="u41574_img" data-src="images/booklet_apack_thumb.jpg" src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif" alt="" data-width="1011" data-height="677" style="visibility: hidden;">
+                        </div>
+                    </div>
+                    <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading wp-panel-active" id="u41568" style="display: block;"><!-- image -->
+                        <div id="u41568_clip">
+                        <img class="ImageInclude position_content" id="u41568_img" data-src="images/gallery%20-%20booklet%20-%20gardens.jpg" src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif" alt="" data-width="1011" data-height="677" style="visibility: hidden;">
+                        </div>
+                    </div>
+                    <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41576" style="display: none;"><!-- image -->
+                        <div id="u41576_clip">
+                        <img class="ImageInclude position_content" id="u41576_img" data-src="images/gallery%20-%20booklet%20-%20macroair.jpg" src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif" alt="" data-width="846" data-height="677" style="visibility: hidden;">
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="popup_anchor" id="u41559popup">
+                    <div class="SlideShowCaptionPanel clearfix" id="u41559"><!-- stack box -->
+                    <div class="SSSlideCaption clearfix grpelem" id="u41562-12" style="display: none;"><!-- content -->
+                        <p id="u41562-3"><span id="u41562">A6 Booklet </span><span id="u41562-2">[48 Pages]</span></p>
+                        <p id="u41562-4">&nbsp;</p>
+                        <p id="u41562-6">150gsm Gloss Stock</p>
+                        <p id="u41562-8">200gsm Cover Gloss Machine Varnish</p>
+                        <p id="u41562-10">Saddlestitched</p>
+                    </div>
+                    <div class="SSSlideCaption clearfix grpelem" id="u41564-10" style="display: none;"><!-- content -->
+                        <p id="u41564-3"><span id="u41564">A4 Booklet </span><span id="u41564-2">[8 Pages, Landscape]</span></p>
+                        <p id="u41564-4">&nbsp;</p>
+                        <p id="u41564-6">170gsm Satin Stock</p>
+                        <p id="u41564-8">Saddlestitched</p>
+                    </div>
+                    <div class="SSSlideCaption clearfix grpelem" id="u41563-12" style="display: none;"><!-- content -->
+                        <p id="u41563-3"><span id="u41563">A4 Booklet </span><span id="u41563-2">[24 Pages]</span></p>
+                        <p id="u41563-4">&nbsp;</p>
+                        <p id="u41563-6">150gsm Gloss Stock</p>
+                        <p id="u41563-8">Gloss Machine Varnish</p>
+                        <p id="u41563-10">Saddlestitched</p>
+                    </div>
+                    <div class="SSSlideCaption clearfix grpelem" id="u41560-10" style="display: none;"><!-- content -->
+                        <p id="u41560-3"><span id="u41560">A4 Booklet </span><span id="u41560-2">[56 Pages, Landscape]</span></p>
+                        <p id="u41560-4">&nbsp;</p>
+                        <p id="u41560-6">150gsm Gloss Stock</p>
+                        <p id="u41560-8">Saddlestitched</p>
+                    </div>
+                    <div class="SSSlideCaption clearfix grpelem" id="u41565-12" style="display: block;"><!-- content -->
+                        <p id="u41565-3"><span id="u41565">A4 Booklet </span><span id="u41565-2">[56 Pages]</span></p>
+                        <p id="u41565-4">&nbsp;</p>
+                        <p id="u41565-6">150gsm Satin Stock</p>
+                        <p id="u41565-8">250gsm Matt Cover</p>
+                        <p id="u41565-10">Burst Bound</p>
+                    </div>
+                    <div class="SSSlideCaption clearfix grpelem" id="u41561-10" style="display: none;"><!-- content -->
+                        <p id="u41561-3"><span id="u41561">A4 Booklet </span><span id="u41561-2">[8 Pages]</span></p>
+                        <p id="u41561-4">&nbsp;</p>
+                        <p id="u41561-6">150gsm Satin Stock</p>
+                        <p id="u41561-8">Saddlestitched</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="popup_anchor" id="u41541-4popup">
+                    <div class="SSPreviousButton rgba-background clearfix" id="u41541-4"><!-- content -->
+                    <p>&lt;</p>
+                    </div>
+                    </div>
+                    <div class="popup_anchor" id="u41566-4popup">
+                    <div class="SSNextButton rgba-background clearfix" id="u41566-4"><!-- content -->
+                    <p>&gt;</p>
+                    </div>
+                    </div>
+                    <div class="popup_anchor" id="u41544popup">
+                    <div class="SSSlideLinks clearfix" id="u41544"><!-- horizontal-rows box -->
+                    <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41551"><!-- image -->
+                        <div id="u41551_clip">
+                        <img class="position_content" id="u41551_img" src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20ray%20white360x240.jpg" alt="" width="360" height="240">
+                        </div>
+                    </div>
+                    <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41547"><!-- image -->
+                        <div id="u41547_clip">
+                        <img class="position_content" id="u41547_img" src="/web/20180903144154im_/http://www.1print.net.au/images/design%20-%20onalert335x240.jpg" alt="" width="335" height="240">
+                        </div>
+                    </div>
+                    <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41553"><!-- image -->
+                        <div id="u41553_clip">
+                        <img class="position_content" id="u41553_img" src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20furphy362x240.jpg" alt="" width="361" height="240">
+                        </div>
+                    </div>
+                    <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41549"><!-- image -->
+                        <div id="u41549_clip">
+                        <img class="position_content" id="u41549_img" src="/web/20180903144154im_/http://www.1print.net.au/images/booklet_apack.jpg" alt="" width="653" height="490">
+                        </div>
+                    </div>
+                    <div class="SSSlideLink rgba-background clip_frame clearfix grpelem wp-tab-active SSSlideLinkSelected" id="u41555"><!-- image -->
+                        <div id="u41555_clip">
+                        <img class="position_content" id="u41555_img" src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20gardens359x240.jpg" alt="" width="358" height="240">
+                        </div>
+                    </div>
+                    <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41545"><!-- image -->
+                        <div id="u41545_clip">
+                        <img class="position_content" id="u41545_img" src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20macroair300x240.jpg" alt="" width="300" height="240">
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="accordion_wrapper grpelem" id="accordionu50782wrapper"><!-- vertical box -->
+                    <ul class="AccordionWidget clearfix" id="accordionu50782"><!-- column -->
+                    <li class="AccordionPanel clearfix colelem" id="u50796"><!-- vertical box -->
+                    <div class="AccordionPanelTab clearfix colelem" id="u51083-8"><!-- content -->
+                        <p id="u51083-6"><span id="u51083">BROWSE CATEGORIES </span><span id="u51083-2">click here</span><span id="u51083-3">&nbsp;</span><span id="u51083-4"><span class="actAsInlineDiv normal_text" id="u51084"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u51085"><!-- image --><img id="u51085_img" src="/web/20180903144154im_/http://www.1print.net.au/images/scroll%20white-01.png" alt="" width="17" height="9"></span></span></span><span id="u51083-5"></span></p>
+                    </div>
+                    <div class="AccordionPanelContent colelem" style="width: 100%; position: relative; overflow: hidden; height: 0px;"><div class="AccordionPanelContentClip"><div class="clearfix" id="u50797"><!-- group -->
+                        <div class="clearfix grpelem" id="pu51007"><!-- column -->
+                        <div class="clearfix colelem" id="u51007"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu51008"><!-- none box -->
+                        <div class="popup_anchor" id="u51011popup">
+                            <div class="ContainerGroup clearfix" id="u51011" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u51012" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u51013-4"><!-- content -->
+                            <p>Booklets</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u51023"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u51024" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u51025-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50836"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50837"><!-- none box -->
+                        <div class="popup_anchor" id="u50847popup">
+                            <div class="ContainerGroup clearfix" id="u50847" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50848" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50849-4"><!-- content -->
+                            <p>Deskpads</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50838"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50839" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/deskpads-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50854-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50988"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50990"><!-- none box -->
+                        <div class="popup_anchor" id="u51004popup">
+                            <div class="ContainerGroup clearfix" id="u51004" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u51005" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u51006-4"><!-- content -->
+                            <p>Flyers</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50997"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50998" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/flyers-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50989-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="clearfix grpelem" id="pu50950"><!-- column -->
+                        <div class="clearfix colelem" id="u50950"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50952"><!-- none box -->
+                        <div class="popup_anchor" id="u50955popup">
+                            <div class="ContainerGroup clearfix" id="u50955" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50956" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50957-4"><!-- content -->
+                            <p>Brochures</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50953"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50954" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/brochures-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50951-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50893"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50894"><!-- none box -->
+                        <div class="popup_anchor" id="u50903popup">
+                            <div class="ContainerGroup clearfix" id="u50903" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50904" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50905-4"><!-- content -->
+                            <p>Docket Books</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50897"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50898" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/docketbooks-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50911-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50912"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50914"><!-- none box -->
+                        <div class="popup_anchor" id="u50928popup">
+                            <div class="ContainerGroup clearfix" id="u50928" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50929" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50930-4"><!-- content -->
+                            <p>Fridge Magnets</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50917"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50918" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/magnets-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50913-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="clearfix grpelem" id="pu50874"><!-- column -->
+                        <div class="clearfix colelem" id="u50874"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50876"><!-- none box -->
+                        <div class="popup_anchor" id="u50883popup">
+                            <div class="ContainerGroup clearfix" id="u50883" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50884" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50885-4"><!-- content -->
+                            <p>Business Cards</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50881"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50882" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/business-cards-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50875-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50817"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50819"><!-- none box -->
+                        <div class="popup_anchor" id="u50822popup">
+                            <div class="ContainerGroup clearfix" id="u50822" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50823" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50824-4"><!-- content -->
+                            <p>Envelopes</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50825"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50826" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/envelopes-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50818-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50969"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50970"><!-- none box -->
+                        <div class="popup_anchor" id="u50976popup">
+                            <div class="ContainerGroup clearfix" id="u50976" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50977" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50978-4"><!-- content -->
+                            <p>Letterheads</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50983"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50984" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/letterheads-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50987-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="clearfix grpelem" id="ppu51045"><!-- column -->
+                        <div class="clearfix colelem" id="pu51045"><!-- group -->
+                        <div class="clearfix grpelem" id="u51045"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu51047"><!-- none box -->
+                            <div class="popup_anchor" id="u51061popup">
+                            <div class="ContainerGroup clearfix" id="u51061" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u51062" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u51063-4"><!-- content -->
+                                <p>Postcards</p>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="ThumbGroup clearfix grpelem" id="u51050"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u51051" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/postcards-gallery.php"><!-- simple frame --></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u51046-3"><!-- content -->
+                            <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix grpelem" id="u51064"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu51066"><!-- none box -->
+                            <div class="popup_anchor" id="u51067popup">
+                            <div class="ContainerGroup clearfix" id="u51067" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u51068" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u51069-4"><!-- content -->
+                                <p>Posters</p>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="ThumbGroup clearfix grpelem" id="u51072"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u51073" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/posters-gallery.php"><!-- simple frame --></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u51065-3"><!-- content -->
+                            <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="pu50855"><!-- group -->
+                        <div class="clearfix grpelem" id="u50855"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50856"><!-- none box -->
+                            <div class="popup_anchor" id="u50863popup">
+                            <div class="ContainerGroup clearfix" id="u50863" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50864" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50865-4"><!-- content -->
+                                <p>With Compliments</p>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="ThumbGroup clearfix grpelem" id="u50866"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u50867" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/with-comps-gallery.php"><!-- simple frame --></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50873-3"><!-- content -->
+                            <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix grpelem" id="u50931"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50932"><!-- none box -->
+                            <div class="popup_anchor" id="u50946popup">
+                            <div class="ContainerGroup clearfix" id="u50946" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50947" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50948-10"><!-- content -->
+                                <p id="u50948-2">Coming</p>
+                                <p id="u50948-4">Soon</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>Branding</p>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="ThumbGroup clearfix grpelem" id="u50939"><!-- none box -->
+                            <div class="popup_anchor">
+                            <div class="Thumb popup_element" id="u50940"><!-- simple frame --></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50949-3"><!-- content -->
+                            <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="clearfix grpelem" id="pu51026"><!-- column -->
+                        <div class="clearfix colelem" id="u51026"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu51028"><!-- none box -->
+                        <div class="popup_anchor" id="u51042popup">
+                            <div class="ContainerGroup clearfix" id="u51042" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u51043" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u51044-4"><!-- content -->
+                            <p>Presentation Folders</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u51031"><!-- none box -->
+                            <div class="popup_anchor">
+                            <a class="nonblock nontext Thumb popup_element" id="u51032" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/presentation-folders-gallery.php"><!-- simple frame --></a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u51027-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        <div class="clearfix colelem" id="u50798"><!-- group -->
+                        <div class="PamphletWidget clearfix grpelem" id="pamphletu50800"><!-- none box -->
+                        <div class="popup_anchor" id="u50806popup">
+                            <div class="ContainerGroup clearfix" id="u50806" style="width: 0px; height: 0px;"><!-- stack box -->
+                            <div class="Container rgba-background clearfix grpelem wp-panel" id="u50807" style="display: none;"><!-- group -->
+                            <div class="clearfix grpelem" id="u50808-10"><!-- content -->
+                            <p id="u50808-2">Coming</p>
+                            <p id="u50808-4">Soon</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p>Logos</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="ThumbGroup clearfix grpelem" id="u50813"><!-- none box -->
+                            <div class="popup_anchor">
+                            <div class="Thumb popup_element" id="u50814"><!-- simple frame --></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="museBGSize clearfix grpelem" id="u50799-3"><!-- content -->
+                        <p>&nbsp;</p>
+                        </div>
+                        </div>
+                        </div>
+                    </div></div></div>
+                    </li>
+                    </ul>
+                    </div>
+                </div>
+                <a class="nonblock nontext clearfix grpelem" id="u41580-8" href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/booklets-printing"><!-- content --><p><span id="u41580">​</span><span class="actAsInlineDiv normal_text" id="u41581"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u41582"><!-- image --><img id="u41582_img" src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20icons-15.png" alt="" width="51" height="51"></span></span></p><p>Learn more about this product</p></a>
+                <div class="clear"></div>
+                
+                
+                </div>
+
+
+
+            <!-- <div class="gallary_div_options">
                 <div class="gallary_div_option active" style="--optionBackground:url(../image/Gallary1.jpeg);">
                     <div class="gallary_div_shadow"></div>
                     <div class="gallary_div_label">
@@ -9668,9 +10158,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
+            <div style="clear: both;"></div>
         </div>
+    
     </div>
 
     <!-- support -->
@@ -10042,7 +10534,7 @@
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
-                <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
+                <button class="login_div_submit" align="center" onclick="userLogin()">Log in</button>
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a>
                 </p>
         </div>
@@ -10727,6 +11219,9 @@
 <script src="../public/azia-admin-master/js/azia.js"></script>
 <script type="text/javascript" src="{{URL::asset('/js/dashboard.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" type="text/javascript"></script>
+
+
+
 
 
 <!-- </div> -->
