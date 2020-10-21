@@ -10042,7 +10042,7 @@
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
-                <button class="login_div_submit" align="center" onclick="userLogin()">Log in</button>
+                <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a>
                 </p>
         </div>
