@@ -11840,7 +11840,7 @@
     <!-- cart -->
     <div class="cart_div" id="cart_div_id" style="display:none">
         <!-- shop-cart-area -->
-        <div id="cart_none" display="block">
+        <!-- <div id="cart_none" display="block">
             <p>There is nothing in your cart</p>
         </div>
         <div class="cart_main" style="display:none">
@@ -11879,8 +11879,49 @@
                     <a href="#">Proceed to Checkout</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- shop-cart-area-end -->
+        <div class="main_product_container checkout_holder">
+            <div class="cart_left">
+                <span class="checkout_step active_step" href=""><span class="step_cart">My Cart</span></span>
+                <span class="checkout_step"><span class="step_cart">Delivery Information</span></span>
+                <span class="checkout_step"><span class="step_cart">Confirm your Order</span></span>
+                <span class="checkout_step"><span class="step_cart">Upload your Files</span></span>
+                <span class="checkout_step"><span class="step_cart">Payment</span></span>
+            </div>
+            <div class="cart_right">
+                <h1>My Cart</h1>
+                <script style="">
+                    function validateEmptyValue() {
+                        var totalC = $('#totalcount').val();
+
+                        for(var i = 1; i <= totalC; i++) {
+                            var qty  = $('#priceincart'+i).val();
+                            if (qty == 0) {
+                                alert('Quantity can not be zero');
+                                return false;
+                            }
+                        }
+                        return true;
+                    }
+                </script>
+                <form id="frmCartCheckOut" method="post" action="" onsubmit="return validateEmptyValue()">
+                    <div id="cartlistupdate">
+                    <!-- body_text //-->
+
+                    <!-- main content -->
+                    No product found in cart!            
+                    <!-- end main content -->
+                    </div>
+                </form>
+    
+
+
+
+
+        </div>
+            <div class="clear"></div>
+        </div>
     </div>
 
 
