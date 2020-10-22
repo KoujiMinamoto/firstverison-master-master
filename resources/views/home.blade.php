@@ -10938,16 +10938,35 @@
 
     <!-- login -->
     <div class="login_div" id="login_div_id" style="display:none">
+        <div class="login_title">
+		    <h3>welcome.</h3>
+		    <h1>please sign in</h1>
+		</div>
         <div class="login_div_main">
             <p class="login_div_sign" align="center">Log in</p>
             <form class="login_div_form1">
+                
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
+                <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
                 <button class="login_div_submit" align="center" onclick="userLogin()">Log in</button>
-                <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a>
-                </p>
+                
+                
         </div>
+        <div class="login_div_register_form">
+			<div class="login_field_holder">
+            <p class="login_div_sign" align="center">New Customer</p>
+				<p>&nbsp;</p>
+				<p>I am a new customer.</p>
+				<p>&nbsp;</p>
+				<p>Creating a new account will allow you to process your order quickly.</p>
+				<p>&nbsp;</p>
+				<p>You are also provided with the opportunity to update your personal details if necessary, and you can check any previous orders made.</p>
+				<p>&nbsp;</p>
+            </div>
+            <button class="login_div_submit" align="center" onclick="">Register</button>
+		</div>
     </div>
 
     <!-- forget passwd -->
@@ -10959,8 +10978,8 @@
             <div class="clear" style="padding-top: 40px"></div>
             <input id="forget_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
             <input id="forget_email_id" class="login_div_un" type="email" align="center" placeholder="Email">
-            <button class="login_div_submit" align="center">Send</button>
             <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>
+            <button class="login_div_submit" align="center">Send</button>
 
         </div>
     </div>
@@ -10973,44 +10992,78 @@
                         <h1 class="register_div_user_title">Register form</h1>
                     </header> -->
             <p class="login_div_sign" align="center">Register</p>
+            <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Have registered? Back to Log in</a></p>
 
             <form class="register_div_form">
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>UserName</a></label>
                     <input type="text" placeholder="Username" class="register_div_form_input"/>
                     <div class="checkmsg" id="usernamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Business Name</a></label>
+                    <input type="text" placeholder="Business Name" class="register_div_form_input"/>
+                    <div class="checkmsg" id="businessnamecheckmsg"></div>
+                </div>
+
+                <div class="register_div_form_group">
+                    <label class="reg_col1"><a>First Name</a></label>
+                    <input type="text" placeholder="First Name" class="register_div_form_input"/>
+                    <div class="checkmsg" id="firstnamecheckmsg"></div>
+                </div>
+
+                <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Last Name</a></label>
+                    <input type="text" placeholder="Last Name" class="register_div_form_input"/>
+                    <div class="checkmsg" id="firstnamecheckmsg"></div>
+                </div>
+                
+
+                <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Email</a></label>
                     <input type="email" placeholder="Email" class="register_div_form_input"/>
                     <div class="checkmsg" id="emailcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Password</a></label>
                     <input type="password" placeholder="Password" class="register_div_form_input"/>
                     <div class="checkmsg" id="passwdcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Phone number</a></label>
                     <input type="tel" placeholder="Phone number" class="register_div_form_input"/>
                     <div class="checkmsg" id="phonenumcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Address</a></label>
                     <input type="text" placeholder="Address" class="register_div_form_input"/>
                     <div class="checkmsg" id="addresscheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Suburb</a></label>
                     <input type="text" placeholder="Suburb" class="register_div_form_input"/>
                     <div class="checkmsg" id="suburbcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>State</a></label>
                     <input type="text" placeholder="State" class="register_div_form_input"/>
                     <div class="checkmsg" id="statecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Country</a></label>
+                    <input type="text" placeholder="Australia" class="register_div_form_input" readonly="readonly"/>
+                    <div class="checkmsg" id="statecheckmsg"><p class="login_div_forgot" align="center" onclick="clickHeader(6)"><a class="blue_link" href="#">Not in Australia? Please contact us</a></p></div>
+                </div>
+
+                <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Postcode</a></label>
                     <input type="text" placeholder="Postcode" class="register_div_form_input"/>
                     <div class="checkmsg" id="postcodecheckmsg"></div>
                 </div>
