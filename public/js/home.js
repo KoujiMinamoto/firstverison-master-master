@@ -225,21 +225,6 @@ function userLogin(){
                     },
             success: function (msg) {
                 if (msg.logincheck == "success") {
-                    // $.ajax({
-                    //     headers: {
-                    //         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    //     },
-                    //     type: "POST",
-                    //     url: "api/userLoginSuccess",
-                    //     dataType:'json',
-                    //     data: 
-                    //             {
-                    //                 'username':msg.username,
-                    //                 'password':msg.type
-                    //             },
-                    // })
-                    // window.localStorage.setItem('a', logininfo.username);
-                    // window.location.href="http://localhost:81/dingo/public/userLogin";
                     window.localStorage.setItem('username', msg.username);
                     window.localStorage.setItem('usertype', msg.type);
                     window.localStorage.setItem('login', "login");
@@ -292,13 +277,17 @@ function userRegister() {
     var regExp = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
     let register = {
         "userName":$(".register_div_form_input").eq(0).val(),
-        "email":$(".register_div_form_input").eq(1).val(),
-        "password":$(".register_div_form_input").eq(2).val(),
-        'phoneNumber':$(".register_div_form_input").eq(3).val(),
-        'address':$(".register_div_form_input").eq(4).val(),
-        'subrub':$(".register_div_form_input").eq(5).val(),
-        'state':$(".register_div_form_input").eq(6).val(),
-        'postcode':$(".register_div_form_input").eq(7).val(),
+        "businessName":$(".register_div_form_input").eq(1).val(),
+        "firstName":$(".register_div_form_input").eq(2).val(),
+        "lastName":$(".register_div_form_input").eq(3).val(),
+        "email":$(".register_div_form_input").eq(4).val(),
+        "password":$(".register_div_form_input").eq(5).val(),
+        'phoneNumber':$(".register_div_form_input").eq(6).val(),
+        'address':$(".register_div_form_input").eq(7).val(),
+        'subrub':$(".register_div_form_input").eq(8).val(),
+        'state':$(".register_div_form_input").eq(9).val(),
+        'country':'Australia',
+        'postcode':$(".register_div_form_input").eq(11).val(),
         'registerDdata':currentdate
     };
 

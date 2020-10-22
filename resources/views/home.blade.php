@@ -11938,7 +11938,7 @@
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
-                <button class="login_div_submit" align="center" onclick="userLogin()">Log in</button>
+                <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
                 
                 
         </div>

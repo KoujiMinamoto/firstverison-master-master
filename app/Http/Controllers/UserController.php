@@ -42,12 +42,16 @@ class UserController extends Controller
 
       //检测是否已经被注册
       $user_name = $request->input('userName');
-      $user_password = $request->input('password');
+      $user_businessName = $request->input('businessName');
+      $user_firstName = $request->input('firstName');
+      $user_lastName = $request->input('lastName');
       $user_email = $request->input('email');
+      $user_password = $request->input('password');
       $user_phonenum = $request->input('phoneNumber');
       $user_address = $request->input('address');
       $user_subrub = $request->input('subrub');
       $user_state = $request->input('state');
+      $user_country = $request->input('country');
       $user_postcode = $request->input('postcode');
       $user_date = $request->input('registerDdata');
 
@@ -59,12 +63,16 @@ class UserController extends Controller
          DB::table('oneprint_user')->insert([
                'user_name' => $user_name,
                'user_type' => 0,
+               'user_bsName' => $user_businessName,
+               'user_firstName' => $user_firstName,
+               'user_lastName' => $user_lastName,
                'user_password' => $user_password,
                'user_email' => $user_email,
                'user_phonenum' => $user_phonenum,
                'user_address' => $user_address,
                'user_subrub' => $user_subrub,
                'user_state' => $user_state,
+               'user_country' => $user_country,
                'user_postcode' => $user_postcode,
                'user_date' => $user_date
         ]);
