@@ -443,8 +443,8 @@ button.blue_button:hover {
 	font-weight:bold;
 }
 .bro_setup{
-	width:127px;
-	height:111px;
+	width:12.7rem;
+	height:11.1rem;
 	background: #EBEBEB  repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #EBEBEB));
 	background: -webkit-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
@@ -1660,5 +1660,34 @@ a.blue_link:hover{
     color:#323232;
     text-decoration:none;
 }
-/*prod
 
+#u56029-6 {
+    background-color: #ebebeb;
+    border-radius: 3px;
+    color: #323232;
+    font-size: 16px;
+    line-height: 16px;
+    min-height: 33px;
+    padding-left: 19px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-align: left;
+    width: 506px;
+    z-index: 77;
+    float:left;
+}
+#u56029-6:hover {
+    background-color: #bcbcbc;
+    margin: 0;
+    min-height: 33px;
+    padding-bottom: 0;
+    padding-top: 3px;
+    width: 506px;
+}
+.flyer_templates{
+    padding-top:30px;
+    height:115px;
+}
+.clear{
+    clear:both;
+}
