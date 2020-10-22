@@ -3049,7 +3049,7 @@
 
                 <div class="notepad_template_list">
 
-                    <div class="bro_setup">
+                    <div class="bro_setup" style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
                            class="bro_link">
                         </a>
@@ -3116,7 +3116,7 @@
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design">
+                    <div class="product_info_design" style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
@@ -3764,7 +3764,7 @@
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_express no_margin">
+                    <div class="product_info_express no_margin" style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/urgent-printing">
                             <div class="product_info_express_img">
                             </div>
@@ -4439,7 +4439,7 @@
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design">
+                    <div class="product_info_design" style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
@@ -4928,54 +4928,54 @@
                 <div style="clear: both;"></div>
 
                 <div class="option_size_list express_templates" style="padding-top: 2rem">
-                    <div class="bro_setup" style="height:9rem">
+                    <div class="bro_setup" style="height:7rem;margin-left:0rem">
                         <a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf" target="_blank"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">DL</div>
                         <div class="bro_sizing_sml">99 x 210mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf"
                                                target="_blank">Download Template</a></div>
                     </div>
-                    <div class="bro_setup" style="height:9rem">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A6</div>
                         <div class="bro_sizing_sml">105 x 148mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
                                                target="_blank">Download Template</a></div>
                     </div>
-                    <div class="bro_setup" style="height:9rem">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf" target="_blank"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A5</div>
                         <div class="bro_sizing_sml">148 x 210mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf"
                                                target="_blank">Download Template</a></div>
                     </div>
-                    <div class="bro_setup" style="height:9rem">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A4</div>
                         <div class="bro_sizing_sml">210 x 297mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
                                                target="_blank">Download Template</a></div>
                     </div>
-                    <div class="bro_setup" style="height:9rem">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A3</div>
                         <div class="bro_sizing_sml">297 x 420mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
                                                target="_blank">Download Template</a></div>
                     </div>
-                    <div class="bro_setup" style="height:9rem">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
                         </div>
@@ -4990,7 +4990,7 @@
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design">
+                    <div class="product_info_design"style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
@@ -5537,9 +5537,9 @@
                         <div class="clear"></div>
 
                         <div class="option_size_list flyer_templates" style="display:inline-flex">
-                            <div class="bro_setup" style="height:9rem;margin:0rem">
+                            <div class="bro_setup" style="height:7rem;margin:0rem">
                                 <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                                   class="bro_link">
+                                   class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">DLX</div>
                                 <div class="bro_sizing_sml">99 x 210mm</div>
@@ -5547,9 +5547,9 @@
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
-                            <div class="bro_setup" style="height:9rem">
+                            <div class="bro_setup" style="height:7rem">
                                 <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                                   class="bro_link">
+                                   class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">A6</div>
                                 <div class="bro_sizing_sml">105 x 148mm</div>
@@ -5557,9 +5557,9 @@
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
-                            <div class="bro_setup" style="height:9rem">
+                            <div class="bro_setup" style="height:7rem">
                                 <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                                   class="bro_link">
+                                   class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">A5</div>
                                 <div class="bro_sizing_sml">148 x 210mm</div>
@@ -5567,11 +5567,11 @@
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
-                            <div class="bro_setup" style="height:9rem">
+                            <div class="bro_setup" style="height:7rem">
                                 <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                                   class="bro_link">
+                                   class="bro_link" style="height:7rem">
                                 </a>
-                                <div class="bro_sizing"><A4></A4></div>
+                                <div class="bro_sizing">A4</div>
                                 <div class="bro_sizing_sml">210 x 297mm</div>
                                 <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf"
                                                        target="_blank">Download
@@ -6402,16 +6402,14 @@
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
 
-                    <div class="product_info_design">
+                    <div class="product_info_design"style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
                     </div>
                     <div class="product_info_gallery gallery_magnet">
                         <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">
@@ -6419,10 +6417,35 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_templates">
+                        <a href="templates/1print_sample_magnet_templates.pdf" target="_blank">
+                            <div class="product_info_templates_img">
+                            </div>
+                            <h4>Artwork Templates</h4>
+                            <p>Need artwork setup? Our team of experienced designers can help</p>
+                            <a class="blue_link" href="templates/1print_sample_magnet_templates.pdf" target="_blank">read more+</a>
+                        </a>
                     </div>
 
 
@@ -6698,7 +6721,25 @@
                             </tbody>
                         </table>
                     </div>
+                    <!-- email your order in 3 steps -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
+                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
+                             height="146"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                    </a>
 
+                    <!-- corporate accounts call image -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                        <!-- image -->
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
+                             height="113"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                    </a>
                 </div>
                 <!--end product_right_option-->
                 <!-- setting up own side bar bottom -->
@@ -6721,15 +6762,14 @@
                         sheet, every time. We will print your letterheads on time, and deliver them for FREE within
                         Australia.
                     </p>
-
+                    <br/>
                     <div class="option_size_list letterhead_templates">
-                        <div class="bro_setup">
+                        <div class="bro_setup" style="height:7rem;margin-left:0rem">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link">
+                               class="bro_link" style="height:7rem">
                             </a>
-                            <div class="bro_sizing">DLX</div>
-                            <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing">A4</div>
+                            <div class="bro_sizing_sml">210 x 297mm</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
@@ -6770,7 +6810,9 @@
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
-
+                    <div class="bcards500 notop">
+                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                    </div>
 
                 </div>
                 <div class="clear"></div>
@@ -6778,16 +6820,14 @@
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design">
+                    <div class="product_info_design" style="margin-left:0rem">
                         <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
                     </div>
                     <div class="product_info_gallery gallery_letterhead">
                         <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">
@@ -6795,10 +6835,35 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_delivery">
+                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/delivery.php">
+                            <div class="product_info_delivery_img">
+                            </div>
+                            <h4>Free Delivery</h4>
+                            <p>Free delivery Australia wide for all products</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/delivery.php">read more+</a>
+                        </a>
                     </div>
 
 
@@ -7218,7 +7283,25 @@
                             </tbody>
                         </table>
                     </div>
+                    <!-- email your order in 3 steps -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
+                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
+                             height="146"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                    </a>
 
+                    <!-- corporate accounts call image -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                        <!-- image -->
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
+                             height="113"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                    </a>
 
                 </div>
                 <!--end product_right_option-->
@@ -7259,50 +7342,47 @@
                             gsm
                         </div>
                         <p class="black_heading">350gsm</p>
-                        <p>Used on all Postcards for a superior finish.<br style="">For more stock options send us a <a
+                        <p>Used on all Postcards for a superior finish.<br style="">For more stock options send us a <a class="click_a"
                                 href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/custom-quotes.php">custom
                                 quote.</a></p>
                     </div>
 
-                    <div class="option_size_list postcard_templates">
+                    <div class="option_size_list postcard_templates" style="display:inline-flex">
 
-                        <div class="bro_setup">
+                        <div class="bro_setup" style="margin-left:0rem;height:7rem;">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link">
+                               class="bro_link" style="height:7rem">
                             </a>
-                            <div class="bro_sizing">DLX</div>
-                            <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing">DL</div>
+                            <div class="bro_sizing_sml">99 x 210mm</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
-                        <div class="bro_setup">
+                        <div class="bro_setup" style="height:7rem;">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link">
+                               class="bro_link" style="height:7rem">
                             </a>
-                            <div class="bro_sizing">DLX</div>
-                            <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing">A6</div>
+                            <div class="bro_sizing_sml">105 x 148mm</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
-                        <div class="bro_setup">
+                        <div class="bro_setup" style="height:7rem;">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link">
+                               class="bro_link" style="height:7rem">
                             </a>
-                            <div class="bro_sizing">DLX</div>
-                            <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing">A5</div>
+                            <div class="bro_sizing_sml">148 x 210mm</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
-                        <div class="bro_setup">
+                        <div class="bro_setup" style="height:7rem;">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link">
+                               class="bro_link" style="height:7rem">
                             </a>
-                            <div class="bro_sizing">DLX</div>
-                            <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing">2DL</div>
+                            <div class="bro_title" style="line-height:0.1rem;height:0.2rem">Envelope</div>
+                            <div class="bro_sizing_sml" style="line-height:2rem;height:2.1rem">198 x 210mm</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
@@ -7345,11 +7425,12 @@
                             oversee your mail marketing campaigns. <a
                                 href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/direct-marketing.php"
                                 class="blue_link">Click here</a></p>
-
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
-
+                    <div class="bcards500 notop">
+                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                    </div>
 
                 </div>
                 <div class="clear"></div>
@@ -7359,16 +7440,26 @@
                 <div class="main_left_bottom1">
 
 
+                    <div class="product_info_express no_margin">
+                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/urgent-printing">
+                            <div class="product_info_express_img">
+                            </div>
+                            <h4>Express Printing</h4>
+                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/urgent-printing">read more+</a>
+                        </a>
+                    </div>
+
+
+
                     <div class="product_info_design margin_left20">
                         <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
                     </div>
                     <div class="product_info_gallery gallery_postcard">
                         <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">
@@ -7376,11 +7467,28 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">read more+</a>
+                        </a>
                     </div>
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+
 
 
                     <div class="clear"></div>
@@ -8019,7 +8127,25 @@
                             </tbody>
                         </table>
                     </div>
+                    <!-- email your order in 3 steps -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
+                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
+                             height="146"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                    </a>
 
+                    <!-- corporate accounts call image -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                        <!-- image -->
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
+                             height="113"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                    </a>
 
                 </div>
                 <!--end product_right_option-->
@@ -8095,53 +8221,48 @@
 
                 <div style="clear: both;"></div>
                 <div class="option_size_list poster_templates">
-                    <div class="bro_setup">
+                    <div class="bro_setup" style="height:7rem;margin-left:0rem">
                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
-                        <div class="bro_sizing">DLX</div>
-                        <div class="bro_title">Envelope</div>
-                        <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                        <div class="bro_sizing">A3</div>
+                        <div class="bro_sizing_sml">297 x 420mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
-                    <div class="bro_setup">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
-                        <div class="bro_sizing">DLX</div>
-                        <div class="bro_title">Envelope</div>
-                        <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                        <div class="bro_sizing">A2</div>
+                        <div class="bro_sizing_sml">420 x 594mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
-                    <div class="bro_setup">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
-                        <div class="bro_sizing">DLX</div>
-                        <div class="bro_title">Envelope</div>
-                        <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                        <div class="bro_sizing">A1</div>
+                        <div class="bro_sizing_sml">594 x 841mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
-                    <div class="bro_setup">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
-                        <div class="bro_sizing">DLX</div>
-                        <div class="bro_title">Envelope</div>
-                        <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                        <div class="bro_sizing">A0*</div>
+                        <div class="bro_sizing_sml">841 x 1189mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
-                    <div class="bro_setup">
+                    <div class="bro_setup" style="height:7rem">
                         <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                           class="bro_link">
+                           class="bro_link" style="height:7rem">
                         </a>
-                        <div class="bro_sizing">DLX</div>
-                        <div class="bro_title">Envelope</div>
-                        <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                        <div class="bro_sizing">B0*</div>
+                        <div class="bro_sizing_sml">1000 x 1414mm</div>
                         <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
@@ -8156,16 +8277,14 @@
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design">
+                    <div class="product_info_design" style="margin-left:0rem">
                         <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
                     </div>
                     <div class="product_info_gallery gallery_poster">
                         <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">
@@ -8173,10 +8292,35 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_delivery">
+                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/delivery.php">
+                            <div class="product_info_delivery_img">
+                            </div>
+                            <h4>Free Delivery</h4>
+                            <p>Free delivery Australia wide for all products</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/delivery.php">read more+</a>
+                        </a>
                     </div>
 
 
@@ -8613,7 +8757,25 @@
                             </tbody>
                         </table>
                     </div>
+                    <!-- email your order in 3 steps -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
+                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
+                             height="146"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                    </a>
 
+                    <!-- corporate accounts call image -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                        <!-- image -->
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
+                             height="113"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                    </a>
 
                 </div>
                 <!--end product_right_option-->
@@ -8723,22 +8885,23 @@
 
                 </div>
                 <div class="clear"></div>
-
-                <div style="clear: both;"></div>
-
-
+                <div id="u71355-10">
+                    <p id="u71355-8"><span id="u71355">short run presentation folders now available.</span><span id="u71355-3"><br></span><span id="u71355-6">with minimum quantities starting at 50 units.<br></span>
+                        <span id="u71386">
+            			<a class="nonblock nontext Button actAsDiv  excludeFromNormalFlow" id="buttonu71387" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/short-run-presentation-folders.php"><span class="actAsDiv clearfix grpelem" id="u71388-4"><span class="actAsPara">click here</span></span></a>
+            		</span>
+                    </p>
+                </div>
                 <div class="main_left_bottom1" id="left_bottom_anchor">
 
-                    <div class="product_info_design">
+                    <div class="product_info_design" style="margin-left:0rem">
                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p id="folders_anchor">Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
                     </div>
                     <div class="product_info_gallery gallery_folder">
                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">
@@ -8746,13 +8909,39 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">read more+</a>
+                        </a>
                     </div>
-
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_delivery">
+                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/delivery.php">
+                            <div class="product_info_delivery_img">
+                            </div>
+                            <h4>Free Delivery</h4>
+                            <p>Free delivery Australia wide for all products</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/delivery.php">read more+</a>
+                        </a>
+                    </div>
                     <div class="clear" id="anchor"></div>
+
+
 
 
                 </div>
@@ -9181,7 +9370,25 @@
                             </tbody>
                         </table>
                     </div>
+                    <!-- email your order in 3 steps -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
+                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
+                             height="146"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                    </a>
 
+                    <!-- corporate accounts call image -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                        <!-- image -->
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
+                             height="113"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                    </a>
 
                 </div>
                 <!--end product_right_option-->
@@ -9189,10 +9396,751 @@
 
             </div>
             <div class="clear"></div>
+            <div class="folder_templates1" name="folder_templates1">
+                <h3>A4 Folder Templates</h4>
 
-            <div style="clear: both;"></div>
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s1-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S1</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            226 x 302mm<br/>
+                            Yes<br/>
+                            5mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s1.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
 
 
+
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s2-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S2</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            222 x 311mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s2.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s3-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S3</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            226 x 302mm<br/>
+                            Yes<br/>
+                            10mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s3.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s4-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S4</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            225 x 310mm<br/>
+                            Yes<br/>
+                            10mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s4.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s5-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S5</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            220 x 315mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s5.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s6-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S6</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            220 x 311mm<br/>
+                            Yes<br/>
+                            10mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s6.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s7-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S7</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            225 x 302mm<br/>
+                            Yes<br/>
+                            5mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s7.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s8-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S8</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            225 x 302mm<br/>
+                            Yes (2 x slots)<br/>
+                            5mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s8.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s9-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S9</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            220 x 311mm<br/>
+                            Yes<br/>
+                            6mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s9.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s10-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S10</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            220 x 320mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s10.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s11-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S11</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            220 x 306mm<br/>
+                            Yes<br/>
+                            6mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s11.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s12-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S12</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            225 x 317mm<br/>
+                            Yes<br/>
+                            5mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s12.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s13-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S13</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            225 x 318mm<br/>
+                            Yes<br/>
+                            5mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s13.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="{{URL::asset('/image/a4_s14-01.jpg')}}">
+                        </div>
+                        <h5>A4 Single Pocket S14</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            215 x 303mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_single_pocket_s14.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+            </div>
+
+
+            <div class="folder_templates2" style="min-width: 16.5%;height: 100px; clear:both;float:left;">
+                <h3>Wide</h4>
+                    <div class="pf_temp" style="margin-top:35px">
+                        <div class="pf_img">
+                            <div style="padding-top:10%">
+                                <img src="/web/20180903142853im_/http://www.1print.net.au/images/a4_l1-01.jpg"/></div>
+                        </div>
+                        <h5>A4 Landscape L1</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            300 x 225mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_landscape_l1.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+            </div>
+
+
+            <div class="folder_templates2" style="min-width: 16.5%;min-height: 100px; clear:none;float:left;">
+                <h3>Double</h4>
+
+                    <div class="pf_temp" style="margin-top:35px">
+                        <div class="pf_img">
+                            <div class="pf_badge pf_badge2">
+                                Double<br/>Pockets
+                            </div>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_d2-01.jpg"/>
+                        </div>
+                        <h5>A4 Double Pocket D1</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            227 x 321mm<br/>
+                            Yes<br/>
+                            10mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A4_double_pocket_d1.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+            </div>
+            <div class="clear"></div>
+
+
+            <div class="folder_templates2" style="min-width:66%;float:left;clear:none">
+                <h3>A5 Folder Templates</h4>
+                    <p>
+                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all A5 Folded Templates available through CUSTOM QUOTES (click here)</a>
+                    </p>
+                    <div class="clearfix"></div>
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <div class="pf_badge pf_badge2">
+                                Includes<br/>Pen<br/>Holder
+                            </div>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s1-01.jpg"/>
+                        </div>
+                        <h5>A5 Single Pocket S1</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            170 x 223mm<br/>
+                            No<br/>
+                            10mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A5_single_pocket_s1.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s2-01.jpg"/>
+                        </div>
+                        <h5>A5 Single Pocket S2</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            160 x 220mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A5_single_pocket_s2.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s3-01.jpg"/>
+                        </div>
+                        <h5>A5 Single Pocket S3</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            160 x 220mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A5_single_pocket_s3.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <div class="pf_badge">
+                                Double<br/>Pockets
+                            </div>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_d1-01.jpg"/>
+                        </div>
+                        <h5>A5 Double Pocket D1</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            158 x 222mm<br/>
+                            Yes<br/>
+                            4.5mm
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/A5_double_pocket_d1.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+
+
+
+            </div>
+
+            <div class="folder_templates3" style="float:left">
+                <h3>DL Folder Templates</h3>
+                <p>
+                    <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all DL Folded Templates available through CUSTOM QUOTES (click here)</a>
+                </p>
+                <div class="clearfix"></div>
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_portrait_dl1-01.jpg"/>
+                    </div>
+                    <h5>DL Portrait DL1</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        110 x 220mm<br/>
+                        Yes<br/>
+                        5mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/dl_portrait_dl1.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_landscape_dl2-01.jpg" style="padding-top:40px;"/>
+                    </div>
+                    <h5>DL Landscape DL2</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        210 x 100mm<br/>
+                        No<br/>
+                        No Gusset
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/dl_landscape_dl2.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_portrait_dl3-01.png" style="padding-top:10px;"/>
+                    </div>
+                    <h5>DL Portrait DL3</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        110 x 220mm<br/>
+                        No<br/>
+                        No Gusset
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/dl_portrait_dl3.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_landscape_dl3-01.png" style="padding-top:10px;"/>
+                    </div>
+                    <h5>DL Folder DL4</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        109 x 220mm<br/>
+                        Yes<br/>
+                        5mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/dl_folder_dl4.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+            </div>
+
+
+            <div class="folder_templates3" style="float:left">
+                <h3>Glued Folder Templates</h3>
+                <p>
+                    <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Glued Folded Templates available through CUSTOM QUOTES (click here)</a>
+                </p>
+                <div class="clearfix"></div>
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g1-image-01.jpg"/>
+                    </div>
+                    <h5>A4 Single Pocket G1</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        225 x 310mm<br/>
+                        Yes<br/>
+                        No Gusset
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g1.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g2-01.jpg"/>
+                    </div>
+                    <h5>A4 Single Pocket G2</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        216 x 310mm<br/>
+                        No<br/>
+                        10mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g2.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g3-01.jpg"/>
+                    </div>
+                    <h5>A4 Single Pocket G3</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        225 x 302mm<br/>
+                        Yes<br/>
+                        10mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g3.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g4-01.jpg"/>
+                    </div>
+                    <h5>A4 Single Pocket G4</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        220 x 315mm<br/>
+                        No<br/>
+                        5mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g4.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g5-01.jpg"/>
+                    </div>
+                    <h5>6 Page A4 G5</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        213 x 300mm<br/>
+                        No<br/>
+                        5mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g5.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g6-01.jpg"/>
+                    </div>
+                    <h5>6 Page A4 G6</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        216 x 300mm<br/>
+                        Yes<br/>
+                        5mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g6.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g7-01.png"/>
+                    </div>
+                    <h5>A4 Single Pocket G7</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        215 x 309mm<br/>
+                        Yes<br/>
+                        6mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g7.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g8-01.png"/>
+                    </div>
+                    <h5>A4 Single Pocket G8</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        215 x 309mm<br/>
+                        Yes<br/>
+                        No
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g8.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+                <div class="pf_temp">
+                    <div class="pf_img">
+                        <div class="pf_badge_glued">
+                            Glued
+                        </div>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g9-01.png"/>
+                    </div>
+                    <h5>A4 Single Pocket G9</h5>
+                    <div class="pf_l">
+                        Finished Size<br/>
+                        Business Card<br/>
+                        Gusset / Spine
+                    </div>
+                    <div class="pf_r">
+                        230 x 333mm<br/>
+                        Yes<br/>
+                        13mm
+                    </div>
+                    <div class="clear"></div>
+                    <a class="pf_dl" href="templates/g9.pdf" target="_blank">Download Template (PDF)</a>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="folder_templates4" style="float:left">
+                <h3>Folded Panel Templates</h4>
+                    <p>
+                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Folded Templates available through CUSTOM QUOTES (click here)</a>
+                    <div class="clearfix"></div><br/>
+                    <span class="black">Please note:</span> Folded Folder Templates do not include glued or interlocking panels.
+                    <div class="clearfix"></div><br/>
+                    </p>
+                    <div class="pf_temp">
+                        <div class="pf_img">
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/6_page_a4_folded_folder_f1-01.jpg"/>
+                        </div>
+                        <h5>6 Page A4 Folded F1</h5>
+                        <div class="pf_l">
+                            Finished Size<br/>
+                            Business Card<br/>
+                            Gusset / Spine
+                        </div>
+                        <div class="pf_r">
+                            220 x 310mm<br/>
+                            Yes<br/>
+                            No Gusset
+                        </div>
+                        <div class="clear"></div>
+                        <a class="pf_dl" href="templates/6_page_a4_folded_panel_f1.pdf" target="_blank">Download Template (PDF)</a>
+                    </div>
+            </div>
+
+            <div class="clear"></div>
         </div>
         <div style="clear: both;"></div>
     </div>

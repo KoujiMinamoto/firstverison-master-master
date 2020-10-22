@@ -443,7 +443,7 @@ button.blue_button:hover {
 	font-weight:bold;
 }
 .bro_setup{
-	width:12.7rem;
+	width:12.6rem;
 	height:11.1rem;
 	background: #EBEBEB  repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #EBEBEB));
@@ -1690,4 +1690,143 @@ a.blue_link:hover{
 }
 .clear{
     clear:both;
+}
+.bcards_stock_left{
+    margin-top:20px;
+    text-align:left;
+    height:50px
+}
+
+.bcards_stock_bkgrd
+{
+    width: 48px;
+    min-height: 37px;
+    background-color: #323232;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding-top: 11px;
+    text-align: center;
+    font-weight: bold;
+    line-height:14px;
+    display:block;
+    float:left;
+    margin-right:7px;
+    margin-bottom:5px;
+}
+
+.bcards_stock_bkgrd span{
+    font-size: 20px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.black_heading{
+    color:#323232;
+    font-weight:bold;
+}
+.postcard_templates{
+    padding-top:30px;
+    height:115px;
+}
+.poster_templates {
+    padding-top:30px;
+    height:115px;
+}
+#u71355-10
+{
+    z-index: 89;
+    width: 468px;
+    min-height: 154px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 400px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 4px;
+    font-weight: bold;
+    margin-top: 22px;
+    position: relative;
+    background: transparent url(../image/1print_adverts-01.jpg) no-repeat left top;
+}
+
+#u71355 { font-size: 34px; line-height: 34px; }
+#u71355-3
+{
+    font-size: 23px;
+    line-height: 23px;
+}
+
+#u71355-6
+{
+    font-size: 21px;
+    color: #323232;
+    line-height: 21px;
+}
+#u71386
+{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    display: block;
+}
+#u71388-4 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 22px;
+}
+#buttonu71387
+{
+    z-index: 99;
+    width: 129px;
+    border-color: #787878;
+    background-color: #323232;
+    padding-bottom: 5px;
+}
+#u71388-4
+{
+    z-index: 100;
+    width: 120px;
+    min-height: 23px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 22px;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    position: relative;
+    margin-right: -10000px;
+    margin-top: 6px;
+    left: 4px;
+}
+
+#buttonu71387:hover #u71388-4
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 23px;
+    width: 120px;
+    margin: 6px -10000px 0px 0px;
+}
+#buttonu70685:hover,#buttonu71699:hover,#buttonu71387:hover
+{
+    background-color: #0071BC;
+    width: 129px;
+    min-height: 0px;
+    margin: 0px;
+}
+a.nontext{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+.MenuBar .SubMenuVisible, .MenuBarVertical .SubMenuVisible, .MenuBar .SubMenu .SubMenuVisible, .popup_element.Active, span.actAsPara, .actAsDiv, a.nonblock.nontext, img.block {
+    display: block;
+}
+.excludeFromNormalFlow {
+    float: left;
 }
