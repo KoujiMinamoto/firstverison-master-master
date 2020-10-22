@@ -6491,17 +6491,11 @@
                                                                              style="width: 225px; font-size: 12px;"
                                                                              onchange="UpdateFridgeProductPrice(size)">
                                                     <option value="50x50mm Square cut">50x50mm Square cut</option>
-                                                    <option value="50x50mm Rounded corners cut">50x50mm Rounded corners
-                                                        cut
-                                                    </option>
+                                                    <option value="50x50mm Rounded corners cut">50x50mm Rounded corners cut</option>
                                                     <option value="70x50mm Square cut">70x50mm Square cut</option>
-                                                    <option value="70x50mm Rounded corners cut">70x50mm Rounded corners
-                                                        cut
-                                                    </option>
+                                                    <option value="70x50mm Rounded corners cut">70x50mm Rounded corners cut</option>
                                                     <option value="90x50mm Square cut">90x50mm Square cut</option>
-                                                    <option value="90x50mm Rounded corners cut">90x50mm Rounded corners
-                                                        cut
-                                                    </option>
+                                                    <option value="90x50mm Rounded corners cut">90x50mm Rounded corners cut</option>
                                                 </select></td>
                                         </tr>
 
@@ -6586,80 +6580,85 @@
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_500-productid_74"
-                                                                                       id="usersetqty_500-productid_74"
+                                                                                       id="fridge_inputbox_500"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_500-productid_74&quot;, &quot;&quot;, &quot;&quot;, &quot;500&quot;, &quot;50x50mm Square cut&quot;, &quot;1 SIDE&quot;, &quot;74&quot;, &quot;209.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','500',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                                
+                                                                                        
+                                                                                       ">
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">
+                                                        <td id="fridge_td_500" width="50px">
                                                             $209.00<input type="hidden"
                                                                           name="updateselectedproductprice500"
-                                                                          id="updateselectedproductprice500"
+                                                                          id="fridge_price_500"
                                                                           value="209.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                        <td><input type="checkbox" id="fridge_checkbox_500"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_500-productid_74-price_209.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_500-productid_74&quot;)">
+                                                                   onclick="UpdateProductPrice('fridge','checkbox','500')">
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_1000-productid_74"
-                                                                                       id="usersetqty_1000-productid_74"
+                                                                                       id="fridge_inputbox_1000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1000-productid_74&quot;, &quot;&quot;, &quot;&quot;, &quot;1000&quot;, &quot;50x50mm Square cut&quot;, &quot;1 SIDE&quot;, &quot;74&quot;, &quot;275.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','1000')">
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
+                                                        <td id="fridge_td_1000" width="50px">
                                                             $275.00<input type="hidden"
                                                                           name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
+                                                                          id="fridge_price_1000"
                                                                           value="275.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                        <td><input type="checkbox" id="fridge_checkbox_1000"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_1000-productid_74-price_275.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1000-productid_74&quot;)">
+                                                                   onclick="UpdateProductPrice('fridge','checkbox','1000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="qty_left">2500</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_2500-productid_74"
-                                                                                       id="usersetqty_2500-productid_74"
+                                                                                       id="fridge_inputbox_2500"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2500-productid_74&quot;, &quot;&quot;, &quot;&quot;, &quot;2500&quot;, &quot;50x50mm Square cut&quot;, &quot;1 SIDE&quot;, &quot;74&quot;, &quot;577.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','2500')">
                                                         </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
+                                                        <td id="fridge_td_2500" width="50px">
                                                             $577.00<input type="hidden"
                                                                           name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
+                                                                          id="fridge_price_2500"
                                                                           value="577.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                        <td><input type="checkbox" id="fridge_checkbox_2500"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_2500-productid_74-price_577.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2500-productid_74&quot;)">
+                                                                   onclick="UpdateProductPrice('fridge','checkbox','2500')">
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_5000-productid_74"
-                                                                                       id="usersetqty_5000-productid_74"
+                                                                                       id="fridge_inputbox_5000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_5000-productid_74&quot;, &quot;&quot;, &quot;&quot;, &quot;5000&quot;, &quot;50x50mm Square cut&quot;, &quot;1 SIDE&quot;, &quot;74&quot;, &quot;880.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','5000')">
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
+                                                        <td id="fridge_td_5000" width="50px">
                                                             $880.00<input type="hidden"
                                                                           name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
+                                                                          id="fridge_price_5000"
                                                                           value="880.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                        <td><input type="checkbox" id="fridge_checkbox_5000"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_5000-productid_74-price_880.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_5000-productid_74&quot;)">
+                                                                   onclick="UpdateProductPrice('fridge','checkbox','2500')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -6677,7 +6676,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: $ <p id="fridge_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
