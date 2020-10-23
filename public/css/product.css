@@ -2089,3 +2089,116 @@ a.c_dl:hover
     width: 300px;
     margin: 15px 0;
 }
+
+/*web design*/
+.web-design #u10937popup{
+    margin-left:0;
+}
+.web-design #u10943popup{
+    margin-left:0;
+}
+.web-design .main_left{
+    width:67%;
+}
+.web-design .main_left h1{
+    padding-bottom:30px;
+}
+.web-design .main_left p{
+    color:#7f7f7f;
+    text-align:justify;
+    line-height:20px;
+}
+.web-design .main_left img{
+    padding-left:20px;
+}
+.web-design-form{
+
+}
+.web-design-form h4{
+    font-size:30px;
+    line-height:44px;
+}
+
+.onefifth{
+    float:left;
+    width:20%;
+    text-align:center;
+    padding-top:15px;
+    color:#7f7f7f;
+}
+.onefifth img{
+    padding-left:0 !important;
+    max-width:95%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+a.nontext.banner-text{
+    font-size:26px;
+    line-height:26px;
+    font-weight:bold;
+}
+.main_container{
+    width:1280px;
+    margin:0 auto;
+}
+
+.login_form{
+    width: 357px;
+    min-height: 264px;
+    background: #EBEBEB url(../image/u24604-grad.png) repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #EBEBEB));
+    background: -webkit-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: -moz-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: -ms-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: -o-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: linear-gradient(to bottom,#FFFFFF ,#EBEBEB 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-right: 18px;
+    text-align: left;
+    color: #323232;
+    position: relative;
+    float:left;
+}
+.login_field_holder {
+    min-height:210px;
+}
+.login_field_holder p{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+}
+.login_field_holder h4{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.login_field_holder .field_title{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: left;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.login_field_holder .field_title_first{
+    padding-top:20px;
+}
+.login_field_holder .field_holder{
+
+}
+.login_field_holder .field_holder input{
+    border:1px solid #ccc;
+    width:95%;
+    padding:5px;
+    height:20px;
+}

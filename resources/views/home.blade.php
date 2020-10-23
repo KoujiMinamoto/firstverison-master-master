@@ -62,7 +62,8 @@
                 </li>
                 <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;With Compliments
                 </li>
-
+                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;Website Design
+                </li>
             </ul>
         </div>
         <div class="design" id="design_id" onclick="clickHeader(2)">
@@ -6586,8 +6587,8 @@
                                                                                        oninput="UpdateProductPrice('fridge','inputbox','500',value);
                                                                                                 this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
                                                                                                 value = value.replace(/[^0-9]/g,'');
-                                                                                                
-                                                                                        
+
+
                                                                                        ">
                                                         </td>
                                                         <td id="fridge_td_500" width="50px">
@@ -10701,55 +10702,128 @@
         <div style="clear: both;"></div>
     </div>
 
+    <div class="product_div" id="product_div_id_16" style="display:none">
+        <div class="main_container web-design" style="overflow:hidden;padding-top:4rem">
+            <div class="main_left" style="float: left;">
+
+
+{{--                <div id="breadcrumbs">--}}
+{{--                    You are here:--}}
+{{--                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">--}}
+{{--        <a href="http://web.archive.org/web/20180903141702/http://www.1print.net.au/" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>--}}
+{{--        »--}}
+{{--        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">--}}
+{{--            <a href="http://web.archive.org/web/20180903141702/http://www.1print.net.au/web-design.php" itemprop="url">--}}
+{{--                <span itemprop="title">--}}
+{{--                    Website Design / Digital Marketing                </span>--}}
+{{--            </a>--}}
+{{--        </span>--}}
+{{--    </span>--}}
+{{--                </div>--}}
+                <h1 style="display:inline-block;">Website Design / Digital Marketing</h1>
+                <h4>
+
+                    AWD has been our technology partner for over 15 years. This partnership enables us to offer all of our customers a comprehensive range of online marketing services to complement our offline marketing solutions. AWD specialises in web design and digital marketing.
+                </h4>
+                <br style="">
+                <p>
+                    AWD's  highly experienced teams can assist you with every aspect of your digital strategy from creating a website to developing a full-scale online marketing campaign. AWD have been helping Australian businesses succeed in the digital space for nearly two decades.
+                </p>
+                <div class="onefifth">
+                    <img src="{{URL::asset('image/web-design.jpg')}}">
+                    Website Design and Development
+                </div>
+                <div class="onefifth">
+                    <img src="{{URL::asset('image/web-ecommerce.jpg')}}">
+                    Online Store
+                </div>
+                <div class="onefifth">
+                    <img src="{{URL::asset('image/web-custom.jpg')}}">
+                    Custom Software/Application
+                </div>
+                <div class="onefifth">
+                    <img src="{{URL::asset('image/web-mobile.jpg')}}">
+                    Mobile Website
+                </div>
+                <div class="onefifth">
+                    <img src="{{URL::asset('image/web-seo.jpg')}}">
+                    Search Engine Optimisation(SEO)
+                </div>
+
+
+
+                <div class="clear"></div>
+            </div>
+
+            <div class="main_right" style="float: right; width: 400px;">
+                <div class="login_form web-design-form">
+                    <form id="awd_partnership" name="awd_partnership" method="post">
+                        <div class="login_field_holder" style="width:100%">
+                            <h4>Request More Info</h4>
+                            <p>Please fill out the form and one of web consultants will be in contact with you.</p>
+                            <div class="field_title field_title_first">Contact Name <span style="color:red">*</span></div>
+                            <div class="field_holder"><input id="name" type="text" maxlength="80" name="name"></div>
+                            <div class="field_title">Business Name <span style="color:red">*</span></div>
+                            <div class="field_holder"><input id="company" type="text" maxlength="80" name="company"></div>
+                            <div class="field_title">Telephone <span style="color:red">*</span></div>
+                            <div class="field_holder"><input id="phone" type="text" maxlength="80" name="phone"></div>
+                            <div class="field_title">Email Address<span style="color:red">*</span></div>
+                            <div class="field_holder"><input id="email" type="text" maxlength="80" name="email"></div>
+                        </div>
+                        <input id="postemail" class="submit_btn blue_button" type="submit" name="postemail" value="Submit" style="margin:20px 0; width:98%;">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- design -->
     <div class="design_div" id="design_div_id" style="display:none">
-        <div class="design_div_leftContainer">
-            <h1>Design Services</h1>
-            <p>At Yellow Star Press we are passionate about design and technology. Graphic communication encompasses a
-                wide range of tools that businesses and organizations can leverage to direct their brand image and sales
-                messages. Our Graphic Services delivers creative expertise with integrated, comprehensive visual
-                communication from a firm’s initial visual brand and logo, through print tactics to the latest
-                interactive media and web sites.</p>
-            <p>&nbsp;</p>
-            <h3>DISPLAYS, SIGNS, RETAIL GRAPHICS</h3>
-            <p>The art of good signage is bold, clear, easy to read and gives the viewer a “call to action” message.
-                YELLOW STAR PRESS wants to design, write and produce any/all of your upcoming conference booths,
-                displays, signs and retail graphics. YELLOW STAR PRESS designs/manufactures/installs all office/retail
-                graphics on walls, glass, floors... anywhere!</p>
-            <img src="{{URL::asset('/image/Design1.jpg') }} " width=100% height=100%>
-            <ul>
-                <li>Trade Show Booths</li>
-                <li>Displays</li>
-                <li>Indoor and Outdoor Signage</li>
-                <li>Banners</li>
-                <li>Commercial Signs and Business Displays</li>
-                <li>Office Graphics</li>
-                <li>Retail Graphics and Signs</li>
-            </ul>
+        <div class="text_holder">
+            <div class="main_container">
+                <div class="container_left">
+                    <h1>Design Services</h1>
+                    <p>Our design team has extensive experience in producing brand identities' for any industry from scratch for use in your business stationery. Whether your project is a simple promotional flyer or business card through to a complete suite of high end marketing materials, 1Print have the expertise to provide crisp, clean design that will add value to your organisation.
+                    </p>
+                    <p>&nbsp;</p>
+                    <h3 class="no_padding">Services offered</h3>
+                    <ul class="black_bullets">
+                        <li>Logo / Image Design
+                        </li><li>
+                            Business Card &amp; Stationery Design
+                        </li><li>
+                            Postcard / Flyer Design
+                        </li><li>
+                            Promotional Brochure and Booklet Design
+                        </li><li>
+                            Presentation Folder and Marketing Material Design
+                        </li><li>
+                            Correct or add new details to existing artwork
+                        </li><li>
+                            Convert supplied files to a print ready format
+                        </li><li>
+                            Signage Design and more..
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>
+                        We work closely with our clients to ensure a smooth transition from design to the finished product. 1Print charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
+                    </p><p>&nbsp;</p>
+                    <p>
+                        Call 1300 327 471 or email <a href="http://web.archive.org/web/20180903152106/mailto:orders@1print.net.au" class="black_link">orders@1print.net.au</a> for more information and prices.
+                    </p>
 
+                </div>
+                <div class="container_right">
+
+                    <a class="gallery_link" href="http://web.archive.org/web/20180903152106/http://www.1print.net.au/gallery.php">
+                        <div class="gallery_button"></div>
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
         </div>
-        <div class="design_div_rightContainer">
-            <h3>PRINTING AND PRINT DESIGN</h3>
-            <p>Corporate brochures are a vital tool in convincing prospects that you are the vendor, product, or service
-                that they need. Brochures and marketing materials convey a brand and image through text, messages,
-                garphics, and photos - the sum total of what your company is and can do. YELLOW STAR PRESS designs and
-                produces/prints all collateral for business, government, and non-profits.</p>
-            <img src="{{URL::asset('/image/Design2.jpg') }} " width=100% height=100%>
-            <ul>
-                <li>Annual Reports</li>
-                <li>Brochures</li>
-                <li>Newsletters and Flyer’s</li>
-                <li>Publications</li>
-                <li>Catalogs and Reports • Package Design</li>
-                <li>Books and Magazine Design</li>
-                <li>Pocket Folders</li>
-            </ul>
-            <h1>Promotional Products</h1>
-            <p>When you let your Customers know you appreciate their business, your company benefits in many different
-                ways. Promotional products have a value far beyond their cost. </p>
-        </div>
-        <div style="clear: both;"></div>
     </div>
 
     <!-- gallary -->
@@ -11212,11 +11286,11 @@
                     <!-- body_text //-->
 
                     <!-- main content -->
-                    No product found in cart!            
+                    No product found in cart!
                     <!-- end main content -->
                     </div>
                 </form>
-    
+
 
 
 
@@ -11236,14 +11310,14 @@
         <div class="login_div_main">
             <p class="login_div_sign" align="center">Log in</p>
             <form class="login_div_form1">
-                
+
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
                 <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
-                
-                
+
+
         </div>
         <div class="login_div_register_form">
 			<div class="login_field_holder">
@@ -11309,7 +11383,7 @@
                     <input type="text" placeholder="Last Name" class="register_div_form_input"/>
                     <div class="checkmsg" id="firstnamecheckmsg"></div>
                 </div>
-                
+
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Email</a></label>

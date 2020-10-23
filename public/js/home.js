@@ -1,5 +1,5 @@
 window.onload=function(){
-    
+
     var username;
     var usertype;
     var oDiv  =  document.getElementById('displayBox');
@@ -17,14 +17,14 @@ window.onload=function(){
         }
         //oUl.style.left = oUl.offsetLeft-2+'px';//左
         oUl.style.left = oUl.offsetLeft+speed+'px';//右
-    }    
+    }
     var timer = setInterval(move,30)
     oDiv.onmouseover=function(){
         clearInterval(timer);
-    }	
+    }
     oDiv.onmouseout=function(){
          timer = setInterval(move,30)
-    }   
+    }
 }
 
 function initPage() {
@@ -44,29 +44,29 @@ function initPage() {
     $(window).resize(footerPosition);
 
     //二级菜单
-    $("#product_id").hover(function() {  
-            $("#product_ul").show(200);  
+    $("#product_id").hover(function() {
+            $("#product_ul").show(200);
         } ,
         function() {
-            $("#product_ul").hide(200); 
+            $("#product_ul").hide(200);
         }
-    ); 
-    
-    $("#design_id").hover(function() {  
-        $("#design_ul").show(200);  
-    } ,
-        function() {
-            $("#design_ul").hide(200); 
-        }
-    ); 
+    );
 
-    $("#gallary_id").hover(function() {  
-        $("#gallary_ul").show(200);  
+    $("#design_id").hover(function() {
+        $("#design_ul").show(200);
     } ,
         function() {
-            $("#gallary_ul").hide(200); 
+            $("#design_ul").hide(200);
         }
-    ); 
+    );
+
+    $("#gallary_id").hover(function() {
+        $("#gallary_ul").show(200);
+    } ,
+        function() {
+            $("#gallary_ul").hide(200);
+        }
+    );
 
 }
 
@@ -87,7 +87,7 @@ function clickHeader(headerName) {
             document.getElementById("design_div_id").style.display = "block";
             break;
         case 3:
-            
+
             $(".gallary").addClass("clickOn");
             document.getElementById("gallary_div_id").style.display = "block";
             break;
@@ -98,11 +98,11 @@ function clickHeader(headerName) {
         case 5:
             $(".aboutUs").addClass("clickOn");
             document.getElementById("aboutUs_div_id").style.display = "block";
-            break;    
+            break;
         case 6:
             $(".contact").addClass("clickOn");
             document.getElementById("contact_div_id").style.display = "block";
-            break; 
+            break;
         case 7:
             $(".cart").addClass("clickOn");
             document.getElementById("cart_div_id").style.display = "block";
@@ -121,7 +121,7 @@ function clickHeader(headerName) {
                     document.getElementById("dashboard_user_div_id").style.display = "block";
                 }
             }else
-            { 
+            {
                 $(".login").addClass("clickOn");
                 document.getElementById("login_div_id").style.display = "block";}
             break;
@@ -139,15 +139,15 @@ function clickHeader(headerName) {
             $(".register").addClass("clickOn");
             document.getElementById("register_div_id").style.display = "block";
             }
-            break;  
+            break;
         default :
             break;
         case 10:
             $(".login").addClass("clickOn");
             document.getElementById("login_div_forgetpasswd_id").style.display = "block";
             break;
-    } 
-    
+    }
+
 }
 function reset() {
     $(".home").removeClass("clickOn");
@@ -189,8 +189,9 @@ function reset() {
     document.getElementById("product_div_id_13").style.display = "none";
     document.getElementById("product_div_id_14").style.display = "none";
     document.getElementById("product_div_id_15").style.display = "none";
+    document.getElementById("product_div_id_16").style.display = "none";
     document.getElementById("login_div_forgetpasswd_id").style.display = "none";
-    
+
 }
 
 
@@ -212,13 +213,13 @@ function userLogin(){
         let logininfo = {"username":'',"password":''};
         logininfo.username = $('.login_div_un').val();
         logininfo.password = $('.login_div_pass').val();
-        
+
         $.ajax({
             headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
             type: "POST",
             url: "api/userLogin",
             dataType:'json',
-            data: 
+            data:
                     {
                         'username':logininfo.username,
                         'password':logininfo.password
