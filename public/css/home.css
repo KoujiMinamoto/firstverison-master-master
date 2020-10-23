@@ -3,6 +3,7 @@ html {
     font-size: 10px !important;
 }
 .clickOn{
+    color:white;
     background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
 }
 .clickOn>p {

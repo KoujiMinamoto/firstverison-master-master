@@ -1830,3 +1830,262 @@ a.nontext{
 .excludeFromNormalFlow {
     float: left;
 }
+
+
+.folder_templates1 h3,
+.folder_templates2 h3{
+    color: #323232;
+    font-size: 39px;
+    font-weight: bold;
+    line-height:47px;
+}
+.folder_templates2 h3{
+    padding-bottom:0;
+}
+.folder_templates2{
+    clear:both;
+    padding-top:20px;
+}
+
+.folder_templates3 h3{
+    color: #323232;
+    font-size: 39px;
+    font-weight: bold;
+    line-height:47px;
+}
+.folder_templates3 h3{
+    padding-bottom:0;
+}
+.folder_templates3{
+    clear:both;
+    padding-top:20px;
+}
+
+.folder_templates4 h3{
+    color: #323232;
+    font-size: 39px;
+    font-weight: bold;
+    line-height:47px;
+}
+.folder_templates4 h3{
+    padding-bottom:0;
+}
+.folder_templates4{
+    clear:both;
+    padding-top:20px;
+}
+
+.pf_temp{
+    width: 189px;
+    min-height: 261px;
+    background: #FFFFFF url("/web/20180312230246im_/http://www.1print.net.au/images/u10530-grad.png") repeat-y left top;
+    background: -webkit-gradient(linear, left center, right center, from(#FFFFFF),color-stop(52%, #FFFFFF));
+    background: -webkit-linear-gradient(left,#FFFFFF ,#FFFFFF 52%);
+    background: -moz-linear-gradient(left,#FFFFFF ,#FFFFFF 52%);
+    background: -ms-linear-gradient(left,#FFFFFF ,#FFFFFF 52%);
+    background: -o-linear-gradient(left,#FFFFFF ,#FFFFFF 52%);
+    background: linear-gradient(to right,#FFFFFF ,#FFFFFF 52%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 6px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #323232;
+    margin-bottom: -1px;
+    position: relative;
+    float:left;
+    margin-right:8px;
+    font-size: 12px;
+    margin-bottom:8px;
+
+}
+.pf_img{
+    height:132px;
+    position:relative;
+    z-index:5;
+}
+.pf_img img{
+    max-height:128px;
+}
+.pf_temp h5{
+    color: #323232;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    padding-left:5px;
+    height:30px;
+}
+.pf_l{
+    width:90px;
+    float:left;
+    font-weight:bold;
+    text-align:left;
+    padding-left:10px;
+    line-height:14px;
+}
+.pf_r{
+    width:85px;
+    float:right;
+    text-align:left;
+    color:#7f7f7f;
+    line-height:14px;
+    height:52px;
+}
+body a.pf_dl{
+    width: 158px;
+    min-height: 19px;
+    background: #323232 url(../image/u24849-grad.png) repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#606060),color-stop(100%, #323232));
+    background: -webkit-linear-gradient(top,#606060 ,#323232 100%);
+    background: -moz-linear-gradient(top,#606060 ,#323232 100%);
+    background: -ms-linear-gradient(top,#606060 ,#323232 100%);
+    background: -o-linear-gradient(top,#606060 ,#323232 100%);
+    background: linear-gradient(to bottom,#606060 ,#323232 100%);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-top: 9px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
+    text-decoration:none;
+    font-weight: normal;
+    display:inline-block;
+    margin: 0 auto;
+}
+
+a.pf_dl:hover
+{
+    background: #0071BC url(../image/u24849-r-grad.png) repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#29ABE2),color-stop(100%, #0071BC));
+    background: -webkit-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+    background: -moz-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+    background: -ms-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+    background: -o-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+    background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
+}
+
+
+body a.c_dl{
+    width: 90px;
+    min-height: 19px;
+
+    background: #29abe2;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
+    text-decoration:none;
+    font-weight: normal;
+    display:inline-block;
+    margin: 0 auto;
+}
+
+a.c_dl:hover
+{
+    background: #323232 url(../image/u24849-grad.png) repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#606060),color-stop(100%, #323232));
+    background: -webkit-linear-gradient(top,#606060 ,#323232 100%);
+    background: -moz-linear-gradient(top,#606060 ,#323232 100%);
+    background: -ms-linear-gradient(top,#606060 ,#323232 100%);
+    background: -o-linear-gradient(top,#606060 ,#323232 100%);
+    background: linear-gradient(to bottom,#606060 ,#323232 100%);
+}
+
+.pf_description{
+    padding-bottom:20px;
+}
+.pf_badge
+{
+    z-index: 10;
+    width: 60px;
+    min-height: 43px;
+    background-color: #29ABE2;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    border-radius: 50px;
+    padding-top: 17px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 26px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.pf_badge2{
+    padding-top:13px;
+    padding-bottom:4px;
+}
+
+.pf_badge_glued
+{
+    z-index: 10;
+    width: 60px;
+    min-height: 43px;
+    background-color: #39b54a;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    border-radius: 50px;
+    padding-top: 17px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 26px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.black { font-weight: bolder; }
+#u69312-6
+{
+    z-index: 1881;
+    width: 300px;
+    min-height: 34px;
+    background: #0071BC url("/web/20180312230246im_/http://www.1print.net.au/images/u69295-grad.png") repeat-x left top;
+    background: -webkit-gradient(linear, center top, center bottom, from(#29ABE2),color-stop(100%, #0071BC));
+    background: -webkit-linear-gradient(top,#29ABE2 ,#0071BC 100%);
+    background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 7px 15px 5px;
+    margin: 15px 0;
+}
+#u69295-6:hover,#u69279-6:hover,#u69312-6:hover
+{
+    background-image: none;
+    background-color: #323232;
+    -pie-background: none;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    min-height: 34px;
+    width: 300px;
+    margin: 15px 0;
+}

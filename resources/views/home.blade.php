@@ -9396,7 +9396,7 @@
             </div>
             <div class="clear"></div>
             <div class="folder_templates1" name="folder_templates1">
-                <h3>A4 Folder Templates</h4>
+                <h3>A4 Folder Templates</h3>
 
                     <div class="pf_temp">
                         <div class="pf_img">
@@ -9676,11 +9676,11 @@
 
 
             <div class="folder_templates2" style="min-width: 16.5%;height: 100px; clear:both;float:left;">
-                <h3>Wide</h4>
+                <h3>Wide</h3>
                     <div class="pf_temp" style="margin-top:35px">
                         <div class="pf_img">
                             <div style="padding-top:10%">
-                                <img src="/web/20180903142853im_/http://www.1print.net.au/images/a4_l1-01.jpg"/></div>
+                                <img src="{{URL::asset('/image/a4_l1-01.jpg')}}"/></div>
                         </div>
                         <h5>A4 Landscape L1</h5>
                         <div class="pf_l">
@@ -9700,14 +9700,14 @@
 
 
             <div class="folder_templates2" style="min-width: 16.5%;min-height: 100px; clear:none;float:left;">
-                <h3>Double</h4>
+                <h3>Double</h3>
 
                     <div class="pf_temp" style="margin-top:35px">
                         <div class="pf_img">
                             <div class="pf_badge pf_badge2">
                                 Double<br/>Pockets
                             </div>
-                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_d2-01.jpg"/>
+                            <img src="{{URL::asset('/image/a5_d2-01.jpg')}}"/>
                         </div>
                         <h5>A4 Double Pocket D1</h5>
                         <div class="pf_l">
@@ -9728,7 +9728,7 @@
 
 
             <div class="folder_templates2" style="min-width:66%;float:left;clear:none">
-                <h3>A5 Folder Templates</h4>
+                <h3>A5 Folder Templates</h3>
                     <p>
                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all A5 Folded Templates available through CUSTOM QUOTES (click here)</a>
                     </p>
@@ -9738,7 +9738,7 @@
                             <div class="pf_badge pf_badge2">
                                 Includes<br/>Pen<br/>Holder
                             </div>
-                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s1-01.jpg"/>
+                            <img src="{{URL::asset('/image/a5_s1-01.jpg')}}"/>
                         </div>
                         <h5>A5 Single Pocket S1</h5>
                         <div class="pf_l">
@@ -9757,7 +9757,7 @@
 
                     <div class="pf_temp">
                         <div class="pf_img">
-                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s2-01.jpg"/>
+                            <img src="{{URL::asset('/image/a5_s2-01.jpg')}}"/>
                         </div>
                         <h5>A5 Single Pocket S2</h5>
                         <div class="pf_l">
@@ -9776,7 +9776,7 @@
 
                     <div class="pf_temp">
                         <div class="pf_img">
-                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s3-01.jpg"/>
+                            <img src="{{URL::asset('/image/a5_s3-01.jpg')}}"/>
                         </div>
                         <h5>A5 Single Pocket S3</h5>
                         <div class="pf_l">
@@ -9798,7 +9798,7 @@
                             <div class="pf_badge">
                                 Double<br/>Pockets
                             </div>
-                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_d1-01.jpg"/>
+                            <img src="{{URL::asset('/image/a5_d1-01.jpg')}}"/>
                         </div>
                         <h5>A5 Double Pocket D1</h5>
                         <div class="pf_l">
@@ -9827,7 +9827,7 @@
                 <div class="clearfix"></div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_portrait_dl1-01.jpg"/>
+                        <img src="{{URL::asset('/image/dl_portrait_dl1-01.jpg')}}"/>
                     </div>
                     <h5>DL Portrait DL1</h5>
                     <div class="pf_l">
@@ -9845,7 +9845,7 @@
                 </div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_landscape_dl2-01.jpg" style="padding-top:40px;"/>
+                        <img src="{{URL::asset('/image/dl_landscape_dl2-01.jpg')}}"/>
                     </div>
                     <h5>DL Landscape DL2</h5>
                     <div class="pf_l">
@@ -9863,7 +9863,7 @@
                 </div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_portrait_dl3-01.png" style="padding-top:10px;"/>
+                        <img src="{{URL::asset('/image/dl_portrait_dl3-01.png')}}"/>
                     </div>
                     <h5>DL Portrait DL3</h5>
                     <div class="pf_l">
@@ -9881,7 +9881,7 @@
                 </div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_landscape_dl3-01.png" style="padding-top:10px;"/>
+                        <img src="{{URL::asset('/image/dl_landscape_dl3-01.png')}}"/>
                     </div>
                     <h5>DL Folder DL4</h5>
                     <div class="pf_l">
@@ -9911,7 +9911,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g1-image-01.jpg"/>
+                        <img src="{{URL::asset('/image/g1-image-01.jpg')}}"/>
                     </div>
                     <h5>A4 Single Pocket G1</h5>
                     <div class="pf_l">
@@ -9933,7 +9933,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g2-01.jpg"/>
+                        <img src="{{URL::asset('/image/g2-01.jpg')}}"/>
                     </div>
                     <h5>A4 Single Pocket G2</h5>
                     <div class="pf_l">
@@ -9955,7 +9955,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g3-01.jpg"/>
+                        <img src="{{URL::asset('/image/g3-01.jpg')}}"/>
                     </div>
                     <h5>A4 Single Pocket G3</h5>
                     <div class="pf_l">
@@ -9977,7 +9977,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g4-01.jpg"/>
+                        <img src="{{URL::asset('/image/g4-01.jpg')}}"/>
                     </div>
                     <h5>A4 Single Pocket G4</h5>
                     <div class="pf_l">
@@ -9999,7 +9999,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g5-01.jpg"/>
+                        <img src="{{URL::asset('/image/g5-01.jpg')}}"/>
                     </div>
                     <h5>6 Page A4 G5</h5>
                     <div class="pf_l">
@@ -10022,7 +10022,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g6-01.jpg"/>
+                        <img src="{{URL::asset('/image/g6-01.jpg')}}"/>
                     </div>
                     <h5>6 Page A4 G6</h5>
                     <div class="pf_l">
@@ -10044,7 +10044,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g7-01.png"/>
+                        <img src="{{URL::asset('/image/g7-01.png')}}"/>
                     </div>
                     <h5>A4 Single Pocket G7</h5>
                     <div class="pf_l">
@@ -10066,7 +10066,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g8-01.png"/>
+                        <img src="{{URL::asset('/image/g8-01.png')}}"/>
                     </div>
                     <h5>A4 Single Pocket G8</h5>
                     <div class="pf_l">
@@ -10088,7 +10088,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g9-01.png"/>
+                        <img src="{{URL::asset('/image/g9-01.png')}}"/>
                     </div>
                     <h5>A4 Single Pocket G9</h5>
                     <div class="pf_l">
@@ -10104,15 +10104,10 @@
                     <div class="clear"></div>
                     <a class="pf_dl" href="templates/g9.pdf" target="_blank">Download Template (PDF)</a>
                 </div>
-
-
-
-
-
-
             </div>
+
             <div class="folder_templates4" style="float:left">
-                <h3>Folded Panel Templates</h4>
+                <h3>Folded Panel Templates</h3>
                     <p>
                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Folded Templates available through CUSTOM QUOTES (click here)</a>
                     <div class="clearfix"></div><br/>
@@ -10121,7 +10116,7 @@
                     </p>
                     <div class="pf_temp">
                         <div class="pf_img">
-                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/6_page_a4_folded_folder_f1-01.jpg"/>
+                            <img src="{{URL::asset('/image/6_page_a4_folded_folder_f1-01.jpg')}}"/>
                         </div>
                         <h5>6 Page A4 Folded F1</h5>
                         <div class="pf_l">
@@ -10167,13 +10162,12 @@
 
                     <div class="option_size_list comp_templates">
 
-                        <div class="bro_setup">
+                        <div class="bro_setup"style="height:7rem;margin-left:0rem">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link">
+                               class="bro_link"style="height:7rem">
                             </a>
-                            <div class="bro_sizing">DLX</div>
-                            <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing">DL</div>
+                            <div class="bro_sizing_sml">99 x 210mm</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
@@ -10213,25 +10207,23 @@
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
-
+                    <div class="bcards500 notop">
+                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                    </div>
 
                 </div>
                 <div class="clear"></div>
-
-                <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design">
+                    <div class="product_info_design" style="margin-left: 0rem">
                         <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">read more+</a>
+                        </a>
                     </div>
                     <div class="product_info_gallery gallery_comp">
                         <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">
@@ -10239,10 +10231,35 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                        </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">read
-                            more+</a>
-
+                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_order">
+                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/order.php">
+                            <div class="product_info_order_img">
+                            </div>
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/order.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_guidelines">
+                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/artwork-specifications.php">
+                            <div class="product_info_guidelines_img">
+                            </div>
+                            <h4>File Guidelines</h4>
+                            <p>Print specifications to achieve best printing results</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                        </a>
+                    </div>
+                    <div class="product_info_delivery">
+                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">
+                            <div class="product_info_delivery_img">
+                            </div>
+                            <h4>Free Delivery</h4>
+                            <p>Free delivery Australia wide for all products</p>
+                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">read more+</a>
+                        </a>
                     </div>
 
 
@@ -10654,7 +10671,25 @@
                             </tbody>
                         </table>
                     </div>
+                    <!-- email your order in 3 steps -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
+                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
+                             height="146"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
+                    </a>
 
+                    <!-- corporate accounts call image -->
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
+                        <!-- image -->
+                        <img class="block" id="u76951_img"
+                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
+                             height="113"
+                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
+                    </a>
 
                 </div>
                 <!--end product_right_option-->
