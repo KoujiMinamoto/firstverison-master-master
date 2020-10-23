@@ -25,6 +25,7 @@
     <script type="text/javascript" src="{{URL::asset('/js/profile.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/product.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/cart.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/gallery.js') }}"></script>
     <script type="text/javascript">
     </script>
 </head>
@@ -10830,7 +10831,7 @@
     <div class="gallary_div" id="gallary_div_id" style="display:none">
         <div class="gallery_left" id="gallery_left_id">
             <div>    
-                <button class="gallery_span" type="button"></button>
+                <button class="gallery_span" type="button" onclick="show_hidden()"></button>
                 <div style="clear: both;"></div>
             </div>    
             <div class="galleryfor6">
@@ -10873,16 +10874,96 @@
                     </div>
                     <div style="clear: both;"></div>
                 </div>
-                <div class="galleryfor15" style="display:none">
+                <div class="galleryfor15" id ="galleryfor15_id" style="display:none">
                     <div class="size_rowfor3">
+                        <div class="gallery_info_for15_1 no_margin">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_2 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_3 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
+                        <div class="gallery_info_for15_1 no_margin">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_2 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_3 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
+                        <div class="gallery_info_for15_1 no_margin">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_2 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_3 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
+                        <div class="gallery_info_for15_1 no_margin">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_2 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_3 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
+                        <div class="gallery_info_for15_1 no_margin">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_2 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_3 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
                     </div>
                     <div style="clear: both;"></div>
                 </div>                               

@@ -89,6 +89,7 @@ function clickHeader(headerName) {
         case 3:
 
             $(".gallary").addClass("clickOn");
+            document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("gallary_div_id").style.display = "block";
             break;
         case 4:
@@ -191,6 +192,7 @@ function reset() {
     document.getElementById("product_div_id_15").style.display = "none";
     document.getElementById("product_div_id_16").style.display = "none";
     document.getElementById("login_div_forgetpasswd_id").style.display = "none";
+    document.getElementById("displayBox_id").style.display = "block";
 
 }
 

@@ -223,6 +223,7 @@ body.gallary_div {
     float: left;
     width: 500px;
     padding-left: 15px;
+    margin-top: 10rem;
     height: 900px;
     
 }
@@ -294,7 +295,15 @@ body.gallary_div {
     background: black url(../image/gallery/gallery\ icons-01.png) no-repeat center center;
     opacity: 0;
 }
-
+.mask1{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 165px;
+  height: 150px;
+  background: black url(../image/gallery/gallery\ icons-01.png) no-repeat center center;
+  opacity: 0;
+}
 .gallery_info_for6_1:hover .mask,
 .gallery_info_for6_2:hover .mask,
 .gallery_info_for6_3:hover .mask,
@@ -311,5 +320,44 @@ body.gallary_div {
   top:0;
   width: 500px;
   height: 750px;
+}
+
+.gallery_info_for15_1,
+.gallery_info_for15_2,
+.gallery_info_for15_3,
+.gallery_info_for15_4,
+.gallery_info_for15_5,
+.gallery_info_for15_6,
+.gallery_info_for15_7,
+.gallery_info_for15_8,
+.gallery_info_for15_9,
+.gallery_info_for15_10,
+.gallery_info_for15_11,
+.gallery_info_for15_12,
+.gallery_info_for15_13,
+.gallery_info_for15_14,
+.gallery_info_for15_15{
+  width:165px;
+  margin-left:0;
+  float:left;
+  height: 150px;
+  margin-bottom:0;
   background-color: red;
+}
+.gallery_info_for15_1:hover .mask1,
+.gallery_info_for15_2:hover .mask1,
+.gallery_info_for15_3:hover .mask1,
+.gallery_info_for15_4:hover .mask1,
+.gallery_info_for15_5:hover .mask1,
+.gallery_info_for15_6:hover .mask1,
+.gallery_info_for15_7:hover .mask1,
+.gallery_info_for15_8:hover .mask1,
+.gallery_info_for15_9:hover .mask1,
+.gallery_info_for15_10:hover .mask1,
+.gallery_info_for15_11:hover .mask1,
+.gallery_info_for15_12:hover .mask1,
+.gallery_info_for15_13:hover .mask1,
+.gallery_info_for15_14:hover .mask1,
+.gallery_info_for15_15:hover .mask1{
+  opacity: 0.8; 
 }
