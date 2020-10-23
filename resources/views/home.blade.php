@@ -6618,7 +6618,10 @@
                                                                                        id="fridge_inputbox_1000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       oninput="UpdateProductPrice('fridge','inputbox','1000')">
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','1000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                        ">
                                                         </td>
                                                         <td id="fridge_td_1000" width="50px">
                                                             $275.00<input type="hidden"
@@ -6638,7 +6641,10 @@
                                                                                        id="fridge_inputbox_2500"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       oninput="UpdateProductPrice('fridge','inputbox','2500')">
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','2500',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">
                                                         </td>
                                                         <td id="fridge_td_2500" width="50px">
                                                             $577.00<input type="hidden"
@@ -6658,7 +6664,10 @@
                                                                                        id="fridge_inputbox_5000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       oninput="UpdateProductPrice('fridge','inputbox','5000')">
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','5000',value)
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">
                                                         </td>
                                                         <td id="fridge_td_5000" width="50px">
                                                             $880.00<input type="hidden"
@@ -11362,7 +11371,7 @@
         <!-- shop-cart-area-end -->
         <div class="main_product_container checkout_holder">
             <div class="cart_left">
-                <span class="checkout_step active_step" href=""><span class="step_cart">My Cart</span></span>
+                <span class="checkout_step active_step"><span class="step_cart">My Cart</span></span>
                 <span class="checkout_step"><span class="step_cart">Delivery Information</span></span>
                 <span class="checkout_step"><span class="step_cart">Confirm your Order</span></span>
                 <span class="checkout_step"><span class="step_cart">Upload your Files</span></span>
@@ -11370,33 +11379,30 @@
             </div>
             <div class="cart_right">
                 <h1>My Cart</h1>
-                <script style="">
-                    function validateEmptyValue() {
-                        var totalC = $('#totalcount').val();
+                <div id="cart_myCart" diaplay="block">
+                    <div id="cart_onProduct" display="none">No product found in cart!</div>
+                    <div id="cart_haveProduct" display="none"></div>
+                </div>
 
-                        for(var i = 1; i <= totalC; i++) {
-                            var qty  = $('#priceincart'+i).val();
-                            if (qty == 0) {
-                                alert('Quantity can not be zero');
-                                return false;
-                            }
-                        }
-                        return true;
-                    }
-                </script>
-                <form id="frmCartCheckOut" method="post" action="" onsubmit="return validateEmptyValue()">
-                    <div id="cartlistupdate">
-                    <!-- body_text //-->
+                <div id="cart_delivery" diaplay="none">
+                    <div id="cart_userInfomation" display="none">
 
-                    <!-- main content -->
-                    No product found in cart!
-                    <!-- end main content -->
                     </div>
-                </form>
+                </div>
 
+                <div id="cart_confirm" display="none">
+                    <div id="cart_confirmOrder" display="none">
 
+                    </div>
+                </div>
 
+                <div id="cart_upload" display="none">
 
+                </div>
+
+                <div id="cart_payment" display="none">
+                
+                </div>
 
         </div>
             <div class="clear"></div>

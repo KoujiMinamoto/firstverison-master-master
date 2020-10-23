@@ -196,8 +196,7 @@
     padding-left: 15px;
     color: #7f7f7f;
 }
-.cart_div a.active_step,
-.cart_div span.active_step,
+
 .cart_div a.checkout_step:hover{
 	background: #0071BC  repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(#29ABE2),color-stop(100%, #0071BC));
@@ -209,6 +208,7 @@
 	border-color: #0071BC;
 	color:#fff;
 }
+
 .step_cart:hover{
     background: #0071BC url(../image/cart_step_icon.png) no-repeat 10px 10px ;
 
@@ -260,3 +260,9 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+.checkout_holder {
+    margin-top:3rem;
+}
+
+

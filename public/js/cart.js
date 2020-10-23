@@ -1,23 +1,24 @@
+
+
+
+//检查是否cart里是否已经有了产品
 function cartTableCheck() {
 
     let i = $("#cart_table").find("th").length;
 
     if (i == 0) {
 
-        $('#').append('<table id="cart_table"</table>');
-        let add_table = document.getElementById("registerVMS_table_VMS");
+        $('#cart_haveProduct').append('<table id="cart_table"</table>');
+        let add_table = document.getElementById("cart_table");
         // Insert a row into the table
         let row = add_table.insertRow(-1);
         // init th element
-        let th = new Array('<th style="width:5%"></th>',
-                           '<th style="width:5%"></th>',
-                           '<th style="width:10%">IP sddress</th>', 
-                           '<th style="width:15%">Server name</th>',
-                           '<th style="width:6%">Version</th>',
-                           '<th style="width:26%">Alarm notification</th>',
-                           '<th style="width:7%">Alarm port</th>',
-                           '<th style="width:11%"></th>',
-                           '<th style="width:15%"></th>'
+        let th = new Array('<th class="product-name">Product</th>',
+                           '<th class="product-price">Price</th>',
+                           '<th class="product-quantity">Quantity</th>', 
+                           '<th class="product-description">Description</th>',
+                           '<th class="product-subtotal">Total</th>',
+                           '<th class="product-remove">Remove</th>',
         );
         // Insert table's header
         th.forEach(th => {
@@ -30,10 +31,15 @@ function cartTableCheck() {
 
 }
 
+
+
 //My cart -> Delivery -> Confirm -> Upload ->   Payment
 
 function cartProcess() {
-
+    let turn = 4;
+    for (let i = 0; i >= turn; ++i) {
+        
+    }
 }
 
 
@@ -105,32 +111,10 @@ function totalPriceCal() {
 }
 
 function registerVMS_checkBoxClick(i) {
-    if($('#registerVMS_checkbox_vms'+i).is(':checked')) {
-        // Set delete and save buttons to enabled
-        $('.registerVMS_btn_delete1').removeAttr("disabled");
-        $('.registerVMS_btn_save').removeAttr("disabled");
 
-        $('.registerVMS_btn_delete1').removeClass("btnDisabled");
-        $('.registerVMS_btn_save').removeClass("btnDisabled");
+    $('.checkout_step').attr('disabled','disabled')
+    // Set delete and save buttons to enabled
+    $('.checkout_step').removeAttr("disabled");
 
-        $(".registerVMS_btn_delete1").addClass("deletebtnEnabled");
-        $(".registerVMS_btn_save").addClass("savebtnEnabled");
-        
-    } else {
-        // Set delete and save buttons to disabled
-        let tableLength = $("#registerVMS_table_VMS").find("tr").length;
-        for (let num = 1 ; num < tableLength ; num++ ) {
-            if($("#registerVMS_table_VMS tr:eq("+num+") input[type='checkbox']").is(':checked')){
-                break;
-            };
-            // No checkbox is currently selected
-            if(num == tableLength-1) {
-                $('.registerVMS_btn_delete1').removeClass("deletebtnEnabled");
-                $('.registerVMS_btn_save').removeClass("savebtnEnabled");
-                
-                $(".registerVMS_btn_delete1").addClass("btnDisabled");
-                $(".registerVMS_btn_save").addClass("btnDisabled");
-            }
-        };
-    }
+  
 }

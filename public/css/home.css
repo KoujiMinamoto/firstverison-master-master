@@ -585,7 +585,7 @@ h1.hp_title {
 
 .footer_width_holder {
     width: 128rem;
-    margin: 0 10rem;
+    margin: 0 auto;
     padding-top: 3rem;
 }
 .footer_col1 {

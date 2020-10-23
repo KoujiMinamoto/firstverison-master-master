@@ -132,6 +132,8 @@ function addToCart (product) {
         }
          
     }
+
+    //判断用户登录状态，如果已登录，则需要存入数据库，cart页面读取由数据库数据进行
     cartTableCheck();
     cartDataInsert(productMessage);
     
