@@ -62,8 +62,7 @@
                 </li>
                 <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;With Compliments
                 </li>
-                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;Website Design
-                </li>
+
             </ul>
         </div>
         <div class="design" id="design_id" onclick="clickHeader(2)">
@@ -6586,9 +6585,7 @@
                                                                                        style="width:30px"
                                                                                        oninput="UpdateProductPrice('fridge','inputbox','500',value);
                                                                                                 this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
-                                                                                                value = value.replace(/[^0-9]/g,'');
-
-
+                                                                                                value = value.replace(/[^0-9]/g,'');    
                                                                                        ">
                                                         </td>
                                                         <td id="fridge_td_500" width="50px">
@@ -9406,7 +9403,7 @@
             </div>
             <div class="clear"></div>
             <div class="folder_templates1" name="folder_templates1">
-                <h3>A4 Folder Templates</h3>
+                <h3>A4 Folder Templates</h4>
 
                     <div class="pf_temp">
                         <div class="pf_img">
@@ -9686,11 +9683,11 @@
 
 
             <div class="folder_templates2" style="min-width: 16.5%;height: 100px; clear:both;float:left;">
-                <h3>Wide</h3>
+                <h3>Wide</h4>
                     <div class="pf_temp" style="margin-top:35px">
                         <div class="pf_img">
                             <div style="padding-top:10%">
-                                <img src="{{URL::asset('/image/a4_l1-01.jpg')}}"/></div>
+                                <img src="/web/20180903142853im_/http://www.1print.net.au/images/a4_l1-01.jpg"/></div>
                         </div>
                         <h5>A4 Landscape L1</h5>
                         <div class="pf_l">
@@ -9710,14 +9707,14 @@
 
 
             <div class="folder_templates2" style="min-width: 16.5%;min-height: 100px; clear:none;float:left;">
-                <h3>Double</h3>
+                <h3>Double</h4>
 
                     <div class="pf_temp" style="margin-top:35px">
                         <div class="pf_img">
                             <div class="pf_badge pf_badge2">
                                 Double<br/>Pockets
                             </div>
-                            <img src="{{URL::asset('/image/a5_d2-01.jpg')}}"/>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_d2-01.jpg"/>
                         </div>
                         <h5>A4 Double Pocket D1</h5>
                         <div class="pf_l">
@@ -9738,7 +9735,7 @@
 
 
             <div class="folder_templates2" style="min-width:66%;float:left;clear:none">
-                <h3>A5 Folder Templates</h3>
+                <h3>A5 Folder Templates</h4>
                     <p>
                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all A5 Folded Templates available through CUSTOM QUOTES (click here)</a>
                     </p>
@@ -9748,7 +9745,7 @@
                             <div class="pf_badge pf_badge2">
                                 Includes<br/>Pen<br/>Holder
                             </div>
-                            <img src="{{URL::asset('/image/a5_s1-01.jpg')}}"/>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s1-01.jpg"/>
                         </div>
                         <h5>A5 Single Pocket S1</h5>
                         <div class="pf_l">
@@ -9767,7 +9764,7 @@
 
                     <div class="pf_temp">
                         <div class="pf_img">
-                            <img src="{{URL::asset('/image/a5_s2-01.jpg')}}"/>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s2-01.jpg"/>
                         </div>
                         <h5>A5 Single Pocket S2</h5>
                         <div class="pf_l">
@@ -9786,7 +9783,7 @@
 
                     <div class="pf_temp">
                         <div class="pf_img">
-                            <img src="{{URL::asset('/image/a5_s3-01.jpg')}}"/>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_s3-01.jpg"/>
                         </div>
                         <h5>A5 Single Pocket S3</h5>
                         <div class="pf_l">
@@ -9808,7 +9805,7 @@
                             <div class="pf_badge">
                                 Double<br/>Pockets
                             </div>
-                            <img src="{{URL::asset('/image/a5_d1-01.jpg')}}"/>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/a5_d1-01.jpg"/>
                         </div>
                         <h5>A5 Double Pocket D1</h5>
                         <div class="pf_l">
@@ -9837,7 +9834,7 @@
                 <div class="clearfix"></div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="{{URL::asset('/image/dl_portrait_dl1-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_portrait_dl1-01.jpg"/>
                     </div>
                     <h5>DL Portrait DL1</h5>
                     <div class="pf_l">
@@ -9855,7 +9852,7 @@
                 </div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="{{URL::asset('/image/dl_landscape_dl2-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_landscape_dl2-01.jpg" style="padding-top:40px;"/>
                     </div>
                     <h5>DL Landscape DL2</h5>
                     <div class="pf_l">
@@ -9873,7 +9870,7 @@
                 </div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="{{URL::asset('/image/dl_portrait_dl3-01.png')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_portrait_dl3-01.png" style="padding-top:10px;"/>
                     </div>
                     <h5>DL Portrait DL3</h5>
                     <div class="pf_l">
@@ -9891,7 +9888,7 @@
                 </div>
                 <div class="pf_temp">
                     <div class="pf_img">
-                        <img src="{{URL::asset('/image/dl_landscape_dl3-01.png')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/dl_landscape_dl3-01.png" style="padding-top:10px;"/>
                     </div>
                     <h5>DL Folder DL4</h5>
                     <div class="pf_l">
@@ -9921,7 +9918,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g1-image-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g1-image-01.jpg"/>
                     </div>
                     <h5>A4 Single Pocket G1</h5>
                     <div class="pf_l">
@@ -9943,7 +9940,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g2-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g2-01.jpg"/>
                     </div>
                     <h5>A4 Single Pocket G2</h5>
                     <div class="pf_l">
@@ -9965,7 +9962,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g3-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g3-01.jpg"/>
                     </div>
                     <h5>A4 Single Pocket G3</h5>
                     <div class="pf_l">
@@ -9987,7 +9984,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g4-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g4-01.jpg"/>
                     </div>
                     <h5>A4 Single Pocket G4</h5>
                     <div class="pf_l">
@@ -10009,7 +10006,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g5-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g5-01.jpg"/>
                     </div>
                     <h5>6 Page A4 G5</h5>
                     <div class="pf_l">
@@ -10032,7 +10029,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g6-01.jpg')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g6-01.jpg"/>
                     </div>
                     <h5>6 Page A4 G6</h5>
                     <div class="pf_l">
@@ -10054,7 +10051,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g7-01.png')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g7-01.png"/>
                     </div>
                     <h5>A4 Single Pocket G7</h5>
                     <div class="pf_l">
@@ -10076,7 +10073,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g8-01.png')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g8-01.png"/>
                     </div>
                     <h5>A4 Single Pocket G8</h5>
                     <div class="pf_l">
@@ -10098,7 +10095,7 @@
                         <div class="pf_badge_glued">
                             Glued
                         </div>
-                        <img src="{{URL::asset('/image/g9-01.png')}}"/>
+                        <img src="/web/20180903142853im_/http://www.1print.net.au/images/g9-01.png"/>
                     </div>
                     <h5>A4 Single Pocket G9</h5>
                     <div class="pf_l">
@@ -10114,10 +10111,15 @@
                     <div class="clear"></div>
                     <a class="pf_dl" href="templates/g9.pdf" target="_blank">Download Template (PDF)</a>
                 </div>
-            </div>
 
+
+
+
+
+
+            </div>
             <div class="folder_templates4" style="float:left">
-                <h3>Folded Panel Templates</h3>
+                <h3>Folded Panel Templates</h4>
                     <p>
                         <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Folded Templates available through CUSTOM QUOTES (click here)</a>
                     <div class="clearfix"></div><br/>
@@ -10126,7 +10128,7 @@
                     </p>
                     <div class="pf_temp">
                         <div class="pf_img">
-                            <img src="{{URL::asset('/image/6_page_a4_folded_folder_f1-01.jpg')}}"/>
+                            <img src="/web/20180903142853im_/http://www.1print.net.au/images/6_page_a4_folded_folder_f1-01.jpg"/>
                         </div>
                         <h5>6 Page A4 Folded F1</h5>
                         <div class="pf_l">
@@ -10172,12 +10174,13 @@
 
                     <div class="option_size_list comp_templates">
 
-                        <div class="bro_setup"style="height:7rem;margin-left:0rem">
+                        <div class="bro_setup">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
-                               class="bro_link"style="height:7rem">
+                               class="bro_link">
                             </a>
-                            <div class="bro_sizing">DL</div>
-                            <div class="bro_sizing_sml">99 x 210mm</div>
+                            <div class="bro_sizing">DLX</div>
+                            <div class="bro_title">Envelope</div>
+                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
                             <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
@@ -10217,23 +10220,25 @@
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
-                    </div>
+
 
                 </div>
                 <div class="clear"></div>
+
+                <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
 
 
-                    <div class="product_info_design" style="margin-left: 0rem">
+                    <div class="product_info_design">
                         <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">read more+</a>
-                        </a>
+                        </a><a class="blue_link"
+                               href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">read
+                            more+</a>
+
                     </div>
                     <div class="product_info_gallery gallery_comp">
                         <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">
@@ -10241,35 +10246,10 @@
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">read more+</a>
-                        </a>
-                    </div>
-                    <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/order.php">
-                            <div class="product_info_order_img">
-                            </div>
-                            <h4>Order process</h4>
-                            <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/order.php">read more+</a>
-                        </a>
-                    </div>
-                    <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/artwork-specifications.php">
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/artwork-specifications.php">read more+</a>
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">read more+</a>
-                        </a>
+                        </a><a class="blue_link"
+                               href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">read
+                            more+</a>
+
                     </div>
 
 
@@ -10681,25 +10661,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <!-- email your order in 3 steps -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
-                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
-                        <img class="block" id="u76951_img"
-                             src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
-                             height="146"
-                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-01.jpg?crc=3906882500">
-                    </a>
 
-                    <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
-                       data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
-                        <!-- image -->
-                        <img class="block" id="u76951_img"
-                             src="{{URL::asset('/image/1print - email order banner-02.jpg')}} " alt="" width="290"
-                             height="113"
-                             data-muse-src="http://web.archive.org/web/20180903152038/http://www.1print.com.au/newsite_2014/images/1print%20-%20email%20order%20banner-02.jpg?crc=3866292113">
-                    </a>
 
                 </div>
                 <!--end product_right_option-->
@@ -10711,282 +10673,861 @@
         <div style="clear: both;"></div>
     </div>
 
-    <div class="product_div" id="product_div_id_16" style="display:none">
-        <div class="main_container web-design" style="overflow:hidden;padding-top:4rem">
-            <div class="main_left" style="float: left;">
-
-
-{{--                <div id="breadcrumbs">--}}
-{{--                    You are here:--}}
-{{--                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">--}}
-{{--        <a href="http://web.archive.org/web/20180903141702/http://www.1print.net.au/" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>--}}
-{{--        »--}}
-{{--        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">--}}
-{{--            <a href="http://web.archive.org/web/20180903141702/http://www.1print.net.au/web-design.php" itemprop="url">--}}
-{{--                <span itemprop="title">--}}
-{{--                    Website Design / Digital Marketing                </span>--}}
-{{--            </a>--}}
-{{--        </span>--}}
-{{--    </span>--}}
-{{--                </div>--}}
-                <h1 style="display:inline-block;">Website Design / Digital Marketing</h1>
-                <h4>
-
-                    AWD has been our technology partner for over 15 years. This partnership enables us to offer all of our customers a comprehensive range of online marketing services to complement our offline marketing solutions. AWD specialises in web design and digital marketing.
-                </h4>
-                <br style="">
-                <p>
-                    AWD's  highly experienced teams can assist you with every aspect of your digital strategy from creating a website to developing a full-scale online marketing campaign. AWD have been helping Australian businesses succeed in the digital space for nearly two decades.
-                </p>
-                <div class="onefifth">
-                    <img src="{{URL::asset('image/web-design.jpg')}}">
-                    Website Design and Development
-                </div>
-                <div class="onefifth">
-                    <img src="{{URL::asset('image/web-ecommerce.jpg')}}">
-                    Online Store
-                </div>
-                <div class="onefifth">
-                    <img src="{{URL::asset('image/web-custom.jpg')}}">
-                    Custom Software/Application
-                </div>
-                <div class="onefifth">
-                    <img src="{{URL::asset('image/web-mobile.jpg')}}">
-                    Mobile Website
-                </div>
-                <div class="onefifth">
-                    <img src="{{URL::asset('image/web-seo.jpg')}}">
-                    Search Engine Optimisation(SEO)
-                </div>
-
-
-
-                <div class="clear"></div>
-            </div>
-
-            <div class="main_right" style="float: right; width: 400px;">
-                <div class="login_form web-design-form">
-                    <form id="awd_partnership" name="awd_partnership" method="post">
-                        <div class="login_field_holder" style="width:100%">
-                            <h4>Request More Info</h4>
-                            <p>Please fill out the form and one of web consultants will be in contact with you.</p>
-                            <div class="field_title field_title_first">Contact Name <span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="name" type="text" maxlength="80" name="name"></div>
-                            <div class="field_title">Business Name <span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="company" type="text" maxlength="80" name="company"></div>
-                            <div class="field_title">Telephone <span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="phone" type="text" maxlength="80" name="phone"></div>
-                            <div class="field_title">Email Address<span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="email" type="text" maxlength="80" name="email"></div>
-                        </div>
-                        <input id="postemail" class="submit_btn blue_button" type="submit" name="postemail" value="Submit" style="margin:20px 0; width:98%;">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- design -->
     <div class="design_div" id="design_div_id" style="display:none">
-        <div class="text_holder">
-            <div class="main_container">
-                <div class="container_left">
-                    <h1>Design Services</h1>
-                    <p>Our design team has extensive experience in producing brand identities' for any industry from scratch for use in your business stationery. Whether your project is a simple promotional flyer or business card through to a complete suite of high end marketing materials, 1Print have the expertise to provide crisp, clean design that will add value to your organisation.
-                    </p>
-                    <p>&nbsp;</p>
-                    <h3 class="no_padding">Services offered</h3>
-                    <ul class="black_bullets">
-                        <li>Logo / Image Design
-                        </li><li>
-                            Business Card &amp; Stationery Design
-                        </li><li>
-                            Postcard / Flyer Design
-                        </li><li>
-                            Promotional Brochure and Booklet Design
-                        </li><li>
-                            Presentation Folder and Marketing Material Design
-                        </li><li>
-                            Correct or add new details to existing artwork
-                        </li><li>
-                            Convert supplied files to a print ready format
-                        </li><li>
-                            Signage Design and more..
-                        </li>
-                    </ul>
-                    <p>&nbsp;</p>
-                    <p>
-                        We work closely with our clients to ensure a smooth transition from design to the finished product. 1Print charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
-                    </p><p>&nbsp;</p>
-                    <p>
-                        Call 1300 327 471 or email <a href="http://web.archive.org/web/20180903152106/mailto:orders@1print.net.au" class="black_link">orders@1print.net.au</a> for more information and prices.
-                    </p>
+        <div class="design_div_leftContainer">
+            <h1>Design Services</h1>
+            <p>At Yellow Star Press we are passionate about design and technology. Graphic communication encompasses a
+                wide range of tools that businesses and organizations can leverage to direct their brand image and sales
+                messages. Our Graphic Services delivers creative expertise with integrated, comprehensive visual
+                communication from a firm’s initial visual brand and logo, through print tactics to the latest
+                interactive media and web sites.</p>
+            <p>&nbsp;</p>
+            <h3>DISPLAYS, SIGNS, RETAIL GRAPHICS</h3>
+            <p>The art of good signage is bold, clear, easy to read and gives the viewer a “call to action” message.
+                YELLOW STAR PRESS wants to design, write and produce any/all of your upcoming conference booths,
+                displays, signs and retail graphics. YELLOW STAR PRESS designs/manufactures/installs all office/retail
+                graphics on walls, glass, floors... anywhere!</p>
+            <img src="{{URL::asset('/image/Design1.jpg') }} " width=100% height=100%>
+            <ul>
+                <li>Trade Show Booths</li>
+                <li>Displays</li>
+                <li>Indoor and Outdoor Signage</li>
+                <li>Banners</li>
+                <li>Commercial Signs and Business Displays</li>
+                <li>Office Graphics</li>
+                <li>Retail Graphics and Signs</li>
+            </ul>
 
-                </div>
-                <div class="container_right">
-
-                    <a class="gallery_link" href="http://web.archive.org/web/20180903152106/http://www.1print.net.au/gallery.php">
-                        <div class="gallery_button"></div>
-                    </a>
-                </div>
-                <div class="clear"></div>
-            </div>
         </div>
+        <div class="design_div_rightContainer">
+            <h3>PRINTING AND PRINT DESIGN</h3>
+            <p>Corporate brochures are a vital tool in convincing prospects that you are the vendor, product, or service
+                that they need. Brochures and marketing materials convey a brand and image through text, messages,
+                garphics, and photos - the sum total of what your company is and can do. YELLOW STAR PRESS designs and
+                produces/prints all collateral for business, government, and non-profits.</p>
+            <img src="{{URL::asset('/image/Design2.jpg') }} " width=100% height=100%>
+            <ul>
+                <li>Annual Reports</li>
+                <li>Brochures</li>
+                <li>Newsletters and Flyer’s</li>
+                <li>Publications</li>
+                <li>Catalogs and Reports • Package Design</li>
+                <li>Books and Magazine Design</li>
+                <li>Pocket Folders</li>
+            </ul>
+            <h1>Promotional Products</h1>
+            <p>When you let your Customers know you appreciate their business, your company benefits in many different
+                ways. Promotional products have a value far beyond their cost. </p>
+        </div>
+        <div style="clear: both;"></div>
     </div>
 
     <!-- gallary -->
     <div class="gallary_div" id="gallary_div_id" style="display:none">
-        <div class="gallery_left" id="gallery_left_id">
-            <div>    
-                <button class="gallery_span" type="button" onclick="show_hidden()"></button>
-                <div style="clear: both;"></div>
-            </div>    
-            <div class="galleryfor6">
-                <div class="size_rowfor2">
-                    <div class="gallery_info_for6_1 no_margin">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div class="gallery_info_for6_2 margin_left20">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-                <div class="size_rowfor2">
-                    <div class="gallery_info_for6_3 no_margin">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div class="gallery_info_for6_4 margin_left20">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-                <div class="size_rowfor2">
-                    <div class="gallery_info_for6_5 no_margin">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div class="gallery_info_for6_6 margin_left20">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-                <div class="galleryfor15" id ="galleryfor15_id" style="display:none">
-                    <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div style="clear: both;"></div>
-                    </div>
-                    <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div style="clear: both;"></div>
-                    </div>
-                    <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div style="clear: both;"></div>
-                    </div>
-                    <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div style="clear: both;"></div>
-                    </div>
-                    <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div style="clear: both;"></div>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>                               
-            </div> 
+        <div class="text_holder">
+            <div class="main_product_container gallery_holder">
 
+
+                <div class="clearfix grpelem" id="pu41515"><!-- group -->
+                    <div class="grpelem" id="u41515"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41516"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41517"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41518"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41519"><!-- simple frame --></div>
+                    <div class="grpelem" id="u41520"><!-- simple frame --></div>
+                    <div class="SlideShowWidget clearfix grpelem" id="slideshowu41521"><!-- none box -->
+                        <div class="popup_anchor" id="u41567popup">
+                            <div class="SlideShowContentPanel clearfix" id="u41567" style="width: 0px; height: 0px;">
+                                <!-- stack box -->
+                                <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41578"
+                                     style="display: none;"><!-- image -->
+                                    <div id="u41578_clip">
+                                        <img class="ImageInclude position_content" id="u41578_img"
+                                             data-src="images/gallery%20-%20booklet%20-%20ray%20white.jpg"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif"
+                                             alt="" data-width="1015" data-height="677" style="visibility: hidden;">
+                                    </div>
+                                </div>
+                                <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41570"
+                                     style="display: none;"><!-- image -->
+                                    <div id="u41570_clip">
+                                        <img class="ImageInclude position_content" id="u41570_img"
+                                             data-src="images/design%20-%20onalert944x678.jpg"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif"
+                                             alt="" data-width="944" data-height="677" style="visibility: hidden;">
+                                    </div>
+                                </div>
+                                <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41572"
+                                     style="display: none;"><!-- image -->
+                                    <div id="u41572_clip">
+                                        <img class="ImageInclude position_content" id="u41572_img"
+                                             data-src="images/gallery%20-%20booklet%20-%20furphy.jpg"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif"
+                                             alt="" data-width="1019" data-height="677" style="visibility: hidden;">
+                                    </div>
+                                </div>
+                                <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41574"
+                                     style="display: none;"><!-- image -->
+                                    <div id="u41574_clip">
+                                        <img class="ImageInclude position_content" id="u41574_img"
+                                             data-src="images/booklet_apack_thumb.jpg"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif"
+                                             alt="" data-width="1011" data-height="677" style="visibility: hidden;">
+                                    </div>
+                                </div>
+                                <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading wp-panel-active"
+                                     id="u41568" style="display: block;"><!-- image -->
+                                    <div id="u41568_clip">
+                                        <img class="ImageInclude position_content" id="u41568_img"
+                                             data-src="images/gallery%20-%20booklet%20-%20gardens.jpg"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif"
+                                             alt="" data-width="1011" data-height="677" style="visibility: hidden;">
+                                    </div>
+                                </div>
+                                <div class="SSSlide clip_frame clearfix grpelem wp-panel SSSlideLoading" id="u41576"
+                                     style="display: none;"><!-- image -->
+                                    <div id="u41576_clip">
+                                        <img class="ImageInclude position_content" id="u41576_img"
+                                             data-src="images/gallery%20-%20booklet%20-%20macroair.jpg"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/blank.gif"
+                                             alt="" data-width="846" data-height="677" style="visibility: hidden;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup_anchor" id="u41559popup">
+                            <div class="SlideShowCaptionPanel clearfix" id="u41559"><!-- stack box -->
+                                <div class="SSSlideCaption clearfix grpelem" id="u41562-12" style="display: none;">
+                                    <!-- content -->
+                                    <p id="u41562-3"><span id="u41562">A6 Booklet </span><span
+                                            id="u41562-2">[48 Pages]</span></p>
+                                    <p id="u41562-4">&nbsp;</p>
+                                    <p id="u41562-6">150gsm Gloss Stock</p>
+                                    <p id="u41562-8">200gsm Cover Gloss Machine Varnish</p>
+                                    <p id="u41562-10">Saddlestitched</p>
+                                </div>
+                                <div class="SSSlideCaption clearfix grpelem" id="u41564-10" style="display: none;">
+                                    <!-- content -->
+                                    <p id="u41564-3"><span id="u41564">A4 Booklet </span><span id="u41564-2">[8 Pages, Landscape]</span>
+                                    </p>
+                                    <p id="u41564-4">&nbsp;</p>
+                                    <p id="u41564-6">170gsm Satin Stock</p>
+                                    <p id="u41564-8">Saddlestitched</p>
+                                </div>
+                                <div class="SSSlideCaption clearfix grpelem" id="u41563-12" style="display: none;">
+                                    <!-- content -->
+                                    <p id="u41563-3"><span id="u41563">A4 Booklet </span><span
+                                            id="u41563-2">[24 Pages]</span></p>
+                                    <p id="u41563-4">&nbsp;</p>
+                                    <p id="u41563-6">150gsm Gloss Stock</p>
+                                    <p id="u41563-8">Gloss Machine Varnish</p>
+                                    <p id="u41563-10">Saddlestitched</p>
+                                </div>
+                                <div class="SSSlideCaption clearfix grpelem" id="u41560-10" style="display: none;">
+                                    <!-- content -->
+                                    <p id="u41560-3"><span id="u41560">A4 Booklet </span><span id="u41560-2">[56 Pages, Landscape]</span>
+                                    </p>
+                                    <p id="u41560-4">&nbsp;</p>
+                                    <p id="u41560-6">150gsm Gloss Stock</p>
+                                    <p id="u41560-8">Saddlestitched</p>
+                                </div>
+                                <div class="SSSlideCaption clearfix grpelem" id="u41565-12" style="display: block;">
+                                    <!-- content -->
+                                    <p id="u41565-3"><span id="u41565">A4 Booklet </span><span
+                                            id="u41565-2">[56 Pages]</span></p>
+                                    <p id="u41565-4">&nbsp;</p>
+                                    <p id="u41565-6">150gsm Satin Stock</p>
+                                    <p id="u41565-8">250gsm Matt Cover</p>
+                                    <p id="u41565-10">Burst Bound</p>
+                                </div>
+                                <div class="SSSlideCaption clearfix grpelem" id="u41561-10" style="display: none;">
+                                    <!-- content -->
+                                    <p id="u41561-3"><span id="u41561">A4 Booklet </span><span
+                                            id="u41561-2">[8 Pages]</span></p>
+                                    <p id="u41561-4">&nbsp;</p>
+                                    <p id="u41561-6">150gsm Satin Stock</p>
+                                    <p id="u41561-8">Saddlestitched</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup_anchor" id="u41541-4popup">
+                            <div class="SSPreviousButton rgba-background clearfix" id="u41541-4"><!-- content -->
+                                <p>&lt;</p>
+                            </div>
+                        </div>
+                        <div class="popup_anchor" id="u41566-4popup">
+                            <div class="SSNextButton rgba-background clearfix" id="u41566-4"><!-- content -->
+                                <p>&gt;</p>
+                            </div>
+                        </div>
+                        <div class="popup_anchor" id="u41544popup">
+                            <div class="SSSlideLinks clearfix" id="u41544"><!-- horizontal-rows box -->
+                                <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41551">
+                                    <!-- image -->
+                                    <div id="u41551_clip">
+                                        <img class="position_content" id="u41551_img"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20ray%20white360x240.jpg"
+                                             alt="" width="360" height="240">
+                                    </div>
+                                </div>
+                                <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41547">
+                                    <!-- image -->
+                                    <div id="u41547_clip">
+                                        <img class="position_content" id="u41547_img"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/design%20-%20onalert335x240.jpg"
+                                             alt="" width="335" height="240">
+                                    </div>
+                                </div>
+                                <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41553">
+                                    <!-- image -->
+                                    <div id="u41553_clip">
+                                        <img class="position_content" id="u41553_img"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20furphy362x240.jpg"
+                                             alt="" width="361" height="240">
+                                    </div>
+                                </div>
+                                <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41549">
+                                    <!-- image -->
+                                    <div id="u41549_clip">
+                                        <img class="position_content" id="u41549_img"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/booklet_apack.jpg"
+                                             alt="" width="653" height="490">
+                                    </div>
+                                </div>
+                                <div
+                                    class="SSSlideLink rgba-background clip_frame clearfix grpelem wp-tab-active SSSlideLinkSelected"
+                                    id="u41555"><!-- image -->
+                                    <div id="u41555_clip">
+                                        <img class="position_content" id="u41555_img"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20gardens359x240.jpg"
+                                             alt="" width="358" height="240">
+                                    </div>
+                                </div>
+                                <div class="SSSlideLink rgba-background clip_frame clearfix grpelem" id="u41545">
+                                    <!-- image -->
+                                    <div id="u41545_clip">
+                                        <img class="position_content" id="u41545_img"
+                                             src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20-%20booklet%20-%20macroair300x240.jpg"
+                                             alt="" width="300" height="240">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_wrapper grpelem" id="accordionu50782wrapper"><!-- vertical box -->
+                        <ul class="AccordionWidget clearfix" id="accordionu50782"><!-- column -->
+                            <li class="AccordionPanel clearfix colelem" id="u50796"><!-- vertical box -->
+                                <div class="AccordionPanelTab clearfix colelem" id="u51083-8"><!-- content -->
+                                    <p id="u51083-6"><span id="u51083">BROWSE CATEGORIES </span><span id="u51083-2">click here</span><span
+                                            id="u51083-3">&nbsp;</span><span id="u51083-4"><span
+                                                class="actAsInlineDiv normal_text" id="u51084"><!-- content --><span
+                                                    class="actAsDiv clip_frame excludeFromNormalFlow" id="u51085"><!-- image --><img
+                                                        id="u51085_img"
+                                                        src="/web/20180903144154im_/http://www.1print.net.au/images/scroll%20white-01.png"
+                                                        alt="" width="17" height="9"></span></span></span><span
+                                            id="u51083-5"></span></p>
+                                </div>
+                                <div class="AccordionPanelContent colelem"
+                                     style="width: 100%; position: relative; overflow: hidden; height: 0px;">
+                                    <div class="AccordionPanelContentClip">
+                                        <div class="clearfix" id="u50797"><!-- group -->
+                                            <div class="clearfix grpelem" id="pu51007"><!-- column -->
+                                                <div class="clearfix colelem" id="u51007"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu51008">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u51011popup">
+                                                            <div class="ContainerGroup clearfix" id="u51011"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u51012" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u51013-4">
+                                                                        <!-- content -->
+                                                                        <p>Booklets</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u51023">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u51024"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u51025-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50836"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50837">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50847popup">
+                                                            <div class="ContainerGroup clearfix" id="u50847"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50848" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50849-4">
+                                                                        <!-- content -->
+                                                                        <p>Deskpads</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50838">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50839"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/deskpads-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50854-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50988"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50990">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u51004popup">
+                                                            <div class="ContainerGroup clearfix" id="u51004"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u51005" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u51006-4">
+                                                                        <!-- content -->
+                                                                        <p>Flyers</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50997">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50998"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/flyers-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50989-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix grpelem" id="pu50950"><!-- column -->
+                                                <div class="clearfix colelem" id="u50950"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50952">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50955popup">
+                                                            <div class="ContainerGroup clearfix" id="u50955"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50956" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50957-4">
+                                                                        <!-- content -->
+                                                                        <p>Brochures</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50953">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50954"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/brochures-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50951-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50893"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50894">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50903popup">
+                                                            <div class="ContainerGroup clearfix" id="u50903"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50904" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50905-4">
+                                                                        <!-- content -->
+                                                                        <p>Docket Books</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50897">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50898"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/docketbooks-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50911-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50912"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50914">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50928popup">
+                                                            <div class="ContainerGroup clearfix" id="u50928"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50929" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50930-4">
+                                                                        <!-- content -->
+                                                                        <p>Fridge Magnets</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50917">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50918"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/magnets-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50913-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix grpelem" id="pu50874"><!-- column -->
+                                                <div class="clearfix colelem" id="u50874"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50876">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50883popup">
+                                                            <div class="ContainerGroup clearfix" id="u50883"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50884" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50885-4">
+                                                                        <!-- content -->
+                                                                        <p>Business Cards</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50881">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50882"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/business-cards-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50875-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50817"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50819">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50822popup">
+                                                            <div class="ContainerGroup clearfix" id="u50822"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50823" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50824-4">
+                                                                        <!-- content -->
+                                                                        <p>Envelopes</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50825">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50826"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/envelopes-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50818-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50969"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50970">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50976popup">
+                                                            <div class="ContainerGroup clearfix" id="u50976"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50977" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50978-4">
+                                                                        <!-- content -->
+                                                                        <p>Letterheads</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50983">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u50984"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/letterheads-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50987-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix grpelem" id="ppu51045"><!-- column -->
+                                                <div class="clearfix colelem" id="pu51045"><!-- group -->
+                                                    <div class="clearfix grpelem" id="u51045"><!-- group -->
+                                                        <div class="PamphletWidget clearfix grpelem"
+                                                             id="pamphletu51047"><!-- none box -->
+                                                            <div class="popup_anchor" id="u51061popup">
+                                                                <div class="ContainerGroup clearfix" id="u51061"
+                                                                     style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                    <div
+                                                                        class="Container rgba-background clearfix grpelem wp-panel"
+                                                                        id="u51062" style="display: none;">
+                                                                        <!-- group -->
+                                                                        <div class="clearfix grpelem" id="u51063-4">
+                                                                            <!-- content -->
+                                                                            <p>Postcards</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ThumbGroup clearfix grpelem" id="u51050">
+                                                                <!-- none box -->
+                                                                <div class="popup_anchor">
+                                                                    <a class="nonblock nontext Thumb popup_element"
+                                                                       id="u51051"
+                                                                       href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/postcards-gallery.php">
+                                                                        <!-- simple frame --></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="museBGSize clearfix grpelem" id="u51046-3">
+                                                            <!-- content -->
+                                                            <p>&nbsp;</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix grpelem" id="u51064"><!-- group -->
+                                                        <div class="PamphletWidget clearfix grpelem"
+                                                             id="pamphletu51066"><!-- none box -->
+                                                            <div class="popup_anchor" id="u51067popup">
+                                                                <div class="ContainerGroup clearfix" id="u51067"
+                                                                     style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                    <div
+                                                                        class="Container rgba-background clearfix grpelem wp-panel"
+                                                                        id="u51068" style="display: none;">
+                                                                        <!-- group -->
+                                                                        <div class="clearfix grpelem" id="u51069-4">
+                                                                            <!-- content -->
+                                                                            <p>Posters</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ThumbGroup clearfix grpelem" id="u51072">
+                                                                <!-- none box -->
+                                                                <div class="popup_anchor">
+                                                                    <a class="nonblock nontext Thumb popup_element"
+                                                                       id="u51073"
+                                                                       href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/posters-gallery.php">
+                                                                        <!-- simple frame --></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="museBGSize clearfix grpelem" id="u51065-3">
+                                                            <!-- content -->
+                                                            <p>&nbsp;</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="pu50855"><!-- group -->
+                                                    <div class="clearfix grpelem" id="u50855"><!-- group -->
+                                                        <div class="PamphletWidget clearfix grpelem"
+                                                             id="pamphletu50856"><!-- none box -->
+                                                            <div class="popup_anchor" id="u50863popup">
+                                                                <div class="ContainerGroup clearfix" id="u50863"
+                                                                     style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                    <div
+                                                                        class="Container rgba-background clearfix grpelem wp-panel"
+                                                                        id="u50864" style="display: none;">
+                                                                        <!-- group -->
+                                                                        <div class="clearfix grpelem" id="u50865-4">
+                                                                            <!-- content -->
+                                                                            <p>With Compliments</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ThumbGroup clearfix grpelem" id="u50866">
+                                                                <!-- none box -->
+                                                                <div class="popup_anchor">
+                                                                    <a class="nonblock nontext Thumb popup_element"
+                                                                       id="u50867"
+                                                                       href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/with-comps-gallery.php">
+                                                                        <!-- simple frame --></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="museBGSize clearfix grpelem" id="u50873-3">
+                                                            <!-- content -->
+                                                            <p>&nbsp;</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix grpelem" id="u50931"><!-- group -->
+                                                        <div class="PamphletWidget clearfix grpelem"
+                                                             id="pamphletu50932"><!-- none box -->
+                                                            <div class="popup_anchor" id="u50946popup">
+                                                                <div class="ContainerGroup clearfix" id="u50946"
+                                                                     style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                    <div
+                                                                        class="Container rgba-background clearfix grpelem wp-panel"
+                                                                        id="u50947" style="display: none;">
+                                                                        <!-- group -->
+                                                                        <div class="clearfix grpelem" id="u50948-10">
+                                                                            <!-- content -->
+                                                                            <p id="u50948-2">Coming</p>
+                                                                            <p id="u50948-4">Soon</p>
+                                                                            <p>&nbsp;</p>
+                                                                            <p>&nbsp;</p>
+                                                                            <p>Branding</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ThumbGroup clearfix grpelem" id="u50939">
+                                                                <!-- none box -->
+                                                                <div class="popup_anchor">
+                                                                    <div class="Thumb popup_element" id="u50940">
+                                                                        <!-- simple frame --></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="museBGSize clearfix grpelem" id="u50949-3">
+                                                            <!-- content -->
+                                                            <p>&nbsp;</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix grpelem" id="pu51026"><!-- column -->
+                                                <div class="clearfix colelem" id="u51026"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu51028">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u51042popup">
+                                                            <div class="ContainerGroup clearfix" id="u51042"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u51043" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u51044-4">
+                                                                        <!-- content -->
+                                                                        <p>Presentation Folders</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u51031">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <a class="nonblock nontext Thumb popup_element"
+                                                                   id="u51032"
+                                                                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/presentation-folders-gallery.php">
+                                                                    <!-- simple frame --></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u51027-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix colelem" id="u50798"><!-- group -->
+                                                    <div class="PamphletWidget clearfix grpelem" id="pamphletu50800">
+                                                        <!-- none box -->
+                                                        <div class="popup_anchor" id="u50806popup">
+                                                            <div class="ContainerGroup clearfix" id="u50806"
+                                                                 style="width: 0px; height: 0px;"><!-- stack box -->
+                                                                <div
+                                                                    class="Container rgba-background clearfix grpelem wp-panel"
+                                                                    id="u50807" style="display: none;"><!-- group -->
+                                                                    <div class="clearfix grpelem" id="u50808-10">
+                                                                        <!-- content -->
+                                                                        <p id="u50808-2">Coming</p>
+                                                                        <p id="u50808-4">Soon</p>
+                                                                        <p>&nbsp;</p>
+                                                                        <p>&nbsp;</p>
+                                                                        <p>Logos</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ThumbGroup clearfix grpelem" id="u50813">
+                                                            <!-- none box -->
+                                                            <div class="popup_anchor">
+                                                                <div class="Thumb popup_element" id="u50814">
+                                                                    <!-- simple frame --></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="museBGSize clearfix grpelem" id="u50799-3">
+                                                        <!-- content -->
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="nonblock nontext clearfix grpelem" id="u41580-8"
+                   href="http://web.archive.org/web/20180903144154/http://www.1print.net.au/booklets-printing">
+                    <!-- content --><p><span id="u41580">​</span><span class="actAsInlineDiv normal_text" id="u41581"><!-- content --><span
+                                class="actAsDiv clip_frame excludeFromNormalFlow" id="u41582"><!-- image --><img
+                                    id="u41582_img"
+                                    src="/web/20180903144154im_/http://www.1print.net.au/images/gallery%20icons-15.png"
+                                    alt="" width="51" height="51"></span></span></p>
+                    <p>Learn more about this product</p></a>
+                <div class="clear"></div>
+
+
+            </div>
+
+
+            <!-- <div class="gallary_div_options">
+                <div class="gallary_div_option active" style="--optionBackground:url(../image/Gallary1.jpeg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <p>Here are some text to describe the product</p>
+                            <span class="gallary_div_article"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary2.jpeg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <span class="gallary_div_article"> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary3.jpg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <span class="gallary_div_article"> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary4.jpeg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <span class="gallary_div_article"> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary5.jpeg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <span class="gallary_div_article"> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallary_div_option" style="--optionBackground:url(../image/Gallary6.jpeg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <span class="gallary_div_article"> </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallary_div_option"
+                     style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
+                    <div class="gallary_div_shadow"></div>
+                    <div class="gallary_div_label">
+                        <div class="gallary_div_icon">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="gallary_div_info">
+                            <span class="gallary_div_article"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div style="clear: both;"></div>
         </div>
-
-        <div class="gallery_right" id="gallery_right_id">
-
-        </div>
-    
-        <div style="clear: both;"></div>
 
     </div>
-    
 
     <!-- support -->
     <div class="support_div" id="support_div_id" style="display:none">
@@ -11375,11 +11916,11 @@
                     <!-- body_text //-->
 
                     <!-- main content -->
-                    No product found in cart!
+                    No product found in cart!            
                     <!-- end main content -->
                     </div>
                 </form>
-
+    
 
 
 
@@ -11399,14 +11940,14 @@
         <div class="login_div_main">
             <p class="login_div_sign" align="center">Log in</p>
             <form class="login_div_form1">
-
+                
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
                 <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
-
-
+                
+                
         </div>
         <div class="login_div_register_form">
 			<div class="login_field_holder">
@@ -11472,7 +12013,7 @@
                     <input type="text" placeholder="Last Name" class="register_div_form_input"/>
                     <div class="checkmsg" id="firstnamecheckmsg"></div>
                 </div>
-
+                
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Email</a></label>
