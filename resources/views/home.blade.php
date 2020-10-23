@@ -27,6 +27,10 @@
     <script type="text/javascript" src="{{URL::asset('/js/cart.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/product_const.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/productPrice.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/gallery.js') }}"></script>
+    <script type="text/javascript">
+    </script>
+    </script>
 </head>
 <body onload="initPage()">
 
@@ -6609,10 +6613,7 @@
                                                                                        id="fridge_inputbox_1000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       oninput="UpdateProductPrice('fridge','inputbox','1000',value);
-                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
-                                                                                                value = value.replace(/[^0-9]/g,'');    
-                                                                                        ">
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','1000')">
                                                         </td>
                                                         <td id="fridge_td_1000" width="50px">
                                                             $275.00<input type="hidden"
@@ -6632,10 +6633,7 @@
                                                                                        id="fridge_inputbox_2500"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       oninput="UpdateProductPrice('fridge','inputbox','2500',value);
-                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
-                                                                                                value = value.replace(/[^0-9]/g,'');    
-                                                                                        ">
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','2500')">
                                                         </td>
                                                         <td id="fridge_td_2500" width="50px">
                                                             $577.00<input type="hidden"
@@ -6655,10 +6653,7 @@
                                                                                        id="fridge_inputbox_5000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       oninput="UpdateProductPrice('fridge','inputbox','5000',value);
-                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
-                                                                                                value = value.replace(/[^0-9]/g,'');    
-                                                                                        ">
+                                                                                       oninput="UpdateProductPrice('fridge','inputbox','5000')">
                                                         </td>
                                                         <td id="fridge_td_5000" width="50px">
                                                             $880.00<input type="hidden"
@@ -6707,10 +6702,10 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:;" class="clear_btn"
-                                                                           onclick="clearPrice('fridge');"></a></td>
-                                                                    <td><input type="button" class="add_to_cart"
-                                                                               onclick="addToCart('fridge')"></td>
+                                                                    <td><a href="javascript:void(0);" class="clear_btn"
+                                                                           onclick="ClearLWCache(74);"></a></td>
+                                                                    <td><input type="submit" class="add_to_cart"
+                                                                               onclick="addToCard(fridgeMagnet)"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
