@@ -219,151 +219,97 @@ body.gallary_div {
 
 
 
-/* new gallery */
-body #pu41515 {
-    margin-top: 58px;
-}
-#pu41515 {
-    width: 0.01px;
-    position: relative;
-    margin-right: -10000px;
-    margin-top: 110px;
-    left: 19px;
-}
-.grpelem {
-    display: inline;
+.gallery_left{
     float: left;
+    width: 500px;
+    padding-left: 15px;
+    height: 900px;
+    
 }
-.gallery_holder {
-    padding-bottom: 0px;
+.gallery_span{
+  width:493px;
+  margin-bottom: 2rem;
+  height: 48px;
+  float:left;
+  background: url(../image/product/gallert_swan.png) no-repeat left top;
 }
-.main_product_container {
-    width: 1255px;
-    margin: 0px auto;
-    color: rgb(127, 127, 127);
+.gallery_span:hover{
+  width:493px;
+  margin-bottom: 2rem;
+  height: 48px;
+  float:left;
+  background: url(../image/home/gallery_spanhover.jpg) no-repeat left top;
 }
-#accordionu50782wrapper {
-    min-height: 798px;
-    z-index: 122;
-    margin-right: -10000px;
+.gallery_span:focus{
+  width:493px;
+  margin-bottom: 2rem;
+  height: 48px;
+  float:left;
+  outline: none;
+  background: url(../image/home/gallery_spanhover.jpg) no-repeat left top;
+}
+.galleryfor6{
+    position:absolute;
+    width: 500px;
+    height: 750px;
+    
 }
 
-#accordionu50782wrapper, #accordionu50782, #u50796, #u51007, #pamphletu51008, #u51023, #u50836, #pamphletu50837, #u50838, #u50988, #pamphletu50990, #u50997, #u50950, #pamphletu50952, #u50953, #u50893, #pamphletu50894, #u50897, #u50912, #pamphletu50914, #u50917, #u50874, #pamphletu50876, #u50881, #u50817, #pamphletu50819, #u50825, #u50969, #pamphletu50970, #u50983, #u51045, #pamphletu51047, #u51050, #u51064, #pamphletu51066, #u51072, #u50855, #pamphletu50856, #u50866, #u50931, #pamphletu50932, #u50939, #u51026, #pamphletu51028, #u51031, #u50798, #pamphletu50800, #u50813, #u50458, #u50240, #u50242, #u50271, #u50285, #u50299, #u50243, #u50313, #u50327, #u50292, #u50250, #u50306, #u50334, #u50257, #u50320, #u50278, #u50348, #u50264, #u50341, #u50233, #u50451, #u50366, #u50372, #u50415, #u50422, #u50380, #u50387, #u50373, #u50394, #u50401, #u50408, #u50359, #u50226, #u50429, #u50201, #u50208, #u50216_align_to_page, #u50221, #u50465, #u50472-19, #u50223-19, #u50186-15, #u50471-20, #u50215-13 {
+.gallery_info_for6_1,
+.gallery_info_for6_2,
+.gallery_info_for6_3,
+.gallery_info_for6_4,
+.gallery_info_for6_5,
+.gallery_info_for6_6{
+    width:240px;
+    margin-left:2rem;
+    float:left;
+    height: 240px;
+    margin-bottom: 2rem;
+}
+.gallery_info_for6_1{
+    background: url(../image/panel_express.jpg) no-repeat left top;
+}
+.gallery_info_for6_2{
+  background: url(../image/panel_express.jpg) no-repeat left top;
+}
+.gallery_info_for6_3{
+  background: url(../image/panel_express.jpg) no-repeat left top;
+}
+.gallery_info_for6_4{
+  background: url(../image/panel_express.jpg) no-repeat left top;
+}
+.gallery_info_for6_5{
+  background: url(../image/panel_express.jpg) no-repeat left top;
+}
+.gallery_info_for6_6{
+  background: url(../image/panel_express.jpg) no-repeat left top;
+}
+.mask{
     position: relative;
-}
-.accordion_wrapper {
-    display: inline;
-    float: left;
-    width: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-#u41515 {
-  z-index: 3;
-  width: 240px;
-  height: 240px;
-  border-color: #000000;
-  position: relative;
-  margin-right: -10000px;
-  margin-top: 308px;
-  left: 1px;
-  background: #000000 url(../image/panel_order.jpg) no-repeat center center;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 240px;
+    background: black url(../image/gallery/gallery\ icons-01.png) no-repeat center center;
+    opacity: 0;
 }
 
-#u41516
-{
-	z-index: 4;
-	width: 240px;
-	height: 240px;
-	border-color: #000000;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 308px;
-	left: 251px;
-	background: #000000 url("/web/20180312230634im_/http://www.1print.net.au/images/gallery%20icons-01.png") no-repeat center center;
+.gallery_info_for6_1:hover .mask,
+.gallery_info_for6_2:hover .mask,
+.gallery_info_for6_3:hover .mask,
+.gallery_info_for6_4:hover .mask,
+.gallery_info_for6_5:hover .mask,
+.gallery_info_for6_6:hover .mask {
+    opacity: 0.8;           
 }
 
-#u41517
-{
-	z-index: 5;
-	width: 240px;
-	height: 240px;
-	border-color: #000000;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 58px;
-	left: 1px;
-	background: #000000 url("/web/20180312230634im_/http://www.1print.net.au/images/gallery%20icons-01.png") no-repeat center center;
-}
 
-#u41518
-{
-	z-index: 6;
-	width: 240px;
-	height: 240px;
-	border-color: #000000;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 558px;
-	left: 1px;
-	background: #000000 url("/web/20180312230634im_/http://www.1print.net.au/images/gallery%20icons-01.png") no-repeat center center;
-}
-
-#u41519
-{
-	z-index: 7;
-	width: 240px;
-	height: 240px;
-	border-color: #000000;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 58px;
-	left: 251px;
-	background: #000000 url("/web/20180312230634im_/http://www.1print.net.au/images/gallery%20icons-01.png") no-repeat center center;
-}
-
-#u41520
-{
-	z-index: 8;
-	width: 240px;
-	height: 240px;
-	border-color: #000000;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 558px;
-	left: 251px;
-	background: #000000 url("/web/20180312230634im_/http://www.1print.net.au/images/gallery%20icons-01.png") no-repeat center center;
-}
-  
-#slideshowu41521 {
-  z-index: 9;
-  width: 0.01px;
-  height: 798px;
-  position: relative;
-  margin-right: -10000px;
-  margin-top: 1px;
-  left: 1px;
-}
-.clearfix::after {
-  content: " ";
-  visibility: hidden;
-  display: block;
-  height: 0px;
-  clear: both;
-}
-#u41567popup {
-  z-index: 10;
-}
-.popup_anchor {
-  position: relative;
-  width: 0px;
-  height: 0px;
+.galleryfor15{
+  position:absolute;
+  left:0;
+  top:0;
+  width: 500px;
+  height: 750px;
+  background-color: red;
 }
