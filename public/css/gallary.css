@@ -228,26 +228,29 @@ body.gallary_div {
     
 }
 .gallery_span{
-  width:493px;
-  margin-bottom: 2rem;
+  width:495px;
+  margin-bottom: 0;
   height: 48px;
   float:left;
-  background: url(../image/product/gallert_swan.png) no-repeat left top;
+  background: url(../image/product/gallert_swan.png) no-repeat right top;
+  background-color: #504d4d;
 }
 .gallery_span:hover{
-  width:493px;
-  margin-bottom: 2rem;
+  width:495px;
+  
   height: 48px;
   float:left;
-  background: url(../image/home/gallery_spanhover.jpg) no-repeat left top;
+  background: url(../image/home/gallery_spanhover.jpg) no-repeat right top;
+  background-color: black;
 }
 .gallery_span:focus{
-  width:493px;
-  margin-bottom: 2rem;
+  width:495px;
+  
   height: 48px;
   float:left;
   outline: none;
-  background: url(../image/home/gallery_spanhover.jpg) no-repeat left top;
+  background: url(../image/home/gallery_spanhover.jpg) no-repeat right top;
+  background-color: black;
 }
 .galleryfor6{
     position:absolute;
@@ -263,28 +266,38 @@ body.gallary_div {
 .gallery_info_for6_5,
 .gallery_info_for6_6{
     width:240px;
-    margin-left:2rem;
+    margin-left:1.5rem;
     float:left;
     height: 240px;
-    margin-bottom: 2rem;
+    margin-top: 1rem!important;
+}
+.gallery_info_for6-1{
+  width:80rem;
+  float:left;
+  height: 69rem;
+  
 }
 .gallery_info_for6_1{
-    background: url(../image/panel_express.jpg) no-repeat left top;
+    background: url(../image/gallery/bro-1.jpg) no-repeat center center;
+}
+.gallery_info_for6-1{
+  background: url(../image/gallery/bro-1.jpg) no-repeat center center;
+  background-size: cover;
 }
 .gallery_info_for6_2{
-  background: url(../image/panel_express.jpg) no-repeat left top;
+  background: url(../image/gallery/bro-2.jpg) no-repeat center center;
 }
 .gallery_info_for6_3{
-  background: url(../image/panel_express.jpg) no-repeat left top;
+  background: url(../image/gallery/bro-3.jpg) no-repeat center center;
 }
 .gallery_info_for6_4{
-  background: url(../image/panel_express.jpg) no-repeat left top;
+  background: url(../image/gallery/bro-4.jpg) no-repeat center center;
 }
 .gallery_info_for6_5{
-  background: url(../image/panel_express.jpg) no-repeat left top;
+  background: url(../image/gallery/bro-5.jpg) no-repeat center center;
 }
 .gallery_info_for6_6{
-  background: url(../image/panel_express.jpg) no-repeat left top;
+  background: url(../image/gallery/bro-6.jpg) no-repeat center center;
 }
 .mask{
     position: relative;
@@ -321,7 +334,9 @@ body.gallary_div {
   width: 500px;
   height: 750px;
 }
-
+.gallery_info_for15_1{
+  background: url(../image/gallery/bro-2.jpg) no-repeat center center;
+}
 .gallery_info_for15_1,
 .gallery_info_for15_2,
 .gallery_info_for15_3,
@@ -360,4 +375,83 @@ body.gallary_div {
 .gallery_info_for15_14:hover .mask1,
 .gallery_info_for15_15:hover .mask1{
   opacity: 0.8; 
+}
+.gallery_right{
+  float: left;
+  width: 800px;
+  padding-left: 35px;
+  margin-top: 10rem;
+  height: 900px;
+  
+}
+.gallery_silde{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70rem;
+    width: 100%;
+    
+}
+.mySlides{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 69rem;
+    width: 100%;
+    
+    
+}
+.slider-controls1 {
+  width: 80rem;
+  position: absolute;
+  top: 46%;
+  -webkit-transform: translate3d(0px, -50%, 0px);
+  transform: translate3d(0px, -50%, 0px);
+  z-index: 0;
+}
+.slider-controls1>.gallery_previous, .slider-controls1>.gallery_next {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  user-select: none;
+  background-size: 64px;
+  background-color: #7f7f7f;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.slider-controls1>.gallery_previous:hover, .slider-controls1>.gallery_next:hover {
+  background-color:black;
+}
+.slider-controls1>.gallery_next {
+  right: 0px;
+  color: white;
+  
+}
+.slider-controls1>.gallery_previous {
+ left: 0px;
+ color: white;
+  
+}
+.gallery_silde_note{
+  float: left;
+  position:relative;
+    
+    height: 10rem;
+    width: 63rem;
+    background-color: #504d4d;
+}
+.gallery_page_next{
+  float: left;
+  height: 10rem;
+  width: 15rem;
+  margin-left: 2rem;
+  color: antiquewhite;
+  background-color: #7f7f7f;
+}
+.gallery_page_next:hover{
+  background-color: black;
 }

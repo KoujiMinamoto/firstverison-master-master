@@ -28,6 +28,7 @@
     <script type="text/javascript" src="{{URL::asset('/js/product_const.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/productPrice.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/gallery.js') }}"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script type="text/javascript">
     </script>
     </script>
@@ -103,10 +104,14 @@
     <div class="displayBox" id="displayBox_id" onload="change()">
         <div class="displayBox_bd">
             <ul>
-                <img src="{{URL::asset('/image/1.jpg') }}">
-                <img src="{{URL::asset('/image/2.jpg') }}">
-                <img src="{{URL::asset('/image/3.jpg') }}">
+                <img  src="{{URL::asset('/image/1.jpg') }}">
+                <img  src="{{URL::asset('/image/2.jpg') }}">
+                <img  src="{{URL::asset('/image/3.jpg') }}">
             </ul>
+        </div>
+        <div class="slider-controls">
+            <button type="button" class="displayBox_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
+            <button type="button" class="displayBox_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
         </div>
     </div>
 
@@ -10897,35 +10902,17 @@
                         <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
+                        <div class="gallery_info_for15_4 no_margin">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
                         </div>
-                        <div class="gallery_info_for15_2 margin_left20">
+                        <div class="gallery_info_for15_5 margin_left20">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
                         </div>
-                        <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div style="clear: both;"></div>
-                    </div>
-                    <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
-                            </a>
-                        </div>
-                        <div class="gallery_info_for15_3 margin_left20">
+                        <div class="gallery_info_for15_6 margin_left20">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
@@ -10933,17 +10920,17 @@
                         <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
+                        <div class="gallery_info_for15_7 no_margin">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
                         </div>
-                        <div class="gallery_info_for15_2 margin_left20">
+                        <div class="gallery_info_for15_8 margin_left20">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
                         </div>
-                        <div class="gallery_info_for15_3 margin_left20">
+                        <div class="gallery_info_for15_9 margin_left20">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
@@ -10951,17 +10938,35 @@
                         <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
-                        <div class="gallery_info_for15_1 no_margin">
+                        <div class="gallery_info_for15_10 no_margin">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
                         </div>
-                        <div class="gallery_info_for15_2 margin_left20">
+                        <div class="gallery_info_for15_11 margin_left20">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
                         </div>
-                        <div class="gallery_info_for15_3 margin_left20">
+                        <div class="gallery_info_for15_12 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="size_rowfor3">
+                        <div class="gallery_info_for15_13 no_margin">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_14 margin_left20">
+                            <a href="">
+                            <div class="mask1"></div>
+                            </a>
+                        </div>
+                        <div class="gallery_info_for15_15 margin_left20">
                             <a href="">
                             <div class="mask1"></div>
                             </a>
@@ -10976,6 +10981,20 @@
 
         <div class="gallery_right" id="gallery_right_id">
 
+            <div class="gallery_silde" id ="gallery_silde_id">
+                <div class="mySlides" ><div class="gallery_info_for6-1"></div></div>
+                <div class="mySlides" ><div class="gallery_info_for6_2"></div></div>
+                <div class="mySlides" ><div class="gallery_info_for6_3"></div></div>
+                <div class="mySlides" ><div class="gallery_info_for6_4"></div></div>
+                <div class="mySlides" ><div class="gallery_info_for6_5"></div></div>
+                <div class="mySlides" ><div class="gallery_info_for6_6"></div></div>
+            </div>
+            <div class="slider-controls1">
+                <button type="button" class="gallery_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
+                <button type="button" class="gallery_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
+            </div>
+            <div class="gallery_silde_note" id ="gallery_silde_note_id"></div>
+            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button>
         </div>
     
         <div style="clear: both;"></div>
@@ -12220,6 +12239,23 @@
         $(this).addClass("active");
 
     });
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    }
 
     //轮播
     jQuery(".displayBox").slide({

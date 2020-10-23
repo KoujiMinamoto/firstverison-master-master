@@ -1,5 +1,7 @@
 window.onload=function(){
 
+    
+
     var username;
     var usertype;
     var oDiv  =  document.getElementById('displayBox');
@@ -352,3 +354,5 @@ function clearMsg() {
 
     document.getElementById('postcodecheckmsg').innerHTML='';
 }
+
+
