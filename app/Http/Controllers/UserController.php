@@ -84,6 +84,10 @@ class UserController extends Controller
    public function userUpdateMessage(Request $request) {
 
       $user_name = $request->input('userName');
+
+      $user_businessName = $request->input('businessName');
+      $user_firstName = $request->input('firstName');
+      $user_lastName = $request->input('lastName');
       $user_password = $request->input('password');
       $user_email = $request->input('email');
       $user_phonenum = $request->input('phoneNumber');
@@ -94,6 +98,10 @@ class UserController extends Controller
       
       DB::table('oneprint_user')->where('user_name',$user_name)->update([
 
+         'user_bsName' => $user_businessName,
+         'user_firstName' => $user_firstName,
+         'user_lastName' => $user_lastName,
+
          'user_password' => $user_password,
          'user_email' => $user_email,
          'user_phonenum' => $user_phonenum,
@@ -103,6 +111,7 @@ class UserController extends Controller
          'user_postcode' => $user_postcode
 
       ]);
+      
       $result = "true";
       return response()->json($result);
    }
