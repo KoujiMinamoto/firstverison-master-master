@@ -33,20 +33,13 @@
 //Fridge部分的价格刷新
 
 
-//Fridge Magnet
-var fridgeArray = ("500","1000","2500","5000");
-
 function UpdateProductPrice(product,type,qty,value) {
 
     if(type == "inputbox" ) {
         let checkNum = /^[1-9]+[0-9]*]*$/;
         if( checkNum.test(value) ) {
-            if($("#"+product+"_checkbox_"+qty).is(":checked") ){
-                
-                // let price = parseInt( $('#'+product+'_'+'totalPrice').text() );
-                // let addPrice = $('#'+product+'_price_'+qty).attr("value") * $('#'+product+"_"+type+"_"+qty).val();
-                // let totalPrice = price + addPrice;
-                totalPriceCal(product);
+            if($("#"+product+"_checkbox_"+qty).is(":checked") ) {
+                let totalPrice = productPriceCal(product);
                 $("#"+product+"_totalPrice").text(totalPrice);
             } else {
 
@@ -54,15 +47,11 @@ function UpdateProductPrice(product,type,qty,value) {
         }
         
     } else if(type == 'checkbox') {
-        if($("#"+product+"_"+type+"_"+qty).is(":checked") ){
-            let price = parseInt( $('#'+product+'_'+'totalPrice').text() );
-            let addPrice = $('#'+product+'_price_'+qty).attr("value") * $('#'+product+"_inputbox_"+qty).val();
-            let totalPrice = price + addPrice;
+        if($("#"+product+"_"+type+"_"+qty).is(":checked") ) {
+            let totalPrice = productPriceCal(product);
             $("#"+product+"_totalPrice").text(totalPrice);
         } else {
-            let price = parseInt( $('#'+product+'_'+'totalPrice').text() );
-            let addPrice = $('#'+product+'_price_'+qty).attr("value") * $('#'+product+"_inputbox_"+qty).val();
-            let totalPrice = price - addPrice;
+            let totalPrice = productPriceCal(product);
             $("#"+product+"_totalPrice").text(totalPrice);
         }
     } else {
@@ -71,15 +60,79 @@ function UpdateProductPrice(product,type,qty,value) {
 
 }
 
-function totalPriceCal(product) {
+function productPriceCal(product) {
 
     let totalPrice = 0;
-    let qtyArray = product + 'Array';
-    let test = fridgeArray;
-    qtyArray.forEach(function(index){
-        if($("#"+product+"_checkbox_"+qty).is(":checked") ) {
-            totalPrice = $('#'+product+'_price_'+qtyArray[index]).attr("value") * $('#'+product+"_inputbox_"+qtyArray[index]).val();
+    let qtyArray = new Array;
+    if (product == 'fridge') {
+        qtyArray = PRODUCT_QTY.FRIDGE;
+    }
+   
+    let length = qtyArray.length;
+
+    for(let i = 0;i<length;++i){
+        if($("#"+product+"_checkbox_"+qtyArray[i]).is(":checked") ) {
+            totalPrice = totalPrice + $('#'+product+'_price_'+qtyArray[i]).attr("value") * $('#'+product+"_inputbox_"+qtyArray[i]).val();
         } 
-    });
+    }
+
     return totalPrice;
+}
+
+function clearPrice(product) {
+    let qtyArray = new Array;
+    if (product == 'fridge') {
+        qtyArray = PRODUCT_QTY.FRIDGE;
+    }
+    let length = qtyArray.length;
+
+    for(let i = 0;i<length;++i) {
+        $("#"+product+"_checkbox_"+qtyArray[i]).prop("checked",false);
+        $('#'+product+"_inputbox_"+qtyArray[i]).val(1);
+    }
+    $("#"+product+"_totalPrice").text(0.00);
+}
+
+/**
+ * 
+ * product data格式
+ * [0]:product name
+ * [1]:qty 
+ * [2]:kinds
+ * [3]:options
+ * 
+ * @param {string} product 
+ */
+function addToCart (product) {
+
+    let qtyArray = new Array;
+    let option = new Array;
+    if (product == 'fridge') {
+        qtyArray = PRODUCT_QTY.FRIDGE;
+        option = PRODUCT_OPTIONS.FRIDGE;
+    }
+
+    let productMessage = new Array;
+    for(let i = 0;i < option.length ;++i) {
+        productMessage[i] = ['','','',''];
+    }
+    
+    let Num = 0;
+    for(let i = 0; i < qtyArray.length ; ++i ) {
+
+        if($("#"+product+"_checkbox_"+qtyArray[i]).is(":checked") ) {
+            productMessage[Num][0] = product;
+            productMessage[Num][1] = qtyArray[i];
+            productMessage[Num][2] = $('#'+product+"_inputbox_"+qtyArray[i]).val();
+            // productMessage[i][3] = ;
+            for (let j = 0; j < option.length ; ++j ) {
+                productMessage[Num][3] =  productMessage[Num][3] + $("#"+product+"_"+option[j]).val() + ";";
+            }
+            Num++;
+        }
+         
+    }
+    cartTableCheck();
+    cartDataInsert(productMessage);
+    
 }
