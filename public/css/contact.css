@@ -68,3 +68,61 @@ div#feedback {
     width:960px;
     margin:40px auto
 }
+.contact_right_quote {	
+	float: left;
+	width: 45%;
+	padding: 23px 23px 0 23px;
+	margin-left: 10px;
+	background: #EBEBEB;
+	background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #EBEBEB));
+	background: -webkit-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: -moz-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: -ms-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: -o-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+	background: linear-gradient(to bottom,#FFFFFF ,#EBEBEB 100%);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	text-align: left;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+	color: #323232;
+	
+}
+.contact_form_left {
+    float: left;
+    width: auto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+}
+.contact_form_left h2 {
+    color: #323232;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 26px;
+}
+.contact_form_right {
+    float: left;
+    width: 350px;
+}
+.contact_form_right table {
+    width: 100%;
+    font-weight: bold;
+}
+.contact_form_right table td {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: left;
+    color: #000;
+    padding-bottom: 8px;
+    vertical-align: middle;
+    width: 350px;
+}

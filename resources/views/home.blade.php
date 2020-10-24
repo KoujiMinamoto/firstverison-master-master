@@ -11271,7 +11271,117 @@
                     <p style="color: #323232;">13 Shearson Cres, Mentone VIC 3194 Australia</p>
                     <img src="{{URL::asset('/image/Contact.jpg') }}" width=90% height=80%>
                 </div>
-                <div class="design_div_rightContainer">
+                <div class="contact_right_quote">
+                    <div class="contact_form_left">
+                    <h2>Request a quote</h2>
+                    </div>
+                    <div class="contact_form_right">
+				
+                    <br style="">
+                    <form method="post" name="customquotes" id="customquotes" enctype="text/plain" action="mailto:sy135673@gmail.com">
+                    <div class="create-account-table3 quotes_table">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody><tr>
+                        <td height="25" class="quotes_form_td1 quote_pro_list quote_col_first" valign="middle"><div class="quote_for_holder">I would like a quote on:</div></td>
+                        <td height="25" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="quote_product_list">
+                                <tbody><tr>								  
+                                    <td><select name="custom_product" id="custom_product"><option value="Select Product" selected="">Select Product</option><option value="Booklets">Booklets</option><option value="Brochures">Brochures</option><option value="Business Cards">Business Cards</option><option value="Flyers">Flyers</option><option value="Letterheads">Letterheads</option><option value="Notepads/Deskpads">Notepads/Deskpads</option><option value="Postcards">Postcards</option><option value="Posters">Posters</option><option value="Presentation Folders">Presentation Folders</option><option value="With Compliment Slips">With Compliment Slips</option><option value="Envelopes">Envelopes</option><option value="Calendars">Calendars</option><option value="Swing Tags">Swing Tags</option><option value="Other Products">Other Products</option></select></td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                        </tr><tr>
+                        <td colspan="2">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody><tr>
+                                <td style="padding-bottom:0" class="quote_list_table" colspan="2"><div id="custom_table"></div></td>
+                            </tr>
+                        </tbody></table>
+                    </td></tr><tr>
+                        <td valign="top" style="padding-top:3px; vertical-align:top">Job Description: </td>
+                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial; "></textarea></td>
+                    </tr>
+                    <tr>
+                        <td height="25"> Delivery Postcode:</td>
+                        <td><input type="text" name="Delivery Postcode" id="delivery_location" maxlength="80"></td>
+                    </tr>
+                    <tr>
+                        <td height="25">Business Name:</td>
+                        <td><input type="text" name="Business Name" id="company" maxlength="80"></td>
+                    </tr>
+                    <tr>
+                        <td>Your 
+                        Name: <span style="color:red">*</span></td>
+                        <td><input type="text" name="Name" id="name" maxlength="80"></td>
+                    </tr>
+                    <tr>
+                        <td height="25">Email:<span style="color:red">*</span></td>
+                        <td><input type="text" name="Email" id="email" maxlength="80"></td>
+                    </tr>
+                    <tr>
+                        <td height="25">Telephone:<span style="color:red">*</span> </td>
+                        <td><input type="text" name="Phone" id="phone" maxlength="80"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" height="25">By previewing your artwork we can quote your job precisely</td>
+                    </tr>
+                    
+                    <tr>
+                    <td height="25" align="left">Preview 1</td>
+                        <td><input type="file" name="file1" id="file1"></td>
+                    </tr>
+                    <tr>
+                    <td height="25" align="left">Preview 2</td>
+                        <td><input type="file" name="file2" id="file2"></td>
+                    </tr>
+                    <tr>
+                    <td height="25" align="left">Preview 3</td>
+                        <td><input type="file" name="file3" id="file3"></td>
+                    </tr>
+                    <tr>
+                    <td height="25" align="left">How did you find us?</td>
+                        <td><select name="How did you find us"><option value="Google">Google</option><option value="Yellow Pages">Yellow Pages</option><option value="Yahoo">Yahoo</option><option value="Bing/MSN">Bing/MSN</option><option value="Link from another site">Link from another site</option><option value="Referral">Referral</option><option value="Mail Drop">Mail Drop</option><option value="Other">Other</option></select></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td valign="top" colspan="3">
+                        <div class="subscribe_holder">
+                        <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked="">
+                        </div>
+                        <div class="subscribe_text">
+                        Subscribe to our newsletter for special offers
+                        </div>
+                        <div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes"></div>
+                        <div class="clear"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td>
+                    <input type="submit" class="submit_btn blue_button" value="Submit" name="postemail" id="postemail">
+                    </td>
+                    </tr>
+                    </tbody></table></div>
+                </form>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {{--<div class="design_div_rightContainer">
                     <!-- Feedback Form Starts Here -->
                     <div id="feedback">
                         <!-- Heading Of The Form -->
@@ -11296,7 +11406,7 @@
                         </form>
                     </div>
                     <!-- Feedback Form Ends Here -->
-                </div>
+                </div>--}}
 
                 <div style="clear: both;"></div>
 
