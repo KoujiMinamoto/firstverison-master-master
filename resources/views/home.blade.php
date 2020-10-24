@@ -115,7 +115,7 @@
         </div>
     </div>
 
-
+    <div class="home_background">
     <!-- home container -->
     <!-- home -->
     <div class="home_div" id="home_div_id" style="display:block">
@@ -11553,6 +11553,7 @@
 		</div>
     </div>
 
+    
     <!-- forget passwd -->
     <div class="login_div_forgetpasswd" id="login_div_forgetpasswd_id" style="display:none">
         <div class="login_div_main">
@@ -11791,6 +11792,151 @@
         </div>
     </div>
 
+    <!-- Terms and Conditions -->
+    <div class="terms_div" id="terms_div_id" style="display:none">
+        <div class="main_container">
+            <div class="container_left">
+            <h1>Terms and Conditions</h1>
+                <p>
+            Welcome to 1Print website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern 1Print Pty Ltd relationship with your in relation to this website
+            </p>
+        <p>&nbsp;</p>
+        <p>
+        1Print Pty Ltd is a full colour commercial and digital printer committed to providing the highest quality products at the best possible prices.
+            </p>
+        <p>&nbsp;</p>
+        <p>
+        The use of this website is subject to the following terms of use:	
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        The content of the pages of this website is for your general information and use only. It is subject to change without notice.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable.  It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        All trademarks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        Unauthorised use of the website may give rise to a claim for damages and/ or be a criminal offence.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
+        </p>
+        <p>&nbsp;</p>
+        <p class="black_bold">
+        Placing or approving an order
+        </p>
+        <p>
+        1Print requires full payment when an order is placed. Once an order has been placed or approved, your credit card will be immediately debited. Please do not place an order if you do not agree. If you decide to cancel your order a cancellation fee is applicable. Please see section on Cancellation of an order.  1Print is not obliged to attend to any changes or variations to the goods unless agreed in writing by both parties. PLEASE FOLLOW OUR GUIDELINES ON ARTWORK SPECIFICATIONS. IF YOU ARE NOT SURE OF HOW TO SETUP A GRAPHIC FILE AND TO AVOID PRINTING ISSUES PLEASE DO NOT PROCEED WITH THE ORDER. USE A PROFESSIONAL GRAPHIC DESIGNER TO SETUP THE ARTWORK FOR COMMERCIAL PRINTING. IF YOU ARE NOT SURE ABOUT COLOUR OUTCOME AND ACTUAL IMAGE SIZE A HARD COPY PROOF IS RECOMMENDED.
+        </p>
+        <p>&nbsp;</p>
+
+            
+            </div>
+            
+            <div class="container_right">
+            <p class="black_bold">
+        Cancellation of an order
+        </p>
+        <p>
+        Once an order has been placed it cannot be cancelled under any way circumstances without incurring a cancellation fee. Cancellation or alteration order fee is 10% of the value of the print job. Minimum fee will be $50 + GST plus any costs on graphic design/plates/proofs if applicable.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        Any claims for faulty goods must be placed within 7 days after receiving your order.
+        </p>
+        <p>&nbsp;</p>
+        <p class="black_bold">
+        Payment  Methods
+        </p>
+        <p>
+        We accept Visa, Mastercard, EFT and company cheques.
+        </p>
+        <p>&nbsp;</p>
+        <p class="black_bold">
+        Specifications
+        </p>
+        <p>
+        It is the customers responsibility to make sure that all electronic files supplied comply with 1Print's file specifications requirements and that the files supplied are correct and able to be printed as soon as they are supplied. It is the customers responsibility to ensure that any graphic material supplied for printing do not breach relevant copyright legislation. 1Print Pty Ltd accepts no responsibility for any copyright issues. Artwork supplied incomplete will require a re-quotation and the print price shown for the product will not apply.  Although we try our best to achieve best possible colour matching, due to the print process colour variations will occur from reprint to reprint. Marginal variation will occur from one run print run to the other. Please do not order from 1Print if you require an exact colour match for a reprint job. Electronic files are not kept for future use for the customer and they have to be supplied with each and every order. If yor are not sure about your colour output, you can order a hard copy high resolution for a close indication of how colours will look like.
+
+        </p>
+        <p>&nbsp;</p>
+        <p>
+
+        Acceptance of orders is subject to credit approval.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        
+
+        All prices are subject to change without notice.
+        </p>
+        <p>&nbsp;</p>
+        <p class="black_bold">
+        Deliveries:
+        </p>
+        <p>
+        Our transport people deliver to - Street/Residential address only, 
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        If you have a Street/Residential address and its unattended we can leave your goods at the door, if your request this type of delivery , please note we are not responsible for any lost or stolen property. 
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        Also we cannot deliver to Apartment blocks that have Security Entrances, if they are unattended. (If this happens and the goods are returned to us , you will be asked to arrange your own courier or pay an additional delivery fee). 
+        </p>
+        <p>&nbsp;</p>
+        <p class="black_bold">
+        Please let us know beforehand, if you require "Authority to Leave with no signature". 
+        </p>
+        <p>&nbsp;</p>
+        <p class="black_bold">
+        Please note in such a case, 1 Print will not be held responsible for lost or damaged goods in any condition.
+        </p>
+        <p>&nbsp;</p>
+
+        <p>
+        
+
+        Terms and conditions are subject to change without notice.
+        </p>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+
+    </div><!-- home_background end -->
     <!-- footer -->
     <div class="footer" id="footer_id">
 
@@ -11830,8 +11976,8 @@
                     <ul>
                         <li><a>About Us</a></li>
                         <li><a>Contact</a></li>
-                        <li><a>Privacy Policy</a></li>
-                        <li><a>Terms and Conditions</a></li>
+                        <li ><a onclick="clickHeader(12)">Privacy Policy</a></li>
+                        <li ><a onclick="clickHeader(11)">Terms and Conditions</a></li>
                         <li><a>Testimonials</a></li>
                     </ul>
                 </div>

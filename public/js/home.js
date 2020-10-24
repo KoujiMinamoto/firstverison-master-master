@@ -149,6 +149,12 @@ function clickHeader(headerName) {
             $(".login").addClass("clickOn");
             document.getElementById("login_div_forgetpasswd_id").style.display = "block";
             break;
+        case 11:
+            document.getElementById("terms_div_id").style.display = "block";
+            break;
+        case 12:
+            document.getElementById("privacy_div_id").style.display = "block";
+            break;
     }
 
 }
@@ -194,6 +200,8 @@ function reset() {
     document.getElementById("product_div_id_15").style.display = "none";
     document.getElementById("product_div_id_16").style.display = "none";
     document.getElementById("login_div_forgetpasswd_id").style.display = "none";
+    document.getElementById("terms_div_id").style.display = "none";
+    document.getElementById("privacy_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
 
 }

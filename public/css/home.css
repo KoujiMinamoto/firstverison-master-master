@@ -915,3 +915,11 @@ input.btn_search {
 {
     background: none\9;
 }
+.home_background{
+    width: 100%;
+    min-height: 63rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
