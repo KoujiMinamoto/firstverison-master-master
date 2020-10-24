@@ -923,3 +923,16 @@ input.btn_search {
     margin-right: auto;
     background: white;
 }
+#header_shadow{
+	height:1px;
+	display:none;
+	background:#f0f0f0;
+	-moz-box-shadow:    0 5px 15px 1px #777777;
+	-webkit-box-shadow: 0 5px 15px 1px #777777;
+	box-shadow:         0 5px 15px 1px #777777;
+	z-index:99999;
+    margin-top:0px;
+    margin-left: -100rem;
+    width:2000%;
+    position: relative;
+}

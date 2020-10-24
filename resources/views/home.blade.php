@@ -99,6 +99,7 @@
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
+    
 
     <!-- diaplayBox -->
     <div class="displayBox" id="displayBox_id" onload="change()">
@@ -118,8 +119,9 @@
     <div class="home_background">
     <!-- home container -->
     <!-- home -->
+    
     <div class="home_div" id="home_div_id" style="display:block">
-
+        <div id="header_shadow" style="display: none;"></div>
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
                 <a href="#" title="Online Booklet Printing Services">
@@ -12494,7 +12496,12 @@
     </div>
 </div>
 
-
+<script type="text/javascript" style="">
+ $(document).scroll(function() {
+ var $logo = $('#header_shadow');
+    $logo.css({display: $(this).scrollTop() > 300? "block":"none"});
+	});
+</script>
 <script type="text/javascript">
     $(".gallary_div_option").click(function () {
         $(".gallary_div_option").removeClass("active");
