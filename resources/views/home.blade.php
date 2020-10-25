@@ -124,91 +124,91 @@
         <div id="header_shadow" style="display: none;"></div>
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
-                <a href="#" title="Online Booklet Printing Services">
+                <a type="button" onclick="clickProduct(0)" title="Online Booklet Printing Services">
                     <div class="home_panel_img booklets_img"></div>
                     Booklets
                 </a>
             </div>
 
             <div class="brochures_holder home_menu">
-                <a href="#" title="Online Brochure Printing Services">
+                <a type="button" onclick="clickProduct(1)" title="Online Brochure Printing Services">
                     <div class="home_panel_img brochures_img"></div>
                     Brochures
                 </a>
             </div>
 
             <div class="business_cards_holder home_menu">
-                <a href="#" title="Online Business Card Printing Services">
+                <a type="button" onclick="clickProduct(2)" title="Online Business Card Printing Services">
                     <div class="home_panel_img business_cards_img"></div>
                     Business Cards
                 </a>
             </div>
 
             <div class="notepads_holder home_menu">
-                <a href="#" title="Online Notepad Printing Services">
+                <a type="button" onclick="clickProduct(3)" title="Online Notepad Printing Services">
                     <div class="home_panel_img notepads_img"></div>
                     Deskpads / Notepads
                 </a>
             </div>
 
             <div class="docketbooks_holder home_menu">
-                <a href="#" title="Online Docket Book Printing Services">
+                <a type="button" onclick="clickProduct(5)" title="Online Docket Book Printing Services">
                     <div class="home_panel_img docketbooks_img"></div>
                     Docket Books
                 </a>
             </div>
 
             <div class="envelopes_holder home_menu">
-                <a href="#" title="Online Envelope Printing Services">
+                <a type="button" onclick="clickProduct(6)" title="Online Envelope Printing Services">
                     <div class="home_panel_img envelopes_img"></div>
                     Envelopes
                 </a>
             </div>
 
             <div class="flyers_holder home_menu">
-                <a href="#" title="Online Flyer Printing Services">
+                <a type="button" onclick="clickProduct(8)" title="Online Flyer Printing Services">
                     <div class="home_panel_img flyers_img"></div>
                     Flyers
                 </a>
             </div>
             <div class="magnets_holder home_menu">
-                <a href="#" title="Buy Fridge Magnets Online">
+                <a type="button" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">
                     <div class="home_panel_img magnets_img"></div>
                     Fridge Magnets
                 </a>
             </div>
             <div class="letterheads_holder home_menu">
-                <a href="#" title="Online Letterhead Printing Services">
+                <a type="button" onclick="clickProduct(10)" title="Online Letterhead Printing Services">
                     <div class="home_panel_img letterheads_img"></div>
                     Letterheads
                 </a>
             </div>
             <div class="postcards_holder home_menu">
-                <a href="#" title="Online Postcard Printing Services">
+                <a type="button" onclick="clickProduct(11)" title="Online Postcard Printing Services">
                     <div class="home_panel_img postcards_img"></div>
                     Postcards
                 </a>
             </div>
             <div class="posters_holder home_menu">
-                <a href="#" title="Online Poster Printing Services">
+                <a type="button" onclick="clickProduct(12)" title="Online Poster Printing Services">
                     <div class="home_panel_img posters_img"></div>
                     Posters
                 </a>
             </div>
             <div class="presentation_folders_holder home_menu">
-                <a href="#" title="Online Presentation Folder">
+                <a type="button" onclick="clickProduct(13)" title="Online Presentation Folder">
                     <div class="home_panel_img presentation_folders_img"></div>
                     Presentation Folders
                 </a>
             </div>
             <div class="with_comps_holder home_menu">
-                <a href="#">
+                <a type="button" onclick="clickProduct(14)">
                     <div class="home_panel_img with_comps_img"></div>
                     With Compliments
                 </a>
             </div>
             <div class="web_design_holder home_menu">
-                <a href="#">
+                <a type="button" onclick="clickProduct(15)">
                     <div class="home_panel_img web_design_img"></div>
                     Website Design
                 </a>
