@@ -11938,6 +11938,336 @@
 
     </div>
 
+    <!-- Sample Pack -->
+    <div class="sample_div" id="sample_div_id" style="display:none">
+        <div class="main_container">
+        <div class="container_left">
+        <h1>Sample Pack</h1>
+        <h3 class="sample_pack_title">Unsure about the quality of our printing services?</h3>
+        <p>We understand that choosing an online printer is difficult without seeing the quality for yourself. To ensure you are making the right choice by investing in a quality printing service, order a FREE sample pack from 1Print.</p>
+        <p>&nbsp;</p>
+        <p>To receive a FREE sample pack with your choice of printed products, simply complete the form with your details. Our standard turnaround is 2-3 Days.  This may vary based on the type of products requested.
+        </p>
+        <p>&nbsp;</p>
+        <p>*Please Note: Only 1 free sample pack per customer.</p>
+        </div>
+        
+        <div class="samplepack_container_right">
+            <div class="sample_pack_left">
+            <h2>Yes! Please send me a sample pack!</h2>
+            <p>Fill out the form with your details. Sample packs are usually delivered within 2-3 working days.</p>
+            </div>
+            <div class="sample_pack_right">
+                
+            <form method="post" name="customquotes" id="customquotes" onsubmit="">
+                    <div class="create-account-table3"><table width="378" border="0" cellspacing="0" cellpadding="0">
+                    <tbody><tr>
+                        <td colspan="2" valign="top">
+                            <table width="100%" cellpadding="3" cellspacing="0">
+                            <tbody><tr>
+                            <td class="sample_td1" height="25">Business Name</td>
+                            <td><input name="company" type="text" id="company" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Your Name</td>
+                            <td><input name="name" type="text" id="name" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Email</td>
+                            <td><input name="email" type="text" id="email" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Address</td>
+                            <td><input name="address" type="text" id="address" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Suburb</td>
+                            <td><input name="suburb" type="text" id="suburb" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>State</td>
+                            <td><select name="state">
+                            
+                            <option value="VIC" selected="selected">VIC</option>
+                            
+                            <option value="WA">WA</option>
+                            
+                            <option value="NSW">NSW</option>
+                            
+                            <option value="ACT">ACT</option>
+                            
+                            <option value="SA">SA</option>
+                            
+                            <option value="QLD">QLD</option>
+                            
+                            <option value="TAS">TAS</option>
+                            
+                            <option value="NT">NT</option>
+                            
+                            </select></td>
+                            </tr>
+                            <tr>
+                            <td>Postcode</td>
+                            <td><input name="postcode" type="text" id="postcode" maxlength="4" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Telephone</td>
+                            <td><input name="phone" type="text" id="phone" maxlength="25" value=""></td>
+                            </tr>
+                            <tr>
+                            <td valign="top">Comment</td>
+                            <td><textarea name="comments" rows="6"></textarea></td>
+                            </tr>
+                        
+                    
+                    
+                    <tr>
+                        <td></td>
+                        <td valign="top"><input type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked=""> Subscribe to our newsletter for special offers </td>
+                        </tr>
+                    </tbody></table>
+                        </td></tr><tr>
+                        <td colspan="5" style="padding-right:15px">
+                        <table width="150" border="0" cellspacing="0" cellpadding="0" align="right">
+                            <tbody><tr>
+                                <td><div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes"></div></td>
+                            </tr>
+                            <tr>
+
+                            <td align="right"><input type="submit" class="sample_submit blue_button " name="postemail" value="Submit" id="postemail"></td>
+                            </tr>
+                        </tbody></table></td>
+                    </tr>
+                </tbody></table></div>
+                </form>   
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        </div>
+
+    </div>
+
+    <!-- orderprocess -->
+    <div class="orderprocess_div" id="orderprocess_div_id" style="display:none">
+        <div class="main_container">
+            <div class="container_left">
+            <h1>Ordering Options</h1>
+            <p>1Print makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="http://web.archive.org/web/20180903153442/mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.</p>
+            <h2 class="order_title_cart">Shopping Cart</h2>
+            <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
+            </p>
+            
+            <p class="black_heading padding_top">Payment Methods Accepted</p>
+            <div class="pay_method_list">
+            <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
+            
+            </div>
+            <div class="new_customer">
+                <h5>New Customers</h5>
+                <p>You will need to create an account before proceeding with your order. You will be automatically logged in after you register.
+                </p>
+                <a onclick="clickHeader(9)" class="blue_button">Click here to Register</a>
+            </div>
+            <div class="existing_customer">
+                <h5>Existing Customers</h5>
+                <p>If you have already created an account, login to your account before proceeding with your order.
+                </p>
+                <a onclick="clickHeader(8)" class="blue_button">Login</a>
+            </div>
+            <div class="clear"></div>
+            
+            <div class="order_number">
+                <div class="order_number_holder">
+                1
+                </div>
+                <div class="order_number_text">
+                <p>Select the product and quantity of your choice and click 'add to cart'.<br style="">
+                    If you have finished shopping proceed to checkout...</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="order_number">
+                <div class="order_number_holder">
+                2
+                </div>
+                <div class="order_number_text">
+                <p>Confirm your order and update your delivery and billing address if necessary. If you have any specific instructions, you can  include this in the comment box provided.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="order_number">
+                <div class="order_number_holder">
+                3
+                </div>
+                <div class="order_number_text">
+                <p>Upload your artwork files and enter any relevant information to those files.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="order_number">
+                <div class="order_number_holder">
+                4
+                </div>
+                <div class="order_number_text">
+                <p>Make your payment through the secure ANZ Gateway.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <p>Once you have completed these 4 easy steps, you will receive an email confirming your delivery address, product details, payment confirmation and receipt number.</p>
+            
+            
+            
+            </div>
+            <div class="container_right">.
+            <h2 class="order_title_email">Email Orders</h2>
+            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="http://web.archive.org/web/20180903153442/mailto:orders@1print.net.au">orders@1print.net.au</a>, detailing what you require along with the attached print ready file.</p>
+            <p>&nbsp;</p>
+            <p>Upon receiving your email, our office will generate an invoice and contact you to process your payment. Payment methods for email orders are shown below.</p>
+            <p class="black_heading padding_top">Payment Methods Accepted</p>
+            <div class="pay_method_list">
+            
+            <img src="{{URL::asset('/image/eft.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/cheque.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
+            
+            </div>
+            <p class="black_heading padding_top">File Transfers</p>
+            <p>When using email orders, the file attachment cannot exceed 8mb. If the attachment is larger than 8mb we require you to use one of our other accepted file transfer methods (see below)</p>
+            
+            
+            <p class="black_heading">Our accepted file transfer methods</p>	
+            <img src="{{URL::asset('/image/artwork methods-01.jpg') }}" alt="" width="55" height="55">
+            <img src="{{URL::asset('/image/artwork methods-02.jpg') }}" alt="" width="55" height="55">
+            <img src="{{URL::asset('/image/artwork methods-03.jpg') }}" alt="" width="55" height="55">
+            <img src="{{URL::asset('/image/artwork methods-04.jpg') }}" alt="" width="55" height="55">
+            
+            <p>Please contact us for more information.</p>
+            <p>&nbsp;</p>
+            <p>We�re Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
+            Please email <a class="black_link" href="mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.
+            </p>
+            </div>
+        <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- Delivery -->
+    <div class="delivery_div" id="delivery_div_id" style="display:none">
+        <div class="main_container">
+            <div class="container_left">
+                <h1 class="no_padding">1Print Delivers FREE<br style="">Within Australia</h1>
+                <p>At 1Print, we believe in making things as simple as possible for our clients.<br style="">
+                    That's why we include Australia-wide delivery in the price of our services to you.</p>
+
+                <h2 class="delivery_title">Estimated Dispatch Times</h2>
+                <div class="delivery_title">Booklets</div>
+                <p>Printing will be dispatched in 7-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Brochures*</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Business Cards*</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval.
+                </p>
+                <div class="delivery_title">Deskpads / Notepads</div>
+                <p>Printing will be dispatched in 5-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Docket books</div>
+                <p>Printing will be dispatched in 7-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Envelopes</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Express Printing (Guaranteed 48 Hours Despatch Ex Factory)*</div>
+                <p>*Orders must be placed daily by 2pm, excluding Saturday &amp; Sunday. Despatch will occur 48 Hours upon receipt of your order. Despatch ex. factory does not guarantee a delivery time and our nominated courier company cannot hold us responsible for delays, damage or loss of goods.
+                </p>
+                <p>Pickup is available from our production facility daily between 8.00am to 5.00pm.
+                </p>
+                <div class="delivery_title">Flyers*</div>
+                <p>Printing will be dispatched in 3-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Fridge Magnets</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Letterheads</div>
+                <p>Printing will be dispatched in 7-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Postcards*</div>
+                <p>Printing will be dispatched in 3-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Posters</div>
+                <p>Printing will be dispatched in 3-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Presentations Folders</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">With Compliments</div>
+                <p>Printing will be dispatched in 3-5 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <p>&nbsp;</p>
+                <p>*Please note this does not apply to urgent printing.</p>
+
+
+
+            </div>
+            <div class="container_right">
+                <h2 class="large no_padding">Delivery Conditions</h2>
+                <p>There are a few conditions that are placed on the delivery services, which you should be aware of before placing an order.
+                </p>
+                <h4 class="delivery_conditions">Delivery conditions are listed below:</h4>
+                <ul class="black_bullets delivery_list">
+                    <li>Our despatch time will be between 2-10 working days, which starts the first day after we receive your artwork approval.
+                    </li>
+                    <li>All representations by 1Print, as to the date and /or time for delivery are made in good faith, but are not guaranteed.
+                    </li>
+                    <li>1Print and its directors, account managers, employees and associated companies shall not be liable for late deliveries or lost goods.
+                    </li>
+                    <li>Lost goods will be fully refundable or replaced.
+                    </li>
+                    <li>Do not place an order if exact delivery times are crucial to you, without obtaining verification from our office. Delays may be caused by manufacturing or delivery.
+                    </li>
+                    <li>Deliveries will ONLY be made to your nominated delivery address between 9:00 am and 5:30 pm, Monday to Friday.
+                    </li>
+                    <li>An authorised person must sign for the delivery.
+                    </li>
+                    <li>If a delivery is to be made to an address other than your business address, we require the full name of the person who will be accepting the delivery and a complete address for the delivery.
+                    </li>
+                    <li>If the incorrect address is given to 1Print, a $25.00 administration fee applies to redirect the goods to the correct shipping address.
+                    </li>
+                    <li>If there is no-one available to sign for the goods and they are subsequently lost or damaged, we will not be liable for the loss.
+                    </li>
+                    <li>Deliveries will not be made to a PO Box.
+                    </li>
+                    <li>Once goods are delivered, 1Print Pty Ltd is not liable for any loss or damage.
+                    </li>
+                    <li>Advance notification of delivery day, date or time by phone or email is not possible.
+                    </li>
+                    <li>Upon receipt, the customer will inspect the goods and notify 1Print of any errors within three days after delivery, quoting all relevant details.
+                    </li>
+                    <li>If you have a Street/Residential address and it's unattended we can leave your goods at the door,  if your request this type of delivery, please note we are not responsible for any lost or stolen property.
+                    </li>
+                    <li>We cannot deliver to Apartment blocks that have Security Entrances, if they are unattended. (If this happens and the goods are returned to us, you will be asked to arrange your own courier or pay an additional delivery fee).
+                    </li>
+                    <li>
+                        If address is unattended our courier companies have authority to leave at your door.
+                        If couriers can't get access in units / apartments or shopfronts on major roads parcels will be taken back to depo,
+                        a card will be left at your premises notifying of depo location.
+                        Orders can picked up from depo within 5 working days or they can be redelivered. A redelivery fee will apply.
+                    </li>
+                </ul>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+
+
     </div><!-- home_background end -->
     <!-- footer -->
     <div class="footer" id="footer_id">
@@ -11952,47 +12282,47 @@
                 <div class="footer_menu1">
                     <div class="footer_heading">Printing Services</div>
                     <ul>
-                        <li><a>Business Card Printing</a></li>
-                        <li><a>Booklet Printing</a></li>
-                        <li><a>Brochure Printing</a></li>
-                        <li><a>Compliment Slip Printing</a></li>
-                        <li><a>Docket Book Printing</a></li>
-                        <li><a>Envelope Printing</a></li>
-                        <li><a>Flyer Printing</a></li>
+                        <li><a onclick="clickProduct(2)">Business Card Printing</a></li>
+                        <li><a onclick="clickProduct(0)">Booklet Printing</a></li>
+                        <li><a onclick="clickProduct(1)">Brochure Printing</a></li>
+                        <li><a onclick="clickProduct(14)">Compliment Slip Printing</a></li>
+                        <li><a onclick="clickProduct(5)">Docket Book Printing</a></li>
+                        <li><a onclick="clickProduct(6)">Envelope Printing</a></li>
+                        <li><a onclick="clickProduct(8)">Flyer Printing</a></li>
                     </ul>
                 </div>
                 <div class="footer_menu2">
                     <ul>
-                        <li><a>Letterhead Printing</a></li>
-                        <li><a>Notepad/Desk Pad Printing</a></li>
-                        <li><a>Postcard Printing</a></li>
-                        <li><a>Posters Printing</a></li>
-                        <li><a>Presentation Folder Printing</a></li>
-                        <li><a>Express Printing</a></li>
-                        <li><a>Custom Quotes</a></li>
-                        <li><a>Website Design</a></li>
+                        <li><a onclick="clickProduct(10)">Letterhead Printing</a></li>
+                        <li><a onclick="clickProduct(3)">Notepad/Desk Pad Printing</a></li>
+                        <li><a onclick="clickProduct(11)">Postcard Printing</a></li>
+                        <li><a onclick="clickProduct(12)">Posters Printing</a></li>
+                        <li><a onclick="clickProduct(13)">Presentation Folder Printing</a></li>
+                        <li><a onclick="clickProduct(7)">Express Printing</a></li>
+                        <li><a onclick="clickHeader(6)">Custom Quotes</a></li>
+                        <li><a onclick="clickProduct(15)">Website Design</a></li>
                     </ul>
                 </div>
                 <div class="footer_menu3">
                     <div class="footer_heading">Company Info</div>
                     <ul>
-                        <li><a>About Us</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a onclick="clickHeader(5)">About Us</a></li>
+                        <li><a onclick="clickProduct(15)">Contact</a></li>
                         <li ><a onclick="clickHeader(12)">Privacy Policy</a></li>
                         <li ><a onclick="clickHeader(11)">Terms and Conditions</a></li>
-                        <li><a>Testimonials</a></li>
+                        <!-- <li><a>Testimonials</a></li> -->
                     </ul>
                 </div>
                 <div class="footer_menu4">
                     <div class="footer_heading">Support</div>
                     <ul>
-                        <li><a>Order Process</a></li>
-                        <li><a>Delivery</a></li>
-                        <li><a>File Guidelines</a></li>
+                        <li><a onclick="clickHeader(14)">Order Process</a></li>
+                        <li><a onclick="clickHeader(15)">Delivery</a></li>
+                        <!-- <li><a>File Guidelines</a></li>
                         <li><a>FTP Accounts</a></li>
-                        <li><a>Colour Critical</a></li>
-                        <li><a>Sample Pack</a></li>
-                        <li><a>FAQ</a></li>
+                        <li><a>Colour Critical</a></li> -->
+                        <li><a onclick="clickHeader(13)">Sample Pack</a></li>
+                        <li><a onclick="clickHeader(4)">FAQ</a></li>
                         <li><a>Sitemap</a></li>
                     </ul>
                 </div>

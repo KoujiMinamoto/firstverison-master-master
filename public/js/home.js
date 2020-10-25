@@ -155,6 +155,15 @@ function clickHeader(headerName) {
         case 12:
             document.getElementById("privacy_div_id").style.display = "block";
             break;
+        case 13:
+            document.getElementById("sample_div_id").style.display = "block";
+            break;
+        case 14:
+            document.getElementById("orderprocess_div_id").style.display = "block";
+            break;
+        case 15:
+            document.getElementById("delivery_div_id").style.display = "block";
+            break;
     }
 
 }
@@ -202,6 +211,9 @@ function reset() {
     document.getElementById("login_div_forgetpasswd_id").style.display = "none";
     document.getElementById("terms_div_id").style.display = "none";
     document.getElementById("privacy_div_id").style.display = "none";
+    document.getElementById("sample_div_id").style.display = "none";
+    document.getElementById("orderprocess_div_id").style.display = "none";
+    document.getElementById("delivery_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
 
 }

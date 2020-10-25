@@ -126,3 +126,192 @@ div#feedback {
     vertical-align: middle;
     width: 350px;
 }
+
+/* samplepack */
+.samplepack_container_right {
+    width: 615px;
+    min-height: 456px;
+    background: #EBEBEB;
+    background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF),color-stop(100%, #EBEBEB));
+    background: -webkit-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: -moz-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: -ms-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: -o-linear-gradient(top,#FFFFFF ,#EBEBEB 100%);
+    background: linear-gradient(to bottom,#FFFFFF ,#EBEBEB 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 14px;
+    padding-right: 12px;
+    text-align: left;
+    color: #323232;
+    margin-bottom: -1px;
+    position: relative;
+    float: right;
+}
+.sample_pack_left{
+	float:left;
+	width:207px;
+	text-align:left;
+	font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+}
+.sample_pack_left h2{
+	text-align:left;
+	font-size: 26px;
+    font-weight: bold;
+    line-height: 31px;
+}
+.sample_pack_right{
+	float:right;
+	width:370px;
+}
+.sample_pack_right table{
+	max-width:370px;
+	font-weight:bold;
+}
+.sample_pack_right table input,
+.sample_pack_right table select,
+.sample_pack_right table textarea
+{
+	padding:6px;
+	border:1px solid #bbb;
+	font-weight:normal;
+	width:225px;
+}
+.sample_pack_right #sigin_in_newsletter{
+	width:auto;
+}
+.sample_pack_right table td{
+	font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: left;
+	color:#000;
+	padding-bottom:8px;
+}
+.sample_pack_right table .sample_td1{
+	width:128px;
+}
+
+/* <!-- orderprocess --> */
+h2.order_title_cart{
+	font-size: 39px;
+	line-height: 47px;
+	color: #323232;
+	font-weight: bold;
+	background:url(../image/product/product\ icons-08.png) no-repeat;
+	padding-left:50px;
+	padding-bottom:0;
+	margin-top:38px;
+}
+h2.order_title_email{
+	font-size: 39px;
+	line-height: 47px;
+	color: #323232;
+	font-weight: bold;
+	background:url(../image/product/product\ icons-09.png) 0 4px no-repeat;
+	padding-left:50px;
+	margin-top:137px;
+	padding-bottom:0;
+}
+.new_customer{
+	width:270px;
+	float:left;
+	padding-top:20px;
+}
+.existing_customer{
+	width:270px;
+	float:left;
+	padding-left:30px;
+	padding-top:20px;
+}
+.new_customer h5, .existing_customer h5{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 26px;
+	color: #323232;
+	font-weight: bold;
+}
+.pay_method_list{
+	padding-top:3px;
+}
+.pay_method_list img{
+	padding-right:5px;
+}
+.order_number_holder{
+	width: 31px;
+	min-height: 23px;
+	background-color: #7F7F7F;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 18px;
+	color: #FFFFFF;
+	font-weight: bold;
+	display:inline-block;
+	vertical-align:top;
+}
+.order_number_text{
+	display:inline-block;
+	width:525px;
+	margin-left:10px;
+}
+.order_number{
+	padding-bottom:15px;
+}
+.orderprocess_div a.blue_button{
+	background:#29ABE2;
+	display:inline-block;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	text-align:center;
+	width:199px;
+	padding:7px 0;
+    margin:20px 0;
+    cursor: pointer;
+}
+/* delivery */
+h2.delivery_title{
+	font-size: 39px;
+	line-height: 47px;
+	color: #323232;
+	font-weight: bold;
+	margin-top:20px;
+	background:url(../image/product/product\ icons-10.jpg) no-repeat 0 20px;
+	padding-left:50px;
+	padding-bottom:0;
+}
+h4.delivery_conditions{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 26px;
+	color: #323232;
+	font-weight: bold;
+	padding:15px 0;
+}
+.delivery_list li{
+	padding-bottom:15px;
+}
+.delivery_title{
+	font-size: 17px;
+	line-height: 20px;
+	color: #323232;
+	font-weight: bold;
+	padding-top:20px;
+}

@@ -936,3 +936,11 @@ input.btn_search {
     width:2000%;
     position: relative;
 }
+
+/* footerstyle */
+.footer li a{
+    cursor: pointer;
+}
+.footer li a:hover{
+    color:white!important;
+}
