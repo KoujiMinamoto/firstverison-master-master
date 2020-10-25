@@ -164,6 +164,9 @@ function clickHeader(headerName) {
         case 15:
             document.getElementById("delivery_div_id").style.display = "block";
             break;
+        case 16:
+            document.getElementById("file_guidelines_div_id").style.display = "block";
+            break;
     }
 
 }
@@ -214,6 +217,7 @@ function reset() {
     document.getElementById("sample_div_id").style.display = "none";
     document.getElementById("orderprocess_div_id").style.display = "none";
     document.getElementById("delivery_div_id").style.display = "none";
+    document.getElementById("file_guidelines_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
 
 }

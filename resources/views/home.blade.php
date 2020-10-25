@@ -1749,58 +1749,58 @@
                     <div class="main_left_bottom1">
 
                         <div class="product_info_express no_margin">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">
+                            <a type="button" onclick="clickProduct(7)">
                                 <div class="product_info_express_img">
                                 </div>
                                 <h4>Express Printing</h4>
                                 <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                                <a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">read
+                                <a class="blue_link" type="button"
+                                    onclick="clickProduct(7)">read
                                     more+</a>
                             </a>
                         </div>
 
                         <div class="product_info_design margin_left20">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">
+                            <a type="button" onclick="clickHeader(2)">
                                 <div class="product_info_design_img">
                                 </div>
                                 <h4>Design Services</h4>
                                 <p>Need artwork setup? Our team of experienced designers can help</p>
                             </a><a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">read
+                            type="button" onclick="clickHeader(2)">read
                                 more+</a>
 
                         </div>
                         <div class="product_info_gallery gallery_brochure">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">
+                            <a type="button" onclick="clickHeader(3)">
                                 <div class="product_info_gallery_img">
                                 </div>
                                 <h4>Gallery</h4>
                                 <p>Looking for design inspiration? See examples of our work</p>
                             </a><a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">read
+                                type="button" onclick="clickHeader(3)">read
                                 more+</a>
 
                         </div>
                         <div class="product_info_order">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">
+                            <a type="button" onclick="clickHeader(14)">
                                 <div class="product_info_order_img">
                                 </div>
                                 <h4>Order process</h4>
                                 <p>The ordering process explained</p>
                                 <a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">read
+                                   type="button" onclick="clickHeader(14)">read
                                     more+</a>
                             </a>
                         </div>
                         <div class="product_info_guidelines">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">
+                            <a type="button" onclick="clickHeader(16)">
                                 <div class="product_info_guidelines_img">
                                 </div>
                                 <h4>File Guidelines</h4>
                                 <p>Print specifications to achieve best printing results</p>
                                 <a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">read
+                                   type="button" onclick="clickHeader(16)">read
                                     more+</a>
                             </a>
                         </div>
@@ -2416,7 +2416,7 @@
                         </div>
                         <!-- email your order in 3 steps -->
                         <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                           href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                           type="button" onclick="clickHeader(14)"
                            data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                             <img class="block" id="u76951_img"
                                  src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -2567,13 +2567,13 @@
 
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">read
+                               type="button" onclick="clickHeader(16)">read
                             more+</a><br/>
                         <br/>
 
@@ -2962,7 +2962,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -3564,7 +3564,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -4216,7 +4216,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -4860,7 +4860,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -5487,7 +5487,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -6323,7 +6323,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -6743,7 +6743,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -7305,7 +7305,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -7500,12 +7500,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
 
@@ -8149,7 +8149,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -8325,12 +8325,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
@@ -8779,7 +8779,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -8942,12 +8942,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
@@ -9392,7 +9392,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -10694,7 +10694,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -12267,6 +12267,126 @@
 
     </div>
 
+    <!-- fileguide -->
+    <div class="file_guidelines_div" id="file_guidelines_div_id" style="display:none">
+        <div class="main_container">
+                <div class="container_left">
+                <h1>Artwork Specifications</h1>
+            <p>&nbsp;</p>	
+            <p class="black_heading">Image Text and Trims</p>
+            <p>All non bleed images and text should be kept at least 3mm from the trim to ensure trim tolerances are maintained.
+            </p>
+            <p>&nbsp;</p>	
+            <p class="black_heading">Blacks</p>
+            <p>Solid black areas should be made up of 40% Cyan, 20% Magenta, 20% Yellow and 100% Black to give a strong deep colour.
+            </p>
+            <p>&nbsp;</p>	
+            <p class="black_heading">Booklet Creep</p>
+            <p>Page creep will occur on booklet jobs. To help with finishing all page numbers, non bleed images and text should be kept at least 10mm from the trims. We advise you to allocate a 5mm bleed on all booklet jobs.
+            </p> 
+            <p>&nbsp;</p>	
+            <p class="black_heading">Folding</p>
+            <p>Fold panels for A4-DL should be set from left to right 98-99-100 (outside) and 100-99-98 (inside). Supplied PSD artwork always remains the responsibility of the customer. 1Print will not accept responsibility for errors due to out of specification files.
+            </p>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-01.png') }} ">    
+                <strong>Single Fold</strong><br style="">
+                <span>4 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
+                <strong>Roll Fold</strong><br style="">
+                <span>6 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
+                <strong>Z Fold</strong><br style="">
+                <span>6 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
+                <strong>Roll Fold</strong><br style="">
+                <span>8 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
+                <strong>Concertina</strong><br style="">
+                <span>8 Page Brochure</span>
+            </div>
+            <div class="clear"></div> 
+            
+            <p class="black_heading">Standard Product Sizes</p>  
+            <ul class="black_bullets">
+            <li><span class="black">Business Cards</span> - 90 x 55mm, 89 x 54mm, 90 x 50mm or 90 x 45mm</li>
+            <li><span class="black">DL</span> - 210 x 99mm</li>
+            <li><span class="black">2DL</span> - 210 x 198mm</li>
+            <li><span class="black">A6</span> - 148 x 105mm</li>
+            <li><span class="black">A5</span> - 210 x 148mm</li>
+            <li><span class="black">A4</span> - 210 x 297mm</li>
+            <li><span class="black">A3</span> - 420 x 297mm</li>
+            <li><span class="black">A2</span> - 594 x 420mm</li>
+            <li><span class="black">A1</span> - 840 x 594mm</li>
+            </ul>
+            <p>&nbsp;</p><p>&nbsp;</p>
+            <h2 class="large">Filetype Specifications</h2>
+            <p class="black">1Print will only accept the following formats as final artwork. Artwork which does not adhere to these specifications will incur artwork charges.
+            </p>
+            <p>&nbsp;</p>
+            <ul class="black_bullets">
+            <li><span class="black">Adobe Acrobat</span> (PDF) version XI or below (PDF)</li>
+            <li><span class="black">Adobe Photoshop</span> version CC or below (PSD or TIFF)</li>
+            <li><span class="black">Adobe Illustrator</span> version CC or below (AI, EPS, PDF)</li>
+            <li><span class="black">Adobe InDesign</span> version CC or below (INDD)</li>
+            </ul>
+            <p>&nbsp;</p>
+            <ul class="black_bullets"> 
+            <li>1Print accepts files in PC or MAC format.</li>
+            <li>All images must be saved in CMYK at 300dpi.</li>
+            <li>Make sure all colours are nominated correctly as PMS or CMYK.</li>
+            <li>OVERPRINTS MUST BE TURNED OFF</li>
+            <li style="font-weight: bold;">All artwork must include a minimum of 2mm bleed and crop marks.</li>
+            <li>Where possible, please convert your text to outlines or curves.</li>
+            <li>Please supply us with all relevant files, including fonts and links (graphics)</li>
+            </ul> 
+            </div>
+            
+            <div class="container_right">
+            <h2 class="large">Pre Press Guidelines</h2>
+            <p>&nbsp;</p>  
+            <p class="black_heading">Templates</p>
+            <p>Acrobat Distiller settings and InDesign templates for standard products are available from our Prepress department.
+            </p><p>&nbsp;</p>
+            <p class="black_heading">PDF Compliance</p>
+            <p>Please use PDF Version 1.4.<br style="">
+            Ensure all files are flattened (flattening options turned on).<br style="">
+            Supply multiple page PDF with 1 up artwork on each page.<br style="">
+            Use CMYK not RGB. OVERPRINTS MUST BE TURNED OFF.<br style="">
+            Supply with crop marks and 2mm minimum bleed.<br style="">
+            Ensure artwork is centered in document.<br style="">
+            Text and non-bleed images should be kept 3mm from trims.</p>
+            <p>&nbsp;</p>
+            <p class="black_heading">Font Usage</p>
+            <p>All fonts must be embedded, or you can outline fonts before creating a PDF to avoid issues.</p>
+            <p>&nbsp;</p>
+            <p class="black_heading">Graphic/Images elements checklist</p>
+            <p>Bitmaps images supplied at 400dpi.<br style="">
+            CMYK images supplied (no RGB, LAB, PMS colours).<br style="">
+            Combined colour ink density should not exceed 300%.<br style="">
+            No ICC colour profiles will be used.</p>
+            <p>&nbsp;</p>
+            <p class="black_heading">Flight Check</p>
+            <p>We strongly recommend that a flight checking application is used to check the integrity of the PDF prior to sending to 1Print.
+            </p><p>&nbsp;</p>
+            <p class="black_heading">Storage of Files</p>
+            <p>PDF's will remain on our system for 1 week following printing. 1Print does not undertake archiving and retrieval of customer data.
+            </p>
+            </div>
+                <div class="clear"></div>
+        </div>
+    </div>
+
+
+
 
     </div><!-- home_background end -->
     <!-- footer -->
@@ -12318,8 +12438,8 @@
                     <ul>
                         <li><a onclick="clickHeader(14)">Order Process</a></li>
                         <li><a onclick="clickHeader(15)">Delivery</a></li>
-                        <!-- <li><a>File Guidelines</a></li>
-                        <li><a>FTP Accounts</a></li>
+                        <li><a onclick="clickHeader(16)">File Guidelines</a></li>
+                        <!-- <li><a>FTP Accounts</a></li>
                         <li><a>Colour Critical</a></li> -->
                         <li><a onclick="clickHeader(13)">Sample Pack</a></li>
                         <li><a onclick="clickHeader(4)">FAQ</a></li>
