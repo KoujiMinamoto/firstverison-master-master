@@ -132,7 +132,8 @@ function registerVMS_checkBoxClick(i) {
 
 }
 
-
+// cart页面总价计算
 function cartPriceCal() {
+
     $('#cart_price');
 }
