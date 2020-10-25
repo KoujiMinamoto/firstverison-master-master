@@ -5,7 +5,7 @@
 function cartTableCheck() {
 
     let i = $("#cart_table").find("th").length;
-
+    let n = $("#cart_table").find("td").length;
     if (i == 0) {
 
         $('#cart_haveProduct').append('<table id="cart_table"</table>');
@@ -15,30 +15,51 @@ function cartTableCheck() {
         // init th element
         let th = new Array('<th class="product-name">Product</th>',
                            '<th class="product-price">Price</th>',
-                           '<th class="product-quantity">Quantity</th>', 
+                           '<th class="product-quantity">Kinds</th>', 
                            '<th class="product-description">Description</th>',
-                           '<th class="product-subtotal">Total</th>',
+                           '<th class="product-subtotal">Quantity</th>',
                            '<th class="product-remove">Remove</th>',
         );
         // Insert table's header
         th.forEach(th => {
             row.innerHTML = row.innerHTML+th;
         });
+        $("#cart_onProduct").hide();
+        $("#cart_haveProduct").show();
+        $('.cart_price').show();
 
     } else {
-
+        if(n == 0 ) {
+            $("#cart_onProduct").show();
+            $("#cart_haveProduct").hide();
+            $('.cart_price').hide();
+        }
     }
-
 }
 
 
 
 //My cart -> Delivery -> Confirm -> Upload ->   Payment
 
-function cartProcess() {
-    let turn = 4;
-    for (let i = 0; i >= turn; ++i) {
-        
+function cartProcess(process) {
+    $('.checkout_step').attr('disabled','disabled');
+    if (process= "myCart") {
+        $('.checkout_step').eq(0).addClass("cartOn");
+        // Set delete and save buttons to enabled
+        // $('.checkout_step').removeAttr("disabled");
+
+    } else if (process = "delivery") {
+        $('.checkout_step').eq(0).removeClass("cartOn");
+        $('.checkout_step').eq(1).addClass("cartOn");
+    } else if (process = "confirm") {
+        $('.checkout_step').eq(1).removeClass("cartOn");
+        $('.checkout_step').eq(2).addClass("cartOn");
+    } else if (process = "upload") {
+        $('.checkout_step').eq(2).removeClass("cartOn");
+        $('.checkout_step').eq(3).addClass("cartOn");
+    } else if (process = "payment") {
+        $('.checkout_step').eq(3).removeClass("cartOn");
+        $('.checkout_step').eq(4).addClass("cartOn");
     }
 }
 
@@ -51,46 +72,36 @@ function cartProcess() {
 // 
 function cartDataInsert(productMessage) {
 
-    let add_table = document.getElementById("registerVMS_table_VMS");
-    let i  = $("#registerVMS_table_VMS").find("tr").length;
-    if (i <= 12 && i > 0) {
+    let add_table = document.getElementById("cart_table");
+    let i  = $("#cart_table").find("tr").length;
+    if ( i >= 0) {
         // Traverse the input and insert the vmsServer information one by one
-        data.forEach(data =>{
+        productMessage.forEach(productMessage =>{
             let row = add_table.insertRow(-1);
-            // server id
+            if (productMessage[0] == 'fridge') {
+                productMessage[0] = 'Fridge Magnet'
+            }
+
+            // product-name
             cell = row.insertCell(-1);
-            cell.innerHTML = "<p>"+i+"</p>";
-            // server's checkbox
+            cell.innerHTML = "<td class='product-name'><p>"+productMessage[0]+"</p></td>";
+            // product-price
             cell = row.insertCell(-1);
-            cell.innerHTML = "<input type='checkBox' class='registerVMS_checkbox_vms' id='registerVMS_checkbox_vms"+i+"' \
-                              onclick='registerVMS_checkBoxClick("+i+")'>";
-            // ip
+            cell.innerHTML = "<td class='product-price'><span class='amounts'>"+"$ "+productMessage[1]+"</span></td>";
+            // product-quantity
             cell = row.insertCell(-1);
-            cell.innerHTML = data[0];
-            // serverName
+            cell.innerHTML = "<td class='product-quantity'><input type='text' disabled='disabled' value ='"+productMessage[3]+"'></td>";
+            // product-description
             cell = row.insertCell(-1);
-            cell.innerHTML = data[1];
-            // Version
+            cell.innerHTML = "<td class='product-description'>"+productMessage[4]+"</td>";
+            // product-subtotal
             cell = row.insertCell(-1);
-            cell.innerHTML = data[2];
-            // alarm notification
-            cell = row.insertCell(-1);
-            cell.innerHTML = "<input type='checkBox' id='registerVMS_checkbox_system"+i+"'>System error<br>";
-            // alarm port
-            cell = row.insertCell(-1);
-            cell.innerHTML = "<input type='text' class='registerVMS_input_port' \
-                               id='registerVMS_input_port" +i+ "' value='"+data[3]+"' maxlength='5'>";
-            $('#registerVMS_input_port' + i).on(getCheckEventHandler('registerVMS_input_port' + i,
-            INPUT_CHECK_REG.NUMBER));
+            cell.innerHTML = "<td class='product-description'>"+productMessage[2]+"</td>";
             
-            // test button
+            // product-remove
             cell = row.insertCell(-1);
-            cell.innerHTML = "<div class='registerVMS_table_test' id='registerVMS_table_test"+i+"' \
-                               onclick='vmsServerTest("+i+")'><p>Test</p></div>";
-            // test result
-            cell = row.insertCell(-1);
-            cell.innerHTML = "<p id='registerVMS_table_testResult"+i+"'></p>";
-            
+            cell.innerHTML = "<td class='product-remove'><a href='javascript:'><i class='fa fa-times' onclick='cartDelete()'> </i></a></td>";
+
             ++i;
         });
     } else {
@@ -101,9 +112,12 @@ function cartDataInsert(productMessage) {
 
 
 
-function productDelete() {
-    $("#product1_tr").remove();
-    deletePrice();
+function cartDelete() {
+    let cartNo = $(this).parents("tr").index();
+    $("#cart_table").find("tr:eq("+cartNo+")").remove();
+    cartTableCheck();
+    // cart.remove();
+    
 }
 
 function totalPriceCal() {
@@ -116,5 +130,9 @@ function registerVMS_checkBoxClick(i) {
     // Set delete and save buttons to enabled
     $('.checkout_step').removeAttr("disabled");
 
-  
+}
+
+
+function cartPriceCal() {
+    $('#cart_price');
 }

@@ -113,20 +113,24 @@ function addToCart (product) {
     }
 
     let productMessage = new Array;
-    for(let i = 0;i < option.length ;++i) {
-        productMessage[i] = ['','','',''];
-    }
+
+    // for(let i = 0;i < option.length ;++i) {
+        
+    // }
     
     let Num = 0;
     for(let i = 0; i < qtyArray.length ; ++i ) {
-
+        
         if($("#"+product+"_checkbox_"+qtyArray[i]).is(":checked") ) {
+            productMessage[Num] = ['','','','',''];
+
             productMessage[Num][0] = product;
-            productMessage[Num][1] = qtyArray[i];
-            productMessage[Num][2] = $('#'+product+"_inputbox_"+qtyArray[i]).val();
+            productMessage[Num][1] = $('#'+product+'_price_'+qtyArray[i]).attr("value");
+            productMessage[Num][2] = qtyArray[i];
+            productMessage[Num][3] = $('#'+product+"_inputbox_"+qtyArray[i]).val();
             // productMessage[i][3] = ;
             for (let j = 0; j < option.length ; ++j ) {
-                productMessage[Num][3] =  productMessage[Num][3] + $("#"+product+"_"+option[j]).val() + ";";
+                productMessage[Num][4] =  productMessage[Num][4] + $("#"+product+"_"+option[j]).val() + ";";
             }
             Num++;
         }
@@ -136,5 +140,6 @@ function addToCart (product) {
     //判断用户登录状态，如果已登录，则需要存入数据库，cart页面读取由数据库数据进行
     cartTableCheck();
     cartDataInsert(productMessage);
-    
+    cartProcess('myCart');
+    alert('Successfully added to cart');
 }

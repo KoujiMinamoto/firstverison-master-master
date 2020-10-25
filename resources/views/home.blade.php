@@ -6720,8 +6720,8 @@
                                                                 <tr>
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
                                                                            onclick="ClearLWCache(74);"></a></td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(fridgeMagnet)"></td>
+                                                                    <td><input type="text" class="add_to_cart"
+                                                                               onclick="addToCart('fridge')"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
@@ -11439,51 +11439,9 @@
 
     <!-- cart -->
     <div class="cart_div" id="cart_div_id" style="display:none">
-        <!-- shop-cart-area -->
-        <!-- <div id="cart_none" display="block">
-            <p>There is nothing in your cart</p>
-        </div>
-        <div class="cart_main" style="display:none">
-            <table id="cart_table">
-                <thead>
-                <tr>
-                    <th class="product-name">Product</th>
-                    <th class="product-price">Price</th>
-                    <th class="product-quantity">Quantity</th>
-                    <th class="product-description">Description</th>
-                    <th class="product-subtotal">Total</th>
-                    <th class="product-remove">Remove</th>
-                </tr>
-                </thead>
-
-            </table>
-        </div>
-        <div class="cart_price" style="display:none">
-            <div class="cart_totals">
-                <h2>Cart Totals</h2>
-                <table>
-                    <tbody>
-                    {{-- <tr class="cart-subtotal">
-                                    <th>Subtotal</th>
-                                    <td><span class="amount">$0.00</span></td>
-                                </tr> --}}
-                    <tr class="order-total">
-                        <th>Total</th>
-                        <td>
-                            <strong><p class="amount">$0.00</p></strong>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-                <div class="wc-proceed-to-checkout">
-                    <a href="#">Proceed to Checkout</a>
-                </div>
-            </div>
-        </div> -->
-        <!-- shop-cart-area-end -->
         <div class="main_product_container checkout_holder">
             <div class="cart_left">
-                <span class="checkout_step active_step"><span class="step_cart">My Cart</span></span>
+                <span class="checkout_step"><span class="step_cart">My Cart</span></span>
                 <span class="checkout_step"><span class="step_cart">Delivery Information</span></span>
                 <span class="checkout_step"><span class="step_cart">Confirm your Order</span></span>
                 <span class="checkout_step"><span class="step_cart">Upload your Files</span></span>
@@ -11491,28 +11449,48 @@
             </div>
             <div class="cart_right">
                 <h1>My Cart</h1>
-                <div id="cart_myCart" diaplay="block">
-                    <div id="cart_onProduct" display="none">No product found in cart!</div>
-                    <div id="cart_haveProduct" display="none"></div>
+                <div id="cart_myCart" style="display: block;">
+                    <div id="cart_onProduct" style="display: block;">No product found in cart!</div>
+                    <div id="cart_haveProduct" style="display: none;">
+                           
+                    </div>
+
+                    <div class="cart_price" style="display:none">
+                        <div class="cart_totals">
+                            <h2>Cart Totals</h2>
+                            <table>
+                                <tbody>
+                                
+                                <tr class="order-total">
+                                    <th>Total</th>
+                                    <td>
+                                        <strong><p class="amount" id="cart_price">$0.00</p></strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            
+                        </div>
+                    </div>
+
                 </div>
 
-                <div id="cart_delivery" diaplay="none">
-                    <div id="cart_userInfomation" display="none">
+                <div id="cart_delivery" style="display: none;">
+                    <div id="cart_userInfomation" >
+                    </div>
+                </div>
+
+                <div id="cart_confirm" style="display: none;">
+                    <div id="cart_confirmOrder">
 
                     </div>
                 </div>
 
-                <div id="cart_confirm" display="none">
-                    <div id="cart_confirmOrder" display="none">
-
-                    </div>
-                </div>
-
-                <div id="cart_upload" display="none">
+                <div id="cart_upload" style="display: none;">
 
                 </div>
 
-                <div id="cart_payment" display="none">
+                <div id="cart_payment" style="display: none;">
                 
                 </div>
 

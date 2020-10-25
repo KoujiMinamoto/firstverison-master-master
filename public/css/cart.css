@@ -1,7 +1,7 @@
-.cart_main {
+#cart_haveProduct {
     margin: 0 auto;
     width: 120rem;
-    min-height: 30rem;
+    min-height: 20rem;
 }
 #cart_none {
     margin: 0 auto;
@@ -14,12 +14,11 @@
 }
 
 .cart_price {
-    margin-left: 110rem;
+    margin-left: 80rem;
     height: 20rem;
     width: 20rem;
 }
-
-.cart_main table {
+#cart_haveProduct table {
     background: #fff none repeat scroll 0 0;
     border-color: #e5e5e5;
     border-radius: 0;
@@ -27,13 +26,13 @@
     border-width: 1px 0 0 1px;
     margin: 0 0 50px;
     text-align: center;
-    width: 120rem;
+    width: 100rem;
 }
-.cart_main table th, .cart_main table td {
+#cart_haveProduct table th, #cart_haveProduct table td {
     border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
 }
-.cart_main table th {
+#cart_haveProduct table th {
     border-top: medium none;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -43,31 +42,31 @@
     vertical-align: middle;
     white-space: nowrap;
 }
-.cart_main table td.product-thumbnail {
+#cart_haveProduct table td.product-thumbnail {
     width: 130px;
 }
 .product-thumbnail img {
     width: 100%;
 }
-.cart_main table td {
+#cart_haveProduct table td {
     border-top: medium none;
     padding: 20px 10px;
     vertical-align: middle;
     font-size: 13px;
 }
-.cart_main table td.product-name {
+#cart_haveProduct table td.product-name {
     width: 270px;
 }
-.cart_main table td.product-name a {
+#cart_haveProduct table td.product-name p {
     font-size: 14px;
     font-weight: 700;
     margin-left: 10px;
     color: #6f6f6f;
 }
-.cart_main table td.product-price {
+#cart_haveProduct table td.product-price {
     width: 130px;
 }
-.cart_main table .product-price .amount {
+#cart_haveProduct table .product-price .amount {
     font-size: 15px;
     font-weight: 700;
     margin:0;
@@ -76,11 +75,11 @@
     font-size: 15px;
     font-weight: 700;
 }
-.cart_main table td.product-quantity {
+#cart_haveProduct table td.product-quantity {
     width: 180px;
 }
 
-.cart_main table td input {
+#cart_haveProduct table td input {
     background: #e5e5e5 none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
@@ -92,21 +91,21 @@
     padding: 0 5px 0 10px;
     width: 60px;
 }
-.cart_main table td.product-subtotal {
+#cart_haveProduct table td.product-subtotal {
     font-size: 14px;
     font-weight: bold;
     width: 120px;
 }
-.cart_main table td {
+#cart_haveProduct table td {
     border-top: medium none;
     padding: 20px 10px;
     vertical-align: middle;
     font-size: 13px;
 }
-.cart_main table td.product-remove {
+#cart_haveProduct table td.product-remove {
     width: 150px;
 }
-.cart_main table td.product-remove i {
+#cart_haveProduct table td.product-remove i {
     color: #919191;
     display: inline-block;
     font-size: 20px;
@@ -153,7 +152,7 @@
     vertical-align: top;
 }
 .cart_totals table td .amount {
-    color: #ffae00;
+    color: black;
     float: right;
     font-size: 13px;
     font-weight: bold;
@@ -197,7 +196,7 @@
     color: #7f7f7f;
 }
 
-.cart_div a.checkout_step:hover{
+/* .cart_div a.:hover{
 	background: #0071BC  repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(#29ABE2),color-stop(100%, #0071BC));
 	background: -webkit-linear-gradient(top,#29ABE2 ,#0071BC 100%);
@@ -207,14 +206,14 @@
 	background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
 	border-color: #0071BC;
 	color:#fff;
-}
+} */
 
-.step_cart:hover{
+/* .step_cart:hover{
     background: #0071BC url(../image/cart_step_icon.png) no-repeat 10px 10px ;
 
 	border-color: #0071BC;
 	color:#fff;
-}
+} */
 
 .cart_div a.checkout_step,
 .cart_div span.checkout_step{
@@ -265,4 +264,19 @@
     margin-top:3rem;
 }
 
+#fridge_totalPrice {
+    display: inline-block;
+}
 
+/** */
+.cartOn {
+    background: #0071BC  repeat-x left top !important; 
+	background: -webkit-gradient(linear, center top, center bottom, from(#29ABE2),color-stop(100%, #0071BC)) !important;
+	background: -webkit-linear-gradient(top,#29ABE2 ,#0071BC 100%) !important;
+	background: -moz-linear-gradient(top,#29ABE2 ,#0071BC 100%) !important;
+	background: -ms-linear-gradient(top,#29ABE2 ,#0071BC 100%) !important;
+	background: -o-linear-gradient(top,#29ABE2 ,#0071BC 100%) !important;
+	background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%) !important;
+	border-color: #0071BC !important;
+	color:#fff !important;
+}
