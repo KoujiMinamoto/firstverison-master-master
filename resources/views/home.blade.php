@@ -124,91 +124,91 @@
         <div id="header_shadow" style="display: none;"></div>
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
-                <a href="#" title="Online Booklet Printing Services">
+                <a type="button" onclick="clickProduct(0)" title="Online Booklet Printing Services">
                     <div class="home_panel_img booklets_img"></div>
                     Booklets
                 </a>
             </div>
 
             <div class="brochures_holder home_menu">
-                <a href="#" title="Online Brochure Printing Services">
+                <a type="button" onclick="clickProduct(1)" title="Online Brochure Printing Services">
                     <div class="home_panel_img brochures_img"></div>
                     Brochures
                 </a>
             </div>
 
             <div class="business_cards_holder home_menu">
-                <a href="#" title="Online Business Card Printing Services">
+                <a type="button" onclick="clickProduct(2)" title="Online Business Card Printing Services">
                     <div class="home_panel_img business_cards_img"></div>
                     Business Cards
                 </a>
             </div>
 
             <div class="notepads_holder home_menu">
-                <a href="#" title="Online Notepad Printing Services">
+                <a type="button" onclick="clickProduct(3)" title="Online Notepad Printing Services">
                     <div class="home_panel_img notepads_img"></div>
                     Deskpads / Notepads
                 </a>
             </div>
 
             <div class="docketbooks_holder home_menu">
-                <a href="#" title="Online Docket Book Printing Services">
+                <a type="button" onclick="clickProduct(5)" title="Online Docket Book Printing Services">
                     <div class="home_panel_img docketbooks_img"></div>
                     Docket Books
                 </a>
             </div>
 
             <div class="envelopes_holder home_menu">
-                <a href="#" title="Online Envelope Printing Services">
+                <a type="button" onclick="clickProduct(6)" title="Online Envelope Printing Services">
                     <div class="home_panel_img envelopes_img"></div>
                     Envelopes
                 </a>
             </div>
 
             <div class="flyers_holder home_menu">
-                <a href="#" title="Online Flyer Printing Services">
+                <a type="button" onclick="clickProduct(8)" title="Online Flyer Printing Services">
                     <div class="home_panel_img flyers_img"></div>
                     Flyers
                 </a>
             </div>
             <div class="magnets_holder home_menu">
-                <a href="#" title="Buy Fridge Magnets Online">
+                <a type="button" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">
                     <div class="home_panel_img magnets_img"></div>
                     Fridge Magnets
                 </a>
             </div>
             <div class="letterheads_holder home_menu">
-                <a href="#" title="Online Letterhead Printing Services">
+                <a type="button" onclick="clickProduct(10)" title="Online Letterhead Printing Services">
                     <div class="home_panel_img letterheads_img"></div>
                     Letterheads
                 </a>
             </div>
             <div class="postcards_holder home_menu">
-                <a href="#" title="Online Postcard Printing Services">
+                <a type="button" onclick="clickProduct(11)" title="Online Postcard Printing Services">
                     <div class="home_panel_img postcards_img"></div>
                     Postcards
                 </a>
             </div>
             <div class="posters_holder home_menu">
-                <a href="#" title="Online Poster Printing Services">
+                <a type="button" onclick="clickProduct(12)" title="Online Poster Printing Services">
                     <div class="home_panel_img posters_img"></div>
                     Posters
                 </a>
             </div>
             <div class="presentation_folders_holder home_menu">
-                <a href="#" title="Online Presentation Folder">
+                <a type="button" onclick="clickProduct(13)" title="Online Presentation Folder">
                     <div class="home_panel_img presentation_folders_img"></div>
                     Presentation Folders
                 </a>
             </div>
             <div class="with_comps_holder home_menu">
-                <a href="#">
+                <a type="button" onclick="clickProduct(14)">
                     <div class="home_panel_img with_comps_img"></div>
                     With Compliments
                 </a>
             </div>
             <div class="web_design_holder home_menu">
-                <a href="#">
+                <a type="button" onclick="clickProduct(15)">
                     <div class="home_panel_img web_design_img"></div>
                     Website Design
                 </a>
@@ -1749,58 +1749,58 @@
                     <div class="main_left_bottom1">
 
                         <div class="product_info_express no_margin">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">
+                            <a type="button" onclick="clickProduct(7)">
                                 <div class="product_info_express_img">
                                 </div>
                                 <h4>Express Printing</h4>
                                 <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                                <a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/urgent-printing">read
+                                <a class="blue_link" type="button"
+                                    onclick="clickProduct(7)">read
                                     more+</a>
                             </a>
                         </div>
 
                         <div class="product_info_design margin_left20">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">
+                            <a type="button" onclick="clickHeader(2)">
                                 <div class="product_info_design_img">
                                 </div>
                                 <h4>Design Services</h4>
                                 <p>Need artwork setup? Our team of experienced designers can help</p>
                             </a><a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">read
+                            type="button" onclick="clickHeader(2)">read
                                 more+</a>
 
                         </div>
                         <div class="product_info_gallery gallery_brochure">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">
+                            <a type="button" onclick="clickHeader(3)">
                                 <div class="product_info_gallery_img">
                                 </div>
                                 <h4>Gallery</h4>
                                 <p>Looking for design inspiration? See examples of our work</p>
                             </a><a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-gallery.php">read
+                                type="button" onclick="clickHeader(3)">read
                                 more+</a>
 
                         </div>
                         <div class="product_info_order">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">
+                            <a type="button" onclick="clickHeader(14)">
                                 <div class="product_info_order_img">
                                 </div>
                                 <h4>Order process</h4>
                                 <p>The ordering process explained</p>
                                 <a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php">read
+                                   type="button" onclick="clickHeader(14)">read
                                     more+</a>
                             </a>
                         </div>
                         <div class="product_info_guidelines">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">
+                            <a type="button" onclick="clickHeader(16)">
                                 <div class="product_info_guidelines_img">
                                 </div>
                                 <h4>File Guidelines</h4>
                                 <p>Print specifications to achieve best printing results</p>
                                 <a class="blue_link"
-                                   href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/artwork-specifications.php">read
+                                   type="button" onclick="clickHeader(16)">read
                                     more+</a>
                             </a>
                         </div>
@@ -2416,7 +2416,7 @@
                         </div>
                         <!-- email your order in 3 steps -->
                         <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                           href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                           type="button" onclick="clickHeader(14)"
                            data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                             <img class="block" id="u76951_img"
                                  src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -2567,13 +2567,13 @@
 
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/artwork-specifications.php">read
+                               type="button" onclick="clickHeader(16)">read
                             more+</a><br/>
                         <br/>
 
@@ -2962,7 +2962,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -3564,7 +3564,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -4216,7 +4216,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -4860,7 +4860,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -5487,7 +5487,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -6323,7 +6323,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -6743,7 +6743,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -7305,7 +7305,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -7500,12 +7500,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
 
@@ -8149,7 +8149,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -8325,12 +8325,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
@@ -8779,7 +8779,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -8942,12 +8942,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/artwork-specifications.php">
+                        <a type="button" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
@@ -9392,7 +9392,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -10694,7 +10694,7 @@
                     </div>
                     <!-- email your order in 3 steps -->
                     <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                       href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/order.php"
+                       type="button" onclick="clickHeader(14)"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                         <img class="block" id="u76951_img"
                              src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -11916,6 +11916,456 @@
 
     </div>
 
+    <!-- Sample Pack -->
+    <div class="sample_div" id="sample_div_id" style="display:none">
+        <div class="main_container">
+        <div class="container_left">
+        <h1>Sample Pack</h1>
+        <h3 class="sample_pack_title">Unsure about the quality of our printing services?</h3>
+        <p>We understand that choosing an online printer is difficult without seeing the quality for yourself. To ensure you are making the right choice by investing in a quality printing service, order a FREE sample pack from 1Print.</p>
+        <p>&nbsp;</p>
+        <p>To receive a FREE sample pack with your choice of printed products, simply complete the form with your details. Our standard turnaround is 2-3 Days.  This may vary based on the type of products requested.
+        </p>
+        <p>&nbsp;</p>
+        <p>*Please Note: Only 1 free sample pack per customer.</p>
+        </div>
+        
+        <div class="samplepack_container_right">
+            <div class="sample_pack_left">
+            <h2>Yes! Please send me a sample pack!</h2>
+            <p>Fill out the form with your details. Sample packs are usually delivered within 2-3 working days.</p>
+            </div>
+            <div class="sample_pack_right">
+                
+            <form method="post" name="customquotes" id="customquotes" onsubmit="">
+                    <div class="create-account-table3"><table width="378" border="0" cellspacing="0" cellpadding="0">
+                    <tbody><tr>
+                        <td colspan="2" valign="top">
+                            <table width="100%" cellpadding="3" cellspacing="0">
+                            <tbody><tr>
+                            <td class="sample_td1" height="25">Business Name</td>
+                            <td><input name="company" type="text" id="company" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Your Name</td>
+                            <td><input name="name" type="text" id="name" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Email</td>
+                            <td><input name="email" type="text" id="email" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Address</td>
+                            <td><input name="address" type="text" id="address" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Suburb</td>
+                            <td><input name="suburb" type="text" id="suburb" maxlength="80" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>State</td>
+                            <td><select name="state">
+                            
+                            <option value="VIC" selected="selected">VIC</option>
+                            
+                            <option value="WA">WA</option>
+                            
+                            <option value="NSW">NSW</option>
+                            
+                            <option value="ACT">ACT</option>
+                            
+                            <option value="SA">SA</option>
+                            
+                            <option value="QLD">QLD</option>
+                            
+                            <option value="TAS">TAS</option>
+                            
+                            <option value="NT">NT</option>
+                            
+                            </select></td>
+                            </tr>
+                            <tr>
+                            <td>Postcode</td>
+                            <td><input name="postcode" type="text" id="postcode" maxlength="4" value=""></td>
+                            </tr>
+                            <tr>
+                            <td>Telephone</td>
+                            <td><input name="phone" type="text" id="phone" maxlength="25" value=""></td>
+                            </tr>
+                            <tr>
+                            <td valign="top">Comment</td>
+                            <td><textarea name="comments" rows="6"></textarea></td>
+                            </tr>
+                        
+                    
+                    
+                    <tr>
+                        <td></td>
+                        <td valign="top"><input type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked=""> Subscribe to our newsletter for special offers </td>
+                        </tr>
+                    </tbody></table>
+                        </td></tr><tr>
+                        <td colspan="5" style="padding-right:15px">
+                        <table width="150" border="0" cellspacing="0" cellpadding="0" align="right">
+                            <tbody><tr>
+                                <td><div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes"></div></td>
+                            </tr>
+                            <tr>
+
+                            <td align="right"><input type="submit" class="sample_submit blue_button " name="postemail" value="Submit" id="postemail"></td>
+                            </tr>
+                        </tbody></table></td>
+                    </tr>
+                </tbody></table></div>
+                </form>   
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        </div>
+
+    </div>
+
+    <!-- orderprocess -->
+    <div class="orderprocess_div" id="orderprocess_div_id" style="display:none">
+        <div class="main_container">
+            <div class="container_left">
+            <h1>Ordering Options</h1>
+            <p>1Print makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="http://web.archive.org/web/20180903153442/mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.</p>
+            <h2 class="order_title_cart">Shopping Cart</h2>
+            <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
+            </p>
+            
+            <p class="black_heading padding_top">Payment Methods Accepted</p>
+            <div class="pay_method_list">
+            <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
+            
+            </div>
+            <div class="new_customer">
+                <h5>New Customers</h5>
+                <p>You will need to create an account before proceeding with your order. You will be automatically logged in after you register.
+                </p>
+                <a onclick="clickHeader(9)" class="blue_button">Click here to Register</a>
+            </div>
+            <div class="existing_customer">
+                <h5>Existing Customers</h5>
+                <p>If you have already created an account, login to your account before proceeding with your order.
+                </p>
+                <a onclick="clickHeader(8)" class="blue_button">Login</a>
+            </div>
+            <div class="clear"></div>
+            
+            <div class="order_number">
+                <div class="order_number_holder">
+                1
+                </div>
+                <div class="order_number_text">
+                <p>Select the product and quantity of your choice and click 'add to cart'.<br style="">
+                    If you have finished shopping proceed to checkout...</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="order_number">
+                <div class="order_number_holder">
+                2
+                </div>
+                <div class="order_number_text">
+                <p>Confirm your order and update your delivery and billing address if necessary. If you have any specific instructions, you can  include this in the comment box provided.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="order_number">
+                <div class="order_number_holder">
+                3
+                </div>
+                <div class="order_number_text">
+                <p>Upload your artwork files and enter any relevant information to those files.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="order_number">
+                <div class="order_number_holder">
+                4
+                </div>
+                <div class="order_number_text">
+                <p>Make your payment through the secure ANZ Gateway.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <p>Once you have completed these 4 easy steps, you will receive an email confirming your delivery address, product details, payment confirmation and receipt number.</p>
+            
+            
+            
+            </div>
+            <div class="container_right">.
+            <h2 class="order_title_email">Email Orders</h2>
+            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="http://web.archive.org/web/20180903153442/mailto:orders@1print.net.au">orders@1print.net.au</a>, detailing what you require along with the attached print ready file.</p>
+            <p>&nbsp;</p>
+            <p>Upon receiving your email, our office will generate an invoice and contact you to process your payment. Payment methods for email orders are shown below.</p>
+            <p class="black_heading padding_top">Payment Methods Accepted</p>
+            <div class="pay_method_list">
+            
+            <img src="{{URL::asset('/image/eft.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/cheque.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
+            <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
+            
+            </div>
+            <p class="black_heading padding_top">File Transfers</p>
+            <p>When using email orders, the file attachment cannot exceed 8mb. If the attachment is larger than 8mb we require you to use one of our other accepted file transfer methods (see below)</p>
+            
+            
+            <p class="black_heading">Our accepted file transfer methods</p>	
+            <img src="{{URL::asset('/image/artwork methods-01.jpg') }}" alt="" width="55" height="55">
+            <img src="{{URL::asset('/image/artwork methods-02.jpg') }}" alt="" width="55" height="55">
+            <img src="{{URL::asset('/image/artwork methods-03.jpg') }}" alt="" width="55" height="55">
+            <img src="{{URL::asset('/image/artwork methods-04.jpg') }}" alt="" width="55" height="55">
+            
+            <p>Please contact us for more information.</p>
+            <p>&nbsp;</p>
+            <p>We�re Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
+            Please email <a class="black_link" href="mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.
+            </p>
+            </div>
+        <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- Delivery -->
+    <div class="delivery_div" id="delivery_div_id" style="display:none">
+        <div class="main_container">
+            <div class="container_left">
+                <h1 class="no_padding">1Print Delivers FREE<br style="">Within Australia</h1>
+                <p>At 1Print, we believe in making things as simple as possible for our clients.<br style="">
+                    That's why we include Australia-wide delivery in the price of our services to you.</p>
+
+                <h2 class="delivery_title">Estimated Dispatch Times</h2>
+                <div class="delivery_title">Booklets</div>
+                <p>Printing will be dispatched in 7-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Brochures*</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Business Cards*</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval.
+                </p>
+                <div class="delivery_title">Deskpads / Notepads</div>
+                <p>Printing will be dispatched in 5-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Docket books</div>
+                <p>Printing will be dispatched in 7-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Envelopes</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Express Printing (Guaranteed 48 Hours Despatch Ex Factory)*</div>
+                <p>*Orders must be placed daily by 2pm, excluding Saturday &amp; Sunday. Despatch will occur 48 Hours upon receipt of your order. Despatch ex. factory does not guarantee a delivery time and our nominated courier company cannot hold us responsible for delays, damage or loss of goods.
+                </p>
+                <p>Pickup is available from our production facility daily between 8.00am to 5.00pm.
+                </p>
+                <div class="delivery_title">Flyers*</div>
+                <p>Printing will be dispatched in 3-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Fridge Magnets</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Letterheads</div>
+                <p>Printing will be dispatched in 7-10 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Postcards*</div>
+                <p>Printing will be dispatched in 3-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Posters</div>
+                <p>Printing will be dispatched in 3-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">Presentations Folders</div>
+                <p>Printing will be dispatched in 5-7 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <div class="delivery_title">With Compliments</div>
+                <p>Printing will be dispatched in 3-5 working Days after we have received your order or artwork approval. Dispatch time depends on quantities and the type of printing.
+                </p>
+                <p>&nbsp;</p>
+                <p>*Please note this does not apply to urgent printing.</p>
+
+
+
+            </div>
+            <div class="container_right">
+                <h2 class="large no_padding">Delivery Conditions</h2>
+                <p>There are a few conditions that are placed on the delivery services, which you should be aware of before placing an order.
+                </p>
+                <h4 class="delivery_conditions">Delivery conditions are listed below:</h4>
+                <ul class="black_bullets delivery_list">
+                    <li>Our despatch time will be between 2-10 working days, which starts the first day after we receive your artwork approval.
+                    </li>
+                    <li>All representations by 1Print, as to the date and /or time for delivery are made in good faith, but are not guaranteed.
+                    </li>
+                    <li>1Print and its directors, account managers, employees and associated companies shall not be liable for late deliveries or lost goods.
+                    </li>
+                    <li>Lost goods will be fully refundable or replaced.
+                    </li>
+                    <li>Do not place an order if exact delivery times are crucial to you, without obtaining verification from our office. Delays may be caused by manufacturing or delivery.
+                    </li>
+                    <li>Deliveries will ONLY be made to your nominated delivery address between 9:00 am and 5:30 pm, Monday to Friday.
+                    </li>
+                    <li>An authorised person must sign for the delivery.
+                    </li>
+                    <li>If a delivery is to be made to an address other than your business address, we require the full name of the person who will be accepting the delivery and a complete address for the delivery.
+                    </li>
+                    <li>If the incorrect address is given to 1Print, a $25.00 administration fee applies to redirect the goods to the correct shipping address.
+                    </li>
+                    <li>If there is no-one available to sign for the goods and they are subsequently lost or damaged, we will not be liable for the loss.
+                    </li>
+                    <li>Deliveries will not be made to a PO Box.
+                    </li>
+                    <li>Once goods are delivered, 1Print Pty Ltd is not liable for any loss or damage.
+                    </li>
+                    <li>Advance notification of delivery day, date or time by phone or email is not possible.
+                    </li>
+                    <li>Upon receipt, the customer will inspect the goods and notify 1Print of any errors within three days after delivery, quoting all relevant details.
+                    </li>
+                    <li>If you have a Street/Residential address and it's unattended we can leave your goods at the door,  if your request this type of delivery, please note we are not responsible for any lost or stolen property.
+                    </li>
+                    <li>We cannot deliver to Apartment blocks that have Security Entrances, if they are unattended. (If this happens and the goods are returned to us, you will be asked to arrange your own courier or pay an additional delivery fee).
+                    </li>
+                    <li>
+                        If address is unattended our courier companies have authority to leave at your door.
+                        If couriers can't get access in units / apartments or shopfronts on major roads parcels will be taken back to depo,
+                        a card will be left at your premises notifying of depo location.
+                        Orders can picked up from depo within 5 working days or they can be redelivered. A redelivery fee will apply.
+                    </li>
+                </ul>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+
+    <!-- fileguide -->
+    <div class="file_guidelines_div" id="file_guidelines_div_id" style="display:none">
+        <div class="main_container">
+                <div class="container_left">
+                <h1>Artwork Specifications</h1>
+            <p>&nbsp;</p>	
+            <p class="black_heading">Image Text and Trims</p>
+            <p>All non bleed images and text should be kept at least 3mm from the trim to ensure trim tolerances are maintained.
+            </p>
+            <p>&nbsp;</p>	
+            <p class="black_heading">Blacks</p>
+            <p>Solid black areas should be made up of 40% Cyan, 20% Magenta, 20% Yellow and 100% Black to give a strong deep colour.
+            </p>
+            <p>&nbsp;</p>	
+            <p class="black_heading">Booklet Creep</p>
+            <p>Page creep will occur on booklet jobs. To help with finishing all page numbers, non bleed images and text should be kept at least 10mm from the trims. We advise you to allocate a 5mm bleed on all booklet jobs.
+            </p> 
+            <p>&nbsp;</p>	
+            <p class="black_heading">Folding</p>
+            <p>Fold panels for A4-DL should be set from left to right 98-99-100 (outside) and 100-99-98 (inside). Supplied PSD artwork always remains the responsibility of the customer. 1Print will not accept responsibility for errors due to out of specification files.
+            </p>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-01.png') }} ">    
+                <strong>Single Fold</strong><br style="">
+                <span>4 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
+                <strong>Roll Fold</strong><br style="">
+                <span>6 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
+                <strong>Z Fold</strong><br style="">
+                <span>6 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
+                <strong>Roll Fold</strong><br style="">
+                <span>8 Page Brochure</span>
+            </div>
+            <div class="folding_list">
+                <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
+                <strong>Concertina</strong><br style="">
+                <span>8 Page Brochure</span>
+            </div>
+            <div class="clear"></div> 
+            
+            <p class="black_heading">Standard Product Sizes</p>  
+            <ul class="black_bullets">
+            <li><span class="black">Business Cards</span> - 90 x 55mm, 89 x 54mm, 90 x 50mm or 90 x 45mm</li>
+            <li><span class="black">DL</span> - 210 x 99mm</li>
+            <li><span class="black">2DL</span> - 210 x 198mm</li>
+            <li><span class="black">A6</span> - 148 x 105mm</li>
+            <li><span class="black">A5</span> - 210 x 148mm</li>
+            <li><span class="black">A4</span> - 210 x 297mm</li>
+            <li><span class="black">A3</span> - 420 x 297mm</li>
+            <li><span class="black">A2</span> - 594 x 420mm</li>
+            <li><span class="black">A1</span> - 840 x 594mm</li>
+            </ul>
+            <p>&nbsp;</p><p>&nbsp;</p>
+            <h2 class="large">Filetype Specifications</h2>
+            <p class="black">1Print will only accept the following formats as final artwork. Artwork which does not adhere to these specifications will incur artwork charges.
+            </p>
+            <p>&nbsp;</p>
+            <ul class="black_bullets">
+            <li><span class="black">Adobe Acrobat</span> (PDF) version XI or below (PDF)</li>
+            <li><span class="black">Adobe Photoshop</span> version CC or below (PSD or TIFF)</li>
+            <li><span class="black">Adobe Illustrator</span> version CC or below (AI, EPS, PDF)</li>
+            <li><span class="black">Adobe InDesign</span> version CC or below (INDD)</li>
+            </ul>
+            <p>&nbsp;</p>
+            <ul class="black_bullets"> 
+            <li>1Print accepts files in PC or MAC format.</li>
+            <li>All images must be saved in CMYK at 300dpi.</li>
+            <li>Make sure all colours are nominated correctly as PMS or CMYK.</li>
+            <li>OVERPRINTS MUST BE TURNED OFF</li>
+            <li style="font-weight: bold;">All artwork must include a minimum of 2mm bleed and crop marks.</li>
+            <li>Where possible, please convert your text to outlines or curves.</li>
+            <li>Please supply us with all relevant files, including fonts and links (graphics)</li>
+            </ul> 
+            </div>
+            
+            <div class="container_right">
+            <h2 class="large">Pre Press Guidelines</h2>
+            <p>&nbsp;</p>  
+            <p class="black_heading">Templates</p>
+            <p>Acrobat Distiller settings and InDesign templates for standard products are available from our Prepress department.
+            </p><p>&nbsp;</p>
+            <p class="black_heading">PDF Compliance</p>
+            <p>Please use PDF Version 1.4.<br style="">
+            Ensure all files are flattened (flattening options turned on).<br style="">
+            Supply multiple page PDF with 1 up artwork on each page.<br style="">
+            Use CMYK not RGB. OVERPRINTS MUST BE TURNED OFF.<br style="">
+            Supply with crop marks and 2mm minimum bleed.<br style="">
+            Ensure artwork is centered in document.<br style="">
+            Text and non-bleed images should be kept 3mm from trims.</p>
+            <p>&nbsp;</p>
+            <p class="black_heading">Font Usage</p>
+            <p>All fonts must be embedded, or you can outline fonts before creating a PDF to avoid issues.</p>
+            <p>&nbsp;</p>
+            <p class="black_heading">Graphic/Images elements checklist</p>
+            <p>Bitmaps images supplied at 400dpi.<br style="">
+            CMYK images supplied (no RGB, LAB, PMS colours).<br style="">
+            Combined colour ink density should not exceed 300%.<br style="">
+            No ICC colour profiles will be used.</p>
+            <p>&nbsp;</p>
+            <p class="black_heading">Flight Check</p>
+            <p>We strongly recommend that a flight checking application is used to check the integrity of the PDF prior to sending to 1Print.
+            </p><p>&nbsp;</p>
+            <p class="black_heading">Storage of Files</p>
+            <p>PDF's will remain on our system for 1 week following printing. 1Print does not undertake archiving and retrieval of customer data.
+            </p>
+            </div>
+                <div class="clear"></div>
+        </div>
+    </div>
+
+
+
+
     </div><!-- home_background end -->
     <!-- footer -->
     <div class="footer" id="footer_id">
@@ -11930,47 +12380,47 @@
                 <div class="footer_menu1">
                     <div class="footer_heading">Printing Services</div>
                     <ul>
-                        <li><a>Business Card Printing</a></li>
-                        <li><a>Booklet Printing</a></li>
-                        <li><a>Brochure Printing</a></li>
-                        <li><a>Compliment Slip Printing</a></li>
-                        <li><a>Docket Book Printing</a></li>
-                        <li><a>Envelope Printing</a></li>
-                        <li><a>Flyer Printing</a></li>
+                        <li><a onclick="clickProduct(2)">Business Card Printing</a></li>
+                        <li><a onclick="clickProduct(0)">Booklet Printing</a></li>
+                        <li><a onclick="clickProduct(1)">Brochure Printing</a></li>
+                        <li><a onclick="clickProduct(14)">Compliment Slip Printing</a></li>
+                        <li><a onclick="clickProduct(5)">Docket Book Printing</a></li>
+                        <li><a onclick="clickProduct(6)">Envelope Printing</a></li>
+                        <li><a onclick="clickProduct(8)">Flyer Printing</a></li>
                     </ul>
                 </div>
                 <div class="footer_menu2">
                     <ul>
-                        <li><a>Letterhead Printing</a></li>
-                        <li><a>Notepad/Desk Pad Printing</a></li>
-                        <li><a>Postcard Printing</a></li>
-                        <li><a>Posters Printing</a></li>
-                        <li><a>Presentation Folder Printing</a></li>
-                        <li><a>Express Printing</a></li>
-                        <li><a>Custom Quotes</a></li>
-                        <li><a>Website Design</a></li>
+                        <li><a onclick="clickProduct(10)">Letterhead Printing</a></li>
+                        <li><a onclick="clickProduct(3)">Notepad/Desk Pad Printing</a></li>
+                        <li><a onclick="clickProduct(11)">Postcard Printing</a></li>
+                        <li><a onclick="clickProduct(12)">Posters Printing</a></li>
+                        <li><a onclick="clickProduct(13)">Presentation Folder Printing</a></li>
+                        <li><a onclick="clickProduct(7)">Express Printing</a></li>
+                        <li><a onclick="clickHeader(6)">Custom Quotes</a></li>
+                        <li><a onclick="clickProduct(15)">Website Design</a></li>
                     </ul>
                 </div>
                 <div class="footer_menu3">
                     <div class="footer_heading">Company Info</div>
                     <ul>
-                        <li><a>About Us</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a onclick="clickHeader(5)">About Us</a></li>
+                        <li><a onclick="clickProduct(15)">Contact</a></li>
                         <li ><a onclick="clickHeader(12)">Privacy Policy</a></li>
                         <li ><a onclick="clickHeader(11)">Terms and Conditions</a></li>
-                        <li><a>Testimonials</a></li>
+                        <!-- <li><a>Testimonials</a></li> -->
                     </ul>
                 </div>
                 <div class="footer_menu4">
                     <div class="footer_heading">Support</div>
                     <ul>
-                        <li><a>Order Process</a></li>
-                        <li><a>Delivery</a></li>
-                        <li><a>File Guidelines</a></li>
-                        <li><a>FTP Accounts</a></li>
-                        <li><a>Colour Critical</a></li>
-                        <li><a>Sample Pack</a></li>
-                        <li><a>FAQ</a></li>
+                        <li><a onclick="clickHeader(14)">Order Process</a></li>
+                        <li><a onclick="clickHeader(15)">Delivery</a></li>
+                        <li><a onclick="clickHeader(16)">File Guidelines</a></li>
+                        <!-- <li><a>FTP Accounts</a></li>
+                        <li><a>Colour Critical</a></li> -->
+                        <li><a onclick="clickHeader(13)">Sample Pack</a></li>
+                        <li><a onclick="clickHeader(4)">FAQ</a></li>
                         <li><a>Sitemap</a></li>
                     </ul>
                 </div>
