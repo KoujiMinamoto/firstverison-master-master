@@ -6718,7 +6718,7 @@
                                                                 <tbody>
                                                                 <tr>
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearLWCache(74);"></a></td>
+                                                                           onclick="clearPrice('fridge');"></a></td>
                                                                     <td><input type="text" class="add_to_cart"
                                                                                onclick="addToCart('fridge')"></td>
                                                                 </tr>
@@ -11449,8 +11449,8 @@
                 <span class="checkout_step"><span class="step_cart">Payment</span></span>
             </div>
             <div class="cart_right">
-                <h1>My Cart</h1>
                 <div id="cart_myCart" style="display: block;">
+                    <h1>My Cart</h1>
                     <div id="cart_onProduct" style="display: block;">No product found in cart!</div>
                     <div id="cart_haveProduct" style="display: none;">
 
@@ -11473,26 +11473,35 @@
 
                         </div>
                     </div>
-
+                    <div class = "cart_next" onclick = "cartProcess('delivery')">Next</div>
                 </div>
 
                 <div id="cart_delivery" style="display: none;">
+                    <h1>Delivery Information</h1>
                     <div id="cart_userInfomation" >
                     </div>
+                    <div class = "cart_back" onclick = "cartProcess('myCart')">Back</div>
+                    <div class = "cart_next" onclick = "cartProcess('confirm')">Next</div>
                 </div>
 
                 <div id="cart_confirm" style="display: none;">
+                    <h1>Confirm your Order</h1>
                     <div id="cart_confirmOrder">
 
                     </div>
+                    <div class = "cart_back" onclick = "cartProcess('delivery')">Back</div>
+                    <div class = "cart_next" onclick = "cartProcess('upload')">Next</div>
                 </div>
 
                 <div id="cart_upload" style="display: none;">
-
+                    <h1>Upload your Files</h1>
+                    <div class = "cart_back" onclick = "cartProcess('confirm')">Back</div>
+                    <div class = "cart_next" onclick = "cartProcess('payment')">Next</div>
                 </div>
 
                 <div id="cart_payment" style="display: none;">
-
+                    <h1>Payment</h1>
+                    <div class = "cart_back" onclick = "cartProcess('upload')">Back</div>
                 </div>
 
         </div>

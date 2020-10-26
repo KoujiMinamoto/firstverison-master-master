@@ -504,26 +504,3 @@ function UpdateCompsProductPrice() {
 
     }
 }
-
-
-function addMessage1() {
-
-    if ($("#product1_tr input").val() === undefined) {
-        $("#cart_table").append('<tr id="product1_tr"><td class="product-thumbnail"><img src="" alt=""></td><td class="product-name"><a href="#">CD Print1</a></td><td class="product-price"><span class="amounts">$300.00</span></td><td class="product-quantity"><input type="number" value="1" disabled="disabled"></td><td class="product-subtotal">$300.00</td><td class="product-remove"><a href="#"><i class="fa fa-times" onclick="delete1()"></i></a></td></tr>');
-        let price = $(".amount").text().split("$");
-        let count = price[1].split(".");
-        let counts = count[0];
-        counts = parseInt(counts) + 300;
-        $(".amount").text("$"+counts+".00");
-    } else {
-        let num = parseInt( $("#product1_tr input").val() ) +1;
-        $("#product1_tr input").val(num);
-        let price = $(".amount").text().split("$");
-        let count = price[1].split(".");
-        let counts = count[0];
-        counts = parseInt(counts) + 300;
-        $(".amount").text("$"+counts+".00");
-    }
-
-}
-

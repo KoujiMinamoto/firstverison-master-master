@@ -75,6 +75,7 @@ function productPriceCal(product) {
             totalPrice = totalPrice + $('#'+product+'_price_'+qtyArray[i]).attr("value") * $('#'+product+"_inputbox_"+qtyArray[i]).val();
         } 
     }
+    totalPrice = totalPrice.toFixed(2);
 
     return totalPrice;
 }
@@ -90,7 +91,7 @@ function clearPrice(product) {
         $("#"+product+"_checkbox_"+qtyArray[i]).prop("checked",false);
         $('#'+product+"_inputbox_"+qtyArray[i]).val(1);
     }
-    $("#"+product+"_totalPrice").text(0.00);
+    $("#"+product+"_totalPrice").text('0.00');
 }
 
 /**
@@ -140,6 +141,8 @@ function addToCart (product) {
     //判断用户登录状态，如果已登录，则需要存入数据库，cart页面读取由数据库数据进行
     cartTableCheck();
     cartDataInsert(productMessage);
+    totalPriceCal();
     cartProcess('myCart');
     alert('Successfully added to cart');
+    clearPrice('fridge');
 }

@@ -43,23 +43,47 @@ function cartTableCheck() {
 
 function cartProcess(process) {
     $('.checkout_step').attr('disabled','disabled');
-    if (process= "myCart") {
+    if (process == "myCart") {
+        
+        $("#cart_myCart").css('display','block');
+        $("#cart_delivery").css('display','none');
         $('.checkout_step').eq(0).addClass("cartOn");
-        // Set delete and save buttons to enabled
-        // $('.checkout_step').removeAttr("disabled");
+        $('.checkout_step').eq(1).removeClass("cartOn");
 
-    } else if (process = "delivery") {
+    } else if (process == "delivery") {
         $('.checkout_step').eq(0).removeClass("cartOn");
         $('.checkout_step').eq(1).addClass("cartOn");
-    } else if (process = "confirm") {
+        $('.checkout_step').eq(2).removeClass("cartOn");
+
+        $("#cart_myCart").css('display','none');
+        $("#cart_delivery").css('display','block');
+        $("#cart_confirm").css('display','none');
+
+    } else if (process == "confirm") {
         $('.checkout_step').eq(1).removeClass("cartOn");
         $('.checkout_step').eq(2).addClass("cartOn");
-    } else if (process = "upload") {
+        $('.checkout_step').eq(3).removeClass("cartOn");
+
+        $("#cart_delivery").css('display','none');
+        $("#cart_confirm").css('display','block');
+        $("#cart_upload").css('display','none');
+
+    } else if (process == "upload") {
         $('.checkout_step').eq(2).removeClass("cartOn");
         $('.checkout_step').eq(3).addClass("cartOn");
-    } else if (process = "payment") {
+        $('.checkout_step').eq(4).removeClass("cartOn");
+
+        $("#cart_confirm").css('display','none');
+        $("#cart_upload").css('display','block');
+        $("#cart_payment").css('display','none');
+
+    } else if (process == "payment") {
         $('.checkout_step').eq(3).removeClass("cartOn");
         $('.checkout_step').eq(4).addClass("cartOn");
+
+        $("#cart_upload").css('display','none');
+        $("#cart_payment").css('display','block');
+
     }
 }
 
@@ -87,7 +111,7 @@ function cartDataInsert(productMessage) {
             cell.innerHTML = "<td class='product-name'><p>"+productMessage[0]+"</p></td>";
             // product-price
             cell = row.insertCell(-1);
-            cell.innerHTML = "<td class='product-price'><span class='amounts'>"+"$ "+productMessage[1]+"</span></td>";
+            cell.innerHTML = "<td class='product-price'><span class='amounts'><p display='inline-block'>$"+productMessage[1]+"</p></span></td>";
             // product-quantity
             cell = row.insertCell(-1);
             cell.innerHTML = "<td class='product-quantity'><input type='text' disabled='disabled' value ='"+productMessage[3]+"'></td>";
@@ -116,12 +140,22 @@ function cartDelete() {
     let cartNo = $(this).parents("tr").index();
     $("#cart_table").find("tr:eq("+cartNo+")").remove();
     cartTableCheck();
+    totalPriceCal();
     // cart.remove();
     
 }
 
 function totalPriceCal() {
     
+    let length = $("#cart_table").find('tr').length;
+    let cartTotal = 0;
+    for (let i = 1; i < length; ++i ) {
+        let price = $("#cart_table tr:eq("+i+") td:eq(1)").text();
+        price = price.replace('$','');
+        cartTotal = cartTotal + price * $("#cart_table tr:eq("+i+") td:eq(2) :input").val();
+    }
+    cartTotal = cartTotal.toFixed(2);
+    $("#cart_price").text("$"+cartTotal);
 }
 
 function registerVMS_checkBoxClick(i) {

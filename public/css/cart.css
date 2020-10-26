@@ -74,6 +74,7 @@
 .amounts {
     font-size: 15px;
     font-weight: 700;
+    display:inline-block;
 }
 #cart_haveProduct table td.product-quantity {
     width: 180px;
@@ -279,4 +280,55 @@
 	background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%) !important;
 	border-color: #0071BC !important;
 	color:#fff !important;
+}
+
+
+/** 
+    button
+*/
+.cart_next {
+    width: 7rem;
+    height: 4rem;
+    background: #29ABE2;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: none !important;
+    font-weight: bold !important;
+    margin-left: 80rem;
+}
+
+.cart_next :hover {
+    background: black;
+    color: white;
+}
+
+.cart_back {
+    width: 7rem;
+    height: 4rem;
+    background: #29ABE2;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: none !important;
+    font-weight: bold !important;
+    margin-left: 50rem;
+}
+.cart_back :hover {
+    background: black;
+    color: white;
 }
