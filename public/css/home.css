@@ -312,7 +312,7 @@ h1.hp_title {
 .cart_div,
 .login_div_forgetpasswd,
 .login_div{
-    width: 144rem;
+    width: 128rem;
     min-height: 63rem;
     padding-bottom: 2rem;
     margin-left: auto;
@@ -521,12 +521,12 @@ h1.hp_title {
 .slider-controls>.displayBox_next {
     right: 5px;
     color: grey;
-    
+
 }
 .slider-controls>.displayBox_previous {
    left: 5px;
    color: grey;
-    
+
 }
 
 
