@@ -31,7 +31,6 @@
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script type="text/javascript">
     </script>
-    </script>
 </head>
 <body onload="initPage()">
 
@@ -99,7 +98,7 @@
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
-    
+
 
     <!-- diaplayBox -->
     <div class="displayBox" id="displayBox_id" onload="change()">
@@ -119,7 +118,7 @@
     <div class="home_background">
     <!-- home container -->
     <!-- home -->
-    
+
     <div class="home_div" id="home_div_id" style="display:block">
         <div id="header_shadow" style="display: none;"></div>
         <div class="home_icon_holder">
@@ -10849,10 +10848,10 @@
     <!-- gallary -->
     <div class="gallary_div" id="gallary_div_id" style="display:none">
         <div class="gallery_left" id="gallery_left_id">
-            <div>    
+            <div>
                 <button class="gallery_span" type="button" onclick="show_hidden()"></button>
                 <div style="clear: both;"></div>
-            </div>    
+            </div>
             <div class="galleryfor6">
                 <div class="size_rowfor2">
                     <div class="gallery_info_for6_1 no_margin">
@@ -10985,8 +10984,8 @@
                         <div style="clear: both;"></div>
                     </div>
                     <div style="clear: both;"></div>
-                </div>                               
-            </div> 
+                </div>
+            </div>
 
         </div>
 
@@ -11007,15 +11006,16 @@
             <div class="gallery_silde_note" id ="gallery_silde_note_id"></div>
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button>
         </div>
-    
+
         <div style="clear: both;"></div>
 
     </div>
-    
+
 
     <!-- support -->
     <div class="support_div" id="support_div_id" style="display:none">
-        <div class="design_div_leftContainer">
+        <div class="main_container_au">
+            <div class="container_left">
             <h1>Frequently Asked Questions</h1>
             <p class="black_bold">What colour settings should my artwork use?</p>
             <p>
@@ -11084,9 +11084,7 @@
             It is great for printing jobs with photos or large areas of ink coverage as it enhances the finish and
             prevents finger marking.
             <p></p></div>
-
-
-        <div class="design_div_rightContainer">
+            <div class="container_right">
             <p class="black_bold">You mention highest quality for lowest possible price. How can you claim highest
                 quality?</p>
             <p>
@@ -11154,12 +11152,14 @@
                     class="blue_link">Custom Quote Form</a>.
             </p>
         </div>
-        <div style="clear: both;"></div>
+            <div style="clear: both;"></div>
+        </div>
     </div>
 
     <!-- aboutUs -->
     <div class="aboutUs_div" id="aboutUs_div_id" style="display:none">
-        <div class="design_div_leftContainer">
+        <div class="main_container_au">
+            <div class="container_left">
             <h1>About us</h1>
             <p>1Print has a state the art production facility to meet all your demands, from short digital to large
                 commercial runs. More importantly, we have the people with the skills and creativity to meet your
@@ -11181,32 +11181,32 @@
                 possess a keen eye for detail.</p>
         </div>
 
-        <div class="design_div_rightContainer">
+        <div class="container_right">
             <h2 class="large">We Print</h2>
 
             <div class="about_col1">
                 <ul class="black_bullets">
                     <li>Annual Reports</li>
                     <li>Business Forms</li>
-                    <li><a href="">Envelopes</a></li>
-                    <li><a href="">Folders</a></li>
+                    <li><a class="click_a" href="">Envelopes</a></li>
+                    <li><a class="click_a" href="">Folders</a></li>
                     <li>Labels</li>
                     <li>Manuals</li>
                     <li>NCR Books</li>
-                    <li><a href="">Posters</a></li>
-                    <li><a href="">Postcards</a></li>
+                    <li><a class="click_a" href="">Posters</a></li>
+                    <li><a class="click_a" href="">Postcards</a></li>
                 </ul>
             </div>
             <div class="about_col2">
                 <ul class="black_bullets">
-                    <li><a href="">Pads</a></li>
-                    <li><a href="">Presentation Folders</a></li>
-                    <li><a href="">Booklets</a></li>
-                    <li><a href="">Books</a></li>
+                    <li><a class="click_a" href="">Pads</a></li>
+                    <li><a class="click_a" href="">Presentation Folders</a></li>
+                    <li><a class="click_a" href="">Booklets</a></li>
+                    <li><a class="click_a" href="">Books</a></li>
                     <li>Calendars</li>
-                    <li><a href="">Catalogues</a></li>
-                    <li><a href="">Desk Pads</a></li>
-                    <li><a href="">Flyers</a></li>
+                    <li><a class="click_a" href="">Catalogues</a></li>
+                    <li><a class="click_a" href="">Desk Pads</a></li>
+                    <li><a class="click_a" href="">Flyers</a></li>
                     <li>Greeting Cards</li>
                 </ul>
             </div>
@@ -11235,13 +11235,14 @@
             </div>
             <!-- <div class="clear"></div> -->
         </div>
+            </div>
     </div>
 
     <!-- contact -->
     <div class="contact_div" id="contact_div_id" style="display:none">
         <div class="text_holder">
             <div class="main_container">
-                <div class="design_div_leftContainer">
+                <div class="contact_div_leftContainer">
                     <h1>Contact us</h1>
                     <div class="contact_phone">
                         <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">1300 327 471</span>
@@ -11278,7 +11279,7 @@
                     <h2>Request a quote</h2>
                     </div>
                     <div class="contact_form_right">
-				
+
                     <br style="">
                     <form method="post" name="customquotes" id="customquotes" enctype="text/plain" action="mailto:sy135673@gmail.com">
                     <div class="create-account-table3 quotes_table">
@@ -11287,7 +11288,7 @@
                         <td height="25" class="quotes_form_td1 quote_pro_list quote_col_first" valign="middle"><div class="quote_for_holder">I would like a quote on:</div></td>
                         <td height="25" valign="top">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" class="quote_product_list">
-                                <tbody><tr>								  
+                                <tbody><tr>
                                     <td><select name="custom_product" id="custom_product"><option value="Select Product" selected="">Select Product</option><option value="Booklets">Booklets</option><option value="Brochures">Brochures</option><option value="Business Cards">Business Cards</option><option value="Flyers">Flyers</option><option value="Letterheads">Letterheads</option><option value="Notepads/Deskpads">Notepads/Deskpads</option><option value="Postcards">Postcards</option><option value="Posters">Posters</option><option value="Presentation Folders">Presentation Folders</option><option value="With Compliment Slips">With Compliment Slips</option><option value="Envelopes">Envelopes</option><option value="Calendars">Calendars</option><option value="Swing Tags">Swing Tags</option><option value="Other Products">Other Products</option></select></td>
                                 </tr>
                             </tbody></table>
@@ -11301,7 +11302,7 @@
                         </tbody></table>
                     </td></tr><tr>
                         <td valign="top" style="padding-top:3px; vertical-align:top">Job Description: </td>
-                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial; "></textarea></td>
+                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial;"></textarea></td>
                     </tr>
                     <tr>
                         <td height="25"> Delivery Postcode:</td>
@@ -11312,7 +11313,7 @@
                         <td><input type="text" name="Business Name" id="company" maxlength="80"></td>
                     </tr>
                     <tr>
-                        <td>Your 
+                        <td>Your
                         Name: <span style="color:red">*</span></td>
                         <td><input type="text" name="Name" id="name" maxlength="80"></td>
                     </tr>
@@ -11327,7 +11328,7 @@
                     <tr>
                         <td colspan="2" height="25">By previewing your artwork we can quote your job precisely</td>
                     </tr>
-                    
+
                     <tr>
                     <td height="25" align="left">Preview 1</td>
                         <td><input type="file" name="file1" id="file1"></td>
@@ -11452,7 +11453,7 @@
                 <div id="cart_myCart" style="display: block;">
                     <div id="cart_onProduct" style="display: block;">No product found in cart!</div>
                     <div id="cart_haveProduct" style="display: none;">
-                           
+
                     </div>
 
                     <div class="cart_price" style="display:none">
@@ -11460,7 +11461,7 @@
                             <h2>Cart Totals</h2>
                             <table>
                                 <tbody>
-                                
+
                                 <tr class="order-total">
                                     <th>Total</th>
                                     <td>
@@ -11469,7 +11470,7 @@
                                 </tr>
                                 </tbody>
                             </table>
-                            
+
                         </div>
                     </div>
 
@@ -11491,7 +11492,7 @@
                 </div>
 
                 <div id="cart_payment" style="display: none;">
-                
+
                 </div>
 
         </div>
@@ -11533,7 +11534,7 @@
 		</div>
     </div>
 
-    
+
     <!-- forget passwd -->
     <div class="login_div_forgetpasswd" id="login_div_forgetpasswd_id" style="display:none">
         <div class="login_div_main">
@@ -11640,7 +11641,7 @@
 
     <!-- privacy -->
     <div class="privacy_div" id="privacy_div_id" style="display:none">
-        <div class="main_container">
+        <div class="main_container_au">
             <div class="container_left">
                 <h1>Privacy Policy</h1>
                 <p>1Print Pty Ltd is committed to protecting and respecting your privacy. This Privacy Statement sets
@@ -11774,7 +11775,7 @@
 
     <!-- Terms and Conditions -->
     <div class="terms_div" id="terms_div_id" style="display:none">
-        <div class="main_container">
+        <div class="main_container_au">
             <div class="container_left">
             <h1>Terms and Conditions</h1>
                 <p>
@@ -11786,7 +11787,7 @@
             </p>
         <p>&nbsp;</p>
         <p>
-        The use of this website is subject to the following terms of use:	
+        The use of this website is subject to the following terms of use:
         </p>
         <p>&nbsp;</p>
         <p>
@@ -11794,37 +11795,37 @@
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable.  It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         All trademarks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website.
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         Unauthorised use of the website may give rise to a claim for damages and/ or be a criminal offence.
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
         </p>
@@ -11837,9 +11838,9 @@
         </p>
         <p>&nbsp;</p>
 
-            
+
             </div>
-            
+
             <div class="container_right">
             <p class="black_bold">
         Cancellation of an order
@@ -11849,7 +11850,7 @@
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         Any claims for faulty goods must be placed within 7 days after receiving your order.
         </p>
@@ -11875,7 +11876,7 @@
         </p>
         <p>&nbsp;</p>
         <p>
-        
+
 
         All prices are subject to change without notice.
         </p>
@@ -11884,19 +11885,19 @@
         Deliveries:
         </p>
         <p>
-        Our transport people deliver to - Street/Residential address only, 
+        Our transport people deliver to - Street/Residential address only,
         </p>
         <p>&nbsp;</p>
         <p>
-        If you have a Street/Residential address and its unattended we can leave your goods at the door, if your request this type of delivery , please note we are not responsible for any lost or stolen property. 
+        If you have a Street/Residential address and its unattended we can leave your goods at the door, if your request this type of delivery , please note we are not responsible for any lost or stolen property.
         </p>
         <p>&nbsp;</p>
         <p>
-        Also we cannot deliver to Apartment blocks that have Security Entrances, if they are unattended. (If this happens and the goods are returned to us , you will be asked to arrange your own courier or pay an additional delivery fee). 
+        Also we cannot deliver to Apartment blocks that have Security Entrances, if they are unattended. (If this happens and the goods are returned to us , you will be asked to arrange your own courier or pay an additional delivery fee).
         </p>
         <p>&nbsp;</p>
         <p class="black_bold">
-        Please let us know beforehand, if you require "Authority to Leave with no signature". 
+        Please let us know beforehand, if you require "Authority to Leave with no signature".
         </p>
         <p>&nbsp;</p>
         <p class="black_bold">
@@ -11905,7 +11906,7 @@
         <p>&nbsp;</p>
 
         <p>
-        
+
 
         Terms and conditions are subject to change without notice.
         </p>
@@ -11929,14 +11930,14 @@
         <p>&nbsp;</p>
         <p>*Please Note: Only 1 free sample pack per customer.</p>
         </div>
-        
+
         <div class="samplepack_container_right">
             <div class="sample_pack_left">
             <h2>Yes! Please send me a sample pack!</h2>
             <p>Fill out the form with your details. Sample packs are usually delivered within 2-3 working days.</p>
             </div>
             <div class="sample_pack_right">
-                
+
             <form method="post" name="customquotes" id="customquotes" onsubmit="">
                     <div class="create-account-table3"><table width="378" border="0" cellspacing="0" cellpadding="0">
                     <tbody><tr>
@@ -11965,23 +11966,23 @@
                             <tr>
                             <td>State</td>
                             <td><select name="state">
-                            
+
                             <option value="VIC" selected="selected">VIC</option>
-                            
+
                             <option value="WA">WA</option>
-                            
+
                             <option value="NSW">NSW</option>
-                            
+
                             <option value="ACT">ACT</option>
-                            
+
                             <option value="SA">SA</option>
-                            
+
                             <option value="QLD">QLD</option>
-                            
+
                             <option value="TAS">TAS</option>
-                            
+
                             <option value="NT">NT</option>
-                            
+
                             </select></td>
                             </tr>
                             <tr>
@@ -11996,9 +11997,9 @@
                             <td valign="top">Comment</td>
                             <td><textarea name="comments" rows="6"></textarea></td>
                             </tr>
-                        
-                    
-                    
+
+
+
                     <tr>
                         <td></td>
                         <td valign="top"><input type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked=""> Subscribe to our newsletter for special offers </td>
@@ -12017,7 +12018,7 @@
                         </tbody></table></td>
                     </tr>
                 </tbody></table></div>
-                </form>   
+                </form>
             </div>
             <div class="clear"></div>
         </div>
@@ -12035,13 +12036,13 @@
             <h2 class="order_title_cart">Shopping Cart</h2>
             <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
             </p>
-            
+
             <p class="black_heading padding_top">Payment Methods Accepted</p>
             <div class="pay_method_list">
             <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
-            
+
             </div>
             <div class="new_customer">
                 <h5>New Customers</h5>
@@ -12056,7 +12057,7 @@
                 <a onclick="clickHeader(8)" class="blue_button">Login</a>
             </div>
             <div class="clear"></div>
-            
+
             <div class="order_number">
                 <div class="order_number_holder">
                 1
@@ -12095,9 +12096,9 @@
                 <div class="clear"></div>
             </div>
             <p>Once you have completed these 4 easy steps, you will receive an email confirming your delivery address, product details, payment confirmation and receipt number.</p>
-            
-            
-            
+
+
+
             </div>
             <div class="container_right">.
             <h2 class="order_title_email">Email Orders</h2>
@@ -12106,24 +12107,24 @@
             <p>Upon receiving your email, our office will generate an invoice and contact you to process your payment. Payment methods for email orders are shown below.</p>
             <p class="black_heading padding_top">Payment Methods Accepted</p>
             <div class="pay_method_list">
-            
+
             <img src="{{URL::asset('/image/eft.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/cheque.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
-            
+
             </div>
             <p class="black_heading padding_top">File Transfers</p>
             <p>When using email orders, the file attachment cannot exceed 8mb. If the attachment is larger than 8mb we require you to use one of our other accepted file transfer methods (see below)</p>
-            
-            
-            <p class="black_heading">Our accepted file transfer methods</p>	
+
+
+            <p class="black_heading">Our accepted file transfer methods</p>
             <img src="{{URL::asset('/image/artwork methods-01.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-02.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-03.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-04.jpg') }}" alt="" width="55" height="55">
-            
+
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
             <p>We�re Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
@@ -12250,24 +12251,24 @@
         <div class="main_container">
                 <div class="container_left">
                 <h1>Artwork Specifications</h1>
-            <p>&nbsp;</p>	
+            <p>&nbsp;</p>
             <p class="black_heading">Image Text and Trims</p>
             <p>All non bleed images and text should be kept at least 3mm from the trim to ensure trim tolerances are maintained.
             </p>
-            <p>&nbsp;</p>	
+            <p>&nbsp;</p>
             <p class="black_heading">Blacks</p>
             <p>Solid black areas should be made up of 40% Cyan, 20% Magenta, 20% Yellow and 100% Black to give a strong deep colour.
             </p>
-            <p>&nbsp;</p>	
+            <p>&nbsp;</p>
             <p class="black_heading">Booklet Creep</p>
             <p>Page creep will occur on booklet jobs. To help with finishing all page numbers, non bleed images and text should be kept at least 10mm from the trims. We advise you to allocate a 5mm bleed on all booklet jobs.
-            </p> 
-            <p>&nbsp;</p>	
+            </p>
+            <p>&nbsp;</p>
             <p class="black_heading">Folding</p>
             <p>Fold panels for A4-DL should be set from left to right 98-99-100 (outside) and 100-99-98 (inside). Supplied PSD artwork always remains the responsibility of the customer. 1Print will not accept responsibility for errors due to out of specification files.
             </p>
             <div class="folding_list">
-                <img src="{{URL::asset('/image/brochure folds-01.png') }} ">    
+                <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
                 <strong>Single Fold</strong><br style="">
                 <span>4 Page Brochure</span>
             </div>
@@ -12291,9 +12292,9 @@
                 <strong>Concertina</strong><br style="">
                 <span>8 Page Brochure</span>
             </div>
-            <div class="clear"></div> 
-            
-            <p class="black_heading">Standard Product Sizes</p>  
+            <div class="clear"></div>
+
+            <p class="black_heading">Standard Product Sizes</p>
             <ul class="black_bullets">
             <li><span class="black">Business Cards</span> - 90 x 55mm, 89 x 54mm, 90 x 50mm or 90 x 45mm</li>
             <li><span class="black">DL</span> - 210 x 99mm</li>
@@ -12317,7 +12318,7 @@
             <li><span class="black">Adobe InDesign</span> version CC or below (INDD)</li>
             </ul>
             <p>&nbsp;</p>
-            <ul class="black_bullets"> 
+            <ul class="black_bullets">
             <li>1Print accepts files in PC or MAC format.</li>
             <li>All images must be saved in CMYK at 300dpi.</li>
             <li>Make sure all colours are nominated correctly as PMS or CMYK.</li>
@@ -12325,12 +12326,12 @@
             <li style="font-weight: bold;">All artwork must include a minimum of 2mm bleed and crop marks.</li>
             <li>Where possible, please convert your text to outlines or curves.</li>
             <li>Please supply us with all relevant files, including fonts and links (graphics)</li>
-            </ul> 
+            </ul>
             </div>
-            
+
             <div class="container_right">
             <h2 class="large">Pre Press Guidelines</h2>
-            <p>&nbsp;</p>  
+            <p>&nbsp;</p>
             <p class="black_heading">Templates</p>
             <p>Acrobat Distiller settings and InDesign templates for standard products are available from our Prepress department.
             </p><p>&nbsp;</p>
@@ -12949,9 +12950,9 @@
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length}
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+        x[i].style.display = "none";
     }
-    x[slideIndex-1].style.display = "block";  
+    x[slideIndex-1].style.display = "block";
     }
 
     //轮播

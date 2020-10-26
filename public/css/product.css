@@ -1599,6 +1599,7 @@ h1{
     text-align:left;
 }
 h2.large{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 39px;
     line-height: 47px;
     color: #323232;
