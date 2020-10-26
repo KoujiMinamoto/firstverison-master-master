@@ -944,3 +944,12 @@ input.btn_search {
 .footer li a:hover{
     color:white!important;
 }
+.main_container_au{
+    padding-top: 6rem;
+    width: 128rem;
+    margin: 0 auto;
+}
+.black_bold{
+    color:#323232;
+    font-weight:bold;
+}
