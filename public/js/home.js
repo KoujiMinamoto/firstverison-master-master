@@ -171,6 +171,7 @@ function clickHeader(headerName) {
 
 }
 function reset() {
+    topFunction();
     $(".home").removeClass("clickOn");
     $(".product").removeClass("clickOn");
     $(".design").removeClass("clickOn");
@@ -378,5 +379,8 @@ function clearMsg() {
 
     document.getElementById('postcodecheckmsg').innerHTML='';
 }
-
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
