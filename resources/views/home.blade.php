@@ -11242,7 +11242,7 @@
     <div class="contact_div" id="contact_div_id" style="display:none">
         <div class="text_holder">
             <div class="main_container">
-                <div class="design_div_leftContainer">
+                <div class="contact_div_leftContainer">
                     <h1>Contact us</h1>
                     <div class="contact_phone">
                         <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">1300 327 471</span>
@@ -11302,7 +11302,7 @@
                         </tbody></table>
                     </td></tr><tr>
                         <td valign="top" style="padding-top:3px; vertical-align:top">Job Description: </td>
-                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial; "></textarea></td>
+                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial;"></textarea></td>
                     </tr>
                     <tr>
                         <td height="25"> Delivery Postcode:</td>
@@ -11641,7 +11641,7 @@
 
     <!-- privacy -->
     <div class="privacy_div" id="privacy_div_id" style="display:none">
-        <div class="main_container">
+        <div class="main_container_au">
             <div class="container_left">
                 <h1>Privacy Policy</h1>
                 <p>1Print Pty Ltd is committed to protecting and respecting your privacy. This Privacy Statement sets
@@ -11775,7 +11775,7 @@
 
     <!-- Terms and Conditions -->
     <div class="terms_div" id="terms_div_id" style="display:none">
-        <div class="main_container">
+        <div class="main_container_au">
             <div class="container_left">
             <h1>Terms and Conditions</h1>
                 <p>

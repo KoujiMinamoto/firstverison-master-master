@@ -3,15 +3,6 @@
 /*----------------------------------------------
 CSS Settings For HTML Div ExactCenter
 ------------------------------------------------*/
-.contact_div h3,
-.contact_div p,
-.contact_div label {
-    font-family:'Raleway',sans-serif;
-    color: #5588aa
-}
-h2 {
-    font-family:'Raleway',sans-serif
-}
 .contact_div_vname,
 .contact_div_vemail,
 .contact_div_sub {
@@ -68,7 +59,7 @@ div#feedback {
     width:960px;
     margin:40px auto
 }
-.contact_right_quote {	
+.contact_right_quote {
 	float: left;
 	width: 45%;
 	padding: 23px 23px 0 23px;
@@ -92,7 +83,7 @@ div#feedback {
     font-weight: normal;
     line-height: 17px;
 	color: #323232;
-	
+
 }
 .contact_form_left {
     float: left;
@@ -314,4 +305,71 @@ h4.delivery_conditions{
 	color: #323232;
 	font-weight: bold;
 	padding-top:20px;
+}
+.phone_lg{
+    color: #323232;
+    font-size: 39px;
+    font-weight: bold;
+    line-height: 47px;
+}
+.contact_fax{
+    padding-bottom:35px;
+}
+.contact_email{
+    padding: 5px 0;
+}
+.contact_email_last{
+    padding-bottom:35px;
+}
+
+.contact-align-left {
+    color: #323232;
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.contact-align { margin-left: 180px; display: block;}
+.black_heading{
+    color:#323232;
+    font-weight:bold;
+}
+.contact_div_leftContainer{
+    width: 46%;
+    min-height: 40rem;
+    float:left;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #7F7F7F;
+}
+.contact_form_right table td.contact_td1{
+    width:135px;
+}
+.contact_form_right table input,
+.contact_form_right table textarea
+{
+    padding:6px;
+    border:1px solid #bbb;
+    font-weight:normal;
+    width: 97%;
+}
+.contact_form_right table input.contact_btn{
+    width:122px;
+    float: right;
+}
+.contact_form_left h2{
+    color: #323232;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    line-height:26px;
+}
+.quotes_table textarea {
+    resize: none;
+    overflow: auto;
 }
