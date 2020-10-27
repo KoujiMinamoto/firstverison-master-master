@@ -120,6 +120,7 @@ function addToCart (product) {
     // }
     
     let Num = 0;
+    let checked = false;
     for(let i = 0; i < qtyArray.length ; ++i ) {
         
         if($("#"+product+"_checkbox_"+qtyArray[i]).is(":checked") ) {
@@ -134,15 +135,21 @@ function addToCart (product) {
                 productMessage[Num][4] =  productMessage[Num][4] + $("#"+product+"_"+option[j]).val() + ";";
             }
             Num++;
+
+            checked = true;
         }
          
     }
 
-    //判断用户登录状态，如果已登录，则需要存入数据库，cart页面读取由数据库数据进行
-    cartTableCheck();
-    cartDataInsert(productMessage);
-    totalPriceCal();
-    cartProcess('myCart');
-    alert('Successfully added to cart');
-    clearPrice('fridge');
+    if (checked == true) {
+        //判断用户登录状态，如果已登录，则需要存入数据库，cart页面读取由数据库数据进行
+        cartTableCheck();
+        cartDataInsert(productMessage);
+        totalPriceCal();
+        cartProcess('myCart');
+        alert('Successfully added to cart');
+        clearPrice('fridge');
+    } else {    
+        alert('nothing to add');
+    }
 }

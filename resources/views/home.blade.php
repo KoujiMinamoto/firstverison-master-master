@@ -6500,7 +6500,7 @@
                                         <tr>
                                             <td class="content_left"><select name="productsizelist" id="fridge_size"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateFridgeProductPrice(size)">
+                                                                             onclick="UpdateFridgeProductPrice('size')">
                                                     <option value="50x50mm Square cut">50x50mm Square cut</option>
                                                     <option value="50x50mm Rounded corners cut">50x50mm Rounded corners cut</option>
                                                     <option value="70x50mm Square cut">70x50mm Square cut</option>
@@ -6529,7 +6529,7 @@
                                             <td class="content_left"><select name="productprintedsidelist"
                                                                              id="fridge_sides"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateFridgeProductPrice(sides)">
+                                                                             onchange="UpdateFridgeProductPrice('sides')">
                                                     <option value="1 SIDE">1 SIDE</option>
                                                 </select></td>
                                         </tr>
@@ -6597,8 +6597,6 @@
                                                                                        oninput="UpdateProductPrice('fridge','inputbox','500',value);
                                                                                                 this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
                                                                                                 value = value.replace(/[^0-9]/g,'');
-
-
                                                                                        ">
                                                         </td>
                                                         <td id="fridge_td_500" width="50px">

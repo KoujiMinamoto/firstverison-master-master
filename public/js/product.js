@@ -261,7 +261,7 @@ function UpdateEnvProductPrice(type) {
     }
 }
 //Express Printing
-function UpdateExpProductPrice() {
+function UpdateExpProductPrice(type) {
 
     if(type == "size") {
         if ( $("#express_size option:selected").val() == "BUSINESS CARD 90 x 55" ){
@@ -302,7 +302,7 @@ function UpdateExpProductPrice() {
 
 }
 //Flyer
-function UpdateFlyerProductPrice() {
+function UpdateFlyerProductPrice(type) {
 
     if(type == "size") {
         if ( $("#flyer_size option:selected").val() == "A4 210 x 297" ){
@@ -336,20 +336,27 @@ function UpdateFlyerProductPrice() {
 
 }
 //Fridge Magnet
-function UpdateFridgeProductPrice() {
+function UpdateFridgeProductPrice(type) {
     if(type == "size") {
+        let length = fridgePrice.Squ55.length;
+        let price = new Array;
         if ( $("#fridge_size option:selected").val() == "50x50mm Square cut" ){
-
+            price = fridgePrice.Squ55;
         } else if (  $("#fridge_size option:selected").val() == "50x50mm Rounded corners cut" ) {
-
+            price = fridgePrice.Rou55;
         } else if ( $("#fridge_size option:selected").val() == "70x50mm Square cut" )  {
-
+            price = fridgePrice.Squ75;
         } else if (  $("#fridge_size option:selected").val() == "70x50mm Rounded corners cut" ) {
-
+            price = fridgePrice.Rou75;
         } else if ( $("#fridge_size option:selected").val() == "90x50mm Square cut" )  {
-
+            price = fridgePrice.Squ95;
         } else if (  $("#fridge_size option:selected").val() == "90x50mm Rounded corners cut" ) {
+            price = fridgePrice.Rou95;
+        }
 
+        for (let i = 0; i<length ; ++i) {
+            $("#fridge_td_"+PRODUCT_QTY.FRIDGE[i]).text("$"+price[i].toFixed(2) );
+            $("#fridge_td_"+PRODUCT_QTY.FRIDGE[i]).append("<input type='hidden' id='fridge_price_"+PRODUCT_QTY.FRIDGE[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
 
     }else if (type == "sides") {
@@ -358,8 +365,10 @@ function UpdateFridgeProductPrice() {
 
     }
 }
+
+
 //Letterhead Printing
-function UpdateLWProductPrice() {
+function UpdateLWProductPrice(type) {
     if(type == "size") {
         //lw_size
         //A4 210 x 297
@@ -395,7 +404,7 @@ function UpdateLWProductPrice() {
     }
 }
 //Postcard Printing
-function UpdatePostProductPrice() {
+function UpdatePostProductPrice(type) {
     if(type == "size") {
         if ( $("#post_size option:selected").val() == "A6 105 x 148" ){
 
@@ -423,7 +432,7 @@ function UpdatePostProductPrice() {
     }
 }
 //Posters Printing
-function UpdatePosterProductPrice() {
+function UpdatePosterProductPrice(type) {
     if(type == "size") {
         if ( $("#poster_size option:selected").val() == "A3" ) {
 
@@ -453,7 +462,7 @@ function UpdatePosterProductPrice() {
 
 
 //Presentation Folder Printing
-function UpdateFolderProductPricePres() {
+function UpdateFolderProductPricePres(type) {
     if(type == "stock") {
         if ( $("#folder_stock option:selected").val() == "310GSM ARTBOARD" ) {
 
@@ -482,7 +491,7 @@ function UpdateFolderProductPricePres() {
     }
 }
 //With Compliments
-function UpdateCompsProductPrice() {
+function UpdateCompsProductPrice(type) {
     if(type == "size") {
         //comps_size
         //DL 210 x 99
