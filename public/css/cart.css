@@ -15,7 +15,7 @@
 
 .cart_price {
     margin-left: 80rem;
-    height: 20rem;
+    height: 15rem;
     width: 20rem;
 }
 #cart_haveProduct table {
@@ -335,8 +335,10 @@
 .cart_back,.cart_next
 {
     display: inline-block;
-    margin-top: 3rem;
     float: right;
     line-height: 4rem;
     font-size: 1.8rem;
+}
+#cart_myCart,#cart_delivery,#cart_confirm,#cart_upload,#cart_payment {
+    width:100rem
 }
