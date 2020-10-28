@@ -27,12 +27,15 @@ function cartTableCheck() {
         $("#cart_onProduct").hide();
         $("#cart_haveProduct").show();
         $('.cart_price').show();
-
+        $('.checkout_step').eq(0).addClass("cartOn");
+        $(".cart_next").hide();
     } else {
         if(n == 0 ) {
+            $("#cart_table").remove();
             $("#cart_onProduct").show();
             $("#cart_haveProduct").hide();
-            $('.cart_price').hide();
+            $(".cart_price").hide();
+            $(".cart_next").hide();
         }
     }
 }
@@ -124,20 +127,23 @@ function cartDataInsert(productMessage) {
             
             // product-remove
             cell = row.insertCell(-1);
-            cell.innerHTML = "<td class='product-remove'><a href='javascript:'><i class='fa fa-times' onclick='cartDelete()'> </i></a></td>";
+            cell.innerHTML = "<td class='product-remove'><a href='javascript:'><i class='fa fa-times' onclick='cartDelete($(this).parents().parents().parents().index())'> </i></a></td>";
 
             ++i;
         });
     } else {
         alert("error");
     }
+    // 显示next
+    $(".cart_next").show();
 } 
 
 
 
 
-function cartDelete() {
-    let cartNo = $(this).parents("tr").index();
+function cartDelete(cartNo) {
+    
+    // let cartNo = $(this).parents("tr").index();
     $("#cart_table").find("tr:eq("+cartNo+")").remove();
     cartTableCheck();
     totalPriceCal();
