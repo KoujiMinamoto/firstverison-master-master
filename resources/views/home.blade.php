@@ -1998,354 +1998,166 @@
                                                             <td class="buy_header"><strong>Buy</strong></td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="qty_left">50</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_50-productid_57"
-                                                                                           id="usersetqty_50-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_50-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;50&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;95.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice50" width="50px">
-                                                                $95.00<input type="hidden"
-                                                                             name="updateselectedproductprice50"
-                                                                             id="updateselectedproductprice50"
-                                                                             value="95.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_50-productid_57-price_95.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_50-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">100</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_100-productid_57"
-                                                                                           id="usersetqty_100-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_100-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;100&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;124.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice100" width="50px">
-                                                                $124.00<input type="hidden"
-                                                                              name="updateselectedproductprice100"
-                                                                              id="updateselectedproductprice100"
-                                                                              value="124.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_100-productid_57-price_124.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_100-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">150</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_150-productid_57"
-                                                                                           id="usersetqty_150-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_150-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;150&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;144.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice150" width="50px">
-                                                                $144.00<input type="hidden"
-                                                                              name="updateselectedproductprice150"
-                                                                              id="updateselectedproductprice150"
-                                                                              value="144.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_150-productid_57-price_144.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_150-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">200</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_200-productid_57"
-                                                                                           id="usersetqty_200-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_200-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;200&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;158.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice200" width="50px">
-                                                                $158.00<input type="hidden"
-                                                                              name="updateselectedproductprice200"
-                                                                              id="updateselectedproductprice200"
-                                                                              value="158.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_200-productid_57-price_158.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_200-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
                                                             <td class="qty_left">250</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_250-productid_57"
-                                                                                           id="usersetqty_250-productid_57"
+                                                                                           name="usersetqty_50-productid_57"
+                                                                                           id="brochure_inputbox_250"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_250-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;250&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;170.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','250',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice250" width="50px">
-                                                                $170.00<input type="hidden"
-                                                                              name="updateselectedproductprice250"
-                                                                              id="updateselectedproductprice250"
-                                                                              value="170.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_250" width="50px">
+                                                                $95.00<input type="hidden"
+                                                                             name="updateselectedproductprice50"
+                                                                             id="brochure_price_250"
+                                                                             value="95.00"></td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_250"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_250-productid_57-price_170.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_250-productid_57&quot;)">
+                                                                       value="usersetqty_50-productid_57-price_95.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','250')">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="qty_left">500</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_500-productid_57"
-                                                                                           id="usersetqty_500-productid_57"
+                                                                                           name="usersetqty_100-productid_57"
+                                                                                           id="brochure_inputbox_500"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_500-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;210.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','500',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice500" width="50px">
-                                                                $210.00<input type="hidden"
-                                                                              name="updateselectedproductprice500"
-                                                                              id="updateselectedproductprice500"
-                                                                              value="210.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_500" width="50px">
+                                                                $124.00<input type="hidden"
+                                                                              name="updateselectedproductprice100"
+                                                                              id="brochure_price_500"
+                                                                              value="124.00"></td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_500"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_500-productid_57-price_210.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_500-productid_57&quot;)">
+                                                                       value="usersetqty_100-productid_57-price_124.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','500')">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="qty_left">1000</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_1000-productid_57"
-                                                                                           id="usersetqty_1000-productid_57"
+                                                                                           name="usersetqty_150-productid_57"
+                                                                                           id="brochure_inputbox_1000"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_1000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;1000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;220.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','1000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice1000" width="50px">$220.00<input
-                                                                    type="hidden" name="updateselectedproductprice1000"
-                                                                    id="updateselectedproductprice1000" value="220.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_1000" width="50px">
+                                                                $144.00<input type="hidden"
+                                                                              name="updateselectedproductprice150"
+                                                                              id="brochure_price_1000"
+                                                                              value="144.00"></td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_1000"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_1000-productid_57-price_220.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_1000-productid_57&quot;)">
+                                                                       value="usersetqty_150-productid_57-price_144.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','1000')">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="qty_left">1500</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_1500-productid_57"
-                                                                                           id="usersetqty_1500-productid_57"
+                                                                                           name="usersetqty_200-productid_57"
+                                                                                           id="brochure_inputbox_1500"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_1500-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;1500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;285.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','1500',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice1500" width="50px">$285.00<input
-                                                                    type="hidden" name="updateselectedproductprice1500"
-                                                                    id="updateselectedproductprice1500" value="285.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_1500" width="50px">
+                                                                $158.00<input type="hidden"
+                                                                              name="updateselectedproductprice200"
+                                                                              id="brochure_price_1500"
+                                                                              value="158.00"></td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_1500"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_1500-productid_57-price_285.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_1500-productid_57&quot;)">
+                                                                       value="usersetqty_200-productid_57-price_158.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','1500')">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="qty_left">2000</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_2000-productid_57"
-                                                                                           id="usersetqty_2000-productid_57"
+                                                                                           name="usersetqty_250-productid_57"
+                                                                                           id="brochure_inputbox_2000"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_2000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;2000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;305.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','2000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice2000" width="50px">$305.00<input
-                                                                    type="hidden" name="updateselectedproductprice2000"
-                                                                    id="updateselectedproductprice2000" value="305.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_2000" width="50px">
+                                                                $170.00<input type="hidden"
+                                                                              name="updateselectedproductprice250"
+                                                                              id="brochure_price_2000"
+                                                                              value="170.00"></td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_2000"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_2000-productid_57-price_305.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_2000-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">2500</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_2500-productid_57"
-                                                                                           id="usersetqty_2500-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_2500-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;2500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;350.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice2500" width="50px">$350.00<input
-                                                                    type="hidden" name="updateselectedproductprice2500"
-                                                                    id="updateselectedproductprice2500" value="350.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_2500-productid_57-price_350.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_2500-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">3000</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_3000-productid_57"
-                                                                                           id="usersetqty_3000-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_3000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;3000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;360.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice3000" width="50px">$360.00<input
-                                                                    type="hidden" name="updateselectedproductprice3000"
-                                                                    id="updateselectedproductprice3000" value="360.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_3000-productid_57-price_360.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_3000-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">4000</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_4000-productid_57"
-                                                                                           id="usersetqty_4000-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_4000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;4000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;415.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice4000" width="50px">$415.00<input
-                                                                    type="hidden" name="updateselectedproductprice4000"
-                                                                    id="updateselectedproductprice4000" value="415.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_4000-productid_57-price_415.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_4000-productid_57&quot;)">
+                                                                       value="usersetqty_250-productid_57-price_170.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','2000')">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="qty_left">5000</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_5000-productid_57"
-                                                                                           id="usersetqty_5000-productid_57"
+                                                                                           name="usersetqty_500-productid_57"
+                                                                                           id="brochure_inputbox_5000"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_5000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;5000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;470.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','5000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice5000" width="50px">$470.00<input
-                                                                    type="hidden" name="updateselectedproductprice5000"
-                                                                    id="updateselectedproductprice5000" value="470.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_5000" width="50px">
+                                                                $210.00<input type="hidden"
+                                                                              name="updateselectedproductprice500"
+                                                                              id="brochure_price_5000"
+                                                                              value="210.00"></td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_5000"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_5000-productid_57-price_470.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_5000-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">6000</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_6000-productid_57"
-                                                                                           id="usersetqty_6000-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_6000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;6000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;514.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice6000" width="50px">$514.00<input
-                                                                    type="hidden" name="updateselectedproductprice6000"
-                                                                    id="updateselectedproductprice6000" value="514.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_6000-productid_57-price_514.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_6000-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">7000</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_7000-productid_57"
-                                                                                           id="usersetqty_7000-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_7000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;7000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;565.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice7000" width="50px">$565.00<input
-                                                                    type="hidden" name="updateselectedproductprice7000"
-                                                                    id="updateselectedproductprice7000" value="565.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_7000-productid_57-price_565.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_7000-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">8000</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_8000-productid_57"
-                                                                                           id="usersetqty_8000-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_8000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;8000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;612.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice8000" width="50px">$612.00<input
-                                                                    type="hidden" name="updateselectedproductprice8000"
-                                                                    id="updateselectedproductprice8000" value="612.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_8000-productid_57-price_612.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_8000-productid_57&quot;)">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="qty_left">9000</td>
-                                                            <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_9000-productid_57"
-                                                                                           id="usersetqty_9000-productid_57"
-                                                                                           value="1" maxlength="2"
-                                                                                           style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_9000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;9000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;640.00&quot;)">&nbsp;
-                                                            </td>
-                                                            <td id="updateselectedproductprice9000" width="50px">$640.00<input
-                                                                    type="hidden" name="updateselectedproductprice9000"
-                                                                    id="updateselectedproductprice9000" value="640.00">
-                                                            </td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
-                                                                       name="selectproduct[]"
-                                                                       value="usersetqty_9000-productid_57-price_640.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_9000-productid_57&quot;)">
+                                                                       value="usersetqty_500-productid_57-price_210.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','5000')">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="qty_left">10000</td>
                                                             <td class="kinds_input"><input type="text"
-                                                                                           name="usersetqty_10000-productid_57"
-                                                                                           id="usersetqty_10000-productid_57"
+                                                                                           name="usersetqty_1000-productid_57"
+                                                                                           id="brochure_inputbox_10000"
                                                                                            value="1" maxlength="2"
                                                                                            style="width:30px"
-                                                                                           onkeyup="UpdateSelectedProductBooklet(&quot;usersetqty_10000-productid_57&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;10000&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;670.00&quot;)">&nbsp;
+                                                                                           oninput="UpdateProductPrice('brochure','inputbox','10000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                             </td>
-                                                            <td id="updateselectedproductprice10000" width="50px">
-                                                                $670.00<input type="hidden"
-                                                                              name="updateselectedproductprice10000"
-                                                                              id="updateselectedproductprice10000"
-                                                                              value="670.00"></td>
-                                                            <td><input type="checkbox" id="selectproduct[]"
+                                                            <td id="brochure_td_10000" width="50px">$220.00<input
+                                                                    type="hidden" name="updateselectedproductprice1000"
+                                                                    id="brochure_price_10000" value="220.00">
+                                                            </td>
+                                                            <td><input type="checkbox" id="brochure_checkbox_10000"
                                                                        name="selectproduct[]"
-                                                                       value="usersetqty_10000-productid_57-price_670.00"
-                                                                       onclick="AddBroucherProduct(this.value, &quot;usersetqty_10000-productid_57&quot;)">
+                                                                       value="usersetqty_1000-productid_57-price_220.00"
+                                                                       onclick="UpdateProductPrice('brochure','checkbox','10000')">
                                                             </td>
                                                         </tr>
+                                                        
                                                         <tr>
                                                             <td colspan="4"><input type="hidden" id="productid"
                                                                                    name="productid" value="57"><input
@@ -2363,7 +2175,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td colspan="4" id="totalpriceupdate">
-                                                                <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                                <center><span style="font-weight: bold;">Total Price: AUD <p id="brochure_totalPrice">0.00</p></span>
                                                                 </center>
                                                             </td>
                                                         </tr>
@@ -2386,10 +2198,10 @@
                                                                     <tr>
                                                                         <td><a href="javascript:void(0);"
                                                                                class="clear_btn"
-                                                                               onclick="ClearBookletsCache(&quot;FULL COLOUR&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;4 PAGES&quot;, &quot;57&quot;, &quot;0&quot;);"></a>
+                                                                               onclick="clearPrice('brochure');"></a>
                                                                         </td>
-                                                                        <td><input type="submit" class="add_to_cart"
-                                                                                   onclick="addToCard(brochure)"></td>
+                                                                        <td><input type="text" class="add_to_cart"
+                                                                        onclick="addToCart('brochure')"></td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>

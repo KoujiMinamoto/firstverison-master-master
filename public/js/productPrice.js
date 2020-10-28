@@ -72,6 +72,10 @@ function productPriceCal(product) {
     if (product == 'bcard') {
         qtyArray = PRODUCT_QTY.BUSSINESSCARD;
     }
+
+    if (product == 'brochure') {
+        qtyArray = PRODUCT_QTY.BROCHURE;
+    }
     let length = qtyArray.length;
 
     for(let i = 0;i<length;++i){
@@ -93,6 +97,9 @@ function clearPrice(product) {
     }
     if (product == 'bcard') {
         qtyArray = PRODUCT_QTY.BUSSINESSCARD;
+    }
+    if (product == 'brochure') {
+        qtyArray = PRODUCT_QTY.BROCHURE;
     }
     let length = qtyArray.length;
 
@@ -125,6 +132,10 @@ function addToCart (product) {
     if (product == 'bcard') {
         qtyArray = PRODUCT_QTY.BUSSINESSCARD;
         option = PRODUCT_OPTIONS.BUSSINESSCARD;
+    }
+    if (product == 'brochure') {
+        qtyArray = PRODUCT_QTY.BROCHURE;
+        option = PRODUCT_OPTIONS.BROCHURE;
     }
 
     let productMessage = new Array;

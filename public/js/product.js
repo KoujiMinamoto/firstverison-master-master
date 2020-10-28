@@ -90,7 +90,7 @@ function clickProduct(headerName) {
 //Brochure-style
 function UpdateProductPriceBrochure(type) {
     let price = new Array;
-    let length = bussinesscardPrice.nv4501side.length;
+    let length = brochurePrice.hfa5115.length;
     if(type == "size") {
         if ( $("#brochure_type option:selected").val() == "Folding in Half" ){
             document.getElementById("brochure_page1").style.display = "block";
@@ -99,18 +99,36 @@ function UpdateProductPriceBrochure(type) {
             document.getElementById("brochure_page4").style.display = "none";
             if ( $("#brochure_page option:selected").val() == "A5" ){
                 if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
-
+                    price = brochurePrice.hfa5115;
                 } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
-        
+                    price = brochurePrice.hfa5150;
                 } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
-        
+                    price = brochurePrice.hfa5170;
                 } else if (  $("#brochure_stock option:selected").val() == "250GSM Gloss or Matt" ) {
-        
+                    price = brochurePrice.hfa5250;
                 }
 
             } else if (  $("#brochure_page option:selected").val() == "A4" ) {
+                if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                    price = brochurePrice.hfa4115;
+                } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                    price = brochurePrice.hfa4150;
+                } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                    price = brochurePrice.hfa4170;
+                } else if (  $("#brochure_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                    price = brochurePrice.hfa4250;
+                }
     
             } else if (  $("#brochure_page option:selected").val() == "A3" ) {
+                if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                    price = brochurePrice.hfa3115;
+                } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                    price = brochurePrice.hfa3150;
+                } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                    price = brochurePrice.hfa3170;
+                } else if (  $("#brochure_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                    price = brochurePrice.hfa3250;
+                }
     
             }
 
@@ -122,13 +140,17 @@ function UpdateProductPriceBrochure(type) {
             document.getElementById("brochure_page4").style.display = "block";
 
             if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
-
+                price = brochurePrice.dla4115;
             } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
-    
+                price = brochurePrice.dla4150;
             } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
-    
+                price = brochurePrice.dla4170;
             }
 
+        }
+        for (let i = 0; i<length ; ++i) {
+            $("#brochure_td_"+PRODUCT_QTY.BROCHURE[i]).text("$"+price[i].toFixed(2) );
+            $("#brochure_td_"+PRODUCT_QTY.BROCHURE[i]).append("<input type='hidden' id='brochure_price_"+PRODUCT_QTY.BROCHURE[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
 
     }else if (type == "page") {
@@ -152,6 +174,7 @@ function UpdateProductPriceBrochure(type) {
         //FULL COLOUR
 
     }
+
 
 }
 
