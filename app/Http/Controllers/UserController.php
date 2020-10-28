@@ -10,6 +10,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
@@ -116,5 +117,22 @@ class UserController extends Controller
       return response()->json($result);
    }
 
+
+
+   function sendEmail(Request $request) {
+
+      $title = 'TEST FOR EMAIL';
+        // 获取邮箱内容
+      $content = "TEST FOR CONTENT";
+
+      $toMail = 'abcdg@vip.qq.com';
+
+      Mail::raw($content, function ($message) use ($toMail, $title) {
+         $message->subject($title);
+         $message->to($toMail);
+      });
+
+      return true;
+   }
 
 }

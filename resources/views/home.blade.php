@@ -28,6 +28,8 @@
     <script type="text/javascript" src="{{URL::asset('/js/product_const.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/productPrice.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/gallery.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/router.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/contactUs.js') }}"></script>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script type="text/javascript">
     </script>
@@ -11141,7 +11143,7 @@
                     <tr>
                     <td></td>
                     <td>
-                    <input type="submit" class="submit_btn blue_button" value="Submit" name="postemail" id="postemail">
+                    <input type="button" class="submit_btn blue_button" value="Submit" name="postemail" id="postemail" onclick="sendEmail()">
                     </td>
                     </tr>
                     </tbody></table></div>

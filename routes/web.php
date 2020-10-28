@@ -35,7 +35,10 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
     $api->post('userRegister','UserController@userRegister');
     $api->post('userUpdateMessage','UserController@userUpdateMessage');
 
+
     $api->post('card','OrderController@addOrder');
+
+    $api->post('sendEmail','UserController@sendEmail');
 
     $api->get('getNumOfOrders','DashboardController@getNumOfOrders');
     $api->get('getNumOfClients','DashboardController@getNumOfClients');
@@ -51,18 +54,3 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
 
 
 });
-
-// $api->version('v3', function ($api) {
-//     $api->post('user/auth', function () {
-//         $credentials = app('request')->only('username', 'password');
-//         try {
-//             if (! $token = \Tymon\JWTAuth\Facades\JWTAuth::attempt($credentials)) {
-//                 throw new \Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException('Invalid credentials');
-//             }
-//         } catch (\Tymon\JWTAuth\Exceptions\JWTException $e) {
-//             throw new \Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException('Create token failed');
-//         }
-
-//         return compact('token');
-//     });
-// });

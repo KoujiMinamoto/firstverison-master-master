@@ -1,7 +1,5 @@
 window.onload=function(){
 
-
-
     var username;
     var usertype;
     var oDiv  =  document.getElementById('displayBox');
@@ -27,6 +25,10 @@ window.onload=function(){
     oDiv.onmouseout=function(){
          timer = setInterval(move,30)
     }
+
+
+    
+
 }
 
 function initPage() {
@@ -79,6 +81,7 @@ function clickHeader(headerName) {
         case 0:
             $(".home").addClass("clickOn");
             document.getElementById("home_div_id").style.display = "block";
+            linkTo('home');
             break;
         // case 1:
         //     $(".product").addClass("clickOn");
@@ -87,28 +90,34 @@ function clickHeader(headerName) {
         case 2:
             $(".design").addClass("clickOn");
             document.getElementById("design_div_id").style.display = "block";
+            linkTo('design');
             break;
         case 3:
 
             $(".gallary").addClass("clickOn");
             document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("gallary_div_id").style.display = "block";
+            linkTo('gallary');
             break;
         case 4:
             $(".support").addClass("clickOn");
             document.getElementById("support_div_id").style.display = "block";
+            linkTo('support');
             break;
         case 5:
             $(".aboutUs").addClass("clickOn");
             document.getElementById("aboutUs_div_id").style.display = "block";
+            linkTo('aboutUs');
             break;
         case 6:
             $(".contact").addClass("clickOn");
             document.getElementById("contact_div_id").style.display = "block";
+            linkTo('contact');
             break;
         case 7:
             $(".cart").addClass("clickOn");
             document.getElementById("cart_div_id").style.display = "block";
+            linkTo('cart');
             break;
         case 8:
             var storage=window.localStorage;
@@ -126,7 +135,9 @@ function clickHeader(headerName) {
             }else
             {
                 $(".login").addClass("clickOn");
-                document.getElementById("login_div_id").style.display = "block";}
+                document.getElementById("login_div_id").style.display = "block";
+            }
+            linkTo('login');
             break;
         case 9:
             var storage=window.localStorage;
@@ -139,10 +150,13 @@ function clickHeader(headerName) {
                 $("#register_id").html('register');
             }
             else{
-            $(".register").addClass("clickOn");
-            document.getElementById("register_div_id").style.display = "block";
+                $(".register").addClass("clickOn");
+                document.getElementById("register_div_id").style.display = "block";
             }
+            linkTo('register');
             break;
+
+
         default :
             break;
         case 10:
