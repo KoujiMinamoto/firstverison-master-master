@@ -1,6 +1,6 @@
 window.onload=function(){
 
-    
+
 
     var username;
     var usertype;
