@@ -89,13 +89,45 @@ function clickProduct(headerName) {
 
 //Brochure-style
 function UpdateProductPriceBrochure(type) {
-
+    let price = new Array;
+    let length = bussinesscardPrice.nv4501side.length;
     if(type == "size") {
-        if ( $("#brochure_type option:selected").val() == "DL 99 x 210" ){
+        if ( $("#brochure_type option:selected").val() == "Folding in Half" ){
+            document.getElementById("brochure_page1").style.display = "block";
+            document.getElementById("brochure_page2").style.display = "none";
+            document.getElementById("brochure_page3").style.display = "block";
+            document.getElementById("brochure_page4").style.display = "none";
+            if ( $("#brochure_page option:selected").val() == "A5" ){
+                if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
 
-        } else if (  $("#brochure_type option:selected").val() == "A5 148 x 210" ) {
+                } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
+        
+                } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+        
+                } else if (  $("#brochure_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+        
+                }
 
-        } else if ( $("#brochure_type option:selected").val() == "A4 210 x 297" )  {
+            } else if (  $("#brochure_page option:selected").val() == "A4" ) {
+    
+            } else if (  $("#brochure_page option:selected").val() == "A3" ) {
+    
+            }
+
+
+        } else if (  $("#brochure_type option:selected").val() == "Roll Fold to DL" ) {
+            document.getElementById("brochure_page1").style.display = "none";
+            document.getElementById("brochure_page2").style.display = "block";
+            document.getElementById("brochure_page3").style.display = "none";
+            document.getElementById("brochure_page4").style.display = "block";
+
+            if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
+
+            } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
+    
+            } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+    
+            }
 
         }
 
@@ -125,27 +157,38 @@ function UpdateProductPriceBrochure(type) {
 
 //BusinessCard
 function UpdateBCPrice(type) {
-
+    let price = new Array;
+    let length = bussinesscardPrice.nv4501side.length;
     if(type == "side") {
-        if ( $("#bc_side option:selected").val() == "PRINTED 2 SIDES" ){
+        
+        if ( $("#bcard_side option:selected").val() == "PRINTED 2 SIDES" ){
+            if ( $("#bcard_laminated option:selected").val() == "MATT LAMINATED 2 SIDES" ){
+                price = bussinesscardPrice.matt3502side;
+            } else if (  $("#bcard_laminated option:selected").val() == "NEW VELVET LAMINATES 2 SIDES" ) {
+                price = bussinesscardPrice.nv4502side;
+            }
 
-        } else if (  $("#bc_side option:selected").val() == "PRINTED 1 SIDE" ) {
-
+        } else if (  $("#bcard_side option:selected").val() == "PRINTED 1 SIDE" ) {
+            if ( $("#bcard_laminated option:selected").val() == "MATT LAMINATED 2 SIDES" ){
+                price =bussinesscardPrice.matt3501side;
+            } else if (  $("#bcard_laminated option:selected").val() == "NEW VELVET LAMINATES 2 SIDES" ) {
+                price =bussinesscardPrice.nv4501side;
+            }
+        }
+        for (let i = 0; i<length ; ++i) {
+            $("#bcard_td_"+PRODUCT_QTY.BUSSINESSCARD[i]).text("$"+price[i].toFixed(2) );
+            $("#bcard_td_"+PRODUCT_QTY.BUSSINESSCARD[i]).append("<input type='hidden' id='bcard_price_"+PRODUCT_QTY.BUSSINESSCARD[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
 
     }else if (type == "laminated") {
         if ( $("#bc_laminated option:selected").val() == "MATT LAMINATED 2 SIDES" ){
 
-        } else if (  $("#bc_laminated option:selected").val() == "UNLAMINATED" ) {
+        } else if (  $("#bc_laminated option:selected").val() == "NEW VELVET LAMINATES 2 SIDES" ) {
 
         }
 
     }else if (type == "size") {
-        if ( $("#bc_size option:selected").val() == "150GSM GLOSS OR SILK" ){
-
-        } else if (  $("#bc_size option:selected").val() == "90 x 55mm" ) {
-
-        } else if (  $("#bc_size option:selected").val() == "89 x 54mm" ) {
+        if (  $("#bc_size option:selected").val() == "90 x 55mm" ) {
 
         } else if (  $("#bc_size option:selected").val() == "90 x 50mm" ) {
 

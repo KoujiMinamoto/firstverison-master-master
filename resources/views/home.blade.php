@@ -1847,10 +1847,9 @@
                                                 <td class="content_left"><select name="productsizelist"
                                                                                  id="brochure_type"
                                                                                  style="width: 225px; font-size: 12px;"
-                                                                                 onchange="UpdateProductPriceBrochure(size)">
-                                                        <option value="DL 99 x 210">DL 99 x 210</option>
-                                                        <option value="A5 148 x 210">A5 148 x 210</option>
-                                                        <option value="A4 210 x 297">A4 210 x 297</option>
+                                                                                 onchange="UpdateProductPriceBrochure('size')">
+                                                        <option value="Folding in Half">Folding in Half</option>
+                                                        <option value="Roll Fold to DL">Roll Fold to DL (6PP DL)</option>
                                                     </select></td>
                                             </tr>
 
@@ -1858,66 +1857,63 @@
                                                 <td class="pulldown"
                                                 '=""><strong>No. of Pages:</strong></td>
                                             </tr>
-                                            <tr>
+                                            <tr id="brochure_page1">
                                                 <!--Gabriel Modification - Change default Brochures 57 DL Size -->
                                                 <td class="content_left" id="brouchernopages"><select
                                                         name="productpagelist2" id="brochure_page"
                                                         style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPriceBrochure(page)">
-                                                        <option value="4 PAGES">4 PAGES</option>
-                                                        <option value="6 PAGES">6 PAGES</option>
+                                                        onchange="UpdateProductPriceBrochure('size')">
+                                                        <option value="A5">A5</option>
+                                                        <option value="A4">A4</option>
+                                                        <option value="A3">A3</option>
                                                     </select></td>
                                             </tr>
-                                            <tr style="display: none;">
+                                            <tr id="brochure_page2" style="display: none;">
                                                 <td id="brouchernopagesupdate" class="content_left"><select
                                                         name="productpagelist2" id="brochure_page"
                                                         style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPriceBrochure(page)">
-                                                        <option value="4 PAGES">4 PAGES</option>
-                                                        <option value="6 PAGES">6 PAGES</option>
+                                                        onchange="UpdateProductPriceBrochure('size')">
+                                                        <option value="A4">A4</option>
+                                                        
                                                     </select></td>
                                             </tr>
-                                            <tr style="display: none;">
-                                                <td id="brouchernopagesupdate1" class="content_left"><select
-                                                        name="productpagelist2" id="brochure_page"
-                                                        style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPriceBrochure(page)">
-                                                        <option value="4 PAGES">4 PAGES</option>
-                                                        <option value="6 PAGES">6 PAGES</option>
-                                                    </select></td>
-                                            </tr>
+                                            
 
 
                                             <tr>
                                                 <td class="pulldown"><strong>Stock:</strong></td>
                                             </tr>
-                                            <tr>
+                                            <tr id="brochure_page3">
                                                 <td class="content_left"><select name="productstocklist"
                                                                                  id="brochure_stock"
                                                                                  style="width: 225px; font-size: 12px;"
-                                                                                 onchange="UpdateProductPriceBrochure(stock)">
-                                                        <option value="150GSM GLOSS OR SILK">150GSM GLOSS OR SILK
+                                                                                 onchange="UpdateProductPriceBrochure('size')">
+                                                        <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
                                                         </option>
-                                                        <option value="170GSM GLOSS OR SILK">170GSM GLOSS OR SILK
+                                                        <option value="150GSM Goss or Matt">150GSM Goss or Matt
                                                         </option>
-                                                        <option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK
+                                                        <option value="170GSM Gloss or Matt">170GSM Gloss or Matt
                                                         </option>
-                                                        <option value="350GSM GLOSS OR SILK">350GSM GLOSS OR SILK
+                                                        <option value="250GSM Gloss or Matt">250GSM Gloss or Matt
+                                                        </option>
+                                                    </select></td>
+                                            </tr>
+                                            <tr id="brochure_page4" style="display: none;">
+                                                <td class="content_left"><select name="productstocklist"
+                                                                                 id="brochure_stock"
+                                                                                 style="width: 225px; font-size: 12px;"
+                                                                                 onchange="UpdateProductPriceBrochure('size')">
+                                                        
+                                                        <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="150GSM Goss or Matt">150GSM Goss or Matt
+                                                        </option>
+                                                        <option value="170GSM Gloss or Matt">170GSM Gloss or Matt
                                                         </option>
                                                     </select></td>
                                             </tr>
 
-                                            <tr>
-                                                <td class="pulldown"><strong>Colour:</strong></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="content_left"><select name="productcolorlist"
-                                                                                 id="brochure_colour"
-                                                                                 style="width: 225px; font-size: 12px;"
-                                                                                 onchange="UpdateProductPriceBrochure(colour)">
-                                                        <option value="FULL COLOUR">FULL COLOUR</option>
-                                                    </select></td>
-                                            </tr>
+                                           
 
                                             <tr style="display:none; ">
                                                 <td class="content_left"><select name="productqtylist"
@@ -2663,9 +2659,9 @@
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                         </tr>
                                         <tr>
-                                            <td class="content_left"><select onchange="UpdateBCPrice(side)"
+                                            <td class="content_left"><select onchange="UpdateBCPrice('side')"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             id="bc_side" name="productprintedsidelist">
+                                                                             id="bcard_side" name="productprintedsidelist">
                                                     <option value="PRINTED 2 SIDES">PRINTED 2 SIDES</option>
                                                     <option value="PRINTED 1 SIDE">PRINTED 1 SIDE</option>
                                                 </select>
@@ -2678,13 +2674,13 @@
                                         </tr>
 
                                         <tr>
-                                            <td class="content_left" id="bcfinish"><select id="bc_laminated"
-                                                                                           onchange="UpdateBCPrice(laminated)"
+                                            <td class="content_left" id="bcfinish"><select id="bcard_laminated"
+                                                                                           onchange="UpdateBCPrice('side')"
                                                                                            style="width: 225px; font-size: 12px;"
                                                                                            name="productstocklist">
-                                                    <option value="MATT LAMINATED 2 SIDES">MATT LAMINATED 2 SIDES
+                                                    <option value="MATT LAMINATED 2 SIDES">350 GSM MATT LAMINATED
                                                     </option>
-                                                    <option value="UNLAMINATED">UNLAMINATED</option>
+                                                    <option value="NEW VELVET LAMINATES 2 SIDES">450+ GSM NEW VELVET LAMINATES</option>
                                                 </select></td>
                                         </tr>
                                         <tr>
@@ -2699,11 +2695,10 @@
                                                         $("#producttrimmedsize").val($("#producttrimmedsizelist").val())
                                                     }
                                                 </script>
-                                                <select id="bc_size" onchange="UpdateBCPrice(size);"
+                                                <select id="bcard_size" onchange="UpdateBCPrice(size);"
                                                         style="width: 225px; font-size: 12px;"
                                                         name="producttrimmedsizelist">
                                                     <option value="90 x 55mm">90 x 55mm</option>
-                                                    <option value="89 x 54mm">89 x 54mm</option>
                                                     <option value="90 x 50mm">90 x 50mm</option>
                                                     <option value="90 x 45mm">90 x 45mm</option>
                                                 </select>
@@ -2767,138 +2762,112 @@
                                                         <td class="qty_left">250</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_250-productid_58"
-                                                                                       id="usersetqty_250-productid_58"
+                                                                                       id="bcard_inputbox_250"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_250-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;250&quot;, &quot;58&quot;, &quot;65.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('bcard','inputbox','250',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice250" width="50px">$65.00<input
+                                                        <td id="bcard_td_250" width="50px">$65.00<input
                                                                 type="hidden" name="updateselectedproductprice250"
-                                                                id="updateselectedproductprice250" value="65.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                                id="bcard_price_250" value="65.00"></td>
+                                                        <td><input type="checkbox" id="bcard_checkbox_250"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_250-productid_58-price_65.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_250-productid_58&quot;)">
+                                                                   onclick="UpdateProductPrice('bcard','checkbox','250')">
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_500-productid_58"
-                                                                                       id="usersetqty_500-productid_58"
+                                                                                       id="bcard_inputbox_500"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_500-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;500&quot;, &quot;58&quot;, &quot;69.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('bcard','inputbox','500',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');
+                                                                                       ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">$69.00<input
+                                                        <td id="bcard_td_500" width="50px">$69.00<input
                                                                 type="hidden" name="updateselectedproductprice500"
-                                                                id="updateselectedproductprice500" value="69.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                                id="bcard_price_500" value="69.00"></td>
+                                                        <td><input type="checkbox" id="bcard_checkbox_500"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_500-productid_58-price_69.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_500-productid_58&quot;)">
+                                                                   onclick="UpdateProductPrice('bcard','checkbox','500')">
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_1000-productid_58"
-                                                                                       id="usersetqty_1000-productid_58"
+                                                                                       id="bcard_inputbox_1000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_1000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;1000&quot;, &quot;58&quot;, &quot;74.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('bcard','inputbox','1000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
+                                                        <td id="bcard_td_1000" width="50px">
                                                             $74.00<input type="hidden"
                                                                          name="updateselectedproductprice1000"
-                                                                         id="updateselectedproductprice1000"
+                                                                         id="bcard_price_1000"
                                                                          value="74.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                        <td><input type="checkbox" id="bcard_checkbox_1000"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_1000-productid_58-price_74.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_1000-productid_58&quot;)">
+                                                                   onclick="UpdateProductPrice('bcard','checkbox','1000')">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="qty_left">1500</td>
+                                                        <td class="kinds_input"><input type="text"
+                                                                                       name="usersetqty_2000-productid_58"
+                                                                                       id="bcard_inputbox_1500"
+                                                                                       value="1" maxlength="2"
+                                                                                       style="width:30px"
+                                                                                       oninput="UpdateProductPrice('bcard','inputbox','1500',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');">&nbsp;
+                                                        </td>
+                                                        <td id="bcard_td_1500" width="50px">
+                                                            $148.00<input type="hidden"
+                                                                          name="updateselectedproductprice2000"
+                                                                          id="bcard_price_1500"
+                                                                          value="148.00"></td>
+                                                        <td><input type="checkbox" id="bcard_checkbox_1500"
+                                                                   name="selectproduct[]"
+                                                                   value="usersetqty_2000-productid_58-price_148.00"
+                                                                   onclick="UpdateProductPrice('bcard','checkbox','1500')">
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_58"
-                                                                                       id="usersetqty_2000-productid_58"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_2000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;2000&quot;, &quot;58&quot;, &quot;148.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $148.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="148.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_58-price_148.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_2000-productid_58&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
                                                                                        name="usersetqty_3000-productid_58"
-                                                                                       id="usersetqty_3000-productid_58"
+                                                                                       id="bcard_inputbox_2000"
                                                                                        value="1" maxlength="2"
                                                                                        style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_3000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;3000&quot;, &quot;58&quot;, &quot;222.00&quot;)">&nbsp;
+                                                                                       oninput="UpdateProductPrice('bcard','inputbox','2000',value);
+                                                                                                this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                                value = value.replace(/[^0-9]/g,'');">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
+                                                        <td id="bcard_td_2000" width="50px">
                                                             $222.00<input type="hidden"
                                                                           name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
+                                                                          id="bcard_price_2000"
                                                                           value="222.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
+                                                        <td><input type="checkbox" id="bcard_checkbox_2000"
                                                                    name="selectproduct[]"
                                                                    value="usersetqty_3000-productid_58-price_222.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_3000-productid_58&quot;)">
+                                                                   onclick="UpdateProductPrice('bcard','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_58"
-                                                                                       id="usersetqty_4000-productid_58"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_4000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;4000&quot;, &quot;58&quot;, &quot;296.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $296.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="296.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_58-price_296.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_4000-productid_58&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">5000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_58"
-                                                                                       id="usersetqty_5000-productid_58"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedBCProduct3(&quot;usersetqty_5000-productid_58&quot;, &quot;MATT LAMINATED 2 SIDES&quot;, &quot;PRINTED 2 SIDES&quot;, &quot;5000&quot;, &quot;58&quot;, &quot;370.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $370.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="370.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_58-price_370.00"
-                                                                   onclick="AddBCProduct(this.value, &quot;usersetqty_5000-productid_58&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                    
+                                                    
                                                     <tr>
                                                         <td colspan="4"><input type="hidden" id="productid"
                                                                                name="productid" value="58"><input
@@ -2915,7 +2884,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="bcard_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -2937,9 +2906,9 @@
                                                                 <tbody>
                                                                 <tr>
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearBasketBCCache(58);"></a></td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(bc)"></td>
+                                                                        onclick="clearPrice('bcard');"></a></td>
+                                                                    <td><input type="text" class="add_to_cart"
+                                                                            onclick="addToCart('bcard')"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>

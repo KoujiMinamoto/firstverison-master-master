@@ -47,6 +47,7 @@ function UpdateProductPrice(product,type,qty,value) {
         }
         
     } else if(type == 'checkbox') {
+        
         if($("#"+product+"_"+type+"_"+qty).is(":checked") ) {
             let totalPrice = productPriceCal(product);
             $("#"+product+"_totalPrice").text(totalPrice);
@@ -68,13 +69,18 @@ function productPriceCal(product) {
         qtyArray = PRODUCT_QTY.FRIDGE;
     }
    
+    if (product == 'bcard') {
+        qtyArray = PRODUCT_QTY.BUSSINESSCARD;
+    }
     let length = qtyArray.length;
 
     for(let i = 0;i<length;++i){
         if($("#"+product+"_checkbox_"+qtyArray[i]).is(":checked") ) {
             totalPrice = totalPrice + $('#'+product+'_price_'+qtyArray[i]).attr("value") * $('#'+product+"_inputbox_"+qtyArray[i]).val();
+            console.log(totalPrice+product+"_checkbox_"+qtyArray[i]);
         } 
     }
+    
     totalPrice = totalPrice.toFixed(2);
 
     return totalPrice;
@@ -84,6 +90,9 @@ function clearPrice(product) {
     let qtyArray = new Array;
     if (product == 'fridge') {
         qtyArray = PRODUCT_QTY.FRIDGE;
+    }
+    if (product == 'bcard') {
+        qtyArray = PRODUCT_QTY.BUSSINESSCARD;
     }
     let length = qtyArray.length;
 
@@ -111,6 +120,11 @@ function addToCart (product) {
     if (product == 'fridge') {
         qtyArray = PRODUCT_QTY.FRIDGE;
         option = PRODUCT_OPTIONS.FRIDGE;
+    }
+
+    if (product == 'bcard') {
+        qtyArray = PRODUCT_QTY.BUSSINESSCARD;
+        option = PRODUCT_OPTIONS.BUSSINESSCARD;
     }
 
     let productMessage = new Array;
@@ -149,6 +163,7 @@ function addToCart (product) {
         cartProcess('myCart');
         alert('Successfully added to cart');
         clearPrice('fridge');
+        clearPrice('bcard');
     } else {    
         alert('nothing to add');
     }
