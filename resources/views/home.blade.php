@@ -7093,136 +7093,53 @@
                                         <tr>
                                             <td class="content_left"><select name="productsizelist" id="post_size"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdatePostProductPrice(size)">
-                                                    <option value="A6 105 x 148">A6 105 x 148</option>
-                                                    <option value="DL 99 x 210">DL 99 x 210</option>
-                                                    <option value="A5 148 x 210">A5 148 x 210</option>
+                                                                             onchange="UpdatePostProductPrice('size')">
+                                                    <option value="DL">DL </option>
+                                                    <option value="A6">A6 </option>
+                                                    <option value="A5">A5 </option>
+                                                    <option value="A4">A4 </option>
                                                 </select></td>
                                         </tr>
 
 
                                         <tr>
-                                            <td class="pulldown"><strong>Colour:</strong></td>
+                                            <td class="pulldown"><strong>Sides:</strong></td>
                                         </tr>
                                         <tr>
                                             <td class="content_left" id="postcodecolor"><select name="productcolorlist"
-                                                                                                id="post_colour"
+                                                                                                id="post_side"
                                                                                                 style="width: 225px; font-size: 12px;"
-                                                                                                onchange="UpdatePostProductPrice(colour)">
+                                                                                                onchange="UpdatePostProductPrice('size')">
                                                     <option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option>
                                                     <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
                                                 </select></td>
                                         </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate" class="content_left"><select
-                                                    name="productcolorlist" id="productcolorlist"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateProductPrice3(59)">
-                                                    <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate1" class="content_left"><select
-                                                    name="productcolorlist" id="productcolorlist"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateProductPrice(59)">
-                                                    <option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option>
-                                                    <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate2" class="content_left"><select
-                                                    name="productcolorlist" id="productcolorlist"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateProductPrice(59)">
-                                                    <option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option>
-                                                    <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate3" class="content_left"><select
-                                                    onchange="UpdateProductPrice(59)"
-                                                    style="width: 225px; font-size: 12px;" id="productcolorlist"
-                                                    name="productcolorlist">
-                                                    <option value="FULL COLOUR 1 SIDE" selected="selected">FULL COLOUR 1
-                                                        SIDE
-                                                    </option>
-                                                    <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate4" class="content_left"><select
-                                                    onchange="UpdateProductPrice(59)"
-                                                    style="width: 225px; font-size: 12px;" id="productcolorlist"
-                                                    name="productcolorlist">
-                                                    <option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option>
-                                                    <option value="FULL COLOUR 2 SIDES" selected="selected">FULL COLOUR
-                                                        2 SIDES
-                                                    </option>
-                                                </select></td>
-                                        </tr>
-
-                                        <tr style="display:none; ">
-                                            <td class="content_left"><select name="productqtylist" id="productqtylist"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateProductPrice(59)">
-                                                    <option value="50">50</option>
-                                                    <option value="100">100</option>
-                                                    <option value="150">150</option>
-                                                    <option value="200">200</option>
-                                                    <option value="250">250</option>
-                                                    <option value="500">500</option>
-                                                    <option value="1000">1000</option>
-                                                    <option value="1500">1500</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="2500">2500</option>
-                                                    <option value="3000">3000</option>
-                                                    <option value="4000">4000</option>
-                                                    <option value="5000">5000</option>
-                                                    <option value="6000">6000</option>
-                                                    <option value="7000">7000</option>
-                                                    <option value="8000">8000</option>
-                                                    <option value="9000">9000</option>
-                                                    <option value="10000">10000</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
 
                                         <tr>
-                                            <td class="pulldown"><strong>Finish:</strong></td>
+                                            <td class="pulldown"><strong>Stock:</strong></td>
                                         </tr>
 
                                         <tr>
-                                            <td class="content_left" id="stockfinish"><select name="productstocklist2"
-                                                                                              id="post_finish"
+                                            <td class="content_left" id="poststockfinish"><select name="productstocklist2"
+                                                                                              id="post_stock"
                                                                                               style="width: 225px; font-size: 12px;"
-                                                                                              onchange="UpdatePostProductPrice(finish)">
-                                                    <option value="NOT LAMINATED">NOT LAMINATED</option>
-                                                    <option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS
-                                                        LAMINATED 1 SIDE
-                                                    </option>
+                                                                                              onchange="UpdatePostProductPrice('size')">
+                                                        <option value="250GSM Gloss or Matt">250GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="350GSM Gloss or Matt">350GSM Gloss or Matt
+                                                        </option>
                                                 </select></td>
-                                            <td id="stockfinishupdate" class="content_left" style="display: none;">
-                                                <select name="productstocklist" id="productstocklist"
+                                            <td id="poststockfinishupdate" class="content_left" style="display: none;">
+                                                <select name="productstocklist" id="post_stock"
                                                         style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPrice2(59)">
-                                                    <option value="NOT LAMINATED">NOT LAMINATED</option>
-                                                    <option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS
-                                                        LAMINATED 1 SIDE
-                                                    </option>
-                                                    <option value="MATT OR GLOSS LAMINATED 2 SIDES">MATT OR GLOSS
-                                                        LAMINATED 2 SIDES
-                                                    </option>
+                                                        onchange="UpdatePostProductPrice('size')">
+                                                        <option value="350GSM Gloss or Matt">350GSM Gloss or Matt
+                                                        </option>
+                                                        
                                                 </select></td>
-                                            <td id="stockfinishupdate1" class="content_left" style="display: none;">
-                                                <select name="productstocklist2" id="productstocklist2"
-                                                        style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPrice3(59)">
-                                                    <option value="NOT LAMINATED">NOT LAMINATED</option>
-                                                    <option value="MATT OR GLOSS LAMINATED 1 SIDE">MATT OR GLOSS
-                                                        LAMINATED 1 SIDE
-                                                    </option>
-                                                </select></td>
+                                            
                                         </tr>
 
 
@@ -7279,351 +7196,176 @@
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="qty_left">50</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_50-productid_59"
-                                                                                       id="usersetqty_50-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_50-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;50&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;66.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice50" width="50px">$66.00<input
-                                                                type="hidden" name="updateselectedproductprice50"
-                                                                id="updateselectedproductprice50" value="66.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_50-productid_59-price_66.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_50-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">100</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_100-productid_59"
-                                                                                       id="usersetqty_100-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_100-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;100&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;68.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice100" width="50px">$68.00<input
-                                                                type="hidden" name="updateselectedproductprice100"
-                                                                id="updateselectedproductprice100" value="68.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_100-productid_59-price_68.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_100-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">150</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_150-productid_59"
-                                                                                       id="usersetqty_150-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_150-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;150&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;71.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice150" width="50px">$71.00<input
-                                                                type="hidden" name="updateselectedproductprice150"
-                                                                id="updateselectedproductprice150" value="71.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_150-productid_59-price_71.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_150-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">200</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_200-productid_59"
-                                                                                       id="usersetqty_200-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_200-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;200&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;74.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice200" width="50px">$74.00<input
-                                                                type="hidden" name="updateselectedproductprice200"
-                                                                id="updateselectedproductprice200" value="74.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_200-productid_59-price_74.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_200-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
                                                         <td class="qty_left">250</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_250-productid_59"
-                                                                                       id="usersetqty_250-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_250-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;250&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;76.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_250"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','250',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice250" width="50px">$76.00<input
-                                                                type="hidden" name="updateselectedproductprice250"
-                                                                id="updateselectedproductprice250" value="76.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_250-productid_59-price_76.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_250-productid_59&quot;)">
+                                                        <td id="post_td_250" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_250"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_250"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','250')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_59"
-                                                                                       id="usersetqty_500-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_500-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;500&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;88.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">$88.00<input
-                                                                type="hidden" name="updateselectedproductprice500"
-                                                                id="updateselectedproductprice500" value="88.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_59-price_88.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_500-productid_59&quot;)">
+                                                        <td id="post_td_500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_59"
-                                                                                       id="usersetqty_1000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_1000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;1000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;113.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_1000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','1000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $113.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="113.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_59-price_113.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_1000-productid_59&quot;)">
+                                                        <td id="post_td_1000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_1000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_1000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','1000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1500-productid_59"
-                                                                                       id="usersetqty_1500-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_1500-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;1500&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;137.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_1500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','1500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1500" width="50px">
-                                                            $137.00<input type="hidden"
-                                                                          name="updateselectedproductprice1500"
-                                                                          id="updateselectedproductprice1500"
-                                                                          value="137.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1500-productid_59-price_137.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_1500-productid_59&quot;)">
+                                                        <td id="post_td_1500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_1500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_1500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','1500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_59"
-                                                                                       id="usersetqty_2000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_2000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;2000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;164.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_2000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','2000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $164.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="164.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_59-price_164.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_2000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">2500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2500-productid_59"
-                                                                                       id="usersetqty_2500-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_2500-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;2500&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;175.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
-                                                            $175.00<input type="hidden"
-                                                                          name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
-                                                                          value="175.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2500-productid_59-price_175.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_2500-productid_59&quot;)">
+                                                        <td id="post_td_2000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_2000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_2000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_3000-productid_59"
-                                                                                       id="usersetqty_3000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_3000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;3000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;195.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
-                                                            $195.00<input type="hidden"
-                                                                          name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
-                                                                          value="195.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_3000-productid_59-price_195.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_3000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_59"
-                                                                                       id="usersetqty_4000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_4000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;4000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;236.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $236.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="236.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_59-price_236.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_4000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_59"
-                                                                                       id="usersetqty_5000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_5000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;5000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;263.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_5000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','5000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $263.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="263.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_59-price_263.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_5000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">6000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_6000-productid_59"
-                                                                                       id="usersetqty_6000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_6000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;6000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;303.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice6000" width="50px">
-                                                            $303.00<input type="hidden"
-                                                                          name="updateselectedproductprice6000"
-                                                                          id="updateselectedproductprice6000"
-                                                                          value="303.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_6000-productid_59-price_303.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_6000-productid_59&quot;)">
+                                                        <td id="post_td_5000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_5000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_5000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">7000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_7000-productid_59"
-                                                                                       id="usersetqty_7000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_7000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;7000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;349.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice7000" width="50px">
-                                                            $349.00<input type="hidden"
-                                                                          name="updateselectedproductprice7000"
-                                                                          id="updateselectedproductprice7000"
-                                                                          value="349.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_7000-productid_59-price_349.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_7000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">8000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_8000-productid_59"
-                                                                                       id="usersetqty_8000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_8000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;8000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;358.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice8000" width="50px">
-                                                            $358.00<input type="hidden"
-                                                                          name="updateselectedproductprice8000"
-                                                                          id="updateselectedproductprice8000"
-                                                                          value="358.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_8000-productid_59-price_358.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_8000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">9000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_9000-productid_59"
-                                                                                       id="usersetqty_9000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_9000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;9000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;365.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice9000" width="50px">
-                                                            $365.00<input type="hidden"
-                                                                          name="updateselectedproductprice9000"
-                                                                          id="updateselectedproductprice9000"
-                                                                          value="365.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_9000-productid_59-price_365.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_9000-productid_59&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_10000-productid_59"
-                                                                                       id="usersetqty_10000-productid_59"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_10000-productid_59&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;10000&quot;, &quot;A6 105 x 148&quot;, &quot;59&quot;, &quot;376.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="post_inputbox_10000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('post','inputbox','10000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice10000" width="50px">
-                                                            $376.00<input type="hidden"
-                                                                          name="updateselectedproductprice10000"
-                                                                          id="updateselectedproductprice10000"
-                                                                          value="376.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_10000-productid_59-price_376.00"
-                                                                   onclick="AddProduct(this.value, &quot;usersetqty_10000-productid_59&quot;)">
+                                                        <td id="post_td_10000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="post_price_10000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="post_checkbox_10000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('post','checkbox','10000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -7643,7 +7385,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD  <p id="post_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -7663,13 +7405,12 @@
                                                         <td colspan="4" align="right"><br style="">
                                                             <table>
                                                                 <tbody>
-                                                                <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearFlyerCache(&quot;FULL COLOUR 1 SIDE&quot;, &quot;NOT LAMINATED&quot;, &quot;A6 105 x 148&quot;, &quot;500&quot;, &quot;59&quot;, &quot;0&quot;);"></a>
-                                                                    </td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(postcard)"></td>
-                                                                </tr>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('post');"></a>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="add_to_cart" onclick="addToCart('post')">
+                                                                </td>
                                                                 </tbody>
                                                             </table>
                                                         </td>

@@ -82,6 +82,9 @@ function productPriceCal(product) {
     if (product == 'poster') {
         qtyArray = PRODUCT_QTY.POSTER;
     }
+    if (product == 'post') {
+        qtyArray = PRODUCT_QTY.POSTERCARD;
+    }
     let length = qtyArray.length;
 
     for(let i = 0;i<length;++i){
@@ -112,6 +115,9 @@ function clearPrice(product) {
     }
     if (product == 'poster') {
         qtyArray = PRODUCT_QTY.POSTER;
+    }
+    if (product == 'post') {
+        qtyArray = PRODUCT_QTY.POSTERCARD;
     }
     let length = qtyArray.length;
 
@@ -156,6 +162,10 @@ function addToCart (product) {
     if (product == 'poster') {
         qtyArray = PRODUCT_QTY.POSTER;
         option = PRODUCT_OPTIONS.POSTER;
+    }
+    if (product == 'post') {
+        qtyArray = PRODUCT_QTY.POSTERCARD;
+        option = PRODUCT_OPTIONS.POSTERCARD;
     }
     let productMessage = new Array;
 

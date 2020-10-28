@@ -610,30 +610,79 @@ function UpdateLWProductPrice(type) {
 }
 //Postcard Printing
 function UpdatePostProductPrice(type) {
+    let length = postercardPrice.a43501.length;
+    let price = new Array;
     if(type == "size") {
-        if ( $("#post_size option:selected").val() == "A6 105 x 148" ){
+        if ( $("#post_size option:selected").val() == "DL" ){
+            document.getElementById("poststockfinishupdate").style.display = "none";
+            document.getElementById("poststockfinish").style.display = "block";
+            if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                if ( $("#post_stock option:selected").val() == "250GSM Gloss or Matt" ){
+                    price=postercardPrice.dl2501;
+                }else if ( $("#post_stock option:selected").val() == "350GSM Gloss or Matt" ){
+                    price=postercardPrice.dl3501;
+                }
 
-        } else if (  $("#post_size option:selected").val() == "DL 99 x 210" ) {
+            } else if (  $("#post_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                if ( $("#post_stock option:selected").val() == "250GSM Gloss or Matt" ){
+                    price=postercardPrice.dl2502;
+                }else if ( $("#post_stock option:selected").val() == "350GSM Gloss or Matt" ){
+                    price=postercardPrice.dl3502;
+                }
+            }
 
-        } else if (  $("#post_size option:selected").val() == "A5 148 x 210" ) {
+        } else if (  $("#post_size option:selected").val() == "A6" ) {
+            document.getElementById("poststockfinishupdate").style.display = "none";
+            document.getElementById("poststockfinish").style.display = "block";
+            if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                if ( $("#post_stock option:selected").val() == "250GSM Gloss or Matt" ){
+                    price=postercardPrice.a62501;
+                }else if ( $("#post_stock option:selected").val() == "350GSM Gloss or Matt" ){
+                    price=postercardPrice.a63501;
+                }
+
+            } else if (  $("#post_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                if ( $("#post_stock option:selected").val() == "250GSM Gloss or Matt" ){
+                    price=postercardPrice.a62502;
+                }else if ( $("#post_stock option:selected").val() == "350GSM Gloss or Matt" ){
+                    price=postercardPrice.a63502;
+                }
+            }
+
+        } else if (  $("#post_size option:selected").val() == "A5" ) {
+            document.getElementById("poststockfinishupdate").style.display = "block";
+            document.getElementById("poststockfinish").style.display = "none";
+            if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                
+                    price=postercardPrice.a53501;
+                
+
+            } else if (  $("#post_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                
+                    price=postercardPrice.a53502;
+                
+            }
+
+        } else if (  $("#post_size option:selected").val() == "A4" ) {
+            document.getElementById("poststockfinishupdate").style.display = "block";
+            document.getElementById("poststockfinish").style.display = "none";
+            if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                
+                price=postercardPrice.a43501;
+            
+
+            } else if (  $("#post_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+            
+                price=postercardPrice.a43502;
+            
+            }
 
         }
-
-    }else if (type == "colour") {
-        if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
-
-        } else if (  $("#post_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
-
+        for (let i = 0; i<length ; ++i) {
+            $("#post_td_"+PRODUCT_QTY.POSTERCARD[i]).text("$"+price[i].toFixed(2) );
+            $("#post_td_"+PRODUCT_QTY.POSTERCARD[i]).append("<input type='hidden' id='post_price_"+PRODUCT_QTY.POSTERCARD[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
 
-    }else if (type == "finish") {
-        //FULL COLOUR
-        //express_finish
-        if ( $("#post_finish option:selected").val() == "NOT LAMINATED" ){
-
-        } else if (  $("#post_finish option:selected").val() == "MATT OR GLOSS LAMINATED 1 SIDE" ) {
-
-        }
     }
 }
 //Posters Printing
