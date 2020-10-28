@@ -5501,43 +5501,16 @@
                                             <td class="content_left" id="flyersize"><select name="productsizelist"
                                                                                             id="flyer_size"
                                                                                             style="width: 225px; font-size: 12px;"
-                                                                                            onchange="UpdateFlyerProductPrice(size)">
-                                                    <option value="A4 210 x 297">A4 210 x 297</option>
-                                                    <option value="A5 148 x 210">A5 148 x 210</option>
-                                                    <option value="A6 105 x 148">A6 105 x 148</option>
-                                                    <option value="DL 99 x 210">DL 99 x 210</option>
+                                                                                            onchange="UpdateFlyerProductPrice('size')">
+                                                                                                                          
+                                                    <option value="DL">DL </option>
+                                                    <option value="A6">A6 </option>
+                                                    <option value="A5">A5 </option>
+                                                    <option value="A4">A4 </option>
+                                                    <option value="A3">A3 </option>
                                                 </select></td>
                                         </tr>
-                                        <tr style="display: none;">
-                                            <td id="flyersizeupdate" class="content_left"><select name="productsizelist"
-                                                                                                  id="productsizelist"
-                                                                                                  style="width: 225px; font-size: 12px;"
-                                                                                                  onchange="UpdateProductPriceFlyer(63)">
-                                                    <option value="A4 210 x 297">A4 210 x 297</option>
-                                                    <option value="A5 148 x 210">A5 148 x 210</option>
-                                                    <option value="A6 105 x 148">A6 105 x 148</option>
-                                                    <option value="DL 99 x 210">DL 99 x 210</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="flyersizeupdate1" class="content_left"><select
-                                                    name="productsizelist" id="productsizelist"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateProductPriceFlyer(63)">
-                                                    <option value="A4 210 x 297">A4 210 x 297</option>
-                                                    <option value="A5 148 x 210">A5 148 x 210</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="flyersizeupdate2" class="content_left"><select
-                                                    name="productsizelist2" id="productsizelist2"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateProductPriceFlyer(63)">
-                                                    <option value="A5 148 x 210">A5 148 x 210</option>
-                                                    <option value="A6 105 x 148">A6 105 x 148</option>
-                                                    <option value="DL 99 x 210">DL 99 x 210</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
 
                                         <tr>
@@ -5545,50 +5518,36 @@
                                         </tr>
                                         <tr>
                                             <td class="content_left" id="productflyer"><select id="flyer_stock"
-                                                                                               onchange="UpdateFlyerProductPrice(stock)"
+                                                                                               onchange="UpdateFlyerProductPrice('size')"
                                                                                                style="width: 225px; font-size: 12px;"
                                                                                                name="productstocklist">
-                                                    <option value="150GSM GLOSS OR SILK">150GSM GLOSS OR SILK</option>
-                                                    <option value="170GSM GLOSS OR SILK">170GSM GLOSS OR SILK</option>
-                                                    <option value="250GSM GLOSS OR SILK">250GSM GLOSS OR SILK</option>
+                                                        <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="150GSM Goss or Matt">150GSM Goss or Matt
+                                                        </option>
+                                                        <option value="170GSM Gloss or Matt">170GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="250GSM Gloss or Matt">250GSM Gloss or Matt
+                                                        </option>
                                                 </select></td>
                                         </tr>
 
                                         <tr>
-                                            <td class="pulldown"><strong>Colour:</strong></td>
+                                            <td class="pulldown"><strong>Sides:</strong></td>
                                         </tr>
                                         <tr>
                                             <td class="content_left" id="flyercolor"><select name="productcolorlist"
-                                                                                             id="flyer_colour"
+                                                                                             id="flyer_side"
                                                                                              style="width: 225px; font-size: 12px;"
-                                                                                             onchange="UpdateFlyerProductPrice(colour)">
+                                                                                             onchange="UpdateFlyerProductPrice('size')">
                                                     <option value="FULL COLOUR FRONT ONLY">FULL COLOUR FRONT ONLY
                                                     </option>
                                                     <option value="FULL COLOUR BOTH SIDES">FULL COLOUR BOTH SIDES
                                                     </option>
                                                 </select></td>
                                         </tr>
-                                        <tr style="display: none;">
-                                            <td id="flyercolorupdate" class="content_left"><select id="productcolorlist"
-                                                                                                   onchange="UpdateProductPrice4a(63)"
-                                                                                                   style="width: 225px; font-size: 12px;"
-                                                                                                   name="productcolorlist">
-                                                    <option value="FULL COLOUR FRONT ONLY">FULL COLOUR FRONT ONLY
-                                                    </option>
-                                                    <option value="FULL COLOUR BOTH SIDES">FULL COLOUR BOTH SIDES
-                                                    </option>
-                                                </select></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="flyercolorupdate1" class="content_left">
-                                                <select id="productcolorlist" onchange="UpdateProductPrice4a(63)"
-                                                        style="width: 225px; font-size: 12px;" name="productcolorlist">
-                                                    <option value="FULL COLOUR FRONT ONLY">FULL COLOUR FRONT ONLY
-                                                    </option>
-                                                    <option value="FULL COLOUR BOTH SIDES">FULL COLOUR BOTH SIDES
-                                                    </option>
-                                                </select></td>
-                                        </tr>
+                                        
+                                        
 
                                         <tr style="display:none; ">
                                             <td class="content_left"><select name="productqtylist" id="productqtylist"
@@ -5670,373 +5629,176 @@
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="qty_left">50</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_50-productid_63"
-                                                                                       id="usersetqty_50-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_50-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;50&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;77.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice50" width="50px">$77.00<input
-                                                                type="hidden" name="updateselectedproductprice50"
-                                                                id="updateselectedproductprice50" value="77.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_50-productid_63-price_77.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_50-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">100</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_100-productid_63"
-                                                                                       id="usersetqty_100-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_100-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;100&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;83.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice100" width="50px">$83.00<input
-                                                                type="hidden" name="updateselectedproductprice100"
-                                                                id="updateselectedproductprice100" value="83.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_100-productid_63-price_83.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_100-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">150</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_150-productid_63"
-                                                                                       id="usersetqty_150-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_150-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;150&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;89.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice150" width="50px">$89.00<input
-                                                                type="hidden" name="updateselectedproductprice150"
-                                                                id="updateselectedproductprice150" value="89.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_150-productid_63-price_89.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_150-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">200</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_200-productid_63"
-                                                                                       id="usersetqty_200-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_200-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;200&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;92.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice200" width="50px">$92.00<input
-                                                                type="hidden" name="updateselectedproductprice200"
-                                                                id="updateselectedproductprice200" value="92.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_200-productid_63-price_92.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_200-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
                                                         <td class="qty_left">250</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_250-productid_63"
-                                                                                       id="usersetqty_250-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_250-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;250&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;93.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_250"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','250',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice250" width="50px">$93.00<input
-                                                                type="hidden" name="updateselectedproductprice250"
-                                                                id="updateselectedproductprice250" value="93.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_250-productid_63-price_93.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_250-productid_63&quot;)">
+                                                        <td id="flyer_td_250" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_250"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_250"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','250')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_63"
-                                                                                       id="usersetqty_500-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_500-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;500&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;115.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">
-                                                            $115.00<input type="hidden"
-                                                                          name="updateselectedproductprice500"
-                                                                          id="updateselectedproductprice500"
-                                                                          value="115.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_63-price_115.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_500-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">750</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_750-productid_63"
-                                                                                       id="usersetqty_750-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_750-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;750&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;140.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice750" width="50px">
-                                                            $140.00<input type="hidden"
-                                                                          name="updateselectedproductprice750"
-                                                                          id="updateselectedproductprice750"
-                                                                          value="140.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_750-productid_63-price_140.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_750-productid_63&quot;)">
+                                                        <td id="flyer_td_500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_63"
-                                                                                       id="usersetqty_1000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_1000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;1000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;155.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_1000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','1000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $155.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="155.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_63-price_155.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_1000-productid_63&quot;)">
+                                                        <td id="flyer_td_1000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_1000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_1000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','1000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1500-productid_63"
-                                                                                       id="usersetqty_1500-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_1500-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;1500&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;205.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_1500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','1500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1500" width="50px">
-                                                            $205.00<input type="hidden"
-                                                                          name="updateselectedproductprice1500"
-                                                                          id="updateselectedproductprice1500"
-                                                                          value="205.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1500-productid_63-price_205.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_1500-productid_63&quot;)">
+                                                        <td id="flyer_td_1500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_1500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_1500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','1500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_63"
-                                                                                       id="usersetqty_2000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_2000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;2000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;223.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_2000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','2000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $223.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="223.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_63-price_223.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_2000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">2500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2500-productid_63"
-                                                                                       id="usersetqty_2500-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_2500-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;2500&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;272.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
-                                                            $272.00<input type="hidden"
-                                                                          name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
-                                                                          value="272.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2500-productid_63-price_272.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_2500-productid_63&quot;)">
+                                                        <td id="flyer_td_2000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_2000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_2000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_3000-productid_63"
-                                                                                       id="usersetqty_3000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_3000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;3000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;275.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
-                                                            $275.00<input type="hidden"
-                                                                          name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
-                                                                          value="275.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_3000-productid_63-price_275.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_3000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_63"
-                                                                                       id="usersetqty_4000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_4000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;4000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;326.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $326.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="326.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_63-price_326.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_4000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_63"
-                                                                                       id="usersetqty_5000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_5000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;5000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;360.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_5000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','5000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $360.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="360.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_63-price_360.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_5000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">6000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_6000-productid_63"
-                                                                                       id="usersetqty_6000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_6000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;6000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;398.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice6000" width="50px">
-                                                            $398.00<input type="hidden"
-                                                                          name="updateselectedproductprice6000"
-                                                                          id="updateselectedproductprice6000"
-                                                                          value="398.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_6000-productid_63-price_398.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_6000-productid_63&quot;)">
+                                                        <td id="flyer_td_5000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_5000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_5000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">7000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_7000-productid_63"
-                                                                                       id="usersetqty_7000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_7000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;7000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;440.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice7000" width="50px">
-                                                            $440.00<input type="hidden"
-                                                                          name="updateselectedproductprice7000"
-                                                                          id="updateselectedproductprice7000"
-                                                                          value="440.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_7000-productid_63-price_440.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_7000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">8000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_8000-productid_63"
-                                                                                       id="usersetqty_8000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_8000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;8000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;475.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice8000" width="50px">
-                                                            $475.00<input type="hidden"
-                                                                          name="updateselectedproductprice8000"
-                                                                          id="updateselectedproductprice8000"
-                                                                          value="475.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_8000-productid_63-price_475.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_8000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">9000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_9000-productid_63"
-                                                                                       id="usersetqty_9000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_9000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;9000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;508.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice9000" width="50px">
-                                                            $508.00<input type="hidden"
-                                                                          name="updateselectedproductprice9000"
-                                                                          id="updateselectedproductprice9000"
-                                                                          value="508.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_9000-productid_63-price_508.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_9000-productid_63&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_10000-productid_63"
-                                                                                       id="usersetqty_10000-productid_63"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProduct3(&quot;usersetqty_10000-productid_63&quot;, &quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;10000&quot;, &quot;A4 210 x 297&quot;, &quot;63&quot;, &quot;545.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="flyer_inputbox_10000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('flyer','inputbox','10000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice10000" width="50px">
-                                                            $545.00<input type="hidden"
-                                                                          name="updateselectedproductprice10000"
-                                                                          id="updateselectedproductprice10000"
-                                                                          value="545.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_10000-productid_63-price_545.00"
-                                                                   onclick="AddProductFlyer(this.value, &quot;usersetqty_10000-productid_63&quot;)">
+                                                        <td id="flyer_td_10000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="flyer_price_10000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="flyer_checkbox_10000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('flyer','checkbox','10000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -6056,7 +5818,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                        <center><span style="font-weight: bold;">Total Price: AUD <p id="flyer_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -6077,11 +5839,12 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearFlyerCache(&quot;FULL COLOUR FRONT ONLY&quot;, &quot;150GSM GLOSS OR SILK&quot;, &quot;A4 210 x 297&quot;, &quot;50&quot;, &quot;63&quot;, &quot;0&quot;);"></a>
-                                                                    </td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(flyer)"></td>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('flyer');"></a>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="add_to_cart" onclick="addToCart('flyer')">
+                                                                </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
@@ -8162,9 +7925,10 @@
                                         <tr>
                                             <td class="content_left"><select name="productsizelist" id="poster_size"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdatePosterProductPrice(size)">
+                                                                             onchange="UpdatePosterProductPrice('size')">
                                                     <option value="A3">A3</option>
                                                     <option value="A2">A2</option>
+                                                    <option value="A1">A1</option>
                                                 </select></td>
                                         </tr>
 
@@ -8175,51 +7939,33 @@
                                         <tr>
                                             <td class="content_left"><select name="productstocklist" id="poster_stock"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdatePosterProductPrice(stock)">
-                                                    <option value="150GSM GLOSS">150GSM GLOSS</option>
-                                                    <option value="170GSM GLOSS">170GSM GLOSS</option>
-                                                    <option value="200GSM GLOSS">200GSM GLOSS</option>
+                                                                             onchange="UpdatePosterProductPrice('size')">
+                                                    
+                                                        <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="150GSM Gloss or Matt">150GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="170GSM Gloss or Matt">170GSM Gloss or Matt
+                                                        </option>
+                                                        <option value="250GSM Gloss or Matt">250GSM Gloss or Matt
+                                                        </option>
                                                 </select></td>
                                         </tr>
 
-                                        <tr>
-                                            <td class="pulldown"><strong>Colour:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left"><select name="productcolorlist" id="poster_colour"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdatePosterProductPrice(colour)">
-                                                    <option value="FULL COLOUR">FULL COLOUR</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
-                                        <tr style="display:none; ">
-                                            <td class="content_left"><select name="productqtylist" id="productqtylist"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateProductPrice(66)">
-                                                    <option value="100">100</option>
-                                                    <option value="250">250</option>
-                                                    <option value="500">500</option>
-                                                    <option value="750">750</option>
-                                                    <option value="1000">1000</option>
-                                                    <option value="1500">1500</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="2500">2500</option>
-                                                    <option value="3000">3000</option>
-                                                    <option value="4000">4000</option>
-                                                    <option value="5000">5000</option>
-                                                </select></td>
-                                        </tr>
+                                       
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                         </tr>
                                         <tr>
                                             <td class="content_left"><select name="productprintedsidelist"
-                                                                             id="poster_sides"
+                                                                             id="poster_side"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdatePosterProductPrice(sides)">
+                                                                             onchange="UpdatePosterProductPrice('size')">
                                                     <option value="FULL COLOUR 1 SIDE">FULL COLOUR 1 SIDE</option>
+                                                    <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
                                                 </select></td>
                                         </tr>
 
@@ -8277,221 +8023,176 @@
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="qty_left">100</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_100-productid_66"
-                                                                                       id="usersetqty_100-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_100-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;100&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;90.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice100" width="50px">$90.00<input
-                                                                type="hidden" name="updateselectedproductprice100"
-                                                                id="updateselectedproductprice100" value="90.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_100-productid_66-price_90.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_100-productid_66&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
                                                         <td class="qty_left">250</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_250-productid_66"
-                                                                                       id="usersetqty_250-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_250-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;250&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;120.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_250"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','250',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice250" width="50px">
-                                                            $120.00<input type="hidden"
-                                                                          name="updateselectedproductprice250"
-                                                                          id="updateselectedproductprice250"
-                                                                          value="120.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_250-productid_66-price_120.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_250-productid_66&quot;)">
+                                                        <td id="poster_td_250" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_250"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_250"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','250')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_66"
-                                                                                       id="usersetqty_500-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_500-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;500&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;180.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">
-                                                            $180.00<input type="hidden"
-                                                                          name="updateselectedproductprice500"
-                                                                          id="updateselectedproductprice500"
-                                                                          value="180.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_66-price_180.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_500-productid_66&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">750</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_750-productid_66"
-                                                                                       id="usersetqty_750-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_750-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;750&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;188.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice750" width="50px">
-                                                            $188.00<input type="hidden"
-                                                                          name="updateselectedproductprice750"
-                                                                          id="updateselectedproductprice750"
-                                                                          value="188.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_750-productid_66-price_188.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_750-productid_66&quot;)">
+                                                        <td id="poster_td_500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_66"
-                                                                                       id="usersetqty_1000-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1000-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;1000&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;255.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_1000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','1000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $255.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="255.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_66-price_255.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1000-productid_66&quot;)">
+                                                        <td id="poster_td_1000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_1000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_1000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','1000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1500-productid_66"
-                                                                                       id="usersetqty_1500-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1500-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;1500&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;307.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_1500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','1500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1500" width="50px">
-                                                            $307.00<input type="hidden"
-                                                                          name="updateselectedproductprice1500"
-                                                                          id="updateselectedproductprice1500"
-                                                                          value="307.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1500-productid_66-price_307.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1500-productid_66&quot;)">
+                                                        <td id="poster_td_1500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_1500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_1500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','1500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_66"
-                                                                                       id="usersetqty_2000-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2000-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;2000&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;334.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_2000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','2000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $334.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="334.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_66-price_334.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2000-productid_66&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">2500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2500-productid_66"
-                                                                                       id="usersetqty_2500-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2500-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;2500&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;360.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
-                                                            $360.00<input type="hidden"
-                                                                          name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
-                                                                          value="360.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2500-productid_66-price_360.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2500-productid_66&quot;)">
+                                                        <td id="poster_td_2000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_2000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_2000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_3000-productid_66"
-                                                                                       id="usersetqty_3000-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_3000-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;3000&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;413.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
-                                                            $413.00<input type="hidden"
-                                                                          name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
-                                                                          value="413.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_3000-productid_66-price_413.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_3000-productid_66&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_66"
-                                                                                       id="usersetqty_4000-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_4000-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;4000&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;465.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $465.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="465.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_66-price_465.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_4000-productid_66&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_66"
-                                                                                       id="usersetqty_5000-productid_66"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_5000-productid_66&quot;, &quot;FULL COLOUR&quot;, &quot;150GSM GLOSS&quot;, &quot;5000&quot;, &quot;A3&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;66&quot;, &quot;535.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_5000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','5000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $535.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="535.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_66-price_535.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_5000-productid_66&quot;)">
+                                                        <td id="poster_td_5000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_5000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_5000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','5000')">
+                                                        </td>
+                                                    </tr>
+                                                            
+                                                    
+                                                    <tr>
+                                                        <td class="qty_left">10000</td>
+                                                        <td class="kinds_input"><input type="text"
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="poster_inputbox_10000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('poster','inputbox','10000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
+                                                        </td>
+                                                        <td id="poster_td_10000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="poster_price_10000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="poster_checkbox_10000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('poster','checkbox','10000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -8511,7 +8212,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="poster_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -8532,10 +8233,12 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearLWCache(66);"></a></td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(poster)"></td>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('poster');"></a>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="add_to_cart" onclick="addToCart('poster')">
+                                                                </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>

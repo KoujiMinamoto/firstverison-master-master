@@ -369,34 +369,173 @@ function UpdateExpProductPrice(type) {
 }
 //Flyer
 function UpdateFlyerProductPrice(type) {
-
+    let price = new Array;
+    let length = flyerPrice.dl1115.length;
     if(type == "size") {
-        if ( $("#flyer_size option:selected").val() == "A4 210 x 297" ){
+        if ( $("#flyer_size option:selected").val() == "DL" ){
+            if ( $("#flyer_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.dl1115;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.dl2115;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.dl1150;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.dl2150;
+                }
+                
+                
+            } else if (  $("#flyer_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.dl1170;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.dl2170;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.dl1250;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.dl2250;
+                }
+                
+            }
 
-        } else if (  $("#flyer_size option:selected").val() == "A5 148 x 210" ) {
+        } else if (  $("#flyer_size option:selected").val() == "A6" ) {
+            if ( $("#flyer_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a61115;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a62115;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a61150;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a62150;
+                }
+                
+                
+            } else if (  $("#flyer_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a61170;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a62170;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a61250;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a62250;
+                }
+                
+            }
 
-        } else if ( $("#flyer_size option:selected").val() == "A6 105 x 148" )  {
+        } else if ( $("#flyer_size option:selected").val() == "A5" )  {
+            if ( $("#flyer_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a51115;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a52115;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a51150;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a52150;
+                }
+                
+                
+            } else if (  $("#flyer_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a51170;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a52170;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a51250;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a52250;
+                }
+                
+            }
 
-        } else if (  $("#flyer_size option:selected").val() == "DL 99 x 210" ) {
+        } else if (  $("#flyer_size option:selected").val() == "A4" ) {
+            if ( $("#flyer_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a41115;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a42115;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a41150;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a42150;
+                }
+                
+                
+            } else if (  $("#flyer_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a41170;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a42170;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a41250;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a42250;
+                }
+                
+            }
+
+        } else if (  $("#flyer_size option:selected").val() == "A3" ) {
+            if ( $("#flyer_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a31115;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a32115;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a31150;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a32150;
+                }
+                
+                
+            } else if (  $("#flyer_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a31170;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a32170;
+                }
+                
+            } else if (  $("#flyer_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#flyer_side option:selected").val() == "FULL COLOUR FRONT ONLY" ){
+                    price= flyerPrice.a31250;
+                } else if (  $("#flyer_side option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
+                    price=flyerPrice.a32250;
+                }
+                
+            }
 
         }
-
-    }else if (type == "stock") {
-        if ( $("#flyer_stock option:selected").val() == "150GSM GLOSS OR SILK" ){
-
-        } else if (  $("#flyer_stock option:selected").val() == "170GSM GLOSS OR SILK" ) {
-
-        } else if (  $("#flyer_stock option:selected").val() == "250GSM GLOSS OR SILK" ) {
-
-        }
-
-    }else if (type == "colour") {
-        //FULL COLOUR
-        //express_finish
-        if ( $("#flyer_colour option:selected").val() == "FULL COLOUR FRONT ONLY" ){
-
-        } else if (  $("#flyer_colour option:selected").val() == "FULL COLOUR BOTH SIDES" ) {
-
+        for (let i = 0; i<length ; ++i) {
+            $("#flyer_td_"+PRODUCT_QTY.FLYER[i]).text("$"+price[i].toFixed(2) );
+            $("#flyer_td_"+PRODUCT_QTY.FLYER[i]).append("<input type='hidden' id='flyer_price_"+PRODUCT_QTY.FLYER[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
     }
 
@@ -481,9 +620,9 @@ function UpdatePostProductPrice(type) {
         }
 
     }else if (type == "colour") {
-        if ( $("#post_colour option:selected").val() == "FULL COLOUR 1 SIDE" ){
+        if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
 
-        } else if (  $("#post_colour option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+        } else if (  $("#post_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
 
         }
 
@@ -499,29 +638,116 @@ function UpdatePostProductPrice(type) {
 }
 //Posters Printing
 function UpdatePosterProductPrice(type) {
+    let length = posterPrice.a31115.length;
+    let price = new Array;
     if(type == "size") {
         if ( $("#poster_size option:selected").val() == "A3" ) {
+            if ( $("#poster_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a31115;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a32115;
+                }
+                
+            } else if (  $("#poster_stock option:selected").val() == "150GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a31150;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a32150;
+                }
+                
+                
+            } else if (  $("#poster_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a31170;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a32170;
+                }
+                
+                
+            } else if (  $("#poster_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a31250;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a32250;
+                }
+                
+                
+            } 
 
         } else if (  $("#poster_size option:selected").val() == "A2" ) {
+            if ( $("#poster_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a21115;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a22115;
+                }
+                
+            } else if (  $("#poster_stock option:selected").val() == "150GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a21150;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a22150;
+                }
+                
+                
+            } else if (  $("#poster_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a21170;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a22170;
+                }
+                
+                
+            } else if (  $("#poster_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a21250;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a22250;
+                }
+                
+                
+            } 
+
+        } else if (  $("#poster_size option:selected").val() == "A1" ) {
+            if ( $("#poster_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a11115;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a12115;
+                }
+                
+            } else if (  $("#poster_stock option:selected").val() == "150GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a11150;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a12150;
+                }
+                
+                
+            } else if (  $("#poster_stock option:selected").val() == "170GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a11170;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a12170;
+                }
+                
+                
+            } else if (  $("#poster_stock option:selected").val() == "250GSM Gloss or Matt" ) {
+                if ( $("#poster_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
+                    price=posterPrice.a11250;
+                } else if (  $("#poster_side option:selected").val() == "FULL COLOUR 2 SIDES" ) {
+                    price=posterPrice.a12250;
+                }
+                
+                
+            } 
 
         }
-
-    }else if (type == "stock") {
-        if ( $("#poster_stock option:selected").val() == "150GSM GLOSS" ){
-
-        } else if (  $("#poster_stock option:selected").val() == "170GSM GLOSS" ) {
-
-        } else if (  $("#poster_stock option:selected").val() == "200GSM GLOSS" ) {
-
+        for (let i = 0; i<length ; ++i) {
+            $("#poster_td_"+PRODUCT_QTY.POSTER[i]).text("$"+price[i].toFixed(2) );
+            $("#poster_td_"+PRODUCT_QTY.POSTER[i]).append("<input type='hidden' id='poster_price_"+PRODUCT_QTY.POSTER[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
-
-    }else if (type == "colour") {
-        //FULL COLOUR
-        //poster_colour
-
-    }else if (type == "sides") {
-        //FULL COLOUR 1 SIDE
-        //poster_sides
 
     }
 }
