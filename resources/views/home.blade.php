@@ -11253,7 +11253,7 @@
 
                         </div>
                     </div>
-                    <div class = "cart_next" onclick = "cartProcess('delivery')">Next</div>
+                    <div class = "cart_next" onclick = "cartProcess('delivery')" style="display:none">Next</div>
                 </div>
 
                 <div id="cart_delivery" style="display: none;">
