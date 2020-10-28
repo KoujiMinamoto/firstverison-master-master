@@ -76,6 +76,15 @@ function productPriceCal(product) {
     if (product == 'brochure') {
         qtyArray = PRODUCT_QTY.BROCHURE;
     }
+    if (product == 'flyer') {
+        qtyArray = PRODUCT_QTY.FLYER;
+    }
+    if (product == 'poster') {
+        qtyArray = PRODUCT_QTY.POSTER;
+    }
+    if (product == 'post') {
+        qtyArray = PRODUCT_QTY.POSTERCARD;
+    }
     let length = qtyArray.length;
 
     for(let i = 0;i<length;++i){
@@ -100,6 +109,15 @@ function clearPrice(product) {
     }
     if (product == 'brochure') {
         qtyArray = PRODUCT_QTY.BROCHURE;
+    }
+    if (product == 'flyer') {
+        qtyArray = PRODUCT_QTY.FLYER;
+    }
+    if (product == 'poster') {
+        qtyArray = PRODUCT_QTY.POSTER;
+    }
+    if (product == 'post') {
+        qtyArray = PRODUCT_QTY.POSTERCARD;
     }
     let length = qtyArray.length;
 
@@ -137,7 +155,18 @@ function addToCart (product) {
         qtyArray = PRODUCT_QTY.BROCHURE;
         option = PRODUCT_OPTIONS.BROCHURE;
     }
-
+    if (product == 'flyer') {
+        qtyArray = PRODUCT_QTY.FLYER;
+        option = PRODUCT_OPTIONS.FLYER;
+    }
+    if (product == 'poster') {
+        qtyArray = PRODUCT_QTY.POSTER;
+        option = PRODUCT_OPTIONS.POSTER;
+    }
+    if (product == 'post') {
+        qtyArray = PRODUCT_QTY.POSTERCARD;
+        option = PRODUCT_OPTIONS.POSTERCARD;
+    }
     let productMessage = new Array;
 
     // for(let i = 0;i < option.length ;++i) {
