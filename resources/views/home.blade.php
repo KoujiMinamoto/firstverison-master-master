@@ -494,7 +494,7 @@
 
     <div class="product_div" id="product_div_id_1" style="display:none">
         <div class="text_holder">
-            <div class="main_product_container booklet_holder">
+            <div class="main_product_container booklet_holder" style="width:130rem;">
                 <div class="product_main_left">
                     <div class="product_main_left_left">
                         <h1>Online Booklet Printing</h1>
@@ -11407,6 +11407,7 @@
 
     <!-- cart -->
     <div class="cart_div" id="cart_div_id" style="display:none">
+        <div class="text_holder" style="padding-top:11rem">
         <div class="main_product_container checkout_holder">
             <div class="cart_left">
                 <span class="checkout_step"><span class="step_cart">My Cart</span></span>
@@ -11447,8 +11448,8 @@
                     <h1>Delivery Information</h1>
                     <div id="cart_userInfomation" >
                     </div>
-                    <div class = "cart_back" onclick = "cartProcess('myCart')">Back</div>
                     <div class = "cart_next" onclick = "cartProcess('confirm')">Next</div>
+                    <div class = "cart_back" onclick = "cartProcess('myCart')">Back</div>
                 </div>
 
                 <div id="cart_confirm" style="display: none;">
@@ -11456,14 +11457,14 @@
                     <div id="cart_confirmOrder">
 
                     </div>
-                    <div class = "cart_back" onclick = "cartProcess('delivery')">Back</div>
                     <div class = "cart_next" onclick = "cartProcess('upload')">Next</div>
+                    <div class = "cart_back" onclick = "cartProcess('delivery')">Back</div>
                 </div>
 
                 <div id="cart_upload" style="display: none;">
                     <h1>Upload your Files</h1>
-                    <div class = "cart_back" onclick = "cartProcess('confirm')">Back</div>
                     <div class = "cart_next" onclick = "cartProcess('payment')">Next</div>
+                    <div class = "cart_back" onclick = "cartProcess('confirm')">Back</div>
                 </div>
 
                 <div id="cart_payment" style="display: none;">
@@ -11471,8 +11472,9 @@
                     <div class = "cart_back" onclick = "cartProcess('upload')">Back</div>
                 </div>
 
-        </div>
-            <div class="clear"></div>
+            </div>
+                <div class="clear"></div>
+            </div>
         </div>
     </div>
 
