@@ -67,6 +67,7 @@ function initPage() {
             $("#gallary_ul").hide(200);
         }
     );
+    beforeInitPage();
 }
 
 function clickHeader(headerName) {
