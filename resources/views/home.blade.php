@@ -31,11 +31,10 @@
     <script type="text/javascript" src="{{URL::asset('/js/router.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/contactUs.js') }}"></script>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
-    <script type="text/javascript">
-    </script>
-</head>
-<body onload="initPage()">
+    <script type="text/javascript"></script>
 
+</head>
+<body onload="initPage()" >
 <!-- <div id="container"> -->
 <div class="homepage" id="homepage_div_id" style="display:block">
     <!-- header -->
@@ -3695,10 +3694,10 @@
                                                         style="width: 225px; font-size: 12px;"
                                                         onchange="UpdateSignageProductPrice('size')">
                                                     <option value="Metal with TEKflute Inserts 600 x 900mm">Metal with TEKflute Inserts 600 x 900mm</option>
-                                                    
+
                                                 </select></td>
                                         </tr>
-                                        
+
 
 
                                         </tbody>
@@ -3776,8 +3775,8 @@
                                                                 onclick="UpdateProductPrice('signage','checkbox','1')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5</td>
                                                         <td class="kinds_input"><input type="text"
@@ -3801,8 +3800,8 @@
                                                                 onclick="UpdateProductPrice('signage','checkbox','5')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10</td>
                                                         <td class="kinds_input"><input type="text"
@@ -3865,7 +3864,7 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    
+
                                                                     <td>
                                                                         <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('signage');"></a>
                                                                     </td>
@@ -4812,7 +4811,7 @@
                                                     <option value="1200">1200mm</option>
                                                     <option value="1800mm">1800mm</option>
                                                     <option value="2400mm">2400mm</option>
-                                                    
+
                                                 </select></td>
                                         </tr>
                                         <tr>
@@ -4821,7 +4820,7 @@
                                                         style="width: 225px; font-size: 12px;" id="banner_size2">
                                                     <option value="850">850mm</option>
                                                     <option value="1200">1200mm</option>
-                                                    
+
                                                 </select></td>
                                         </tr>
                                         <tr>
@@ -4829,12 +4828,12 @@
                                                 <select name="productsizelist" onchange="UpdateBannerProductPrice('size')"
                                                         style="width: 225px; font-size: 12px;" id="banner_size">
                                                     <option value="600">600x1600mm + Eyelets + Frame + Carry Bag</option>
-                                                    
+
                                                 </select></td>
                                         </tr>
 
 
-                                        
+
 
 
                                         <tr style="display:none; ">
@@ -4858,7 +4857,7 @@
                                                 </select></td>
                                         </tr>
 
-                                        
+
 
 
                                         </tbody>
@@ -6224,7 +6223,7 @@
                                                 </select></td>
                                         </tr>
 
-                                        
+
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
@@ -6238,7 +6237,7 @@
                                                     <option value="2 SIDES">2 SIDES</option>
                                                 </select></td>
                                         </tr>
-                                        
+
 
 
                                         </tbody>
@@ -6316,8 +6315,8 @@
                                                                 onclick="UpdateProductPrice('lw','checkbox','250')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6341,8 +6340,8 @@
                                                                 onclick="UpdateProductPrice('lw','checkbox','500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6366,8 +6365,8 @@
                                                                 onclick="UpdateProductPrice('lw','checkbox','1000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6391,8 +6390,8 @@
                                                                 onclick="UpdateProductPrice('lw','checkbox','1500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6416,8 +6415,8 @@
                                                                 onclick="UpdateProductPrice('lw','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6441,8 +6440,8 @@
                                                                 onclick="UpdateProductPrice('lw','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -9251,7 +9250,7 @@
                                                 </select></td>
                                         </tr>
 
-                                        
+
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
@@ -9342,8 +9341,8 @@
                                                                 onclick="UpdateProductPrice('comps','checkbox','250')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -9367,8 +9366,8 @@
                                                                 onclick="UpdateProductPrice('comps','checkbox','500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -9392,8 +9391,8 @@
                                                                 onclick="UpdateProductPrice('comps','checkbox','1000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -9417,8 +9416,8 @@
                                                                 onclick="UpdateProductPrice('comps','checkbox','1500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -9442,8 +9441,8 @@
                                                                 onclick="UpdateProductPrice('comps','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -9467,8 +9466,8 @@
                                                                 onclick="UpdateProductPrice('comps','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"

@@ -21,7 +21,84 @@ Route::get('/', function () {
 Route::get('/userLogin', function () {
     return view('dashboard_user');
 });
-
+Route::get( '/home', function () {
+    return view('home');
+});
+Route::get( '/design', function () {
+    return view('home');
+});
+Route::get( '/gallary', function () {
+    return view('home');
+});
+Route::get( '/support', function () {
+    return view('home');
+});
+Route::get( '/aboutUs', function () {
+    return view('home');
+});
+Route::get( '/contact', function () {
+    return view('home');
+});
+Route::get( '/cart', function () {
+    return view('home');
+});
+Route::get( '/login', function () {
+    return view('home');
+});
+Route::get( '/register', function () {
+    return view('home');
+});
+Route::get( '/product/booklets', function () {
+    return view('home');
+});
+Route::get( '/product/brochures', function () {
+    return view('home');
+});
+Route::get( '/product/businessCards', function () {
+    return view('home');
+});
+Route::get( '/product/deskpadsNotepads', function () {
+    return view('home');
+});
+Route::get( '/product/directMarketing', function () {
+    return view('home');
+});
+Route::get( '/product/docketBooks', function () {
+    return view('home');
+});
+Route::get( '/product/envelopes', function () {
+    return view('home');
+});
+Route::get( '/product/expressPrinting', function () {
+    return view('home');
+});
+Route::get( '/product/flyers', function () {
+    return view('home');
+});
+Route::get( '/product/fridgeMagnets', function () {
+    return view('home');
+});
+Route::get( '/product/letterheads', function () {
+    return view('home');
+});
+Route::get( '/product/postcards', function () {
+    return view('home');
+});
+Route::get( '/product/posters', function () {
+    return view('home');
+});
+Route::get( '/product/presentationFolders', function () {
+    return view('home');
+});
+Route::get( '/product/directMarketing', function () {
+    return view('home');
+});
+Route::get( '/product/withCompliments', function () {
+    return view('home');
+});
+Route::get( '/product/websiteDesign', function () {
+    return view('home');
+});
 // Route::get('/test1', function () {
 //     return view('dashboard_user');
 // });

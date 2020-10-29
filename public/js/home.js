@@ -25,10 +25,6 @@ window.onload=function(){
     oDiv.onmouseout=function(){
          timer = setInterval(move,30)
     }
-
-
-
-
 }
 
 function initPage() {
@@ -71,7 +67,6 @@ function initPage() {
             $("#gallary_ul").hide(200);
         }
     );
-
 }
 
 function clickHeader(headerName) {
@@ -296,8 +291,22 @@ function showHeaderPage(headerName) {
     }
 
 }
-
-
+function beforeInitPage() {
+    switch (window.location.pathname) {
+        case "/home":
+            showHeaderPage(0);
+            break;
+        case "/home":
+            showHeaderPage(0);
+            break;
+        case "/design":
+            showHeaderPage(2);
+            break;
+        case "/gallary":
+            showHeaderPage(3);
+            break;
+    }
+}
 function footerPosition(){
         $("footer").removeClass("fixed-bottom");
         var contentHeight = document.body.scrollHeight,//网页正文全文高度
