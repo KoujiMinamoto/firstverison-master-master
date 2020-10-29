@@ -121,9 +121,34 @@ class UserController extends Controller
 
    function sendEmail(Request $request) {
 
-      $title = 'TEST FOR EMAIL';
+      $contactDate = $request->input('data');
+
+      $product = $request->input('product');
+      $jobDescription = $request->input('jobDescription');
+      $postcode = $request->input('postcode');
+      $businessName = $request->input('businessName');
+      $name = $request->input('name');
+      $email = $request->input('email');
+      $telephone = $request->input('telephone');
+      $mode = $request->input('mode');
+      $subscribe = $request->input('subscribe');
+      if ($subscribe == true) {
+         $subscribe = "yes";
+      } else {
+         $subscribe = "no";
+      }
+      $title = $contactDate." contact message";
         // 获取邮箱内容
-      $content = "TEST FOR CONTENT";
+      $content = "qoute on: ".$product."\n";
+      $content = $content."Job Description: ".$jobDescription."\n";
+      
+      $content = $content . "Delivery Postcode: " . $postcode . "\n";
+      $content = $content . "Business Name: " . $businessName . "\n";
+      $content = $content . "Customer Name: " . $jobDescription . "\n";
+      $content = $content . "Email: " . $email . "\n";
+      $content = $content . "Telephone: " . $telephone . "\n";
+      $content = $content . "Way to find us: " . $mode . "\n";
+      $content = $content . "Subscribe to our newsletter for special offers: " . $subscribe . "\n";
 
       $toMail = 'abcdg@vip.qq.com';
 

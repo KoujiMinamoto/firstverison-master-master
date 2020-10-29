@@ -10150,7 +10150,7 @@
                         <td height="25" valign="top">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" class="quote_product_list">
                                 <tbody><tr>
-                                    <td><select name="custom_product" id="custom_product"><option value="Select Product" selected="">Select Product</option><option value="Booklets">Booklets</option><option value="Brochures">Brochures</option><option value="Business Cards">Business Cards</option><option value="Flyers">Flyers</option><option value="Letterheads">Letterheads</option><option value="Notepads/Deskpads">Notepads/Deskpads</option><option value="Postcards">Postcards</option><option value="Posters">Posters</option><option value="Presentation Folders">Presentation Folders</option><option value="With Compliment Slips">With Compliment Slips</option><option value="Envelopes">Envelopes</option><option value="Calendars">Calendars</option><option value="Swing Tags">Swing Tags</option><option value="Other Products">Other Products</option></select></td>
+                                    <td><select name="custom_product" id="contact_product"><option value="Select Product" selected="">Select Product</option><option value="Booklets">Booklets</option><option value="Brochures">Brochures</option><option value="Business Cards">Business Cards</option><option value="Flyers">Flyers</option><option value="Letterheads">Letterheads</option><option value="Notepads/Deskpads">Notepads/Deskpads</option><option value="Postcards">Postcards</option><option value="Posters">Posters</option><option value="Presentation Folders">Presentation Folders</option><option value="With Compliment Slips">With Compliment Slips</option><option value="Envelopes">Envelopes</option><option value="Calendars">Calendars</option><option value="Swing Tags">Swing Tags</option><option value="Other Products">Other Products</option></select></td>
                                 </tr>
                             </tbody></table>
                         </td>
@@ -10163,28 +10163,28 @@
                         </tbody></table>
                     </td></tr><tr>
                         <td valign="top" style="padding-top:3px; vertical-align:top">Job Description: </td>
-                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial;"></textarea></td>
+                        <td style="padding-top:3px" valign="top"><textarea name="Job Description" wrap="" cols="" rows="8" style="font-size: 13px; font-family: Arial;" id="contact_description"></textarea></td>
                     </tr>
                     <tr>
                         <td height="25"> Delivery Postcode:</td>
-                        <td><input type="text" name="Delivery Postcode" id="delivery_location" maxlength="80"></td>
+                        <td><input type="text" name="Delivery Postcode" id="contact_postcode" maxlength="80"></td>
                     </tr>
                     <tr>
                         <td height="25">Business Name:</td>
-                        <td><input type="text" name="Business Name" id="company" maxlength="80"></td>
+                        <td><input type="text" name="Business Name" id="contact_businessName" maxlength="80"></td>
                     </tr>
                     <tr>
                         <td>Your
                         Name: <span style="color:red">*</span></td>
-                        <td><input type="text" name="Name" id="name" maxlength="80"></td>
+                        <td><input type="text" name="Name" id="contact_name" maxlength="80"></td>
                     </tr>
                     <tr>
                         <td height="25">Email:<span style="color:red">*</span></td>
-                        <td><input type="text" name="Email" id="email" maxlength="80"></td>
+                        <td><input type="text" name="Email" id="contact_email" maxlength="80"></td>
                     </tr>
                     <tr>
                         <td height="25">Telephone:<span style="color:red">*</span> </td>
-                        <td><input type="text" name="Phone" id="phone" maxlength="80"></td>
+                        <td><input type="text" name="Phone" id="contact_tel" maxlength="80"></td>
                     </tr>
                     <tr>
                         <td colspan="2" height="25">By previewing your artwork we can quote your job precisely</td>
@@ -10204,14 +10204,14 @@
                     </tr>
                     <tr>
                     <td height="25" align="left">How did you find us?</td>
-                        <td><select name="How did you find us"><option value="Google">Google</option><option value="Yellow Pages">Yellow Pages</option><option value="Yahoo">Yahoo</option><option value="Bing/MSN">Bing/MSN</option><option value="Link from another site">Link from another site</option><option value="Referral">Referral</option><option value="Mail Drop">Mail Drop</option><option value="Other">Other</option></select></td>
+                        <td><select name="How did you find us" id="contact_mode"><option value="Google">Google</option><option value="Yellow Pages">Yellow Pages</option><option value="Yahoo">Yahoo</option><option value="Bing/MSN">Bing/MSN</option><option value="Link from another site">Link from another site</option><option value="Referral">Referral</option><option value="Mail Drop">Mail Drop</option><option value="Other">Other</option></select></td>
                     </tr>
 
                     <tr>
                         <td></td>
                         <td valign="top" colspan="3">
                         <div class="subscribe_holder">
-                        <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked="">
+                        <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="contact_subscribe" value="yes" checked="">
                         </div>
                         <div class="subscribe_text">
                         Subscribe to our newsletter for special offers
