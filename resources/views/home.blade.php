@@ -3666,91 +3666,43 @@
                                         </tr>
                                         <tr>
                                             <td class="pulldown">
-                                                <strong>Size:</strong>
+                                                <strong>Stock:</strong>
 
 
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="content_left"><select name="productsizelist" id="docket_size"
+                                            <td class="content_left"><select name="productsizelist" id="signage_stock"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateDockProductPrice(size)">
-                                                    <option value="A4">A4</option>
-                                                    <option value="A5">A5</option>
+                                                                             onchange="UpdateSignageProductPrice('size')">
+                                                    <option value="A-Frame & Bollard Signs">A-Frame & Bollard Signs</option>
                                                 </select></td>
                                         </tr>
 
-
-                                        <tr>
-                                            <td class="pulldown"><strong>Copies:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left"><select name="productcopylist" id="docket_copies"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateDockProductPrice(copies)">
-                                                    <option value="DUPLICATE">DUPLICATE</option>
-                                                    <option value="TRIPLICATE">TRIPLICATE</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pulldown"><strong>Carbonless Books:</strong></td>
-                                        </tr>
-                                        <tr id="carbonlessBookslist1">
-                                            <td class="content_left">
-                                                <select name="productcarbonlist" id="docket_carbonless"
-                                                        style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateDockProductPrice(carbonless)">
-                                                    <option value="Sets of 50">Sets of 50</option>
-                                                    <option value="Sets of 100">Sets of 100</option>
-                                                </select></td>
-                                        </tr>
-                                        <tr id="carbonlessBookslist2" style="display:none">
-                                            <td class="content_left">
-                                                <select name="productcarbonlist2" id="docket_carbonless"
-                                                        style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateDockProductPrice(carbonless)">
-                                                    <option value="Sets of 50">Sets of 50</option>
-                                                </select></td>
-                                        </tr>
-
-
-                                        <tr>
-                                            <td class="pulldown"><strong>Colour:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left"><select name="productcolorlist" id="docket_colour"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateDockProductPrice(colour)">
-                                                    <option value="1 COLOUR">1 COLOUR</option>
-                                                </select></td>
-                                        </tr>
-
-                                        <tr style="display:none; ">
-                                            <td class="content_left"><select name="productqtylist" id="docket_colour"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateProductPrice(colour)">
-                                                    <option value="5">5</option>
-                                                    <option value="10">10</option>
-                                                    <option value="20">20</option>
-                                                    <option value="30">30</option>
-                                                    <option value="40">40</option>
-                                                    <option value="50">50</option>
-                                                    <option value="100">100</option>
-                                                </select></td>
-                                        </tr>
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                         </tr>
                                         <tr>
-                                            <td class="content_left"><select name="productprintedsidelist"
-                                                                             id="docket_side"
+                                            <td class="content_left"><select name="productcopylist" id="signage_side"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateDockProductPrice(side)">
-                                                    <option value="1 SIDE">1 SIDE</option>
-                                                    <option value="CONDITIONS ON BACK">CONDITIONS ON BACK</option>
+                                                                             onchange="UpdateSignageProductPrice('size')">
+                                                    <option value="2 SIDES">2 SIDES</option>
                                                 </select></td>
                                         </tr>
+                                        <tr>
+                                            <td class="pulldown"><strong>Size:</strong></td>
+                                        </tr>
+                                        <tr id="carbonlessBookslist1">
+                                            <td class="content_left">
+                                                <select name="productcarbonlist" id="signage_size"
+                                                        style="width: 225px; font-size: 12px;"
+                                                        onchange="UpdateSignageProductPrice('size')">
+                                                    <option value="Metal with TEKflute Inserts 600 x 900mm">Metal with TEKflute Inserts 600 x 900mm</option>
+                                                    
+                                                </select></td>
+                                        </tr>
+                                        
 
 
                                         </tbody>
@@ -3806,131 +3758,76 @@
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="qty_left">5</td>
+                                                        <td class="qty_left">1</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5-productid_68"
-                                                                                       id="usersetqty_5-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_5-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;5&quot;, &quot;A4&quot;,  &quot;173.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="signage_inputbox_1"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('signage','inputbox','1',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5" width="50px">$173.00<input
-                                                                type="hidden" name="updateselectedproductprice5"
-                                                                id="updateselectedproductprice5" value="173.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5-productid_68-price_173.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_5-productid_68&quot;)">
+                                                        <td id="signage_td_1" width="50px">
+                                                            $151.25<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="signage_price_1"
+                                                                        value="151.25"></td>
+                                                        <td><input type="checkbox" id="signage_checkbox_1"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('signage','checkbox','1')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
+                                                    <tr>
+                                                        <td class="qty_left">5</td>
+                                                        <td class="kinds_input"><input type="text"
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="signage_inputbox_5"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('signage','inputbox','5',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
+                                                        </td>
+                                                        <td id="signage_td_5" width="50px">
+                                                            $673.75<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="signage_price_5"
+                                                                        value="673.75"></td>
+                                                        <td><input type="checkbox" id="signage_checkbox_5"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('signage','checkbox','5')">
+                                                        </td>
+                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">10</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_10-productid_68"
-                                                                                       id="usersetqty_10-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_10-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;10&quot;, &quot;A4&quot;,  &quot;240.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="signage_inputbox_10"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('signage','inputbox','10',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice10" width="50px">$240.00<input
-                                                                type="hidden" name="updateselectedproductprice10"
-                                                                id="updateselectedproductprice10" value="240.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_10-productid_68-price_240.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_10-productid_68&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">20</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_20-productid_68"
-                                                                                       id="usersetqty_20-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_20-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;20&quot;, &quot;A4&quot;,  &quot;320.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice20" width="50px">$320.00<input
-                                                                type="hidden" name="updateselectedproductprice20"
-                                                                id="updateselectedproductprice20" value="320.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_20-productid_68-price_320.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_20-productid_68&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">30</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_30-productid_68"
-                                                                                       id="usersetqty_30-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_30-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;30&quot;, &quot;A4&quot;,  &quot;410.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice30" width="50px">$410.00<input
-                                                                type="hidden" name="updateselectedproductprice30"
-                                                                id="updateselectedproductprice30" value="410.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_30-productid_68-price_410.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_30-productid_68&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">40</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_40-productid_68"
-                                                                                       id="usersetqty_40-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_40-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;40&quot;, &quot;A4&quot;,  &quot;510.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice40" width="50px">$510.00<input
-                                                                type="hidden" name="updateselectedproductprice40"
-                                                                id="updateselectedproductprice40" value="510.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_40-productid_68-price_510.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_40-productid_68&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">50</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_50-productid_68"
-                                                                                       id="usersetqty_50-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_50-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;50&quot;, &quot;A4&quot;,  &quot;625.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice50" width="50px">$625.00<input
-                                                                type="hidden" name="updateselectedproductprice50"
-                                                                id="updateselectedproductprice50" value="625.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_50-productid_68-price_625.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_50-productid_68&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">100</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_100-productid_68"
-                                                                                       id="usersetqty_100-productid_68"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedDockProduct(&quot;usersetqty_100-productid_68&quot;, &quot;1 COLOUR&quot;, &quot;100&quot;, &quot;A4&quot;,  &quot;975.00&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;68&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice100" width="50px">
-                                                            $975.00<input type="hidden"
-                                                                          name="updateselectedproductprice100"
-                                                                          id="updateselectedproductprice100"
-                                                                          value="975.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_100-productid_68-price_975.00"
-                                                                   onclick="AddDockProduct(this.value, &quot;usersetqty_100-productid_68&quot;)">
+                                                        <td id="signage_td_10" width="50px">
+                                                            $1326.88<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="signage_price_10"
+                                                                        value="1326.88"></td>
+                                                        <td><input type="checkbox" id="signage_checkbox_10"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('signage','checkbox','10')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -3951,7 +3848,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="signage_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -3972,11 +3869,13 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearDockbookCache(&quot;A4&quot;, &quot;1 COLOUR&quot;, &quot;500&quot;, &quot;68&quot;, &quot;0&quot;, &quot;1 SIDE&quot;, &quot;DUPLICATE&quot;, &quot;Sets of 50&quot;);"></a>
+                                                                    
+                                                                    <td>
+                                                                        <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('signage');"></a>
                                                                     </td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(docket)"></td>
+                                                                    <td>
+                                                                        <input type="text" class="add_to_cart" onclick="addToCart('signage')">
+                                                                    </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
@@ -4894,35 +4793,52 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="pulldown"><strong>Size:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="sizecontainer">
-                                                <select name="productsizelist" onchange="UpdateExpProductPrice(size)"
-                                                        style="width: 225px; font-size: 12px;" id="express_size">
-                                                    <option value="32">BUSINESS CARD 90 x 55</option>
-                                                    <option value="33">DL 99 x 210</option>
-                                                    <option value="34">A6 105 x 148</option>
-                                                    <option value="35">A5 148 x 210</option>
-                                                    <option value="36">A4 210 x 297</option>
-                                                    <option value="37">A3 297 x 420</option>
-                                                </select></td>
-                                        </tr>
-
-
-                                        <tr>
                                             <td class="pulldown"><strong>Stock:</strong></td>
                                         </tr>
                                         <tr>
-                                            <td class="content_left" id="stockcontainer1" style="display: none;">
-                                            {{-- <select name="productstocklist" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productstocklist"><option value="35">150GSM GLOSS</option><option value="51">400GSM GLOSS</option><option value="36">350GSM GLOSS</option></select>                                                                                    </td> --}}
                                             <td class="content_left" id="stockcontainer2">
                                                 <select name="productstocklist2"
-                                                        onchange="UpdateExpProductPrice('stock');"
-                                                        style="width: 225px; font-size: 12px;" id="express_stock">
-                                                    <option value="51">400GSM GLOSS</option>
+                                                        onchange="UpdateBannerProductPrice('size');"
+                                                        style="width: 225px; font-size: 12px;" id="banner_stock">
+                                                    <option value="Premium">Premium Pullup Banner + Black Base</option>
+                                                    <option value="Standard">Standard Pullup Banner + Silver Base </option>
+                                                    <option value="440GSM">440GSM Polyester X-Frame</option>
                                                 </select></td>
                                         </tr>
+                                        <tr>
+                                            <td class="pulldown"><strong>Size:</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content_left" id="bannersizecontainer2">
+                                                <select name="productsizelist" onchange="UpdateBannerProductPrice('size')"
+                                                        style="width: 225px; font-size: 12px;" id="banner_size">
+                                                    <option value="850">850mm</option>
+                                                    <option value="1200">1200mm</option>
+                                                    <option value="1800mm">1800mm</option>
+                                                    <option value="2400mm">2400mm</option>
+                                                    
+                                                </select></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content_left" id="bannersizecontainer1" style="display:none; ">
+                                                <select name="productsizelist" onchange="UpdateBannerProductPrice('size2')"
+                                                        style="width: 225px; font-size: 12px;" id="banner_size2">
+                                                    <option value="850">850mm</option>
+                                                    <option value="1200">1200mm</option>
+                                                    
+                                                </select></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content_left" id="bannersizecontainer3" style="display:none; ">
+                                                <select name="productsizelist" onchange="UpdateBannerProductPrice('size')"
+                                                        style="width: 225px; font-size: 12px;" id="banner_size">
+                                                    <option value="600">600x1600mm + Eyelets + Frame + Carry Bag</option>
+                                                    
+                                                </select></td>
+                                        </tr>
+
+
+                                        
 
 
                                         <tr style="display:none; ">
@@ -4946,92 +4862,7 @@
                                                 </select></td>
                                         </tr>
 
-                                        <tr>
-                                            <td class="pulldown"><strong>Printed Sides:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="printedsidecontainer">
-                                                <select name="productprintedsidelist"
-                                                        onchange="swap_exp_printing(sides)"
-                                                        style="width: 225px; font-size: 12px;" id="express_sides">
-                                                    <option value="19">FULL COLOUR FRONT ONLY</option>
-                                                    <option value="20">FULL COLOUR FRONT AND BACK</option>
-                                                </select></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="pulldown"><strong>Finish:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="finishcontainer1" style="display: none;">
-                                                <select name="productfinishlist1"
-                                                        onchange="UpdateExpProductPrice(finish);"
-                                                        style="width: 225px; font-size: 12px;" id="express_finish">
-                                                    <option value="7">NO LAMINATION</option>
-                                                    <option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option>
-                                                    <option value="9">MATT OR GLOSS LAMINATED 2 SIDES</option>
-                                                </select></td>
-                                            <td class="content_left" id="finishcontainer2" style="display: none;">
-                                            {{-- <select name="productfinishlist2" onchange="swap_exp_printing('72');" style="width: 225px; font-size: 12px;" id="productfinishlist2"><option value="7">NO LAMINATION</option></select>                                                                    </td> --}}
-                                            <td class="content_left" id="finishcontainer3">
-                                                <select name="productfinishlist" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productfinishlist">
-                                                    <option value="7">NO LAMINATION</option>
-                                                    <option value="8">MATT OR GLOSS LAMINATED 1 SIDE</option>
-                                                </select></td>
-                                        </tr>
-
-
-                                        <tr>
-                                            <td class="pulldown" id="foldingcontainer_title" style="display: none;">
-                                                <strong>Folding:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="foldingcontainer1" style="display: none;">
-                                                <select name="productfoldinglist" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productfoldinglist">
-                                                    <option value="1">NO FOLDING</option>
-                                                    <option value="2">FOLD A4 TO 4PP OR 6PP DL</option>
-                                                    <option value="3">FOLD A3 TO A4</option>
-                                                    <option value="4">FOLD A5 TO A6</option>
-                                                </select></td>
-                                            <td class="content_left" id="foldingcontainer2" style="display: none;">
-                                                <select name="productfoldinglist2" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productfoldinglist2">
-                                                    <option value="1">NO FOLDING</option>
-                                                    <option value="2">FOLD A4 TO 4PP OR 6PP DL</option>
-                                                </select></td>
-                                            <td class="content_left" id="foldingcontainer3" style="display: none;">
-                                                <select name="productfoldinglist3" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productfoldinglist3">
-                                                    <option value="1">NO FOLDING</option>
-                                                    <option value="3">FOLD A3 TO A4</option>
-                                                </select></td>
-                                            <td class="content_left" id="foldingcontainer4" style="display: none;">
-                                                <select name="productfoldinglist4" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productfoldinglist4">
-                                                    <option value="1">NO FOLDING</option>
-                                                    <option value="4">FOLD A5 TO A6</option>
-                                                </select></td>
-                                            <td class="content_left" id="foldingcontainer5" style="display: none;">
-                                                <select name="productfoldinglist5" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productfoldinglist5">
-                                                    <option value="1">NO FOLDING</option>
-                                                </select></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="pulldown" id="scoringcontainer_title" style="display: none;">
-                                                <strong>Scoring (Creasing):</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="scoringcontainer1" style="display: none;">
-                                                <select name="productscoringlist" onchange="swap_exp_printing('72');"
-                                                        style="width: 225px; font-size: 12px;" id="productscoringlist">
-                                                    <option value="2">NO SCORING</option>
-                                                    <option value="1">SCORING</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
 
                                         </tbody>
@@ -5086,120 +4917,27 @@
                                                         <td class="price_header"><strong>Price</strong></td>
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
-                                                    <tr class="show">
-                                                        <td class="qty_left">150</td>
+                                                    <tr>
+                                                        <td class="qty_left">1</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_150-productid_72"
-                                                                                       id="usersetqty_150-productid_72"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_150-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;150&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;75.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="banner_inputbox_1"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('banner','inputbox','1',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice150" width="50px">$75.00<input
-                                                                type="hidden" name="updateselectedproductprice150"
-                                                                id="updateselectedproductprice150" value="75.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_150-productid_72-price_75.00"
-                                                                   onclick="AddExpPrintingProduct(this.value, &quot;usersetqty_150-productid_72&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="show">
-                                                        <td class="qty_left">250</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_250-productid_72"
-                                                                                       id="usersetqty_250-productid_72"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_250-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;250&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;80.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice250" width="50px">$80.00<input
-                                                                type="hidden" name="updateselectedproductprice250"
-                                                                id="updateselectedproductprice250" value="80.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_250-productid_72-price_80.00"
-                                                                   onclick="AddExpPrintingProduct(this.value, &quot;usersetqty_250-productid_72&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="show">
-                                                        <td class="qty_left">500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_72"
-                                                                                       id="usersetqty_500-productid_72"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_500-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;500&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;100.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice500" width="50px">
-                                                            $100.00<input type="hidden"
-                                                                          name="updateselectedproductprice500"
-                                                                          id="updateselectedproductprice500"
-                                                                          value="100.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_72-price_100.00"
-                                                                   onclick="AddExpPrintingProduct(this.value, &quot;usersetqty_500-productid_72&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="show">
-                                                        <td class="qty_left">1000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_72"
-                                                                                       id="usersetqty_1000-productid_72"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_1000-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;1000&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;110.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $110.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="110.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_72-price_110.00"
-                                                                   onclick="AddExpPrintingProduct(this.value, &quot;usersetqty_1000-productid_72&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="show">
-                                                        <td class="qty_left">2000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_72"
-                                                                                       id="usersetqty_2000-productid_72"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_2000-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;2000&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;140.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $140.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="140.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_72-price_140.00"
-                                                                   onclick="AddExpPrintingProduct(this.value, &quot;usersetqty_2000-productid_72&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="show">
-                                                        <td class="qty_left">2500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2500-productid_72"
-                                                                                       id="usersetqty_2500-productid_72"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductExpPrinting(&quot;usersetqty_2500-productid_72&quot;, &quot;32&quot;, &quot;36&quot;, &quot;19&quot;, &quot;2500&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;200.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
-                                                            $200.00<input type="hidden"
-                                                                          name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
-                                                                          value="200.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2500-productid_72-price_200.00"
-                                                                   onclick="AddExpPrintingProduct(this.value, &quot;usersetqty_2500-productid_72&quot;)">
+                                                        <td id="banner_td_1" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="banner_price_1"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="banner_checkbox_1"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('banner','checkbox','1')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -5222,7 +4960,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="banner_totalPrice"></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -5243,11 +4981,12 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearExpPrintingCache(&quot;32&quot;,&quot;36&quot;, &quot;19&quot;, &quot;500&quot;, &quot;7&quot;, &quot;1&quot;, &quot;2&quot;, &quot;72&quot;, &quot;0&quot;);"></a>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('banner');"></a>
                                                                     </td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(express)"></td>
+                                                                    <td>
+                                                                        <input type="text" class="add_to_cart" onclick="addToCart('banner')">
+                                                                    </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
@@ -6470,7 +6209,7 @@
                                         <tr>
                                             <td class="content_left"><select name="productsizelist" id="lw_size"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateLWProductPrice(size)">
+                                                                             onchange="UpdateLWProductPrice('size')">
                                                     <option value="A4 210 x 297">A4 210 x 297</option>
                                                 </select></td>
                                         </tr>
@@ -6481,76 +6220,29 @@
                                         </tr>
                                         <tr>
                                             <td class="content_left" id="lw_stock"><select
-                                                    onchange="UpdateLWProductPrice(stock)"
+                                                    onchange="UpdateLWProductPrice('stock')"
                                                     style="width: 225px; font-size: 12px;" id="productstocklist"
                                                     name="productstocklist">
-                                                    <option value="100GSM LASER BOND">100GSM LASER BOND</option>
-                                                    <option value="100GSM RECYCLED 100%">100GSM RECYCLED 100%</option>
+                                                    <option value="100GSM">100GSM LASER BOND</option>
+                                                    <option value="120GSM">120GSM RECYCLED 100%</option>
                                                 </select></td>
                                         </tr>
 
-                                        <tr>
-                                            <td class="pulldown"><strong>Colour:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="postcodecolor">
-                                                <select id="productcolorlist" onchange="UpdateProductPrice4(60)"
-                                                        style="width: 225px; font-size: 12px;" name="productcolorlist">
-                                                    <option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate" class="content_left"></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate1" class="content_left"><select
-                                                    name="productcolorlist" id="lw_colour"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateLWProductPrice(colour)">
-                                                    <option value="1 PMS COLOUR">1 PMS COLOUR</option>
-                                                    <option value="2 PMS COLOURS">2 PMS COLOURS</option>
-                                                    <option value="3 PMS COLOURS">3 PMS COLOURS</option>
-                                                    <option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option>
-                                                </select></td>
-                                        </tr>
-
-                                        <tr style="display:none; ">
-                                            <td class="content_left"><select name="productqtylist" id="productqtylist"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateProductPrice(60)">
-                                                    <option value="500">500</option>
-                                                    <option value="1000">1000</option>
-                                                    <option value="1500">1500</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="2500">2500</option>
-                                                    <option value="3000">3000</option>
-                                                    <option value="4000">4000</option>
-                                                    <option value="5000">5000</option>
-                                                    <option value="10000">10000</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                         </tr>
                                         <tr>
                                             <td class="content_left" id="lhprintedside"><select
-                                                    name="productprintedsidelist" id="lw_sides"
+                                                    name="productprintedsidelist" id="lw_side"
                                                     style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateLWProductPrice(sides)">
+                                                    onchange="UpdateLWProductPrice('stock')">
                                                     <option value="1 SIDE">1 SIDE</option>
                                                     <option value="2 SIDES">2 SIDES</option>
                                                 </select></td>
                                         </tr>
-                                        <tr>
-                                            <td id="lhprintedsideupdate1" class="content_left" style="display: none;">
-                                                <select name="productprintedsidelist" id="productprintedsidelist"
-                                                        style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPriceLW(60)">
-                                                    <option value="1 SIDE">1 SIDE</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
 
                                         </tbody>
@@ -6606,183 +6298,176 @@
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="qty_left">500</td>
+                                                        <td class="qty_left">250</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_60"
-                                                                                       id="usersetqty_500-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_500-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;500&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;145.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_250"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','250',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">
-                                                            $145.00<input type="hidden"
-                                                                          name="updateselectedproductprice500"
-                                                                          id="updateselectedproductprice500"
-                                                                          value="145.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_60-price_145.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_500-productid_60&quot;)">
+                                                        <td id="lw_td_250" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_250"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_250"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','250')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
+                                                    <tr>
+                                                        <td class="qty_left">500</td>
+                                                        <td class="kinds_input"><input type="text"
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
+                                                        </td>
+                                                        <td id="lw_td_500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','500')">
+                                                        </td>
+                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_60"
-                                                                                       id="usersetqty_1000-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1000-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;1000&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;160.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_1000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','1000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $160.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="160.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_60-price_160.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1000-productid_60&quot;)">
+                                                        <td id="lw_td_1000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_1000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_1000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','1000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1500-productid_60"
-                                                                                       id="usersetqty_1500-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1500-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;1500&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;205.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_1500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','1500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1500" width="50px">
-                                                            $205.00<input type="hidden"
-                                                                          name="updateselectedproductprice1500"
-                                                                          id="updateselectedproductprice1500"
-                                                                          value="205.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1500-productid_60-price_205.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1500-productid_60&quot;)">
+                                                        <td id="lw_td_1500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_1500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_1500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','1500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_60"
-                                                                                       id="usersetqty_2000-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2000-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;2000&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;230.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_2000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','2000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $230.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="230.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_60-price_230.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2000-productid_60&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">2500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2500-productid_60"
-                                                                                       id="usersetqty_2500-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2500-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;2500&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;260.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
-                                                            $260.00<input type="hidden"
-                                                                          name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
-                                                                          value="260.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2500-productid_60-price_260.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2500-productid_60&quot;)">
+                                                        <td id="lw_td_2000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_2000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_2000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_3000-productid_60"
-                                                                                       id="usersetqty_3000-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_3000-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;3000&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;310.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
-                                                            $310.00<input type="hidden"
-                                                                          name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
-                                                                          value="310.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_3000-productid_60-price_310.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_3000-productid_60&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_60"
-                                                                                       id="usersetqty_4000-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_4000-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;4000&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;355.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $355.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="355.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_60-price_355.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_4000-productid_60&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_60"
-                                                                                       id="usersetqty_5000-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_5000-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;5000&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;395.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_5000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','5000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $395.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="395.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_60-price_395.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_5000-productid_60&quot;)">
+                                                        <td id="lw_td_5000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_5000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_5000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','5000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_10000-productid_60"
-                                                                                       id="usersetqty_10000-productid_60"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_10000-productid_60&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;10000&quot;, &quot;A4 210 x 297&quot;, &quot;1 SIDE&quot;, &quot;60&quot;, &quot;470.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="lw_inputbox_10000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('lw','inputbox','10000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice10000" width="50px">
-                                                            $470.00<input type="hidden"
-                                                                          name="updateselectedproductprice10000"
-                                                                          id="updateselectedproductprice10000"
-                                                                          value="470.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_10000-productid_60-price_470.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_10000-productid_60&quot;)">
+                                                        <td id="lw_td_10000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="lw_price_10000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="lw_checkbox_10000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('lw','checkbox','10000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -6802,7 +6487,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="lw_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -6823,10 +6508,12 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearLWCache(60);"></a></td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(letterhead)"></td>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('lw');"></a>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="add_to_cart" onclick="addToCart('lw')">
+                                                                </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
@@ -9548,7 +9235,7 @@
                                         <tr>
                                             <td class="content_left"><select name="productsizelist" id="comps_size"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateCompsProductPrice(size)">
+                                                                             onchange="UpdateCompsProductPrice('size')">
                                                     <option value="DL 210 x 99">DL 210 x 99</option>
                                                 </select></td>
                                         </tr>
@@ -9560,67 +9247,26 @@
                                         <tr>
                                             <td class="content_left"><select name="productstocklist" id="comps_stock"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateCompsProductPrice(stock)">
-                                                    <option value="100GSM LASER BOND">100GSM LASER BOND</option>
-                                                    <option value="105GSM LASER 100% RECYCLED">105GSM LASER 100%
+                                                                             onchange="UpdateCompsProductPrice('stock')">
+                                                    <option value="100GSM">100GSM LASER BOND</option>
+                                                    <option value="120GSM">120GSM LASER 100%
                                                         RECYCLED
                                                     </option>
                                                 </select></td>
                                         </tr>
 
-                                        <tr>
-                                            <td class="pulldown"><strong>Colour:</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="content_left" id="comps_colour"><select
-                                                    onchange="UpdateCompsProductPrice(colour)"
-                                                    style="width: 225px; font-size: 12px;" id="productcolorlist"
-                                                    name="productcolorlist">
-                                                    <option value="4 COLOUR PROCESS" selected="">4 COLOUR PROCESS
-                                                    </option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate" class="content_left"></td>
-                                        </tr>
-                                        <tr style="display: none;">
-                                            <td id="postcodecolorupdate1" class="content_left"><select
-                                                    name="productcolorlist" id="productcolorlist"
-                                                    style="width: 225px; font-size: 12px;"
-                                                    onchange="UpdateProductPriceComps(61)">
-                                                    <option value="1 PMS COLOUR">1 PMS COLOUR</option>
-                                                    <option value="2 PMS COLOURS">2 PMS COLOURS</option>
-                                                    <option value="3 PMS COLOURS">3 PMS COLOURS</option>
-                                                    <option value="4 COLOUR PROCESS">4 COLOUR PROCESS</option>
-                                                </select></td>
-                                        </tr>
-
-                                        <tr style="display:none; ">
-                                            <td class="content_left"><select name="productqtylist" id="productqtylist"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateProductPrice(61)">
-                                                    <option value="500">500</option>
-                                                    <option value="1000">1000</option>
-                                                    <option value="1500">1500</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="2500">2500</option>
-                                                    <option value="3000">3000</option>
-                                                    <option value="4000">4000</option>
-                                                    <option value="5000">5000</option>
-                                                    <option value="10000">10000</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
                                         </tr>
                                         <tr>
                                             <td class="content_left"><select name="productprintedsidelist"
-                                                                             id="comps_sides"
+                                                                             id="comps_side"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateCompsProductPrice(sides)">
+                                                                             onchange="UpdateCompsProductPrice('stock')">
                                                     <option value="1 SIDE">1 SIDE</option>
+                                                    <option value="2 SIDES">2 SIDES</option>
                                                 </select></td>
                                         </tr>
 
@@ -9678,181 +9324,176 @@
                                                         <td class="buy_header"><strong>Buy</strong></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="qty_left">500</td>
+                                                        <td class="qty_left">250</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_61"
-                                                                                       id="usersetqty_500-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_500-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;500&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;75.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_250"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','250',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">$75.00<input
-                                                                type="hidden" name="updateselectedproductprice500"
-                                                                id="updateselectedproductprice500" value="75.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_61-price_75.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_500-productid_61&quot;)">
+                                                        <td id="comps_td_250" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_250"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_250"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','250')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
+                                                    <tr>
+                                                        <td class="qty_left">500</td>
+                                                        <td class="kinds_input"><input type="text"
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
+                                                        </td>
+                                                        <td id="comps_td_500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','500')">
+                                                        </td>
+                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_61"
-                                                                                       id="usersetqty_1000-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1000-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;1000&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;100.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_1000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','1000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $100.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="100.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_61-price_100.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1000-productid_61&quot;)">
+                                                        <td id="comps_td_1000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_1000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_1000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','1000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1500-productid_61"
-                                                                                       id="usersetqty_1500-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_1500-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;1500&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;148.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_1500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','1500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1500" width="50px">
-                                                            $148.00<input type="hidden"
-                                                                          name="updateselectedproductprice1500"
-                                                                          id="updateselectedproductprice1500"
-                                                                          value="148.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1500-productid_61-price_148.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_1500-productid_61&quot;)">
+                                                        <td id="comps_td_1500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_1500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_1500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','1500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_61"
-                                                                                       id="usersetqty_2000-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2000-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;2000&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;154.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_2000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','2000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $154.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="154.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_61-price_154.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2000-productid_61&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">2500</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2500-productid_61"
-                                                                                       id="usersetqty_2500-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_2500-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;2500&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;172.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice2500" width="50px">
-                                                            $172.00<input type="hidden"
-                                                                          name="updateselectedproductprice2500"
-                                                                          id="updateselectedproductprice2500"
-                                                                          value="172.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2500-productid_61-price_172.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_2500-productid_61&quot;)">
+                                                        <td id="comps_td_2000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_2000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_2000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_3000-productid_61"
-                                                                                       id="usersetqty_3000-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_3000-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;3000&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;184.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
-                                                            $184.00<input type="hidden"
-                                                                          name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
-                                                                          value="184.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_3000-productid_61-price_184.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_3000-productid_61&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_61"
-                                                                                       id="usersetqty_4000-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_4000-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;4000&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;209.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $209.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="209.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_61-price_209.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_4000-productid_61&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_61"
-                                                                                       id="usersetqty_5000-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_5000-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;5000&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;243.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_5000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','5000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $243.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="243.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_61-price_243.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_5000-productid_61&quot;)">
+                                                        <td id="comps_td_5000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_5000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_5000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','5000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_10000-productid_61"
-                                                                                       id="usersetqty_10000-productid_61"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductLW(&quot;usersetqty_10000-productid_61&quot;, &quot;4 COLOUR PROCESS&quot;, &quot;100GSM LASER BOND&quot;, &quot;10000&quot;, &quot;DL 210 x 99&quot;, &quot;1 SIDE&quot;, &quot;61&quot;, &quot;427.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="comps_inputbox_10000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('comps','inputbox','10000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice10000" width="50px">
-                                                            $427.00<input type="hidden"
-                                                                          name="updateselectedproductprice10000"
-                                                                          id="updateselectedproductprice10000"
-                                                                          value="427.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_10000-productid_61-price_427.00"
-                                                                   onclick="AddLWProduct(this.value, &quot;usersetqty_10000-productid_61&quot;)">
+                                                        <td id="comps_td_10000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="comps_price_10000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="comps_checkbox_10000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('comps','checkbox','10000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -9872,7 +9513,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="comps_totalPrice">0.00</p></span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -9892,12 +9533,12 @@
                                                         <td colspan="4" align="right"><br style="">
                                                             <table>
                                                                 <tbody>
-                                                                <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearLWCache(61);"></a></td>
-                                                                    <td><input type="submit" class="add_to_cart"
-                                                                               onclick="addToCard(compliments)"></td>
-                                                                </tr>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('comps');"></a>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="add_to_cart" onclick="addToCart('comps')">
+                                                                </td>
                                                                 </tbody>
                                                             </table>
                                                         </td>

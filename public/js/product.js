@@ -574,30 +574,34 @@ function UpdateFridgeProductPrice(type) {
 
 //Letterhead Printing
 function UpdateLWProductPrice(type) {
+    let length = letterheadPrice.a41001.length;
+        let price = new Array;
     if(type == "size") {
         //lw_size
         //A4 210 x 297
 
     }else if (type == "stock") {
-        if ( $("#lw_stock option:selected").val() == "100GSM LASER BOND" ){
+        if ( $("#lw_stock option:selected").val() == "100GSM" ){
+            if ( $("#lw_side option:selected").val() == "1 SIDE" ){
+                price=letterheadPrice.a41001;
+            } else if (  $("#lw_side option:selected").val() == "2 SIDES" ) {
+                price=letterheadPrice.a41002;
+            }
 
-        } else if (  $("#lw_stock option:selected").val() == "100GSM RECYCLED 100%" ) {
-
-        }
-
-    }else if (type == "colour") {
-        //FULL COLOUR
-        //express_finish
-        if ( $("#lw_colour option:selected").val() == "1 PMS COLOUR" ){
-
-        } else if (  $("#lw_colour option:selected").val() == "2 PMS COLOURS" ) {
-
-        } else if (  $("#lw_colour option:selected").val() == "3 PMS COLOURS" ) {
-
-        } else if (  $("#lw_colour option:selected").val() == "4 COLOUR PROCESS" ) {
+        } else if (  $("#lw_stock option:selected").val() == "120GSM" ) {
+            if ( $("#lw_side option:selected").val() == "1 SIDE" ){
+                price=letterheadPrice.a41201;
+            } else if (  $("#lw_side option:selected").val() == "2 SIDES" ) {
+                price=letterheadPrice.a41202;
+            }
 
         }
-    } else if (type == "sides") {
+        for (let i = 0; i<length ; ++i) {
+            $("#lw_td_"+PRODUCT_QTY.LETTERHEAD[i]).text("$"+price[i].toFixed(2) );
+            $("#lw_td_"+PRODUCT_QTY.LETTERHEAD[i]).append("<input type='hidden' id='lw_price_"+PRODUCT_QTY.LETTERHEAD[i]+"' value='"+price[i].toFixed(2)+"'> ");
+        }
+
+    }else if (type == "sides") {
         //FULL COLOUR
         //express_finish
         if ( $("#lw_sides option:selected").val() == "1 SIDE" ){
@@ -833,15 +837,30 @@ function UpdateFolderProductPricePres(type) {
 }
 //With Compliments
 function UpdateCompsProductPrice(type) {
+    let length = complimentPrice.dl1001.length;
+    let price = new Array;
     if(type == "size") {
         //comps_size
         //DL 210 x 99
 
     }else if (type == "stock") {
-        if ( $("#comps_stock option:selected").val() == "100GSM LASER BOND" ){
+        if ( $("#comps_stock option:selected").val() == "100GSM" ){
+            if ( $("#comps_side option:selected").val() == "1 SIDE" ){
+                price=complimentPrice.dl1001;
+            } else if (  $("#comps_side option:selected").val() == "2 SIDES" ) {
+                price=complimentPrice.dl1002;
+            }
 
-        } else if (  $("#comps_stock option:selected").val() == "105GSM LASER 100% RECYCLED" ) {
-
+        } else if (  $("#comps_stock option:selected").val() == "120GSM" ) {
+            if ( $("#comps_side option:selected").val() == "1 SIDE" ){
+                price=complimentPrice.dl1201;
+            } else if (  $("#comps_side option:selected").val() == "2 SIDES" ) {
+                price=complimentPrice.dl1202;
+            }
+        }
+        for (let i = 0; i<length ; ++i) {
+            $("#comps_td_"+PRODUCT_QTY.COMPLIMENT[i]).text("$"+price[i].toFixed(2) );
+            $("#comps_td_"+PRODUCT_QTY.COMPLIMENT[i]).append("<input type='hidden' id='comps_price_"+PRODUCT_QTY.COMPLIMENT[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
 
     }else if (type == "colour") {
@@ -854,3 +873,78 @@ function UpdateCompsProductPrice(type) {
 
     }
 }
+//Banner 放在expressing里面了
+function UpdateBannerProductPrice(type) {
+    let length = bannerPrice.ss1200.length;
+    let price = new Array;
+    if(type == "size") {
+        if( $("#banner_stock option:selected").val() == "Premium" ){
+            document.getElementById("bannersizecontainer2").style.display = "block";
+            document.getElementById("bannersizecontainer1").style.display = "none";
+            document.getElementById("bannersizecontainer3").style.display = "none";
+            if ( $("#banner_size option:selected").val() == "850" ){
+                price=bannerPrice.pb850;
+            }else if ( $("#banner_size option:selected").val() == "1200" ){
+                price=bannerPrice.pb1200;
+            }else if ( $("#banner_size option:selected").val() == "1800mm" ){
+                console.log("test1234");
+                price=bannerPrice.pb1800;
+            }else if ( $("#banner_size option:selected").val() == "2400mm" ){
+                price=bannerPrice.pb2400;
+            }
+
+        }else if ( $("#banner_stock option:selected").val() == "Standard" ){
+            document.getElementById("bannersizecontainer1").style.display = "block";
+            document.getElementById("bannersizecontainer2").style.display = "none";
+            document.getElementById("bannersizecontainer3").style.display = "none";
+
+            if ( $("#banner_size option:selected").val() == "850" ){
+                price=bannerPrice.ss850;
+            }else if ( $("#banner_size option:selected").val() == "1200" ){
+                price = bannerPrice.ss1200;
+            }
+        }else if( $("#banner_stock option:selected").val() == "440GSM" ){
+            document.getElementById("bannersizecontainer3").style.display = "block";
+            document.getElementById("bannersizecontainer1").style.display = "none";
+            document.getElementById("bannersizecontainer2").style.display = "none";
+            price=bannerPrice.px600;
+
+        }
+        for (let i = 0; i<length ; ++i) {
+            $("#banner_td_"+PRODUCT_QTY.BANNER[i]).text("$"+price[i].toFixed(2) );
+            $("#banner_td_"+PRODUCT_QTY.BANNER[i]).append("<input type='hidden' id='banner_price_"+PRODUCT_QTY.BANNER[i]+"' value='"+price[i].toFixed(2)+"'> ");
+        }
+    }else if(type == "size2") {
+        if ( $("#banner_stock option:selected").val() == "Standard" ){
+            document.getElementById("bannersizecontainer1").style.display = "block";
+            document.getElementById("bannersizecontainer2").style.display = "none";
+            document.getElementById("bannersizecontainer3").style.display = "none";
+
+            if ( $("#banner_size2 option:selected").val() == "850" ){
+                price=bannerPrice.ss850;
+            }else if ( $("#banner_size2 option:selected").val() == "1200" ){
+                price = bannerPrice.ss1200;
+            }
+        }
+        for (let i = 0; i<length ; ++i) {
+            $("#banner_td_"+PRODUCT_QTY.BANNER[i]).text("$"+price[i].toFixed(2) );
+            $("#banner_td_"+PRODUCT_QTY.BANNER[i]).append("<input type='hidden' id='banner_price_"+PRODUCT_QTY.BANNER[i]+"' value='"+price[i].toFixed(2)+"'> ");
+        }
+
+    }
+}
+//signage
+function UpdateSignageProductPrice(type) {
+    let length = signagePrice.only1.length;
+    let price = new Array;
+    if(type == "size") {
+        price = signagePrice.only1;
+        for (let i = 0; i<length ; ++i) {
+            $("#signage_td_"+PRODUCT_QTY.SIGNAGE[i]).text("$"+price[i].toFixed(2) );
+            $("#signage_td_"+PRODUCT_QTY.SIGNAGE[i]).append("<input type='hidden' id='signage_price_"+PRODUCT_QTY.SIGNAGE[i]+"' value='"+price[i].toFixed(2)+"'> ");
+        }
+    }
+
+
+}
+

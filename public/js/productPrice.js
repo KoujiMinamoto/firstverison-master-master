@@ -85,6 +85,18 @@ function productPriceCal(product) {
     if (product == 'post') {
         qtyArray = PRODUCT_QTY.POSTERCARD;
     }
+    if (product == 'comps') {
+        qtyArray = PRODUCT_QTY.COMPLIMENT;
+    }
+    if (product == 'lw') {
+        qtyArray = PRODUCT_QTY.LETTERHEAD;
+    }
+    if (product == 'banner') {
+        qtyArray = PRODUCT_QTY.BANNER;
+    }
+    if (product == 'signage') {
+        qtyArray = PRODUCT_QTY.SIGNAGE;
+    }
     let length = qtyArray.length;
 
     for(let i = 0;i<length;++i){
@@ -118,6 +130,18 @@ function clearPrice(product) {
     }
     if (product == 'post') {
         qtyArray = PRODUCT_QTY.POSTERCARD;
+    }
+    if (product == 'comps') {
+        qtyArray = PRODUCT_QTY.COMPLIMENT;
+    }
+    if (product == 'lw') {
+        qtyArray = PRODUCT_QTY.LETTERHEAD;
+    }
+    if (product == 'banner') {
+        qtyArray = PRODUCT_QTY.BANNER;
+    }
+    if (product == 'signage') {
+        qtyArray = PRODUCT_QTY.SIGNAGE;
     }
     let length = qtyArray.length;
 
@@ -166,6 +190,22 @@ function addToCart (product) {
     if (product == 'post') {
         qtyArray = PRODUCT_QTY.POSTERCARD;
         option = PRODUCT_OPTIONS.POSTERCARD;
+    }
+    if (product == 'comps') {
+        qtyArray = PRODUCT_QTY.COMPLIMENT;
+        option = PRODUCT_OPTIONS.COMPLIMENT;
+    }
+    if (product == 'lw') {
+        qtyArray = PRODUCT_QTY.LETTERHEAD;
+        option = PRODUCT_OPTIONS.LETTERHEAD;
+    }
+    if (product == 'banner') {
+        qtyArray = PRODUCT_QTY.BANNER;
+        option = PRODUCT_OPTIONS.BANNER;
+    }
+    if (product == 'signage') {
+        qtyArray = PRODUCT_QTY.SIGNAGE;
+        option = PRODUCT_OPTIONS.SIGNAGE;
     }
     let productMessage = new Array;
 
