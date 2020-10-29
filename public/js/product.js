@@ -1004,7 +1004,7 @@ function UpdateBannerProductPrice(type) {
 
     }
 }
-//signage
+//signage use docket
 function UpdateSignageProductPrice(type) {
     let length = signagePrice.only1.length;
     let price = new Array;
