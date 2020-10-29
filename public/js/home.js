@@ -27,7 +27,7 @@ window.onload=function(){
     }
 
 
-    
+
 
 }
 
@@ -79,8 +79,7 @@ function clickHeader(headerName) {
     switch (headerName) {
         //product
         case 0:
-            $(".home").addClass("clickOn");
-            document.getElementById("home_div_id").style.display = "block";
+            showHeaderPage(0);
             linkTo('home');
             break;
         // case 1:
@@ -88,98 +87,59 @@ function clickHeader(headerName) {
         //     document.getElementById("product_div_id").style.display = "block";
         //     break;
         case 2:
-            $(".design").addClass("clickOn");
-            document.getElementById("design_div_id").style.display = "block";
+            showHeaderPage(2);
             linkTo('design');
             break;
         case 3:
-
-            $(".gallary").addClass("clickOn");
-            document.getElementById("displayBox_id").style.display = "none";
-            document.getElementById("gallary_div_id").style.display = "block";
+            showHeaderPage(3);
             linkTo('gallary');
             break;
         case 4:
-            $(".support").addClass("clickOn");
-            document.getElementById("support_div_id").style.display = "block";
+            showHeaderPage(4);
             linkTo('support');
             break;
         case 5:
-            $(".aboutUs").addClass("clickOn");
-            document.getElementById("aboutUs_div_id").style.display = "block";
+            showHeaderPage(5);
             linkTo('aboutUs');
             break;
         case 6:
-            $(".contact").addClass("clickOn");
-            document.getElementById("contact_div_id").style.display = "block";
+            showHeaderPage(6)
             linkTo('contact');
             break;
         case 7:
-            $(".cart").addClass("clickOn");
-            document.getElementById("cart_div_id").style.display = "block";
+            showHeaderPage(7);
             linkTo('cart');
             break;
         case 8:
-            var storage=window.localStorage;
-            var login =storage.login;
-            if (login == "login"){
-                var usertype = storage.usertype;
-                var username = storage.username;
-                document.getElementById("homepage_div_id").style.display = "none";
-                if(usertype == '1'){
-                    document.getElementById("dashboard_admin_div_id").style.display = "block";
-                    }
-                else{
-                    document.getElementById("dashboard_user_div_id").style.display = "block";
-                }
-            }else
-            {
-                $(".login").addClass("clickOn");
-                document.getElementById("login_div_id").style.display = "block";
-            }
+            showHeaderPage(8);
             linkTo('login');
             break;
         case 9:
-            var storage=window.localStorage;
-            var login =storage.login;
-            if (login == "login"){
-                window.localStorage.setItem('login', "logout");
-                $(".home").addClass("clickOn");
-                document.getElementById("home_div_id").style.display = "block";
-                $("#login_id").html('login');
-                $("#register_id").html('register');
-            }
-            else{
-                $(".register").addClass("clickOn");
-                document.getElementById("register_div_id").style.display = "block";
-            }
+            showHeaderPage(9);
             linkTo('register');
             break;
-
-
-        default :
-            break;
         case 10:
-            $(".login").addClass("clickOn");
-            document.getElementById("login_div_forgetpasswd_id").style.display = "block";
+            showHeaderPage(10);
             break;
         case 11:
-            document.getElementById("terms_div_id").style.display = "block";
+            showHeaderPage(11);
             break;
         case 12:
-            document.getElementById("privacy_div_id").style.display = "block";
+            showHeaderPage(12);
             break;
         case 13:
-            document.getElementById("sample_div_id").style.display = "block";
+            showHeaderPage(13);
             break;
         case 14:
-            document.getElementById("orderprocess_div_id").style.display = "block";
+            showHeaderPage(14);
             break;
         case 15:
-            document.getElementById("delivery_div_id").style.display = "block";
+            showHeaderPage(15);
             break;
         case 16:
-            document.getElementById("file_guidelines_div_id").style.display = "block";
+            showHeaderPage(16);
+            break;
+        default :
             break;
     }
 
@@ -234,6 +194,106 @@ function reset() {
     document.getElementById("delivery_div_id").style.display = "none";
     document.getElementById("file_guidelines_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
+
+}
+function showHeaderPage(headerName) {
+    reset();
+    switch (headerName) {
+        //product
+        case 0:
+            $(".home").addClass("clickOn");
+            document.getElementById("home_div_id").style.display = "block";
+            break;
+        // case 1:
+        //     $(".product").addClass("clickOn");
+        //     document.getElementById("product_div_id").style.display = "block";
+        //     break;
+        case 2:
+            $(".design").addClass("clickOn");
+            document.getElementById("design_div_id").style.display = "block";
+            break;
+        case 3:
+            $(".gallary").addClass("clickOn");
+            document.getElementById("displayBox_id").style.display = "none";
+            document.getElementById("gallary_div_id").style.display = "block";
+            break;
+        case 4:
+            $(".support").addClass("clickOn");
+            document.getElementById("support_div_id").style.display = "block";
+            break;
+        case 5:
+            $(".aboutUs").addClass("clickOn");
+            document.getElementById("aboutUs_div_id").style.display = "block";
+            break;
+        case 6:
+            $(".contact").addClass("clickOn");
+            document.getElementById("contact_div_id").style.display = "block";
+            break;
+        case 7:
+            $(".cart").addClass("clickOn");
+            document.getElementById("cart_div_id").style.display = "block";
+            break;
+        case 8:
+            var storage=window.localStorage;
+            var login =storage.login;
+            if (login == "login"){
+                var usertype = storage.usertype;
+                var username = storage.username;
+                document.getElementById("homepage_div_id").style.display = "none";
+                if(usertype == '1'){
+                    document.getElementById("dashboard_admin_div_id").style.display = "block";
+                }
+                else{
+                    document.getElementById("dashboard_user_div_id").style.display = "block";
+                }
+            }else
+            {
+                $(".login").addClass("clickOn");
+                document.getElementById("login_div_id").style.display = "block";
+            }
+            break;
+        case 9:
+            var storage=window.localStorage;
+            var login =storage.login;
+            if (login == "login"){
+                window.localStorage.setItem('login', "logout");
+                $(".home").addClass("clickOn");
+                document.getElementById("home_div_id").style.display = "block";
+                $("#login_id").html('login');
+                $("#register_id").html('register');
+            }
+            else{
+                $(".register").addClass("clickOn");
+                document.getElementById("register_div_id").style.display = "block";
+            }
+            break;
+
+
+        default :
+            break;
+        case 10:
+            $(".login").addClass("clickOn");
+            document.getElementById("login_div_forgetpasswd_id").style.display = "block";
+            break;
+        case 11:
+            document.getElementById("terms_div_id").style.display = "block";
+            break;
+        case 12:
+            document.getElementById("privacy_div_id").style.display = "block";
+            break;
+        case 13:
+            document.getElementById("sample_div_id").style.display = "block";
+            break;
+        case 14:
+            document.getElementById("orderprocess_div_id").style.display = "block";
+            break;
+        case 15:
+            document.getElementById("delivery_div_id").style.display = "block";
+            break;
+        case 16:
+            document.getElementById("file_guidelines_div_id").style.display = "block";
+            break;
+    }
 
 }
 

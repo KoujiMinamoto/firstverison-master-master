@@ -63,13 +63,9 @@
                 <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;&nbsp;Letterheads</li>
                 <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;&nbsp;Postcards</li>
                 <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;&nbsp;Posters</li>
-                <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;Presentation
-                    Folders
-                </li>
-                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;With Compliments
-                </li>
-                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;Website Design
-                </li>
+                <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;Presentation Folders</li>
+                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;With Compliments</li>
+                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;Website Design</li>
             </ul>
         </div>
         <div class="design" id="design_id" onclick="clickHeader(2)">
@@ -1876,10 +1872,10 @@
                                                         style="width: 225px; font-size: 12px;"
                                                         onchange="UpdateProductPriceBrochure('size')">
                                                         <option value="A4">A4</option>
-                                                        
+
                                                     </select></td>
                                             </tr>
-                                            
+
 
 
                                             <tr>
@@ -1905,7 +1901,7 @@
                                                                                  id="brochure_stock"
                                                                                  style="width: 225px; font-size: 12px;"
                                                                                  onchange="UpdateProductPriceBrochure('size')">
-                                                        
+
                                                         <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
                                                         </option>
                                                         <option value="150GSM Goss or Matt">150GSM Goss or Matt
@@ -1915,7 +1911,7 @@
                                                     </select></td>
                                             </tr>
 
-                                           
+
 
                                             <tr style="display:none; ">
                                                 <td class="content_left"><select name="productqtylist"
@@ -2159,7 +2155,7 @@
                                                                        onclick="UpdateProductPrice('brochure','checkbox','10000')">
                                                             </td>
                                                         </tr>
-                                                        
+
                                                         <tr>
                                                             <td colspan="4"><input type="hidden" id="productid"
                                                                                    name="productid" value="57"><input
@@ -2680,8 +2676,8 @@
                                                                    onclick="UpdateProductPrice('bcard','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    
-                                                    
+
+
                                                     <tr>
                                                         <td colspan="4"><input type="hidden" id="productid"
                                                                                name="productid" value="58"><input
@@ -5243,7 +5239,7 @@
                                                                                             id="flyer_size"
                                                                                             style="width: 225px; font-size: 12px;"
                                                                                             onchange="UpdateFlyerProductPrice('size')">
-                                                                                                                          
+
                                                     <option value="DL">DL </option>
                                                     <option value="A6">A6 </option>
                                                     <option value="A5">A5 </option>
@@ -5251,7 +5247,7 @@
                                                     <option value="A3">A3 </option>
                                                 </select></td>
                                         </tr>
-                                        
+
 
 
                                         <tr>
@@ -5287,8 +5283,8 @@
                                                     </option>
                                                 </select></td>
                                         </tr>
-                                        
-                                        
+
+
 
                                         <tr style="display:none; ">
                                             <td class="content_left"><select name="productqtylist" id="productqtylist"
@@ -5392,8 +5388,8 @@
                                                                 onclick="UpdateProductPrice('flyer','checkbox','250')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -5417,8 +5413,8 @@
                                                                 onclick="UpdateProductPrice('flyer','checkbox','500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -5442,8 +5438,8 @@
                                                                 onclick="UpdateProductPrice('flyer','checkbox','1000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -5467,8 +5463,8 @@
                                                                 onclick="UpdateProductPrice('flyer','checkbox','1500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -5492,8 +5488,8 @@
                                                                 onclick="UpdateProductPrice('flyer','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -5517,8 +5513,8 @@
                                                                 onclick="UpdateProductPrice('flyer','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6803,7 +6799,7 @@
                                                     <option value="FULL COLOUR 2 SIDES">FULL COLOUR 2 SIDES</option>
                                                 </select></td>
                                         </tr>
-                                        
+
 
 
                                         <tr>
@@ -6826,9 +6822,9 @@
                                                         onchange="UpdatePostProductPrice('size')">
                                                         <option value="350GSM Gloss or Matt">350GSM Gloss or Matt
                                                         </option>
-                                                        
+
                                                 </select></td>
-                                            
+
                                         </tr>
 
 
@@ -6907,8 +6903,8 @@
                                                                 onclick="UpdateProductPrice('post','checkbox','250')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6932,8 +6928,8 @@
                                                                 onclick="UpdateProductPrice('post','checkbox','500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6957,8 +6953,8 @@
                                                                 onclick="UpdateProductPrice('post','checkbox','1000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -6982,8 +6978,8 @@
                                                                 onclick="UpdateProductPrice('post','checkbox','1500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7007,8 +7003,8 @@
                                                                 onclick="UpdateProductPrice('post','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7032,8 +7028,8 @@
                                                                 onclick="UpdateProductPrice('post','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7370,7 +7366,7 @@
                                             <td class="content_left"><select name="productstocklist" id="poster_stock"
                                                                              style="width: 225px; font-size: 12px;"
                                                                              onchange="UpdatePosterProductPrice('size')">
-                                                    
+
                                                         <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
                                                         </option>
                                                         <option value="150GSM Gloss or Matt">150GSM Gloss or Matt
@@ -7382,9 +7378,9 @@
                                                 </select></td>
                                         </tr>
 
-                                        
 
-                                       
+
+
 
                                         <tr>
                                             <td class="pulldown"><strong>Printed Sides:</strong></td>
@@ -7475,8 +7471,8 @@
                                                                 onclick="UpdateProductPrice('poster','checkbox','250')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7500,8 +7496,8 @@
                                                                 onclick="UpdateProductPrice('poster','checkbox','500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7525,8 +7521,8 @@
                                                                 onclick="UpdateProductPrice('poster','checkbox','1000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1500</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7550,8 +7546,8 @@
                                                                 onclick="UpdateProductPrice('poster','checkbox','1500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7575,8 +7571,8 @@
                                                                 onclick="UpdateProductPrice('poster','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -7600,8 +7596,8 @@
                                                                 onclick="UpdateProductPrice('poster','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
