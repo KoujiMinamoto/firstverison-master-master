@@ -1,3 +1,10 @@
+document.onreadystatechange = function () {
+    if (document.readyState === "complete") {
+        document.body.style.display = "block";
+    } else {
+        document.body.style.display = "none";
+    };
+};
 window.onload=function(){
 
     var username;
@@ -297,17 +304,81 @@ function beforeInitPage() {
         case "/home":
             showHeaderPage(0);
             break;
-        case "/home":
-            showHeaderPage(0);
-            break;
         case "/design":
             showHeaderPage(2);
             break;
         case "/gallary":
             showHeaderPage(3);
             break;
+        case "/support":
+            showHeaderPage(4);
+            break;
+        case "/aboutUs":
+            showHeaderPage(5);
+            break;
+        case "/contact":
+            showHeaderPage(6);
+            break;
+        case "/cart":
+            showHeaderPage(7);
+            break;
+        case "/login":
+            showHeaderPage(8);
+            break;
+        case "/register":
+            showHeaderPage(9);
+            break;
+        case "/product/booklets":
+            showProductPage(0);
+            break;
+        case "/product/brochures":
+            showProductPage(1);
+            break;
+        case "/product/businessCards":
+            showProductPage(2);
+            break;
+        case "/product/deskpadsNotepads":
+            showProductPage(3);
+            break;
+        case "/product/directMarketing":
+            showProductPage(4);
+            break;
+        case "/product/docketBooks":
+            showProductPage(5);
+            break;
+        case "/product/envelopes":
+            showProductPage(6);
+            break;
+        case "/product/expressPrinting":
+            showProductPage(7);
+            break;
+        case "/product/flyers":
+            showProductPage(8);
+            break;
+        case "/product/fridgeMagnets":
+            showProductPage(9);
+            break;
+        case "/product/letterheads":
+            showProductPage(10);
+            break;
+        case "/product/postcards":
+            showProductPage(11);
+            break;
+        case "/product/posters":
+            showProductPage(12);
+            break;
+        case "/product/presentationFolders":
+            showProductPage(13);
+            break;
+        case "/product/withCompliments":
+            showProductPage(14);
+            break;
+        case "/product/websiteDesign":
+            showProductPage(15);
+            break;
     }
 }
+
 function footerPosition(){
         $("footer").removeClass("fixed-bottom");
         var contentHeight = document.body.scrollHeight,//网页正文全文高度
