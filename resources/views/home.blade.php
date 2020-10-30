@@ -46,6 +46,7 @@
 <!-- <div id="container"> -->
 <div class="homepage" id="homepage_div_id" style="display:block">
     <!-- header -->
+    <div class="header_background" id="header_id">
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
             <img src="{{URL::asset('/image/4.png') }} " width=200px height=100% style="margin-left: 10px;">
@@ -103,6 +104,8 @@
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
+    <div id="header_shadow" style="display: none;"></div>
+    </div>
 
 
     <!-- diaplayBox -->
@@ -151,7 +154,7 @@
     <!-- home -->
 
     <div class="home_div" id="home_div_id" style="display:block">
-        <div id="header_shadow" style="display: none;"></div>
+        
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
                 <a type="button" onclick="clickProduct(0)" title="Online Booklet Printing Services">
@@ -10469,62 +10472,62 @@
             <form class="register_div_form">
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>UserName</a></label>
-                    <input type="text" placeholder="Username" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your Username" class="register_div_form_input"/>
                     <div class="checkmsg" id="usernamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Business Name</a></label>
-                    <input type="text" placeholder="Business Name" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your Business Name" class="register_div_form_input"/>
                     <div class="checkmsg" id="businessnamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>First Name</a></label>
-                    <input type="text" placeholder="First Name" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your First Name" class="register_div_form_input"/>
                     <div class="checkmsg" id="firstnamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Last Name</a></label>
-                    <input type="text" placeholder="Last Name" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your Last Name" class="register_div_form_input"/>
                     <div class="checkmsg" id="firstnamecheckmsg"></div>
                 </div>
 
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Email</a></label>
-                    <input type="email" placeholder="Email" class="register_div_form_input"/>
+                    <input type="email" placeholder="Enter Your Email" class="register_div_form_input"/>
                     <div class="checkmsg" id="emailcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Password</a></label>
-                    <input type="password" placeholder="Password" class="register_div_form_input"/>
+                    <input type="password" placeholder="Enter Your Password" class="register_div_form_input"/>
                     <div class="checkmsg" id="passwdcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Phone number</a></label>
-                    <input type="tel" placeholder="Phone number" class="register_div_form_input"/>
+                    <input type="tel" placeholder="Enter Your Phone number" class="register_div_form_input"/>
                     <div class="checkmsg" id="phonenumcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Address</a></label>
-                    <input type="text" placeholder="Address" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your Address" class="register_div_form_input"/>
                     <div class="checkmsg" id="addresscheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Suburb</a></label>
-                    <input type="text" placeholder="Suburb" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your Suburb" class="register_div_form_input"/>
                     <div class="checkmsg" id="suburbcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>State</a></label>
-                    <input type="text" placeholder="State" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your State" class="register_div_form_input"/>
                     <div class="checkmsg" id="statecheckmsg"></div>
                 </div>
 
@@ -10536,7 +10539,7 @@
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Postcode</a></label>
-                    <input type="text" placeholder="Postcode" class="register_div_form_input"/>
+                    <input type="text" placeholder="Enter Your Postcode" class="register_div_form_input"/>
                     <div class="checkmsg" id="postcodecheckmsg"></div>
                 </div>
 

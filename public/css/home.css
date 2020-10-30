@@ -944,6 +944,17 @@ input.btn_search {
     margin-right: auto;
     background: white;
 }
+.header_background{
+    width: 100%;
+    position: sticky;
+    top:0;
+    height: 10rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    z-index: 9999;
+}
 #header_shadow{
 	height:1px;
 	display:none;
@@ -952,7 +963,7 @@ input.btn_search {
 	-webkit-box-shadow: 0 5px 15px 1px #777777;
 	box-shadow:         0 5px 15px 1px #777777;
 	z-index:99999;
-    margin-top:0px;
+    margin-bottom:0px;
     margin-left: -100rem;
     width:2000%;
     position: relative;
