@@ -553,9 +553,15 @@ h1.hp_title {
 
 
 /*  footer  */
-
+.footer_background {
+    width: 100%;
+    min-height: 20rem;
+    background: #101114;
+    margin: 0 auto;
+    padding: 0;
+}
 .footer {
-    width: 190rem;
+    width: 130rem;
     min-height: 20rem;
     background: #101114;
     margin: 0 auto;

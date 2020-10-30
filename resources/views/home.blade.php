@@ -11283,6 +11283,7 @@
 
     </div><!-- home_background end -->
     <!-- footer -->
+    <div class="footer_background">
     <div class="footer" id="footer_id">
 
         <div class="footer_width_holder">
@@ -11357,6 +11358,7 @@
             </div>
             <div style="clear: both;"></div>
         </div>
+    </div>
     </div>
 
 
