@@ -975,8 +975,8 @@ input.btn_search {
 	box-shadow:         0 5px 15px 1px #777777;
 	z-index:99999;
     margin-bottom:0px;
-    margin-left: -100rem;
-    width:2000%;
+    margin-left:0;
+    width:100%;
     position: relative;
 }
 
