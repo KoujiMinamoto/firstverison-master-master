@@ -140,6 +140,11 @@ function clickHeader(headerName) {
     }
 
 }
+function nextslide(){
+    console.log("nexts");
+    $('#myCarousel').carousel('next');
+    console.log("nexts");
+}
 function reset() {
     topFunction();
     $(".home").removeClass("clickOn");

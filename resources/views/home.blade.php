@@ -30,7 +30,15 @@
     <script type="text/javascript" src="{{URL::asset('/js/gallery.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/router.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/contactUs.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <!-- <link rel="stylesheet" href="{{URL::asset('/css/boot/bootstrap.min.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"></script>
 
 </head>
@@ -99,7 +107,29 @@
 
     <!-- diaplayBox -->
     <div class="displayBox" id="displayBox_id" onload="change()">
-        <div class="displayBox_bd">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="{{URL::asset('/image/2.jpg') }}" alt="Chicago" style="width:100%;">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="{{URL::asset('/image/3.jpg') }}" alt="New york" style="width:100%;">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            
+        </div>
+        
+        {{--<div class="displayBox_bd">
             <ul>
                 <img  src="{{URL::asset('/image/1.jpg') }}">
                 <img  src="{{URL::asset('/image/2.jpg') }}">
@@ -109,7 +139,11 @@
         <div class="slider-controls">
             <button type="button" class="displayBox_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
             <button type="button" class="displayBox_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
-        </div>
+        </div>--}}
+    </div>
+    <div class="slider-controls">
+            <button type="button" class="displayBox_next" onclick="$('#myCarousel').carousel('next')"><i class="fas fa-chevron-right"></i></button>
+            <button type="button" class="displayBox_previous" onclick="$('#myCarousel').carousel('prev')"><i class="fas fa-chevron-left"></i></button>
     </div>
 
     <div class="home_background">
@@ -11799,6 +11833,8 @@
 
 <script type="text/javascript" style="">
  $(document).scroll(function() {
+ var $buttonslide = $('.slider-controls')
+ $buttonslide.css({display: $(this).scrollTop() < 300? "block":"none"});
  var $logo = $('#header_shadow');
     $logo.css({display: $(this).scrollTop() > 300? "block":"none"});
 	});

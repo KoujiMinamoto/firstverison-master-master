@@ -417,7 +417,7 @@ h1.hp_title {
 /* displayBox */
 .displayBox{
     position: sticky;
-    z-index:-1;
+    z-index:-2;
     width: 100%;
     /* max-width: 190rem; */
     height: 45rem;
@@ -427,6 +427,19 @@ h1.hp_title {
     margin-top: 0.3rem;
     margin-bottom:3rem;
     top:10.2rem;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 190rem;
+    max-height: 40rem;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color:red!important;
 }
 .displayBox ul{
     /* position:absolute; */
@@ -496,13 +509,17 @@ h1.hp_title {
     width:100%;
     vertical-align:top;
 }
+.carousel-item{
+    max-width: 1900px;
+}
 .slider-controls {
     width: 100%;
-    position: absolute;
-    top: 46%;
+    position:fixed; 
+    top: 260px;
     -webkit-transform: translate3d(0px, -50%, 0px);
     transform: translate3d(0px, -50%, 0px);
     z-index: 0;
+    
 }
 .slider-controls>.displayBox_previous, .slider-controls>.displayBox_next {
     position: absolute;
@@ -517,6 +534,7 @@ h1.hp_title {
     background-color: white;
     background-repeat: no-repeat;
     opacity: 0.8;
+    
 }
 .slider-controls>.displayBox_next {
     right: 5px;
@@ -527,6 +545,9 @@ h1.hp_title {
    left: 5px;
    color: grey;
 
+}
+.slider-controls>.displayBox_previous:hover, .slider-controls>.displayBox_next:hover {
+    background-color: black;
 }
 
 
