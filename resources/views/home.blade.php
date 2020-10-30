@@ -109,14 +109,15 @@
 
 
     <!-- diaplayBox -->
-    <div class="displayBox" id="displayBox_id" onload="change()">
+    <div class="displayBox" id="displayBox_id">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" onclick="window.open('test');" style="cursor: pointer;">
+                <a herf="#" onclick="clickHeader(9)">
+                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;"></a>
                 </div>
 
                 <div class="carousel-item">
@@ -125,6 +126,10 @@
                 
                 <div class="carousel-item">
                     <img src="{{URL::asset('/image/3.jpg') }}" alt="New york" style="width:100%;">
+                </div>
+
+                <div class="carousel-item"  onclick="window.open('test');" style="cursor: pointer;">
+                    <img src="{{URL::asset('/image/a4_l1-01.jpg') }}" alt="New york" style="width:100%;">
                 </div>
             </div>
 

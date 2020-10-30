@@ -50,6 +50,7 @@ h1.hp_title {
     display: none;
     z-index:10;
     position: absolute;
+    pointer-events:auto;
     /* top: 10.3rem; */
     top: 100%;
     left: 69rem;
@@ -417,7 +418,7 @@ h1.hp_title {
 /* displayBox */
 .displayBox{
     position: sticky;
-    z-index:-2;
+    z-index:0;
     width: 100%;
     /* max-width: 190rem; */
     height: 45rem;
@@ -470,7 +471,7 @@ h1.hp_title {
     }
 }
 
-.displayBox_hd {
+/* .displayBox_hd {
     height: 1rem;
     z-index:1;
     overflow: hidden;
@@ -508,7 +509,7 @@ h1.hp_title {
 .displayBox_bd li img{
     width:100%;
     vertical-align:top;
-}
+} */
 .carousel-item{
     max-width: 1900px;
 }
@@ -937,12 +938,16 @@ input.btn_search {
     background: none\9;
 }
 .home_background{
+    position: relative;;
     width: 100%;
     min-height: 63rem;
     padding-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
     background: white;
+    z-index: 2;
+    pointer-events:auto;
+    
 }
 .header_background{
     width: 100%;
