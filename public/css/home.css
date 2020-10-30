@@ -53,7 +53,7 @@ h1.hp_title {
     pointer-events:auto;
     /* top: 10.3rem; */
     top: 100%;
-    left: 69rem;
+    left: 64.8rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -515,12 +515,12 @@ h1.hp_title {
 }
 .slider-controls {
     width: 100%;
-    position:fixed; 
+    position:fixed;
     top: 260px;
     -webkit-transform: translate3d(0px, -50%, 0px);
     transform: translate3d(0px, -50%, 0px);
     z-index: 0;
-    
+
 }
 .slider-controls>.displayBox_previous, .slider-controls>.displayBox_next {
     position: absolute;
@@ -535,7 +535,7 @@ h1.hp_title {
     background-color: white;
     background-repeat: no-repeat;
     opacity: 0.8;
-    
+
 }
 .slider-controls>.displayBox_next {
     right: 5px;
@@ -954,7 +954,7 @@ input.btn_search {
     position: sticky;
     top:0;
     height: 10rem;
-    
+
     margin-left: auto;
     margin-right: auto;
     background: white;

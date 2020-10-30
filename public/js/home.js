@@ -1,3 +1,4 @@
+//节点加载完毕后显示body
 document.onreadystatechange = function () {
     if (document.readyState === "complete") {
         document.body.style.display = "block";
@@ -123,24 +124,31 @@ function clickHeader(headerName) {
             break;
         case 10:
             showHeaderPage(10);
+            linkTo('forgetpasswd');
             break;
         case 11:
             showHeaderPage(11);
+            linkTo('terms');
             break;
         case 12:
             showHeaderPage(12);
+            linkTo('privacy');
             break;
         case 13:
             showHeaderPage(13);
+            linkTo('sample');
             break;
         case 14:
             showHeaderPage(14);
+            linkTo('orderprocess');
             break;
         case 15:
             showHeaderPage(15);
+            linkTo('delivery');
             break;
         case 16:
             showHeaderPage(16);
+            linkTo('fileGuidelines');
             break;
         default :
             break;
@@ -380,6 +388,24 @@ function beforeInitPage() {
             break;
         case "/product/websiteDesign":
             showProductPage(15);
+            break;
+        case "/terms":
+            showHeaderPage(11);
+            break;
+        case "/privacy":
+            showHeaderPage(12);
+            break;
+        case "/sample":
+            showHeaderPage(13);
+            break;
+        case "/orderprocess":
+            showHeaderPage(14);
+            break;
+        case "/delivery":
+            showHeaderPage(15);
+            break;
+        case "/fileGuidelines":
+            showHeaderPage(16);
             break;
     }
 }
