@@ -107,6 +107,30 @@ function linkTo(link){
             window.history.pushState('websiteDesign', null, '/product/websiteDesign');
             break;
         }
+        case "terms": {
+            window.history.pushState('terms', null, '/terms');
+            break;
+        }
+        case "privacy": {
+            window.history.pushState('privacy', null, '/privacy');
+            break;
+        }
+        case "sample": {
+            window.history.pushState('sample', null, '/sample');
+            break;
+        }
+        case "orderprocess": {
+            window.history.pushState('orderprocess', null, '/orderprocess');
+            break;
+        }
+        case "delivery": {
+            window.history.pushState('delivery', null, '/delivery');
+            break;
+        }
+        case "fileGuidelines": {
+            window.history.pushState('fileGuidelines', null, '/fileGuidelines');
+            break;
+        }
       default:
         return;
 
@@ -196,6 +220,24 @@ window.addEventListener('popstate',function(e){
                 break;
             case "websiteDesign":
                 showProductPage(15);
+                break;
+            case "terms":
+                showHeaderPage(11);
+                break;
+            case "privacy":
+                showHeaderPage(12);
+                break;
+            case "sample":
+                showHeaderPage(13);
+                break;
+            case "orderprocess":
+                showHeaderPage(14);
+                break;
+            case "delivery":
+                showHeaderPage(15);
+                break;
+            case "fileGuidelines":
+                showHeaderPage(16);
                 break;
 
             default :

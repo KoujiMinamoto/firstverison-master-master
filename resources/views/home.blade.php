@@ -42,7 +42,7 @@
     <script type="text/javascript"></script>
 
 </head>
-<body onload="initPage()" >
+<body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->
 <div class="homepage" id="homepage_div_id" style="display:block">
     <!-- header -->
