@@ -559,6 +559,8 @@ h1.hp_title {
     background: #101114;
     margin: 0 auto;
     padding: 0;
+    z-index: 1;
+    position: relative;
 }
 .footer {
     width: 130rem;
