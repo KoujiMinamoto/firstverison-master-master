@@ -40,9 +40,9 @@
     <!-- header -->
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
-            <img src="{{URL::asset('/image/4.png') }} " width=50% height=100%>
+            <img src="{{URL::asset('/image/4.png') }} " width=200px height=100% style="margin-left: 10px;">
         </div>
-        <div class="home" id="home_id" onclick="clickHeader(0)">
+        <div class="home clickOn" id="home_id" onclick="clickHeader(0)">
             <p>home</p>
         </div>
         <div class="product" id="product_id">
@@ -11852,23 +11852,24 @@
 
 <!-- dashboard -->
 <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/fontawesome-free/css/all.min.css') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/ionicons/css/ionicons.min.css') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/typicons.font/typicons.css') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/flag-icon-css/css/flag-icon.min.css') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/css/azia.css') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/bootstrap/js/bootstrap.bundle.min.js') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/ionicons/ionicons.js') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/peity/jquery.peity.min.js') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('/azia-admin-master/js/azia.js') }}" type="text/css">
+<link rel="styleSheet" href="{{URL::asset('') }}" type="text/css">
 <!-- vendor css -->
-<link href="../public/azia-admin-master/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link href="../public/azia-admin-master/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-<link href="../public/azia-admin-master/lib/typicons.font/typicons.css" rel="stylesheet">
-<link href="../public/azia-admin-master/lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
 <!-- azia CSS -->
-<link rel="stylesheet" href="../public/azia-admin-master/css/azia.css">
 <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="../public/azia-admin-master/lib/jquery/jquery.min.js"></script> -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-<script src="../public/azia-admin-master/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../public/azia-admin-master/lib/ionicons/ionicons.js"></script>
-<script src="../public/azia-admin-master/lib/peity/jquery.peity.min.js"></script>
-<script src="../public/azia-admin-master/js/azia.js"></script>
 <script type="text/javascript" src="{{URL::asset('/js/dashboard.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" type="text/javascript"></script>
 

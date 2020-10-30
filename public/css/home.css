@@ -13,8 +13,8 @@ html {
     color:#ffffff;
 }
 .header {
-    width: 132rem;
-    height: 11rem;
+    width: 124rem;
+    height: 10rem;
     display: grid;
     position: sticky;
     z-index:999;
@@ -426,7 +426,7 @@ h1.hp_title {
     margin-right: auto;
     margin-top: 0.3rem;
     margin-bottom:3rem;
-    top:11.5rem;
+    top:10.2rem;
 }
 .displayBox ul{
     /* position:absolute; */
