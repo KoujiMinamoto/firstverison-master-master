@@ -110,6 +110,7 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
 
     $api->post('userLogin', 'UserController@userLogin');
     $api->post('userRegister','UserController@userRegister');
+    
     $api->post('userUpdateMessage','UserController@userUpdateMessage');
 
 

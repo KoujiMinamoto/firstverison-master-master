@@ -10451,6 +10451,10 @@
 
     <!-- forget passwd -->
     <div class="login_div_forgetpasswd" id="login_div_forgetpasswd_id" style="display:none">
+        <div class="login_title">
+		    <h3>welcome.</h3>
+		    <h1>please enter your details</h1>
+		</div>
         <div class="login_div_main">
             <p class="login_div_sign" align="center">Forget Password</p>
 

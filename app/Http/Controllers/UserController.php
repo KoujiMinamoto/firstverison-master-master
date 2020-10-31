@@ -117,6 +117,25 @@ class UserController extends Controller
       return response()->json($result);
    }
 
+   public function forgetPassword(Request $request)
+   {
+      $username = $request->input('userName');
+      $useremail = $request->input('email');
+      $loginCheck = '';
+      $message = DB::table('oneprint_user')->select('user_name','user_password','user_email')->where('user_name',$username)->get();
+      if($message[0]->user_name == null) {
+         $loginCheck = "user don't exist";
+      } else if ($message[0]->user_email = $useremail) {
+         $loginCheck = "password email has been send to your email";
+         $title = "Your password";
+         $content = "Password: ".$message[0]->user_password."\n";
+         $toMail = $useremail;
+         Mail::raw($content, function ($message) use ($toMail, $title) {
+            $message->subject($title);
+            $message->to($toMail);
+         });
+      };
+   }
 
 
    function sendEmail(Request $request) {
