@@ -160,91 +160,91 @@
         
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
-                <a type="button" onclick="clickProduct(0)" title="Online Booklet Printing Services">
+                <a  href="javascript:void(0);" onclick="clickProduct(0)" title="Online Booklet Printing Services">
                     <div class="home_panel_img booklets_img"></div>
                     Booklets
                 </a>
             </div>
 
             <div class="brochures_holder home_menu">
-                <a type="button" onclick="clickProduct(1)" title="Online Brochure Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(1)" title="Online Brochure Printing Services">
                     <div class="home_panel_img brochures_img"></div>
                     Brochures
                 </a>
             </div>
 
             <div class="business_cards_holder home_menu">
-                <a type="button" onclick="clickProduct(2)" title="Online Business Card Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(2)" title="Online Business Card Printing Services">
                     <div class="home_panel_img business_cards_img"></div>
                     Business Cards
                 </a>
             </div>
 
             <div class="notepads_holder home_menu">
-                <a type="button" onclick="clickProduct(3)" title="Online Notepad Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(3)" title="Online Notepad Printing Services">
                     <div class="home_panel_img notepads_img"></div>
                     Deskpads / Notepads
                 </a>
             </div>
 
             <div class="docketbooks_holder home_menu">
-                <a type="button" onclick="clickProduct(5)" title="Online Docket Book Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(5)" title="Online Docket Book Printing Services">
                     <div class="home_panel_img docketbooks_img"></div>
                     Docket Books
                 </a>
             </div>
 
             <div class="envelopes_holder home_menu">
-                <a type="button" onclick="clickProduct(6)" title="Online Envelope Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(6)" title="Online Envelope Printing Services">
                     <div class="home_panel_img envelopes_img"></div>
                     Envelopes
                 </a>
             </div>
 
             <div class="flyers_holder home_menu">
-                <a type="button" onclick="clickProduct(8)" title="Online Flyer Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(8)" title="Online Flyer Printing Services">
                     <div class="home_panel_img flyers_img"></div>
                     Flyers
                 </a>
             </div>
             <div class="magnets_holder home_menu">
-                <a type="button" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">
+                <a href="javascript:void(0);" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">
                     <div class="home_panel_img magnets_img"></div>
                     Fridge Magnets
                 </a>
             </div>
             <div class="letterheads_holder home_menu">
-                <a type="button" onclick="clickProduct(10)" title="Online Letterhead Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(10)" title="Online Letterhead Printing Services">
                     <div class="home_panel_img letterheads_img"></div>
                     Letterheads
                 </a>
             </div>
             <div class="postcards_holder home_menu">
-                <a type="button" onclick="clickProduct(11)" title="Online Postcard Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(11)" title="Online Postcard Printing Services">
                     <div class="home_panel_img postcards_img"></div>
                     Postcards
                 </a>
             </div>
             <div class="posters_holder home_menu">
-                <a type="button" onclick="clickProduct(12)" title="Online Poster Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(12)" title="Online Poster Printing Services">
                     <div class="home_panel_img posters_img"></div>
                     Posters
                 </a>
             </div>
             <div class="presentation_folders_holder home_menu">
-                <a type="button" onclick="clickProduct(13)" title="Online Presentation Folder">
+                <a href="javascript:void(0);" onclick="clickProduct(13)" title="Online Presentation Folder">
                     <div class="home_panel_img presentation_folders_img"></div>
                     Presentation Folders
                 </a>
             </div>
             <div class="with_comps_holder home_menu">
-                <a type="button" onclick="clickProduct(14)">
+                <a href="javascript:void(0);" onclick="clickProduct(14)">
                     <div class="home_panel_img with_comps_img"></div>
                     With Compliments
                 </a>
             </div>
             <div class="web_design_holder home_menu">
-                <a type="button" onclick="clickProduct(15)">
+                <a href="javascript:void(0);" onclick="clickProduct(15)">
                     <div class="home_panel_img web_design_img"></div>
                     Website Design
                 </a>
@@ -323,35 +323,35 @@
             <div class="home_content_right">
                 <div class="home_subtitle">an online store with a difference...</div>
                 <div class="home_panel1">
-                    <a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/order.php">
+                    <a href="javascript:void(0);" onclick="clickHeader(14)">
                         <div class="home_panel1_img">
                         </div>
                         <h4>Easy Ordering</h4>
                         <p>Shopping cart, email, FTP or Dropbox services available.</p>
-                        <a class="blue_link"
-                           href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/order.php">read
+                        <a class="blue_link" href="javascript:void(0);"
+                        onclick="clickHeader(14)">read
                             more+</a>
                     </a>
                 </div>
                 <div class="home_panel2">
-                    <a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/delivery.php">
+                    <a href="javascript:void(0);" onclick="clickHeader(15)">
                         <div class="home_panel2_img">
                         </div>
                         <h4>Free Delivery</h4>
                         <p>Free delivery Australia wide for all products.</p>
-                        <a class="blue_link"
-                           href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/delivery.php">read
+                        <a class="blue_link" href="javascript:void(0);"
+                        onclick="clickHeader(15)">read
                             more+</a>
                     </a>
                 </div>
                 <div class="home_panel3">
-                    <a href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/faq.php">
+                    <a href="javascript:void(0);" onclick="clickHeader(4)">
                         <div class="home_panel3_img">
                         </div>
                         <h4>Need Help?</h4>
                         <p>Our friendly team is ready to offer you industry help or advice.</p>
-                        <a class="blue_link"
-                           href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/faq.php">read
+                        <a class="blue_link" href="javascript:void(0);"
+                        onclick="clickHeader(4)">read
                             more+</a>
                     </a>
                 </div>
@@ -1785,58 +1785,58 @@
                     <div class="main_left_bottom1">
 
                         <div class="product_info_express no_margin">
-                            <a type="button" onclick="clickProduct(7)">
+                            <a href="javascript:void(0);" onclick="clickProduct(7)">
                                 <div class="product_info_express_img">
                                 </div>
                                 <h4>Express Printing</h4>
                                 <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                                <a class="blue_link" type="button"
+                                <a class="blue_link" href="javascript:void(0);"
                                     onclick="clickProduct(7)">read
                                     more+</a>
                             </a>
                         </div>
 
                         <div class="product_info_design margin_left20">
-                            <a type="button" onclick="clickHeader(2)">
+                            <a href="javascript:void(0);" onclick="clickHeader(2)">
                                 <div class="product_info_design_img">
                                 </div>
                                 <h4>Design Services</h4>
                                 <p>Need artwork setup? Our team of experienced designers can help</p>
                             </a><a class="blue_link"
-                            type="button" onclick="clickHeader(2)">read
+                            href="javascript:void(0);" onclick="clickHeader(2)">read
                                 more+</a>
 
                         </div>
                         <div class="product_info_gallery gallery_brochure">
-                            <a type="button" onclick="clickHeader(3)">
+                            <a href="javascript:void(0);" onclick="clickHeader(3)">
                                 <div class="product_info_gallery_img">
                                 </div>
                                 <h4>Gallery</h4>
                                 <p>Looking for design inspiration? See examples of our work</p>
                             </a><a class="blue_link"
-                                type="button" onclick="clickHeader(3)">read
+                                href="javascript:void(0);" onclick="clickHeader(3)">read
                                 more+</a>
 
                         </div>
                         <div class="product_info_order">
-                            <a type="button" onclick="clickHeader(14)">
+                            <a href="javascript:void(0);" onclick="clickHeader(14)">
                                 <div class="product_info_order_img">
                                 </div>
                                 <h4>Order process</h4>
                                 <p>The ordering process explained</p>
                                 <a class="blue_link"
-                                   type="button" onclick="clickHeader(14)">read
+                                   href="javascript:void(0);" onclick="clickHeader(14)">read
                                     more+</a>
                             </a>
                         </div>
                         <div class="product_info_guidelines">
-                            <a type="button" onclick="clickHeader(16)">
+                            <a href="javascript:void(0);" onclick="clickHeader(16)">
                                 <div class="product_info_guidelines_img">
                                 </div>
                                 <h4>File Guidelines</h4>
                                 <p>Print specifications to achieve best printing results</p>
                                 <a class="blue_link"
-                                   type="button" onclick="clickHeader(16)">read
+                                   href="javascript:void(0);" onclick="clickHeader(16)">read
                                     more+</a>
                             </a>
                         </div>
@@ -2260,7 +2260,7 @@
                         </div>
                         <!-- email your order in 3 steps -->
                         <a class="nonblock nontext clip_frame grpelem" id="u76951"
-                           type="button" onclick="clickHeader(14)"
+                           href="javascript:void(0);" onclick="clickHeader(14)"
                            data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 13px;">
                             <img class="block" id="u76951_img"
                                  src="{{URL::asset('/image/1print - email order banner-01.jpg')}} " alt="" width="290"
@@ -2411,7 +2411,7 @@
 
                     </div>
                     <div class="product_info_guidelines">
-                        <a type="button" onclick="clickHeader(16)">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
@@ -10157,22 +10157,22 @@
                         <span class="contact-align-left">Quotes</span>
                         <span class="contact-align"><a
                                 href="http://web.archive.org/web/20180903154238/mailto:quotes@1print.net.au"
-                                class="black_link">quotes@1print.net.au</a></span>
+                                class="black_link">gerard@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email">
                         <span class="contact-align-left">Orders</span>
                         <span class="contact-align"><a
                                 href="http://web.archive.org/web/20180903154238/mailto:orders@1print.net.au"
-                                class="black_link">orders@1print.net.au</a></span>
+                                class="black_link">gerard@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email_last">
                         <span class="contact-align-left">Accounts</span>
                         <span class="contact-align"><a
                                 href="http://web.archive.org/web/20180903154238/mailto:accounts@1print.net.au"
-                                class="black_link">accounts@1print.net.au</a></span>
+                                class="black_link">gerard@yellowstarpress.com.au</a></span>
                     </div>
                     <p class="black_heading">You can visit us at:</p>
-                    <p style="color: #323232;">13 Shearson Cres, Mentone VIC 3194 Australia</p>
+                    <p style="color: #323232;"> 26 Metropolitan Av, Nunawarding 3131 Australia</p>
                     <img src="{{URL::asset('/image/Contact.jpg') }}" width=90% height=80%>
                 </div>
                 <div class="contact_right_quote">
@@ -11291,7 +11291,7 @@
         <div class="footer_width_holder">
             <div class="footer_col1">
                 <div class="footer_phone">
-                    <img src="image/phone.png" alt="Call 1300 327 471" class="footer_phone_number">
+                    <img src="image/phone.png" alt="Call 03 9878 6999" class="footer_phone_number">
                 </div>
             </div>
             <div class="footer_col2">
@@ -11323,7 +11323,7 @@
                     <div class="footer_heading">Company Info</div>
                     <ul>
                         <li><a onclick="clickHeader(5)">About Us</a></li>
-                        <li><a onclick="clickProduct(15)">Contact</a></li>
+                        <li><a onclick="clickProduct(6)">Contact</a></li>
                         <li ><a onclick="clickHeader(12)">Privacy Policy</a></li>
                         <li ><a onclick="clickHeader(11)">Terms and Conditions</a></li>
                         <!-- <li><a>Testimonials</a></li> -->
