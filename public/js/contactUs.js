@@ -9,8 +9,30 @@ function sendEmail() {
     let telephone = $("#contact_tel").val();
     let mode = $("#contact_mode option:selected").text()
     let subscribe = $("#contact_subscribe").prop("checked");
-    //get data
-    //get data
+    
+    // upload file
+    let types = "file";
+    let formData = new FormData();
+
+  
+    let file = $("#contact_file1").val();
+    
+    if (file == '') {
+
+    } else {
+        let size = $("#contact_file1")[0].files[0].size;
+        if (size > 52428800) {
+            alert("The uploaded file cannot exceed 50MB");
+            return false;				
+        } else {
+
+            formData.append(types,$("#contact_file1")[0].files[0]);
+            contactFileUp(formData);
+
+        }
+    }
+    
+    //get date
     let date = new Date();
     let seperator1 = "-";
     let year = date.getFullYear();
@@ -27,7 +49,9 @@ function sendEmail() {
     $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
-        url: "test1014/public/api/sendEmail",
+        url: "api/contactUs",
+        // processData: false,
+        // contentType: false,
         dataType:'json',
         data:{
             product:product,
@@ -39,6 +63,7 @@ function sendEmail() {
             telephone:telephone,
             mode:mode,
             subscribe:subscribe,
+            // formData,
             data:currentdate
         },
         success:function () {
@@ -46,6 +71,24 @@ function sendEmail() {
         },
         error:function () {
             alert("error");
+        }
+    });
+}
+
+function contactFileUp(formData) {
+    $.ajax({
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "api/uploadFile",
+        processData: false,
+        contentType: false,
+        dataType:'json',
+        data:formData,
+        success:function () {
+            alert("upload file success");
+        },
+        error:function () {
+            alert("upload file error");
         }
     });
 }

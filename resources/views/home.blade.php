@@ -19,8 +19,6 @@
     <script type="text/javascript" src="{{URL::asset('/js/jquery-3.5.1.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/jquery-3.5.1.min.js') }}"></script>
     <script src="https://static.pdflibr.com/SuperSlide/2.1.3/jquery.SuperSlide.2.1.3.js"></script>
-    {{-- <script type="text/javascript" src="{{URL::asset('/js/vue.js') }}"></script>
-    <script type="text/javascript" src="{{URL::asset('/js/vue-router.js') }}"></script> --}}
     <script type="text/javascript" src="{{URL::asset('/js/dashboard.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/profile.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/product.js') }}"></script>
@@ -10233,17 +10231,17 @@
                     </tr>
 
                     <tr>
-                    <td height="25" align="left">Preview 1</td>
-                        <td><input type="file" name="file1" id="file1"></td>
+                    <td height="25" align="left">Preview(Only .docx)</td>
+                        <td><input type="file" name="file1" id="contact_file1" accept=".docx,"></td>
                     </tr>
-                    <tr>
+                    {{-- <tr>
                     <td height="25" align="left">Preview 2</td>
-                        <td><input type="file" name="file2" id="file2"></td>
+                        <td><input type="file" name="file2" id="contact_file2"></td>
                     </tr>
                     <tr>
                     <td height="25" align="left">Preview 3</td>
-                        <td><input type="file" name="file3" id="file3"></td>
-                    </tr>
+                        <td><input type="file" name="file3" id="contact_file3"></td>
+                    </tr> --}}
                     <tr>
                     <td height="25" align="left">How did you find us?</td>
                         <td><select name="How did you find us" id="contact_mode"><option value="Google">Google</option><option value="Yellow Pages">Yellow Pages</option><option value="Yahoo">Yahoo</option><option value="Bing/MSN">Bing/MSN</option><option value="Link from another site">Link from another site</option><option value="Referral">Referral</option><option value="Mail Drop">Mail Drop</option><option value="Other">Other</option></select></td>

@@ -116,7 +116,8 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
 
     $api->post('card','OrderController@addOrder');
 
-    $api->post('sendEmail','UserController@sendEmail');
+    $api->post('contactUs','EmailController@contactEmail');
+    $api->post('uploadFile','EmailController@uploadFile');
 
     $api->get('getNumOfOrders','DashboardController@getNumOfOrders');
     $api->get('getNumOfClients','DashboardController@getNumOfClients');
