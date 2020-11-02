@@ -39,6 +39,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"></script>
 
+    <link rel="icon" href="./image/title_yellowpress.png" type="image/x-icon">  //标题图标
+    <link rel="shortcut icon" href="./image/title_yellowpress.png" type="image/x-icon">  //收藏夹图标
 </head>
 <body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->
