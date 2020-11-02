@@ -148,9 +148,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
     -o-transform-origin: left top;
     transform-origin: left top;
 }
-p{
-    font-size: 1.4rem;
-}
 .text_holder{
     width:100%;
     background:#fff;
