@@ -99,6 +99,24 @@ Route::get( '/product/withCompliments', function () {
 Route::get( '/product/websiteDesign', function () {
     return view('home');
 });
+Route::get( '/terms', function () {
+    return view('home');
+});
+Route::get( '/privacy', function () {
+    return view('home');
+});
+Route::get( '/sample', function () {
+    return view('home');
+});
+Route::get( '/orderprocess', function () {
+    return view('home');
+});
+Route::get( '/delivery', function () {
+    return view('home');
+});
+Route::get( '/fileGuidelines', function () {
+    return view('home');
+});
 // Route::get('/test1', function () {
 //     return view('dashboard_user');
 // });
@@ -110,7 +128,7 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
 
     $api->post('userLogin', 'UserController@userLogin');
     $api->post('userRegister','UserController@userRegister');
-    
+
     $api->post('userUpdateMessage','UserController@userUpdateMessage');
 
 
