@@ -10858,6 +10858,7 @@
 
     <!-- Sample Pack -->
     <div class="sample_div" id="sample_div_id" style="display:none">
+        <div class="text_holder">
         <div class="main_container">
         <div class="container_left">
         <h1>Sample Pack</h1>
@@ -10963,11 +10964,12 @@
         </div>
         <div class="clear"></div>
         </div>
-
+        </div>
     </div>
 
     <!-- orderprocess -->
     <div class="orderprocess_div" id="orderprocess_div_id" style="display:none">
+        <div class="text_holder">
         <div class="main_container">
             <div class="container_left">
             <h1>Ordering Options</h1>
@@ -11058,7 +11060,7 @@
             <p>When using email orders, the file attachment cannot exceed 8mb. If the attachment is larger than 8mb we require you to use one of our other accepted file transfer methods (see below)</p>
 
 
-            <p class="black_heading">Our accepted file transfer methods</p>
+            <p class="black_heading" style="margin-top:2rem">Our accepted file transfer methods</p>
             <img src="{{URL::asset('/image/artwork methods-01.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-02.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-03.jpg') }}" alt="" width="55" height="55">
@@ -11066,16 +11068,18 @@
 
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
-            <p>We�re Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
+            <p>We are Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
             Please email <a class="black_link" href="mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.
             </p>
             </div>
         <div class="clear"></div>
         </div>
+        </div>
     </div>
 
     <!-- Delivery -->
     <div class="delivery_div" id="delivery_div_id" style="display:none">
+        <div class="text_holder">
         <div class="main_container">
             <div class="container_left">
                 <h1 class="no_padding">1Print Delivers FREE<br style="">Within Australia</h1>
@@ -11182,11 +11186,13 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
 
     </div>
 
     <!-- fileguide -->
     <div class="file_guidelines_div" id="file_guidelines_div_id" style="display:none">
+        <div class="text_holder">
         <div class="main_container">
                 <div class="container_left">
                 <h1>Artwork Specifications</h1>
@@ -11300,6 +11306,7 @@
             </p>
             </div>
                 <div class="clear"></div>
+        </div>
         </div>
     </div>
 
