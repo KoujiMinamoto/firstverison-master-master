@@ -6,6 +6,10 @@ html {
     color:white;
     background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
 }
+.clickOnli{
+    color:white !important;
+    background: black !important;
+}
 .clickOn>p {
     color: white !important;
 }
@@ -62,23 +66,47 @@ h1.hp_title {
     font-family: Candara;
 }
 
+#support_ul
+{
+    color: black;
+    display: none;
+    z-index:10;
+    position: absolute;
+    pointer-events:auto;
+    /* top: 10.3rem; */
+    top: 100%;
+    left: 84.6rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 12%;
+    height: 20%;
+    font-family: Candara;
+}
 #product_ul li,
+#support_ul li,
 #design_ul li,
 #gallary_ul li{
-    background: linear-gradient(to bottom, white, #e8e8e9);
+    background: url(../image/u2719-grad.png) repeat-x left top;
     color: #454d55;
-    width: 105%;
-    height: 110%;
+    width: 130%;
+    height: 135%;
     text-align: left;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif ;
     line-height: 3rem;
+    -moz-box-shadow: 1px 0px 8px #888888; /* 老的 Firefox */
+    box-shadow: 3px 0px 8px #888888;
+    border-right: solid;
+    border-width: thin;
 }
 #product_ul li:hover,
+#support_ul li:hover,
 #design_ul li:hover,
 #gallary_ul li:hover{
     background: gray;
     color: white;
+    border-color: black;
     line-height: 3rem;
 }
 /* home */

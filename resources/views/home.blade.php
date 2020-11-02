@@ -39,8 +39,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"></script>
 
-    <link rel="icon" href="./image/title_yellowpress.png" type="image/x-icon">  //标题图标
-    <link rel="shortcut icon" href="./image/title_yellowpress.png" type="image/x-icon">  //收藏夹图标
+    <link rel="icon" href="./image/title_yellowpress.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/title_yellowpress.png" type="image/x-icon">
 </head>
 <body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->
@@ -57,23 +57,23 @@
         <div class="product" id="product_id">
             <p>product</p>
             <ul id="product_ul">
-                <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;Booklets</li>
-                <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;Brochures</li>
-                <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;Business Cards</li>
-                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;Deskpads / Notepads
+                <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>Booklets</a></li>
+                <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;<a>Brochures</a></li>
+                <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
+                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a>
                 </li>
-                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;Direct Marketing</li>
-                <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;Docket Books</li>
-                <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;Envelopes</li>
-                <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;Express Printing</li>
-                <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;&nbsp;Flyers</li>
-                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;Fridge Magnets</li>
-                <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;&nbsp;Letterheads</li>
-                <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;&nbsp;Postcards</li>
-                <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;&nbsp;Posters</li>
-                <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;Presentation Folders</li>
-                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;With Compliments</li>
-                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;Website Design</li>
+                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>
+                <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Docket Books</a></li>
+                <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
+                <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Express Printing</a></li>
+                <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;&nbsp;<a>Flyers</a></li>
+                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>
+                <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;&nbsp;<a>Letterheads</a></li>
+                <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;&nbsp;<a>Postcards</a></li>
+                <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;&nbsp;<a>Posters</a></li>
+                <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;<a>Presentation Folders</a></li>
+                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;<a>With Compliments</a></li>
+                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;<a>Website Design</a></li>
             </ul>
         </div>
         <div class="design" id="design_id" onclick="clickHeader(2)">
@@ -97,7 +97,16 @@
                         <li>&nbsp;&nbsp;gallary3</li>
                     </ul> -->
         </div>
-        <div class="support" id="support_id" onclick="clickHeader(4)"><p>support</p></div>
+        <div class="support" id="support_id">
+            <p>support</p>
+            <ul id="support_ul">
+                <li class="support0" onclick="clickHeader(14)" id="support0_id">&nbsp;&nbsp;&nbsp;<a>Order Process</a></li>
+                <li class="support1" onclick="clickHeader(15)" id="support1_id">&nbsp;&nbsp;&nbsp;<a>Delivery</a></li>
+                <li class="support2" onclick="clickHeader(16)" id="support2_id">&nbsp;&nbsp;&nbsp;<a>File Guidelines</a></li>
+                <li class="support3" onclick="clickHeader(13)" id="support3_id">&nbsp;&nbsp;&nbsp;<a>Sample Pack</a></li>
+                <li class="support4" onclick="clickHeader(4)" id="support4_id">&nbsp;&nbsp;&nbsp;<a>FAQ</a></li>
+            </ul>
+        </div>
         <div class="aboutUs" id="aboutUs_id" onclick="clickHeader(5)"><p>about us</p></div>
         <div class="contact" id="contact_id" onclick="clickHeader(6)"><p>contact</p></div>
         <div class="cart" id="cart_id" onclick="clickHeader(7)"><p>cart</p></div>

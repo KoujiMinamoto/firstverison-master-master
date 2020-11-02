@@ -75,6 +75,13 @@ function initPage() {
             $("#gallary_ul").hide(200);
         }
     );
+    $("#support_id").hover(function() {
+            $("#support_ul").show(200);
+        } ,
+        function() {
+            $("#support_ul").hide(200);
+        }
+    );
     beforeInitPage();
 }
 
@@ -165,17 +172,34 @@ function reset() {
     $(".home").removeClass("clickOn");
     $(".product").removeClass("clickOn");
     $(".design").removeClass("clickOn");
-    $(".product").removeClass("clickOn");
     $(".gallary").removeClass("clickOn");
-    $(".product").removeClass("clickOn");
     $(".support").removeClass("clickOn");
-    $(".product").removeClass("clickOn");
     $(".aboutUs").removeClass("clickOn");
-    $(".product").removeClass("clickOn");
     $(".contact").removeClass("clickOn");
     $(".cart").removeClass("clickOn");
     $(".login").removeClass("clickOn");
-    $(".register").removeClass("clickOn");
+    $(".product0").removeClass("clickOnli");
+    $(".product1").removeClass("clickOnli");
+    $(".product2").removeClass("clickOnli");
+    $(".product3").removeClass("clickOnli");
+    $(".product4").removeClass("clickOnli");
+    $(".product5").removeClass("clickOnli");
+    $(".product6").removeClass("clickOnli");
+    $(".product7").removeClass("clickOnli");
+    $(".product8").removeClass("clickOnli");
+    $(".product9").removeClass("clickOnli");
+    $(".product10").removeClass("clickOnli");
+    $(".product11").removeClass("clickOnli");
+    $(".product12").removeClass("clickOnli")
+    $(".product13").removeClass("clickOnli");
+    $(".product14").removeClass("clickOnli");
+    $(".product15").removeClass("clickOnli");
+    $(".product15").removeClass("clickOnli");
+    $(".support0").removeClass("clickOnli");
+    $(".support1").removeClass("clickOnli");
+    $(".support2").removeClass("clickOnli");
+    $(".support3").removeClass("clickOnli");
+    $(".support4").removeClass("clickOnli");
     document.getElementById("home_div_id").style.display = "none";
     document.getElementById("product_div_id").style.display = "none";
     document.getElementById("design_div_id").style.display = "none";
@@ -235,6 +259,7 @@ function showHeaderPage(headerName) {
             break;
         case 4:
             $(".support").addClass("clickOn");
+            $(".support4").addClass("clickOnli");
             document.getElementById("support_div_id").style.display = "block";
             break;
         case 5:
@@ -298,15 +323,23 @@ function showHeaderPage(headerName) {
             document.getElementById("privacy_div_id").style.display = "block";
             break;
         case 13:
+            $(".support3").addClass("clickOnli");
+            $(".support").addClass("clickOn");
             document.getElementById("sample_div_id").style.display = "block";
             break;
         case 14:
+            $(".support0").addClass("clickOnli");
+            $(".support").addClass("clickOn");
             document.getElementById("orderprocess_div_id").style.display = "block";
             break;
         case 15:
+            $(".support1").addClass("clickOnli");
+            $(".support").addClass("clickOn");
             document.getElementById("delivery_div_id").style.display = "block";
             break;
         case 16:
+            $(".support2").addClass("clickOnli");
+            $(".support").addClass("clickOn");
             document.getElementById("file_guidelines_div_id").style.display = "block";
             break;
     }
