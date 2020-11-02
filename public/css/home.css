@@ -976,9 +976,9 @@ input.btn_search {
 	height:1px;
 	display:none;
 	background:#f0f0f0;
-	-moz-box-shadow:    0 5px 15px 1px #777777;
-	-webkit-box-shadow: 0 5px 15px 1px #777777;
-	box-shadow:         0 5px 15px 1px #777777;
+	-moz-box-shadow:    0 1px 8px 2px #eee!important;
+	-webkit-box-shadow: 0 1px 8px 2px #eee!important;
+    box-shadow:         0 1px 8px 2px #eee!important;
 	z-index:99999;
     margin-bottom:0px;
     margin-left:0;

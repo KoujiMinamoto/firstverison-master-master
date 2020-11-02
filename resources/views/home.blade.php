@@ -47,7 +47,7 @@
     <div class="header_background" id="header_id">
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
-            <img src="{{URL::asset('/image/4.png') }} " width=200px height=100% style="margin-left: 10px;">
+            <img src="{{URL::asset('/image/yellowstar-logo.png') }} " width=200px height=100% style="margin-left: 10px;">
         </div>
         <div class="home clickOn" id="home_id" onclick="clickHeader(0)">
             <p>home</p>
