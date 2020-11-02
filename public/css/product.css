@@ -209,7 +209,7 @@ h3{
     float: right;
 }
 .main_product_container {
-    width: 1255px;
+    width: 125.5rem;
     margin: 0 auto;
     color: #7f7f7f;
     box-sizing: content-box;
@@ -362,7 +362,6 @@ h3{
 }
 .booklets_button_holder {
     width: 63rem;
-    height: 120rem;
     background: #EBEBEB repeat-x left top;
     background: -webkit-gradient(linear, center top, center bottom, from(#FFFFFF), color-stop(100%, #EBEBEB));
     background: -webkit-linear-gradient(top, #FFFFFF, #EBEBEB 100%);
@@ -868,10 +867,10 @@ table.product_quote_holder{
 }
 
 #product_div_id_2 .main_left_right h4 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: bold;
     color: #323232;
-    line-height: 2.6rem;
+    line-height: 3.1rem;
 }
 
 #product_div_id_2 .main_right {
@@ -922,7 +921,12 @@ table.product_quote_holder{
     position: relative;
     padding-bottom: 10px;
 }
-
+p.small {
+    line-height: 13px;
+    color: #7F7F7F;
+    font-size: 11px;
+    font-weight: normal;
+}
 #product_div_id_2 .product_option_panel strong {
     font-weight: bold;
 }
@@ -1622,10 +1626,6 @@ h3{
 .docket_templates{
     padding-top:30px;
 }
-.price_header {
-    width: 83px;
-    font-weight: bold;
-}
 .click_a:link
 {
     color: #0000FF;
@@ -2061,7 +2061,6 @@ a.c_dl:hover
     right:0;
     top:0;
 }
-.black { font-weight: bolder; }
 #u69312-6
 {
     z-index: 1881;
@@ -2199,4 +2198,89 @@ a.nontext.banner-text{
     width:95%;
     padding:5px;
     height:20px;
+}
+.price_desc {
+    line-height: 1.7rem;
+    font-size: 1.4rem;
+}
+span.price_msg {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+span.price_msg_first {
+    font-size: 14px;
+    line-height: 17px;
+}
+#totalpriceupdate {
+    padding-top: 20px;
+    line-height: 17px;
+    font-size: 14px;
+}
+#banner_totalPrice {
+    display: inline-block;
+}
+#post_totalPrice {
+    display: inline-block;
+}
+#brochure_totalPrice {
+    display: inline-block;
+}
+#bcard_totalPrice {
+    display: inline-block;
+}
+#signage_totalPrice {
+    display: inline-block;
+}
+#flyer_totalPrice {
+    display: inline-block;
+}
+#lw_totalPrice {
+    display: inline-block;
+}
+#poster_totalPrice {
+    display: inline-block;
+}
+#comps_totalPrice {
+    display: inline-block;
+}
+.price_msg_1, .price_msg_2 {
+    padding: 0;
+    margin: 0;
+    line-height: 17px;
+}
+.product_option_holder select {
+    padding: 4px;
+    width: 260px !important;
+    margin-bottom: 5px;
+}
+.product_options_price_bkgrd table {
+    width: 100% !important;
+}
+.qty_header {
+    width: 6.8rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+.kinds_header {
+    width: 7.8rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+.buy_header {
+    width: 4.3rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+.price_header {
+    width: 8.3rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+h2.folder_title {
+    padding-bottom: 0;
+    color: #323232;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 3.1rem;
+    padding-top: 2.5rem;
 }

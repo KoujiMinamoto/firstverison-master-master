@@ -109,7 +109,7 @@
     <!-- diaplayBox -->
     <div class="displayBox" id="displayBox_id">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            
+
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -121,7 +121,7 @@
                 <div class="carousel-item">
                     <img src="{{URL::asset('/image/2.jpg') }}" alt="Chicago" style="width:100%;">
                 </div>
-                
+
                 <div class="carousel-item">
                     <img src="{{URL::asset('/image/3.jpg') }}" alt="New york" style="width:100%;">
                 </div>
@@ -132,9 +132,9 @@
             </div>
 
             <!-- Left and right controls -->
-            
+
         </div>
-        
+
         {{--<div class="displayBox_bd">
             <ul>
                 <img  src="{{URL::asset('/image/1.jpg') }}">
@@ -157,7 +157,7 @@
     <!-- home -->
 
     <div class="home_div" id="home_div_id" style="display:block">
-        
+
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
                 <a  href="javascript:void(0);" onclick="clickProduct(0)" title="Online Booklet Printing Services">
@@ -531,7 +531,7 @@
 
     <div class="product_div" id="product_div_id_1" style="display:none">
         <div class="text_holder">
-            <div class="main_product_container booklet_holder" style="width:130rem;">
+            <div class="main_product_container booklet_holder">
                 <div class="product_main_left">
                     <div class="product_main_left_left">
                         <h1>Online Booklet Printing</h1>
@@ -2292,7 +2292,8 @@
 
 
     <div class="product_div" id="product_div_id_3" style="display:none">
-        <div class="main_product_container bcards_holder">
+        <div class="text_holder">
+            <div class="main_product_container bcards_holder">
 
 
             <div class="main_left">
@@ -2805,10 +2806,12 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_4" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container notepad_holder">
 
 
@@ -3412,7 +3415,7 @@
             </div>
             <div class="clear"></div>
         </div>
-
+        </div>
         <div style="clear: both;"></div>
     </div>
 
@@ -3493,6 +3496,7 @@
 
 
     <div class="product_div" id="product_div_id_6" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container docket_holder">
 
 
@@ -3957,12 +3961,13 @@
             </div>
             <div class="clear"></div>
         </div>
-
+        </div>
 
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_7" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container envelope_holder">
 
 
@@ -4601,11 +4606,13 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
 
     <div class="product_div" id="product_div_id_8" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container express_holder">
 
 
@@ -5068,11 +5075,13 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
 
     <div class="product_div" id="product_div_id_9" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container flyer_holder">
 
             <div class="main_left">
@@ -5667,12 +5676,13 @@
             </div>
             <div class="clear"></div>
         </div>
-
+        </div>
         <div style="clear: both;"></div>
     </div>
 
 
     <div class="product_div" id="product_div_id_10" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container magnet_holder">
 
 
@@ -6084,10 +6094,12 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_11" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container letterhead_holder">
 
 
@@ -6101,7 +6113,7 @@
                     </p>
                     <br/>
                     <div class="option_size_list letterhead_templates">
-                        <div class="bro_setup" style="height:7rem;margin-left:0rem">
+                        <div class="bro_setup" style="height:7rem;margin-left:0rem;margin-top:2rem">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
                                class="bro_link" style="height:7rem">
                             </a>
@@ -6595,10 +6607,12 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_12" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container postcard_holder">
 
 
@@ -7180,10 +7194,12 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_13" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container poster_holder">
 
 
@@ -7750,10 +7766,12 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_14" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container folder_holder">
 
 
@@ -9103,10 +9121,12 @@
 
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_15" style="display:none">
+        <div class="text_holder">
         <div class="main_product_container comp_holder">
 
 
@@ -9129,7 +9149,7 @@
 
                     <div class="option_size_list comp_templates">
 
-                        <div class="bro_setup"style="height:7rem;margin-left:0rem">
+                        <div class="bro_setup"style="height:7rem;margin-left:0rem;margin-top:2rem">
                             <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
                                class="bro_link"style="height:7rem">
                             </a>
@@ -9619,10 +9639,12 @@
             </div>
             <div class="clear"></div>
         </div>
+        </div>
         <div style="clear: both;"></div>
     </div>
 
     <div class="product_div" id="product_div_id_16" style="display:none">
+        <div class="text_holder">
         <div class="main_container web-design" style="overflow:hidden;padding-top:4rem">
             <div class="main_left" style="float: left;">
 
@@ -9694,6 +9716,7 @@
                     </form>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
