@@ -178,6 +178,7 @@ function reset() {
     $(".contact").removeClass("clickOn");
     $(".cart").removeClass("clickOn");
     $(".login").removeClass("clickOn");
+    $(".register").removeClass("clickOn");
     $(".product0").removeClass("clickOnli");
     $(".product1").removeClass("clickOnli");
     $(".product2").removeClass("clickOnli");
