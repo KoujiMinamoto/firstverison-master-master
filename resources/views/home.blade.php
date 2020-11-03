@@ -10502,6 +10502,10 @@
 
     <!-- register -->
     <div class="register_div" id="register_div_id" style="display:none">
+        <div class="login_title">
+		    <h3>welcome.</h3>
+		    <h1>please sign in</h1>
+		</div>
         <div class="register_div_user">
             <!-- <header class="register_div_user_header">
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
