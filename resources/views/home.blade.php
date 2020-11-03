@@ -87,7 +87,7 @@
                         <li>&nbsp;&nbsp;Company Catalogue Design</li>
                         <li>&nbsp;&nbsp;Presentation Folder</li>
                         <li>&nbsp;&nbsp;more</li>
-                    </ul> -->
+                    </ul> -- Kinds of Office>
         </div>
         <div class="gallary" id="gallary_id" onclick="clickHeader(3)">
             <p>gallary</p>
@@ -97,6 +97,7 @@
                         <li>&nbsp;&nbsp;gallary3</li>
                     </ul> -->
         </div>
+        <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>gallary</p></div>
         <div class="support" id="support_id">
             <p>support</p>
             <ul id="support_ul">
@@ -297,35 +298,35 @@
                 <div class="blog_article">
                     <div class="blog_post_container">
                         <div class="blog_post_title"><a
-                                href="http://web.archive.org/web/20180903133919/http://www.1print.net.au/blog/5-kinds-of-office-stationary-that-will-always-be-relevant/">5
+                                href="">5
                                 Kinds of Office Stationary That Will Always be Relevant </a></div>
                         <div class="blog_post_content"><p>It’s often been speculated that eventually, computers will
                                 replace the functions of paper stationary in the office. Whilst this prediction has
                                 ce...</p></div>
                         <div class="blog_post_view"><a
-                                href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/blog/effective-poster-design-in-1-2-3/">view
+                                href="">view
                                 post</a></div>
                     </div>
                     <div class="blog_post_container">
                         <div class="blog_post_title"><a
-                                href="http://web.archive.org/web/20180903133919/http://www.1print.net.au/blog/business-card-etiquette-when-and-how-to-hand-them-out/">Business
+                                href="">Business
                                 Card Etiquette: When And How To Hand Them Out</a></div>
                         <div class="blog_post_content"><p>For those who have had business cards for a while, the concept
                                 of networking and distributing them is a no-brainer. But for those who are new to
                                 th...</p></div>
                         <div class="blog_post_view"><a
-                                href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/blog/understanding-rgb-101/">view
+                                href="">view
                                 post</a></div>
                     </div>
                     <div class="blog_post_container">
                         <div class="blog_post_title"><a
-                                href="http://web.archive.org/web/20180903133919/http://www.1print.net.au/blog/2018-business-card-trends/">2018
+                                href="">2018
                                 Business Card Trends </a></div>
                         <div class="blog_post_content"><p>Looking to upgrade your business cards to something cutting
                                 edge? Is it your first time printing business cards and your feeling a little lost
                                 when...</p></div>
                         <div class="blog_post_view"><a
-                                href="http://web.archive.org/web/20180312225156/http://www.1print.net.au/blog/the-ultimate-print-ready-checklist/">view
+                                href="">view
                                 post</a></div>
                     </div>
                     <div class="clear: both;"></div>
@@ -1367,7 +1368,7 @@
                                 </div>
                             </form>
                             <div class="quotes_login" style="padding-top:20px; padding-bottom:20px; text-align:right"><a
-                                    class="black_link" href=""> Login &raquo;</a></div>
+                                    class="black_link" href="/login"> Login &raquo;</a></div>
 
                         </div>
                         <div class="clear"></div>
@@ -1378,57 +1379,57 @@
                 <div class="clear"></div>
                 <div class="main_left_bottom1">
                     <div class="product_info_design">
-                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/design-services.php">
+                        <a href="/design">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/design-services.php">read
+                               href="/design">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery">
-                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/gallery.php">
+                        <a href="/gallary">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/gallery.php">read
+                               href="/gallary">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/order.php">
+                        <a href="/orderprocess">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/order.php">read
+                               href="/orderprocess">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="/fileGuidelines">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/artwork-specifications.php">read
+                               href="/fileGuidelines">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_templates">
-                        <a href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/booklet_templates.php">
+                        <a href="/contact">
                             <div class="product_info_templates_img">
                             </div>
                             <h4>Artwork Templates</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153539/http://www.1print.net.au/booklet_templates.php">read
+                               href="/contact">read
                                 more+</a>
                         </a>
                     </div>
@@ -1468,11 +1469,11 @@
                             simply to enhance the look and feel of the finished product.
                             <br style="">
                             <a class="black_link_underline"
-                               href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/contact.php">Contact
+                               href="/contact">Contact
                                 us for more information</a>
                         </p>
                         <br/>
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/flyers-printing"
+                        <a href="/product/flyers"
                            class="flyer_link">
                             <div id="u56029-7">
                                 <img src="{{URL::asset('/image/design icons-04.png')}}" width="40" height="40"
@@ -1485,7 +1486,6 @@
                         </a>
 
                         <div class="clear"></div>
-                        <div style="clear: both;"></div>
 
                         <div class="size_menu">
                             <div class="size_4pages size_row">
@@ -1496,7 +1496,7 @@
                                     <div class="fold_info">Single Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1506,7 +1506,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1516,7 +1516,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a3-to-a4"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1537,7 +1537,7 @@
                                     <div class="fold_info">Landscape</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf" target="_blank"
+                                    <a href="#" target="_blank"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1547,7 +1547,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
+                                    <a href="#" target="_blank"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1558,7 +1558,7 @@
                                             target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf" target="_blank"
+                                    <a href="#" target="_blank"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1579,7 +1579,7 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1589,7 +1589,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1599,7 +1599,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a3-to-a4"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1622,7 +1622,7 @@
                                     <div class="fold_info">Z Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1632,7 +1632,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1642,7 +1642,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a3-to-a4"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1664,7 +1664,7 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1674,7 +1674,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1696,7 +1696,7 @@
                                     <div class="fold_info">Concertina Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1707,7 +1707,7 @@
                                             target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                    <a href="#"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1728,13 +1728,13 @@
                         <div class="panel_pricing">
                             <h4>Pricing includes</h4>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                    href="/contact">Free Flight Check</a></span>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                    href="/contact">PDF Proof for your approval*</a></span>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                    href="/support">Free Job Tracking</a></span>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                    href="/delivery">Free Delivery</a></span>
                             <p>&nbsp;</p>
                             <p class="small">* Limited to one PDF proof per print job.
                                 Additional proofs will incur extra charges.</p>
@@ -1745,13 +1745,13 @@
                                 shopping cart</p>
                             <p>&nbsp;</p>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/faq.php">Machine Varnish - Gloss or Matt</a></span>
+                                    href="/support">Machine Varnish - Gloss or Matt</a></span>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                    href="/contact">Convert your files to a print ready format</a></span>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                    href="/design">Graphic Design Services</a></span>
                             <span class="option_indent"><a
-                                    href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                    href="/contact">Hard Copy Proofs</a></span>
                             <p>&nbsp;</p>
                         </div>
                         <div class="clear"></div>
@@ -1783,7 +1783,7 @@
                         </div>
                         <div class="clear"></div>
 
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/business-cards-printing ">
+                        <a href="/product/businessCards">
                             <div class="bcards500 notop"></div>
                         </a>
 
