@@ -10265,7 +10265,7 @@
                     </tr>
 
                     <tr>
-                    <td height="25" align="left">Preview(Only .docx)</td>
+                    <td height="25" align="left">Preview</td>
                         <td><input type="file" name="file1" id="contact_file1" accept=".docx,"></td>
                     </tr>
                     {{-- <tr>

@@ -11,7 +11,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-
+use Illuminate\Support\Facades\Storage;
 
  class EmailController extends Controller
  {
@@ -52,15 +52,22 @@ use Illuminate\Support\Facades\Mail;
 
         $toMail = 'anmouer@163.com';
 
-        Mail::raw($content, function ($message) use ($toMail, $title) {
-            $message->subject($title);
-            $message->to($toMail);
+        // $handler = opendir('files/');
+        // $filename = readdir($handler);
+        $file_path = 'public/files/';
+        $file_base_name = basename($file_path);
+        $f_name = substr($file_base_name,0,strrpos($file_base_name,'.'));
+
+
+        // Mail::raw($content, function ($message) use ($toMail, $title) {
+        //     $message->subject($title);
+        //     $message->to($toMail);
             
-            $attachment = 'files\contactFile.docx ';
-            //在邮件中上传附件
-            $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
-            // $message->attach($attachment,['as'=>'file1.doc']);
-        });
+        //     $attachment = 'files\contactFile.docx';
+        //     //在邮件中上传附件
+        //     $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+        //     // $message->attach($attachment,['as'=>'file1.doc']);
+        // });
 
         return true;
      }
@@ -74,18 +81,27 @@ use Illuminate\Support\Facades\Mail;
 
             $file=$request->file('file');
             
-            $destinationPath = 'files/'; //public 下files 文件夹
+            $destinationPath = 'files/';
             $extension = $file->getClientOriginalExtension();
-            $fileName= 'contactFile.'.$extension;;
-            $file->move($destinationPath,$fileName);
-            $filePath = asset($destinationPath.$fileName);
-            $test = 1;
+
+            $realPath = $file->getRealPath();
+            $fileName = '444.'.$extension;
+
+            $bool = Storage::disk('uploads')->put($fileName,file_get_contents($realPath));
+            if($bool){
+                
+                $file->move($destinationPath,$fileName);
+                $filePath = asset($destinationPath.$fileName);
+
+            }else{
+                return false;
+            }
 
         }else{
             
         }
 
-        return true;
+        // return true;
     }
 
  }

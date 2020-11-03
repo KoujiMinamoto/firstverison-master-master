@@ -64,7 +64,11 @@ return [
             'url' => env('AWS_URL'),
             'endpoint' => env('AWS_ENDPOINT'),
         ],
-
+        // files M make
+        'uploads' => [
+            'driver' => 'local',
+            'root' => public_path('files/'),
+        ],
     ],
 
     /*

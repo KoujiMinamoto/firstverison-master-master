@@ -188,6 +188,6 @@ var signagePrice={
 
 
 
-
-
+var fileType = ['jpeg','png','jpg','gif','xlc','doc','pdf','txt'];
+var fileSuffix = ['.jpeg','.png','.jpg','.gif','.xlc','.doc','.pdf','.txt'];
 

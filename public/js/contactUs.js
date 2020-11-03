@@ -20,6 +20,34 @@ function sendEmail() {
     if (file == '') {
 
     } else {
+
+        // type check
+        let type = $("#contact_file1")[0].files[0].type;
+
+        for ( let i = 0 ; i < fileType.length ; ++i ) {
+            // 判断一下格式对不对
+            if ( type.indexOf(fileType[i]) != -1 ) {
+
+            } else {
+                alert("Files in this format are not supported");
+                return false;
+            }    
+        };
+        let fileName = $("#contact_file1")[0].files[0].name;
+
+        // 判断一下有没有奇葩东西
+        for ( let i = 0 ; i < fileSuffix.length ; ++i ) {
+            
+            if ( fileName.indexOf(fileSuffix[i]) != -1 ) {
+
+            } else {
+                alert("Files in this format are not supported");
+                return false;
+            }    
+        };
+
+
+
         let size = $("#contact_file1")[0].files[0].size;
         if (size > 52428800) {
             alert("The uploaded file cannot exceed 50MB");
@@ -30,49 +58,50 @@ function sendEmail() {
             contactFileUp(formData);
 
         }
-    }
-    
-    //get date
-    let date = new Date();
-    let seperator1 = "-";
-    let year = date.getFullYear();
-    let month = date.getMonth() + 1;
-    let strDate = date.getDate();
-    if (month >= 1 && month <= 9) {
-        month = "0" + month;
-    }
-    if (strDate >= 0 && strDate <= 9) {
-        strDate = "0" + strDate;
-    }
-    let currentdate = year + seperator1 + month + seperator1 + strDate;
 
-    $.ajax({
-        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-        type: "POST",
-        url: "api/contactUs",
-        // processData: false,
-        // contentType: false,
-        dataType:'json',
-        data:{
-            product:product,
-            jobDescription:jobDescription,
-            postcode:postcode,
-            businessName:businessName,
-            name:name,
-            email:email,
-            telephone:telephone,
-            mode:mode,
-            subscribe:subscribe,
-            // formData,
-            data:currentdate
-        },
-        success:function () {
-            alert("send email success");
-        },
-        error:function () {
-            alert("error");
+         //get date
+        let date = new Date();
+        let seperator1 = "-";
+        let year = date.getFullYear();
+        let month = date.getMonth() + 1;
+        let strDate = date.getDate();
+        if (month >= 1 && month <= 9) {
+            month = "0" + month;
         }
-    });
+        if (strDate >= 0 && strDate <= 9) {
+            strDate = "0" + strDate;
+        }
+        let currentdate = year + seperator1 + month + seperator1 + strDate;
+
+        $.ajax({
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            type: "POST",
+            url: "api/contactUs",
+            // processData: false,
+            // contentType: false,
+            dataType:'json',
+            data:{
+                product:product,
+                jobDescription:jobDescription,
+                postcode:postcode,
+                businessName:businessName,
+                name:name,
+                email:email,
+                telephone:telephone,
+                mode:mode,
+                subscribe:subscribe,
+                // formData,
+                data:currentdate
+            },
+            success:function () {
+                alert("send email success");
+            },
+            error:function () {
+                alert("error");
+            }
+        });
+        
+    }
 }
 
 function contactFileUp(formData) {
