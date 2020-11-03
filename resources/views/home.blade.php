@@ -100,7 +100,7 @@
         <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>gallary</p></div>
         <div class="support" id="support_id">
             <p>support</p>
-            <ul id="support_ul">
+            <ul id="support_ul" style="left:84.6rem">
                 <li class="support0" onclick="clickHeader(14)" id="support0_id">&nbsp;&nbsp;&nbsp;<a>Order Process</a></li>
                 <li class="support1" onclick="clickHeader(15)" id="support1_id">&nbsp;&nbsp;&nbsp;<a>Delivery</a></li>
                 <li class="support2" onclick="clickHeader(16)" id="support2_id">&nbsp;&nbsp;&nbsp;<a>File Guidelines</a></li>

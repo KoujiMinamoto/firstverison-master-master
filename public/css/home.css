@@ -49,7 +49,8 @@ h1.hp_title {
 
 #product_ul,
 #design_ul,
-#gallary_ul{
+#gallary_ul,
+#support_ul{
     color: black;
     display: none;
     z-index:10;
@@ -66,23 +67,7 @@ h1.hp_title {
     font-family: Candara;
 }
 
-#support_ul
-{
-    color: black;
-    display: none;
-    z-index:10;
-    position: absolute;
-    pointer-events:auto;
-    /* top: 10.3rem; */
-    top: 100%;
-    left: 84.6rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 12%;
-    height: 20%;
-    font-family: Candara;
-}
+
 #product_ul li,
 #support_ul li,
 #design_ul li,
