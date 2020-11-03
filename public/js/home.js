@@ -233,6 +233,12 @@ function reset() {
     document.getElementById("orderprocess_div_id").style.display = "none";
     document.getElementById("delivery_div_id").style.display = "none";
     document.getElementById("file_guidelines_div_id").style.display = "none";
+    document.getElementById("a4dl_id").style.display = "none";
+    document.getElementById("a3a4_id").style.display = "none";
+    document.getElementById("a4a5_id").style.display = "none";
+    document.getElementById("flyerlearnmore_div_id").style.display = "none";
+    document.getElementById("posterlearnmore_div_id").style.display = "none";
+    document.getElementById("postercardlearnmore_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
 
 }
@@ -440,6 +446,27 @@ function beforeInitPage() {
         case "/fileGuidelines":
             showHeaderPage(16);
             break;
+        case "/product/brochures/a4-dl":
+            showProductPage(16);
+            break;
+
+        case "/product/brochures/a4-a5":
+            showProductPage(18);
+            break;
+
+        case "/product/brochures/a3-a4":
+            showProductPage(17);
+            break;
+        case "/product/flyers/learnmore":
+            showProductPage(19);
+            break;
+        case "/product/posters/learnmore":
+            showProductPage(20);
+            break;
+        case "/product/postcards/learnmore":
+            showProductPage(21);
+            break;
+            
     }
 }
 

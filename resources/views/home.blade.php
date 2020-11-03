@@ -49,7 +49,7 @@
     <div class="header_background" id="header_id">
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
-            <img src="{{URL::asset('/image/yellowstar-logo.png') }} " width=200px height=100% style="margin-left: 10px;">
+            <img src="{{URL::asset('/image/yellowstar-logo.png') }} " width=200px height=96% style="margin-left: 10px;">
         </div>
         <div class="home clickOn" id="home_id" onclick="clickHeader(0)">
             <p>home</p>
@@ -11325,7 +11325,938 @@
         </div>
     </div>
 
+    <!-- a4-dl -->
+    <div class="a4dl_div" id="a4dl_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/brochures" itemprop="url">
+                                <span itemprop="title">
+                                    Brochure Printing </span>
+                            </a>
+                            »
+                            <a href="/product/brochures/a4-dl" itemprop="url">
+                                <span itemprop="title">
+                                    a4-a5 </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
 
+                <div class="main_left">
+                    <div class="main_left_left">
+                        <div class="cms_pro_content"><h1>4, 6 or 8 Page DL Brochure</h1>
+                        <p>&nbsp;</p>
+                        <p>
+                        <img src="{{URL::asset('/image/product/brochure_folding_options_A4_to_DL.jpg')}}" border="0" alt="4 or 6 Page DL Brochure"></p>
+                        <p>DL
+                        printing is a quick and economical option to get your marketing out there.
+                        Perfectly suited to use as pamphlets or leaflets, DL measures in at 210 x 99mm.
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>Often
+                        used for letterbox drops and general unaddressed mail, the DL's slim profile,
+                        and low cost make it perfect for local area marketing.</p>
+                        <p>&nbsp;</p>
+                        <p><a href="/product/brochures">A
+                        well designed brochure</a> should entice readers to look inside, it should describe
+                        your products and services clearly with supporting images and it should include
+                        information which encourages readers to keep it. Be sure to include your
+                        contact details and a strong call-to-action that gives readers a strong
+                        motivation to contact your company and "buy now". </p>
+                        <p>&nbsp;</p>
+                        <p>For
+                        a greater impact, consider a custom design or shape that stands out from the
+                        crowd or a stronger colour pallette. </p>
+                        <p>&nbsp;</p>
+                        <p>Available
+                        in 150gsm, 170gsm and 200gsm gloss or stain in Full Colour on one or two sides.</p>
+                        <p>&nbsp;</p>
+                        <p>Dispatched in 3-10 days from artwork &amp; order received.</p>
+                        <p>&nbsp;</p>
+                        <p><b><span style="color:#323232">Please note</span></b>: Custom sizes are available, please contact us for more information.</p>
+                        <p>&nbsp;</p>
+                        <div class="cms_template_holder">
+                        <p style="font-size:17px;font-weight:bold;color:#323232">Templates</p>
+                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_4pgdl_198x210mm.pdf">Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm.pdf">6 Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm_z_fold.pdf">6 Page DL Template (Z-Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-02.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm.pdf">8 Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-03.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm_concertina.pdf">8 Page DL Template (Concertina Fold)</a></span></p>
+                        </div>
+                        <p>&nbsp;</p></div>
+
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+                    <div class="main_left_right">
+                        
+                        <h4>Brochure Folding</h4>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
+                            <strong>Single Fold</strong>
+                            <span>4 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
+                            <strong>Roll Fold</strong>
+                            <span>6 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
+                            <strong>Z Fold</strong>
+                            <span>6 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
+                            <strong>Roll Fold</strong>
+                            <span>8 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
+                            <strong>Concertina</strong>
+                            <span>8 Pages</span>
+                        </div>
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+
+                    <div class="clear"></div>
+                    <div style="clear: both;"></div>
+
+
+                    
+
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <!-- a3-a4 -->
+    <div class="a3a4_div" id="a3a4_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/brochures" itemprop="url">
+                                <span itemprop="title">
+                                    Brochure Printing </span>
+                            </a>
+                            »
+                            <a href="/product/brochures/a3-a4" itemprop="url">
+                                <span itemprop="title">
+                                    a3-a4 </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="main_left">
+                    <div class="main_left_left">
+
+                        <div class="cms_pro_content"><h1>4 &amp; 6 Page A4 Brochure</h1>
+                        <p>&nbsp;</p>
+                        <p>
+                        <img src="{{URL::asset('/image/product/brochure_folding_options_A3_to_A4.jpg')}}" border="0" alt="4 Page A4 Brochure"></p>
+                        <p>The A4 Brochure is ideally suited to company price lists, product catalogue and retail presentations.</p>
+                        <p>&nbsp;</p>
+                        <p>ts larger size ensures added impact and greater capacity for high-quality images, articulating your unique service proposition. The larger format allows businesses to use this product for <a href="http://web.archive.org/web/20180706110000/http://www.1print.net.au/brochures-printing">sales presentation supplements</a> and other purposes where later reading helps to reinforce the product and services being offered therein.</p>
+                        <p>&nbsp;</p>
+                        <p>The
+                        familiar size of A4 brochures make them a popular choice with businesses across
+                        verticals. The larger prefold size allows designers the option to add larger
+                        scale imagery for the front/back cover to reinforce branding. </p>
+                        <p>&nbsp;</p>
+                        <p>our designs come with a free flight check and PDF proof to ensure the presentation and quality of your designs prior to printing. This product can be ordered in full colour on single or both sides in 150, 170 or 200gsm on either satin or gloss paper.</p>
+                        <p>&nbsp;</p>
+                        <p>Depending on order quantity deliveries are dispatched in 3-10 working days. If you need your order fast-tracked request <a href="http://web.archive.org/web/20180706110000/http://www.1print.net.au/urgent-printing">urgent
+                        shipping</a>.</p>
+                        <p>&nbsp;</p>
+                        <p><b>Please note</b>: Custom sizes are available, please contact us for more information.</p>
+                        <p>&nbsp;</p>
+                        <div class="cms_template_holder">
+                        <p style="font-size:17px;font-weight:bold;color:#323232">Templates</p>
+                        <p>&nbsp;</p>
+                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_4pgdl_198x210mm.pdf">Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm.pdf">6 Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm_z_fold.pdf">6 Page DL Template (Z-Fold)</a></span></p>
+                        </div>
+                        <p>&nbsp;</p></div>
+
+
+
+                        
+
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+                    <div class="main_left_right">
+                        
+                        <h4>Brochure Folding</h4>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
+                            <strong>Single Fold</strong>
+                            <span>4 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
+                            <strong>Roll Fold</strong>
+                            <span>6 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
+                            <strong>Z Fold</strong>
+                            <span>6 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
+                            <strong>Roll Fold</strong>
+                            <span>8 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
+                            <strong>Concertina</strong>
+                            <span>8 Pages</span>
+                        </div>
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+
+                    <div class="clear"></div>
+                    <div style="clear: both;"></div>
+
+
+                    
+
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <!-- a4-a5 -->
+    <div class="a4a5_div" id="a4a5_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/brochures" itemprop="url">
+                                <span itemprop="title">
+                                    Brochure Printing </span>
+                            </a>
+                            »
+                            <a href="/product/brochures/a4-z5" itemprop="url">
+                                <span itemprop="title">
+                                    a4-a5 </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="main_left">
+                    <div class="main_left_left">
+
+
+                        <div class="cms_pro_content"><h1>4, 6 or 8 Page A5 Brochure</h1>
+                        <p>&nbsp;</p>
+                        <p>
+                        <img src="{{URL::asset('/image/product/brochure_folding_options_A4_to_A5.jpg')}}" border="0" alt="4 Page A5 Brochure"></p>
+                        <p>The A5 brochure is perfectly suited for <a href="/product/brochures" target="_blank">full colour tradeshow pamphlets</a>, premium letterbox drops or to function as flyer handouts in your target region.</p>
+                        <p>&nbsp;</p>
+                        <p>Due
+                        to the relatively comfortable carrying size, this product is well suited to
+                        marketing forthcoming cultural festivals, Real Estate, tourist attractions or
+                        anything where the reader is likely to be in motion whilst consuming its
+                        content. </p>
+                        <p>&nbsp;</p>
+                        <p>Get
+                        maximum impact for your investment by using a targeted strategy that focuses on
+                        qualified leads, use unique designs with bold colour palettes and high quality
+                        photography and always include an strong call-to-action for the reader.</p>
+                        <p>&nbsp;</p>
+                        <p>Available in 150gsm, 170gsm and 200gsm gloss or matt stocks. Printed Full Colour on one or two sides.</p>
+                        <p>gloss
+                        or satin paper.</p>
+                        <p>&nbsp;</p>
+                        <p>Delivery is 3-10 working days depending on the quantity purchases.</a>.
+                        </p>
+                        <p>&nbsp;</p>
+                        <p><span style="color:black;"><b>Please note:</b></span> Custom sizes are available, please contact us for more information.
+                        </p>
+                        <p>&nbsp;</p>
+                        <div class="cms_template_holder">
+                        <p style="font-size:17px;font-weight:bold;color:#323232">Templates</p>
+                        <p>&nbsp;</p>
+                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_4pgdl_198x210mm.pdf">Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm.pdf">6 Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm_z_fold.pdf">6 Page DL Template (Z-Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-02.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm.pdf">8 Page DL Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-03.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm_concertina.pdf">8 Page DL Template (Concertina Fold)</a></span></p>
+                        </div>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p></div>
+
+
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+                    <div class="main_left_right">
+                        
+                        <h4>Brochure Folding</h4>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
+                            <strong>Single Fold</strong>
+                            <span>4 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
+                            <strong>Roll Fold</strong>
+                            <span>6 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
+                            <strong>Z Fold</strong>
+                            <span>6 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
+                            <strong>Roll Fold</strong>
+                            <span>8 Pages</span>
+                        </div>
+                        <div class="folding_list">
+                            <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
+                            <strong>Concertina</strong>
+                            <span>8 Pages</span>
+                        </div>
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+
+                    <div class="clear"></div>
+                    <div style="clear: both;"></div>
+
+
+                    
+
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <!-- flyerlearnmore -->
+    <div class="flyerlearnmore_div" id="flyerlearnmore_div_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/flyers" itemprop="url">
+                                <span itemprop="title">
+                                    Flyer Printing </span>
+                            </a>
+                            »
+                            <a href="/product/flyers/learnmore" itemprop="url">
+                                <span itemprop="title">
+                                    learnmore </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="main_left">
+                    <div class="main_left_left">
+
+                        <div class="cms_pro_content"><h1>DL Flyers &amp; Leaflets</h1>
+                            <p>Flyers are one of
+                            the most popular marketing tools out there due to their cost-effectiveness,
+                            versatility and easy design. Whether you wish to promote a one-off event,
+                            special offer, competition or new product/service <a href="/product/flyers">promotional flyers</a> can be a
+                            highly effective way of spreading your marketing message. </p>
+                            <p>&nbsp;</p>
+                            <p>Our DL flyers are
+                            a handy size for a marketing message which recipients can easily fold up and
+                            pop into their pocket. Captivate your audience with full colour imagery that
+                            perfectly compliments your campaign theme and brand identity.</p>
+                            <p>&nbsp;</p>
+                            <p>Our high quality flyers are printed on high GSM printing
+                            stock (choose from 150gsm , 170gsm or 200gsm gloss) that will enhance your design and
+                            reinforce the professionalism of your brand. Reach your target market with the right marketing message
+                            on cost-effective full colour flyers or more economical single colour flyer
+                            printing. Flyers can be printed on both sides or one side only.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            us create a customised flyer design for you which is both exciting and visually
+                            striking, or send us your own 210mm x 99m designs. A minimum of 2mm bleed (the
+                            amount that will be trimmed off during the printing process) is applied. We
+                            carry out free flight checks and provide&nbsp;
+                            PDF proofs prior to going ahead with any printing job. Upon approval we
+                            commence printing and dispatch your order within 3-10 days working days
+                            (delivery times depend on the size and type of order).&nbsp; Note: custom sizing available, please
+                            contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095611/http://www.1print.net.au/images/specs_templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+                        <div class="cms_pro_content"><h1>A6 Flyers &amp; Leaflets</h1>
+                            <p>Do you need to
+                            promote a product, spruik a special offer or expose an event? A6 promotional
+                            flyers can act as a highly effective marketing tool which can enable you to
+                            grab your target audience's attention quickly and economically. </p>
+                            <p>&nbsp;</p>
+                            <p>1Print's A6 flyers
+                            are the perfect size and weight for an advertising message which you want
+                            potential customers to pop into their pocket or handbag and take away with
+                            them. </p>
+                            <p>&nbsp;</p>
+                            <p>Our <a href="/product/flyers">high quality flyers</a> are printed on GSM printing stock
+                            including 150gsm , 170gsm and 200gsm gloss. Let your brand's voice be heard with a
+                            powerful message and professional design on impressive full colour flyers or
+                            more cost-effective single colour flyer printing.</p>
+                            <p>&nbsp;</p>
+                            <p>We
+                            can create an attractive flyer design tailored to suit your marketing campaign,
+                            or alternatively, you can provide us with your own 105mm x148mm designs. Please
+                            remember a minimum of 2mm bleed (the amount that will be trimmed off when the
+                            flyers are printed) is required. Once we have received your design and files we
+                            will perform a flight check and send you a PDF proof for your approval. Upon
+                            approval we will begin the printing process and dispatch your order within 3-10
+                            days working days (depending on the quantity requested).&nbsp; Note: custom sizing available, please
+                            contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095537/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A6_105x148mm.pdf" target="_blank">A6 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="cms_pro_content"><h1>A5 Flyers &amp; Leaflets</h1>
+                            <p>Eye-catching,
+                            <a href="/product/flyers">professionally designed flyers</a> are a cost-effective solution to instantly
+                            grabbing the attention of large numbers of potential customers in a very short
+                            amount of time. </p>
+                            <p>&nbsp;</p>
+                            <p>The size of A5
+                            flyers allows for large, captivating images to accompany your compelling
+                            advertising message whilst still making them a suitable size for letterbox
+                            drops and in-store promotions.</p>
+                            <p>&nbsp;</p>
+                            <p>1Print's flyers are printed on high quality GSM printing
+                            stock&nbsp; - 150gsm , 170gsm or 200gsm gloss. You can choose to have your flyers
+                            printed on one or two sides in single to full colour.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            1Print create a customised flyer design that will stand out from the crowd and
+                            boost your brand, or alternatively, you can provide us with your own 148mm x
+                            210mm designs. We apply a minimum of 2mm bleed (the edge that will be trimmed
+                            off when the flyers are printed). As soon as we receive your designs we conduct
+                            a flight check, at no additional cost and provide you with you a PDF proof.
+                            Upon approval we initiate printing and your order is dispatched within 3-10
+                            days working days. Delivery times may vary according to the product and order
+                            size. <a href="/contact">Contact
+                            the 1Print team</a> if you require urgent printing (within 48 hours).</p>
+                            <p>&nbsp;</p>
+                            <p>Note:
+                            custom sizing available, please contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095501/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A5_148x210mm.pdf" target="_blank">A5 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+
+                        <div class="cms_pro_content"><h1>A4 Flyers &amp; Leaflets</h1>
+                            <p>There are 3 key
+                            reasons why flyers are still one of the most widely used marketing tools: they
+                            are extremely versatile, easy to design and very cost-effective compared to
+                            most other advertising methods. Professionally designed promotional flyers
+                            offer a highly effective means of communicating your marketing message, whether
+                            you need to get the word out about an event, special offer, competition or new
+                            product or service.&nbsp; </p>
+                            <p>&nbsp;</p>
+                            <p>A4 flyers allow
+                            for high visual impact, significant branding and an eye-catching marketing
+                            message whilst still being easy for potential customers to fold and tuck away.
+                            To ensure you capture your audience's attention take advantage of 1Print's <a href="/product/flyers">full
+                            colour flyer printing</a> and craft a call to action that will resonate with your
+                            target market.</p>
+                            <p>&nbsp;</p>
+                            <p>Our flyers are printed on high quality 150gsm, 170gsm or
+                            200gsm gloss that will compliment your clean and elegant design and bring your
+                            images to life. Impress your prospective customers with striking full colour
+                            flyers or more cost-effective single colour flyer printing.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            1Print create a customised flyer design that will stand out from the crowd and
+                            boost your brand, or alternatively, you can provide us with your own 148mm x
+                            210mm designs. Please note: we require a minimum of 2mm bleed. Once we have all
+                            your designs and associated files in hand we carry out a flight check and
+                            forward you a proof in PDF format. Printing begins upon approval and delivery
+                            takes 3-10 days working days (depending on the size of your order). Should you
+                            require urgent printing or custom sizing please <a href="/contact">contact
+                            us</a>.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180724222514/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A4_210x297mm.pdf" target="_blank">A4 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+
+
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+                    
+
+                    <div class="clear"></div>
+                    <div style="clear: both;"></div>
+
+
+                    
+
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <!-- flyerlearnmore -->
+    <div class="posterlearnmore_div" id="posterlearnmore_div_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/flyers" itemprop="url">
+                                <span itemprop="title">
+                                    Flyer Printing </span>
+                            </a>
+                            »
+                            <a href="/product/flyers/learnmore" itemprop="url">
+                                <span itemprop="title">
+                                    learnmore </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="main_left">
+                    <div class="main_left_left">
+
+                        <div class="cms_pro_content"><h1>DL Flyers &amp; Leaflets</h1>
+                            <p>Flyers are one of
+                            the most popular marketing tools out there due to their cost-effectiveness,
+                            versatility and easy design. Whether you wish to promote a one-off event,
+                            special offer, competition or new product/service <a href="/product/flyers">promotional flyers</a> can be a
+                            highly effective way of spreading your marketing message. </p>
+                            <p>&nbsp;</p>
+                            <p>Our DL flyers are
+                            a handy size for a marketing message which recipients can easily fold up and
+                            pop into their pocket. Captivate your audience with full colour imagery that
+                            perfectly compliments your campaign theme and brand identity.</p>
+                            <p>&nbsp;</p>
+                            <p>Our high quality flyers are printed on high GSM printing
+                            stock (choose from 150gsm , 170gsm or 200gsm gloss) that will enhance your design and
+                            reinforce the professionalism of your brand. Reach your target market with the right marketing message
+                            on cost-effective full colour flyers or more economical single colour flyer
+                            printing. Flyers can be printed on both sides or one side only.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            us create a customised flyer design for you which is both exciting and visually
+                            striking, or send us your own 210mm x 99m designs. A minimum of 2mm bleed (the
+                            amount that will be trimmed off during the printing process) is applied. We
+                            carry out free flight checks and provide&nbsp;
+                            PDF proofs prior to going ahead with any printing job. Upon approval we
+                            commence printing and dispatch your order within 3-10 days working days
+                            (delivery times depend on the size and type of order).&nbsp; Note: custom sizing available, please
+                            contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095611/http://www.1print.net.au/images/specs_templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+                        <div class="cms_pro_content"><h1>A6 Flyers &amp; Leaflets</h1>
+                            <p>Do you need to
+                            promote a product, spruik a special offer or expose an event? A6 promotional
+                            flyers can act as a highly effective marketing tool which can enable you to
+                            grab your target audience's attention quickly and economically. </p>
+                            <p>&nbsp;</p>
+                            <p>1Print's A6 flyers
+                            are the perfect size and weight for an advertising message which you want
+                            potential customers to pop into their pocket or handbag and take away with
+                            them. </p>
+                            <p>&nbsp;</p>
+                            <p>Our <a href="/product/flyers">high quality flyers</a> are printed on GSM printing stock
+                            including 150gsm , 170gsm and 200gsm gloss. Let your brand's voice be heard with a
+                            powerful message and professional design on impressive full colour flyers or
+                            more cost-effective single colour flyer printing.</p>
+                            <p>&nbsp;</p>
+                            <p>We
+                            can create an attractive flyer design tailored to suit your marketing campaign,
+                            or alternatively, you can provide us with your own 105mm x148mm designs. Please
+                            remember a minimum of 2mm bleed (the amount that will be trimmed off when the
+                            flyers are printed) is required. Once we have received your design and files we
+                            will perform a flight check and send you a PDF proof for your approval. Upon
+                            approval we will begin the printing process and dispatch your order within 3-10
+                            days working days (depending on the quantity requested).&nbsp; Note: custom sizing available, please
+                            contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095537/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A6_105x148mm.pdf" target="_blank">A6 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="cms_pro_content"><h1>A5 Flyers &amp; Leaflets</h1>
+                            <p>Eye-catching,
+                            <a href="/product/flyers">professionally designed flyers</a> are a cost-effective solution to instantly
+                            grabbing the attention of large numbers of potential customers in a very short
+                            amount of time. </p>
+                            <p>&nbsp;</p>
+                            <p>The size of A5
+                            flyers allows for large, captivating images to accompany your compelling
+                            advertising message whilst still making them a suitable size for letterbox
+                            drops and in-store promotions.</p>
+                            <p>&nbsp;</p>
+                            <p>1Print's flyers are printed on high quality GSM printing
+                            stock&nbsp; - 150gsm , 170gsm or 200gsm gloss. You can choose to have your flyers
+                            printed on one or two sides in single to full colour.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            1Print create a customised flyer design that will stand out from the crowd and
+                            boost your brand, or alternatively, you can provide us with your own 148mm x
+                            210mm designs. We apply a minimum of 2mm bleed (the edge that will be trimmed
+                            off when the flyers are printed). As soon as we receive your designs we conduct
+                            a flight check, at no additional cost and provide you with you a PDF proof.
+                            Upon approval we initiate printing and your order is dispatched within 3-10
+                            days working days. Delivery times may vary according to the product and order
+                            size. <a href="/contact">Contact
+                            the 1Print team</a> if you require urgent printing (within 48 hours).</p>
+                            <p>&nbsp;</p>
+                            <p>Note:
+                            custom sizing available, please contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095501/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A5_148x210mm.pdf" target="_blank">A5 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+
+                        <div class="cms_pro_content"><h1>A4 Flyers &amp; Leaflets</h1>
+                            <p>There are 3 key
+                            reasons why flyers are still one of the most widely used marketing tools: they
+                            are extremely versatile, easy to design and very cost-effective compared to
+                            most other advertising methods. Professionally designed promotional flyers
+                            offer a highly effective means of communicating your marketing message, whether
+                            you need to get the word out about an event, special offer, competition or new
+                            product or service.&nbsp; </p>
+                            <p>&nbsp;</p>
+                            <p>A4 flyers allow
+                            for high visual impact, significant branding and an eye-catching marketing
+                            message whilst still being easy for potential customers to fold and tuck away.
+                            To ensure you capture your audience's attention take advantage of 1Print's <a href="/product/flyers">full
+                            colour flyer printing</a> and craft a call to action that will resonate with your
+                            target market.</p>
+                            <p>&nbsp;</p>
+                            <p>Our flyers are printed on high quality 150gsm, 170gsm or
+                            200gsm gloss that will compliment your clean and elegant design and bring your
+                            images to life. Impress your prospective customers with striking full colour
+                            flyers or more cost-effective single colour flyer printing.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            1Print create a customised flyer design that will stand out from the crowd and
+                            boost your brand, or alternatively, you can provide us with your own 148mm x
+                            210mm designs. Please note: we require a minimum of 2mm bleed. Once we have all
+                            your designs and associated files in hand we carry out a flight check and
+                            forward you a proof in PDF format. Printing begins upon approval and delivery
+                            takes 3-10 days working days (depending on the size of your order). Should you
+                            require urgent printing or custom sizing please <a href="/contact">contact
+                            us</a>.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180724222514/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A4_210x297mm.pdf" target="_blank">A4 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+
+
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+                    
+
+                    <div class="clear"></div>
+                    <div style="clear: both;"></div>
+
+
+                    
+
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <!-- flyerlearnmore -->
+    <div class="postercardlearnmore_div" id="postercardlearnmore_div_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/flyers" itemprop="url">
+                                <span itemprop="title">
+                                    Flyer Printing </span>
+                            </a>
+                            »
+                            <a href="/product/flyers/learnmore" itemprop="url">
+                                <span itemprop="title">
+                                    learnmore </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="main_left">
+                    <div class="main_left_left">
+
+                        <div class="cms_pro_content"><h1>DL Flyers &amp; Leaflets</h1>
+                            <p>Flyers are one of
+                            the most popular marketing tools out there due to their cost-effectiveness,
+                            versatility and easy design. Whether you wish to promote a one-off event,
+                            special offer, competition or new product/service <a href="/product/flyers">promotional flyers</a> can be a
+                            highly effective way of spreading your marketing message. </p>
+                            <p>&nbsp;</p>
+                            <p>Our DL flyers are
+                            a handy size for a marketing message which recipients can easily fold up and
+                            pop into their pocket. Captivate your audience with full colour imagery that
+                            perfectly compliments your campaign theme and brand identity.</p>
+                            <p>&nbsp;</p>
+                            <p>Our high quality flyers are printed on high GSM printing
+                            stock (choose from 150gsm , 170gsm or 200gsm gloss) that will enhance your design and
+                            reinforce the professionalism of your brand. Reach your target market with the right marketing message
+                            on cost-effective full colour flyers or more economical single colour flyer
+                            printing. Flyers can be printed on both sides or one side only.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            us create a customised flyer design for you which is both exciting and visually
+                            striking, or send us your own 210mm x 99m designs. A minimum of 2mm bleed (the
+                            amount that will be trimmed off during the printing process) is applied. We
+                            carry out free flight checks and provide&nbsp;
+                            PDF proofs prior to going ahead with any printing job. Upon approval we
+                            commence printing and dispatch your order within 3-10 days working days
+                            (delivery times depend on the size and type of order).&nbsp; Note: custom sizing available, please
+                            contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095611/http://www.1print.net.au/images/specs_templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+                        <div class="cms_pro_content"><h1>A6 Flyers &amp; Leaflets</h1>
+                            <p>Do you need to
+                            promote a product, spruik a special offer or expose an event? A6 promotional
+                            flyers can act as a highly effective marketing tool which can enable you to
+                            grab your target audience's attention quickly and economically. </p>
+                            <p>&nbsp;</p>
+                            <p>1Print's A6 flyers
+                            are the perfect size and weight for an advertising message which you want
+                            potential customers to pop into their pocket or handbag and take away with
+                            them. </p>
+                            <p>&nbsp;</p>
+                            <p>Our <a href="/product/flyers">high quality flyers</a> are printed on GSM printing stock
+                            including 150gsm , 170gsm and 200gsm gloss. Let your brand's voice be heard with a
+                            powerful message and professional design on impressive full colour flyers or
+                            more cost-effective single colour flyer printing.</p>
+                            <p>&nbsp;</p>
+                            <p>We
+                            can create an attractive flyer design tailored to suit your marketing campaign,
+                            or alternatively, you can provide us with your own 105mm x148mm designs. Please
+                            remember a minimum of 2mm bleed (the amount that will be trimmed off when the
+                            flyers are printed) is required. Once we have received your design and files we
+                            will perform a flight check and send you a PDF proof for your approval. Upon
+                            approval we will begin the printing process and dispatch your order within 3-10
+                            days working days (depending on the quantity requested).&nbsp; Note: custom sizing available, please
+                            contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095537/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A6_105x148mm.pdf" target="_blank">A6 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="cms_pro_content"><h1>A5 Flyers &amp; Leaflets</h1>
+                            <p>Eye-catching,
+                            <a href="/product/flyers">professionally designed flyers</a> are a cost-effective solution to instantly
+                            grabbing the attention of large numbers of potential customers in a very short
+                            amount of time. </p>
+                            <p>&nbsp;</p>
+                            <p>The size of A5
+                            flyers allows for large, captivating images to accompany your compelling
+                            advertising message whilst still making them a suitable size for letterbox
+                            drops and in-store promotions.</p>
+                            <p>&nbsp;</p>
+                            <p>1Print's flyers are printed on high quality GSM printing
+                            stock&nbsp; - 150gsm , 170gsm or 200gsm gloss. You can choose to have your flyers
+                            printed on one or two sides in single to full colour.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            1Print create a customised flyer design that will stand out from the crowd and
+                            boost your brand, or alternatively, you can provide us with your own 148mm x
+                            210mm designs. We apply a minimum of 2mm bleed (the edge that will be trimmed
+                            off when the flyers are printed). As soon as we receive your designs we conduct
+                            a flight check, at no additional cost and provide you with you a PDF proof.
+                            Upon approval we initiate printing and your order is dispatched within 3-10
+                            days working days. Delivery times may vary according to the product and order
+                            size. <a href="/contact">Contact
+                            the 1Print team</a> if you require urgent printing (within 48 hours).</p>
+                            <p>&nbsp;</p>
+                            <p>Note:
+                            custom sizing available, please contact us to learn more.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180726095501/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A5_148x210mm.pdf" target="_blank">A5 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+
+                        <div class="cms_pro_content"><h1>A4 Flyers &amp; Leaflets</h1>
+                            <p>There are 3 key
+                            reasons why flyers are still one of the most widely used marketing tools: they
+                            are extremely versatile, easy to design and very cost-effective compared to
+                            most other advertising methods. Professionally designed promotional flyers
+                            offer a highly effective means of communicating your marketing message, whether
+                            you need to get the word out about an event, special offer, competition or new
+                            product or service.&nbsp; </p>
+                            <p>&nbsp;</p>
+                            <p>A4 flyers allow
+                            for high visual impact, significant branding and an eye-catching marketing
+                            message whilst still being easy for potential customers to fold and tuck away.
+                            To ensure you capture your audience's attention take advantage of 1Print's <a href="/product/flyers">full
+                            colour flyer printing</a> and craft a call to action that will resonate with your
+                            target market.</p>
+                            <p>&nbsp;</p>
+                            <p>Our flyers are printed on high quality 150gsm, 170gsm or
+                            200gsm gloss that will compliment your clean and elegant design and bring your
+                            images to life. Impress your prospective customers with striking full colour
+                            flyers or more cost-effective single colour flyer printing.</p>
+                            <p>&nbsp;</p>
+                            <p>Let
+                            1Print create a customised flyer design that will stand out from the crowd and
+                            boost your brand, or alternatively, you can provide us with your own 148mm x
+                            210mm designs. Please note: we require a minimum of 2mm bleed. Once we have all
+                            your designs and associated files in hand we carry out a flight check and
+                            forward you a proof in PDF format. Printing begins upon approval and delivery
+                            takes 3-10 days working days (depending on the size of your order). Should you
+                            require urgent printing or custom sizing please <a href="/contact">contact
+                            us</a>.</p>
+                            <p>&nbsp;</p>
+                            <div class="cms_template_holder">
+                            <p>Template</p>
+                            <p><a href="http://web.archive.org/web/20180724222514/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A4_210x297mm.pdf" target="_blank">A4 Template</a>
+                            </p>
+                            </div>
+                            <p>&nbsp;</p>
+                        </div>
+
+
+
+                        <div class="clear"></div>
+
+                        
+
+                    </div>
+                    
+
+                    <div class="clear"></div>
+                    <div style="clear: both;"></div>
+
+
+                    
+
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
 
 
     </div><!-- home_background end -->

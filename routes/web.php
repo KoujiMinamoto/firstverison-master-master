@@ -117,6 +117,24 @@ Route::get( '/delivery', function () {
 Route::get( '/fileGuidelines', function () {
     return view('home');
 });
+Route::get( '/product/brochures/a4-dl', function () {
+    return view('home');
+});
+Route::get( '/product/brochures/a4-a5', function () {
+    return view('home');
+});
+Route::get( '/product/brochures/a3-a4', function () {
+    return view('home');
+});
+Route::get( '/product/flyers/learnmore', function () {
+    return view('home');
+});
+Route::get( '/product/posters/learnmore', function () {
+    return view('home');
+});
+Route::get( '/product/postcards/learnmore', function () {
+    return view('home');
+});
 // Route::get('/test1', function () {
 //     return view('dashboard_user');
 // });

@@ -66,6 +66,30 @@ function clickProduct(headerName) {
             showProductPage(15);
             linkTo('websiteDesign');
             break;
+        case 16:
+            showProductPage(16);
+            linkTo('a4-dl');
+            break;
+        case 17:
+            showProductPage(17);
+            linkTo('a3-a4');
+            break;
+        case 18:
+            showProductPage(18);
+            linkTo('a4-a5');
+            break;
+        case 19:
+            showProductPage(19);
+            linkTo('flyerlearnmore');
+            break;
+        case 20:
+            showProductPage(20);
+            linkTo('posterlearnmore');
+            break;
+        case 21:
+            showProductPage(21);
+            linkTo('postercardlearnmore');
+            break;
     }
 
 }
@@ -153,6 +177,36 @@ function showProductPage(headerName) {
             $(".product15").addClass("clickOnli");
             $(".product").addClass("clickOn");
             document.getElementById("product_div_id_16").style.display = "block";
+            break;
+        case 16:
+            $(".product1").addClass("clickOnli");
+            $(".product").addClass("clickOn");
+            document.getElementById("a4dl_id").style.display = "block";
+            break;
+        case 17:
+            $(".product1").addClass("clickOnli");
+            $(".product").addClass("clickOn");
+            document.getElementById("a3a4_id").style.display = "block";
+            break;
+        case 18:
+            $(".product1").addClass("clickOnli");
+            $(".product").addClass("clickOn");
+            document.getElementById("a4a5_id").style.display = "block";
+            break;
+        case 19:
+            $(".product8").addClass("clickOnli");
+            $(".product").addClass("clickOn");
+            document.getElementById("flyerlearnmore_div_id").style.display = "block";
+            break;
+        case 20:
+            $(".product12").addClass("clickOnli");
+            $(".product").addClass("clickOn");
+            document.getElementById("posterlearnmore_div_id").style.display = "block";
+            break;
+        case 21:
+            $(".product11").addClass("clickOnli");
+            $(".product").addClass("clickOn");
+            document.getElementById("postercardlearnmore_div_id").style.display = "block";
             break;
     }
 }

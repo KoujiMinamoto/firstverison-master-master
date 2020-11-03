@@ -414,7 +414,7 @@ h1.hp_title {
     background-color: rgb(228, 228, 228);
     line-height: 10rem;
     font-size: 1.5rem;
-    border: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
     /*font-family: Candara;*/
     cursor:pointer;
 }
@@ -449,7 +449,7 @@ h1.hp_title {
     margin-left: auto;
     margin-right: auto;
     max-width: 190rem;
-    max-height: 40rem;
+    max-height: 43rem;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
@@ -1014,4 +1014,11 @@ input.btn_search {
 .black_bold{
     color:#323232;
     font-weight:bold;
+}
+.cms_pro_content{
+    width: 542px;
+    float: left;
+    text-align: justify;
+    margin-right: 50px;
+    min-height: 520px;
 }
