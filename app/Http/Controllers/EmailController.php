@@ -54,20 +54,42 @@ use Illuminate\Support\Facades\Storage;
 
         // $handler = opendir('files/');
         // $filename = readdir($handler);
-        $file_path = 'public/files/';
-        $file_base_name = basename($file_path);
-        $f_name = substr($file_base_name,0,strrpos($file_base_name,'.'));
+        $file_path = opendir('files');
+        // $file_base_name = basename($file_path);
+        // $f_name = substr($file_base_name,0,strrpos($file_base_name,'.'));
+        $change = dir('files');
+
+        // while( ($filename = readdir($file_path)) != false ) {
+        //     if( ($filename != ".") && ($filename != "..") ) {
+        //         $test = $filename;
+        //         break;
+        //     }
+        // }
+        while ($file = $change ->read()){  
+            if($file !="." && $file !=".."){ 
+                if(is_file('files/'.$file)){//当前为文件
+                     $files[]= $file;
+                     $sendFile = $file;
+                }else{//当前为目录  
+                     
+                }               
+            } 
+        }
 
 
-        // Mail::raw($content, function ($message) use ($toMail, $title) {
-        //     $message->subject($title);
-        //     $message->to($toMail);
+
+        closedir($file_path);
+
+
+        Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+            $message->subject($title);
+            $message->to($toMail);
             
-        //     $attachment = 'files\contactFile.docx';
-        //     //在邮件中上传附件
-        //     $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
-        //     // $message->attach($attachment,['as'=>'file1.doc']);
-        // });
+            $attachment = $sendFile; // 'files/'.
+            //在邮件中上传附件
+            $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+            // $message->attach($attachment,['as'=>'file1.doc']);
+        });
 
         return true;
      }
@@ -79,13 +101,42 @@ use Illuminate\Support\Facades\Storage;
         
         if($request->hasFile('file')&&$request->file('file')->isValid()){
 
+            $path = "files/";
+            if(is_dir($path)){
+                //扫描一个文件夹内的所有文件夹和文件并返回数组
+                $p = scandir($path);
+                foreach($p as $val){
+                    if($val !="." && $val !=".."){
+                        if(is_dir($path.$val)){
+                  //子目录中操作删除文件夹和文件
+                            deldir($path.$val.'/');
+                  //目录清空后删除空文件夹
+                            @rmdir($path.$val.'/');
+                        }else{
+                  //如果是文件直接删除
+                            unlink($path.$val);
+                        }
+                    }
+                }
+            }
+
+
+
             $file=$request->file('file');
             
             $destinationPath = 'files/';
             $extension = $file->getClientOriginalExtension();
 
             $realPath = $file->getRealPath();
-            $fileName = '444.'.$extension;
+
+            // file name make
+            $files_length = 45;
+            $filesname = openssl_random_pseudo_bytes($files_length);
+            $filesname = base64_encode($filesname);
+            $filesname = str_replace(['/', '+', '='], '', $filesname);
+            $fileName = substr($filesname, 0, $files_length).'.'.$extension;;
+            
+
 
             $bool = Storage::disk('uploads')->put($fileName,file_get_contents($realPath));
             if($bool){

@@ -23,29 +23,34 @@ function sendEmail() {
 
         // type check
         let type = $("#contact_file1")[0].files[0].type;
-
+        let typeChange = 0;
         for ( let i = 0 ; i < fileType.length ; ++i ) {
             // 判断一下格式对不对
             if ( type.indexOf(fileType[i]) != -1 ) {
-
+                typeChange = 1;
             } else {
-                alert("Files in this format are not supported");
-                return false;
+                
             }    
         };
+        if ( typeChange != 1) {
+            alert("Files in this format are not supported");
+            return false;
+        }
+        // name check
         let fileName = $("#contact_file1")[0].files[0].name;
-
-        // 判断一下有没有奇葩东西
+        let nameCheck = 0;
         for ( let i = 0 ; i < fileSuffix.length ; ++i ) {
             
             if ( fileName.indexOf(fileSuffix[i]) != -1 ) {
-
+                nameCheck = 1;
             } else {
-                alert("Files in this format are not supported");
-                return false;
+                
             }    
         };
-
+        if ( nameCheck != 1) {
+            alert("Files in this format are not supported");
+            return false;
+        }
 
 
         let size = $("#contact_file1")[0].files[0].size;
