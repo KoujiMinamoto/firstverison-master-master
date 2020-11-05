@@ -30,7 +30,7 @@
     <script type="text/javascript" src="{{URL::asset('/js/contactUs.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js"></script> -->
     <!-- <link rel="stylesheet" href="{{URL::asset('/css/boot/bootstrap.min.css') }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
@@ -574,6 +574,19 @@
     <div class="product_div" id="product_div_id_1" style="display:none">
         <div class="text_holder">
             <div class="main_product_container booklet_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/booklets" itemprop="url">
+                                <span itemprop="title">
+                                    Booklets Printing </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
                 <div class="product_main_left">
                     <div class="product_main_left_left">
                         <h1>Online Booklet Printing</h1>
@@ -1473,6 +1486,19 @@
     <div class="product_div" id="product_div_id_2" style="display:none">
         <div class="text_holder">
             <div class="main_product_container brochure_holder">
+                <div id="breadcrumbs">
+                    You are here:
+                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press</span></a>
+                        »
+                        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
+                            <a href="/product/brochures" itemprop="url">
+                                <span itemprop="title">
+                                    Brochures Printing </span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
 
                 <div class="main_left">
                     <div class="main_left_left">
@@ -2034,7 +2060,7 @@
                                 <tr>
                                     <td class="product_options_quote">
                                         <div class="product_quote_text">Looking for more options?</div>
-                                        <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a>
+                                        <div class="product_quote_link"><a href="/contact">Custom Quote</a>
                                         </div>
                                         <div class="clear"></div>
                                     </td>
@@ -2335,7 +2361,15 @@
     <div class="product_div" id="product_div_id_3" style="display:none">
         <div class="text_holder">
             <div class="main_product_container bcards_holder">
-
+            
+                <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/businessCards" >   
+                                 BusinessCards Printing 
+                            </a>
+                </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -2850,11 +2884,18 @@
         </div>
         <div style="clear: both;"></div>
     </div>
-
+<!-- 弃用 4 -->
     <div class="product_div" id="product_div_id_4" style="display:none">
         <div class="text_holder">
         <div class="main_product_container notepad_holder">
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                        <a href="/product/businessCards" >   
+                                BusinessCards Printing 
+                        </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -3465,7 +3506,14 @@
 
         <div class="text_holder">
             <div class="main_container">
-
+                <div id="breadcrumbs"style="padding-left: 2rem;">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/directMarketing" >   
+                            DirectMarketing 
+                            </a>
+                </div>
                 <div class="container_left">
                     <h1>Direct Marketing</h1>
                     <p>In addition to offering you quality printing, 1Print also have the experience and infrastructure
@@ -3535,11 +3583,18 @@
         <div style="clear: both;"></div>
     </div>
 
-
+<!-- signage -->
     <div class="product_div" id="product_div_id_6" style="display:none">
         <div class="text_holder">
         <div class="main_product_container docket_holder">
-
+             <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/docketBooks" >   
+                            DocketBooks Printing
+                            </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -4011,6 +4066,14 @@
         <div class="text_holder">
         <div class="main_product_container envelope_holder">
 
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/envelopes" >   
+                            Envelopes Printing
+                            </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -4651,12 +4714,19 @@
         <div style="clear: both;"></div>
     </div>
 
-
+<!-- Banner -->
     <div class="product_div" id="product_div_id_8" style="display:none">
         <div class="text_holder">
         <div class="main_product_container express_holder">
 
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/expressPrinting" >   
+                            Express Printing
+                            </a>
+            </div>
             <div class="main_left">
                 <div class="main_left_left">
                     <h1>Express Printing</h1>
@@ -5124,7 +5194,14 @@
     <div class="product_div" id="product_div_id_9" style="display:none">
         <div class="text_holder">
         <div class="main_product_container flyer_holder">
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/flyers" >   
+                            Flyers Printing
+                            </a>
+            </div>
             <div class="main_left">
                 <div class="main_left_left">
                     <h1>Online Flyer Printing</h1>
@@ -5721,11 +5798,18 @@
         <div style="clear: both;"></div>
     </div>
 
-
+<!-- 弃用 10 -->
     <div class="product_div" id="product_div_id_10" style="display:none">
         <div class="text_holder">
         <div class="main_product_container magnet_holder">
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/flyers" >   
+                            Flyers Printing
+                            </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -6142,7 +6226,14 @@
     <div class="product_div" id="product_div_id_11" style="display:none">
         <div class="text_holder">
         <div class="main_product_container letterhead_holder">
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/letterheads" >   
+                            Letterheads Printing
+                            </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -6655,7 +6746,14 @@
     <div class="product_div" id="product_div_id_12" style="display:none">
         <div class="text_holder">
         <div class="main_product_container postcard_holder">
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/postcards" >   
+                            Postcards Printing
+                            </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -7243,7 +7341,14 @@
         <div class="text_holder">
         <div class="main_product_container poster_holder">
 
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/posters" >   
+                            Posters Printing
+                            </a>
+            </div>
             <div class="main_left">
                 <div class="main_left_left">
                     <h1>Online Poster Printing</h1>
@@ -7810,12 +7915,19 @@
         </div>
         <div style="clear: both;"></div>
     </div>
-
+<!-- 弃用 14 -->
     <div class="product_div" id="product_div_id_14" style="display:none">
         <div class="text_holder">
         <div class="main_product_container folder_holder">
 
-
+        <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/posters" >   
+                            Posters Printing
+                            </a>
+            </div>
             <div class="main_left">
                 <div class="main_left_left">
                     <h1>Presentation Folder Printing</h1>
@@ -9169,7 +9281,14 @@
     <div class="product_div" id="product_div_id_15" style="display:none">
         <div class="text_holder">
         <div class="main_product_container comp_holder">
-
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/withCompliments" >   
+                            Compliments Printing
+                            </a>
+            </div>
 
             <div class="main_left">
                 <div class="main_left_left">
@@ -9690,19 +9809,14 @@
             <div class="main_left" style="float: left;">
 
 
-{{--                <div id="breadcrumbs">--}}
-{{--                    You are here:--}}
-{{--                    <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">--}}
-{{--        <a href="http://web.archive.org/web/20180903141702/http://www.1print.net.au/" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>--}}
-{{--        »--}}
-{{--        <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">--}}
-{{--            <a href="http://web.archive.org/web/20180903141702/http://www.1print.net.au/web-design.php" itemprop="url">--}}
-{{--                <span itemprop="title">--}}
-{{--                    Website Design / Digital Marketing                </span>--}}
-{{--            </a>--}}
-{{--        </span>--}}
-{{--    </span>--}}
-{{--                </div>--}}
+            <div id="breadcrumbs">
+                    You are here:
+                        <a href="/home" >YellowStar Press</a>
+                        »
+                            <a href="/product/websiteDesign" >   
+                            Website Design/Digital Marketing
+                            </a>
+            </div>
                 <h1 style="display:inline-block;">Website Design / Digital Marketing</h1>
                 <h4>
 
@@ -10220,19 +10334,19 @@
                     <div class="contact_email">
                         <span class="contact-align-left">Quotes</span>
                         <span class="contact-align"><a
-                                href="http://web.archive.org/web/20180903154238/mailto:quotes@1print.net.au"
+                                href="mailto:gerard@yellowstarpress.com.au"
                                 class="black_link">gerard@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email">
                         <span class="contact-align-left">Orders</span>
                         <span class="contact-align"><a
-                                href="http://web.archive.org/web/20180903154238/mailto:orders@1print.net.au"
+                        href="mailto:gerard@yellowstarpress.com.au"
                                 class="black_link">gerard@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email_last">
                         <span class="contact-align-left">Accounts</span>
                         <span class="contact-align"><a
-                                href="http://web.archive.org/web/20180903154238/mailto:accounts@1print.net.au"
+                        href="mailto:gerard@yellowstarpress.com.au"
                                 class="black_link">gerard@yellowstarpress.com.au</a></span>
                     </div>
                     <p class="black_heading">You can visit us at:</p>
@@ -10241,7 +10355,8 @@
                 </div>
                 <div class="contact_right_quote">
                     <div class="contact_form_left">
-                    <h2>Request a quote</h2>
+                    <h2>Request a</h2>
+                    <h2> quote</h2>
                     </div>
                     <div class="contact_form_right">
 
@@ -12882,13 +12997,7 @@
     }
 
     //轮播
-    jQuery(".displayBox").slide({
-        mainCell: ".displayBox_bd ul",
-        effect: "leftLoop",
-        vis: "auto",
-        autoPlay: true,
-        trigger: "mouseover"
-    });
+    
 
     $(document).ready(function () {
         $('.dropdown').hover(

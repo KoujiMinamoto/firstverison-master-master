@@ -91,6 +91,8 @@ div#feedback {
     font-size: 14px;
     font-weight: normal;
     line-height: 17px;
+    padding-top: 10px;
+    padding-right: 5px;
 }
 .contact_form_left h2 {
     color: #323232;
@@ -364,7 +366,7 @@ h4.delivery_conditions{
 }
 .contact_form_left h2{
     color: #323232;
-    font-size: 26px;
+    font-size: 36px;
     font-weight: bold;
     text-align: left;
     line-height:26px;

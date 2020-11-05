@@ -27,6 +27,10 @@ html {
     grid-template-columns: 47% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3%;
     margin: 0 auto;
 }
+div{
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 /*  header  */
 div.header>div>p{
     font-size: 1.5rem;
@@ -1071,4 +1075,16 @@ button.black_button:hover {
     font-weight: normal;
     display: inline-block;
     text-align: center;
+}
+#breadcrumbs{
+	padding-bottom:15px;
+	font-size:11px;
+	margin-top:-22px;
+	color:#777;
+}
+#breadcrumbs a{
+	color:#777;
+}
+#breadcrumbs a:hover{
+	color:#29abe2;
 }
