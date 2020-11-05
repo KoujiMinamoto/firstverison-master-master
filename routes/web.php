@@ -135,6 +135,12 @@ Route::get( '/product/posters/learnmore', function () {
 Route::get( '/product/postcards/learnmore', function () {
     return view('home');
 });
+Route::get( '/pre-flight-checks', function () {
+    return view('home');
+});
+Route::get( '/colour-critical', function () {
+    return view('home');
+});
 // Route::get('/test1', function () {
 //     return view('dashboard_user');
 // });

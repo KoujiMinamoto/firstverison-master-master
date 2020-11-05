@@ -106,6 +106,8 @@
                 <li class="support2" onclick="clickHeader(16)" id="support2_id">&nbsp;&nbsp;&nbsp;<a>File Guidelines</a></li>
                 <li class="support3" onclick="clickHeader(13)" id="support3_id">&nbsp;&nbsp;&nbsp;<a>Sample Pack</a></li>
                 <li class="support4" onclick="clickHeader(4)" id="support4_id">&nbsp;&nbsp;&nbsp;<a>FAQ</a></li>
+                <li class="support5" onclick="clickHeader(17)" id="support5_id">&nbsp;&nbsp;&nbsp;<a>Pre-flight Checks</a></li>
+                <li class="support6" onclick="clickHeader(18)" id="support6_id">&nbsp;&nbsp;&nbsp;<a>Colour Critical</a></li>
             </ul>
         </div>
         <div class="aboutUs" id="aboutUs_id" onclick="clickHeader(5)"><p>about us</p></div>
@@ -682,7 +684,7 @@
                             large areas of ink coverage to protect the product and reduce finger marking and scuffing or
                             simply to enhance the look and feel of the finished product.
                             <br/><a
-                                href="http://web.archive.org/web/20180312225318/http://www.1print.net.au/contact.php?osCsid=nb76osbj4uatvq4prjqu3rr5h5"
+                                href="/contact"
                                 class="black_link_underline">Contact us for more information</a>
                         </p>
                     </div>
@@ -1552,17 +1554,17 @@
                                     <div class="fold_info">Single Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-dl"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf"
+                                    <div class="bro_dl"><a href="/templates/1print_brochure_4pgdl_198x210mm.pdf"
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-a5"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1593,7 +1595,7 @@
                                     <div class="fold_info">Landscape</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#" target="_blank"
+                                    <a href="/product/brochures/a4-dl" target="_blank"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1603,7 +1605,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#" target="_blank"
+                                    <a href="/product/brochures/a4-a5" target="_blank"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1614,7 +1616,7 @@
                                             target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#" target="_blank"
+                                    <a href="/product/brochures/a3-a4" target="_blank"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1635,7 +1637,7 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-dl"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1645,7 +1647,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-a5"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1655,7 +1657,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a3-a4"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1678,7 +1680,7 @@
                                     <div class="fold_info">Z Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-dl"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1688,7 +1690,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-a5"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1698,7 +1700,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a3-a4"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A4</div>
@@ -1720,7 +1722,7 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-dl"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1730,7 +1732,7 @@
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-a5"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">A5</div>
@@ -1752,7 +1754,7 @@
                                     <div class="fold_info">Concertina Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
+                                    <a href="/product/brochures/a4-dl"
                                        class="bro_link">
                                     </a>
                                     <div class="bro_sizing">DL</div>
@@ -1784,11 +1786,11 @@
                         <div class="panel_pricing">
                             <h4>Pricing includes</h4>
                             <span class="option_indent"><a
-                                    href="/contact">Free Flight Check</a></span>
+                                    href="/pre-flight-checks">Free Flight Check</a></span>
                             <span class="option_indent"><a
-                                    href="/contact">PDF Proof for your approval*</a></span>
+                                    href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                             <span class="option_indent"><a
-                                    href="/support">Free Job Tracking</a></span>
+                                    href="/pre-flight-checks">Free Job Tracking</a></span>
                             <span class="option_indent"><a
                                     href="/delivery">Free Delivery</a></span>
                             <p>&nbsp;</p>
@@ -1803,11 +1805,11 @@
                             <span class="option_indent"><a
                                     href="/support">Machine Varnish - Gloss or Matt</a></span>
                             <span class="option_indent"><a
-                                    href="/contact">Convert your files to a print ready format</a></span>
+                                    href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                             <span class="option_indent"><a
                                     href="/design">Graphic Design Services</a></span>
                             <span class="option_indent"><a
-                                    href="/contact">Hard Copy Proofs</a></span>
+                                    href="/pre-flight-checks">Hard Copy Proofs</a></span>
                             <p>&nbsp;</p>
                         </div>
                         <div class="clear"></div>
@@ -2400,7 +2402,7 @@
                                 </div> -->
                     </p>
                     <div class="clear"></div>
-                    <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/custom-quotes.php"
+                    <a href="/contact"
                        class="setup_banner_wrapper">
 
                     </a>
@@ -2412,11 +2414,11 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/contact">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/contact">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
 
                     </div>
                     <div class="panel_extras">
@@ -2425,17 +2427,17 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">Convert your file to a print ready format including basic artwork changes</a></span>
+                                href="/fileGuidelines">Convert your file to a print ready format including basic artwork changes</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/pre-flight-checks.php">PDF Proof</a></span>
+                                href="/delivery">PDF Proof</a></span>
                         <span class="option_indent black">Priority Delivery</span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
 
-                    <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-printing ">
+                    <a href="/product/businessCards">
                         <div class="bcards500"></div>
                     </a>
                 </div>
@@ -2443,46 +2445,46 @@
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
                     <div class="product_info_express no_margin">
-                        <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/urgent-printing">
+                        <a href="/product/expressPrinting">
                             <div class="product_info_express_img">
                             </div>
                             <h4>Express Printing</h4>
                             <p>For a guaranteed 48 hour despatch after your order is placed</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/urgent-printing">read
+                               href="/product/expressPrinting">read
                             more+</a>
                     </div>
 
 
                     <div class="product_info_design margin_left20">
-                        <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/design-services.php">read
+                        href="javascript:void(0);" onclick="clickHeader(2)">read
                             more+</a>
 
                     </div>
                     <div class="product_info_gallery gallery_bcards">
-                        <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-gallery.php">read
+                            href="javascript:void(0);" onclick="clickHeader(3)">read
                             more+</a>
 
                     </div>
                     <div class="product_info_templates">
-                        <a href="templates/sample-buisness-card-templates.pdf" target="_blank">
+                        <a href="/templates/sample-buisness-card-templates.pdf" target="_blank">
                             <div class="product_info_templates_img">
                             </div>
                             <h4>Artwork Templates</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link" href="templates/sample-buisness-card-templates.pdf" target="_blank">read
+                        </a><a class="blue_link" href="/templates/sample-buisness-card-templates.pdf" target="_blank">read
                             more+</a>
 
                     </div>
@@ -2493,7 +2495,7 @@
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                         </a><a class="blue_link"
-                               type="button" onclick="clickHeader(16)">read
+                        href="javascript:void(0);" onclick="clickHeader(16)">read
                             more+</a><br/>
                         <br/>
 
@@ -2928,7 +2930,7 @@
                     <div class="panel_pricing">
                         <h4>FREE Setup</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/pre-flight-checks.php">If print ready artwork is required, send us your logo and details and we'll setup your artwork for FREE*</a></span>
+                                href="/contact">If print ready artwork is required, send us your logo and details and we'll setup your artwork for FREE*</a></span>
                         <p>&nbsp;</p>
                         <p class="small">
                             * Digital files remain the property of 1Print, files can be purchased once the design is
@@ -2939,13 +2941,13 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/contact">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/contact">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.<br>
                             Additional proofs will incur extra charges.</p>
@@ -2953,7 +2955,7 @@
 
                     <div class="clear"></div>
                     <br>
-                    <a href="http://web.archive.org/web/20180531011609/http://www.1print.net.au/business-cards-printing ">
+                    <a href="/product/businessCards">
                         <div class="bcards500"></div>
                     </a>
                 </div>
@@ -2964,7 +2966,7 @@
                 <div class="notepad_template_list">
 
                     <div class="bro_setup" style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                        <a href="/product/brochures/a4-dl"
                            class="bro_link">
                         </a>
                         <div class="bro_sizing">DL</div>
@@ -2974,7 +2976,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                        <a href="/product/brochures/a4-dl"
                            class="bro_link">
                         </a>
                         <div class="bro_sizing">A6</div>
@@ -2984,7 +2986,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                        <a href="/product/brochures/a4-dl"
                            class="bro_link">
                         </a>
                         <div class="bro_sizing">A5</div>
@@ -2994,7 +2996,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                        <a href="/product/brochures/a4-dl"
                            class="bro_link">
                         </a>
                         <div class="bro_sizing">A4</div>
@@ -3004,7 +3006,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                        <a href="/product/brochures/a4-dl"
                            class="bro_link">
                         </a>
                         <div class="bro_sizing">A3</div>
@@ -3031,58 +3033,58 @@
 
 
                     <div class="product_info_design" style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/design-services.php">read
+                               href="javascript:void(0);" onclick="clickHeader(2)">read
                             more+</a>
 
                     </div>
                     <div class="product_info_gallery gallery_notepad">
-                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/deskpads-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/deskpads-gallery.php">read
+                        href="javascript:void(0);" onclick="clickHeader(3)">read
                             more+</a>
 
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/order.php">read
+                        href="javascript:void(0);" onclick="clickHeader(14)">read
                             more+</a>
 
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/artwork-specifications.php">read
+                               href="javascript:void(0);" onclick="clickHeader(16)">read
                             more+</a>
 
                     </div>
 
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
                         </a><a class="blue_link"
-                               href="http://web.archive.org/web/20180612154616/http://www.1print.net.au/delivery.php">read
+                        href="javascript:void(0);" onclick="clickHeader(15)">read
                             more+</a>
 
                     </div>
@@ -3653,9 +3655,9 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
                         <p>&nbsp;</p>
@@ -3670,9 +3672,9 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                        href="/design">Graphic Design Services</a></span>
 
                         <p>&nbsp;</p>
                     </div>
@@ -3707,46 +3709,46 @@
 
 
                     <div class="product_info_design margin_left20">
-                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/design-services.php">read
+                            href="javascript:void(0);" onclick="clickHeader(2)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_docket">
-                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docketbooks-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/docketbooks-gallery.php">read
+                                href="javascript:void(0);" onclick="clickHeader(3)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/order.php">read
+                               href="javascript:void(0);" onclick="clickHeader(14)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/artwork-specifications.php">read
+                            href="javascript:void(0);" onclick="clickHeader(16)">read
                                 more+</a>
                         </a>
                     </div>
@@ -4096,9 +4098,9 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
@@ -4277,57 +4279,57 @@
 
 
                     <div class="product_info_design" style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/design-services.php">read
+                               href="javascript:void(0);" onclick="clickHeader(2)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_envelope">
-                        <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/envelopes-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/envelopes-gallery.php">read
+                            href="javascript:void(0);" onclick="clickHeader(3)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/order.php">read
+                            href="javascript:void(0);" onclick="clickHeader(14)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/artwork-specifications.php">read
+                            href="javascript:void(0);" onclick="clickHeader(16)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/delivery.php">read
+                            href="javascript:void(0);" onclick="clickHeader(15)">read
                                 more+</a>
                         </a>
                     </div>
@@ -4747,7 +4749,7 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                        href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
@@ -4837,57 +4839,57 @@
 
 
                     <div class="product_info_design"style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/design-services.php">read
+                               href="javascript:void(0);" onclick="clickHeader(2)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_urgent">
-                        <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/gallery.php">read
+                            href="javascript:void(0);" onclick="clickHeader(3)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/order.php">read
+                            href="javascript:void(0);" onclick="clickHeader(14)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/artwork-specifications.php">read
+                            href="javascript:void(0);" onclick="clickHeader(16)">read
                                 more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/delivery.php">read
+                            href="javascript:void(0);" onclick="clickHeader(15)">read
                                 more+</a>
                         </a>
                     </div>
@@ -5279,9 +5281,9 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
                         <p>&nbsp;</p>
@@ -5294,11 +5296,11 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                        href="javascript:void(0);" onclick="clickHeader(2)">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                        href="/pre-flight-checks">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
@@ -5329,39 +5331,39 @@
 
 
                     <div class="product_info_design margin_left20">
-                        <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_flyer">
-                        <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/flyers-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/flyers-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
 
@@ -5832,9 +5834,9 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
@@ -5849,7 +5851,7 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
                         <span class="option_indent"><a
@@ -5869,39 +5871,39 @@
                 <div class="main_left_bottom1">
 
                     <div class="product_info_design"style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_magnet">
-                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/magnets-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_templates">
@@ -6263,15 +6265,15 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/pre-flight-checks.php">Free text corrections to your supplied file (if requested)</a></span>
+                                href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>
 
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
@@ -6283,7 +6285,7 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
                         <span class="option_indent"><a
@@ -6302,48 +6304,48 @@
 
 
                     <div class="product_info_design" style="margin-left:0rem">
-                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_letterhead">
-                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/letterheads-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/delivery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
                         </a>
                     </div>
 
@@ -6832,9 +6834,9 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
@@ -6849,7 +6851,7 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
                         <span class="option_indent"><a
@@ -6891,30 +6893,30 @@
 
 
                     <div class="product_info_design margin_left20">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_postcard">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/postcards-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
@@ -7373,9 +7375,9 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
@@ -7390,7 +7392,7 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
                         <span class="option_indent"><a
@@ -7466,30 +7468,30 @@
 
 
                     <div class="product_info_design" style="margin-left:0rem">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_poster">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/posters-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
@@ -7502,12 +7504,12 @@
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/delivery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
                         </a>
                     </div>
 
@@ -7987,11 +7989,11 @@
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/faq.php">Free Machine Varnish</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/pre-flight-checks.php">Make your file press ready (if required)</a></span>
+                                href="/pre-flight-checks">Make your file press ready (if required)</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
@@ -8007,7 +8009,7 @@
                         <p>&nbsp;</p>
 
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
                         <span class="option_indent"><a
@@ -8032,30 +8034,30 @@
                 <div class="main_left_bottom1" id="left_bottom_anchor">
 
                     <div class="product_info_design" style="margin-left:0rem">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p id="folders_anchor">Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_folder">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/presentation-folders-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
@@ -8068,12 +8070,12 @@
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/delivery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
                         </a>
                     </div>
                     <div class="clear" id="anchor"></div>
@@ -9327,15 +9329,15 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/pre-flight-checks.php">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/pre-flight-checks.php">PDF Proof for your approval*</a></span>
+                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/pre-flight-checks.php">Free text corrections to your supplied file (if requested)</a></span>
+                                href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -9346,7 +9348,7 @@
                             cart</p>
                         <p>&nbsp;</p>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/pre-flight-checks.php">Convert your files to a print ready format</a></span>
+                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
                                 href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
                         <span class="option_indent"><a
@@ -9364,48 +9366,48 @@
 
 
                     <div class="product_info_design" style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
                             <h4>Design Services</h4>
                             <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(2)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_gallery gallery_comp">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(3)">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/with-comps-gallery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(3)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_order">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/order.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
                             <div class="product_info_order_img">
                             </div>
                             <h4>Order process</h4>
                             <p>The ordering process explained</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/order.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/artwork-specifications.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(16)">
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/artwork-specifications.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">
+                        <a href="javascript:void(0);" onclick="clickHeader(15)">
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
                         </a>
                     </div>
 
@@ -9915,7 +9917,7 @@
                 </div>
                 <div class="container_right">
 
-                    <a class="gallery_link" href="http://web.archive.org/web/20180903152106/http://www.1print.net.au/gallery.php">
+                    <a class="gallery_link" href="javascript:void(0);" onclick="clickHeader(3)">
                         <div class="gallery_button"></div>
                     </a>
                 </div>
@@ -10220,7 +10222,7 @@
             </ul>
             <p>&nbsp;</p>
             <p>
-                <a href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/order.php"
+                <a href="javascript:void(0);" onclick="clickHeader(14)"
                    class="blue_link">Click here for further information</a>
             </p>
             <p>&nbsp;</p>
@@ -11470,6 +11472,110 @@
         </div>
     </div>
 
+    <!-- pre-flight -->
+    <div class="pre_flight_div" id="pre_flight_div_id" style="display:none">
+        <div class="text_holder">
+            <div class="main_container">
+            <div class="container_left">
+            <h1 class="no_padding">pre-flight checks</h1>
+            <p>What exactly is a Pre-Flight check? Pre-Flight is checking your supplied files to make sure they are ready to print.
+        </p>
+            <p>&nbsp;</p>
+            <p>
+        Without carefully going over your files and running thorough checks, there may be a chance that something could go wrong and mistakes will be missed. You can be assured that we�re looking to catch problems and help you fix them before any printing begins.
+        </p>
+
+        <h4 class="pre_flight_title">When we receive your files we check to ensure:</h4>
+        
+        <p><span class="black_bold">The trim size specifications match the print order.</span> For example, if you�re ordering a DL flyer we will make sure your supplied file matches the correct dimensions.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        <span class="black_bold"> 
+        The files are properly set up with the correct amount of  bleed.</span> If the pages are not set up correctly, images or text could get cut off when trimming the job to size.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        <span class="black_bold">
+        All fonts, graphics, and other inserted elements are properly embedded into the PDF.</span> If we receive a file that contains fonts that we don�t have, the job may not print correctly
+        </p><p>&nbsp;</p>
+        <p>
+        <span class="black_bold">
+        Color elements are saved in CMYK color mode.</span> Most graphical programs have the RGB setting as the default. Printing is a four-color (full-color) process. Make sure you�re using CMYK.
+        </p>
+        <p>&nbsp;</p>
+        <h4 class="pre_flight_title no_padding">If we do notice errors on your files...</h4>
+        <p>We will notify you and ask that your files be submitted again with the necessary corrections made. If required, 1Print can convert your files to a print ready format for a small fee. Some of our products do include converting your files to a press ready format. Please contact us for further information.
+        </p><p>&nbsp;</p>
+        <p class="black_bold">Terms &amp; Conditions</p>
+        <p>1Print go to great measures to ensure your files are print ready - however, it is ultimately the responsibility of the person supplying the files to ensure they are in accordance with <a href="http://web.archive.org/web/20180903132209/http://www.1print.net.au/artwork-specifications.php" class="blue_link">1Print file guidelines</a>. 1Print does not accept responsibility if a job is printed faulty due to supplied files setup incorrectly. Pre-flight does not include checking / correcting spelling errors.
+        </p>
+
+
+
+
+
+
+
+
+            </div>
+        <div class="container_right">
+        <h2 class="large no_padding">the proofing process</h2>
+        <p>Prior to printing, 1Print will send you a PDF proof*. We ask that you check this proof thoroughly before we proceed to printing.
+        </p><p>&nbsp;</p>
+        <p>If you have a colour critical job we suggest you order a hard copy proof. <a href="http://web.archive.org/web/20180903132209/http://www.1print.net.au/colour-critical.php" class="blue_link">Click here for more information</a>.
+        </p><p>&nbsp;</p>
+        <p class="pre_flight_small">* PDF proofs are sent for all 1Print jobs excluding business cards - business card proofs can be organised when specifically requested.
+        </p>
+        <h3 class="pre_flight_title">free setup</h3>
+        <p>1Print offer free setup on some of our products. Free setup includes setting up basic print ready artwork based on your existing branding (supplied logo, text, photos etc.)<br style="">
+        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="http://web.archive.org/web/20180903132209/mailto:info@1print.net.au" class="blue_link">info@1print.net.au</a>
+        </p>
+        
+        <h3 class="pre_flight_title">converting files to a press ready format</h3>
+        <p>We understand that not everyone can supply 100% press ready artwork, <a href="http://web.archive.org/web/20180903132209/http://www.1print.net.au/artwork-specifications.php" class="blue_link">see 1Print file guidelines</a>. If required, 1Print can convert your supplied files for a small fee. On selected products we offer this service free of charge.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+        For more information <span class="black_bold">Call</span> 1300 327 471 or <span class="black_bold">email</span> info@1print.net.au
+        </p>
+            
+            
+            </div>
+            <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!-- color -->
+    <div class="color_div" id="color_div_id" style="display:none">
+                <div class="text_holder">
+                <div class="main_container">
+                <div class="container_left">
+                <h1>Colour Critical</h1>
+                <p>Our experienced print operators take extra measures to ensure colour integrity is maintained on every job. If you have a colour critical job and want a clear approximation of what your finished job will look like, we suggest ordering a hard copy proof.
+            </p><p>&nbsp;</p><p>
+            Looking at hard proofs also has the added benefit of helping you anticipate what the screen can't display. This means you'll have fewer surprises as a result of your experience.
+            </p><p>&nbsp;</p><p>
+            <span class="black">Please Note:</span> Our proofs represent the colour of your supplied file on either a coated or uncoated paper, providing a close approximation of how your finished job will print. They do not however allow for every variation in stock ink-absorbtion or stock whiteness.
+            </p><p>&nbsp;</p><p>
+            If you want to ensure your job will print accurately, please refer to our <a href="http://web.archive.org/web/20180903144736/http://www.1print.net.au/artwork-specifications.php" class="black_link">file guidelines</a> for tips and print specifications.
+            </p>
+                
+                    </div>
+                <div class="container_right">
+                <h2 class="large">How to order a proof</h2>
+                <p>
+                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="http://web.archive.org/web/20180903144736/mailto:orders@1print.net.au" class="black_link">orders@1print.net.au</a>.
+            </p><p>&nbsp;</p><p> 
+            We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
+            </p><p>&nbsp;</p><p> 
+            For more information <b class="black">Call</b> 1300 327 471 or <b class="black">email</b> info@1print.net.au
+            </p>
+                </div>
+                <div class="clear"></div>
+                </div>
+                </div>
+    </div>
     <!-- a4-dl -->
     <div class="a4dl_div" id="a4dl_id" style="display:none">
         <div class="text_holder">
@@ -12460,6 +12566,9 @@
                         <li><a>Colour Critical</a></li> -->
                         <li><a onclick="clickHeader(13)">Sample Pack</a></li>
                         <li><a onclick="clickHeader(4)">FAQ</a></li>
+                        <li><a onclick="clickHeader(17)">Pre-flight Checks</a></li>
+                        <li><a onclick="clickHeader(18)">Colour Critical</a></li>
+                        
                         <li><a>Sitemap</a></li>
                     </ul>
                 </div>

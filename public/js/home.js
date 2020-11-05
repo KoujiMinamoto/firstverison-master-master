@@ -157,6 +157,14 @@ function clickHeader(headerName) {
             showHeaderPage(16);
             linkTo('fileGuidelines');
             break;
+        case 17:
+            showHeaderPage(17);
+            linkTo('pre-flight-checks');
+            break;
+        case 18:
+            showHeaderPage(18);
+            linkTo('colour-critical');
+            break;
         default :
             break;
     }
@@ -201,6 +209,8 @@ function reset() {
     $(".support2").removeClass("clickOnli");
     $(".support3").removeClass("clickOnli");
     $(".support4").removeClass("clickOnli");
+    $(".support5").removeClass("clickOnli");
+    $(".support6").removeClass("clickOnli");
     document.getElementById("home_div_id").style.display = "none";
     document.getElementById("product_div_id").style.display = "none";
     document.getElementById("design_div_id").style.display = "none";
@@ -234,12 +244,14 @@ function reset() {
     document.getElementById("orderprocess_div_id").style.display = "none";
     document.getElementById("delivery_div_id").style.display = "none";
     document.getElementById("file_guidelines_div_id").style.display = "none";
+    document.getElementById("color_div_id").style.display = "none";
     document.getElementById("a4dl_id").style.display = "none";
     document.getElementById("a3a4_id").style.display = "none";
     document.getElementById("a4a5_id").style.display = "none";
     document.getElementById("flyerlearnmore_div_id").style.display = "none";
     document.getElementById("posterlearnmore_div_id").style.display = "none";
     document.getElementById("postercardlearnmore_div_id").style.display = "none";
+    document.getElementById("pre_flight_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
 
 }
@@ -348,6 +360,16 @@ function showHeaderPage(headerName) {
             $(".support2").addClass("clickOnli");
             $(".support").addClass("clickOn");
             document.getElementById("file_guidelines_div_id").style.display = "block";
+            break;
+        case 17:
+            $(".support5").addClass("clickOnli");
+            $(".support").addClass("clickOn");
+            document.getElementById("pre_flight_div_id").style.display = "block";
+            break;
+        case 18:
+            $(".support6").addClass("clickOnli");
+            $(".support").addClass("clickOn");
+            document.getElementById("color_div_id").style.display = "block";
             break;
     }
 
@@ -467,7 +489,13 @@ function beforeInitPage() {
         case "/product/postcards/learnmore":
             showProductPage(21);
             break;
-            
+        case "/pre-flight-checks":
+            showHeaderPage(17);
+            break;
+        case "/colour-critical":
+            showHeaderPage(18);
+            break;
+        
     }
 }
 

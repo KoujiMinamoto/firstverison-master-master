@@ -131,6 +131,14 @@ function linkTo(link){
             window.history.pushState('fileGuidelines', null, '/fileGuidelines');
             break;
         }
+        case "pre-flight-checks": {
+            window.history.pushState('pre-flight-checks', null, '/pre-flight-checks');
+            break;
+        }
+        case "colour-critical": {
+            window.history.pushState('colour-critical', null, '/colour-critical');
+            break;
+        }
       default:
         return;
 
@@ -238,6 +246,12 @@ window.addEventListener('popstate',function(e){
                 break;
             case "fileGuidelines":
                 showHeaderPage(16);
+                break;
+            case "pre-flight-checks":
+                showHeaderPage(17);
+                break;
+            case "colour-critical":
+                showHeaderPage(17);
                 break;
 
             default :
