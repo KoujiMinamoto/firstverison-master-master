@@ -1198,8 +1198,8 @@
                                                                                     Word
                                                                                 </option>
                                                                                 <option
-                                                                                    value="Design to be created by 1Print">
-                                                                                    Design to be created by 1Print
+                                                                                    value="Design to be created by YellowStar Press">
+                                                                                    Design to be created by YellowStar Press
                                                                                 </option>
                                                                                 <option value="-1">Custom</option>
                                                                                 <input type="hidden" value="59"
@@ -2293,7 +2293,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td colspan="4" class="price_msg_2">
-                                                                <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                                <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                                 </center>
                                                             </td>
                                                         </tr>
@@ -2377,7 +2377,7 @@
                 <div class="main_left_left">
                     <h1 class="card_title">Online Business Card Printing</h1>
                     <h3>We are dedicated to creating high quality business cards at the cheapest price possible.</h3>
-                    <p>1Print Premium Business cards are printed on thick, heavy premium 400gsm and are trimmed to the
+                    <p>YellowStar Press Premium Business cards are printed on thick, heavy premium 400gsm and are trimmed to the
                         size you request. Express, gloss and unlaminated Business cards are printed on 310gsm.<br
                             style=""><br style="">
                         Our cards can be either matt or gloss laminated, printed on one or both sides and are available
@@ -2823,7 +2823,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -2918,7 +2918,7 @@
                     </p>
                     <p>&nbsp;</p>
                     <p>
-                        Choose from A2, A3, A4, A6 or DL sized notepads or deskpads, and 1Print will find the single or
+                        Choose from A2, A3, A4, A6 or DL sized notepads or deskpads, and YellowStar Press will find the single or
                         full colour solution for your business. All our notepads and deskpads are printed on high
                         quality 100gsm bond paper.
                     </p>
@@ -2933,7 +2933,7 @@
                                 href="/contact">If print ready artwork is required, send us your logo and details and we'll setup your artwork for FREE*</a></span>
                         <p>&nbsp;</p>
                         <p class="small">
-                            * Digital files remain the property of 1Print, files can be purchased once the design is
+                            * Digital files remain the property of YellowStar Press, files can be purchased once the design is
                             approved. This offer cannot be used in conjunction with any other promotion.
                         </p>
                         <p>&nbsp;</p>
@@ -2941,7 +2941,7 @@
                     <div class="panel_pricing">
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a
-                                href="/contact">Free Flight Check</a></span>
+                                href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
                                 href="/contact">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
@@ -3016,7 +3016,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                        <a href="/product/brochures/a4-dl"
                            class="bro_link">
                         </a>
                         <div class="bro_sizing">A2</div>
@@ -3433,7 +3433,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -3518,7 +3518,7 @@
                 </div>
                 <div class="container_left">
                     <h1>Direct Marketing</h1>
-                    <p>In addition to offering you quality printing, 1Print also have the experience and infrastructure
+                    <p>In addition to offering you quality printing, YellowStar Press also have the experience and infrastructure
                         required to provide comprehensive direct marketing services to Australian and international
                         clients, for all aspects of advertising and bulk mailing.
                     </p>
@@ -3544,8 +3544,8 @@
                     <p>&nbsp;</p>
                     <p class="black">
                         For more information <b>Call</b> 1300 327 471 or <b>email</b> <a
-                            href="http://web.archive.org/web/20180903145613/mailto:info@1print.net.au"
-                            class="black_link">info@1print.net.au</a>
+                            href="mailto:gerard@yellowstarpress.com.au"
+                            class="black_link">gerard@yellowstarpress.com.au</a>
                     </p>
                 </div>
                 <div class="container_right">
@@ -3616,7 +3616,7 @@
                     </p>
                     <p>&nbsp;</p>
                     <p>
-                        If you'd like 1Print to setup your artwork this option can be added into your shopping cart.
+                        If you'd like YellowStar Press to setup your artwork this option can be added into your shopping cart.
                     </p>
 
 
@@ -3659,7 +3659,7 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -3681,7 +3681,7 @@
                     <div class="clear"></div>
                     <div class="bx-up" style="margin-top:25%">
                         <div class="bcards500 notop">
-                            <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/business-cards-printing"
+                            <a href="/businessCards"
                                class="bcards500link"></a>
                         </div>
 
@@ -3696,13 +3696,13 @@
 
 
                     <div class="product_info_express no_margin" style="margin-left: 0rem">
-                        <a href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/urgent-printing">
+                        <a href="javascript:void(0);" onclick="clickProduct(7)">
                             <div class="product_info_express_img">
                             </div>
                             <h4>Express Printing</h4>
                             <p>For a guaranteed 48 hour despatch after your order is placed</p>
                             <a class="blue_link"
-                               href="http://web.archive.org/web/20180903172228/http://www.1print.net.au/urgent-printing">read
+                               href="javascript:void(0);" onclick="clickProduct(7)">read
                                 more+</a>
                         </a>
                     </div>
@@ -3997,7 +3997,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -4081,17 +4081,17 @@
                 <div class="main_left_left">
                     <h1>Online Envelope Printing</h1>
                     <h3>Make your company envelopes official with your own printed design.</h3>
-                    <p>1Print is renowned for our reliability and consistency in envelope printing as well as for using
+                    <p>YellowStar Press is renowned for our reliability and consistency in envelope printing as well as for using
                         the most appropriate and effective equipment in the business. Our envelopes are printed using
                         premium grade materials. We also have a range of sizes to suit your needs. For a smaller
                         envelope, choose our DL (110 x 220mm) or opt for the B4 envelope (353 x 250mm) if you're after a
-                        larger size. 1Print also stocks a selection of styles, including both plain and window
+                        larger size. YellowStar Press also stocks a selection of styles, including both plain and window
                         envelopes.
                     </p>
                     <p>&nbsp;</p>
                     <p>
                         For all your direct mail marketing needs, our envelopes are the perfect choice. Printed on high
-                        quality paper using our state-of-the-art printing facilities, you can be sure that 1Print will
+                        quality paper using our state-of-the-art printing facilities, you can be sure that YellowStar Press will
                         deliver clean and beautifully designed envelopes. </p>
                 </div>
                 <div class="main_left_right">
@@ -4102,9 +4102,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -4113,7 +4113,7 @@
                     <div class="clear"></div>
                     <br style="">
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903130714/http://www.1print.net.au/business-cards-printing"
+                        <a href="/businessCards"
                            class="bcards500link"></a>
                     </div>
 
@@ -4132,7 +4132,7 @@
                         {{--                            <div class="fold_info">Plain</div>--}}
                         {{--                        </div>--}}
                         <div class="bro_setup">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-dl"
+                            <a href="/product/brochures/a4-dl"
                                class="bro_link">
                             </a>
                             <div class="bro_sizing">DL</div>
@@ -4142,7 +4142,7 @@
                                     Template</a></div>
                         </div>
                         <div class="bro_setup">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="javascript:void(0);"
                                class="bro_link">
                             </a>
                             <div class="bro_sizing">DLX</div>
@@ -4152,7 +4152,7 @@
                                     Template</a></div>
                         </div>
                         <div class="bro_setup">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a3-to-a4"
+                            <a href="/product/brochures/a4-dl"
                                class="bro_link">
                             </a>
                             <div class="bro_sizing">C5</div>
@@ -4258,7 +4258,7 @@
                     <p>&nbsp;</p>
                     <h3>Why choose us?</h3>
                     <p>
-                        For envelope printing at a minimum price but maximum convenience, 1Print is the company for you.
+                        For envelope printing at a minimum price but maximum convenience, YellowStar Press is the company for you.
                         We're proud to make life as easy as possible for our clients. That's why we offer free delivery
                         Australia-wide. Envelope printing will be dispatched in 5-7 working days after we have received
                         your order or artwork approval. The dispatch time will depend on the quantity and type of
@@ -4269,7 +4269,7 @@
                     </p>
                     <p>&nbsp;</p>
                     If you'd like to request a quote, simply click here and fill out the form. Upon receiving your
-                    details, 1Print will contact you promptly to discuss the best solutions for your marketing needs.
+                    details, YellowStar Press will contact you promptly to discuss the best solutions for your marketing needs.
                     <p></p>
                 </div>
 
@@ -4652,7 +4652,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -4741,7 +4741,7 @@
                     <p>Pickup is available from our production facility daily between 8.00am to 5.00pm.</p>
                     <p>&nbsp;</p>
                     <p><a class="click_a"
-                          href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/contact.php"
+                          href="/contact"
                           target="_blank">Click here to view our factory location.</a></p>
 
                 </div>
@@ -4751,22 +4751,22 @@
                         <span class="option_indent"><a
                         href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="panel_extras">
                         <h4 class="padding_top">Can't find the product?</h4>
                         <p class="black"> If you need a job printed urgently and can't find it on this page - contact us
                             through our <a class="blue_link"
-                                           href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/custom-quotes.php">custom
+                                           href="/contact">custom
                                 quote form</a> or call us</p>
                     </div>
                     <div class="clear"></div>
                     <br style="">
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903153643/http://www.1print.net.au/business-cards-printing"
+                        <a href="/businessCards"
                            class="bcards500link"></a>
                     </div>
 
@@ -5127,7 +5127,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -5222,7 +5222,7 @@
                         flyers or economical, single colour flyer printing.
                     </p>
                     <br style="">
-                    <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/brochures-printing">
+                    <a href="/product/brochures">
                         <div id="u56029-6">
                             <img src="{{URL::asset('image/design icons-05.png')}}" width="40" height="40"
                                  style="float:left">
@@ -5235,7 +5235,7 @@
 
                         <div class="option_size_list flyer_templates" style="display:inline-flex">
                             <div class="bro_setup" style="height:7rem;margin:0rem">
-                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                <a href="/product/flyers/learnmore"
                                    class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">DLX</div>
@@ -5245,7 +5245,7 @@
                                         Template</a></div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
-                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                <a href="/product/flyers/learnmore"
                                    class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">A6</div>
@@ -5255,7 +5255,7 @@
                                         Template</a></div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
-                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                <a href="/product/flyers/learnmore"
                                    class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">A5</div>
@@ -5265,7 +5265,7 @@
                                         Template</a></div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
-                                <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                                <a href="/product/flyers/learnmore"
                                    class="bro_link" style="height:7rem">
                                 </a>
                                 <div class="bro_sizing">A4</div>
@@ -5285,7 +5285,7 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -5305,7 +5305,7 @@
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/business-cards-printing"
+                        <a href="/businessCards"
                            class="bcards500link"></a>
                     </div>
 
@@ -5319,12 +5319,12 @@
 
 
                     <div class="product_info_express no_margin">
-                        <a href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/urgent-printing">
+                        <a href="javascript:void(0);" onclick="clickProduct(7)">
                             <div class="product_info_express_img">
                             </div>
                             <h4>Express Printing</h4>
                             <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903154737/http://www.1print.net.au/urgent-printing">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickProduct(7)">read more+</a>
                         </a>
                     </div>
 
@@ -5735,7 +5735,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -5838,9 +5838,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -5853,15 +5853,15 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                href="/colour-critical">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
 
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903160831/http://www.1print.net.au/business-cards-printing"
+                        <a href="/businessCards"
                            class="bcards500link"></a>
                     </div>
 
@@ -6163,7 +6163,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -6241,14 +6241,14 @@
                 <div class="main_left_left">
                     <h1>Online Letterhead Printing</h1>
                     <h3>When an official company letterhead, the printing quality needs to be consistently high.</h3>
-                    <p>Trust 1Print to print your letterhead as it was intended to appear, replicated perfectly on every
+                    <p>Trust YellowStar Press to print your letterhead as it was intended to appear, replicated perfectly on every
                         sheet, every time. We will print your letterheads on time, and deliver them for FREE within
                         Australia.
                     </p>
                     <br/>
                     <div class="option_size_list letterhead_templates">
                         <div class="bro_setup" style="height:7rem;margin-left:0rem;margin-top:2rem">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="javascript:void(0);"
                                class="bro_link" style="height:7rem">
                             </a>
                             <div class="bro_sizing">A4</div>
@@ -6269,9 +6269,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>
 
@@ -6287,14 +6287,14 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                href="/colour-critical">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903161221/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                        <a href="/businessCards" class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -6680,7 +6680,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -6783,14 +6783,14 @@
                         </div>
                         <p class="black_heading">350gsm</p>
                         <p>Used on all Postcards for a superior finish.<br style="">For more stock options send us a <a class="click_a"
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/custom-quotes.php">custom
+                                href="/contact">custom
                                 quote.</a></p>
                     </div>
 
                     <div class="option_size_list postcard_templates" style="display:inline-flex">
 
                         <div class="bro_setup" style="margin-left:0rem;height:7rem;">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="/product/postcards/learnmore"
                                class="bro_link" style="height:7rem">
                             </a>
                             <div class="bro_sizing">DL</div>
@@ -6799,7 +6799,7 @@
                                     Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="/product/postcards/learnmore"
                                class="bro_link" style="height:7rem">
                             </a>
                             <div class="bro_sizing">A6</div>
@@ -6808,7 +6808,7 @@
                                     Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="/product/postcards/learnmore"
                                class="bro_link" style="height:7rem">
                             </a>
                             <div class="bro_sizing">A5</div>
@@ -6817,7 +6817,7 @@
                                     Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="/product/postcards/learnmore"
                                class="bro_link" style="height:7rem">
                             </a>
                             <div class="bro_sizing">2DL</div>
@@ -6838,9 +6838,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -6853,9 +6853,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                href="/colour-critical">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
 
@@ -6863,13 +6863,13 @@
                         <h4 class="padding_top">Personalised Printing and Mailing</h4>
                         <p class="black">We can also personalise each postcard with unique printing options as well as
                             oversee your mail marketing campaigns. <a
-                                href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/direct-marketing.php"
+                                href="/directMarketing"
                                 class="blue_link">Click here</a></p>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                        <a href="/businessCards" class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -6881,12 +6881,12 @@
 
 
                     <div class="product_info_express no_margin">
-                        <a href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/urgent-printing">
+                        <a href="javascript:void(0);" onclick="clickProduct(7)">
                             <div class="product_info_express_img">
                             </div>
                             <h4>Express Printing</h4>
                             <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link" href="http://web.archive.org/web/20180903132600/http://www.1print.net.au/urgent-printing">read more+</a>
+                            <a class="blue_link" href="javascript:void(0);" onclick="clickProduct(7)">read more+</a>
                         </a>
                     </div>
 
@@ -7276,7 +7276,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -7379,9 +7379,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -7394,14 +7394,14 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                href="/colour-critical">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903132257/http://www.1print.net.au/business-cards-printing"
+                        <a href="/businessCards"
                            class="bcards500link"></a>
                     </div>
 
@@ -7412,7 +7412,7 @@
                 <div style="clear: both;"></div>
                 <div class="option_size_list poster_templates">
                     <div class="bro_setup" style="height:7rem;margin-left:0rem">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                        <a href="/product/posters/learnmore"
                            class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A3</div>
@@ -7421,7 +7421,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                        <a href="/product/posters/learnmore"
                            class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A2</div>
@@ -7430,7 +7430,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                        <a href="/product/posters/learnmore"
                            class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A1</div>
@@ -7439,7 +7439,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                        <a href="/product/posters/learnmore"
                            class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">A0*</div>
@@ -7448,7 +7448,7 @@
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                        <a href="/product/posters/learnmore"
                            class="bro_link" style="height:7rem">
                         </a>
                         <div class="bro_sizing">B0*</div>
@@ -7853,7 +7853,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -7940,14 +7940,14 @@
                         enhance the look and feel of the finished product.
                         <br style="">
                         <a class="black_link_underline"
-                           href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/contact.php">Contact
+                           href="/contact">Contact
                             us for more information</a>
                     </p>
                     <div style="height:150px">
                         <div style="float:left;width:100%">
                             <h2 class="folder_title">Folder Styles / Templates</h2>
                             <span class="option_indent">Choose your preferred folder size / style from the templates below. All A4 folder styles are priced the same. A5, DL, Glued and Folded prices are available through <a
-                                    href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php"
+                                    href="/contact"
                                     class="blue_link">custom quotes</a>.</span>
                             <span class="option_indent">Download a PDF template to setup your own design or send us your logo and details and we'll setup your artwork for FREE*</span>
                         </div>
@@ -7977,7 +7977,7 @@
                     <br style="">
                     <p>
                         <span class="black">Please note:</span> A5, DL, Glued and Folded prices are available through <a
-                            href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php"
+                            href="/contact"
                             class="blue_link">custom quotes</a>
                     </p>
                 </div>
@@ -7987,7 +7987,7 @@
                         <h4>Pricing includes</h4>
                         <span class="option_indent"><a href="javascript:void(0)">Free folder setup included. Maximum of 2 copy changes</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/faq.php">Free Machine Varnish</a></span>
+                                href="/support">Free Machine Varnish</a></span>
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Free Flight Check</a></span>
                         <span class="option_indent"><a
@@ -7995,9 +7995,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <p>&nbsp;</p>
                         <p class="small">* Limited to one PDF proof per print job.
                             Additional proofs will incur extra charges.</p>
@@ -8011,14 +8011,14 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                href="/colour-critical">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/business-cards-printing"
+                        <a href="/businessCards"
                            class="bcards500link"></a>
                     </div>
 
@@ -8476,7 +8476,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -8870,7 +8870,7 @@
             <div class="folder_templates2" style="min-width:66%;float:left;clear:none">
                 <h3>A5 Folder Templates</h3>
                     <p>
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all A5 Folded Templates available through CUSTOM QUOTES (click here)</a>
+                        <a href="/contact" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all A5 Folded Templates available through CUSTOM QUOTES (click here)</a>
                     </p>
                     <div class="clearfix"></div>
                     <div class="pf_temp">
@@ -8962,7 +8962,7 @@
             <div class="folder_templates3" style="float:left">
                 <h3>DL Folder Templates</h3>
                 <p>
-                    <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all DL Folded Templates available through CUSTOM QUOTES (click here)</a>
+                    <a href="/contact" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all DL Folded Templates available through CUSTOM QUOTES (click here)</a>
                 </p>
                 <div class="clearfix"></div>
                 <div class="pf_temp">
@@ -9043,7 +9043,7 @@
             <div class="folder_templates3" style="float:left">
                 <h3>Glued Folder Templates</h3>
                 <p>
-                    <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Glued Folded Templates available through CUSTOM QUOTES (click here)</a>
+                    <a href="/contact" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Glued Folded Templates available through CUSTOM QUOTES (click here)</a>
                 </p>
                 <div class="clearfix"></div>
                 <div class="pf_temp">
@@ -9249,7 +9249,7 @@
             <div class="folder_templates4" style="float:left">
                 <h3>Folded Panel Templates</h3>
                     <p>
-                        <a href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/custom-quotes.php" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Folded Templates available through CUSTOM QUOTES (click here)</a>
+                        <a href="/contact" class="nonblock nontext actAsDiv gradient clearfix excludeFromNormalFlow" id="u69312-6">Pricing for all Folded Templates available through CUSTOM QUOTES (click here)</a>
                     <div class="clearfix"></div><br/>
                     <span class="black">Please note:</span> Folded Folder Templates do not include glued or interlocking panels.
                     <div class="clearfix"></div><br/>
@@ -9312,7 +9312,7 @@
                     <div class="option_size_list comp_templates">
 
                         <div class="bro_setup"style="height:7rem;margin-left:0rem;margin-top:2rem">
-                            <a href="http://web.archive.org/web/20180903152038/http://www.1print.net.au/brochures-printing/a4-to-a5"
+                            <a href="javascript:void(0);"
                                class="bro_link"style="height:7rem">
                             </a>
                             <div class="bro_sizing">DL</div>
@@ -9333,9 +9333,9 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">PDF Proof for your approval*</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/faq.php">Free Job Tracking</a></span>
+                                href="/support">Free Job Tracking</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/delivery.php">Free Delivery</a></span>
+                                href="/delivery">Free Delivery</a></span>
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>
                         <p>&nbsp;</p>
@@ -9350,14 +9350,14 @@
                         <span class="option_indent"><a
                                 href="/pre-flight-checks">Convert your files to a print ready format</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/design-services.php">Graphic Design Services</a></span>
+                                href="/design">Graphic Design Services</a></span>
                         <span class="option_indent"><a
-                                href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/colour-critical.php">Hard Copy Proofs</a></span>
+                                href="/colour-critical">Hard Copy Proofs</a></span>
                         <p>&nbsp;</p>
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="http://web.archive.org/web/20180903130609/http://www.1print.net.au/business-cards-printing" class="bcards500link"></a>
+                        <a href="/businessCards" class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -9742,7 +9742,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" class="price_msg_2">
-                                                            <center><span class="price_msg">All 1Print prices are based on final artwork supplied</span>
+                                                            <center><span class="price_msg">All YellowStar Press prices are based on final artwork supplied</span>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -9884,7 +9884,7 @@
             <div class="main_container">
                 <div class="container_left">
                     <h1>Design Services</h1>
-                    <p>Our design team has extensive experience in producing brand identities' for any industry from scratch for use in your business stationery. Whether your project is a simple promotional flyer or business card through to a complete suite of high end marketing materials, 1Print have the expertise to provide crisp, clean design that will add value to your organisation.
+                    <p>Our design team has extensive experience in producing brand identities' for any industry from scratch for use in your business stationery. Whether your project is a simple promotional flyer or business card through to a complete suite of high end marketing materials, YellowStar Press have the expertise to provide crisp, clean design that will add value to your organisation.
                     </p>
                     <p>&nbsp;</p>
                     <h3 class="no_padding">Services offered</h3>
@@ -9908,10 +9908,10 @@
                     </ul>
                     <p>&nbsp;</p>
                     <p>
-                        We work closely with our clients to ensure a smooth transition from design to the finished product. 1Print charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
+                        We work closely with our clients to ensure a smooth transition from design to the finished product. YellowStar Press charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
                     </p><p>&nbsp;</p>
                     <p>
-                        Call 1300 327 471 or email <a href="http://web.archive.org/web/20180903152106/mailto:orders@1print.net.au" class="black_link">orders@1print.net.au</a> for more information and prices.
+                        Call 1300 327 471 or email <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a> for more information and prices.
                     </p>
 
                 </div>
@@ -10109,7 +10109,7 @@
                 What file formats to you accept when submitting artwork?
             </p>
             <p>
-                1Print will only accept the following formats as final artwork.
+                YellowStar Press will only accept the following formats as final artwork.
                 Artwork which does not adhere to these specifications will incur artwork charges.
             </p>
             <p>&nbsp;</p>
@@ -10122,7 +10122,7 @@
             </ul>
             <p>&nbsp;</p>
             <ul class="black_bullets">
-                <li>1Print accepts files in PC or MAC format.</li>
+                <li>YellowStar Press accepts files in PC or MAC format.</li>
                 <li>All images must be saved in CMYK at 300dpi.</li>
                 <li>Make sure all colours are nominated correctly as PMS or CMYK.</li>
                 <li>OVERPRINTS MUST BE TURNED OFF.</li>
@@ -10131,11 +10131,11 @@
                 <li>Please supply us with all relevant files, including fonts and links (graphics).</li>
             </ul>
             <p>&nbsp;</p>
-            <p class="black_bold">Does 1Print provide artwork design services?</p>
+            <p class="black_bold">Does YellowStar Press provide artwork design services?</p>
             <p>
                 Yes, we do provide artwork design services upon request. If you want us to design your artwork for
                 printing, please use our <a
-                    href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/custom-quotes.php"
+                    href="/contact"
                     class="blue_link">Custom Quote Form</a> and let us know. We will contact you to discuss your
                 requirements further. Business Card Design is available as an option when ordering from the Business
                 Card Special page.
@@ -10146,7 +10146,7 @@
             <p>
                 We are more than happy to do large offset printing runs above the maximum set number offered on the
                 website shopping cart facility. If you have an extra large printing order, complete the <a
-                    href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/custom-quotes.php"
+                    href="/contact"
                     class="blue_link">Custom Quote Form</a> and we will offer you a special price.
             </p>
             <p>&nbsp;</p>
@@ -10178,7 +10178,7 @@
             <p class="black_bold">Can I receive a free printing sample to see the quality of your services?</p>
             <p>
                 You certainly can. Simply complete the <a
-                    href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/sample-pack.php"
+                    href="/sample"
                     class="blue_link">Free Sample Request</a> Form on this website with your details and we will send
                 you a printing sample pack so you can see the value of our printing services for yourself.
             </p>
@@ -10191,7 +10191,7 @@
             <p>&nbsp;</p>
             <p class="black_bold">Where can I view your privacy policy?</p>
             <p>We value your privacy and you can view our policy on how we use the information you share with us <a
-                    href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/privacy.php"
+                    href="/privacy"
                     class="blue_link">here</a>.
             </p>
             <p>&nbsp;</p>
@@ -10200,7 +10200,7 @@
             We are more than willing to accommodate anything your printing job requires. The more of our customers that
             ask for something, the more likely we will be to make the option available from the website. If the options
             you want are not available from the ordering facility, you can request it by filling out our <a
-                href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/custom-quotes.php"
+                href="/contact"
                 class="blue_link">Custom Quote Form</a>.
             <p></p>
             <p>&nbsp;</p>
@@ -10217,7 +10217,7 @@
             <ul class="black_bullets">
                 <li>Electronic Funds Transfer (EFT)</li>
                 <li>Credit Cards (Visa and Master Card)</li>
-                <li>Cheque (made out to 1Print Pty Ltd)</li>
+                <li>Cheque (made out to YellowStar Press Pty Ltd)</li>
                 <li>PayPal</li>
             </ul>
             <p>&nbsp;</p>
@@ -10229,7 +10229,7 @@
             <p class="black_bold">I Want to use metallic or specialty colours For my print job. Do you offer this?</p>
             <p>Yes we do. If you want to use specialty colours like metallic silver or gold you can request this by
                 completing and submitting the <a
-                    href="http://web.archive.org/web/20180903133932/http://www.1print.net.au/custom-quotes.php"
+                    href="/contact"
                     class="blue_link">Custom Quote Form</a>.
             </p>
         </div>
@@ -10242,7 +10242,7 @@
         <div class="main_container_au">
             <div class="container_left">
             <h1>About us</h1>
-            <p>1Print has a state the art production facility to meet all your demands, from short digital to large
+            <p>YellowStar Press has a state the art production facility to meet all your demands, from short digital to large
                 commercial runs. More importantly, we have the people with the skills and creativity to meet your
                 needs.</p>
             <p>&nbsp;</p>
@@ -10745,20 +10745,20 @@
         <div class="main_container_au">
             <div class="container_left">
                 <h1>Privacy Policy</h1>
-                <p>1Print Pty Ltd is committed to protecting and respecting your privacy. This Privacy Statement sets
+                <p>YellowStar Press Pty Ltd is committed to protecting and respecting your privacy. This Privacy Statement sets
                     out our privacy policy and explains what we do with personal information that we collect from our
                     customers. Please read the following to understand our views and practices regarding personal
                     information, and how they pertain to you as you use our various products and services. This
                     statement discloses our current privacy practices, if we make any changes to this policy, we will
                     announce it via an e-mail and on our web site. If you have any questions or concerns regarding this
                     statement, please e-mail <a
-                        href="http://web.archive.org/web/20180312231823/mailto:info@1print.net.au" class="blue_link">info@1print.net.au</a>
+                        href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
                 </p>
                 <p>&nbsp;</p>
-                <p class="black_bold">What information does 1Print gather about it's customers?</p>
+                <p class="black_bold">What information does YellowStar Press gather about it's customers?</p>
                 <p>
-                    The bulk of information 1Print has about its customers is the information we get through the
-                    "Registration Form" you complete when you first become a customer of 1Print. We may also gather
+                    The bulk of information YellowStar Press has about its customers is the information we get through the
+                    "Registration Form" you complete when you first become a customer of YellowStar Press. We may also gather
                     information from your website, from the Australian Securities Commission and by querying a "Whois"
                     tool on the Internet.
                 </p>
@@ -10771,13 +10771,13 @@
                 <p class="black_bold">
                     Data Security</p>
                 <p>
-                    1Print takes reasonable steps to keep any Personal Information in its possession secure and to
+                    YellowStar Press takes reasonable steps to keep any Personal Information in its possession secure and to
                     protect that Personal Information from misuse or loss and from unauthorised access, modification or
                     disclosure.
                 </p>
                 <p>&nbsp;</p>
                 <p>Credit Card details, where supplied, are encrypted during transmission to our bank for processing.
-                    1Print stores credit card details to enable confirmation of payments to customers, however access to
+                    YellowStar Press stores credit card details to enable confirmation of payments to customers, however access to
                     this Personal Information is controlled requiring executive approval.
                 </p>
                 <p>&nbsp;</p>
@@ -10789,7 +10789,7 @@
                 <p>&nbsp;</p>
                 <p>
                     When using the website you should be aware that no information transmitted over the internet can be
-                    guaranteed as totally secure. Although 1Print strives to protect such information, 1Print does not
+                    guaranteed as totally secure. Although YellowStar Press strives to protect such information, YellowStar Press does not
                     warrant the security of any information transmitted to it over the internet and you do so at your
                     own risk.
                 </p>
@@ -10811,11 +10811,11 @@
                 </p>
                 <p>&nbsp;</p>
                 <p class="black_bold">
-                    How does 1Print use your personal information?
+                    How does YellowStar Press use your personal information?
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    1Print uses the information it has about its customers to:
+                    YellowStar Press uses the information it has about its customers to:
                 </p>
                 <p>&nbsp;</p>
                 <ul class="black_bullets">
@@ -10824,37 +10824,37 @@
                 </ul>
                 <p>&nbsp;</p>
                 <p class="black_bold">
-                    Will 1Print disclose any of your personal information?
+                    Will YellowStar Press disclose any of your personal information?
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    1Print will not disclose any information about its clients or prospective clients to any third party
+                    YellowStar Press will not disclose any information about its clients or prospective clients to any third party
                     without consent.
                 </p>
                 <p>&nbsp;</p>
                 <p class="black_bold">
-                    Will 1Print use your information for direct mailings?
+                    Will YellowStar Press use your information for direct mailings?
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    1Print will, from time to time, e-mail its customers with information that we believe is important
+                    YellowStar Press will, from time to time, e-mail its customers with information that we believe is important
                     for the smooth operation of the service, or is information which will improve the performance or
                     value of the customer's website
                 </p>
                 <p>&nbsp;</p>
                 <p class="black_bold">
-                    How can you deactivate your account, or correct or revise information 1Print has about you or your
+                    How can you deactivate your account, or correct or revise information YellowStar Press has about you or your
                     business?
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    To change your account details simply email info@1print.net.au with your new details. To cancel your
-                    account with 1Print you must make your request in writing or facsimile on company letterhead.
+                    To change your account details simply email gerard@yellowstarpress.com.au with your new details. To cancel your
+                    account with YellowStar Press you must make your request in writing or facsimile on company letterhead.
                 </p>
                 <p>&nbsp;</p>
                 <p class="black_bold">
 
-                    How does 1Print use Cookies on its website
+                    How does YellowStar Press use Cookies on its website
                 </p>
                 <p>&nbsp;</p>
                 <p>
@@ -10863,8 +10863,8 @@
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    If you have any further questions regarding your privacy policy of 1Print please <b
-                        class="black_bold">email</b> info@1print.net.au
+                    If you have any further questions regarding your privacy policy of YellowStar Press please <b
+                        class="black_bold">email</b> gerard@yellowstarpress.com.au
                 </p>
 
 
@@ -10880,11 +10880,11 @@
             <div class="container_left">
             <h1>Terms and Conditions</h1>
                 <p>
-            Welcome to 1Print website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern 1Print Pty Ltd relationship with your in relation to this website
+            Welcome to YellowStar Press website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern YellowStar Press Pty Ltd relationship with your in relation to this website
             </p>
         <p>&nbsp;</p>
         <p>
-        1Print Pty Ltd is a full colour commercial and digital printer committed to providing the highest quality products at the best possible prices.
+        YellowStar Press Pty Ltd is a full colour commercial and digital printer committed to providing the highest quality products at the best possible prices.
             </p>
         <p>&nbsp;</p>
         <p>
@@ -10935,7 +10935,7 @@
         Placing or approving an order
         </p>
         <p>
-        1Print requires full payment when an order is placed. Once an order has been placed or approved, your credit card will be immediately debited. Please do not place an order if you do not agree. If you decide to cancel your order a cancellation fee is applicable. Please see section on Cancellation of an order.  1Print is not obliged to attend to any changes or variations to the goods unless agreed in writing by both parties. PLEASE FOLLOW OUR GUIDELINES ON ARTWORK SPECIFICATIONS. IF YOU ARE NOT SURE OF HOW TO SETUP A GRAPHIC FILE AND TO AVOID PRINTING ISSUES PLEASE DO NOT PROCEED WITH THE ORDER. USE A PROFESSIONAL GRAPHIC DESIGNER TO SETUP THE ARTWORK FOR COMMERCIAL PRINTING. IF YOU ARE NOT SURE ABOUT COLOUR OUTCOME AND ACTUAL IMAGE SIZE A HARD COPY PROOF IS RECOMMENDED.
+        YellowStar Press requires full payment when an order is placed. Once an order has been placed or approved, your credit card will be immediately debited. Please do not place an order if you do not agree. If you decide to cancel your order a cancellation fee is applicable. Please see section on Cancellation of an order.  YellowStar Press is not obliged to attend to any changes or variations to the goods unless agreed in writing by both parties. PLEASE FOLLOW OUR GUIDELINES ON ARTWORK SPECIFICATIONS. IF YOU ARE NOT SURE OF HOW TO SETUP A GRAPHIC FILE AND TO AVOID PRINTING ISSUES PLEASE DO NOT PROCEED WITH THE ORDER. USE A PROFESSIONAL GRAPHIC DESIGNER TO SETUP THE ARTWORK FOR COMMERCIAL PRINTING. IF YOU ARE NOT SURE ABOUT COLOUR OUTCOME AND ACTUAL IMAGE SIZE A HARD COPY PROOF IS RECOMMENDED.
         </p>
         <p>&nbsp;</p>
 
@@ -10967,7 +10967,7 @@
         Specifications
         </p>
         <p>
-        It is the customers responsibility to make sure that all electronic files supplied comply with 1Print's file specifications requirements and that the files supplied are correct and able to be printed as soon as they are supplied. It is the customers responsibility to ensure that any graphic material supplied for printing do not breach relevant copyright legislation. 1Print Pty Ltd accepts no responsibility for any copyright issues. Artwork supplied incomplete will require a re-quotation and the print price shown for the product will not apply.  Although we try our best to achieve best possible colour matching, due to the print process colour variations will occur from reprint to reprint. Marginal variation will occur from one run print run to the other. Please do not order from 1Print if you require an exact colour match for a reprint job. Electronic files are not kept for future use for the customer and they have to be supplied with each and every order. If yor are not sure about your colour output, you can order a hard copy high resolution for a close indication of how colours will look like.
+        It is the customers responsibility to make sure that all electronic files supplied comply with YellowStar Press's file specifications requirements and that the files supplied are correct and able to be printed as soon as they are supplied. It is the customers responsibility to ensure that any graphic material supplied for printing do not breach relevant copyright legislation. YellowStar Press Pty Ltd accepts no responsibility for any copyright issues. Artwork supplied incomplete will require a re-quotation and the print price shown for the product will not apply.  Although we try our best to achieve best possible colour matching, due to the print process colour variations will occur from reprint to reprint. Marginal variation will occur from one run print run to the other. Please do not order from YellowStar Press if you require an exact colour match for a reprint job. Electronic files are not kept for future use for the customer and they have to be supplied with each and every order. If yor are not sure about your colour output, you can order a hard copy high resolution for a close indication of how colours will look like.
 
         </p>
         <p>&nbsp;</p>
@@ -11025,7 +11025,7 @@
         <div class="container_left">
         <h1>Sample Pack</h1>
         <h3 class="sample_pack_title">Unsure about the quality of our printing services?</h3>
-        <p>We understand that choosing an online printer is difficult without seeing the quality for yourself. To ensure you are making the right choice by investing in a quality printing service, order a FREE sample pack from 1Print.</p>
+        <p>We understand that choosing an online printer is difficult without seeing the quality for yourself. To ensure you are making the right choice by investing in a quality printing service, order a FREE sample pack from YellowStar Press.</p>
         <p>&nbsp;</p>
         <p>To receive a FREE sample pack with your choice of printed products, simply complete the form with your details. Our standard turnaround is 2-3 Days.  This may vary based on the type of products requested.
         </p>
@@ -11135,7 +11135,7 @@
         <div class="main_container">
             <div class="container_left">
             <h1>Ordering Options</h1>
-            <p>1Print makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="http://web.archive.org/web/20180903153442/mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.</p>
+            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">1300 327 471</span>.</p>
             <h2 class="order_title_cart">Shopping Cart</h2>
             <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
             </p>
@@ -11205,7 +11205,7 @@
             </div>
             <div class="container_right">.
             <h2 class="order_title_email">Email Orders</h2>
-            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="http://web.archive.org/web/20180903153442/mailto:orders@1print.net.au">orders@1print.net.au</a>, detailing what you require along with the attached print ready file.</p>
+            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a>, detailing what you require along with the attached print ready file.</p>
             <p>&nbsp;</p>
             <p>Upon receiving your email, our office will generate an invoice and contact you to process your payment. Payment methods for email orders are shown below.</p>
             <p class="black_heading padding_top">Payment Methods Accepted</p>
@@ -11231,7 +11231,7 @@
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
             <p>We are Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
-            Please email <a class="black_link" href="mailto:info@1print.net.au">info@1print.net.au</a> or call us <span class="black">1300 327 471</span>.
+            Please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">1300 327 471</span>.
             </p>
             </div>
         <div class="clear"></div>
@@ -11244,8 +11244,8 @@
         <div class="text_holder">
         <div class="main_container">
             <div class="container_left">
-                <h1 class="no_padding">1Print Delivers FREE<br style="">Within Australia</h1>
-                <p>At 1Print, we believe in making things as simple as possible for our clients.<br style="">
+                <h1 class="no_padding">YellowStar Press Delivers FREE<br style="">Within Australia</h1>
+                <p>At YellowStar Press, we believe in making things as simple as possible for our clients.<br style="">
                     That's why we include Australia-wide delivery in the price of our services to you.</p>
 
                 <h2 class="delivery_title">Estimated Dispatch Times</h2>
@@ -11307,9 +11307,9 @@
                 <ul class="black_bullets delivery_list">
                     <li>Our despatch time will be between 2-10 working days, which starts the first day after we receive your artwork approval.
                     </li>
-                    <li>All representations by 1Print, as to the date and /or time for delivery are made in good faith, but are not guaranteed.
+                    <li>All representations by YellowStar Press, as to the date and /or time for delivery are made in good faith, but are not guaranteed.
                     </li>
-                    <li>1Print and its directors, account managers, employees and associated companies shall not be liable for late deliveries or lost goods.
+                    <li>YellowStar Press and its directors, account managers, employees and associated companies shall not be liable for late deliveries or lost goods.
                     </li>
                     <li>Lost goods will be fully refundable or replaced.
                     </li>
@@ -11321,17 +11321,17 @@
                     </li>
                     <li>If a delivery is to be made to an address other than your business address, we require the full name of the person who will be accepting the delivery and a complete address for the delivery.
                     </li>
-                    <li>If the incorrect address is given to 1Print, a $25.00 administration fee applies to redirect the goods to the correct shipping address.
+                    <li>If the incorrect address is given to YellowStar Press, a $25.00 administration fee applies to redirect the goods to the correct shipping address.
                     </li>
                     <li>If there is no-one available to sign for the goods and they are subsequently lost or damaged, we will not be liable for the loss.
                     </li>
                     <li>Deliveries will not be made to a PO Box.
                     </li>
-                    <li>Once goods are delivered, 1Print Pty Ltd is not liable for any loss or damage.
+                    <li>Once goods are delivered, YellowStar Press Pty Ltd is not liable for any loss or damage.
                     </li>
                     <li>Advance notification of delivery day, date or time by phone or email is not possible.
                     </li>
-                    <li>Upon receipt, the customer will inspect the goods and notify 1Print of any errors within three days after delivery, quoting all relevant details.
+                    <li>Upon receipt, the customer will inspect the goods and notify YellowStar Press of any errors within three days after delivery, quoting all relevant details.
                     </li>
                     <li>If you have a Street/Residential address and it's unattended we can leave your goods at the door,  if your request this type of delivery, please note we are not responsible for any lost or stolen property.
                     </li>
@@ -11372,7 +11372,7 @@
             </p>
             <p>&nbsp;</p>
             <p class="black_heading">Folding</p>
-            <p>Fold panels for A4-DL should be set from left to right 98-99-100 (outside) and 100-99-98 (inside). Supplied PSD artwork always remains the responsibility of the customer. 1Print will not accept responsibility for errors due to out of specification files.
+            <p>Fold panels for A4-DL should be set from left to right 98-99-100 (outside) and 100-99-98 (inside). Supplied PSD artwork always remains the responsibility of the customer. YellowStar Press will not accept responsibility for errors due to out of specification files.
             </p>
             <div class="folding_list">
                 <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
@@ -11415,7 +11415,7 @@
             </ul>
             <p>&nbsp;</p><p>&nbsp;</p>
             <h2 class="large">Filetype Specifications</h2>
-            <p class="black">1Print will only accept the following formats as final artwork. Artwork which does not adhere to these specifications will incur artwork charges.
+            <p class="black">YellowStar Press will only accept the following formats as final artwork. Artwork which does not adhere to these specifications will incur artwork charges.
             </p>
             <p>&nbsp;</p>
             <ul class="black_bullets">
@@ -11426,7 +11426,7 @@
             </ul>
             <p>&nbsp;</p>
             <ul class="black_bullets">
-            <li>1Print accepts files in PC or MAC format.</li>
+            <li>YellowStar Press accepts files in PC or MAC format.</li>
             <li>All images must be saved in CMYK at 300dpi.</li>
             <li>Make sure all colours are nominated correctly as PMS or CMYK.</li>
             <li>OVERPRINTS MUST BE TURNED OFF</li>
@@ -11461,10 +11461,10 @@
             No ICC colour profiles will be used.</p>
             <p>&nbsp;</p>
             <p class="black_heading">Flight Check</p>
-            <p>We strongly recommend that a flight checking application is used to check the integrity of the PDF prior to sending to 1Print.
+            <p>We strongly recommend that a flight checking application is used to check the integrity of the PDF prior to sending to YellowStar Press.
             </p><p>&nbsp;</p>
             <p class="black_heading">Storage of Files</p>
-            <p>PDF's will remain on our system for 1 week following printing. 1Print does not undertake archiving and retrieval of customer data.
+            <p>PDF's will remain on our system for 1 week following printing. YellowStar Press does not undertake archiving and retrieval of customer data.
             </p>
             </div>
                 <div class="clear"></div>
@@ -11505,10 +11505,10 @@
         </p>
         <p>&nbsp;</p>
         <h4 class="pre_flight_title no_padding">If we do notice errors on your files...</h4>
-        <p>We will notify you and ask that your files be submitted again with the necessary corrections made. If required, 1Print can convert your files to a print ready format for a small fee. Some of our products do include converting your files to a press ready format. Please contact us for further information.
+        <p>We will notify you and ask that your files be submitted again with the necessary corrections made. If required, YellowStar Press can convert your files to a print ready format for a small fee. Some of our products do include converting your files to a press ready format. Please contact us for further information.
         </p><p>&nbsp;</p>
         <p class="black_bold">Terms &amp; Conditions</p>
-        <p>1Print go to great measures to ensure your files are print ready - however, it is ultimately the responsibility of the person supplying the files to ensure they are in accordance with <a href="http://web.archive.org/web/20180903132209/http://www.1print.net.au/artwork-specifications.php" class="blue_link">1Print file guidelines</a>. 1Print does not accept responsibility if a job is printed faulty due to supplied files setup incorrectly. Pre-flight does not include checking / correcting spelling errors.
+        <p>YellowStar Press go to great measures to ensure your files are print ready - however, it is ultimately the responsibility of the person supplying the files to ensure they are in accordance with <a href="/fileGuidelines" class="blue_link">YellowStar Press file guidelines</a>. YellowStar Press does not accept responsibility if a job is printed faulty due to supplied files setup incorrectly. Pre-flight does not include checking / correcting spelling errors.
         </p>
 
 
@@ -11521,23 +11521,23 @@
             </div>
         <div class="container_right">
         <h2 class="large no_padding">the proofing process</h2>
-        <p>Prior to printing, 1Print will send you a PDF proof*. We ask that you check this proof thoroughly before we proceed to printing.
+        <p>Prior to printing, YellowStar Press will send you a PDF proof*. We ask that you check this proof thoroughly before we proceed to printing.
         </p><p>&nbsp;</p>
-        <p>If you have a colour critical job we suggest you order a hard copy proof. <a href="http://web.archive.org/web/20180903132209/http://www.1print.net.au/colour-critical.php" class="blue_link">Click here for more information</a>.
+        <p>If you have a colour critical job we suggest you order a hard copy proof. <a href="/colour-critical" class="blue_link">Click here for more information</a>.
         </p><p>&nbsp;</p>
-        <p class="pre_flight_small">* PDF proofs are sent for all 1Print jobs excluding business cards - business card proofs can be organised when specifically requested.
+        <p class="pre_flight_small">* PDF proofs are sent for all YellowStar Press jobs excluding business cards - business card proofs can be organised when specifically requested.
         </p>
         <h3 class="pre_flight_title">free setup</h3>
-        <p>1Print offer free setup on some of our products. Free setup includes setting up basic print ready artwork based on your existing branding (supplied logo, text, photos etc.)<br style="">
-        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="http://web.archive.org/web/20180903132209/mailto:info@1print.net.au" class="blue_link">info@1print.net.au</a>
+        <p>YellowStar Press offer free setup on some of our products. Free setup includes setting up basic print ready artwork based on your existing branding (supplied logo, text, photos etc.)<br style="">
+        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
         </p>
         
         <h3 class="pre_flight_title">converting files to a press ready format</h3>
-        <p>We understand that not everyone can supply 100% press ready artwork, <a href="http://web.archive.org/web/20180903132209/http://www.1print.net.au/artwork-specifications.php" class="blue_link">see 1Print file guidelines</a>. If required, 1Print can convert your supplied files for a small fee. On selected products we offer this service free of charge.
+        <p>We understand that not everyone can supply 100% press ready artwork, <a href="/fileGuidelines" class="blue_link">see YellowStar Press file guidelines</a>. If required, YellowStar Press can convert your supplied files for a small fee. On selected products we offer this service free of charge.
         </p>
         <p>&nbsp;</p>
         <p>
-        For more information <span class="black_bold">Call</span> 1300 327 471 or <span class="black_bold">email</span> info@1print.net.au
+        For more information <span class="black_bold">Call</span> 1300 327 471 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
         </p>
             
             
@@ -11558,18 +11558,18 @@
             </p><p>&nbsp;</p><p>
             <span class="black">Please Note:</span> Our proofs represent the colour of your supplied file on either a coated or uncoated paper, providing a close approximation of how your finished job will print. They do not however allow for every variation in stock ink-absorbtion or stock whiteness.
             </p><p>&nbsp;</p><p>
-            If you want to ensure your job will print accurately, please refer to our <a href="http://web.archive.org/web/20180903144736/http://www.1print.net.au/artwork-specifications.php" class="black_link">file guidelines</a> for tips and print specifications.
+            If you want to ensure your job will print accurately, please refer to our <a href="/fileGuidelines" class="black_link">file guidelines</a> for tips and print specifications.
             </p>
                 
                     </div>
                 <div class="container_right">
                 <h2 class="large">How to order a proof</h2>
                 <p>
-                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="http://web.archive.org/web/20180903144736/mailto:orders@1print.net.au" class="black_link">orders@1print.net.au</a>.
+                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a>.
             </p><p>&nbsp;</p><p> 
             We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
             </p><p>&nbsp;</p><p> 
-            For more information <b class="black">Call</b> 1300 327 471 or <b class="black">email</b> info@1print.net.au
+            For more information <b class="black">Call</b> 1300 327 471 or <b class="black">email</b> gerard@yellowstarpress.com.au
             </p>
                 </div>
                 <div class="clear"></div>
@@ -11583,7 +11583,7 @@
                 <div id="breadcrumbs">
                     You are here:
                     <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
-                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press Online Printing</span></a>
                         »
                         <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
                             <a href="/product/brochures" itemprop="url">
@@ -11702,7 +11702,7 @@
                 <div id="breadcrumbs">
                     You are here:
                     <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
-                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press Online Printing</span></a>
                         »
                         <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
                             <a href="/product/brochures" itemprop="url">
@@ -11736,7 +11736,7 @@
                         <p>&nbsp;</p>
                         <p>our designs come with a free flight check and PDF proof to ensure the presentation and quality of your designs prior to printing. This product can be ordered in full colour on single or both sides in 150, 170 or 200gsm on either satin or gloss paper.</p>
                         <p>&nbsp;</p>
-                        <p>Depending on order quantity deliveries are dispatched in 3-10 working days. If you need your order fast-tracked request <a href="http://web.archive.org/web/20180706110000/http://www.1print.net.au/urgent-printing">urgent
+                        <p>Depending on order quantity deliveries are dispatched in 3-10 working days. If you need your order fast-tracked request <a href="/expressPrinting">urgent
                         shipping</a>.</p>
                         <p>&nbsp;</p>
                         <p><b>Please note</b>: Custom sizes are available, please contact us for more information.</p>
@@ -11813,7 +11813,7 @@
                 <div id="breadcrumbs">
                     You are here:
                     <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
-                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press Online Printing</span></a>
                         »
                         <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
                             <a href="/product/brochures" itemprop="url">
@@ -11933,7 +11933,7 @@
                 <div id="breadcrumbs">
                     You are here:
                     <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
-                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press Online Printing</span></a>
                         »
                         <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
                             <a href="/product/flyers" itemprop="url">
@@ -12032,12 +12032,12 @@
                             advertising message whilst still making them a suitable size for letterbox
                             drops and in-store promotions.</p>
                             <p>&nbsp;</p>
-                            <p>1Print's flyers are printed on high quality GSM printing
+                            <p>YellowStar Press's flyers are printed on high quality GSM printing
                             stock&nbsp; - 150gsm , 170gsm or 200gsm gloss. You can choose to have your flyers
                             printed on one or two sides in single to full colour.</p>
                             <p>&nbsp;</p>
                             <p>Let
-                            1Print create a customised flyer design that will stand out from the crowd and
+                            YellowStar Press create a customised flyer design that will stand out from the crowd and
                             boost your brand, or alternatively, you can provide us with your own 148mm x
                             210mm designs. We apply a minimum of 2mm bleed (the edge that will be trimmed
                             off when the flyers are printed). As soon as we receive your designs we conduct
@@ -12045,7 +12045,7 @@
                             Upon approval we initiate printing and your order is dispatched within 3-10
                             days working days. Delivery times may vary according to the product and order
                             size. <a href="/contact">Contact
-                            the 1Print team</a> if you require urgent printing (within 48 hours).</p>
+                            the YellowStar Press team</a> if you require urgent printing (within 48 hours).</p>
                             <p>&nbsp;</p>
                             <p>Note:
                             custom sizing available, please contact us to learn more.</p>
@@ -12071,7 +12071,7 @@
                             <p>A4 flyers allow
                             for high visual impact, significant branding and an eye-catching marketing
                             message whilst still being easy for potential customers to fold and tuck away.
-                            To ensure you capture your audience's attention take advantage of 1Print's <a href="/product/flyers">full
+                            To ensure you capture your audience's attention take advantage of YellowStar Press's <a href="/product/flyers">full
                             colour flyer printing</a> and craft a call to action that will resonate with your
                             target market.</p>
                             <p>&nbsp;</p>
@@ -12081,7 +12081,7 @@
                             flyers or more cost-effective single colour flyer printing.</p>
                             <p>&nbsp;</p>
                             <p>Let
-                            1Print create a customised flyer design that will stand out from the crowd and
+                            YellowStar Press create a customised flyer design that will stand out from the crowd and
                             boost your brand, or alternatively, you can provide us with your own 148mm x
                             210mm designs. Please note: we require a minimum of 2mm bleed. Once we have all
                             your designs and associated files in hand we carry out a flight check and
@@ -12127,7 +12127,7 @@
                 <div id="breadcrumbs">
                     You are here:
                     <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
-                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press Online Printing</span></a>
                         »
                         <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
                             <a href="/product/flyers" itemprop="url">
@@ -12188,7 +12188,7 @@
                             flyers can act as a highly effective marketing tool which can enable you to
                             grab your target audience's attention quickly and economically. </p>
                             <p>&nbsp;</p>
-                            <p>1Print's A6 flyers
+                            <p>YellowStar Press's A6 flyers
                             are the perfect size and weight for an advertising message which you want
                             potential customers to pop into their pocket or handbag and take away with
                             them. </p>
@@ -12226,12 +12226,12 @@
                             advertising message whilst still making them a suitable size for letterbox
                             drops and in-store promotions.</p>
                             <p>&nbsp;</p>
-                            <p>1Print's flyers are printed on high quality GSM printing
+                            <p>YellowStar Press's flyers are printed on high quality GSM printing
                             stock&nbsp; - 150gsm , 170gsm or 200gsm gloss. You can choose to have your flyers
                             printed on one or two sides in single to full colour.</p>
                             <p>&nbsp;</p>
                             <p>Let
-                            1Print create a customised flyer design that will stand out from the crowd and
+                            YellowStar Press create a customised flyer design that will stand out from the crowd and
                             boost your brand, or alternatively, you can provide us with your own 148mm x
                             210mm designs. We apply a minimum of 2mm bleed (the edge that will be trimmed
                             off when the flyers are printed). As soon as we receive your designs we conduct
@@ -12239,7 +12239,7 @@
                             Upon approval we initiate printing and your order is dispatched within 3-10
                             days working days. Delivery times may vary according to the product and order
                             size. <a href="/contact">Contact
-                            the 1Print team</a> if you require urgent printing (within 48 hours).</p>
+                            the YellowStar Press team</a> if you require urgent printing (within 48 hours).</p>
                             <p>&nbsp;</p>
                             <p>Note:
                             custom sizing available, please contact us to learn more.</p>
@@ -12265,7 +12265,7 @@
                             <p>A4 flyers allow
                             for high visual impact, significant branding and an eye-catching marketing
                             message whilst still being easy for potential customers to fold and tuck away.
-                            To ensure you capture your audience's attention take advantage of 1Print's <a href="/product/flyers">full
+                            To ensure you capture your audience's attention take advantage of YellowStar Press's <a href="/product/flyers">full
                             colour flyer printing</a> and craft a call to action that will resonate with your
                             target market.</p>
                             <p>&nbsp;</p>
@@ -12275,7 +12275,7 @@
                             flyers or more cost-effective single colour flyer printing.</p>
                             <p>&nbsp;</p>
                             <p>Let
-                            1Print create a customised flyer design that will stand out from the crowd and
+                            YellowStar Press create a customised flyer design that will stand out from the crowd and
                             boost your brand, or alternatively, you can provide us with your own 148mm x
                             210mm designs. Please note: we require a minimum of 2mm bleed. Once we have all
                             your designs and associated files in hand we carry out a flight check and
@@ -12321,7 +12321,7 @@
                 <div id="breadcrumbs">
                     You are here:
                     <span itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
-                        <a href="/home" itemprop="url"><span itemprop="title">1Print Online Printing</span></a>
+                        <a href="/home" itemprop="url"><span itemprop="title">YellowStar Press Online Printing</span></a>
                         »
                         <span itemprop="child" itemscope="itemscope" itemtype="http://schema.org/Breadcrumb">
                             <a href="/product/flyers" itemprop="url">
@@ -12382,7 +12382,7 @@
                             flyers can act as a highly effective marketing tool which can enable you to
                             grab your target audience's attention quickly and economically. </p>
                             <p>&nbsp;</p>
-                            <p>1Print's A6 flyers
+                            <p>YellowStar Press's A6 flyers
                             are the perfect size and weight for an advertising message which you want
                             potential customers to pop into their pocket or handbag and take away with
                             them. </p>
@@ -12420,12 +12420,12 @@
                             advertising message whilst still making them a suitable size for letterbox
                             drops and in-store promotions.</p>
                             <p>&nbsp;</p>
-                            <p>1Print's flyers are printed on high quality GSM printing
+                            <p>YellowStar Press's flyers are printed on high quality GSM printing
                             stock&nbsp; - 150gsm , 170gsm or 200gsm gloss. You can choose to have your flyers
                             printed on one or two sides in single to full colour.</p>
                             <p>&nbsp;</p>
                             <p>Let
-                            1Print create a customised flyer design that will stand out from the crowd and
+                            YellowStar Press create a customised flyer design that will stand out from the crowd and
                             boost your brand, or alternatively, you can provide us with your own 148mm x
                             210mm designs. We apply a minimum of 2mm bleed (the edge that will be trimmed
                             off when the flyers are printed). As soon as we receive your designs we conduct
@@ -12433,7 +12433,7 @@
                             Upon approval we initiate printing and your order is dispatched within 3-10
                             days working days. Delivery times may vary according to the product and order
                             size. <a href="/contact">Contact
-                            the 1Print team</a> if you require urgent printing (within 48 hours).</p>
+                            the YellowStar Press team</a> if you require urgent printing (within 48 hours).</p>
                             <p>&nbsp;</p>
                             <p>Note:
                             custom sizing available, please contact us to learn more.</p>
@@ -12459,7 +12459,7 @@
                             <p>A4 flyers allow
                             for high visual impact, significant branding and an eye-catching marketing
                             message whilst still being easy for potential customers to fold and tuck away.
-                            To ensure you capture your audience's attention take advantage of 1Print's <a href="/product/flyers">full
+                            To ensure you capture your audience's attention take advantage of YellowStar Press's <a href="/product/flyers">full
                             colour flyer printing</a> and craft a call to action that will resonate with your
                             target market.</p>
                             <p>&nbsp;</p>
@@ -12469,7 +12469,7 @@
                             flyers or more cost-effective single colour flyer printing.</p>
                             <p>&nbsp;</p>
                             <p>Let
-                            1Print create a customised flyer design that will stand out from the crowd and
+                            YellowStar Press create a customised flyer design that will stand out from the crowd and
                             boost your brand, or alternatively, you can provide us with your own 148mm x
                             210mm designs. Please note: we require a minimum of 2mm bleed. Once we have all
                             your designs and associated files in hand we carry out a flight check and
