@@ -179,17 +179,7 @@
 
         </div>
 
-        {{--<div class="displayBox_bd">
-            <ul>
-                <img  src="{{URL::asset('/image/1.jpg') }}">
-                <img  src="{{URL::asset('/image/2.jpg') }}">
-                <img  src="{{URL::asset('/image/3.jpg') }}">
-            </ul>
-        </div>
-        <div class="slider-controls">
-            <button type="button" class="displayBox_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
-            <button type="button" class="displayBox_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
-        </div>--}}
+        
     </div>
     <div class="slider-controls">
             <button type="button" class="displayBox_next" onclick="$('#myCarousel').carousel('next')"><i class="fas fa-chevron-right"></i></button>

@@ -11,3 +11,6 @@ function show_hidden() {
     }
 
 }
+function clickGallery(){
+    
+}
