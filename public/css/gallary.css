@@ -271,7 +271,12 @@ body.gallary_div {
     height: 240px;
     margin-top: 1rem!important;
 }
-.gallery_info_for6-1{
+.gallery_info_for6-1,
+.gallery_info_for6-2,
+.gallery_info_for6-3,
+.gallery_info_for6-4,
+.gallery_info_for6-5,
+.gallery_info_for6-6{
   width:75rem;
   float:left;
   height: 69rem;
@@ -279,6 +284,7 @@ body.gallary_div {
 }
 .gallery_info_for6_1{
     background: url(../image/gallery/bro-1.jpg) no-repeat center center;
+    background-size: cover;
 }
 .gallery_info_for6-1{
   background: url(../image/gallery/bro-1.jpg) no-repeat center center;
@@ -286,18 +292,48 @@ body.gallary_div {
 }
 .gallery_info_for6_2{
   background: url(../image/gallery/bro-2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery_info_for6-2{
+  background: url(../image/gallery/bro-2.jpg) no-repeat center center;
+  background-size: cover;
 }
 .gallery_info_for6_3{
   background: url(../image/gallery/bro-3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery_info_for6-3{
+  background: url(../image/gallery/bro-3.jpg) no-repeat center center;
+  background-size: cover;
 }
 .gallery_info_for6_4{
   background: url(../image/gallery/bro-4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery_info_for6-4{
+  background: url(../image/gallery/bro-4.jpg) no-repeat center center;
+  background-size: cover;
 }
 .gallery_info_for6_5{
   background: url(../image/gallery/bro-5.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery_info_for6-5{
+  background: url(../image/gallery/bro-5.jpg) no-repeat center center;
+  background-size: cover;
 }
 .gallery_info_for6_6{
   background: url(../image/gallery/bro-6.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery_info_for6-6{
+  background: url(../image/gallery/bro-6.jpg) no-repeat center center;
+  background-size: cover;
+}
+.galleryfor15 p{
+  padding-top: 128px;
+  text-align: center;
+    color:white!important;
 }
 .mask{
     position: relative;
@@ -315,6 +351,42 @@ body.gallary_div {
   width: 165px;
   height: 150px;
   background: black url(../image/gallery/gallery\ icons-01.png) no-repeat center center;
+  opacity: 0;
+}
+.mask2{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 165px;
+  height: 150px;
+  background: black url(../image/gallery/gallery\ icons-02.png) no-repeat center center;
+  opacity: 0;
+}
+.mask3{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 165px;
+  height: 150px;
+  background: black url(../image/gallery/gallery\ icons-03.png) no-repeat center center;
+  opacity: 0;
+}
+.mask4{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 165px;
+  height: 150px;
+  background: black url(../image/gallery/gallery\ icons-04.png) no-repeat center center;
+  opacity: 0;
+}
+.mask5{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 165px;
+  height: 150px;
+  background: black url(../image/gallery/gallery\ icons-05.png) no-repeat center center;
   opacity: 0;
 }
 .gallery_info_for6_1:hover .mask,
@@ -337,6 +409,40 @@ body.gallary_div {
 .gallery_info_for15_1{
   background: url(../image/gallery/bro-2.jpg) no-repeat center center;
 }
+.gallery_info_for15_2{
+  background: url(../image/gallery/Brochure1.jpg) no-repeat center center;
+}
+.gallery_info_for15_3{
+  background: url(../image/gallery/bc1.jpg) no-repeat center center;
+}
+.gallery_info_for15_4{
+  background: url(../image/gallery/dl1.jpg) no-repeat center center;
+}
+.gallery_info_for15_5{
+  background: url(../image/gallery/Poster1.jpg) no-repeat center center;
+}
+.gallery_info_for15_6{
+  background: url(../image/gallery/pc1.jpg) no-repeat center center;
+}
+.gallery_info_for15_7{
+  background: url(../image/gallery/ev1.jpg) no-repeat center center;
+}
+.gallery_info_for15_8{
+  background: url(../image/gallery/fy1.jpg) no-repeat center center;
+}
+.gallery_info_for15_9{
+  background: url(../image/gallery/lh1.jpg) no-repeat center center;
+}
+.gallery_info_for15_10{
+  background: url(../image/gallery/s1.jpeg) no-repeat center center;
+}
+.gallery_info_for15_11,
+.gallery_info_for15_12,
+.gallery_info_for15_13,
+.gallery_info_for15_14,
+.gallery_info_for15_15{
+  background: url(../image/gallery/coming.jpg) no-repeat center center;
+}
 .gallery_info_for15_1,
 .gallery_info_for15_2,
 .gallery_info_for15_3,
@@ -357,13 +463,14 @@ body.gallary_div {
   float:left;
   height: 150px;
   margin-bottom:0;
-  background-color: red;
+  background-color: #29ABE2 ;
+  background-size: cover;
 }
 .gallery_info_for15_1:hover .mask1,
-.gallery_info_for15_2:hover .mask1,
-.gallery_info_for15_3:hover .mask1,
-.gallery_info_for15_4:hover .mask1,
-.gallery_info_for15_5:hover .mask1,
+.gallery_info_for15_2:hover .mask2,
+.gallery_info_for15_3:hover .mask3,
+.gallery_info_for15_4:hover .mask4,
+.gallery_info_for15_5:hover .mask5,
 .gallery_info_for15_6:hover .mask1,
 .gallery_info_for15_7:hover .mask1,
 .gallery_info_for15_8:hover .mask1,
@@ -438,6 +545,8 @@ body.gallary_div {
 }
 .gallery_silde_note{
   float: left;
+  margin-top: 10px;
+  color: white!important;
   position:relative;
     
     height: 10rem;
@@ -446,12 +555,17 @@ body.gallary_div {
 }
 .gallery_page_next{
   float: left;
+  margin-top: 10px;
   height: 10rem;
   width: 14rem;
   margin-left: 1rem;
-  color: antiquewhite;
+  color: white!important;
   background-color: #7f7f7f;
 }
 .gallery_page_next:hover{
   background-color: black;
+}
+.gallery_silde_note p{
+  padding-left: 10px;
+  padding-top: 10px;
 }

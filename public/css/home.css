@@ -693,11 +693,17 @@ input.btn_search {
     line-height: 1.4rem;
     font-size: 1.2rem;
 }
+.footer_phone h1{
+    color: #FFFFFF!important;
+}
+.footer_phone a{
+    color: #FFFFFF!important;
+}
 
 .footer_phone_number{
     float:left;
-    width:36rem;
-    height:4.6rem;
+    width:5rem;
+    height:5rem;
 }
 .footer_menu1 {
     width: 14rem;
@@ -1087,4 +1093,9 @@ button.black_button:hover {
 }
 #breadcrumbs a:hover{
 	color:#29abe2;
+}
+
+.pre_flight_div p,
+.pre_flight_div h4{
+ margin-bottom: 10px!important;
 }
