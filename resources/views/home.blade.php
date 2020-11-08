@@ -2328,7 +2328,7 @@
                         </a>
 
                         <!-- corporate accounts call image -->
-                        <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                        <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                            data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                             <!-- image -->
                             <img class="block" id="u76951_img"
@@ -2856,7 +2856,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -3467,7 +3467,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -3533,7 +3533,7 @@
                     </p>
                     <p>&nbsp;</p>
                     <p class="black">
-                        For more information <b>Call</b> 1300 327 471 or <b>email</b> <a
+                        For more information <b>Call</b> (03) 9584 4708 or <b>email</b> <a
                             href="mailto:gerard@yellowstarpress.com.au"
                             class="black_link">gerard@yellowstarpress.com.au</a>
                     </p>
@@ -4033,7 +4033,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -4686,7 +4686,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -5162,7 +5162,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -5770,7 +5770,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -6196,7 +6196,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -6715,7 +6715,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -7309,7 +7309,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -7888,7 +7888,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -8510,7 +8510,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -9775,7 +9775,7 @@
                     </a>
 
                     <!-- corporate accounts call image -->
-                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:1300327471"
+                    <a class="nonblock nontext clip_frame grpelem" id="u76951" href="tel:0398786999"
                        data-muse-uid="U76951" data-muse-type="img_frame" style="margin-top: 10px;">
                         <!-- image -->
                         <img class="block" id="u76951_img"
@@ -9901,7 +9901,7 @@
                         We work closely with our clients to ensure a smooth transition from design to the finished product. YellowStar Press charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
                     </p><p>&nbsp;</p>
                     <p>
-                        Call 1300 327 471 or email <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a> for more information and prices.
+                        Call (03) 9584 4708 or email <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a> for more information and prices.
                     </p>
 
                 </div>
@@ -10335,7 +10335,7 @@
                 <div class="contact_div_leftContainer">
                     <h1>Contact us</h1>
                     <div class="contact_phone">
-                        <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">1300 327 471</span>
+                        <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">(03) 9584 4708</span>
                     </div>
                     <div class="contact_fax">
                         <span class="black_bold">Fax</span> (03) 9584 4708
@@ -11144,7 +11144,7 @@
         <div class="main_container">
             <div class="container_left">
             <h1>Ordering Options</h1>
-            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">1300 327 471</span>.</p>
+            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.</p>
             <h2 class="order_title_cart">Shopping Cart</h2>
             <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
             </p>
@@ -11240,7 +11240,7 @@
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
             <p>We are Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
-            Please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">1300 327 471</span>.
+            Please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.
             </p>
             </div>
         <div class="clear"></div>
@@ -11546,7 +11546,7 @@
         </p>
         <p>&nbsp;</p>
         <p>
-        For more information <span class="black_bold">Call</span> 1300 327 471 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
+        For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
         </p>
             
             
@@ -11578,7 +11578,7 @@
             </p><p>&nbsp;</p><p> 
             We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
             </p><p>&nbsp;</p><p> 
-            For more information <b class="black">Call</b> 1300 327 471 or <b class="black">email</b> gerard@yellowstarpress.com.au
+            For more information <b class="black">Call</b> (03) 9584 4708 or <b class="black">email</b> gerard@yellowstarpress.com.au
             </p>
                 </div>
                 <div class="clear"></div>
@@ -12526,8 +12526,9 @@
 
         <div class="footer_width_holder">
             <div class="footer_col1">
-                <div class="footer_phone">
-                    <img src="image/phone.png" alt="Call 03 9878 6999" class="footer_phone_number">
+                <div class="footer_phone" href="tel:0398786999">
+                    <img src="image/tel.png" alt="Call 03 9878 6999" href="tel:0398786999" class="footer_phone_number">
+                    <a href="tel:0398786999"><h1>03 9878 6999<h></a>
                 </div>
             </div>
             <div class="footer_col2">
