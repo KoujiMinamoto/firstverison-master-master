@@ -10007,7 +10007,7 @@
                     <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id1">
                 Product directions1
                 </p></div>
-                    <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button>
+                    <button type="button" class="gallery_page_next" onclick="clickProduct(1)"><a href="/product/brochures"></a><i class="fas fa-chevron-right"></i></button>
                 </div>
                 <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id2">
                 Product directions2

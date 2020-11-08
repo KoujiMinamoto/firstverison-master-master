@@ -43,6 +43,7 @@ function clickPhoto(headerName){
 
 }
 function clickGallery(headerName){
+    var button = document.getElementsByClassName("gallery_page_next");
     switch (headerName) {
         case 1:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/bro-1.jpg)";
@@ -63,7 +64,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
-            
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(1);
+                }
+            };
             break;
         case 2:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Brochure1.jpg)";
@@ -84,6 +89,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(1);
+                }
+            };
             break;
         case 3:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/bc1.jpg)";
@@ -104,6 +114,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(2);
+                }
+            };
             break;
         case 4:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/dl1.jpg)";
@@ -124,6 +139,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(14);
+                }
+            };
             break;
         case 5:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Poster1.jpg)";
@@ -144,6 +164,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(12);
+                }
+            };
             break;
         case 6:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/pc1.jpg)";
@@ -164,6 +189,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(13);
+                }
+            };
             break;
         case 7:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/ev1.jpg)";
@@ -184,6 +214,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(6);
+                }
+            };
             break;
         case 8:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/fy1.jpg)";
@@ -204,6 +239,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(8);
+                }
+            };
             break;
         case 9:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/lh1.jpg)";
@@ -224,6 +264,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(10);
+                }
+            };
             break;
         case 10:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/s1.jpeg)";
@@ -244,6 +289,11 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(5);
+                }
+            };
             break;
 
     }
