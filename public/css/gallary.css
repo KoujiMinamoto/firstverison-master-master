@@ -415,6 +415,34 @@ body.gallary_div {
 .gallery_info_for15_3{
   background: url(../image/gallery/bc1.jpg) no-repeat center center;
 }
+.gallery_info_for15_4{
+  background: url(../image/gallery/dl1.jpg) no-repeat center center;
+}
+.gallery_info_for15_5{
+  background: url(../image/gallery/Poster1.jpg) no-repeat center center;
+}
+.gallery_info_for15_6{
+  background: url(../image/gallery/pc1.jpg) no-repeat center center;
+}
+.gallery_info_for15_7{
+  background: url(../image/gallery/ev1.jpg) no-repeat center center;
+}
+.gallery_info_for15_8{
+  background: url(../image/gallery/fy1.jpg) no-repeat center center;
+}
+.gallery_info_for15_9{
+  background: url(../image/gallery/lh1.jpg) no-repeat center center;
+}
+.gallery_info_for15_10{
+  background: url(../image/gallery/s1.jpeg) no-repeat center center;
+}
+.gallery_info_for15_11,
+.gallery_info_for15_12,
+.gallery_info_for15_13,
+.gallery_info_for15_14,
+.gallery_info_for15_15{
+  background: url(../image/gallery/coming.jpg) no-repeat center center;
+}
 .gallery_info_for15_1,
 .gallery_info_for15_2,
 .gallery_info_for15_3,
@@ -435,7 +463,7 @@ body.gallary_div {
   float:left;
   height: 150px;
   margin-bottom:0;
-  background-color: red;
+  background-color: #29ABE2 ;
   background-size: cover;
 }
 .gallery_info_for15_1:hover .mask1,

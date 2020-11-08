@@ -9984,17 +9984,17 @@
                     </div>
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_4 no_margin">
-                            <a href="">
-                            <div class="mask4"><p>flyers</p></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(4)">
+                            <div class="mask4"><p>DL Compliment</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_5 margin_left20">
-                            <a href="">
+                            <a href="javascript:void(0);" onclick="clickGallery(5)">
                             <div class="mask5"><p>posters</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_6 margin_left20">
-                            <a href="">
+                            <a href="javascript:void(0);" onclick="clickGallery(6)">
                             <div class="mask1"><p>postercards</p></div>
                             </a>
                         </div>
@@ -10002,54 +10002,54 @@
                     </div>
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_7 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(7)">
+                            <div class="mask1"><p>envelopers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_8 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(8)">
+                            <div class="mask1"><p>flyers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_9 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(9)">
+                            <div class="mask1"><p>letterhead</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_10 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(10)">
+                            <div class="mask1"><p>signage</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_11 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_12 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_13 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_14 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_15 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>

@@ -106,25 +106,144 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 4:
-            
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/dl1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/dl1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/dl2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/dl2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/dl3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/dl3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/dl4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/dl4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/dl3.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/dl3.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/dl4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/dl4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 5:
-            
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Poster1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/Poster1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/Poster2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/Poster2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/Poster3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/Poster3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/Poster4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/Poster4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/Poster3.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/Poster3.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/Poster4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/Poster4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 6:
-            
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/pc1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/pc1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/pc2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/pc2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/pc3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/pc3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/pc4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/pc4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/pc5.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/pc5.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/pc4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/pc4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 7:
-        
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/ev1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/ev1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/ev2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/ev2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/ev3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/ev3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/ev4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/ev4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/ev3.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/ev3.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/ev4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/ev4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 8:
-            
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/fy1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/fy1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/fy2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/fy2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/fy3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/fy3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/fy4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/fy4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/fy3.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/fy3.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/fy4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/fy4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 9:
-            
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/lh1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/lh1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/lh2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/lh2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/lh3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/lh3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/lh4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/lh4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/lh5.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/lh5.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/lh6.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/lh6.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
         case 10:
-            
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/s1.jpeg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/s1.jpeg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/s2.png)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/s2.png)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/s3.png)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/s3.png)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/s4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/s4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/s3.png)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/s3.png)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/s4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/s4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
             break;
 
     }
