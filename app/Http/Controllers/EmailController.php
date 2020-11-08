@@ -50,7 +50,7 @@ use Illuminate\Support\Facades\Storage;
         $content = $content . "Way to find us: " . $mode . "\n";
         $content = $content . "Subscribe to our newsletter for special offers: " . $subscribe . "\n";
 
-        $toMail = 'anmouer@163.com';
+        $toMail = 'sysy135673@gmail.com';
 
         // $handler = opendir('files/');
         // $filename = readdir($handler);
