@@ -9925,39 +9925,39 @@
             </div>
             <div class="galleryfor6">
                 <div class="size_rowfor2">
-                    <div class="gallery_info_for6_1 no_margin">
-                        <a href="">
+                    <div class="gallery_info_for6_1 no_margin" id="gallery_info_for6_1_id">
+                        <a href="javascript:void(0);" onclick="clickPhoto(1)">
                         <div class="mask"></div>
                         </a>
                     </div>
-                    <div class="gallery_info_for6_2 margin_left20">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-                <div class="size_rowfor2">
-                    <div class="gallery_info_for6_3 no_margin">
-                        <a href="">
-                        <div class="mask"></div>
-                        </a>
-                    </div>
-                    <div class="gallery_info_for6_4 margin_left20">
-                        <a href="">
+                    <div class="gallery_info_for6_2 margin_left20" id="gallery_info_for6_2_id">
+                        <a href="javascript:void(0);" onclick="clickPhoto(2)">
                         <div class="mask"></div>
                         </a>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
                 <div class="size_rowfor2">
-                    <div class="gallery_info_for6_5 no_margin">
-                        <a href="">
+                    <div class="gallery_info_for6_3 no_margin" id="gallery_info_for6_3_id">
+                        <a href="javascript:void(0);" onclick="clickPhoto(3)">
                         <div class="mask"></div>
                         </a>
                     </div>
-                    <div class="gallery_info_for6_6 margin_left20">
-                        <a href="">
+                    <div class="gallery_info_for6_4 margin_left20" id="gallery_info_for6_4_id">
+                        <a href="javascript:void(0);" onclick="clickPhoto(4)">
+                        <div class="mask"></div>
+                        </a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="size_rowfor2">
+                    <div class="gallery_info_for6_5 no_margin" id="gallery_info_for6_5_id">
+                        <a href="javascript:void(0);" onclick="clickPhoto(5)">
+                        <div class="mask"></div>
+                        </a>
+                    </div>
+                    <div class="gallery_info_for6_6 margin_left20" id="gallery_info_for6_6_id">
+                        <a href="javascript:void(0);" onclick="clickPhoto(6)">
                         <div class="mask"></div>
                         </a>
                     </div>
@@ -9966,18 +9966,18 @@
                 <div class="galleryfor15" id ="galleryfor15_id" style="display:none">
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_1 no_margin">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <div class="mask1"><p>booklets</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_2 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(2)">
+                            <div class="mask2"><p>brochure</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_3 margin_left20">
-                            <a href="">
-                            <div class="mask1"></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(3)">
+                            <div class="mask3"><p>bussinesscard</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -9985,17 +9985,17 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_4 no_margin">
                             <a href="">
-                            <div class="mask1"></div>
+                            <div class="mask4"><p>flyers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_5 margin_left20">
                             <a href="">
-                            <div class="mask1"></div>
+                            <div class="mask5"><p>posters</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_6 margin_left20">
                             <a href="">
-                            <div class="mask1"></div>
+                            <div class="mask1"><p>postercards</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -10063,19 +10063,38 @@
         <div class="gallery_right" id="gallery_right_id">
 
             <div class="gallery_silde" id ="gallery_silde_id">
-                <div class="mySlides" ><div class="gallery_info_for6-1"></div></div>
-                <div class="mySlides" ><div class="gallery_info_for6_2"></div></div>
-                <div class="mySlides" ><div class="gallery_info_for6_3"></div></div>
-                <div class="mySlides" ><div class="gallery_info_for6_4"></div></div>
-                <div class="mySlides" ><div class="gallery_info_for6_5"></div></div>
-                <div class="mySlides" ><div class="gallery_info_for6_6"></div></div>
+                <div class="mySlides" >
+                    <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id1">
+                Product directions1
+                </p></div>
+                    <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id2">
+                Product directions2
+                </p></div>
+            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
+                <div class="mySlides" ><div class="gallery_info_for6-3"  id="gallery_info_for6-3_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id3">
+                Product directions3
+                </p></div>
+            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
+                <div class="mySlides" ><div class="gallery_info_for6-4"  id="gallery_info_for6-4_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id4">
+                Product directions4
+                </p></div>
+            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
+                <div class="mySlides" ><div class="gallery_info_for6-5" id="gallery_info_for6-5_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id5">
+                Product directions5
+                </p></div>
+            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
+                <div class="mySlides" ><div class="gallery_info_for6-6" id="gallery_info_for6-6_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id6">
+                Product directions6
+                </p></div>
+            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
             </div>
             <div class="slider-controls1">
                 <button type="button" class="gallery_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
                 <button type="button" class="gallery_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
             </div>
-            <div class="gallery_silde_note" id ="gallery_silde_note_id"></div>
-            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button>
+            
         </div>
 
         <div style="clear: both;"></div>

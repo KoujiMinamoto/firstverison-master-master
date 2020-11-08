@@ -102,7 +102,7 @@ function productPriceCal(product) {
     for(let i = 0;i<length;++i){
         if($("#"+product+"_checkbox_"+qtyArray[i]).is(":checked") ) {
             totalPrice = totalPrice + $('#'+product+'_price_'+qtyArray[i]).attr("value") * $('#'+product+"_inputbox_"+qtyArray[i]).val();
-            console.log(totalPrice+product+"_checkbox_"+qtyArray[i]);
+            
         } 
     }
     
