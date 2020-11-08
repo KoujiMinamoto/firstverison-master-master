@@ -1,4 +1,4 @@
-function sendEmail() {
+function contactSendEmail() {
 
     let product = $("#contact_product option:selected").text()
     let jobDescription = $("#contact_description").val();
@@ -126,3 +126,5 @@ function contactFileUp(formData) {
         }
     });
 }
+
+

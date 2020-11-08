@@ -28,6 +28,7 @@
     <script type="text/javascript" src="{{URL::asset('/js/gallery.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/router.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/contactUs.js') }}"></script>
+    <script type="text/javascript" src="{{URL::asset('/js/sendEmail.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- <script src="https://kit.fontawesome.com/yourcode.js"></script> -->
@@ -712,8 +713,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_49"
-                                                                                id="field_49"
-                                                                                onchange="cqFieldOption(49)">
+                                                                                id="booklets_size"
+                                                                                >
                                                                                 <option value="A4 210X297mm">A4
                                                                                     210X297mm
                                                                                 </option>
@@ -754,8 +755,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_50"
-                                                                                id="field_50"
-                                                                                onchange="cqFieldOption(50)">
+                                                                                id="booklets_orientation"
+                                                                                >
                                                                                 <option value="Portrait">Portrait
                                                                                 </option>
                                                                                 <option value="Landscape">Landscape
@@ -787,8 +788,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_52"
-                                                                                id="field_52"
-                                                                                onchange="cqFieldOption(52)">
+                                                                                id="booklets_pages"
+                                                                                >
                                                                                 <option value="150gsm Gloss">150gsm
                                                                                     Gloss
                                                                                 </option>
@@ -850,8 +851,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_51"
-                                                                                id="field_51"
-                                                                                onchange="cqFieldOption(51)">
+                                                                                id="booklets_cover"
+                                                                                >
                                                                                 <option value="Same as Internal Pages">
                                                                                     Same as Internal Pages
                                                                                 </option>
@@ -899,8 +900,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_53"
-                                                                                id="field_53"
-                                                                                onchange="cqFieldOption(53)">
+                                                                                id="booklets_includingCover"
+                                                                                >
                                                                                 <option value="8">8</option>
                                                                                 <option value="12">12</option>
                                                                                 <option value="16">16</option>
@@ -958,8 +959,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_54"
-                                                                                id="field_54"
-                                                                                onchange="cqFieldOption(54)">
+                                                                                id="booklets_pages2"
+                                                                                >
                                                                                 <option value="Printed Full Colour">
                                                                                     Printed Full Colour
                                                                                 </option>
@@ -1000,8 +1001,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_55"
-                                                                                id="field_55"
-                                                                                onchange="cqFieldOption(55)">
+                                                                                id="booklets_cover2"
+                                                                                >
                                                                                 <option value="Printed Full Colour">
                                                                                     Printed Full Colour
                                                                                 </option>
@@ -1036,8 +1037,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_58"
-                                                                                id="field_58"
-                                                                                onchange="cqFieldOption(58)">
+                                                                                id="booklets_binding"
+                                                                                >
                                                                                 <option
                                                                                     value="Saddlestitch (2 staples in middle)">
                                                                                     Saddlestitch (2 staples in middle)
@@ -1077,8 +1078,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_56"
-                                                                                id="field_56"
-                                                                                onchange="cqFieldOption(56)">
+                                                                                id="booklets_lamineteCover"
+                                                                                >
                                                                                 <option value="None">None</option>
                                                                                 <option value="Machine varnish 1 side">
                                                                                     Machine varnish 1 side
@@ -1127,8 +1128,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_57"
-                                                                                id="field_57"
-                                                                                onchange="cqFieldOption(57)">
+                                                                                id="booklets_coverSpecialFinish"
+                                                                                >
                                                                                 <option value="None">None</option>
                                                                                 <option value="Spot UV 1 Side">Spot UV 1
                                                                                     Side
@@ -1168,8 +1169,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_59"
-                                                                                id="field_59"
-                                                                                onchange="cqFieldOption(59)">
+                                                                                id="booklets_artworkSuppliedIn"
+                                                                                >
                                                                                 <option value="Ready to print PDF">Ready
                                                                                     to print PDF
                                                                                 </option>
@@ -1219,8 +1220,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_62"
-                                                                                id="field_62"
-                                                                                onchange="cqFieldOption(62)">
+                                                                                id="booklets_proofRequired"
+                                                                                >
                                                                                 <option value="None">None</option>
                                                                                 <option value="Soft Copy PDF">Soft Copy
                                                                                     PDF
@@ -1256,8 +1257,8 @@
                                                                         </td>
                                                                         <td class="option_second_col"><select
                                                                                 style="width:100%;" name="field_66"
-                                                                                id="field_66"
-                                                                                onchange="cqFieldOption(66)">
+                                                                                id="booklets_quantity"
+                                                                                >
                                                                                 <option value="100">100</option>
                                                                                 <option value="150">150</option>
                                                                                 <option value="200">200</option>
@@ -1306,38 +1307,38 @@
                                             <td valign="top" class="one-line one-text st-input"><input type="hidden"
                                                                                                        name="custom_product"
                                                                                                        value="5"><textarea
-                                                    name="comments" wrap="" cols="" rows="8"
+                                                    name="comments" wrap="" cols="" rows="8" id = "booklets_jobDescription"
                                                     style="font-size: 13px; font-family: Arial; "></textarea></td>
                                         </tr>
                                         <tr>
                                             <td height="25" class="one-line one-line-title"><strong>Delivery
                                                     Postcode:</strong></td>
                                             <td class="one-line st-input"><input type="text" name="delivery_location"
-                                                                                 id="delivery_location" maxlength="80">
+                                                                                 id="booklets_deliveryPostcode" maxlength="80">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td height="25" class="one-line one-line-title"><strong>Business
                                                     Name:</strong></td>
-                                            <td class="one-line st-input"><input type="text" name="company" id="company"
+                                            <td class="one-line st-input"><input type="text" name="company" id="booklets_businessName"
                                                                                  maxlength="80"></td>
                                         </tr>
                                         <tr>
                                             <td class="one-line one-line-title">Your
                                                 Name: </font><span style="color:red">*</span></td>
-                                            <td class="one-line st-input"><input type="text" name="name" id="name"
+                                            <td class="one-line st-input"><input type="text" name="name" id="booklets_name"
                                                                                  maxlength="80"></td>
                                         </tr>
                                         <tr>
                                             <td height="25" class="one-line one-line-title">Email:<span
                                                     style="color:red">*</span></td>
-                                            <td class="one-line st-input"><input type="text" name="email" id="email"
+                                            <td class="one-line st-input"><input type="text" name="email" id="booklets_email"
                                                                                  maxlength="80"></td>
                                         </tr>
                                         <tr>
                                             <td height="25" class="one-line one-line-title">Telephone:<span
                                                     style="color:red">*</span></td>
-                                            <td class="one-line st-input"><input type="text" name="phone" id="phone"
+                                            <td class="one-line st-input"><input type="text" name="phone" id="booklets_telephone"
                                                                                  maxlength="80"></td>
                                         </tr>
                                         <tr class="tr-pt15">
@@ -1348,11 +1349,11 @@
                                         </tr>
 
                                         <tr>
-                                            <td height="25" align="left" class="one-line one-line-title">Preview 1</td>
+                                            <td height="25" align="left" class="one-line one-line-title">Preview</td>
                                             <td class="one-line" style="padding:5px;"><input type="file" name="file1"
-                                                                                             id="file1"></td>
+                                                                                             id="booklets_file"></td>
                                         </tr>
-                                        <tr>
+                                        {{-- <tr>
                                             <td height="25" align="left" class="one-line one-line-title">Preview 2</td>
                                             <td class="one-line" style="padding:5px;"><input type="file" name="file2"
                                                                                              id="file2"></td>
@@ -1361,12 +1362,12 @@
                                             <td height="25" align="left" class="one-line one-line-title">Preview 3</td>
                                             <td class="one-line" style="padding:5px;"><input type="file" name="file3"
                                                                                              id="file3"></td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr class="tr-pt15">
                                             <td height="25" align="left" class="one-line one-line-title">How did you
                                                 find us?
                                             </td>
-                                            <td class="one-line"><select name="select">
+                                            <td class="one-line"><select name="select" id="booklets_way">
                                                     <option value="1">Google</option>
                                                     <option value="2">Yellow Pages</option>
                                                     <option value="3">Yahoo</option>
@@ -1389,14 +1390,14 @@
                                                     Subscribe to our newsletter for special offers
                                                 </div>
                                                 <div style="display:none"><input type="checkbox" name="validate_form"
-                                                                                 id="validate_form" value="yes"/></div>
+                                                                                 id="booklets_subscribe" value="yes"/></div>
                                                 <div class="clear"></div>
                                             </td>
                                         </tr>
                                         <tr class="tr-pt15">
                                             <td class="one-line" style="margin-top:10px;" colspan="2">
-                                                <input type="submit" class="submit_btn blue_button" value="Submit"
-                                                       name="postemail" id="postemail"/>
+                                                <input type="button" class="submit_btn blue_button" 
+                                                       onclick="bookletsSendEmail()" id="postemail" value="submit"/>
                                             </td>
                                         </tr>
                                     </table>
@@ -9851,15 +9852,16 @@
                             <h4>Request More Info</h4>
                             <p>Please fill out the form and one of web consultants will be in contact with you.</p>
                             <div class="field_title field_title_first">Contact Name <span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="name" type="text" maxlength="80" name="name"></div>
+                            <div class="field_holder"><input id="website_contactName" type="text" maxlength="80" name="name"></div>
                             <div class="field_title">Business Name <span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="company" type="text" maxlength="80" name="company"></div>
+                            <div class="field_holder"><input id="website_businessName" type="text" maxlength="80" name="company"></div>
                             <div class="field_title">Telephone <span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="phone" type="text" maxlength="80" name="phone"></div>
+                            <div class="field_holder"><input id="website_phone" type="text" maxlength="80" name="phone"></div>
                             <div class="field_title">Email Address<span style="color:red">*</span></div>
-                            <div class="field_holder"><input id="email" type="text" maxlength="80" name="email"></div>
+                            <div class="field_holder"><input id="website_email" type="text" maxlength="80" name="email"></div>
                         </div>
-                        <input id="postemail" class="submit_btn blue_button" type="submit" name="postemail" value="Submit" style="margin:20px 0; width:98%;">
+                        <input id="postemail" class="submit_btn blue_button" type="button" name="postemail" value="Submit" 
+                            onclick="websiteSendEmail()" style="margin:20px 0; width:98%;">
                     </form>
                 </div>
             </div>
@@ -10434,7 +10436,7 @@
                     <tr>
                     <td></td>
                     <td>
-                    <input type="button" class="submit_btn blue_button" value="Submit" name="postemail" id="postemail" onclick="sendEmail()">
+                    <input type="button" class="submit_btn blue_button" value="Submit" name="postemail" id="postemail" onclick="contactSendEmail()">
                     </td>
                     </tr>
                     </tbody></table></div>
@@ -11037,27 +11039,27 @@
                             <table width="100%" cellpadding="3" cellspacing="0">
                             <tbody><tr>
                             <td class="sample_td1" height="25">Business Name</td>
-                            <td><input name="company" type="text" id="company" maxlength="80" value=""></td>
+                            <td><input name="company" type="text" id="pack_businessName" maxlength="80" value=""></td>
                             </tr>
                             <tr>
                             <td>Your Name</td>
-                            <td><input name="name" type="text" id="name" maxlength="80" value=""></td>
+                            <td><input name="name" type="text" id="pack_name" maxlength="80" value=""></td>
                             </tr>
                             <tr>
                             <td>Email</td>
-                            <td><input name="email" type="text" id="email" maxlength="80" value=""></td>
+                            <td><input name="email" type="text" id="pack_email" maxlength="80" value=""></td>
                             </tr>
                             <tr>
                             <td>Address</td>
-                            <td><input name="address" type="text" id="address" maxlength="80" value=""></td>
+                            <td><input name="address" type="text" id="pack_address" maxlength="80" value=""></td>
                             </tr>
                             <tr>
                             <td>Suburb</td>
-                            <td><input name="suburb" type="text" id="suburb" maxlength="80" value=""></td>
+                            <td><input name="suburb" type="text" id="pack_suburb" maxlength="80" value=""></td>
                             </tr>
                             <tr>
                             <td>State</td>
-                            <td><select name="state">
+                            <td><select name="state" id="pack_state">
 
                             <option value="VIC" selected="selected">VIC</option>
 
@@ -11079,22 +11081,22 @@
                             </tr>
                             <tr>
                             <td>Postcode</td>
-                            <td><input name="postcode" type="text" id="postcode" maxlength="4" value=""></td>
+                            <td><input name="postcode" type="text" id="pack_postcode" maxlength="4" value=""></td>
                             </tr>
                             <tr>
                             <td>Telephone</td>
-                            <td><input name="phone" type="text" id="phone" maxlength="25" value=""></td>
+                            <td><input name="phone" type="text" id="pack_phone" maxlength="25" value=""></td>
                             </tr>
                             <tr>
                             <td valign="top">Comment</td>
-                            <td><textarea name="comments" rows="6"></textarea></td>
+                            <td><textarea name="comments" rows="6" id="pack_comment"></textarea></td>
                             </tr>
 
 
 
                     <tr>
                         <td></td>
-                        <td valign="top"><input type="checkbox" name="sigin_in_newsletter" id="sigin_in_newsletter" value="yes" checked=""> Subscribe to our newsletter for special offers </td>
+                        <td valign="top"><input type="checkbox" name="sigin_in_newsletter" id="pack_subscribe" value="yes" checked=""> Subscribe to our newsletter for special offers </td>
                         </tr>
                     </tbody></table>
                         </td></tr><tr>
@@ -11105,7 +11107,7 @@
                             </tr>
                             <tr>
 
-                            <td align="right"><input type="submit" class="sample_submit blue_button " name="postemail" value="Submit" id="postemail"></td>
+                            <td align="right"><input type="button" class="sample_submit blue_button " onclick="packSendEmail()" value="Submit" id="postemail"></td>
                             </tr>
                         </tbody></table></td>
                     </tr>

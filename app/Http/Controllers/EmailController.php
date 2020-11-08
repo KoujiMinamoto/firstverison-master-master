@@ -76,23 +76,157 @@ use Illuminate\Support\Facades\Storage;
             } 
         }
 
+        closedir($file_path);
+        if ($sendFile = '') {
+            Mail::raw($content, function ($message) use ($toMail, $title) {
+                $message->subject($title);
+                $message->to($toMail);
+                
+                //$attachment = $sendFile; // 'files/'.
+                //在邮件中上传附件
+                //$message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+                // $message->attach($attachment,['as'=>'file1.doc']);
+            });
+    
+        } else {
+            Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+                $message->subject($title);
+                $message->to($toMail);
+                
+                $attachment = $sendFile; // 'files/'.
+                //在邮件中上传附件
+                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+                // $message->attach($attachment,['as'=>'file1.doc']);
+            });
+    
+        }
+
+        
+        return true;
+     }
 
 
+     function bookletsEmail(Request $request) {
+
+        $finishedBookSize = $request->input('finishedBookSize');
+        $orientation = $request->input('orientation');
+
+        $internalPages = $request->input('internalPages');
+        $cover = $request->input('cover');
+        $includingCover = $request->input('includingCover');
+        $internalPages2 = $request->input('internalPages2');
+        $cover2 = $request->input('cover2');
+        $binding = $request->input('binding');
+        $laminateCover = $request->input('laminateCover');
+        $coverSpecialFinish = $request->input('coverSpecialFinish');
+
+        $artworkSuppliedIn = $request->input('artworkSuppliedIn');
+        $proofRequired = $request->input('proofRequired');
+        $quality = $request->input('quality');
+        $jobDescription = $request->input('jobDescription');
+        $deliveryPostcode = $request->input('deliveryPostcode');
+        $businessName = $request->input('businessName');
+        $name = $request->input('name');
+
+        $email = $request->input('email');
+        $telephone = $request->input('telephone');
+        $way = $request->input('way');
+        $subscribe = $request->input('subscribe');
+        $date = $request->input('currentdate');
+
+        if ($subscribe == true) {
+            $subscribe = "yes";
+        } else {
+            $subscribe = "no";
+        }
+        $title = $contactDate." booklets message";
+        // 获取邮箱内容
+        $content = "Finished Book Size: ".$finishedBookSize."\n";
+        $content = $content."Orientation: ".$orientation."\n";
+        $content = $content . "Internal Pages: " . $internalPages . "\n";
+        $content = $content . "Cover: " . $cover . "\n";
+        $content = $content . "Number of pages including cover: " . $includingCover . "\n";
+        $content = $content . "Internal Pages: " . $internalPages2 . "\n";
+        $content = $content . "Cover: " . $cover2 . "\n";
+        $content = $content . "Binding: " . $binding . "\n";
+        $content = $content . "Laminate Cover: " . $laminateCover . "\n";
+
+        $content = $content . "Cover Special Finish: " . $coverSpecialFinish . "\n";
+        $content = $content . "Artwork Supplied In: " . $artworkSuppliedIn . "\n";
+        $content = $content . "Proof Required: " . $proofRequired . "\n";
+        $content = $content . "Quantity: " . $quality . "\n";
+        $content = $content . "Job Description: " . $jobDescription . "\n";
+        $content = $content . "Delivery Postcode: " . $deliveryPostcode . "\n";
+        $content = $content . "Business Name:: " . $businessName . "\n";
+
+        $content = $content . "Your Name: " . $name . "\n";
+        $content = $content . "Email: " . $email . "\n";
+        $content = $content . "Telephone: " . $telephone . "\n";
+        $content = $content . "How did you find us: " . $way . "\n";
+        $content = $content . "Subscribe to our newsletter for special offers: " . $subscribe . "\n";
+
+        $toMail = 'anmouer@163.com';
+
+        $change = dir('files');
+        while ($file = $change ->read()){  
+            if($file !="." && $file !=".."){ 
+                if(is_file('files/'.$file)){
+                     $files[]= $file;
+                     $sendFile = $file;
+                }else{
+                     
+                }               
+            } 
+        }
         closedir($file_path);
 
+        if ($sendFile = '') {
+            Mail::raw($content, function ($message) use ($toMail, $title) {
+                $message->subject($title);
+                $message->to($toMail);
+            });
+    
+        } else {
+            Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+                $message->subject($title);
+                $message->to($toMail);
+                
+                $attachment = $sendFile; 
+                //在邮件中上传附件
+                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+            });    
+        }
+        
+        return true;
 
-        Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+     }
+
+     function websiteEmail(Request $request) {
+
+        $contactName = $request->input('contactName');
+        $businessName = $request->input('businessName');
+
+        $phone = $request->input('phone');
+        $email = $request->input('email');
+
+        $title = $contactDate." website design message";
+        // 获取邮箱内容
+        $content = "Contact Name: ".$contactName."\n";
+        $content = $content."Business Name: ".$businessName."\n";
+        $content = $content . "Telephone: " . $phone . "\n";
+        $content = $content . "Email Address: " . $email . "\n";
+
+        $toMail = 'anmouer@163.com';
+
+        Mail::raw($content, function ($message) use ($toMail, $title) {
             $message->subject($title);
             $message->to($toMail);
-            
-            $attachment = $sendFile; // 'files/'.
-            //在邮件中上传附件
-            $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
-            // $message->attach($attachment,['as'=>'file1.doc']);
         });
 
         return true;
+
      }
+
 
 
 
@@ -151,8 +285,5 @@ use Illuminate\Support\Facades\Storage;
         }else{
             
         }
-
-        // return true;
     }
-
  }
