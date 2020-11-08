@@ -1094,3 +1094,8 @@ button.black_button:hover {
 #breadcrumbs a:hover{
 	color:#29abe2;
 }
+
+.pre_flight_div p,
+.pre_flight_div h4{
+ margin-bottom: 10px!important;
+}

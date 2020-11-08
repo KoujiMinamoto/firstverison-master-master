@@ -1591,7 +1591,7 @@
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">99 x 420m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf"
+                                    <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf"
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
@@ -1602,7 +1602,7 @@
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">148 x 420m(folded)</div>
                                     <div class="bro_dl"><a
-                                            href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
+                                            href="templates/1print_brochure_4pga5_296x210mm.pdf"
                                             target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
@@ -1612,7 +1612,7 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">210 x 594mm (folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf"
+                                    <div class="bro_dl"><a href="templates/1print_brochure_4pga4_420x297mm.pdf"
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="clear"></div>
@@ -1676,7 +1676,7 @@
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pgdl_210x297mm_z_fold.pdf"
+                                    <div class="bro_dl"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf"
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
@@ -1686,7 +1686,7 @@
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga5_296x210mm_z_fold.pdf"
+                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga5_296x210mm.pdf"
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
@@ -1696,7 +1696,7 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm_z_fold.pdf"
+                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm.pdf"
                                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="clear"></div>
@@ -1704,70 +1704,10 @@
                             </div>
 
 
-                            <div class="size_8rpages size_row">
-                                <div class="size_col1">
-                                    <img src="{{URL::asset('/image/brochure-8pages-roll.png') }} "
-                                         alt="8 Pages Roll Fold" title="8 Pages Roll Fold">
-                                    <div class="fold_title">8 Pages</div>
-                                    <div class="fold_info">Roll Fold</div>
-                                </div>
-                                <div class="bro_setup">
-                                    <a href="/product/brochures/a4-dl"
-                                       class="bro_link">
-                                    </a>
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">8 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_8pgdl_391x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
-                                </div>
-                                <div class="bro_setup">
-                                    <a href="/product/brochures/a4-a5"
-                                       class="bro_link">
-                                    </a>
-                                    <div class="bro_sizing">A5</div>
-                                    <div class="bro_title">8 Pages</div>
-                                    <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_8pga5_583x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
-                                </div>
-                                <div class="clear"></div>
-                                <div style="clear: both;"></div>
-                            </div>
+                            
 
 
-                            <div class="size_8cpages size_row">
-                                <div class="size_col1">
-                                    <img src="{{URL::asset('/image/brochure-8pages-c.png') }} "
-                                         alt="8 Pages Concertina Fold" title="8 Pages Concertina Fold">
-                                    <div class="fold_title">8 Pages</div>
-                                    <div class="fold_info">Concertina Fold</div>
-                                </div>
-                                <div class="bro_setup">
-                                    <a href="/product/brochures/a4-dl"
-                                       class="bro_link">
-                                    </a>
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">8 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a
-                                            href="templates/1print_brochure_8pgdl_391x210mm_concertina.pdf"
-                                            target="_blank">Download Template</a></div>
-                                </div>
-                                <div class="bro_setup">
-                                    <a href="#"
-                                       class="bro_link">
-                                    </a>
-                                    <div class="bro_sizing">A5</div>
-                                    <div class="bro_title">8 Pages</div>
-                                    <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                                    <div class="bro_dl"><a
-                                            href="templates/1print_brochure_8pga5_583x210mm_concertina.pdf"
-                                            target="_blank">Download Template</a></div>
-                                </div>
-                                <div class="clear"></div>
-                                <div style="clear: both;"></div>
-                            </div>
+                            
 
                         </div>
 
@@ -5230,7 +5170,7 @@
                                 </a>
                                 <div class="bro_sizing">DLX</div>
                                 <div class="bro_sizing_sml">99 x 210mm</div>
-                                <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf"
+                                <div class="bro_dl"><a href="templates/1print_flyer_dl_210x99mm.pdf"
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
@@ -5240,7 +5180,7 @@
                                 </a>
                                 <div class="bro_sizing">A6</div>
                                 <div class="bro_sizing_sml">105 x 148mm</div>
-                                <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf"
+                                <div class="bro_dl"><a href="templates/1print_flyer_a6_105x148mm.pdf"
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
@@ -5250,7 +5190,7 @@
                                 </a>
                                 <div class="bro_sizing">A5</div>
                                 <div class="bro_sizing_sml">148 x 210mm</div>
-                                <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf"
+                                <div class="bro_dl"><a href="templates/1print_flyer_a5_148x210mm.pdf"
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
@@ -5260,7 +5200,7 @@
                                 </a>
                                 <div class="bro_sizing">A4</div>
                                 <div class="bro_sizing_sml">210 x 297mm</div>
-                                <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf"
+                                <div class="bro_dl"><a href="templates/1print_flyer_a5_148x210mm.pdf"
                                                        target="_blank">Download
                                         Template</a></div>
                             </div>
@@ -6238,12 +6178,12 @@
                     <br/>
                     <div class="option_size_list letterhead_templates">
                         <div class="bro_setup" style="height:7rem;margin-left:0rem;margin-top:2rem">
-                            <a href="javascript:void(0);"
+                            <a href="templates/1print_letterhead_a4_210x297mm.pdf"
                                class="bro_link" style="height:7rem">
                             </a>
                             <div class="bro_sizing">A4</div>
                             <div class="bro_sizing_sml">210 x 297mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                            <div class="bro_dl"><a href="templates/1print_letterhead_a4_210x297mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
 
@@ -6785,7 +6725,7 @@
                             </a>
                             <div class="bro_sizing">DL</div>
                             <div class="bro_sizing_sml">99 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                            <div class="bro_dl"><a href="templates/1print_postcard_dl_99x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
@@ -6794,7 +6734,7 @@
                             </a>
                             <div class="bro_sizing">A6</div>
                             <div class="bro_sizing_sml">105 x 148mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                            <div class="bro_dl"><a href="templates/1print_postcard_a6_105x148mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
@@ -6803,7 +6743,7 @@
                             </a>
                             <div class="bro_sizing">A5</div>
                             <div class="bro_sizing_sml">148 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                            <div class="bro_dl"><a href="templates/1print_postcard_a5_148x210mm.pdf" target="_blank">Download
                                     Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
@@ -7407,7 +7347,7 @@
                         </a>
                         <div class="bro_sizing">A3</div>
                         <div class="bro_sizing_sml">297 x 420mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                        <div class="bro_dl"><a href="templates/1print_poster_a3_420x297mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
@@ -7416,7 +7356,7 @@
                         </a>
                         <div class="bro_sizing">A2</div>
                         <div class="bro_sizing_sml">420 x 594mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                        <div class="bro_dl"><a href="templates/1print_poster_a2_420x594mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
@@ -7425,7 +7365,7 @@
                         </a>
                         <div class="bro_sizing">A1</div>
                         <div class="bro_sizing_sml">594 x 841mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
+                        <div class="bro_dl"><a href="templates/1print_poster_a1_840x594mm.pdf" target="_blank">Download
                                 Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
@@ -7947,10 +7887,10 @@
                     <br style="">
                     <h3 style="padding-bottom: 0;">Short run presentation folders.</h3>
                     <p>For orders below our minimum quantity of 250 we now offer <a class="blue_link"
-                                                                                    href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/short-run-presentation-folders.php">Short
+                                                                                    >Short
                             Run Presentation Folders</a>. Custom quotes and special artwork templates are available <a
                             class="blue_link"
-                            href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/short-run-presentation-folders.php">here</a>.
+                            >here</a>.
                     </p>
                     <br style="">
                     <h3 style="padding-bottom: 0;">First impressions count.</h3>
@@ -8017,7 +7957,7 @@
                 <div id="u71355-10">
                     <p id="u71355-8"><span id="u71355">short run presentation folders now available.</span><span id="u71355-3"><br></span><span id="u71355-6">with minimum quantities starting at 50 units.<br></span>
                         <span id="u71386">
-            			<a class="nonblock nontext Button actAsDiv  excludeFromNormalFlow" id="buttonu71387" href="http://web.archive.org/web/20180903142853/http://www.1print.net.au/short-run-presentation-folders.php"><span class="actAsDiv clearfix grpelem" id="u71388-4"><span class="actAsPara">click here</span></span></a>
+            			<a class="nonblock nontext Button actAsDiv  excludeFromNormalFlow" id="buttonu71387" ><span class="actAsDiv clearfix grpelem" id="u71388-4"><span class="actAsPara">click here</span></span></a>
             		</span>
                     </p>
                 </div>
@@ -11486,17 +11426,17 @@
         <div class="text_holder">
             <div class="main_container">
             <div class="container_left">
-            <h1 class="no_padding">pre-flight checks</h1>
+            <h1 >pre-flight checks</h1>
             <p>What exactly is a Pre-Flight check? Pre-Flight is checking your supplied files to make sure they are ready to print.
         </p>
             <p>&nbsp;</p>
             <p>
-        Without carefully going over your files and running thorough checks, there may be a chance that something could go wrong and mistakes will be missed. You can be assured that we�re looking to catch problems and help you fix them before any printing begins.
+        Without carefully going over your files and running thorough checks, there may be a chance that something could go wrong and mistakes will be missed. You can be assured that we're looking to catch problems and help you fix them before any printing begins.
         </p>
 
         <h4 class="pre_flight_title">When we receive your files we check to ensure:</h4>
         
-        <p><span class="black_bold">The trim size specifications match the print order.</span> For example, if you�re ordering a DL flyer we will make sure your supplied file matches the correct dimensions.
+        <p><span class="black_bold">The trim size specifications match the print order.</span> For example, if you're ordering a DL flyer we will make sure your supplied file matches the correct dimensions.
         </p>
         <p>&nbsp;</p>
         <p>
@@ -11506,11 +11446,11 @@
         <p>&nbsp;</p>
         <p>
         <span class="black_bold">
-        All fonts, graphics, and other inserted elements are properly embedded into the PDF.</span> If we receive a file that contains fonts that we don�t have, the job may not print correctly
+        All fonts, graphics, and other inserted elements are properly embedded into the PDF.</span> If we receive a file that contains fonts that we don't have, the job may not print correctly
         </p><p>&nbsp;</p>
         <p>
         <span class="black_bold">
-        Color elements are saved in CMYK color mode.</span> Most graphical programs have the RGB setting as the default. Printing is a four-color (full-color) process. Make sure you�re using CMYK.
+        Color elements are saved in CMYK color mode.</span> Most graphical programs have the RGB setting as the default. Printing is a four-color (full-color) process. Make sure you're using CMYK.
         </p>
         <p>&nbsp;</p>
         <h4 class="pre_flight_title no_padding">If we do notice errors on your files...</h4>
@@ -11643,11 +11583,11 @@
                         <p>&nbsp;</p>
                         <div class="cms_template_holder">
                         <p style="font-size:17px;font-weight:bold;color:#323232">Templates</p>
-                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_4pgdl_198x210mm.pdf">Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm.pdf">6 Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm_z_fold.pdf">6 Page DL Template (Z-Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-02.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm.pdf">8 Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-03.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm_concertina.pdf">8 Page DL Template (Concertina Fold)</a></span></p>
+                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf">Page A5 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf">6 Page A5 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf">6 Page A5 Template (Z-Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-02.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf">8 Page A5 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-03.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf">8 Page A5 Template (Concertina Fold)</a></span></p>
                         </div>
                         <p>&nbsp;</p></div>
 
@@ -11736,7 +11676,7 @@
                         <img src="{{URL::asset('/image/product/brochure_folding_options_A3_to_A4.jpg')}}" border="0" alt="4 Page A4 Brochure"></p>
                         <p>The A4 Brochure is ideally suited to company price lists, product catalogue and retail presentations.</p>
                         <p>&nbsp;</p>
-                        <p>ts larger size ensures added impact and greater capacity for high-quality images, articulating your unique service proposition. The larger format allows businesses to use this product for <a href="http://web.archive.org/web/20180706110000/http://www.1print.net.au/brochures-printing">sales presentation supplements</a> and other purposes where later reading helps to reinforce the product and services being offered therein.</p>
+                        <p>ts larger size ensures added impact and greater capacity for high-quality images, articulating your unique service proposition. The larger format allows businesses to use this product for <a href="/product/brochures">sales presentation supplements</a> and other purposes where later reading helps to reinforce the product and services being offered therein.</p>
                         <p>&nbsp;</p>
                         <p>The
                         familiar size of A4 brochures make them a popular choice with businesses across
@@ -11753,9 +11693,9 @@
                         <div class="cms_template_holder">
                         <p style="font-size:17px;font-weight:bold;color:#323232">Templates</p>
                         <p>&nbsp;</p>
-                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_4pgdl_198x210mm.pdf">Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm.pdf">6 Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm_z_fold.pdf">6 Page DL Template (Z-Fold)</a></span></p>
+                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_4pga4_420x297mm.pdf">Page A4 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pga4_627x297mm.pdf">6 Page A4 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pga4_627x297mm.pdf">6 Page A4 Template (Z-Fold)</a></span></p>
                         </div>
                         <p>&nbsp;</p></div>
 
@@ -11872,11 +11812,11 @@
                         <div class="cms_template_holder">
                         <p style="font-size:17px;font-weight:bold;color:#323232">Templates</p>
                         <p>&nbsp;</p>
-                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_4pgdl_198x210mm.pdf">Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm.pdf">6 Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_6pgdl_210x297mm_z_fold.pdf">6 Page DL Template (Z-Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-02.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm.pdf">8 Page DL Template (Roll Fold)</a></span></p>
-                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-03.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="http://web.archive.org/web/20180312234510/http://www.1print.net.au/images/bro_links/1print_brochure_8pgdl_391x210mm_concertina.pdf">8 Page DL Template (Concertina Fold)</a></span></p>
+                        <p><span style="float:left"><img src="{{URL::asset('/image/brochure folds-01.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_4pga5_296x210mm.pdf">Page A5 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-04.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pga5_296x210mm.pdf">6 Page A5 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-05.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pga5_296x210mm.pdf">6 Page A5 Template (Z-Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-02.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pga5_296x210mm.pdf">8 Page A5 Template (Roll Fold)</a></span></p>
+                        <p style="clear: both;"><span style="float:left"><img src="{{URL::asset('/image/brochure folds-03.png') }}" border="0" width="28" height="28"></span><span style="float:left;margin-top:4px"><a href="templates/1print_brochure_6pga5_296x210mm.pdf">8 Page A5 Template (Concertina Fold)</a></span></p>
                         </div>
                         <p>&nbsp;</p>
                         <p>&nbsp;</p></div>
@@ -11991,7 +11931,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095611/http://www.1print.net.au/images/specs_templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
+                            <p><a href="templates/1print_flyer_dl_210x99mm.pdf" target="_blank">DL Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12025,7 +11965,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095537/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A6_105x148mm.pdf" target="_blank">A6 Template</a>
+                            <p><a href="templates/1print_flyer_a6_105x148mm.pdf" target="_blank">A6 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12061,7 +12001,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095501/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A5_148x210mm.pdf" target="_blank">A5 Template</a>
+                            <p><a href="templates/1print_flyer_a5_148x210mm.pdf" target="_blank">A5 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12101,7 +12041,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180724222514/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A4_210x297mm.pdf" target="_blank">A4 Template</a>
+                            <p><a href="templates/1print_flyer_a4_210x297mm.pdf" target="_blank">A4 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12185,7 +12125,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095611/http://www.1print.net.au/images/specs_templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
+                            <p><a href="templates/1print_flyer_dl_210x99mm.pdf" target="_blank">DL Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12219,7 +12159,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095537/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A6_105x148mm.pdf" target="_blank">A6 Template</a>
+                            <p><a href="templates/1print_flyer_dl_210x99mm.pdf" target="_blank">A6 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12255,7 +12195,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095501/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A5_148x210mm.pdf" target="_blank">A5 Template</a>
+                            <p><a href="templates/1print_flyer_a5_148x210mm.pdf" target="_blank">A5 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12295,7 +12235,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180724222514/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A4_210x297mm.pdf" target="_blank">A4 Template</a>
+                            <p><a href="templates/1print_flyer_a4_210x297mm.pdf" target="_blank">A4 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12379,7 +12319,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095611/http://www.1print.net.au/images/specs_templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
+                            <p><a href="templates/1Print_Flyer_DL_210x99mm.pdf" target="_blank">DL Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12413,7 +12353,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095537/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A6_105x148mm.pdf" target="_blank">A6 Template</a>
+                            <p><a href="templates/1print_flyer_a5_148x210mm.pdf" target="_blank">A6 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12449,7 +12389,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180726095501/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A5_148x210mm.pdf" target="_blank">A5 Template</a>
+                            <p><a href="templates/1print_flyer_a5_148x210mm.pdf" target="_blank">A5 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
@@ -12489,7 +12429,7 @@
                             <p>&nbsp;</p>
                             <div class="cms_template_holder">
                             <p>Template</p>
-                            <p><a href="http://web.archive.org/web/20180724222514/http://www.1print.net.au/images/specs_templates/1Print_Flyer_A4_210x297mm.pdf" target="_blank">A4 Template</a>
+                            <p><a href="templates/1print_flyer_a5_148x210mm.pdf" target="_blank">A4 Template</a>
                             </p>
                             </div>
                             <p>&nbsp;</p>
