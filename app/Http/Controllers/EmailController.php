@@ -50,7 +50,7 @@ use Illuminate\Support\Facades\Storage;
         $content = $content . "Way to find us: " . $mode . "\n";
         $content = $content . "Subscribe to our newsletter for special offers: " . $subscribe . "\n";
 
-        $toMail = 'sysy135673@gmail.com';
+        $toMail = 'anmouer@163.com';
 
         // $handler = opendir('files/');
         // $filename = readdir($handler);
@@ -58,7 +58,7 @@ use Illuminate\Support\Facades\Storage;
         // $file_base_name = basename($file_path);
         // $f_name = substr($file_base_name,0,strrpos($file_base_name,'.'));
         $change = dir('files');
-
+        $sendFile = 'empty';
         // while( ($filename = readdir($file_path)) != false ) {
         //     if( ($filename != ".") && ($filename != "..") ) {
         //         $test = $filename;
@@ -76,8 +76,8 @@ use Illuminate\Support\Facades\Storage;
             } 
         }
 
-        closedir($file_path);
-        if ($sendFile = '') {
+        
+        if ($sendFile = 'empty') {
             Mail::raw($content, function ($message) use ($toMail, $title) {
                 $message->subject($title);
                 $message->to($toMail);
@@ -101,7 +101,7 @@ use Illuminate\Support\Facades\Storage;
     
         }
 
-        
+        closedir($file_path);        
         return true;
      }
 
@@ -132,14 +132,14 @@ use Illuminate\Support\Facades\Storage;
         $telephone = $request->input('telephone');
         $way = $request->input('way');
         $subscribe = $request->input('subscribe');
-        $date = $request->input('currentdate');
+        $date = $request->input('date');
 
         if ($subscribe == true) {
             $subscribe = "yes";
         } else {
             $subscribe = "no";
         }
-        $title = $contactDate." booklets message";
+        $title = $date." booklets message";
         // 获取邮箱内容
         $content = "Finished Book Size: ".$finishedBookSize."\n";
         $content = $content."Orientation: ".$orientation."\n";
@@ -166,7 +166,9 @@ use Illuminate\Support\Facades\Storage;
         $content = $content . "Subscribe to our newsletter for special offers: " . $subscribe . "\n";
 
         $toMail = 'anmouer@163.com';
+        $sendFile = 'empty';
 
+        $file_path = opendir('files');
         $change = dir('files');
         while ($file = $change ->read()){  
             if($file !="." && $file !=".."){ 
@@ -178,9 +180,9 @@ use Illuminate\Support\Facades\Storage;
                 }               
             } 
         }
-        closedir($file_path);
+        
 
-        if ($sendFile = '') {
+        if ($sendFile = 'empty') {
             Mail::raw($content, function ($message) use ($toMail, $title) {
                 $message->subject($title);
                 $message->to($toMail);
@@ -196,7 +198,7 @@ use Illuminate\Support\Facades\Storage;
                 $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
             });    
         }
-        
+        closedir($file_path);
         return true;
 
      }
@@ -208,8 +210,8 @@ use Illuminate\Support\Facades\Storage;
 
         $phone = $request->input('phone');
         $email = $request->input('email');
-
-        $title = $contactDate." website design message";
+        $date = $request->input('date');
+        $title = $date." website design message";
         // 获取邮箱内容
         $content = "Contact Name: ".$contactName."\n";
         $content = $content."Business Name: ".$businessName."\n";
@@ -239,14 +241,14 @@ use Illuminate\Support\Facades\Storage;
         $phone = $request->input('phone');
         $comment = $request->input('comment');
         $subscribe = $request->input('subscribe');
-
+        $date = $request->input('date');
         if ($subscribe == true) {
             $subscribe = "yes";
         } else {
             $subscribe = "no";
         }
 
-        $title = $contactDate." sample pack";
+        $title = $date." sample pack";
         // 获取邮箱内容
         $content = "Business Name: ".$businessName."\n";
         $content = $content."Your Name: ".$name."\n";
