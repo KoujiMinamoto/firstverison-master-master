@@ -5,7 +5,8 @@
 </head>
     <body>
     <div class="head">
-        <a><span class="error_text" id="num">5</span> seconds back to homepage </a>
+        <a><span class="error_text" id="num">5</span> seconds back to homepage </a><br>
+        <a onclick="clickToHome()">Click <span class="error_text" id="clickJump">here</span> to homepage</a>
     </div>
     <div class="error_box">
         <img class="error_img" src="{{URL::asset('/image/error.png')}}" style="margin: 0 auto">
@@ -23,5 +24,9 @@
         }else{
             location='/home';
         }
+    }
+
+    function clickToHome() {
+        location='/home';
     }
 </script>

@@ -8,5 +8,12 @@
 }
 .head{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+.a{
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+#clickJump:hover{
+    cursor: pointer;
+    color: #0c025b;
 }
