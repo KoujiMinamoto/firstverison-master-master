@@ -159,7 +159,14 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
     $api->post('card','OrderController@addOrder');
 
     $api->post('contactUs','EmailController@contactEmail');
+    $api->post('booklets','EmailController@bookletsEmail');
+    $api->post('websiteDesign','EmailController@websiteDesignEmail');
+    $api->post('samplePack','EmailController@samplePackEmail');
+
     $api->post('uploadFile','EmailController@uploadFile');
+
+
+
 
     $api->get('getNumOfOrders','DashboardController@getNumOfOrders');
     $api->get('getNumOfClients','DashboardController@getNumOfClients');
