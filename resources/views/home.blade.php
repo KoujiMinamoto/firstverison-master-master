@@ -687,54 +687,12 @@
                                 </div>
                                 <div class="clear"></div>
                             </div>
-                            <div class="option_holder colour_option">
-                                <div class="option_icon_holder"></div>
-                                <div class="option_text_holder">
-                                    <div class="option_heading">Colour Options</div>
-                                    <ul>
-                                        <li>Printed from one to full colour</li>
-                                        <li>Pantone or metallic ink</li>
-                                        <li>Gloss or satin Machine varnish available</li>
-                                    </ul>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="option_holder bind_option">
-                                <div class="option_icon_holder"></div>
-                                <div class="option_text_holder">
-                                    <div class="option_heading">Binding Options</div>
-                                    <ul>
-                                        <li>Saddlestitch - Stapled at the spine</li>
-                                        <li>Perfect Bound with a flat edged spine</li>
-                                    </ul>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="option_holder effect_option">
-                                <div class="option_icon_holder"></div>
-                                <div class="option_text_holder">
-                                    <div class="option_heading">Special Effect Printing</div>
-                                    <ul>
-                                        <li>Embossing</li>
-                                        <li>Foil Stamping</li>
-                                        <li>Spot UV</li>
-                                    </ul>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
+                            
 
                         </div>
 
 
-                        <h3 class="padding_top">Machine varnish for a superior finish (offset only)</h3>
-                        <p>
-                            Machine vanishing ensures a silky smooth finish. We use this finish on booklets that have
-                            large areas of ink coverage to protect the product and reduce finger marking and scuffing or
-                            simply to enhance the look and feel of the finished product.
-                            <br/><a
-                                href="/contact"
-                                class="black_link_underline">Contact us for more information</a>
-                        </p>
+                        
                     </div>
                     <div class="clear"></div>
                 </div>
