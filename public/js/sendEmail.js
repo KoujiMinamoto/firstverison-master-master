@@ -24,8 +24,6 @@ function bookletsSendEmail() {
     let email = $("#booklets_email").val();
     let telephone = $("#booklets_telephone").val();
 
-    let file = $("#booklets_file").val();
-
     let way = $("#booklets_way").val();
     let subscribe = $("#booklets_subscribe").prop("checked");
 
@@ -35,7 +33,7 @@ function bookletsSendEmail() {
     let formData = new FormData();
 
   
-    let file = $("#contact_file1").val();
+    let file = $("#booklets_file").val();
     
     if (file == '') {
 
@@ -82,59 +80,59 @@ function bookletsSendEmail() {
             emailFileUp(formData);
 
         }
-         //get date
-        let date = new Date();
-        let seperator1 = "-";
-        let year = date.getFullYear();
-        let month = date.getMonth() + 1;
-        let strDate = date.getDate();
-        if (month >= 1 && month <= 9) {
-            month = "0" + month;
-        }
-        if (strDate >= 0 && strDate <= 9) {
-            strDate = "0" + strDate;
-        }
-        let currentdate = year + seperator1 + month + seperator1 + strDate;
-
-        $.ajax({
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-            type: "POST",
-            url: "api/booklets",
-            // processData: false,
-            // contentType: false,
-            dataType:'json',
-            data:{
-                finishedBookSize:finishedBookSize,
-                orientation:orientation,
-                internalPages:internalPages,
-                cover:cover,
-                includingCover:includingCover,
-                internalPages2:internalPages2,
-                cover2:cover2,
-                binding:binding,
-                laminateCover:laminateCover,
-                coverSpecialFinish:coverSpecialFinish,
-                artworkSuppliedIn:artworkSuppliedIn,
-                proofRequired:proofRequired,
-                quality:quality,
-                jobDescription:jobDescription,
-                deliveryPostcode:deliveryPostcode,
-                businessName:businessName,
-                name:name,
-                email:email,
-                telephone:telephone,
-                way:way,
-                subscribe:subscribe,
-                date:currentdate
-            },
-            success:function () {
-                alert("send email success");
-            },
-            error:function () {
-                alert("error");
-            }
-        });
     }
+     //get date
+     let date = new Date();
+     let seperator1 = "-";
+     let year = date.getFullYear();
+     let month = date.getMonth() + 1;
+     let strDate = date.getDate();
+     if (month >= 1 && month <= 9) {
+         month = "0" + month;
+     }
+     if (strDate >= 0 && strDate <= 9) {
+         strDate = "0" + strDate;
+     }
+     let currentdate = year + seperator1 + month + seperator1 + strDate;
+
+     $.ajax({
+         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+         type: "POST",
+         url: "../api/booklets",
+         // processData: false,
+         // contentType: false,
+         dataType:'json',
+         data:{
+             finishedBookSize:finishedBookSize,
+             orientation:orientation,
+             internalPages:internalPages,
+             cover:cover,
+             includingCover:includingCover,
+             internalPages2:internalPages2,
+             cover2:cover2,
+             binding:binding,
+             laminateCover:laminateCover,
+             coverSpecialFinish:coverSpecialFinish,
+             artworkSuppliedIn:artworkSuppliedIn,
+             proofRequired:proofRequired,
+             quality:quality,
+             jobDescription:jobDescription,
+             deliveryPostcode:deliveryPostcode,
+             businessName:businessName,
+             name:name,
+             email:email,
+             telephone:telephone,
+             way:way,
+             subscribe:subscribe,
+             date:currentdate
+         },
+         success:function () {
+             alert("send email success");
+         },
+         error:function () {
+             alert("error");
+         }
+     });
 }
 
 // website design
@@ -144,11 +142,24 @@ function websiteSendEmail() {
     let businessName = $("#website_businessName").val();
     let phone = $("#website_phone").val();
     let email = $("#website_email").val();
+    //get date
+    let date = new Date();
+    let seperator1 = "-";
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    let currentdate = year + seperator1 + month + seperator1 + strDate;
 
     $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
-        url: "api/websiteDesign",
+        url: "../api/websiteDesign",
         // processData: false,
         // contentType: false,
         dataType:'json',
@@ -156,7 +167,8 @@ function websiteSendEmail() {
             contactName:contactName,
             businessName:businessName,
             phone:phone,
-            email:email
+            email:email,
+            date:currentdate
         },
         success:function () {
             alert("send email success");
@@ -179,11 +191,24 @@ function packSendEmail() {
 
     let comment = $("#pack_comment").val();
     let subscribe = $("#pack_subscribe").prop("checked");
-
+     //get date
+     let date = new Date();
+     let seperator1 = "-";
+     let year = date.getFullYear();
+     let month = date.getMonth() + 1;
+     let strDate = date.getDate();
+     if (month >= 1 && month <= 9) {
+         month = "0" + month;
+     }
+     if (strDate >= 0 && strDate <= 9) {
+         strDate = "0" + strDate;
+     }
+     let currentdate = year + seperator1 + month + seperator1 + strDate;
+     
     $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
-        url: "api/samplePack",
+        url: "../api/samplePack",
         dataType:'json',
         data:{
             businessName:businessName,
@@ -197,6 +222,7 @@ function packSendEmail() {
             phone:phone,
             comment:comment,
             subscribe:subscribe,
+            date:currentdate
         },
         success:function () {
             alert("send email success");

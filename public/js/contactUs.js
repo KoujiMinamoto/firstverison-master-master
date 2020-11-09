@@ -63,50 +63,49 @@ function contactSendEmail() {
             contactFileUp(formData);
 
         }
-
-         //get date
-        let date = new Date();
-        let seperator1 = "-";
-        let year = date.getFullYear();
-        let month = date.getMonth() + 1;
-        let strDate = date.getDate();
-        if (month >= 1 && month <= 9) {
-            month = "0" + month;
-        }
-        if (strDate >= 0 && strDate <= 9) {
-            strDate = "0" + strDate;
-        }
-        let currentdate = year + seperator1 + month + seperator1 + strDate;
-
-        $.ajax({
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-            type: "POST",
-            url: "api/contactUs",
-            // processData: false,
-            // contentType: false,
-            dataType:'json',
-            data:{
-                product:product,
-                jobDescription:jobDescription,
-                postcode:postcode,
-                businessName:businessName,
-                name:name,
-                email:email,
-                telephone:telephone,
-                mode:mode,
-                subscribe:subscribe,
-                // formData,
-                data:currentdate
-            },
-            success:function () {
-                alert("send email success");
-            },
-            error:function () {
-                alert("error");
-            }
-        });
-        
+         
     }
+    //get date
+    let date = new Date();
+    let seperator1 = "-";
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    let currentdate = year + seperator1 + month + seperator1 + strDate;
+
+    $.ajax({
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "api/contactUs",
+        // processData: false,
+        // contentType: false,
+        dataType:'json',
+        data:{
+            product:product,
+            jobDescription:jobDescription,
+            postcode:postcode,
+            businessName:businessName,
+            name:name,
+            email:email,
+            telephone:telephone,
+            mode:mode,
+            subscribe:subscribe,
+            // formData,
+            data:currentdate
+        },
+        success:function () {
+            alert("send email success");
+        },
+        error:function () {
+            alert("error");
+        }
+    }); 
 }
 
 function contactFileUp(formData) {
