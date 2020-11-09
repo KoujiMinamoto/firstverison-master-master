@@ -169,11 +169,71 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="{{URL::asset('/image/3.jpg') }}" alt="New york" style="width:100%;">
+                <span class= "c-banner" style="display:inline-block;">
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
+                        <ul style="font-size:23px; color:#fff; line-height:28px;">
+                            <li style="list-style-type:disc;">400gsm premium artboard</li>
+                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
+                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">250</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">500</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">1000</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
+                            </div>
+                        </div>
+
+                        <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
+
+                        <p style="margin-top:15px; margin-left:10px">
+                            <span class="button_click_here" href="/product/businessCards">
+                                <span style="color:#fff">click here</span>
+                            </span>
+                        </p>
+                    </span>
+                    <img src="{{URL::asset('/image/gallery/pc1.jpg') }}" alt="New york" style="width:100%;">
                 </div>
 
                 <div class="carousel-item"  onclick="window.open('test');" style="cursor: pointer;">
-                    <img src="{{URL::asset('/image/a4_l1-01.jpg') }}" alt="New york" style="width:100%;">
+                <span class= "c-banner" style="display:inline-block;">
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
+                        <ul style="font-size:23px; color:#fff; line-height:28px;">
+                            <li style="list-style-type:disc;">400gsm premium artboard</li>
+                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
+                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">250</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">500</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">1000</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
+                            </div>
+                        </div>
+
+                        <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
+
+                        <p style="margin-top:15px; margin-left:10px">
+                            <span class="button_click_here" href="/product/businessCards">
+                                <span style="color:#fff">click here</span>
+                            </span>
+                        </p>
+                    </span>
+                    <img src="{{URL::asset('/image/gallery/s1.jpeg') }}" alt="New york" style="width:100%;">
                 </div>
             </div>
 
