@@ -47,7 +47,7 @@
 <!-- <div id="container"> -->
 <div class="homepage" id="homepage_div_id" style="display:block">
     <!-- header -->
-    <div class="header_background" id="header_id">
+    <div class="header_background" id="header_id" style="box-shadow: 0px 1px 8px 2px #eee!important;">
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
             <img src="{{URL::asset('/image/yellowstar-logo.png') }} " width=200px height=96% style="margin-left: 10px;">
@@ -117,8 +117,9 @@
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
-    <div id="header_shadow" style="display: block;"></div>
+    <!-- <div id="header_shadow" style="display: block;"></div> -->
     </div>
+
 
 
     <!-- diaplayBox -->
@@ -10556,11 +10557,13 @@
             <form class="login_div_form1">
 
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
+                <div class="checkmsg" id="usernamecheck"></div>
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
+                <div class="checkmsg" id="passwordnamecheck"></div>
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
-                <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
-
+                <button class="login_div_submit" id="login_btn" align="center" onclick="userLogin()" type="button">Log in</button>
+            </form>
 
         </div>
         <div class="login_div_register_form">
@@ -10591,7 +10594,9 @@
 
             <div class="clear" style="padding-top: 40px"></div>
             <input id="forget_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
+            <div class="checkmsg" id="usernamecheck"></div>
             <input id="forget_email_id" class="login_div_un" type="email" align="center" placeholder="Email">
+            <div class="checkmsg" id="passwordnamecheck"></div>
             <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>
             <button class="login_div_submit" align="center">Send</button>
 
@@ -13020,10 +13025,18 @@
 
 <script type="text/javascript" style="">
  $(document).scroll(function() {
- var $buttonslide = $('.slider-controls')
- $buttonslide.css({display: $(this).scrollTop() < 300? "block":"none"});
- var $logo = $('#header_shadow');
-    // $logo.css({display: $(this).scrollTop() > 0? "block":"none"});
+//  var $buttonslide = $('.slider-controls')
+//  $buttonslide.css({display: $(this).scrollTop() < 300? "block":"none"});
+ var $logo = $('.header_background');
+ var  x =document.getElementsByClassName("header_background");
+    // $logo.css({box-shadow: $(this).scrollTop() > 300? "0 1px 8px 2px #eee!important;":"0 5px 15px 1px #777777!important;"});
+    //$logo.style({['box-shadow']: $(this).scrollTop() > 300? "0 1px 8px 2px #eee!important;":"0 5px 15px 1px #777777!important;"});
+    if ($(this).scrollTop() > 300){
+        //$logo.style['box-shadow']='0 5px 15px 1px #777777!important';
+        x[0].setAttribute('style', 'box-shadow: 0 5px 15px 1px #777777!important');
+    }else{
+        x[0].setAttribute('style', 'box-shadow: 0 1px 8px 2px #eee!important');
+    }
 	});
 </script>
 <script type="text/javascript">
@@ -13063,6 +13076,22 @@
             }
         );
     }); // end ready
+
+    
+
+    $(function(){
+
+	$('#login_username_id').keydown(function(event) {
+		if (event.keyCode == 13) {
+            $('#login_btn').click();
+		}
+    });
+    $('#login_password_id').keydown(function(event) {
+		if (event.keyCode == 13) {
+            $('#login_btn').click();
+		}
+	});
+    });
 
 
 </script>

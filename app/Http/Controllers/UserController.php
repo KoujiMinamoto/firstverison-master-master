@@ -79,6 +79,7 @@ class UserController extends Controller
         ]);
         $register = "success";
         return response()->json($register);
+        
       }
    }
 
