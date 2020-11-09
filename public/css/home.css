@@ -442,7 +442,7 @@ h1.hp_title {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.3rem;
+    margin-top: 0.01rem;
     margin-bottom:3rem;
     top:10.2rem;
 }
@@ -988,8 +988,10 @@ input.btn_search {
     width: 100%;
     position: sticky;
     top:0;
-    height: 10rem;
-
+    height: 10.1rem;
+    -moz-box-shadow: 0px 1px 8px 2px #eee;
+    -webkit-box-shadow: 0px 1px 8px 2px #eee;
+    box-shadow: 0px 1px 8px 2px #eee!important;
     margin-left: auto;
     margin-right: auto;
     background: white;

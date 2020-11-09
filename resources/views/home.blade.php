@@ -43,7 +43,7 @@
 <!-- <div id="container"> -->
 <div class="homepage" id="homepage_div_id" style="display:block">
     <!-- header -->
-    <div class="header_background" id="header_id">
+    <div class="header_background" id="header_id" style="box-shadow: 0px 1px 8px 2px #eee!important;">
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
             <img src="{{URL::asset('/image/yellowstar-logo.png') }} " width=200px height=96% style="margin-left: 10px;">
@@ -113,8 +113,9 @@
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
-    <div id="header_shadow" style="display: none;"></div>
+    <!-- <div id="header_shadow" style="display: block;"></div> -->
     </div>
+
 
 
     <!-- diaplayBox -->
@@ -164,11 +165,71 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="{{URL::asset('/image/3.jpg') }}" alt="New york" style="width:100%;">
+                <span class= "c-banner" style="display:inline-block;">
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
+                        <ul style="font-size:23px; color:#fff; line-height:28px;">
+                            <li style="list-style-type:disc;">400gsm premium artboard</li>
+                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
+                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">250</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">500</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">1000</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
+                            </div>
+                        </div>
+
+                        <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
+
+                        <p style="margin-top:15px; margin-left:10px">
+                            <span class="button_click_here" href="/product/businessCards">
+                                <span style="color:#fff">click here</span>
+                            </span>
+                        </p>
+                    </span>
+                    <img src="{{URL::asset('/image/gallery/pc1.jpg') }}" alt="New york" style="width:100%;">
                 </div>
 
                 <div class="carousel-item"  onclick="window.open('test');" style="cursor: pointer;">
-                    <img src="{{URL::asset('/image/a4_l1-01.jpg') }}" alt="New york" style="width:100%;">
+                <span class= "c-banner" style="display:inline-block;">
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
+                        <ul style="font-size:23px; color:#fff; line-height:28px;">
+                            <li style="list-style-type:disc;">400gsm premium artboard</li>
+                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
+                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">250</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">500</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">1000</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
+                            </div>
+                        </div>
+
+                        <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
+
+                        <p style="margin-top:15px; margin-left:10px">
+                            <span class="button_click_here" href="/product/businessCards">
+                                <span style="color:#fff">click here</span>
+                            </span>
+                        </p>
+                    </span>
+                    <img src="{{URL::asset('/image/gallery/s1.jpeg') }}" alt="New york" style="width:100%;">
                 </div>
             </div>
 
@@ -10552,11 +10613,13 @@
             <form class="login_div_form1">
 
                 <input id="login_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
+                <div class="checkmsg" id="usernamecheck"></div>
                 <input id="login_password_id" class="login_div_pass" type="password" align="center"
                        placeholder="Password">
+                <div class="checkmsg" id="passwordnamecheck"></div>
                 <p class="login_div_forgot" align="center" onclick="clickHeader(10)"><a href="#">Forgot Password?</a></p>
-                <button class="login_div_submit" align="center" onclick="userLogin()" type="button">Log in</button>
-
+                <button class="login_div_submit" id="login_btn" align="center" onclick="userLogin()" type="button">Log in</button>
+            </form>
 
         </div>
         <div class="login_div_register_form">
@@ -10587,7 +10650,9 @@
 
             <div class="clear" style="padding-top: 40px"></div>
             <input id="forget_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
+            <div class="checkmsg" id="usernamecheck"></div>
             <input id="forget_email_id" class="login_div_un" type="email" align="center" placeholder="Email">
+            <div class="checkmsg" id="passwordnamecheck"></div>
             <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>
             <button class="login_div_submit" align="center">Send</button>
 
@@ -10598,7 +10663,7 @@
     <div class="register_div" id="register_div_id" style="display:none">
         <div class="login_title">
 		    <h3>welcome.</h3>
-		    <h1>please sign in</h1>
+		    <h1>please register</h1>
 		</div>
         <div class="register_div_user">
             <!-- <header class="register_div_user_header">
@@ -12570,14 +12635,7 @@
                     </li>
                 </ul>
             </div><!-- az-header-menu -->
-            <div class="az-header-right">
-                <a href="" class="az-header-search-link"><i class="fas fa-search"></i></a>
-                <div class="az-header-message">
-                    <a href="#"><i class="typcn typcn-messages"></i></a>
-                </div><!-- az-header-message -->
-
-
-            </div><!-- az-header-right -->
+            
         </div><!-- container -->
     </div>
 
@@ -12699,17 +12757,20 @@
                 <div class="table1"
                      style="padding: 0px;margin: 15px; position: relative; margin-left: auto; margin-right: auto; width: 100%;border:0.5px solid gray;">
                     <div class="card-header">
-                        <h6 class="card-title">Page Views by Page Title</h6>
+                        <h6 class="card-title">Page Views by All Orders</h6>
                         <p class="card-text">This report is based on 100% of sessions.</p>
                     </div><!-- card-header -->
                     <div class="card-body">
                         <table id="table_orders" class="display">
                             <thead>
                             <tr>
-                                <th>User</th>
-                                <th>Price</th>
+                                <th>User Name</th>
+                                <th>Order Price</th>
                                 <th>Order Id</th>
+                                <th>Order Description</th>
+                                <th>Order Email</th>
                                 <th>Order Type</th>
+                                <th>Date</th>
                             </tr>
                             </thead>
                         </table>
@@ -12719,7 +12780,7 @@
                 <div class="table1"
                      style="padding: 0px;margin: 15px; position: relative; margin-left: auto; margin-right: auto; width: 100%;border:0.5px solid gray;">
                     <div class="card-header">
-                        <h6 class="card-title">Page Views by Page Title</h6>
+                        <h6 class="card-title">Page Views by All users</h6>
                         <p class="card-text">This report is based on 100% of sessions.</p>
                     </div><!-- card-header -->
                     <div class="card-body">
@@ -12727,9 +12788,10 @@
                             <thead>
                             <tr>
                                 <th>User</th>
-                                <th>Price</th>
-                                <th>Order Id</th>
-                                <th>Order Type</th>
+                                <th>User Type</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Phone Number</th>
                             </tr>
                             </thead>
                         </table>
@@ -12802,14 +12864,7 @@
                     </li>
                 </ul>
             </div><!-- az-header-menu -->
-            <div class="az-header-right">
-                <a href="" class="az-header-search-link"><i class="fas fa-search"></i></a>
-                <div class="az-header-message">
-                    <a href="#"><i class="typcn typcn-messages"></i></a>
-                </div><!-- az-header-message -->
-
-
-            </div><!-- az-header-right -->
+            
         </div><!-- container -->
     </div>
 
@@ -12924,7 +12979,7 @@
                 <div class="table1"
                      style="padding: 0px;margin: 15px; position: relative; margin-left: auto; margin-right: auto; width: 100%;border:0.5px solid gray;">
                     <div class="card-header">
-                        <h6 class="card-title">Page Views by Page Title</h6>
+                        <h6 class="card-title">Page Views by All Orders</h6>
                         <p class="card-text">This report is based on 100% of sessions.</p>
                     </div><!-- card-header -->
                     <div class="card-body">
@@ -12932,7 +12987,10 @@
                             <thead>
                             <tr>
                                 <th>Name</th>
+                                <th>Order Price</th>
                                 <th>Order Id</th>
+                                <th>Order Description</th>
+                                <th>Order Email</th>
                                 <th>Order Type</th>
                                 <th>Date</th>
                             </tr>
@@ -13023,10 +13081,18 @@
 
 <script type="text/javascript" style="">
  $(document).scroll(function() {
- var $buttonslide = $('.slider-controls')
- $buttonslide.css({display: $(this).scrollTop() < 300? "block":"none"});
- var $logo = $('#header_shadow');
-    $logo.css({display: $(this).scrollTop() > 300? "block":"none"});
+//  var $buttonslide = $('.slider-controls')
+//  $buttonslide.css({display: $(this).scrollTop() < 300? "block":"none"});
+ var $logo = $('.header_background');
+ var  x =document.getElementsByClassName("header_background");
+    // $logo.css({box-shadow: $(this).scrollTop() > 300? "0 1px 8px 2px #eee!important;":"0 5px 15px 1px #777777!important;"});
+    //$logo.style({['box-shadow']: $(this).scrollTop() > 300? "0 1px 8px 2px #eee!important;":"0 5px 15px 1px #777777!important;"});
+    if ($(this).scrollTop() > 300){
+        //$logo.style['box-shadow']='0 5px 15px 1px #777777!important';
+        x[0].setAttribute('style', 'box-shadow: 0 5px 15px 1px #777777!important');
+    }else{
+        x[0].setAttribute('style', 'box-shadow: 0 1px 8px 2px #eee!important');
+    }
 	});
 </script>
 <script type="text/javascript">
@@ -13066,6 +13132,22 @@
             }
         );
     }); // end ready
+
+    
+
+    $(function(){
+
+	$('#login_username_id').keydown(function(event) {
+		if (event.keyCode == 13) {
+            $('#login_btn').click();
+		}
+    });
+    $('#login_password_id').keydown(function(event) {
+		if (event.keyCode == 13) {
+            $('#login_btn').click();
+		}
+	});
+    });
 
 
 </script>

@@ -11,6 +11,10 @@
 #register_div_id td {
     padding: 4px 0;
 }
+.register_div input:-ms-input-placeholder {
+    font-weight: normal!important;
+
+}
 .reg_col1 {
     width: 160px;
 }
@@ -61,12 +65,12 @@ a.blue_link {
 }
 
 .register_div_form {
-    margin-top: 40px;
+    margin-top: 2px;
     border-radius: 6px;
     overflow: hidden;
     opacity: 0;
     transform: translate3d(0, 500px, 0);
-    animation: arrive 500ms ease-in-out 0.9s forwards;
+    animation: arrive 0ms ease-in-out 0.01s forwards;
 }
 
 .register_div_form--no {

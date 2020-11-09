@@ -511,8 +511,11 @@ function footerPosition(){
 
 //user login  need to move to a new file
 function userLogin(){
-    if ($('.login_div_un').val() == "" || $('.login_div_pass').val() == "") {
-        alert("username or password can't be space");
+    clearMsg();
+    if ($('.login_div_un').val() == "") {
+        document.getElementById('usernamecheck').innerHTML='Please enter your username';
+    }else if ($('.login_div_pass').val() == ""){
+        document.getElementById('passwordnamecheck').innerHTML='Please enter your password';
     } else {
         let logininfo = {"username":'',"password":''};
         logininfo.username = $('.login_div_un').val();
@@ -547,9 +550,9 @@ function userLogin(){
                     }
 
                 }else if (msg.logincheck == false) {
-                    alert("username or password is wrong");
+                    document.getElementById('passwordnamecheck').innerHTML="username or password is wrong";
                 }else {
-                    alert("unknow error");
+                    document.getElementById('passwordnamecheck').innerHTML="username or password is wrong";
                 }
             },
             error: function (XMLHttpRequest, textStatus, thrownError) {
@@ -622,10 +625,13 @@ function userRegister() {
         dataType:'json',
         data: register,
         success: function (msg) {
-            if (msg == "success") {
-                alert("register success")
+            console.log(msg);
+            if (msg[0] == "success") {
+                alert("register success");
+                console.log(reyes);
+                clickHeader(8);
             }else if (msg == "repeat") {
-                alert("the username is used by others");
+                document.getElementById('usernamecheckmsg').innerHTML="the username is used by others";
             }else {
                 alert("unknow error");
             }
@@ -639,9 +645,9 @@ function userRegister() {
 
 function clearMsg() {
     document.getElementById('usernamecheckmsg').innerHTML='';
-
+    document.getElementById('usernamecheck').innerHTML='';
     document.getElementById('emailcheckmsg').innerHTML='';
-
+    document.getElementById('passwordnamecheck').innerHTML='';
     document.getElementById('passwdcheckmsg').innerHTML='';
 
     document.getElementById('phonenumcheckmsg').innerHTML='';
@@ -658,4 +664,6 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
 
