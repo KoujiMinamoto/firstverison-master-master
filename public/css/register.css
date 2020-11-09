@@ -11,6 +11,10 @@
 #register_div_id td {
     padding: 4px 0;
 }
+.register_div input:-ms-input-placeholder {
+    font-weight: normal!important;
+
+}
 .reg_col1 {
     width: 160px;
 }

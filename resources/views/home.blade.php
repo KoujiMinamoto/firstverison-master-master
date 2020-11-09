@@ -117,7 +117,7 @@
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
-    <div id="header_shadow" style="display: none;"></div>
+    <div id="header_shadow" style="display: block;"></div>
     </div>
 
 
@@ -10602,7 +10602,7 @@
     <div class="register_div" id="register_div_id" style="display:none">
         <div class="login_title">
 		    <h3>welcome.</h3>
-		    <h1>please sign in</h1>
+		    <h1>please register</h1>
 		</div>
         <div class="register_div_user">
             <!-- <header class="register_div_user_header">
@@ -12574,14 +12574,7 @@
                     </li>
                 </ul>
             </div><!-- az-header-menu -->
-            <div class="az-header-right">
-                <a href="" class="az-header-search-link"><i class="fas fa-search"></i></a>
-                <div class="az-header-message">
-                    <a href="#"><i class="typcn typcn-messages"></i></a>
-                </div><!-- az-header-message -->
-
-
-            </div><!-- az-header-right -->
+            
         </div><!-- container -->
     </div>
 
@@ -12703,17 +12696,20 @@
                 <div class="table1"
                      style="padding: 0px;margin: 15px; position: relative; margin-left: auto; margin-right: auto; width: 100%;border:0.5px solid gray;">
                     <div class="card-header">
-                        <h6 class="card-title">Page Views by Page Title</h6>
+                        <h6 class="card-title">Page Views by All Orders</h6>
                         <p class="card-text">This report is based on 100% of sessions.</p>
                     </div><!-- card-header -->
                     <div class="card-body">
                         <table id="table_orders" class="display">
                             <thead>
                             <tr>
-                                <th>User</th>
-                                <th>Price</th>
+                                <th>User Name</th>
+                                <th>Order Price</th>
                                 <th>Order Id</th>
+                                <th>Order Description</th>
+                                <th>Order Email</th>
                                 <th>Order Type</th>
+                                <th>Date</th>
                             </tr>
                             </thead>
                         </table>
@@ -12723,7 +12719,7 @@
                 <div class="table1"
                      style="padding: 0px;margin: 15px; position: relative; margin-left: auto; margin-right: auto; width: 100%;border:0.5px solid gray;">
                     <div class="card-header">
-                        <h6 class="card-title">Page Views by Page Title</h6>
+                        <h6 class="card-title">Page Views by All users</h6>
                         <p class="card-text">This report is based on 100% of sessions.</p>
                     </div><!-- card-header -->
                     <div class="card-body">
@@ -12731,9 +12727,10 @@
                             <thead>
                             <tr>
                                 <th>User</th>
-                                <th>Price</th>
-                                <th>Order Id</th>
-                                <th>Order Type</th>
+                                <th>User Type</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Phone Number</th>
                             </tr>
                             </thead>
                         </table>
@@ -12806,14 +12803,7 @@
                     </li>
                 </ul>
             </div><!-- az-header-menu -->
-            <div class="az-header-right">
-                <a href="" class="az-header-search-link"><i class="fas fa-search"></i></a>
-                <div class="az-header-message">
-                    <a href="#"><i class="typcn typcn-messages"></i></a>
-                </div><!-- az-header-message -->
-
-
-            </div><!-- az-header-right -->
+            
         </div><!-- container -->
     </div>
 
@@ -12928,7 +12918,7 @@
                 <div class="table1"
                      style="padding: 0px;margin: 15px; position: relative; margin-left: auto; margin-right: auto; width: 100%;border:0.5px solid gray;">
                     <div class="card-header">
-                        <h6 class="card-title">Page Views by Page Title</h6>
+                        <h6 class="card-title">Page Views by All Orders</h6>
                         <p class="card-text">This report is based on 100% of sessions.</p>
                     </div><!-- card-header -->
                     <div class="card-body">
@@ -12936,7 +12926,10 @@
                             <thead>
                             <tr>
                                 <th>Name</th>
+                                <th>Order Price</th>
                                 <th>Order Id</th>
+                                <th>Order Description</th>
+                                <th>Order Email</th>
                                 <th>Order Type</th>
                                 <th>Date</th>
                             </tr>
@@ -13030,7 +13023,7 @@
  var $buttonslide = $('.slider-controls')
  $buttonslide.css({display: $(this).scrollTop() < 300? "block":"none"});
  var $logo = $('#header_shadow');
-    $logo.css({display: $(this).scrollTop() > 300? "block":"none"});
+    // $logo.css({display: $(this).scrollTop() > 0? "block":"none"});
 	});
 </script>
 <script type="text/javascript">

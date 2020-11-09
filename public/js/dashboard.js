@@ -402,7 +402,10 @@ function initDashboard(msg) {
             { data: "order_user" },
             { data: "order_price" },
             { data: "order_id" },
-            { data: "order_type" }
+            { data: "order_description" },
+            { data: "order_email" },
+            { data: "order_type" },
+            { data: "order_date" }
         ]
     } );
     $('#table_users').DataTable( {
@@ -415,6 +418,7 @@ function initDashboard(msg) {
                 { data: "user_name" },
                 { data: "user_type" },
                 { data: "user_email" },
+                { data: "user_address" },
                 { data: "user_phonenum" }
             ]
     } );
@@ -437,7 +441,10 @@ function initDashboard(msg) {
             { data: "order_user" },
             { data: "order_price" },
             { data: "order_id" },
-            { data: "order_type" }
+            { data: "order_description" },
+            { data: "order_email" },
+            { data: "order_type" },
+            { data: "order_date" }
         ]
     } );
 
