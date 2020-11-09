@@ -229,7 +229,7 @@
                             </span>
                         </p>
                     </span>
-                    <img src="{{URL::asset('/image/gallery/s1.jpeg') }}" alt="New york" style="width:100%;">
+                    <img src="{{URL::asset('/image/gallery/test23.jpg') }}" alt="New york" style="width:100%;">
                 </div>
             </div>
 
