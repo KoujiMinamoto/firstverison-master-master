@@ -27,7 +27,7 @@ function bookletsSendEmail() {
     let file = $("#booklets_file").val();
 
     let way = $("#booklets_way").val();
-    let subscribe = $("#booklets_subscribe").val();
+    let subscribe = $("#booklets_subscribe").prop("checked");
 
     
     // upload file
@@ -99,7 +99,7 @@ function bookletsSendEmail() {
         $.ajax({
             headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
             type: "POST",
-            url: "api/contactUs",
+            url: "api/booklets",
             // processData: false,
             // contentType: false,
             dataType:'json',
@@ -148,7 +148,7 @@ function websiteSendEmail() {
     $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
-        url: "api/contactUs",
+        url: "api/websiteDesign",
         // processData: false,
         // contentType: false,
         dataType:'json',
@@ -172,26 +172,31 @@ function packSendEmail() {
     let name = $("#pack_name").val();
     let email = $("#pack_email").val();
     let address = $("#pack_address").val();
-    let phone = $("#pack_suburb").val();
-    let email = $("#pack_state").val();
-    let phone = $("#pack_postcode").val();
-    let email = $("#pack_phone").val();
+    let subrub = $("#pack_suburb").val();
+    let state = $("#pack_state").val();
+    let postcode = $("#pack_postcode").val();
+    let phone = $("#pack_phone").val();
 
-    let email = $("#pack_comment").val();
-    let phone = $("#pack_subscribe").val();
+    let comment = $("#pack_comment").val();
+    let subscribe = $("#pack_subscribe").prop("checked");
 
     $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
-        url: "api/contactUs",
-        // processData: false,
-        // contentType: false,
+        url: "api/samplePack",
         dataType:'json',
         data:{
-            contactName:contactName,
             businessName:businessName,
+            name:name,
+            email:email,
+            address:address,
+            subrub:subrub,
+            state:state,
+
+            postcode:postcode,
             phone:phone,
-            email:email
+            comment:comment,
+            subscribe:subscribe,
         },
         success:function () {
             alert("send email success");

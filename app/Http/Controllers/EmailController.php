@@ -201,7 +201,7 @@ use Illuminate\Support\Facades\Storage;
 
      }
 
-     function websiteEmail(Request $request) {
+     function websiteDesignEmail(Request $request) {
 
         $contactName = $request->input('contactName');
         $businessName = $request->input('businessName');
@@ -227,7 +227,50 @@ use Illuminate\Support\Facades\Storage;
 
      }
 
+     public function samplePackEmail(Request $request){
 
+        $businessName = $request->input('businessName');
+        $name = $request->input('name');
+        $email = $request->input('email');
+        $address = $request->input('address');
+        $subrub = $request->input('subrub');
+        $state = $request->input('state');
+        $postcode = $request->input('postcode');
+        $phone = $request->input('phone');
+        $comment = $request->input('comment');
+        $subscribe = $request->input('subscribe');
+
+        if ($subscribe == true) {
+            $subscribe = "yes";
+        } else {
+            $subscribe = "no";
+        }
+
+        $title = $contactDate." sample pack";
+        // 获取邮箱内容
+        $content = "Business Name: ".$businessName."\n";
+        $content = $content."Your Name: ".$name."\n";
+        $content = $content . "Email: " . $email . "\n";
+        $content = $content . "Address: " . $address . "\n";
+        $content = $content."Suburb: ".$subrub."\n";
+        $content = $content . "State: " . $state . "\n";
+        $content = $content . "Postcode: " . $postcode . "\n";
+        $content = $content . "Telephone: ".$phone."\n";
+        $content = $content . "Comment: " . $comment . "\n";
+        $content = $content . "Subscribe: " . $subscribe . "\n";
+
+
+        $toMail = 'anmouer@163.com';
+
+        Mail::raw($content, function ($message) use ($toMail, $title) {
+            $message->subject($title);
+            $message->to($toMail);
+        });
+
+        return true;
+
+
+     }
 
 
 
