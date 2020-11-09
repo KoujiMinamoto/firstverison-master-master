@@ -1,0 +1,12 @@
+.error_box{
+    text-align: center;
+    display: block;
+}
+.error_text{
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: blue;
+}
+.head{
+    text-align: center;
+    font-size: 3rem;
+}
