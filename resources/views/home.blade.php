@@ -12618,12 +12618,12 @@
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
-                <a href="index.html" class="az-logo"><span></span> YELLOWSTAR</a>
+                <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
                 <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
             </div><!-- az-header-left -->
             <div class="az-header-menu">
                 <div class="az-header-menu-header">
-                    <a href="index.html" class="az-logo"><span></span> YELLOWSTAR</a>
+                    <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
                     <a href="" class="close">×</a>
                 </div><!-- az-header-menu-header -->
                 <ul class="nav">
@@ -12847,12 +12847,12 @@
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
-                <a href="index.html" class="az-logo"><span></span> YELLOWSTAR</a>
+                <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
                 <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
             </div><!-- az-header-left -->
             <div class="az-header-menu">
                 <div class="az-header-menu-header">
-                    <a href="index.html" class="az-logo"><span></span> YELLOWSTAR</a>
+                    <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
                     <a href="" class="close">×</a>
                 </div><!-- az-header-menu-header -->
                 <ul class="nav">
