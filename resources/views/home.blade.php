@@ -99,11 +99,11 @@
             <p>support</p>
             <ul id="support_ul" style="left:84.6rem">
                 <li class="support0" onclick="clickHeader(14)" id="support0_id">&nbsp;&nbsp;&nbsp;<a>Order Process</a></li>
-                <li class="support1" onclick="clickHeader(15)" id="support1_id">&nbsp;&nbsp;&nbsp;<a>Delivery</a></li>
-                <li class="support2" onclick="clickHeader(16)" id="support2_id">&nbsp;&nbsp;&nbsp;<a>File Guidelines</a></li>
-                <li class="support3" onclick="clickHeader(13)" id="support3_id">&nbsp;&nbsp;&nbsp;<a>Sample Pack</a></li>
-                <li class="support4" onclick="clickHeader(4)" id="support4_id">&nbsp;&nbsp;&nbsp;<a>FAQ</a></li>
-                <li class="support5" onclick="clickHeader(17)" id="support5_id">&nbsp;&nbsp;&nbsp;<a>Pre-flight Checks</a></li>
+{{--                <li class="support1" onclick="clickHeader(15)" id="support1_id">&nbsp;&nbsp;&nbsp;<a>Delivery</a></li>--}}
+{{--                <li class="support2" onclick="clickHeader(16)" id="support2_id">&nbsp;&nbsp;&nbsp;<a>File Guidelines</a></li>--}}
+{{--                <li class="support3" onclick="clickHeader(13)" id="support3_id">&nbsp;&nbsp;&nbsp;<a>Sample Pack</a></li>--}}
+{{--                <li class="support4" onclick="clickHeader(4)" id="support4_id">&nbsp;&nbsp;&nbsp;<a>FAQ</a></li>--}}
+{{--                <li class="support5" onclick="clickHeader(17)" id="support5_id">&nbsp;&nbsp;&nbsp;<a>Pre-flight Checks</a></li>--}}
                 <li class="support6" onclick="clickHeader(18)" id="support6_id">&nbsp;&nbsp;&nbsp;<a>Colour Critical</a></li>
             </ul>
         </div>
@@ -426,26 +426,24 @@
                     </a>
                 </div>
                 <div class="home_panel2">
-                    <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                    <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                         <div class="home_panel2_img">
                         </div>
                         <h4>Free Delivery</h4>
                         <p>Free delivery Australia wide for all products.</p>
-                        <a class="blue_link" href="javascript:void(0);"
-                        onclick="clickHeader(15)">read
-                            more+</a>
-                    </a>
+{{--                        <a class="blue_link" href="javascript:void(0);"--}}
+{{--                        onclick="clickHeader(15)">read--}}
+{{--                            more+</a>--}}
                 </div>
                 <div class="home_panel3">
-                    <a href="javascript:void(0);" onclick="clickHeader(4)">
+{{--                    <a href="javascript:void(0);" onclick="clickHeader(4)">--}}
                         <div class="home_panel3_img">
                         </div>
                         <h4>Need Help?</h4>
                         <p>Our friendly team is ready to offer you industry help or advice.</p>
-                        <a class="blue_link" href="javascript:void(0);"
-                        onclick="clickHeader(4)">read
-                            more+</a>
-                    </a>
+{{--                        <a class="blue_link" href="javascript:void(0);"--}}
+{{--                        onclick="clickHeader(4)">read--}}
+{{--                            more+</a>--}}
                 </div>
                 {{--                        <p class="home_content_p1">Yellow Star Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>--}}
                 {{--                        <p class="home_content_p2">You send it, We Print It. It's That Easy!</p>--}}
@@ -1784,14 +1782,14 @@
                             </a>
                         </div>
                         <div class="product_info_guidelines">
-                            <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                            <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                                 <div class="product_info_guidelines_img">
                                 </div>
                                 <h4>File Guidelines</h4>
                                 <p>Print specifications to achieve best printing results</p>
-                                <a class="blue_link"
-                                   href="javascript:void(0);" onclick="clickHeader(16)">read
-                                    more+</a>
+{{--                                <a class="blue_link"--}}
+{{--                                   href="javascript:void(0);" onclick="clickHeader(16)">read--}}
+{{--                                    more+</a>--}}
                             </a>
                         </div>
 
@@ -2374,14 +2372,14 @@
 
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                        </a><a class="blue_link"
-                        href="javascript:void(0);" onclick="clickHeader(16)">read
-                            more+</a><br/>
+{{--                        <a class="blue_link"--}}
+{{--                        href="javascript:void(0);" onclick="clickHeader(16)">read--}}
+{{--                            more+</a>--}}
                         <br/>
 
                     </div>
@@ -2921,26 +2919,26 @@
 
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                        </a><a class="blue_link"
-                               href="javascript:void(0);" onclick="clickHeader(16)">read
-                            more+</a>
+{{--                        <a class="blue_link"--}}
+{{--                               href="javascript:void(0);" onclick="clickHeader(16)">read--}}
+{{--                            more+</a>--}}
 
                     </div>
 
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                        </a><a class="blue_link"
-                        href="javascript:void(0);" onclick="clickHeader(15)">read
-                            more+</a>
+{{--                        <a class="blue_link"--}}
+{{--                        href="javascript:void(0);" onclick="clickHeader(15)">read--}}
+{{--                            more+</a>--}}
 
                     </div>
 
@@ -3587,15 +3585,14 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link"
-                            href="javascript:void(0);" onclick="clickHeader(16)">read
-                                more+</a>
-                        </a>
+{{--                            <a class="blue_link"--}}
+{{--                            href="javascript:void(0);" onclick="clickHeader(16)">read--}}
+{{--                                more+</a>--}}
                     </div>
 
 
@@ -4137,26 +4134,25 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link"
-                            href="javascript:void(0);" onclick="clickHeader(16)">read
-                                more+</a>
+{{--                            <a class="blue_link"--}}
+{{--                            href="javascript:void(0);" onclick="clickHeader(16)">read--}}
+{{--                                more+</a>--}}
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link"
-                            href="javascript:void(0);" onclick="clickHeader(15)">read
-                                more+</a>
-                        </a>
+{{--                            <a class="blue_link"--}}
+{{--                            href="javascript:void(0);" onclick="clickHeader(15)">read--}}
+{{--                                more+</a>--}}
                     </div>
 
 
@@ -4667,26 +4663,25 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link"
-                            href="javascript:void(0);" onclick="clickHeader(16)">read
-                                more+</a>
+{{--                            <a class="blue_link"--}}
+{{--                            href="javascript:void(0);" onclick="clickHeader(16)">read--}}
+{{--                                more+</a>--}}
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link"
-                            href="javascript:void(0);" onclick="clickHeader(15)">read
-                                more+</a>
-                        </a>
+{{--                            <a class="blue_link"--}}
+{{--                            href="javascript:void(0);" onclick="clickHeader(15)">read--}}
+{{--                                more+</a>--}}
                     </div>
 
                     <div class="clear"></div>
@@ -5129,12 +5124,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
                         </a>
                     </div>
 
@@ -5669,12 +5664,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
+<!--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>-->
                         </a>
                     </div>
                     <div class="product_info_templates">
@@ -6097,22 +6092,21 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
-                        </a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
                     </div>
 
 
@@ -6666,12 +6660,12 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a type="button" onclick="clickHeader(16)">
+{{--                        <a type="button" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
+{{--                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>--}}
                         </a>
                     </div>
 
@@ -7216,22 +7210,21 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a type="button" onclick="clickHeader(16)">
+{{--                        <a type="button" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
+{{--                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>--}}
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
-                        </a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
                     </div>
 
 
@@ -7782,22 +7775,21 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a type="button" onclick="clickHeader(16)">
+{{--                        <a type="button" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>
+{{--                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>--}}
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
-                        </a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
                     </div>
                     <div class="clear" id="anchor"></div>
 
@@ -9109,22 +9101,21 @@
                         </a>
                     </div>
                     <div class="product_info_guidelines">
-                        <a href="javascript:void(0);" onclick="clickHeader(16)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
                             <div class="product_info_guidelines_img">
                             </div>
                             <h4>File Guidelines</h4>
                             <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
                         </a>
                     </div>
                     <div class="product_info_delivery">
-                        <a href="javascript:void(0);" onclick="clickHeader(15)">
+{{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
                             <div class="product_info_delivery_img">
                             </div>
                             <h4>Free Delivery</h4>
                             <p>Free delivery Australia wide for all products</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>
-                        </a>
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
                     </div>
 
 
@@ -12301,13 +12292,13 @@
                     <div class="footer_heading">Support</div>
                     <ul>
                         <li><a onclick="clickHeader(14)">Order Process</a></li>
-                        <li><a onclick="clickHeader(15)">Delivery</a></li>
-                        <li><a onclick="clickHeader(16)">File Guidelines</a></li>
+{{--                        <li><a onclick="clickHeader(15)">Delivery</a></li>--}}
+{{--                        <li><a onclick="clickHeader(16)">File Guidelines</a></li>--}}
                         <!-- <li><a>FTP Accounts</a></li>
                         <li><a>Colour Critical</a></li> -->
-                        <li><a onclick="clickHeader(13)">Sample Pack</a></li>
-                        <li><a onclick="clickHeader(4)">FAQ</a></li>
-                        <li><a onclick="clickHeader(17)">Pre-flight Checks</a></li>
+{{--                        <li><a onclick="clickHeader(13)">Sample Pack</a></li>--}}
+{{--                        <li><a onclick="clickHeader(4)">FAQ</a></li>--}}
+{{--                        <li><a onclick="clickHeader(17)">Pre-flight Checks</a></li>--}}
                         <li><a onclick="clickHeader(18)">Colour Critical</a></li>
 
                         <li><a>Sitemap</a></li>
@@ -12580,9 +12571,9 @@
                     <a href="" class="close">×</a>
                 </div><!-- az-header-menu-header -->
                 <ul class="nav">
-                    <li class="nav-item" id="nav-dashboard_id" onclick="onclickHeader(4)">
-                        <a class="nav-link" type="button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
-                    </li>
+{{--                    <li class="nav-item" id="nav-dashboard_id" onclick="onclickHeader(4)">--}}
+{{--                        <a class="nav-link" type="button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>--}}
+{{--                    </li>--}}
 
                     <li class="nav-item" id="nav-profile_id" onclick="onclickHeader(3)">
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-bar-outline"></i> Profile</a>

@@ -30,9 +30,9 @@ Route::get( '/design', function () {
 Route::get( '/gallary', function () {
     return view('home');
 });
-Route::get( '/support', function () {
-    return view('home');
-});
+//Route::get( '/support', function () {
+//    return view('home');
+//});
 Route::get( '/aboutUs', function () {
     return view('home');
 });
@@ -105,18 +105,18 @@ Route::get( '/terms', function () {
 Route::get( '/privacy', function () {
     return view('home');
 });
-Route::get( '/sample', function () {
-    return view('home');
-});
+//Route::get( '/sample', function () {
+//    return view('home');
+//});
 Route::get( '/orderprocess', function () {
     return view('home');
 });
-Route::get( '/delivery', function () {
-    return view('home');
-});
-Route::get( '/fileGuidelines', function () {
-    return view('home');
-});
+//Route::get( '/delivery', function () {
+//    return view('home');
+//});
+//Route::get( '/fileGuidelines', function () {
+//    return view('home');
+//});
 Route::get( '/product/brochures/a4-dl', function () {
     return view('home');
 });
@@ -135,9 +135,9 @@ Route::get( '/product/posters/learnmore', function () {
 Route::get( '/product/postcards/learnmore', function () {
     return view('home');
 });
-Route::get( '/pre-flight-checks', function () {
-    return view('home');
-});
+//Route::get( '/pre-flight-checks', function () {
+//    return view('home');
+//});
 Route::get( '/colour-critical', function () {
     return view('home');
 });
