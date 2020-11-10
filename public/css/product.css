@@ -474,7 +474,7 @@ button.blue_button:hover {
 }
 
 .bro_setup a.bro_link{
-	background:url(../image/overlay-learn-more.png) no-repeat;
+	/*background:url(../image/overlay-learn-more.png) no-repeat;*/
 	opacity:0;
 	transition:opacity 0.5s;
 	-moz-transition: opacity 0.5s; /* Firefox 4 */
@@ -536,25 +536,34 @@ button.blue_button:hover {
 }
 .bro_setup .bro_sizing{
 	font-size: 36px;
-	line-height: 41px;
+	line-height: 68px;
 	color: #959595;
 	font-weight: bold;
 	text-align:center;
 	height:43px;
 	padding-top:5px;
 }
+.small_bro_sizing{
+    font-size: 36px;
+    line-height: 44px;
+    color: #959595;
+    font-weight: bold;
+    text-align:center;
+    height:43px;
+    padding-top:5px;
+}
 .bro_title {
 	text-align:center;
 	font-size: 14px;
 	font-weight: bold;
-	line-height: 14px;
-	height:20px;
+	line-height: 43px;
+	height:30px;
 	color:#323232;
 }
 .bro_sizing_sml {
 	text-align:center;
 	font-size: 12px;
-	line-height: 10px;
+	line-height: 15px;
 	color: #323232;
 	font-weight: normal;
 	height:23px;

@@ -237,7 +237,7 @@
 
         </div>
 
-        
+
     </div>
     <div class="slider-controls">
             <button type="button" class="displayBox_next" onclick="$('#myCarousel').carousel('next')"><i class="fas fa-chevron-right"></i></button>
@@ -687,12 +687,12 @@
                                 </div>
                                 <div class="clear"></div>
                             </div>
-                            
+
 
                         </div>
 
 
-                        
+
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -1411,7 +1411,7 @@
                                         </tr>
                                         <tr class="tr-pt15">
                                             <td class="one-line" style="margin-top:10px;" colspan="2">
-                                                <input type="button" class="submit_btn blue_button" 
+                                                <input type="button" class="submit_btn blue_button"
                                                        onclick="bookletsSendEmail()" id="postemail" value="submit"/>
                                             </td>
                                         </tr>
@@ -1560,34 +1560,19 @@
                                     <div class="fold_info">Single Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-dl"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="/templates/1print_brochure_4pgdl_198x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-a5"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="#"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_4pga4_420x297mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1601,35 +1586,19 @@
                                     <div class="fold_info">Landscape</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-dl" target="_blank"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">99 x 420m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-a5" target="_blank"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">148 x 420m(folded)</div>
-                                    <div class="bro_dl"><a
-                                            href="templates/1print_brochure_4pga5_296x210mm.pdf"
-                                            target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a3-a4" target="_blank"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">210 x 594mm (folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_4pga4_420x297mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1643,34 +1612,19 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-dl"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-a5"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga5_296x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a3-a4"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
 
                                 <div class="clear"></div>
@@ -1686,44 +1640,29 @@
                                     <div class="fold_info">Z Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-dl"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">DL</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pgdl_210x297mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a4-a5"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga5_296x210mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="bro_setup">
-                                    <a href="/product/brochures/a3-a4"
-                                       class="bro_link">
-                                    </a>
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
-                                    <div class="bro_dl"><a href="templates/1print_brochure_6pga4_627x297mm.pdf"
-                                                           target="_blank">Download Template</a></div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
 
 
-                            
 
 
-                            
+
+
 
                         </div>
 
@@ -2309,13 +2248,13 @@
     <div class="product_div" id="product_div_id_3" style="display:none">
         <div class="text_holder">
             <div class="main_product_container bcards_holder">
-            
+
                 <div id="breadcrumbs">
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/businessCards" >   
-                                 BusinessCards Printing 
+                            <a href="/product/businessCards" >
+                                 BusinessCards Printing
                             </a>
                 </div>
 
@@ -2840,8 +2779,8 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                        <a href="/product/businessCards" >   
-                                BusinessCards Printing 
+                        <a href="/product/businessCards" >
+                                BusinessCards Printing
                         </a>
             </div>
 
@@ -2912,64 +2851,34 @@
                 <div class="notepad_template_list">
 
                     <div class="bro_setup" style="margin-left: 0rem">
-                        <a href="/product/brochures/a4-dl"
-                           class="bro_link">
-                        </a>
                         <div class="bro_sizing">DL</div>
                         <div class="bro_title">Notepad</div>
                         <div class="bro_sizing_sml">99 x 210m<br/>(50 pages per pad)</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="/product/brochures/a4-dl"
-                           class="bro_link">
-                        </a>
                         <div class="bro_sizing">A6</div>
                         <div class="bro_title">Notepad</div>
                         <div class="bro_sizing_sml">105 x 148mm<br/>(50 pages per pad)</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="/product/brochures/a4-dl"
-                           class="bro_link">
-                        </a>
                         <div class="bro_sizing">A5</div>
                         <div class="bro_title">Notepad</div>
                         <div class="bro_sizing_sml">148 x 210mm<br/>(50 pages per pad)</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="/product/brochures/a4-dl"
-                           class="bro_link">
-                        </a>
                         <div class="bro_sizing">A4</div>
                         <div class="bro_title">Notepad</div>
                         <div class="bro_sizing_sml">210 x 297mm<br/>(50 pages per pad)</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="/product/brochures/a4-dl"
-                           class="bro_link">
-                        </a>
                         <div class="bro_sizing">A3</div>
                         <div class="bro_title">Deskpad</div>
                         <div class="bro_sizing_sml">297 x 420mm<br/>(25 pages per pad)</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup">
-                        <a href="/product/brochures/a4-dl"
-                           class="bro_link">
-                        </a>
                         <div class="bro_sizing">A2</div>
                         <div class="bro_title">Deskpad</div>
                         <div class="bro_sizing_sml">420 x 594mm<br/>(25 pages per pad)</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                 </div>
                 <div style="clear: both;"></div>
@@ -3458,8 +3367,8 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/directMarketing" >   
-                            DirectMarketing 
+                            <a href="/product/directMarketing" >
+                            DirectMarketing
                             </a>
                 </div>
                 <div class="container_left">
@@ -3539,7 +3448,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/docketBooks" >   
+                            <a href="/product/docketBooks" >
                             DocketBooks Printing
                             </a>
             </div>
@@ -3569,24 +3478,14 @@
                     <div class="option_size_list docket_templates">
 
                         <div class="bro_setup">
-                            <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                               class="bro_link">
-                            </a>
                             <div class="bro_sizing">A5</div>
                             <div class="bro_title" style="color:#959595;">Docket Book</div>
                             <div class="bro_sizing_sml">148 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                                   target="_blank">Download Template</a></div>
                         </div>
                         <div class="bro_setup">
-                            <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                               class="bro_link">
-                            </a>
                             <div class="bro_sizing">A4</div>
                             <div class="bro_title" style="color:#959595;">Docket Book</div>
                             <div class="bro_sizing_sml">210 x 297m</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                                   target="_blank">Download Template</a></div>
                         </div>
 
 
@@ -4018,7 +3917,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/envelopes" >   
+                            <a href="/product/envelopes" >
                             Envelopes Printing
                             </a>
             </div>
@@ -4078,44 +3977,24 @@
                         {{--                            <div class="fold_info">Plain</div>--}}
                         {{--                        </div>--}}
                         <div class="bro_setup">
-                            <a href="/product/brochures/a4-dl"
-                               class="bro_link">
-                            </a>
                             <div class="bro_sizing">DL</div>
                             <div class="bro_title">Envelope</div>
                             <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pgdl_198x210mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                         <div class="bro_setup">
-                            <a href="javascript:void(0);"
-                               class="bro_link">
-                            </a>
                             <div class="bro_sizing">DLX</div>
                             <div class="bro_title">Envelope</div>
                             <div class="bro_sizing_sml">148 x 210m(folded)</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                         <div class="bro_setup">
-                            <a href="/product/brochures/a4-dl"
-                               class="bro_link">
-                            </a>
                             <div class="bro_sizing">C5</div>
                             <div class="bro_title">Envelope</div>
                             <div class="bro_sizing_sml">210 x 297mm (folded)</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga4_420x297mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                         <div class="bro_setup">
-                            <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                               class="bro_link">
-                            </a>
                             <div class="bro_sizing">C4</div>
                             <div class="bro_title">Envelope</div>
                             <div class="bro_sizing_sml">148 x 420m(folded)</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                                   target="_blank">Download Template</a></div>
                         </div>
                         <div class="clear"></div>
                         <div style="clear: both;"></div>
@@ -4671,7 +4550,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/expressPrinting" >   
+                            <a href="/product/expressPrinting" >
                             Express Printing
                             </a>
             </div>
@@ -4723,59 +4602,29 @@
 
                 <div class="option_size_list express_templates" style="padding-top: 2rem">
                     <div class="bro_setup" style="height:7rem;margin-left:0rem">
-                        <a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf" target="_blank"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">DL</div>
+                        <div class="small_bro_sizing">DL</div>
                         <div class="bro_sizing_sml">99 x 210mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_dl_420x99.pdf"
-                                               target="_blank">Download Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A6</div>
+                        <div class="small_bro_sizing">A6</div>
                         <div class="bro_sizing_sml">105 x 148mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                               target="_blank">Download Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf" target="_blank"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A5</div>
+                        <div class="small_bro_sizing">A5</div>
                         <div class="bro_sizing_sml">148 x 210mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a4_594x210.pdf"
-                                               target="_blank">Download Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A4</div>
+                        <div class="small_bro_sizing">A4</div>
                         <div class="bro_sizing_sml">210 x 297mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                               target="_blank">Download Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A3</div>
+                        <div class="small_bro_sizing">A3</div>
                         <div class="bro_sizing_sml">297 x 420mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                               target="_blank">Download Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf" target="_blank"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
                         </div>
                         <div class="bro_sizing_sml">90 x 55mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_landscape_4pp_a5_420x148.5.pdf"
-                                               target="_blank">Download Template</a></div>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
@@ -5146,7 +4995,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/flyers" >   
+                            <a href="/product/flyers" >
                             Flyers Printing
                             </a>
             </div>
@@ -5181,44 +5030,20 @@
 
                         <div class="option_size_list flyer_templates" style="display:inline-flex">
                             <div class="bro_setup" style="height:7rem;margin:0rem">
-                                <a href="/product/flyers/learnmore"
-                                   class="bro_link" style="height:7rem">
-                                </a>
-                                <div class="bro_sizing">DLX</div>
+                                <div class="small_bro_sizing">DLX</div>
                                 <div class="bro_sizing_sml">99 x 210mm</div>
-                                <div class="bro_dl"><a href="templates/1print_flyer_dl_210x99mm.pdf"
-                                                       target="_blank">Download
-                                        Template</a></div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
-                                <a href="/product/flyers/learnmore"
-                                   class="bro_link" style="height:7rem">
-                                </a>
-                                <div class="bro_sizing">A6</div>
+                                <div class="small_bro_sizing">A6</div>
                                 <div class="bro_sizing_sml">105 x 148mm</div>
-                                <div class="bro_dl"><a href="templates/1print_flyer_a6_105x148mm.pdf"
-                                                       target="_blank">Download
-                                        Template</a></div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
-                                <a href="/product/flyers/learnmore"
-                                   class="bro_link" style="height:7rem">
-                                </a>
-                                <div class="bro_sizing">A5</div>
+                                <div class="small_bro_sizing">A5</div>
                                 <div class="bro_sizing_sml">148 x 210mm</div>
-                                <div class="bro_dl"><a href="templates/1print_flyer_a5_148x210mm.pdf"
-                                                       target="_blank">Download
-                                        Template</a></div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
-                                <a href="/product/flyers/learnmore"
-                                   class="bro_link" style="height:7rem">
-                                </a>
-                                <div class="bro_sizing">A4</div>
+                                <div class="small_bro_sizing">A4</div>
                                 <div class="bro_sizing_sml">210 x 297mm</div>
-                                <div class="bro_dl"><a href="templates/1print_flyer_a5_148x210mm.pdf"
-                                                       target="_blank">Download
-                                        Template</a></div>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -5754,7 +5579,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/flyers" >   
+                            <a href="/product/flyers" >
                             Flyers Printing
                             </a>
             </div>
@@ -6178,7 +6003,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/letterheads" >   
+                            <a href="/product/letterheads" >
                             Letterheads Printing
                             </a>
             </div>
@@ -6194,13 +6019,8 @@
                     <br/>
                     <div class="option_size_list letterhead_templates">
                         <div class="bro_setup" style="height:7rem;margin-left:0rem;margin-top:2rem">
-                            <a href="templates/1print_letterhead_a4_210x297mm.pdf"
-                               class="bro_link" style="height:7rem">
-                            </a>
-                            <div class="bro_sizing">A4</div>
+                            <div class="small_bro_sizing">A4</div>
                             <div class="bro_sizing_sml">210 x 297mm</div>
-                            <div class="bro_dl"><a href="templates/1print_letterhead_a4_210x297mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
 
                     </div>
@@ -6698,7 +6518,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/postcards" >   
+                            <a href="/product/postcards" >
                             Postcards Printing
                             </a>
             </div>
@@ -6736,41 +6556,21 @@
                     <div class="option_size_list postcard_templates" style="display:inline-flex">
 
                         <div class="bro_setup" style="margin-left:0rem;height:7rem;">
-                            <a href="/product/postcards/learnmore"
-                               class="bro_link" style="height:7rem">
-                            </a>
-                            <div class="bro_sizing">DL</div>
+                            <div class="small_bro_sizing">DL</div>
                             <div class="bro_sizing_sml">99 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_postcard_dl_99x210mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <a href="/product/postcards/learnmore"
-                               class="bro_link" style="height:7rem">
-                            </a>
-                            <div class="bro_sizing">A6</div>
+                            <div class="small_bro_sizing">A6</div>
                             <div class="bro_sizing_sml">105 x 148mm</div>
-                            <div class="bro_dl"><a href="templates/1print_postcard_a6_105x148mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <a href="/product/postcards/learnmore"
-                               class="bro_link" style="height:7rem">
-                            </a>
-                            <div class="bro_sizing">A5</div>
+                            <div class="small_bro_sizing">A5</div>
                             <div class="bro_sizing_sml">148 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_postcard_a5_148x210mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <a href="/product/postcards/learnmore"
-                               class="bro_link" style="height:7rem">
-                            </a>
-                            <div class="bro_sizing">2DL</div>
+                            <div class="small_bro_sizing">2DL</div>
                             <div class="bro_title" style="line-height:0.1rem;height:0.2rem">Envelope</div>
                             <div class="bro_sizing_sml" style="line-height:2rem;height:2.1rem">198 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
                     </div>
 
@@ -7293,7 +7093,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/posters" >   
+                            <a href="/product/posters" >
                             Posters Printing
                             </a>
             </div>
@@ -7358,49 +7158,24 @@
                 <div style="clear: both;"></div>
                 <div class="option_size_list poster_templates">
                     <div class="bro_setup" style="height:7rem;margin-left:0rem">
-                        <a href="/product/posters/learnmore"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A3</div>
+                        <div class="small_bro_sizing">A3</div>
                         <div class="bro_sizing_sml">297 x 420mm</div>
-                        <div class="bro_dl"><a href="templates/1print_poster_a3_420x297mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="/product/posters/learnmore"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A2</div>
+                        <div class="small_bro_sizing">A2</div>
                         <div class="bro_sizing_sml">420 x 594mm</div>
-                        <div class="bro_dl"><a href="templates/1print_poster_a2_420x594mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="/product/posters/learnmore"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A1</div>
+                        <div class="small_bro_sizing">A1</div>
                         <div class="bro_sizing_sml">594 x 841mm</div>
-                        <div class="bro_dl"><a href="templates/1print_poster_a1_840x594mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="/product/posters/learnmore"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">A0*</div>
+                        <div class="small_bro_sizing">A0*</div>
                         <div class="bro_sizing_sml">841 x 1189mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
-                        <a href="/product/posters/learnmore"
-                           class="bro_link" style="height:7rem">
-                        </a>
-                        <div class="bro_sizing">B0*</div>
+                        <div class="small_bro_sizing">B0*</div>
                         <div class="bro_sizing_sml">1000 x 1414mm</div>
-                        <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
-                                Template</a></div>
                     </div>
 
 
@@ -7872,7 +7647,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/posters" >   
+                            <a href="/product/posters" >
                             Posters Printing
                             </a>
             </div>
@@ -9233,7 +9008,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/withCompliments" >   
+                            <a href="/product/withCompliments" >
                             Compliments Printing
                             </a>
             </div>
@@ -9258,13 +9033,8 @@
                     <div class="option_size_list comp_templates">
 
                         <div class="bro_setup"style="height:7rem;margin-left:0rem;margin-top:2rem">
-                            <a href="javascript:void(0);"
-                               class="bro_link"style="height:7rem">
-                            </a>
-                            <div class="bro_sizing">DL</div>
+                            <div class="small_bro_sizing">DL</div>
                             <div class="bro_sizing_sml">99 x 210mm</div>
-                            <div class="bro_dl"><a href="templates/1print_brochure_4pga5_296x210mm.pdf" target="_blank">Download
-                                    Template</a></div>
                         </div>
 
                     </div>
@@ -9761,7 +9531,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/websiteDesign" >   
+                            <a href="/product/websiteDesign" >
                             Website Design/Digital Marketing
                             </a>
             </div>
@@ -9815,7 +9585,7 @@
                             <div class="field_title">Email Address<span style="color:red">*</span></div>
                             <div class="field_holder"><input id="website_email" type="text" maxlength="80" name="email"></div>
                         </div>
-                        <input id="postemail" class="submit_btn blue_button" type="button" name="postemail" value="Submit" 
+                        <input id="postemail" class="submit_btn blue_button" type="button" name="postemail" value="Submit"
                             onclick="websiteSendEmail()" style="margin:20px 0; width:98%;">
                     </form>
                 </div>
@@ -10051,7 +9821,7 @@
                 <button type="button" class="gallery_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
                 <button type="button" class="gallery_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
             </div>
-            
+
         </div>
 
         <div style="clear: both;"></div>
@@ -11456,12 +11226,12 @@
         </p>
 
         <h4 class="pre_flight_title">When we receive your files we check to ensure:</h4>
-        
+
         <p><span class="black_bold">The trim size specifications match the print order.</span> For example, if you're ordering a DL flyer we will make sure your supplied file matches the correct dimensions.
         </p>
         <p>&nbsp;</p>
         <p>
-        <span class="black_bold"> 
+        <span class="black_bold">
         The files are properly set up with the correct amount of  bleed.</span> If the pages are not set up correctly, images or text could get cut off when trimming the job to size.
         </p>
         <p>&nbsp;</p>
@@ -11501,7 +11271,7 @@
         <p>YellowStar Press offer free setup on some of our products. Free setup includes setting up basic print ready artwork based on your existing branding (supplied logo, text, photos etc.)<br style="">
         Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
         </p>
-        
+
         <h3 class="pre_flight_title">converting files to a press ready format</h3>
         <p>We understand that not everyone can supply 100% press ready artwork, <a href="/fileGuidelines" class="blue_link">see YellowStar Press file guidelines</a>. If required, YellowStar Press can convert your supplied files for a small fee. On selected products we offer this service free of charge.
         </p>
@@ -11509,8 +11279,8 @@
         <p>
         For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
         </p>
-            
-            
+
+
             </div>
             <div class="clear"></div>
             </div>
@@ -11530,15 +11300,15 @@
             </p><p>&nbsp;</p><p>
             If you want to ensure your job will print accurately, please refer to our <a href="/fileGuidelines" class="black_link">file guidelines</a> for tips and print specifications.
             </p>
-                
+
                     </div>
                 <div class="container_right">
                 <h2 class="large">How to order a proof</h2>
                 <p>
                 To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a>.
-            </p><p>&nbsp;</p><p> 
+            </p><p>&nbsp;</p><p>
             We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
-            </p><p>&nbsp;</p><p> 
+            </p><p>&nbsp;</p><p>
             For more information <b class="black">Call</b> (03) 9584 4708 or <b class="black">email</b> gerard@yellowstarpress.com.au
             </p>
                 </div>
@@ -11614,11 +11384,11 @@
 
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
                     <div class="main_left_right">
-                        
+
                         <h4>Brochure Folding</h4>
                         <div class="folding_list">
                             <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
@@ -11647,7 +11417,7 @@
                         </div>
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
 
@@ -11655,10 +11425,10 @@
                     <div style="clear: both;"></div>
 
 
-                    
+
 
                 </div>
-                
+
                 <div class="clear"></div>
             </div>
         </div>
@@ -11722,15 +11492,15 @@
 
 
 
-                        
+
 
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
                     <div class="main_left_right">
-                        
+
                         <h4>Brochure Folding</h4>
                         <div class="folding_list">
                             <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
@@ -11759,7 +11529,7 @@
                         </div>
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
 
@@ -11767,10 +11537,10 @@
                     <div style="clear: both;"></div>
 
 
-                    
+
 
                 </div>
-                
+
                 <div class="clear"></div>
             </div>
         </div>
@@ -11845,11 +11615,11 @@
 
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
                     <div class="main_left_right">
-                        
+
                         <h4>Brochure Folding</h4>
                         <div class="folding_list">
                             <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
@@ -11878,7 +11648,7 @@
                         </div>
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
 
@@ -11886,10 +11656,10 @@
                     <div style="clear: both;"></div>
 
 
-                    
+
 
                 </div>
-                
+
                 <div class="clear"></div>
             </div>
         </div>
@@ -12072,19 +11842,19 @@
 
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
-                    
+
 
                     <div class="clear"></div>
                     <div style="clear: both;"></div>
 
 
-                    
+
 
                 </div>
-                
+
                 <div class="clear"></div>
             </div>
         </div>
@@ -12266,19 +12036,19 @@
 
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
-                    
+
 
                     <div class="clear"></div>
                     <div style="clear: both;"></div>
 
 
-                    
+
 
                 </div>
-                
+
                 <div class="clear"></div>
             </div>
         </div>
@@ -12460,19 +12230,19 @@
 
                         <div class="clear"></div>
 
-                        
+
 
                     </div>
-                    
+
 
                     <div class="clear"></div>
                     <div style="clear: both;"></div>
 
 
-                    
+
 
                 </div>
-                
+
                 <div class="clear"></div>
             </div>
         </div>
@@ -12539,7 +12309,7 @@
                         <li><a onclick="clickHeader(4)">FAQ</a></li>
                         <li><a onclick="clickHeader(17)">Pre-flight Checks</a></li>
                         <li><a onclick="clickHeader(18)">Colour Critical</a></li>
-                        
+
                         <li><a>Sitemap</a></li>
                     </ul>
                 </div>
@@ -12593,7 +12363,7 @@
                     </li>
                 </ul>
             </div><!-- az-header-menu -->
-            
+
         </div><!-- container -->
     </div>
 
@@ -12822,7 +12592,7 @@
                     </li>
                 </ul>
             </div><!-- az-header-menu -->
-            
+
         </div><!-- container -->
     </div>
 
@@ -13078,7 +12848,7 @@
     }
 
     //轮播
-    
+
 
     $(document).ready(function () {
         $('.dropdown').hover(
@@ -13091,7 +12861,7 @@
         );
     }); // end ready
 
-    
+
 
     $(function(){
 
