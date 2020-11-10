@@ -10089,7 +10089,7 @@
                     </div>
                     <p class="black_heading">You can visit us at:</p>
                     <p style="color: #323232;"> 26 Metropolitan Av, Nunawarding 3131 Australia</p>
-                    <img src="{{URL::asset('/image/Contact.jpg') }}" width=90% height=80%>
+{{--                    <img src="{{URL::asset('/image/Contact.jpg') }}" width=90% height=80%>--}}
                 </div>
                 <div class="contact_right_quote">
                     <div class="contact_form_left">
