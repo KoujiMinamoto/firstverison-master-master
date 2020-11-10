@@ -386,7 +386,7 @@ h3{
     text-align: center;
 }
 input.blue_button {
-    background: #29ABE2;
+    background: #2a57a7;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -710,7 +710,7 @@ button.blue_button:hover {
 .product_info_templates a.blue_link,
 .product_info_express a.blue_link,
 .product_info_delivery a.blue_link{
-    color: #29ABE2;
+    color: #2a57a7;
     text-decoration: none;
 }
 
@@ -975,7 +975,7 @@ p.small {
     z-index: 11;
     width: 124px;
     min-height: 22px;
-    background-color: #29ABE2;
+    background-color: #2a57a7;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -khtml-border-radius: 3px;
@@ -1356,7 +1356,7 @@ input.add_to_cart:hover {
     z-index: 11;
     width: 124px;
     min-height: 22px;
-    background-color: #29ABE2;
+    background-color: #2a57a7;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -khtml-border-radius: 3px;
@@ -1651,7 +1651,7 @@ h3{
 }
 
 a.blue_link{
-    color:#29abe2;
+    color:#2a57a7;
     text-decoration:none;
 }
 a.blue_link:hover{
@@ -2019,7 +2019,7 @@ a.c_dl:hover
     z-index: 10;
     width: 60px;
     min-height: 43px;
-    background-color: #29ABE2;
+    background-color: #2a57a7;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     -khtml-border-radius: 50px;

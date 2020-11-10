@@ -4,7 +4,7 @@ html {
 }
 .clickOn{
     color:white;
-    background: linear-gradient(to bottom,#29ABE2 ,#0071BC 100%);
+    background: linear-gradient(to bottom,#29ABE2 ,#2a57a7 100%);
 }
 .clickOnli{
     color:white !important;
@@ -841,7 +841,7 @@ input.btn_search {
     padding-top: 1.5rem;
 }
 .blog_post_view a{
-    background:#29abe2;
+    background:#2a57a7;
     color:#fff;
     display:inline-block;
     text-decoration:none;
@@ -891,7 +891,7 @@ input.btn_search {
     padding-top:1rem;
 }
 .home_panel1 a.blue_link, .home_panel2 a.blue_link, .home_panel3 a.blue_link {
-    color: #29ABE2;
+    color: #2a57a7;
     font-weight: bold;
     text-decoration: none;
 }
@@ -1062,13 +1062,13 @@ input.black_button {
     margin: 5px 0;
     cursor: pointer;
     border: none !important;
-    
+
 }
 .button_click_here:hover,
 input.black_button:hover,
 a.black_button:hover,
 button.black_button:hover {
-    
+
     background: #29ABE2;
 }
 .button_click_here {

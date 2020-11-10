@@ -44,7 +44,7 @@
   letter-spacing: 1px;
   background:white;
   padding: 10px 20px;
-  border: none; 
+  border: none;
   outline: none;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -104,7 +104,7 @@ form.login_div_form1 {
     transition:all .5s;
     background-size:0% 100%;
     border: 1px solid grey; */
-    background: #29ABE2;
+    background: #2a57a7;
     display: inline-block;
     text-decoration: none;
     color: #fff;
