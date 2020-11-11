@@ -844,10 +844,10 @@ a.black_link_underline:hover {
     text-decoration: underline;
 }
 .bcards500{
-    background:url(../image/bcardsSpecial500-2.jpg) no-repeat;
+    background:url(../image/advertisement1.png) no-repeat;
     background-size:cover;
-    width:325px;
-    height:100px;
+    width:340px;
+    height:177px;
     display: inline-block;
 }
 .bcards500 a.bcards500link{
