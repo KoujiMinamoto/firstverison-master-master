@@ -57,13 +57,13 @@
                 <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>Booklets</a></li>
                 <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;<a>Brochures</a></li>
                 <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
-                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a></li>
+{{--                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a></li>--}}
 {{--                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>--}}
                 <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Docket Books</a></li>
                 <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
                 <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Express Printing</a></li>
                 <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;&nbsp;<a>Flyers</a></li>
-                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>
+{{--                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>--}}
                 <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;&nbsp;<a>Letterheads</a></li>
                 <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;&nbsp;<a>Postcards</a></li>
                 <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;&nbsp;<a>Posters</a></li>
@@ -271,12 +271,12 @@
                 </a>
             </div>
 
-            <div class="notepads_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(3)" title="Online Notepad Printing Services">
-                    <div class="home_panel_img notepads_img"></div>
-                    Deskpads / Notepads
-                </a>
-            </div>
+{{--            <div class="notepads_holder home_menu">--}}
+{{--                <a href="javascript:void(0);" onclick="clickProduct(3)" title="Online Notepad Printing Services">--}}
+{{--                    <div class="home_panel_img notepads_img"></div>--}}
+{{--                    Deskpads / Notepads--}}
+{{--                </a>--}}
+{{--            </div>--}}
 
             <div class="docketbooks_holder home_menu">
                 <a href="javascript:void(0);" onclick="clickProduct(5)" title="Online Docket Book Printing Services">
@@ -298,12 +298,12 @@
                     Flyers
                 </a>
             </div>
-            <div class="magnets_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">
-                    <div class="home_panel_img magnets_img"></div>
-                    Fridge Magnets
-                </a>
-            </div>
+{{--            <div class="magnets_holder home_menu">--}}
+{{--                <a href="javascript:void(0);" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">--}}
+{{--                    <div class="home_panel_img magnets_img"></div>--}}
+{{--                    Fridge Magnets--}}
+{{--                </a>--}}
+{{--            </div>--}}
             <div class="letterheads_holder home_menu">
                 <a href="javascript:void(0);" onclick="clickProduct(10)" title="Online Letterhead Printing Services">
                     <div class="home_panel_img letterheads_img"></div>
@@ -12269,7 +12269,7 @@
                 <div class="footer_menu2">
                     <ul>
                         <li><a onclick="clickProduct(10)">Letterhead Printing</a></li>
-                        <li><a onclick="clickProduct(3)">Notepad/Desk Pad Printing</a></li>
+{{--                        <li><a onclick="clickProduct(3)">Notepad/Desk Pad Printing</a></li>--}}
                         <li><a onclick="clickProduct(11)">Postcard Printing</a></li>
                         <li><a onclick="clickProduct(12)">Posters Printing</a></li>
                         <li><a onclick="clickProduct(13)">Presentation Folder Printing</a></li>

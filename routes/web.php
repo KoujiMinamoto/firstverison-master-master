@@ -57,9 +57,9 @@ Route::get( '/product/brochures', function () {
 Route::get( '/product/businessCards', function () {
     return view('home');
 });
-Route::get( '/product/deskpadsNotepads', function () {
-    return view('home');
-});
+//Route::get( '/product/deskpadsNotepads', function () {
+//    return view('home');
+//});
 Route::get( '/product/docketBooks', function () {
     return view('home');
 });
@@ -72,9 +72,9 @@ Route::get( '/product/expressPrinting', function () {
 Route::get( '/product/flyers', function () {
     return view('home');
 });
-Route::get( '/product/fridgeMagnets', function () {
-    return view('home');
-});
+//Route::get( '/product/fridgeMagnets', function () {
+//    return view('home');
+//});
 Route::get( '/product/letterheads', function () {
     return view('home');
 });
