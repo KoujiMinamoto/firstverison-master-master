@@ -60,9 +60,6 @@ Route::get( '/product/businessCards', function () {
 Route::get( '/product/deskpadsNotepads', function () {
     return view('home');
 });
-Route::get( '/product/directMarketing', function () {
-    return view('home');
-});
 Route::get( '/product/docketBooks', function () {
     return view('home');
 });
@@ -90,15 +87,15 @@ Route::get( '/product/posters', function () {
 Route::get( '/product/presentationFolders', function () {
     return view('home');
 });
-Route::get( '/product/directMarketing', function () {
-    return view('home');
-});
+//Route::get( '/product/directMarketing', function () {
+//    return view('home');
+//});
 Route::get( '/product/withCompliments', function () {
     return view('home');
 });
-Route::get( '/product/websiteDesign', function () {
-    return view('home');
-});
+//Route::get( '/product/websiteDesign', function () {
+//    return view('home');
+//});
 Route::get( '/terms', function () {
     return view('home');
 });

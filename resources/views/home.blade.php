@@ -57,9 +57,8 @@
                 <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>Booklets</a></li>
                 <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;<a>Brochures</a></li>
                 <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
-                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a>
-                </li>
-                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>
+                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a></li>
+{{--                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>--}}
                 <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Docket Books</a></li>
                 <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
                 <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Express Printing</a></li>
@@ -70,7 +69,7 @@
                 <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;&nbsp;<a>Posters</a></li>
                 <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;<a>Presentation Folders</a></li>
                 <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;<a>With Compliments</a></li>
-                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;<a>Website Design</a></li>
+{{--                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;<a>Website Design</a></li>--}}
             </ul>
         </div>
         <div class="design" id="design_id" onclick="clickHeader(2)">
@@ -335,12 +334,12 @@
                     With Compliments
                 </a>
             </div>
-            <div class="web_design_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(15)">
-                    <div class="home_panel_img web_design_img"></div>
-                    Website Design
-                </a>
-            </div>
+{{--            <div class="web_design_holder home_menu">--}}
+{{--                <a href="javascript:void(0);" onclick="clickProduct(15)">--}}
+{{--                    <div class="home_panel_img web_design_img"></div>--}}
+{{--                    Website Design--}}
+{{--                </a>--}}
+{{--            </div>--}}
 
             <div style="clear: both;"></div>
         </div>
@@ -3436,8 +3435,6 @@
             </div>
 
         </div>
-
-
         <div style="clear: both;"></div>
     </div>
 
@@ -12278,7 +12275,7 @@
                         <li><a onclick="clickProduct(13)">Presentation Folder Printing</a></li>
                         <li><a onclick="clickProduct(7)">Express Printing</a></li>
                         <li><a onclick="clickHeader(6)">Custom Quotes</a></li>
-                        <li><a onclick="clickProduct(15)">Website Design</a></li>
+{{--                        <li><a onclick="clickProduct(15)">Website Design</a></li>--}}
                     </ul>
                 </div>
                 <div class="footer_menu3">
