@@ -375,41 +375,44 @@
                 <p>Supply your print ready artwork and upload your file using our online ordering system. Alternatively,
                     call or email our friendly staff who can assist you with your order.</p>
                 <span class="latest-articles">Latest Articles</span>
+{{--                主页的latest article底下三个文章都删掉--}}
                 <div class="blog_article">
                     <div class="blog_post_container">
-                        <div class="blog_post_title"><a
-                                href="">5
-                                Kinds of Office Stationary That Will Always be Relevant </a></div>
-                        <div class="blog_post_content"><p>It’s often been speculated that eventually, computers will
-                                replace the functions of paper stationary in the office. Whilst this prediction has
-                                ce...</p></div>
-                        <div class="blog_post_view"><a
-                                href="">view
-                                post</a></div>
+                        <div class="blog_post_title">
+                            <a href="">Christmas</a>
+                        </div>
+                        <div class="blog_post_content">
+{{--                            <p>It’s often been speculated that eventually, computers will--}}
+{{--                                replace the functions of paper stationary in the office. Whilst this prediction has--}}
+{{--                                ce...</p>--}}
+                        </div>
+                        <div class="blog_post_view">
+{{--                            <a href="">view post</a>--}}
+                        </div>
                     </div>
-                    <div class="blog_post_container">
-                        <div class="blog_post_title"><a
-                                href="">Business
-                                Card Etiquette: When And How To Hand Them Out</a></div>
-                        <div class="blog_post_content"><p>For those who have had business cards for a while, the concept
-                                of networking and distributing them is a no-brainer. But for those who are new to
-                                th...</p></div>
-                        <div class="blog_post_view"><a
-                                href="">view
-                                post</a></div>
-                    </div>
-                    <div class="blog_post_container">
-                        <div class="blog_post_title"><a
-                                href="">2018
-                                Business Card Trends </a></div>
-                        <div class="blog_post_content"><p>Looking to upgrade your business cards to something cutting
-                                edge? Is it your first time printing business cards and your feeling a little lost
-                                when...</p></div>
-                        <div class="blog_post_view"><a
-                                href="">view
-                                post</a></div>
-                    </div>
-                    <div class="clear: both;"></div>
+{{--                    <div class="blog_post_container">--}}
+{{--                        <div class="blog_post_title"><a--}}
+{{--                                href="">Business--}}
+{{--                                Card Etiquette: When And How To Hand Them Out</a></div>--}}
+{{--                        <div class="blog_post_content"><p>For those who have had business cards for a while, the concept--}}
+{{--                                of networking and distributing them is a no-brainer. But for those who are new to--}}
+{{--                                th...</p></div>--}}
+{{--                        <div class="blog_post_view"><a--}}
+{{--                                href="">view--}}
+{{--                                post</a></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="blog_post_container">--}}
+{{--                        <div class="blog_post_title"><a--}}
+{{--                                href="">2018--}}
+{{--                                Business Card Trends </a></div>--}}
+{{--                        <div class="blog_post_content"><p>Looking to upgrade your business cards to something cutting--}}
+{{--                                edge? Is it your first time printing business cards and your feeling a little lost--}}
+{{--                                when...</p></div>--}}
+{{--                        <div class="blog_post_view"><a--}}
+{{--                                href="">view--}}
+{{--                                post</a></div>--}}
+{{--                    </div>--}}
+{{--                    <div class="clear: both;"></div>--}}
                 </div>
             </div>
             <div class="home_content_right">
