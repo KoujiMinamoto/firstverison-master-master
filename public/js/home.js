@@ -573,16 +573,18 @@ function userRegister() {
     let year = date.getFullYear();
     let month = date.getMonth() + 1;
     let strDate = date.getDate();
+    let hour = date.getHours();
+    let minute = date.getMinutes();
     if (month >= 1 && month <= 9) {
         month = "0" + month;
     }
     if (strDate >= 0 && strDate <= 9) {
         strDate = "0" + strDate;
     }
-    var currentdate = year + seperator1 + month + seperator1 + strDate;
+    let currentdate = year + seperator1 + month + seperator1 + strDate + hour + minute;
 
 
-    var regExp = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+    let regExp = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
     let register = {
         "userName":$(".register_div_form_input").eq(0).val(),
         "businessName":$(".register_div_form_input").eq(1).val(),
@@ -642,6 +644,41 @@ function userRegister() {
     }
 
 }
+
+// user forger password
+
+function forgetPassword() {
+
+    let message = {
+        username:$("#forget_username_id").val(),
+        useremail:$("#forget_email_id").val()
+    }
+
+    $.ajax({
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "api/forgetPassword",
+        dataType:'json',
+        data: message,
+        success: function (msg) {
+            console.log(msg);
+            if (msg[0] == "success") {
+                alert("register success");
+                console.log(reyes);
+                clickHeader(8);
+            }else if (msg == "repeat") {
+                document.getElementById('usernamecheckmsg').innerHTML="the username is used by others";
+            }else {
+                alert("unknow error");
+            }
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+
 
 function clearMsg() {
     document.getElementById('usernamecheckmsg').innerHTML='';

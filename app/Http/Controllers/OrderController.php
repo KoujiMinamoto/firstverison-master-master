@@ -48,7 +48,7 @@ class OrderController extends Controller
         $order_postcode = $request->input('postcode');
         $order_date = $request->input('orderDdata');
 
-        $order_id = DB::table('oneprint_order')->order_by('order_id', 'desc')->first() + 1;
+        $order_id = $user_name . $order_date;
 
         DB::table('oneprint_order')->insert([
             'order_name' => $order_name,

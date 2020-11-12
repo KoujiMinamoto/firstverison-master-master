@@ -76,8 +76,8 @@ use Illuminate\Support\Facades\Storage;
             } 
         }
 
-        
-        if ($sendFile = 'empty') {
+        if ($sendFile == 'empty') {
+
             Mail::raw($content, function ($message) use ($toMail, $title) {
                 $message->subject($title);
                 $message->to($toMail);
@@ -89,18 +89,18 @@ use Illuminate\Support\Facades\Storage;
             });
     
         } else {
+            
             Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
                 $message->subject($title);
                 $message->to($toMail);
                 
-                $attachment = $sendFile; // 'files/'.
-                //在邮件中上传附件
-                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+                $attachment=['file'=>storage_path('public/files/').$sendFile];
+                $message->attach($attachment,['as'=>$sendFile]);
+                //$message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
                 // $message->attach($attachment,['as'=>'file1.doc']);
             });
-    
+            
         }
-
         closedir($file_path);        
         return true;
      }
@@ -182,7 +182,7 @@ use Illuminate\Support\Facades\Storage;
         }
         
 
-        if ($sendFile = 'empty') {
+        if ($sendFile == 'empty') {
             Mail::raw($content, function ($message) use ($toMail, $title) {
                 $message->subject($title);
                 $message->to($toMail);
@@ -195,7 +195,7 @@ use Illuminate\Support\Facades\Storage;
                 
                 $attachment = $sendFile; 
                 //在邮件中上传附件
-                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
+                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
             });    
         }
         closedir($file_path);

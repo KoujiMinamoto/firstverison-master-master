@@ -61,6 +61,9 @@ class UserController extends Controller
          $register = "repeat";
          return response()->json($register);
       } else {
+         // user id set
+         $user_id = DB::table('oneprint_user')->order_by('user_id', 'desc')->first() + 1;
+         // insert data
          DB::table('oneprint_user')->insert([
                'user_name' => $user_name,
                'user_type' => 0,
@@ -75,7 +78,8 @@ class UserController extends Controller
                'user_state' => $user_state,
                'user_country' => $user_country,
                'user_postcode' => $user_postcode,
-               'user_date' => $user_date
+               'user_date' => $user_date,
+               'user_id' => $user_id
         ]);
         $register = "success";
         return response()->json($register);
@@ -120,22 +124,32 @@ class UserController extends Controller
 
    public function forgetPassword(Request $request)
    {
+
       $username = $request->input('userName');
       $useremail = $request->input('email');
+
       $loginCheck = '';
       $message = DB::table('oneprint_user')->select('user_name','user_password','user_email')->where('user_name',$username)->get();
+
       if($message[0]->user_name == null) {
+
          $loginCheck = "user don't exist";
-      } else if ($message[0]->user_email = $useremail) {
+      } else if ($message[0]->user_email == $useremail) {
+
          $loginCheck = "password email has been send to your email";
          $title = "Your password";
          $content = "Password: ".$message[0]->user_password."\n";
          $toMail = $useremail;
+         $toMail = 'anmouer@163.com';
          Mail::raw($content, function ($message) use ($toMail, $title) {
+
             $message->subject($title);
             $message->to($toMail);
+
          });
       };
+      // 
+      return response()->json($loginCheck);
    }
 
 }

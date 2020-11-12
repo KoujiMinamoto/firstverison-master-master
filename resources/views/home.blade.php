@@ -10371,7 +10371,7 @@
             <input id="forget_email_id" class="login_div_un" type="email" align="center" placeholder="Email">
             <div class="checkmsg" id="passwordnamecheck"></div>
             <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>
-            <button class="login_div_submit" align="center">Send</button>
+            <button class="login_div_submit" align="center" onclick="forgetPassword()">Send</button>
 
         </div>
     </div>
