@@ -845,15 +845,23 @@ a.black_link_underline:hover {
 }
 .bcards500{
     background:url(../image/advertisement1.png) no-repeat;
-    background-size:cover;
-    width:340px;
-    height:177px;
+    background-size:contain;
+    width:365px;
+    height:173px;
     display: inline-block;
 }
 .bcards500 a.bcards500link{
     display:block;
     height:100%;
     width:100%;
+}
+.advertisement2{
+    margin-top: 8rem;
+    background:url(../image/advertisement2.png) no-repeat;
+    background-size:contain;
+    width:365px;
+    height:173px;
+    display: inline-block;
 }
 table.product_quote_holder{
     width:100%;

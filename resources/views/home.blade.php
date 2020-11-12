@@ -427,26 +427,26 @@
                             more+</a>
                     </a>
                 </div>
-                <div class="home_panel2">
+{{--                <div class="home_panel2">--}}
 {{--                    <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                        <div class="home_panel2_img">
-                        </div>
-                        <h4>Free Delivery</h4>
-                        <p>Free delivery Australia wide for all products.</p>
+{{--                        <div class="home_panel2_img">--}}
+{{--                        </div>--}}
+{{--                        <h4>Free Delivery</h4>--}}
+{{--                        <p>Free delivery Australia wide for all products.</p>--}}
 {{--                        <a class="blue_link" href="javascript:void(0);"--}}
 {{--                        onclick="clickHeader(15)">read--}}
 {{--                            more+</a>--}}
-                </div>
-                <div class="home_panel3">
+{{--                </div>--}}
+{{--                <div class="home_panel3">--}}
 {{--                    <a href="javascript:void(0);" onclick="clickHeader(4)">--}}
-                        <div class="home_panel3_img">
-                        </div>
-                        <h4>Need Help?</h4>
-                        <p>Our friendly team is ready to offer you industry help or advice.</p>
+{{--                        <div class="home_panel3_img">--}}
+{{--                        </div>--}}
+{{--                        <h4>Need Help?</h4>--}}
+{{--                        <p>Our friendly team is ready to offer you industry help or advice.</p>--}}
 {{--                        <a class="blue_link" href="javascript:void(0);"--}}
 {{--                        onclick="clickHeader(4)">read--}}
 {{--                            more+</a>--}}
-                </div>
+{{--                </div>--}}
                 {{--                        <p class="home_content_p1">Yellow Star Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>--}}
                 {{--                        <p class="home_content_p2">You send it, We Print It. It's That Easy!</p>--}}
                 {{--                        <p >Our printing service is of the highest quality, at the lowest possible price.</p>--}}
@@ -1462,17 +1462,17 @@
                                 more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
-                        <a href="/fileGuidelines">
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
-                            <a class="blue_link"
-                               href="/fileGuidelines">read
-                                more+</a>
-                        </a>
-                    </div>
+{{--                    <div class="product_info_guidelines">--}}
+{{--                        <a href="/fileGuidelines">--}}
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
+{{--                            <a class="blue_link"--}}
+{{--                               href="/fileGuidelines">read--}}
+{{--                                more+</a>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
                     <div class="product_info_templates">
                         <a href="/contact">
                             <div class="product_info_templates_img">
@@ -1668,35 +1668,38 @@
 
                     </div>
                     <div class="main_left_right">
-                        <div class="panel_pricing">
-                            <h4>Pricing includes</h4>
-                            <span class="option_indent"><a
-                                    href="/pre-flight-checks">Free Flight Check</a></span>
-                            <span class="option_indent"><a
-                                    href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                            <span class="option_indent"><a
-                                    href="/pre-flight-checks">Free Job Tracking</a></span>
-                            <span class="option_indent"><a
-                                    href="/delivery">Free Delivery</a></span>
-                            <p>&nbsp;</p>
-                            <p class="small">* Limited to one PDF proof per print job.
-                                Additional proofs will incur extra charges.</p>
-                        </div>
-                        <div class="panel_extras">
-                            <h4 class="padding_top">Optional Extras</h4>
-                            <p class="black">These options can be selected once your items have been added to your
-                                shopping cart</p>
-                            <p>&nbsp;</p>
-                            <span class="option_indent"><a
-                                    href="/support">Machine Varnish - Gloss or Matt</a></span>
-                            <span class="option_indent"><a
-                                    href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                            <span class="option_indent"><a
-                                    href="/design">Graphic Design Services</a></span>
-                            <span class="option_indent"><a
-                                    href="/pre-flight-checks">Hard Copy Proofs</a></span>
-                            <p>&nbsp;</p>
-                        </div>
+                        <a>
+                            <div class="advertisement2"></div>
+                        </a>
+{{--                        <div class="panel_pricing">--}}
+{{--                            <h4>Pricing includes</h4>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/pre-flight-checks">Free Job Tracking</a></span>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/delivery">Free Delivery</a></span>--}}
+{{--                            <p>&nbsp;</p>--}}
+{{--                            <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                                Additional proofs will incur extra charges.</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="panel_extras">--}}
+{{--                            <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                            <p class="black">These options can be selected once your items have been added to your--}}
+{{--                                shopping cart</p>--}}
+{{--                            <p>&nbsp;</p>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/support">Machine Varnish - Gloss or Matt</a></span>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/design">Graphic Design Services</a></span>--}}
+{{--                            <span class="option_indent"><a--}}
+{{--                                    href="/pre-flight-checks">Hard Copy Proofs</a></span>--}}
+{{--                            <p>&nbsp;</p>--}}
+{{--                        </div>--}}
                         <div class="clear"></div>
                         <h4>Brochure Folding</h4>
                         <div class="folding_list">
@@ -1726,7 +1729,7 @@
                         </div>
                         <div class="clear"></div>
 
-                        <a href="/product/businessCards">
+                        <a>
                             <div class="bcards500 notop"></div>
                         </a>
 
@@ -1783,17 +1786,17 @@
                                     more+</a>
                             </a>
                         </div>
-                        <div class="product_info_guidelines">
+{{--                        <div class="product_info_guidelines">--}}
 {{--                            <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                                <div class="product_info_guidelines_img">
-                                </div>
-                                <h4>File Guidelines</h4>
-                                <p>Print specifications to achieve best printing results</p>
+{{--                                <div class="product_info_guidelines_img">--}}
+{{--                                </div>--}}
+{{--                                <h4>File Guidelines</h4>--}}
+{{--                                <p>Print specifications to achieve best printing results</p>--}}
 {{--                                <a class="blue_link"--}}
 {{--                                   href="javascript:void(0);" onclick="clickHeader(16)">read--}}
 {{--                                    more+</a>--}}
-                            </a>
-                        </div>
+{{--                            </a>--}}
+{{--                        </div>--}}
 
                         <div class="clear"></div>
 
@@ -2296,33 +2299,36 @@
 
 
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/contact">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/contact">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/contact">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/contact">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
 
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/fileGuidelines">Convert your file to a print ready format including basic artwork changes</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">PDF Proof</a></span>
-                        <span class="option_indent black">Priority Delivery</span>
-                        <p>&nbsp;</p>
-                    </div>
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/fileGuidelines">Convert your file to a print ready format including basic artwork changes</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/design">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">PDF Proof</a></span>--}}
+{{--                        <span class="option_indent black">Priority Delivery</span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
 
-                    <a href="/product/businessCards">
+                    <a>
                         <div class="bcards500"></div>
                     </a>
                 </div>
@@ -2373,18 +2379,18 @@
                             more+</a>
 
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                        <a class="blue_link"--}}
 {{--                        href="javascript:void(0);" onclick="clickHeader(16)">read--}}
 {{--                            more+</a>--}}
-                        <br/>
+{{--                        <br/>--}}
 
-                    </div>
+{{--                    </div>--}}
 
                     <div class="clear"></div>
 
@@ -2840,7 +2846,7 @@
 
                     <div class="clear"></div>
                     <br>
-                    <a href="/product/businessCards">
+                    <a>
                         <div class="bcards500"></div>
                     </a>
                 </div>
@@ -2920,29 +2926,25 @@
                             more+</a>
 
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
-{{--                        <a class="blue_link"--}}
-{{--                               href="javascript:void(0);" onclick="clickHeader(16)">read--}}
-{{--                            more+</a>--}}
+{{--                            <div class="product_info_guidelines_img"></div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
+{{--                        <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
+{{--                    </div>--}}
 
-                    </div>
-
-                    <div class="product_info_delivery">
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                        <a class="blue_link"--}}
 {{--                        href="javascript:void(0);" onclick="clickHeader(15)">read--}}
 {{--                            more+</a>--}}
 
-                    </div>
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -3494,37 +3496,37 @@
 
                 </div>
                 <div class="main_left_right">
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                        href="/design">Graphic Design Services</a></span>--}}
 
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-
-
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                        href="/design">Graphic Design Services</a></span>
-
-                        <p>&nbsp;</p>
-                    </div>
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
                     <div class="bx-up" style="margin-top:25%">
                         <div class="bcards500 notop">
-                            <a href="/businessCards"
+                            <a
                                class="bcards500link"></a>
                         </div>
 
@@ -3584,16 +3586,16 @@
                                 more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link"--}}
 {{--                            href="javascript:void(0);" onclick="clickHeader(16)">read--}}
 {{--                                more+</a>--}}
-                    </div>
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -3937,26 +3939,28 @@
                         deliver clean and beautifully designed envelopes. </p>
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
 
                     <div class="clear"></div>
                     <br style="">
                     <div class="bcards500 notop">
-                        <a href="/businessCards"
-                           class="bcards500link"></a>
+                        <a class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -4133,27 +4137,27 @@
                                 more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link"--}}
 {{--                            href="javascript:void(0);" onclick="clickHeader(16)">read--}}
 {{--                                more+</a>--}}
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                            <a class="blue_link"--}}
 {{--                            href="javascript:void(0);" onclick="clickHeader(15)">read--}}
 {{--                                more+</a>--}}
-                    </div>
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -4567,27 +4571,30 @@
 
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                        href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Can't find the product?</h4>
-                        <p class="black"> If you need a job printed urgently and can't find it on this page - contact us
-                            through our <a class="blue_link"
-                                           href="/contact">custom
-                                quote form</a> or call us</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                        href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Can't find the product?</h4>--}}
+{{--                        <p class="black"> If you need a job printed urgently and can't find it on this page - contact us--}}
+{{--                            through our <a class="blue_link"--}}
+{{--                                           href="/contact">custom--}}
+{{--                                quote form</a> or call us</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
                     <br style="">
                     <div class="bcards500 notop">
-                        <a href="/businessCards"
+                        <a
                            class="bcards500link"></a>
                     </div>
 
@@ -4662,27 +4669,27 @@
                                 more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link"--}}
 {{--                            href="javascript:void(0);" onclick="clickHeader(16)">read--}}
 {{--                                more+</a>--}}
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                            <a class="blue_link"--}}
 {{--                            href="javascript:void(0);" onclick="clickHeader(15)">read--}}
 {{--                                more+</a>--}}
-                    </div>
+{{--                    </div>--}}
 
                     <div class="clear"></div>
 
@@ -5044,34 +5051,37 @@
                         <div class="clear"></div>
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                        href="javascript:void(0);" onclick="clickHeader(2)">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                        href="/pre-flight-checks">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                        href="javascript:void(0);" onclick="clickHeader(2)">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                        href="/pre-flight-checks">Hard Copy Proofs</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="/businessCards"
+                        <a
                            class="bcards500link"></a>
                     </div>
 
@@ -5123,15 +5133,15 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
-                        </a>
-                    </div>
+{{--                        </a>--}}
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -5597,37 +5607,40 @@
 
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/colour-critical">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/design">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
 
                     <div class="bcards500 notop">
-                        <a href="/businessCards"
+                        <a
                            class="bcards500link"></a>
                     </div>
 
@@ -5663,15 +5676,15 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
-<!--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>-->
-                        </a>
-                    </div>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
+{{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
                     <div class="product_info_templates">
                         <a href="templates/1print_sample_magnet_templates.pdf" target="_blank">
                             <div class="product_info_templates_img">
@@ -6023,39 +6036,12 @@
 
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>
-
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/colour-critical">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="/businessCards" class="bcards500link"></a>
+                        <a class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -6091,23 +6077,23 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
-                    </div>
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -6571,33 +6557,36 @@
 
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/colour-critical">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/design">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
 
                     <div class="panel_marketing">
                         <h4 class="padding_top">Personalised Printing and Mailing</h4>
@@ -6609,7 +6598,7 @@
                     </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="/businessCards" class="bcards500link"></a>
+                        <a class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -6659,15 +6648,15 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a type="button" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>--}}
-                        </a>
-                    </div>
+{{--                        </a>--}}
+{{--                    </div>--}}
 
 
 
@@ -7112,36 +7101,39 @@
 
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/colour-critical">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/design">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="/businessCards"
+                        <a
                            class="bcards500link"></a>
                     </div>
 
@@ -7209,23 +7201,23 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a type="button" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>--}}
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
-                    </div>
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -7697,42 +7689,45 @@
                 </div>
 
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a href="javascript:void(0)">Free folder setup included. Maximum of 2 copy changes</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Machine Varnish</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Make your file press ready (if required)</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a href="javascript:void(0)">Free folder setup included. Maximum of 2 copy changes</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Machine Varnish</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Make your file press ready (if required)</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
 
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/colour-critical">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/design">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="/businessCards"
+                        <a
                            class="bcards500link"></a>
                     </div>
 
@@ -7774,23 +7769,23 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a type="button" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link" type="button" onclick="clickHeader(16)">read more+</a>--}}
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
-                    </div>
+{{--                    </div>--}}
                     <div class="clear" id="anchor"></div>
 
 
@@ -9034,38 +9029,41 @@
 
                 </div>
                 <div class="main_left_right">
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.
-                            Additional proofs will incur extra charges.</p>
-                    </div>
-                    <div class="panel_extras">
-                        <h4 class="padding_top">Optional Extras</h4>
-                        <p class="black">These options can be selected once your items have been added to your shopping
-                            cart</p>
-                        <p>&nbsp;</p>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>
-                        <span class="option_indent"><a
-                                href="/design">Graphic Design Services</a></span>
-                        <span class="option_indent"><a
-                                href="/colour-critical">Hard Copy Proofs</a></span>
-                        <p>&nbsp;</p>
-                    </div>
+                    <a>
+                        <div class="advertisement2"></div>
+                    </a>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free text corrections to your supplied file (if requested)</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_extras">--}}
+{{--                        <h4 class="padding_top">Optional Extras</h4>--}}
+{{--                        <p class="black">These options can be selected once your items have been added to your shopping--}}
+{{--                            cart</p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Convert your files to a print ready format</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/design">Graphic Design Services</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
                     <div class="clear"></div>
                     <div class="bcards500 notop">
-                        <a href="/businessCards" class="bcards500link"></a>
+                        <a class="bcards500link"></a>
                     </div>
 
                 </div>
@@ -9100,23 +9098,23 @@
                             <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(14)">read more+</a>
                         </a>
                     </div>
-                    <div class="product_info_guidelines">
+{{--                    <div class="product_info_guidelines">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(16)">--}}
-                            <div class="product_info_guidelines_img">
-                            </div>
-                            <h4>File Guidelines</h4>
-                            <p>Print specifications to achieve best printing results</p>
+{{--                            <div class="product_info_guidelines_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>File Guidelines</h4>--}}
+{{--                            <p>Print specifications to achieve best printing results</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(16)">read more+</a>--}}
-                        </a>
-                    </div>
-                    <div class="product_info_delivery">
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="product_info_delivery">--}}
 {{--                        <a href="javascript:void(0);" onclick="clickHeader(15)">--}}
-                            <div class="product_info_delivery_img">
-                            </div>
-                            <h4>Free Delivery</h4>
-                            <p>Free delivery Australia wide for all products</p>
+{{--                            <div class="product_info_delivery_img">--}}
+{{--                            </div>--}}
+{{--                            <h4>Free Delivery</h4>--}}
+{{--                            <p>Free delivery Australia wide for all products</p>--}}
 {{--                            <a class="blue_link" href="javascript:void(0);" onclick="clickHeader(15)">read more+</a>--}}
-                    </div>
+{{--                    </div>--}}
 
 
                     <div class="clear"></div>
@@ -11238,9 +11236,13 @@
         <h4 class="pre_flight_title no_padding">If we do notice errors on your files...</h4>
         <p>We will notify you and ask that your files be submitted again with the necessary corrections made. If required, YellowStar Press can convert your files to a print ready format for a small fee. Some of our products do include converting your files to a press ready format. Please contact us for further information.
         </p><p>&nbsp;</p>
-        <p class="black_bold">Terms &amp; Conditions</p>
-        <p>YellowStar Press go to great measures to ensure your files are print ready - however, it is ultimately the responsibility of the person supplying the files to ensure they are in accordance with <a href="/fileGuidelines" class="blue_link">YellowStar Press file guidelines</a>. YellowStar Press does not accept responsibility if a job is printed faulty due to supplied files setup incorrectly. Pre-flight does not include checking / correcting spelling errors.
-        </p>
+{{--        <p class="black_bold">Terms &amp; Conditions</p>--}}
+{{--        <p>YellowStar Press go to great measures to ensure your files are print ready - however, --}}
+{{--            it is ultimately the responsibility of the person supplying the files to ensure they are in accordance with --}}
+{{--            <a href="/fileGuidelines" class="blue_link">--}}
+{{--                YellowStar Press file guidelines</a>. --}}
+{{--            YellowStar Press does not accept responsibility if a job is printed faulty due to supplied files setup incorrectly. Pre-flight does not include checking / correcting spelling errors.--}}
+{{--        </p>--}}
 
 
 
@@ -11263,9 +11265,9 @@
         Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
         </p>
 
-        <h3 class="pre_flight_title">converting files to a press ready format</h3>
-        <p>We understand that not everyone can supply 100% press ready artwork, <a href="/fileGuidelines" class="blue_link">see YellowStar Press file guidelines</a>. If required, YellowStar Press can convert your supplied files for a small fee. On selected products we offer this service free of charge.
-        </p>
+{{--        <h3 class="pre_flight_title">converting files to a press ready format</h3>--}}
+{{--        <p>We understand that not everyone can supply 100% press ready artwork, <a href="/fileGuidelines" class="blue_link">see YellowStar Press file guidelines</a>. If required, YellowStar Press can convert your supplied files for a small fee. On selected products we offer this service free of charge.--}}
+{{--        </p>--}}
         <p>&nbsp;</p>
         <p>
         For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
@@ -11288,9 +11290,10 @@
             Looking at hard proofs also has the added benefit of helping you anticipate what the screen can't display. This means you'll have fewer surprises as a result of your experience.
             </p><p>&nbsp;</p><p>
             <span class="black">Please Note:</span> Our proofs represent the colour of your supplied file on either a coated or uncoated paper, providing a close approximation of how your finished job will print. They do not however allow for every variation in stock ink-absorbtion or stock whiteness.
-            </p><p>&nbsp;</p><p>
-            If you want to ensure your job will print accurately, please refer to our <a href="/fileGuidelines" class="black_link">file guidelines</a> for tips and print specifications.
-            </p>
+            </p><p>&nbsp;</p>
+{{--                    <p>--}}
+{{--            If you want to ensure your job will print accurately, please refer to our <a href="/fileGuidelines" class="black_link">file guidelines</a> for tips and print specifications.--}}
+{{--            </p>--}}
 
                     </div>
                 <div class="container_right">
