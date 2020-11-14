@@ -1,14 +1,37 @@
 function show_hidden() {
+    //$('#galleryfor15_id').slideToggle(3000);
+    var height = 0, display = false, timer;
+    eleMore = document.getElementById("galleryfor15_id");
+    var step = function() {
+        height = display? (height + 20): (height - 20);
+        if (height < 0) {
+            height = 0;    
+        } else if (height > 750) {
+            height = 750;    
+        }
+        eleMore.style.height = height + "px";
+        if (height > 0 && height < 750) {
+            timer = setTimeout(step, 60);
+        }
+    };
 
+ 
     if (document.getElementById("galleryfor15_id").style.display == 'block') {
 
         document.getElementById("galleryfor15_id").style.display = 'none';
 
+
     } else {
+        if (timer) clearTimeout(timer)
+    display = !display;
+    step();
 
         document.getElementById("galleryfor15_id").style.display = 'block';
+        
 
     }
+    
+    
 
 }
 function showPhotos(n) {

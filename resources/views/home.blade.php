@@ -2194,9 +2194,11 @@
                                                                                class="clear_btn"
                                                                                onclick="clearPrice('brochure');"></a>
                                                                         </td>
-                                                                        <td><input type="text" class="add_to_cart"
+                                                                        <td><input type="text" class="add_to_cart" id="add_to_cart_id"
                                                                         onclick="addToCart('brochure')"></td>
+                                                                        <!-- <div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/btn_add_to_cart_hover.jpg')}} "></div> -->
                                                                     </tr>
+                                                                    
                                                                     </tbody>
                                                                 </table>
                                                             </td>
@@ -2214,6 +2216,7 @@
                                 </tr>
                                 </tbody>
                             </table>
+                            <div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/btn_add_to_cart_hover.jpg')}} "></div>
                         </div>
                         <!-- email your order in 3 steps -->
                         <a class="nonblock nontext clip_frame grpelem" id="u76951"
@@ -9636,7 +9639,7 @@
     <div class="gallary_div" id="gallary_div_id" style="display:none">
         <div class="gallery_left" id="gallery_left_id">
             <div>
-                <button class="gallery_span" type="button" onclick="show_hidden()"></button>
+                <button class="gallery_span"id="gallery_span_id" type="button" onclick="show_hidden()"></button>
                 <div style="clear: both;"></div>
             </div>
             <div class="galleryfor6">
@@ -12875,6 +12878,7 @@
     x[slideIndex-1].style.display = "block";
     }
 
+   
     //轮播
 
 

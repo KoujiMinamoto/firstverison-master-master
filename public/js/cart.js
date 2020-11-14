@@ -188,3 +188,5 @@ function cartaddress(){
     $('.address_2_btn').removeClass("active");
     document.getElementById("address_2_in_id").style.display = "none";
 }
+
+//animate

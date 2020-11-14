@@ -405,7 +405,10 @@ body.gallary_div {
   top:0;
   width: 500px;
   height: 750px;
+  overflow: hidden;
+
 }
+
 .gallery_info_for15_1{
   background: url(../image/gallery/bro-2.jpg) no-repeat center center;
 }
@@ -569,3 +572,4 @@ body.gallary_div {
   padding-left: 10px;
   padding-top: 10px;
 }
+
