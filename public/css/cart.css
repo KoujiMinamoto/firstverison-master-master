@@ -342,3 +342,63 @@
 #cart_myCart,#cart_delivery,#cart_confirm,#cart_upload,#cart_payment {
     width:100rem
 }
+.address_1{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #6888c1;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    float:left;
+    margin-right: 90px;
+}
+.address_2_btn{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #6888c1;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #2a57a7;
+}
+.address_2_in{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding: 0 16px;
+  }
+.rowcart {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+.cart_div input[type=text] {
+    
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 98%;
+  }
+  
+.cart_div label {
+    margin-bottom: 10px;
+    display: block;
+  }

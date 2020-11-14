@@ -177,3 +177,14 @@ function cartPriceCal() {
 
     $('#cart_price');
 }
+//展开新地址输入
+function cartnewaddress(){
+    $('.address_2_btn').addClass("active");
+    $('.address_1').removeClass("active");
+    document.getElementById("address_2_in_id").style.display = "block";
+}
+function cartaddress(){
+    $('.address_1').addClass("active");
+    $('.address_2_btn').removeClass("active");
+    document.getElementById("address_2_in_id").style.display = "none";
+}

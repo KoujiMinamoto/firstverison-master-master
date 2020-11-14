@@ -10287,6 +10287,40 @@
                 <div id="cart_delivery" style="display: none;">
                     <h1>Delivery Information</h1>
                     <div id="cart_userInfomation" >
+                        <div  class="address_1" onclick = "cartaddress()">
+                            Use Current Address
+                        </div>
+                        <div href="#" class="address_2">
+                            <div  class="address_2_btn" onclick = "cartnewaddress()">
+                                Use New Address
+                            </div>
+                            <div class="address_2_in" id = "address_2_in_id"style="display: none;">
+                                <div class="col-50">
+                                    <h3>New Address</h3>
+                                    <label for="fname fa-u"> Full Name</label>
+                                    <input type="text" id="add_fname" name="firstname">
+                                    <label for="email">Email</label>
+                                    <input type="text" id="add_email" name="email">
+                                    <label for="adr"> Phone Number</label>
+                                    <input type="text" id="add_phonenumber" name="address">
+                                    <label for="adr"> Address</label>
+                                    <input type="text" id="add_adr" name="address">
+                                    <label for="suburb"> Suburb</label>
+                                    <input type="text" id="suburb" name="suburb" >
+
+                                    <div class="rowcart">
+                                    <div class="col-50">
+                                        <label for="state">State</label>
+                                        <input type="text" id="state" name="state">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="zip">Zip</label>
+                                        <input type="text" id="zip" name="zip">
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class = "cart_next" onclick = "cartProcess('confirm')">Next</div>
                     <div class = "cart_back" onclick = "cartProcess('myCart')">Back</div>
