@@ -181,7 +181,6 @@ use Illuminate\Support\Facades\Storage;
             } 
         }
         
-
         if ($sendFile == 'empty') {
             Mail::raw($content, function ($message) use ($toMail, $title) {
                 $message->subject($title);
@@ -273,8 +272,67 @@ use Illuminate\Support\Facades\Storage;
 
 
      }
+     // 支付成功后，发送邮件
+    public function orderEmail(Request $request) {
 
+        $username = $request->input('username');
+        $email = $request->input('email');
+        $phone = $request->input('phone');
+        $address = $request->input('address');
+        $subrub = $request->input('subrub');
+        $state = $request->input('state');
+        $data = $request->input('data');
+        
+        if ($subscribe == true) {
+            $subscribe = "yes";
+        } else {
+            $subscribe = "no";
+        }
+        $title = $date." booklets message";
+        // 获取邮箱内容
+        $content = "name: ".$username."\n";
+        $content = $content."Email: ".$email."\n";
+        $content = $content . "PhoneNumber: " . $phone . "\n";
+        $content = $content . "Address: " . $address . "\n";
+        $content = $content . "Subrub: " . $subrub . "\n";
+        $content = $content . "State: " . $state . "\n";
+        $content = $content . "Data: " . $data . "\n";
 
+        $toMail = 'anmouer@163.com';
+        $sendFile = 'empty';
+
+        $file_path = opendir('files');
+        $change = dir('files');
+        while ($file = $change ->read()){  
+            if($file !="." && $file !=".."){ 
+                if(is_file('files/'.$file)){
+                     $files[]= $file;
+                     $sendFile = $file;
+                }else{
+                     
+                }               
+            } 
+        }
+        
+        if ($sendFile == 'empty') {
+            Mail::raw($content, function ($message) use ($toMail, $title) {
+                $message->subject($title);
+                $message->to($toMail);
+            });
+    
+        } else {
+            Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+                $message->subject($title);
+                $message->to($toMail);
+                
+                $attachment = $sendFile; 
+                //在邮件中上传附件
+                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
+            });    
+        }
+        closedir($file_path);
+        return true;
+    }
 
     public function uploadFile(Request $request){
         

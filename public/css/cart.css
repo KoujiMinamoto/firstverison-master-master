@@ -3,6 +3,11 @@
     width: 120rem;
     min-height: 20rem;
 }
+#cart_confirmOrder {
+    margin: 0 auto;
+    width: 120rem;
+    min-height: 20rem;
+}
 #cart_none {
     margin: 0 auto;
     width: 120rem;
@@ -421,4 +426,85 @@
 .fly-item > img {
     transition-timing-function: cubic-bezier(.55,0,.85,.36)!important;
     outline: 1px solid rgb(221,46,59);
+}
+/* confirm */
+#cart_confirmOrder table {
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e5e5;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100rem;
+}
+#cart_confirmOrder table th, #cart_confirmOrder table td {
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+#cart_confirmOrder table th {
+    border-top: medium none;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#cart_confirmOrder table td.product-thumbnail {
+    width: 130px;
+}
+.product-thumbnail img {
+    width: 100%;
+}
+#cart_confirmOrder table td {
+    border-top: medium none;
+    padding: 20px 10px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+#cart_confirmOrder table td.product-name {
+    width: 270px;
+}
+#cart_confirmOrder table td.product-name p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #6f6f6f;
+}
+#cart_confirmOrder table td.product-price {
+    width: 130px;
+}
+#cart_confirmOrder table .product-price .amount {
+    font-size: 15px;
+    font-weight: 700;
+    margin:0;
+}
+#cart_confirmOrder table td.product-quantity {
+    width: 180px;
+}
+
+#cart_confirmOrder table td input {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #6f6f6f;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 40px;
+    padding: 0 5px 0 10px;
+    width: 60px;
+}
+#cart_confirmOrder table td.product-subtotal {
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+}
+#cart_confirmOrder table td {
+    border-top: medium none;
+    padding: 20px 10px;
+    vertical-align: middle;
+    font-size: 13px;
 }

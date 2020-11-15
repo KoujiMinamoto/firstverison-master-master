@@ -1,6 +1,3 @@
-
-
-
 //检查是否cart里是否已经有了产品
 function cartTableCheck() {
 
@@ -24,6 +21,22 @@ function cartTableCheck() {
         th.forEach(th => {
             row.innerHTML = row.innerHTML+th;
         });
+        // confirm
+        $('#cart_confirmOrder').append('<table id="confirm_table"</table>');
+        let confirm_table = document.getElementById("confirm_table");
+        row = confirm_table.insertRow(-1);
+        // init th element
+        th = new Array('<th class="product-name">Product</th>',
+                           '<th class="product-price">Price</th>',
+                           '<th class="product-quantity">Kinds</th>', 
+                           '<th class="product-description">Description</th>',
+                           '<th class="product-subtotal">Quantity</th>'
+        );
+        // Insert table's header
+        th.forEach(th => {
+            row.innerHTML = row.innerHTML+th;
+        });
+
         $("#cart_onProduct").hide();
         $("#cart_haveProduct").show();
         $('.cart_price').show();
@@ -61,6 +74,10 @@ function cartProcess(process) {
         $("#cart_myCart").css('display','none');
         $("#cart_delivery").css('display','block');
         $("#cart_confirm").css('display','none');
+
+        //  产品table
+
+
 
     } else if (process == "confirm") {
         $('.checkout_step').eq(1).removeClass("cartOn");
@@ -107,7 +124,25 @@ function cartDataInsert(productMessage) {
             let row = add_table.insertRow(-1);
             if (productMessage[0] == 'fridge') {
                 productMessage[0] = 'Fridge Magnet'
-            }
+            } else if(productMessage[0] == 'brochure') {
+                productMessage[0] = 'Brochure';
+            } else if(productMessage[0] == 'bcard') {
+                productMessage[0] = 'Business Card';
+            } else if(productMessage[0] == 'signage') {
+                productMessage[0] = 'Docket Books';
+            } else if(productMessage[0] == 'banner') {
+                productMessage[0] = 'Express Printing';
+            } else if(productMessage[0] == 'flyer') {
+                productMessage[0] = 'Flyers';
+            } else if(productMessage[0] == 'lw') {
+                productMessage[0] = 'Letterhead';
+            } else if(productMessage[0] == 'post') {
+                productMessage[0] = 'Postcard';
+            } else if(productMessage[0] == 'poster') {
+                productMessage[0] = 'Poster';
+            } else if(productMessage[0] == 'comps') {
+                productMessage[0] = 'With Compliments';
+            } 
 
             // product-name
             cell = row.insertCell(-1);
@@ -124,7 +159,6 @@ function cartDataInsert(productMessage) {
             // product-subtotal
             cell = row.insertCell(-1);
             cell.innerHTML = "<td class='product-description'>"+productMessage[2]+"</td>";
-            
             // product-remove
             cell = row.insertCell(-1);
             cell.innerHTML = "<td class='product-remove'><a href='javascript:'><i class='fa fa-times' onclick='cartDelete($(this).parents().parents().parents().index())'> </i></a></td>";
@@ -134,6 +168,59 @@ function cartDataInsert(productMessage) {
     } else {
         alert("error");
     }
+    // confirm
+
+    let confirm_table = document.getElementById("confirm_table");
+    let n  = $("#cart_table").find("tr").length;
+    if ( n >= 0) {
+        // Traverse the input and insert the vmsServer information one by one
+        productMessage.forEach(productMessage =>{
+            let row = confirm_table.insertRow(-1);
+            if (productMessage[0] == 'fridge') {
+                productMessage[0] = 'Fridge Magnet'
+            } else if(productMessage[0] == 'brochure') {
+                productMessage[0] = 'Brochure';
+            } else if(productMessage[0] == 'bcard') {
+                productMessage[0] = 'Business Card';
+            } else if(productMessage[0] == 'signage') {
+                productMessage[0] = 'Docket Books';
+            } else if(productMessage[0] == 'banner') {
+                productMessage[0] = 'Express Printing';
+            } else if(productMessage[0] == 'flyer') {
+                productMessage[0] = 'Flyers';
+            } else if(productMessage[0] == 'lw') {
+                productMessage[0] = 'Letterhead';
+            } else if(productMessage[0] == 'post') {
+                productMessage[0] = 'Postcard';
+            } else if(productMessage[0] == 'poster') {
+                productMessage[0] = 'Poster';
+            } else if(productMessage[0] == 'comps') {
+                productMessage[0] = 'With Compliments';
+            } 
+
+            // product-name
+            cell = row.insertCell(-1);
+            cell.innerHTML = "<td class='product-name'><p>"+productMessage[0]+"</p></td>";
+            // product-price
+            cell = row.insertCell(-1);
+            cell.innerHTML = "<td class='product-price'><span class='amounts'><p display='inline-block'>$"+productMessage[1]+"</p></span></td>";
+            // product-quantity
+            cell = row.insertCell(-1);
+            cell.innerHTML = "<td class='product-quantity'><input type='text' disabled='disabled' value ='"+productMessage[3]+"'></td>";
+            // product-description
+            cell = row.insertCell(-1);
+            cell.innerHTML = "<td class='product-description'>"+productMessage[4]+"</td>";
+            // product-subtotal
+            cell = row.insertCell(-1);
+            cell.innerHTML = "<td class='product-description'>"+productMessage[2]+"</td>";
+        
+            ++n;
+        });
+    } else {
+        alert("error");
+    }
+
+
     // 显示next
     $(".cart_next").show();
 } 
@@ -145,14 +232,14 @@ function cartDelete(cartNo) {
     
     // let cartNo = $(this).parents("tr").index();
     $("#cart_table").find("tr:eq("+cartNo+")").remove();
+    $("#confirm_table").find("tr:eq("+cartNo+")").remove();
     cartTableCheck();
     totalPriceCal();
-    // cart.remove();
-    
+    // $("#confirm_price").text( $("#cart_price").text() );
 }
 
 function totalPriceCal() {
-    
+    // cart
     let length = $("#cart_table").find('tr').length;
     let cartTotal = 0;
     for (let i = 1; i < length; ++i ) {
@@ -162,6 +249,8 @@ function totalPriceCal() {
     }
     cartTotal = cartTotal.toFixed(2);
     $("#cart_price").text("$"+cartTotal);
+    $("#confirm_price").text( $("#cart_price").text() );
+    // confirm
 }
 
 function registerVMS_checkBoxClick(i) {
@@ -190,3 +279,64 @@ function cartaddress(){
 }
 
 //animate
+
+
+// update file
+function cartUpdateFile() {
+
+
+
+}
+
+// 支付成功后，生成订单号，发送邮件
+function cartSendEamil() {
+
+    // 
+    let username = $("#information_name").text()
+    let email = $("#information_email").val();
+    let phone = $("#information_phone").val();
+    let address = $("#information_address").val();
+    let subrub = $("#information_subrub").val();
+    let state = $("#information_state").val();
+
+    // get date
+    let date = new Date();
+    let seperator1 = "-";
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    let currentdate = year + seperator1 + month + seperator1 + strDate;
+
+    $.ajax({
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "api/contactUs",
+        dataType:'json',
+        data:{
+            username:username,
+            email:email,
+            phone:phone,
+            address:address,
+            subrub:subrub,
+            state:state,
+            data:currentdate
+        },
+        success:function () {
+            alert("send email success");
+        },
+        error:function () {
+            alert("error");
+        }
+    }); 
+
+}
+
+
+
+

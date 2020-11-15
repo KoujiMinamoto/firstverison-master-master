@@ -10301,20 +10301,20 @@
                                 <div class="col-50">
                                     <h3>New Address</h3>
                                     <label for="fname fa-u"> Full Name</label>
-                                    <input type="text" id="add_fname" name="firstname">
+                                    <input type="text" id="information_name" name="firstname">
                                     <label for="email">Email</label>
-                                    <input type="text" id="add_email" name="email">
+                                    <input type="text" id="information_email" name="email">
                                     <label for="adr"> Phone Number</label>
-                                    <input type="text" id="add_phonenumber" name="address">
+                                    <input type="text" id="information_phone" name="address">
                                     <label for="adr"> Address</label>
-                                    <input type="text" id="add_adr" name="address">
+                                    <input type="text" id="information_address" name="address">
                                     <label for="suburb"> Suburb</label>
-                                    <input type="text" id="suburb" name="suburb" >
+                                    <input type="text" id="information_subrub" name="suburb" >
 
                                     <div class="rowcart">
                                     <div class="col-50">
                                         <label for="state">State</label>
-                                        <input type="text" id="state" name="state">
+                                        <input type="text" id="information_state" name="state">
                                     </div>
                                     <div class="col-50">
                                         <label for="zip">Zip</label>
@@ -10331,8 +10331,23 @@
 
                 <div id="cart_confirm" style="display: none;">
                     <h1>Confirm your Order</h1>
-                    <div id="cart_confirmOrder">
+                    <div id="cart_confirmOrder"></div>
+                    <div class="cart_price">
+                        <div class="cart_totals">
+                            <h2>Cart Totals</h2>
+                            <table>
+                                <tbody>
 
+                                <tr class="order-total">
+                                    <th>Total</th>
+                                    <td>
+                                        <strong><p class="amount" id="confirm_price">$0.00</p></strong>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
                     </div>
                     <div class = "cart_next" onclick = "cartProcess('upload')">Next</div>
                     <div class = "cart_back" onclick = "cartProcess('delivery')">Back</div>
