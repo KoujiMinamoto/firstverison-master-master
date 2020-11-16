@@ -9,6 +9,7 @@ html {
 .clickOnli{
     color:white !important;
     background: black !important;
+    border-right-color: black !important;
 }
 .clickOn>p {
     color: white !important;
