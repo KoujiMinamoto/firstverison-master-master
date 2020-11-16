@@ -108,7 +108,7 @@
         </div>
         <div class="aboutUs" id="aboutUs_id" onclick="clickHeader(5)"><p>about us</p></div>
         <div class="contact" id="contact_id" onclick="clickHeader(6)"><p>contact</p></div>
-        <div class="cart" id="cart_id" onclick="clickHeader(7)"><p>cart</p></div>
+        <div class="cart" id="cart_id" onclick="clickHeader(7)"><p>cart</p><div class="checkbutton" id="checkbutton_id"></div></div>
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
@@ -2199,7 +2199,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td colspan="4" id="totalpriceupdate">
-                                                                <center><span style="font-weight: bold;">Total Price: AUD <p id="brochure_totalPrice">0.00</p></span>
+                                                                <center><span style="font-weight: bold;">Total Price: AUD <p id="brochure_totalPrice">0.00</p></span> <div id="flyItem_brochure" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                                 </center>
                                                             </td>
                                                         </tr>
@@ -2233,6 +2233,12 @@
                                                                 </table>
                                                             </td>
                                                         </tr>
+                                                        <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_brochure" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                         </tbody>
                                                     </table>
                                                 </form>
@@ -2246,7 +2252,7 @@
                                 </tr>
                                 </tbody>
                             </table>
-                            <div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/btn_add_to_cart_hover.jpg')}} "></div>
+                            <!-- <div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/cart_step_icon.png')}} "></div> -->
                         </div>
                         <!-- email your order in 3 steps -->
                         <a class="nonblock nontext clip_frame grpelem" id="u76951"
@@ -2735,7 +2741,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="bcard_totalPrice">0.00</p></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="bcard_totalPrice">0.00</p></span><div id="flyItem1" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -2758,13 +2764,19 @@
                                                                 <tr>
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
                                                                         onclick="clearPrice('bcard');"></a></td>
-                                                                    <td><input type="text" class="add_to_cart"
+                                                                    <td><input type="text" class="add_to_cart" id="add_to_cart_id"
                                                                             onclick="addToCart('bcard')"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_bcard" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -3311,7 +3323,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span><div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -3335,13 +3347,19 @@
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
                                                                            onclick="ClearBookletsCache(&quot;4 COLOUR 1 SIDE&quot;, &quot;100GSM BOND&quot;, &quot;500&quot;, &quot;DL 99 x 210&quot;, &quot;25 PAGES&quot;, &quot;67&quot;, &quot;0&quot;);"></a>
                                                                     </td>
-                                                                    <td><input type="submit" class="add_to_cart"
+                                                                    <td><input type="submit" class="add_to_cart" id="add_to_cart_id"
                                                                                onclick="addToCard(dn)"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -3862,7 +3880,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="signage_totalPrice">0.00</p></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="signage_totalPrice">0.00</p></span><div id="flyItem_signage" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -3888,13 +3906,19 @@
                                                                         <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('signage');"></a>
                                                                     </td>
                                                                     <td>
-                                                                        <input type="text" class="add_to_cart" onclick="addToCart('signage')">
+                                                                        <input type="text" class="add_to_cart" id="add_to_cart_id" onclick="addToCart('signage')">
                                                                     </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_signage" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -4498,7 +4522,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span><div id="flyItem_envelope" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -4522,13 +4546,19 @@
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
                                                                            onclick="ClearEnvCache(&quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;0&quot;);"></a>
                                                                     </td>
-                                                                    <td><input type="submit" class="add_to_cart"
+                                                                    <td><input type="submit" class="add_to_cart" id="add_to_cart_id"
                                                                                onclick="addToCard(envelope)"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -4945,7 +4975,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="banner_totalPrice"></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="banner_totalPrice"></span><div id="flyItem_banner" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -4970,13 +5000,19 @@
                                                                     <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('banner');"></a>
                                                                     </td>
                                                                     <td>
-                                                                        <input type="text" class="add_to_cart" onclick="addToCart('banner')">
+                                                                        <input type="text" class="add_to_cart" id="add_to_cart_id" onclick="addToCart('banner')">
                                                                     </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_banner" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -5532,7 +5568,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                        <center><span style="font-weight: bold;">Total Price: AUD <p id="flyer_totalPrice">0.00</p></span>
+                                                        <center><span style="font-weight: bold;">Total Price: AUD <p id="flyer_totalPrice">0.00</p></span><div id="flyItem_flyer" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -5557,13 +5593,19 @@
                                                                     <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('flyer');"></a>
                                                                 </td>
                                                                 <td>
-                                                                    <input type="text" class="add_to_cart" onclick="addToCart('flyer')">
+                                                                    <input type="text" class="add_to_cart" id="add_to_cart_id" onclick="addToCart('flyer')">
                                                                 </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_flyer" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -5986,13 +6028,19 @@
                                                                 <tr>
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
                                                                            onclick="clearPrice('fridge');"></a></td>
-                                                                    <td><input type="text" class="add_to_cart"
+                                                                    <td><input type="text" class="add_to_cart" id="add_to_cart_id"
                                                                                onclick="addToCart('fridge')"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_fridge" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -6447,7 +6495,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="lw_totalPrice">0.00</p></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="lw_totalPrice">0.00</p></span><div id="flyItem_lw" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -6472,13 +6520,19 @@
                                                                     <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('lw');"></a>
                                                                 </td>
                                                                 <td>
-                                                                    <input type="text" class="add_to_cart" onclick="addToCart('lw')">
+                                                                    <input type="text" class="add_to_cart"  id="add_to_cart_id"onclick="addToCart('lw')">
                                                                 </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_lw" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -7026,7 +7080,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD  <p id="post_totalPrice">0.00</p></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD  <p id="post_totalPrice">0.00</p></span><div id="flyItem_post" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -7050,12 +7104,18 @@
                                                                     <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('post');"></a>
                                                                 </td>
                                                                 <td>
-                                                                    <input type="text" class="add_to_cart" onclick="addToCart('post')">
+                                                                    <input type="text" class="add_to_cart" id="add_to_cart_id" onclick="addToCart('post')">
                                                                 </td>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_post" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -7580,7 +7640,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="poster_totalPrice">0.00</p></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="poster_totalPrice">0.00</p></span><div id="flyItem_poster" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -7605,13 +7665,19 @@
                                                                     <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('poster');"></a>
                                                                 </td>
                                                                 <td>
-                                                                    <input type="text" class="add_to_cart" onclick="addToCart('poster')">
+                                                                    <input type="text" class="add_to_cart" id="add_to_cart_id" onclick="addToCart('poster')">
                                                                 </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg_poster" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -8205,7 +8271,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span><div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -8229,13 +8295,19 @@
                                                                     <td><a href="javascript:void(0);" class="clear_btn"
                                                                            onclick="ClearPresCache(&quot;310GSM ARTBOARD&quot;, &quot;FULL COLOUR 1 SIDE&quot;, &quot;500&quot;, &quot;FREE GLOSS OR MATT VARNISH&quot;, &quot;65&quot;, &quot;0&quot;);"></a>
                                                                     </td>
-                                                                    <td><input type="submit" class="add_to_cart"
+                                                                    <td><input type="submit" class="add_to_cart" id="add_to_cart_id"
                                                                                onclick="addToCard(presentation)"></td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                            <td colspan="4" class="price_msg_1">
+                                                                <center><span class="price_msg_first" id="alert_msg" style="color:red;"></span>
+                                                                </center>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -9468,7 +9540,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="comps_totalPrice">0.00</p></span>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD <p id="comps_totalPrice">0.00</p></span><div id="flyItem_comps" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -9492,7 +9564,7 @@
                                                                     <a href="javascript:void(0);" class="clear_btn" onclick="clearPrice('comps');"></a>
                                                                 </td>
                                                                 <td>
-                                                                    <input type="text" class="add_to_cart" onclick="addToCart('comps')">
+                                                                    <input type="text" class="add_to_cart"  id="add_to_cart_id"onclick="addToCart('comps')">
                                                                 </td>
                                                                 </tbody>
                                                             </table>

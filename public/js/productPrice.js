@@ -163,44 +163,39 @@ function clearPrice(product) {
  * @param {string} product 
  */
 function addToCart (product) {
-    var eleFlyItem = document.getElementById('flyItem');
-    var eleFlyImg = eleFlyItem.querySelector('img');
-    var eleCart = document.getElementById('cart_id');
-    var eleBtn = document.getElementById('add_to_cart_id');
-    var isRunning = false;
-    // 现在按钮距离购物车的距离
-    var boundBtn = eleBtn.getBoundingClientRect();
-    var boundCart = eleCart.getBoundingClientRect();
-    // 中心点的水平垂直距离
-    var offsetX = boundCart.left + boundCart.width / 2 - (boundBtn.left + boundBtn.width / 2);
-    var offsetY = boundCart.top + boundCart.height / 2 - (boundBtn.top + boundBtn.height / 2);
-    // 页面滚动尺寸
-    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
-    var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft || 0;
-    if (isRunning == false) {
-        // 购物车图形出现与初始定位
-        eleFlyItem.style.display = 'block';
-        eleFlyItem.style.left = (boundBtn.left + scrollLeft + this.clientWidth / 2) + 'px';
-        eleFlyItem.style.top = (boundBtn.top + scrollTop + this.clientHeight / 2) + 'px';
-        // 开始动画
-        eleFlyItem.style.transform = 'translateX('+ offsetX +'px)';
-        eleFlyImg.style.transform = 'translateY('+ offsetY +'px)';
-        // 动画标志量
-        isRunning = true;
-        setTimeout(function () {
-            eleFlyItem.style.display = '';
-            eleFlyItem.style.transform = 'translateX(0)';
-            eleFlyImg.style.transform = 'translateY(0)';
-            isRunning = false;
-            //eleCart.querySelector('span').innerHTML = eleCart.querySelector('span').innerHTML * 1 + 1;
-        }, 490);
-    }    
 
-   
-
-
-
-
+        
+        // var eleFlyImg = eleFlyItem.querySelector('img');
+        // var eleCart = document.getElementById('cart_id');
+        // var isRunning = false;
+        // // 现在按钮距离购物车的距离
+        // var boundBtn = eleBtn.getBoundingClientRect();
+        // var boundCart = eleCart.getBoundingClientRect();
+        // // 中心点的水平垂直距离
+        // var offsetX = boundCart.left + boundCart.width / 2 - (boundBtn.left + boundBtn.width / 2);
+        // var offsetY = boundCart.top + boundCart.height / 2 - (boundBtn.top + boundBtn.height / 2);
+        // // 页面滚动尺寸
+        // var scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
+        // var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft || 0;
+        // if (isRunning == false) {
+        //     // 购物车图形出现与初始定位
+        //     eleFlyItem.style.display = 'block';
+        //     eleFlyItem.style.left = (boundBtn.left + scrollLeft + this.clientWidth / 2) + 'px';
+        //     eleFlyItem.style.top = (boundBtn.top + scrollTop + this.clientHeight / 2) + 'px';
+        //     // 开始动画
+        //     eleFlyItem.style.transform = 'translateX('+ 60 +'px)';
+        //     eleFlyImg.style.transform = 'translateY('+ offsetY +'px)';
+        //     // 动画标志量
+        //     isRunning = true;
+        //     setTimeout(function () {
+        //         eleFlyItem.style.display = '';
+        //         eleFlyItem.style.transform = 'translateX(0)';
+        //         eleFlyImg.style.transform = 'translateY(0)';
+        //         isRunning = false;
+        //         //eleCart.querySelector('span').innerHTML = eleCart.querySelector('span').innerHTML * 1 + 1;
+        //         //eleFlyItem.style.display = 'block';
+        //     }, 490);
+        // }   
 
     let qtyArray = new Array;
     let option = new Array;
@@ -212,38 +207,57 @@ function addToCart (product) {
     if (product == 'bcard') {
         qtyArray = PRODUCT_QTY.BUSSINESSCARD;
         option = PRODUCT_OPTIONS.BUSSINESSCARD;
+        var eleFlyItem = document.getElementById('flyItem1');
+        var eleBtn = document.getElementById('flyItem1');
+        
     }
     if (product == 'brochure') {
         qtyArray = PRODUCT_QTY.BROCHURE;
         option = PRODUCT_OPTIONS.BROCHURE;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'flyer') {
         qtyArray = PRODUCT_QTY.FLYER;
         option = PRODUCT_OPTIONS.FLYER;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'poster') {
         qtyArray = PRODUCT_QTY.POSTER;
         option = PRODUCT_OPTIONS.POSTER;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'post') {
         qtyArray = PRODUCT_QTY.POSTERCARD;
         option = PRODUCT_OPTIONS.POSTERCARD;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'comps') {
         qtyArray = PRODUCT_QTY.COMPLIMENT;
         option = PRODUCT_OPTIONS.COMPLIMENT;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'lw') {
         qtyArray = PRODUCT_QTY.LETTERHEAD;
         option = PRODUCT_OPTIONS.LETTERHEAD;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'banner') {
         qtyArray = PRODUCT_QTY.BANNER;
         option = PRODUCT_OPTIONS.BANNER;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     if (product == 'signage') {
         qtyArray = PRODUCT_QTY.SIGNAGE;
         option = PRODUCT_OPTIONS.SIGNAGE;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
     }
     let productMessage = new Array;
 
@@ -278,11 +292,50 @@ function addToCart (product) {
         cartTableCheck();
         cartDataInsert(productMessage);
         totalPriceCal();
+
+
+        
+        var eleFlyImg = eleFlyItem.querySelector('img');
+        var eleCart = document.getElementById('cart_id');
+        var isRunning = false;
+        // 现在按钮距离购物车的距离
+        var boundBtn = eleBtn.getBoundingClientRect();
+        var boundCart = eleCart.getBoundingClientRect();
+        // 中心点的水平垂直距离
+        var offsetX = boundCart.left + boundCart.width / 2 - (boundBtn.left + boundBtn.width / 2);
+        var offsetY = boundCart.top + boundCart.height / 2 - (boundBtn.top + boundBtn.height / 2);
+        // 页面滚动尺寸
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft || 0;
+        if (isRunning == false) {
+            // 购物车图形出现与初始定位
+            eleFlyItem.style.display = 'block';
+            eleFlyItem.style.left = (boundBtn.left + scrollLeft + this.clientWidth / 2) + 'px';
+            eleFlyItem.style.top = (boundBtn.top + scrollTop + this.clientHeight / 2) + 'px';
+            // 开始动画
+            eleFlyItem.style.transform = 'translateX('+ 60 +'px)';
+            eleFlyImg.style.transform = 'translateY('+ offsetY +'px)';
+            // 动画标志量
+            isRunning = true;
+            setTimeout(function () {
+                eleFlyItem.style.display = '';
+                eleFlyItem.style.transform = 'translateX(0)';
+                eleFlyImg.style.transform = 'translateY(0)';
+                isRunning = false;
+                //eleCart.querySelector('span').innerHTML = eleCart.querySelector('span').innerHTML * 1 + 1;
+                //eleFlyItem.style.display = 'block';
+            }, 490);
+        }   
+
+
+
         cartProcess('myCart');
         //alert('Successfully added to cart');
+        document.getElementById('alert_msg_'+product).innerText="Successfully added to cart";
         clearPrice('fridge');
         clearPrice('bcard');
     } else {    
         //alert('nothing to add');
+        document.getElementById('alert_msg_'+product).innerText="nothing to add!";
     }
 }
