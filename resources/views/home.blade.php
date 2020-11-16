@@ -10404,23 +10404,30 @@
                                     <h3>New Address</h3>
                                     <label for="fname fa-u"> Full Name</label>
                                     <input type="text" id="information_name" name="firstname">
+                                    <div class="checkmsg" id="fullnameck"></div>
                                     <label for="email">Email</label>
                                     <input type="text" id="information_email" name="email">
+                                    <div class="checkmsg" id="emailck"></div>
                                     <label for="adr"> Phone Number</label>
                                     <input type="text" id="information_phone" name="address">
+                                    <div class="checkmsg" id="phoneck"></div>
                                     <label for="adr"> Address</label>
                                     <input type="text" id="information_address" name="address">
+                                    <div class="checkmsg" id="addck"></div>
                                     <label for="suburb"> Suburb</label>
                                     <input type="text" id="information_subrub" name="suburb" >
+                                    <div class="checkmsg" id="subck"></div>
 
                                     <div class="rowcart">
                                     <div class="col-50">
                                         <label for="state">State</label>
                                         <input type="text" id="information_state" name="state">
+                                        <div class="checkmsg" id="stateck"></div>
                                     </div>
                                     <div class="col-50">
                                         <label for="zip">Zip</label>
                                         <input type="text" id="zip" name="zip">
+                                        <div class="checkmsg" id="zipck"></div>
                                     </div>
                                     </div>
                                 </div>
@@ -10580,6 +10587,11 @@
                     <label class="reg_col1"><a>Password</a></label>
                     <input type="password" placeholder="Enter Your Password" class="register_div_form_input"/>
                     <div class="checkmsg" id="passwdcheckmsg"></div>
+                </div>
+                <div class="register_div_form_group">
+                    <label class="reg_col1"><a>Repeat Password</a></label>
+                    <input type="password" placeholder="Enter Your Password" class="register_div_form_input"/>
+                    <div class="checkmsg" id="passwdcheckmsg1"></div>
                 </div>
 
                 <div class="register_div_form_group">
@@ -12899,6 +12911,12 @@
 
                     <label for=pass>Password</label>
                     <input type="password" class="form-control" id="pass_change_user">
+
+                </div>
+                <div class="form-group">
+
+                    <label for=pass>Repeat Password</label>
+                    <input type="password" class="form-control" id="pass_change_user_repeat">
 
                 </div>
                 <div class="form-group">

@@ -614,14 +614,15 @@ function userRegister() {
         "lastName":$(".register_div_form_input").eq(3).val(),
         "email":$(".register_div_form_input").eq(4).val(),
         "password":$(".register_div_form_input").eq(5).val(),
-        'phoneNumber':$(".register_div_form_input").eq(6).val(),
-        'address':$(".register_div_form_input").eq(7).val(),
-        'subrub':$(".register_div_form_input").eq(8).val(),
-        'state':$(".register_div_form_input").eq(9).val(),
+        'phoneNumber':$(".register_div_form_input").eq(7).val(),
+        'address':$(".register_div_form_input").eq(8).val(),
+        'subrub':$(".register_div_form_input").eq(9).val(),
+        'state':$(".register_div_form_input").eq(10).val(),
         'country':'Australia',
-        'postcode':$(".register_div_form_input").eq(11).val(),
+        'postcode':$(".register_div_form_input").eq(12).val(),
         'registerDdata':currentdate
     };
+    //var passwdre = $(".register_div_form_input").eq(6).val(),
 
     if(register.userName == null || register.userName ==""){
         document.getElementById('usernamecheckmsg').innerHTML='Please enter your username';
@@ -631,6 +632,8 @@ function userRegister() {
         document.getElementById('emailcheckmsg').innerHTML='Email Address must be valid';
     }else if(register.password == null || register.password ==""|| register.password.length < 8){
         document.getElementById('passwdcheckmsg').innerHTML='Password must be at least 8 characters long';
+    }else if(register.password != $(".register_div_form_input").eq(6).val() ){
+        document.getElementById('passwdcheckmsg1').innerHTML='Two Password must be same';
     }else if(register.phoneNumber == null || register.phoneNumber =="" || register.phoneNumber.length != 10){
         document.getElementById('phonenumcheckmsg').innerHTML='Please enter your phonenumber, should be in 10 numbers';
     }else if(register.address == null || register.address ==""){

@@ -80,13 +80,37 @@ function cartProcess(process) {
 
 
     } else if (process == "confirm") {
+        let addressdetail = {
+            "fullName":$(".information_name").val(),
+            "email":$(".information_email").val(),
+            'phoneNumber':$(".information_phone").val(),
+            'address':$(".information_address").val(),
+            'subrub':$(".information_subrub").val(),
+            'state':$(".information_state").val(),
+            'postcode':$(".zip").val(),
+        };
+        if(addressdetail.fullName == null || addressdetail.fullName ==""){
+            document.getElementById('fullnameck').innerHTML=' cannot be empty';
+        }else if(addressdetail.email == null || addressdetail.email ==""){
+            document.getElementById('emailck').innerHTML=' cannot be empty';
+        }else if(addressdetail.phoneNumber == null || addressdetail.phoneNumber ==""){
+            document.getElementById('phoneck').innerHTML=' cannot be empty';
+        }else if(addressdetail.address == null || addressdetail.address ==""){
+            document.getElementById('addck').innerHTML=' cannot be empty';
+        }else if(addressdetail.subrub == null || addressdetail.subrub ==""){
+            document.getElementById('subck').innerHTML=' cannot be empty';
+        }else if(addressdetail.state == null || addressdetail.state ==""){
+            document.getElementById('stateck').innerHTML=' cannot be empty';
+        }else if(addressdetail.postcode == null || addressdetail.postcode ==""){
+            document.getElementById('zipck').innerHTML=' cannot be empty';
+        }else{
         $('.checkout_step').eq(1).removeClass("cartOn");
         $('.checkout_step').eq(2).addClass("cartOn");
         $('.checkout_step').eq(3).removeClass("cartOn");
 
         $("#cart_delivery").css('display','none');
         $("#cart_confirm").css('display','block');
-        $("#cart_upload").css('display','none');
+        $("#cart_upload").css('display','none');}
 
     } else if (process == "upload") {
         $('.checkout_step').eq(2).removeClass("cartOn");
