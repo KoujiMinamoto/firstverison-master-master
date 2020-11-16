@@ -155,7 +155,7 @@
                             </span>
                         </p>
                     </span>
-                
+
                     <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;">
                 </div>
 
@@ -3452,13 +3452,14 @@
                     <p>&nbsp;</p>
                     <p class="black">
                         For more information <b>Call</b> (03) 9584 4708 or <b>email</b> <a
-                            href="mailto:gerard@yellowstarpress.com.au"
-                            class="black_link">gerard@yellowstarpress.com.au</a>
+                            href="mailto:sales@yellowstarpress.com.au"
+                            class="black_link">sales@yellowstarpress.com.au</a>
                     </p>
                 </div>
                 <div class="container_right">
                     <h2>Data Solutions</h2>
-                    <p>Choose the target audience for your business and your direct marketing campaigns. We have an
+                    <p>Choose the target audience for your bus
+                        iness and your direct marketing campaigns. We have an
                         extensive list of names and addresses that you can choose by industries and demographics.
                     </p>
                     <p>&nbsp;</p>
@@ -9722,7 +9723,7 @@
                         We work closely with our clients to ensure a smooth transition from design to the finished product. YellowStar Press charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
                     </p><p>&nbsp;</p>
                     <p>
-                        Call (03) 9584 4708 or email <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a> for more information and prices.
+                        Call (03) 9584 4708 or email <a href="mailto:sales@yellowstarpress.com.au" class="black_link">sales@yellowstarpress.com.au</a> for more information and prices.
                     </p>
 
                 </div>
@@ -10166,20 +10167,20 @@
                     <div class="contact_email">
                         <span class="contact-align-left">Quotes</span>
                         <span class="contact-align"><a
-                                href="mailto:gerard@yellowstarpress.com.au"
-                                class="black_link">gerard@yellowstarpress.com.au</a></span>
+                                href="mailto:sales@yellowstarpress.com.au"
+                                class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email">
                         <span class="contact-align-left">Orders</span>
                         <span class="contact-align"><a
-                        href="mailto:gerard@yellowstarpress.com.au"
-                                class="black_link">gerard@yellowstarpress.com.au</a></span>
+                        href="mailto:sales@yellowstarpress.com.au"
+                                class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email_last">
                         <span class="contact-align-left">Accounts</span>
                         <span class="contact-align"><a
-                        href="mailto:gerard@yellowstarpress.com.au"
-                                class="black_link">gerard@yellowstarpress.com.au</a></span>
+                        href="mailto:sales@yellowstarpress.com.au"
+                                class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
                     <p class="black_heading">You can visit us at:</p>
                     <p style="color: #323232;"> 26 Metropolitan Av, Nunawarding 3131 Australia</p>
@@ -10647,7 +10648,7 @@
                     statement discloses our current privacy practices, if we make any changes to this policy, we will
                     announce it via an e-mail and on our web site. If you have any questions or concerns regarding this
                     statement, please e-mail <a
-                        href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
+                        href="mailto:sales@yellowstarpress.com.au" class="blue_link">sales@yellowstarpress.com.au</a>
                 </p>
                 <p>&nbsp;</p>
                 <p class="black_bold">What information does YellowStar Press gather about it's customers?</p>
@@ -10743,7 +10744,7 @@
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    To change your account details simply email gerard@yellowstarpress.com.au with your new details. To cancel your
+                    To change your account details simply email sales@yellowstarpress.com.au with your new details. To cancel your
                     account with YellowStar Press you must make your request in writing or facsimile on company letterhead.
                 </p>
                 <p>&nbsp;</p>
@@ -10759,7 +10760,7 @@
                 <p>&nbsp;</p>
                 <p>
                     If you have any further questions regarding your privacy policy of YellowStar Press please <b
-                        class="black_bold">email</b> gerard@yellowstarpress.com.au
+                        class="black_bold">email</b> sales@yellowstarpress.com.au
                 </p>
 
 
@@ -11030,7 +11031,7 @@
         <div class="main_container">
             <div class="container_left">
             <h1>Ordering Options</h1>
-            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.</p>
+            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.</p>
             <h2 class="order_title_cart">Shopping Cart</h2>
             <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
             </p>
@@ -11100,7 +11101,7 @@
             </div>
             <div class="container_right">.
             <h2 class="order_title_email">Email Orders</h2>
-            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a>, detailing what you require along with the attached print ready file.</p>
+            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a>, detailing what you require along with the attached print ready file.</p>
             <p>&nbsp;</p>
             <p>Upon receiving your email, our office will generate an invoice and contact you to process your payment. Payment methods for email orders are shown below.</p>
             <p class="black_heading padding_top">Payment Methods Accepted</p>
@@ -11126,7 +11127,7 @@
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
             <p>We are Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
-            Please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.
+            Please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.
             </p>
             </div>
         <div class="clear"></div>
@@ -11428,7 +11429,7 @@
         </p>
         <h3 class="pre_flight_title">free setup</h3>
         <p>YellowStar Press offer free setup on some of our products. Free setup includes setting up basic print ready artwork based on your existing branding (supplied logo, text, photos etc.)<br style="">
-        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
+        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:sales@yellowstarpress.com.au" class="blue_link">sales@yellowstarpress.com.au</a>
         </p>
 
 {{--        <h3 class="pre_flight_title">converting files to a press ready format</h3>--}}
@@ -11436,7 +11437,7 @@
 {{--        </p>--}}
         <p>&nbsp;</p>
         <p>
-        For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
+        For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> sales@yellowstarpress.com.au
         </p>
 
 
@@ -11465,11 +11466,11 @@
                 <div class="container_right">
                 <h2 class="large">How to order a proof</h2>
                 <p>
-                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a>.
+                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="mailto:sales@yellowstarpress.com.au" class="black_link">sales@yellowstarpress.com.au</a>.
             </p><p>&nbsp;</p><p>
             We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
             </p><p>&nbsp;</p><p>
-            For more information <b class="black">Call</b> (03) 9584 4708 or <b class="black">email</b> gerard@yellowstarpress.com.au
+            For more information <b class="black">Call</b> (03) 9584 4708 or <b class="black">email</b> sales@yellowstarpress.com.au
             </p>
                 </div>
                 <div class="clear"></div>
