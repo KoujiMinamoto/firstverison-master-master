@@ -20,11 +20,15 @@ class UserController extends Controller
       $userPassword=$request->input('password');
 
       $loginCheck = '';
-
-      //$userCheck = DB::table('one_printuser')->where(['user_name' => $userName])->get();
-      //$passwordCheck = DB::table('one_printuser')->where(['user_password' => $userPassword])->get();
-      $message = DB::table('oneprint_user')->select('user_name','user_password','user_type')->where('user_name',$userName)->get();
-
+      try {
+         $message = DB::table('oneprint_user')
+                     ->select('user_name','user_password','user_type')
+                     ->where('user_name',$userName)->get();
+      }
+      catch (\Exception $e) {
+         $loginCheck = "wrong";
+      }
+      
       if($message[0]->user_name == null) {
          $loginCheck = "user don't exist";
       } else if ($message[0]->user_password != $userPassword) {
