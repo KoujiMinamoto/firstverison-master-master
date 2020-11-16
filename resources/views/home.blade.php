@@ -2228,7 +2228,7 @@
                                                                         onclick="addToCart('brochure')"></td>
                                                                         <!-- <div id="flyItem" class="fly-item"><img src="{{URL::asset('/image/btn_add_to_cart_hover.jpg')}} "></div> -->
                                                                     </tr>
-                                                                    
+
                                                                     </tbody>
                                                                 </table>
                                                             </td>
@@ -12334,8 +12334,8 @@
         <div class="footer_width_holder">
             <div class="footer_col1">
                 <div class="footer_phone" href="tel:0398786999">
-                    <img src="image/tel.png" alt="Call 03 9878 6999" href="tel:0398786999" class="footer_phone_number">
-                    <a href="tel:0398786999"><h1>03 9878 6999<h></a>
+                    <img src="{{URL::asset('/image/tel.png')}}" alt="Call 03 9878 6999" href="tel:0398786999" class="footer_phone_number">
+                    <a href="tel:0398786999"><h1>&nbsp;&nbsp;03 9878 6999</h1></a>
                 </div>
             </div>
             <div class="footer_col2">
@@ -12923,7 +12923,7 @@
     x[slideIndex-1].style.display = "block";
     }
 
-   
+
     //轮播
 
 
