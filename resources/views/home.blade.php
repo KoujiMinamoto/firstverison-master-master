@@ -59,9 +59,9 @@
                 <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
 {{--                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a></li>--}}
 {{--                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>--}}
-                <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Docket Books</a></li>
+                <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Signage</a></li>
                 <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
-                <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Express Printing</a></li>
+                <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Banner</a></li>
                 <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;&nbsp;<a>Flyers</a></li>
 {{--                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>--}}
                 <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;&nbsp;<a>Letterheads</a></li>
@@ -124,9 +124,39 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" onclick="window.open('test');" style="cursor: pointer;">
-                <a herf="#" onclick="clickHeader(9)">
-                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;"></a>
+                <div class="carousel-item active" >
+                    <span class= "c-banner" style="display:inline-block;">
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
+                        <ul style="font-size:23px; color:#fff; line-height:28px;">
+                            <li style="list-style-type:disc;">400gsm premium artboard</li>
+                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
+                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
+                        </ul>
+                        <div style="margin-top: 20px;">
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">250</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">500</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
+                            </div>
+                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">1000</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
+                            </div>
+                        </div>
+
+                        <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
+
+                        <p style="margin-top:15px; margin-left:10px">
+                            <span class="button_click_here" href="/product/businessCards">
+                                <span style="color:#fff">click here</span>
+                            </span>
+                        </p>
+                    </span>
+                
+                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;">
                 </div>
 
                 <div class="carousel-item">
@@ -197,8 +227,8 @@
                     <img src="{{URL::asset('/image/gallery/pc1.jpg') }}" alt="New york" style="width:100%;">
                 </div>
 
-                <div class="carousel-item"  onclick="window.open('test');" style="cursor: pointer;">
-                <span class= "c-banner" style="display:inline-block;">
+                <div class="carousel-item">
+                <span class= "c-banner" style="display:inline-block; padding-left: 76%; ">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
                         <ul style="font-size:23px; color:#fff; line-height:28px;">
                             <li style="list-style-type:disc;">400gsm premium artboard</li>
@@ -3452,14 +3482,14 @@
                         <a href="/home" >YellowStar Press</a>
                         »
                             <a href="/product/docketBooks" >
-                            DocketBooks Printing
+                            Signage
                             </a>
             </div>
 
             <div class="main_left">
                 <div class="main_left_left">
-                    <h1>Online Docket Book Printing</h1>
-                    <h3>Brand your invoice books, docket books or receipt books with your company logo and custom
+                    <h1>Online Signage Printing</h1>
+                    <h3>Brand your invoice books, signage or receipt books with your company logo and custom
                         design.</h3>
                     <p>Docket booklets are typically used for receipt forms and invoices, with perforated pages that are
                         easy to remove. A copy of the form can be easily torn from the booklet and given to the
@@ -3469,7 +3499,7 @@
                     </p>
                     <p>&nbsp;</p>
                     <p>
-                        Purchase your order, docket, receipt or invoice books, which can all be designed and printed
+                        Purchase your order, signage, receipt or invoice books, which can all be designed and printed
                         with numbering, perforated pages and colour coding if required.
                     </p>
                     <p>&nbsp;</p>

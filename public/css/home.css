@@ -1044,7 +1044,7 @@ input.btn_search {
     line-height: 42px;
     font-weight: bold;
     position: absolute;
-    padding-left: 200px;
+    padding-left: 10%;
 }
 input.black_button {
     background: #323232;

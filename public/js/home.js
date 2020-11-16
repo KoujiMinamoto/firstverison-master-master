@@ -253,7 +253,18 @@ function reset() {
     document.getElementById("postercardlearnmore_div_id").style.display = "none";
     document.getElementById("pre_flight_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
-
+    var imgs = document.getElementById("myCarousel").getElementsByTagName("img");
+    var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
+    for(var a = 0; a < 4; a++){
+            for (var i = 1; i < 6; i=i+2){
+                banners[a].getElementsByTagName("p")[i].style="font-size:21px; color:white;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[a].getElementsByTagName("p")[i].style="font-size:42px; color:white; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[a].getElementsByTagName("p")[0].style="color:white;font-size:42px;margin-bottom: 20px;";
+            banners[a].getElementsByTagName("ul")[0].style="font-size:23px; color:white; line-height:28px;";
+        }
 }
 function showHeaderPage(headerName) {
     reset();
@@ -261,6 +272,7 @@ function showHeaderPage(headerName) {
         //product
         case 0:
             $(".home").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("home_div_id").style.display = "block";
             break;
         // case 1:
@@ -269,6 +281,7 @@ function showHeaderPage(headerName) {
         //     break;
         case 2:
             $(".design").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("design_div_id").style.display = "block";
             break;
         case 3:
@@ -279,18 +292,22 @@ function showHeaderPage(headerName) {
         case 4:
             $(".support").addClass("clickOn");
             $(".support4").addClass("clickOnli");
+            changeDisplaybox(0);
             document.getElementById("support_div_id").style.display = "block";
             break;
         case 5:
             $(".aboutUs").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("aboutUs_div_id").style.display = "block";
             break;
         case 6:
             $(".contact").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("contact_div_id").style.display = "block";
             break;
         case 7:
             $(".cart").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("cart_div_id").style.display = "block";
             break;
         case 8:
@@ -309,6 +326,7 @@ function showHeaderPage(headerName) {
             }else
             {
                 $(".login").addClass("clickOn");
+                changeDisplaybox(0);
                 document.getElementById("login_div_id").style.display = "block";
             }
             break;
@@ -324,6 +342,7 @@ function showHeaderPage(headerName) {
             }
             else{
                 $(".register").addClass("clickOn");
+                changeDisplaybox(0);
                 document.getElementById("register_div_id").style.display = "block";
             }
             break;
@@ -333,6 +352,7 @@ function showHeaderPage(headerName) {
             break;
         case 10:
             $(".login").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("login_div_forgetpasswd_id").style.display = "block";
             break;
         case 11:
@@ -349,6 +369,7 @@ function showHeaderPage(headerName) {
         case 14:
             $(".support0").addClass("clickOnli");
             $(".support").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("orderprocess_div_id").style.display = "block";
             break;
         case 15:
@@ -369,6 +390,7 @@ function showHeaderPage(headerName) {
         case 18:
             $(".support6").addClass("clickOnli");
             $(".support").addClass("clickOn");
+            changeDisplaybox(0);
             document.getElementById("color_div_id").style.display = "block";
             break;
     }
@@ -701,6 +723,174 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+//displaybox change
+function changeDisplaybox(headerName){
+    var imgs = document.getElementById("myCarousel").getElementsByTagName("img");
+    var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
+    switch (headerName) {
+        case 0://home
+            imgs[0].src='../image/1.jpg';
+            banners[0].style="padding-left: 10%;";
+            imgs[1].src='../image/2.jpg';
+            banners[1].style="padding-left: 10%;";
+            imgs[2].src='../image/gallery/pc1.jpg';
+            banners[2].style="padding-left: 10%;";
+            imgs[3].src='../image/gallery/test23.jpg';
+            banners[3].style="padding-left: 76%;";
+            break;
+        case 1://envelopes
+            imgs[0].src='../image/gallery/Envelope-2.jpg';
+            banners[0].style="padding-left: 10%;";
+            imgs[1].src='../image/gallery/Envelope-4.jpg';
+            banners[1].style="padding-left: 76%;";
+            imgs[2].src='../image/gallery/Envelope-5.jpg';
+            banners[2].style="padding-left: 5%;";
+            imgs[3].src='../image/gallery/Envelope-6.jpg';
+            banners[3].style="padding-left: 10%;";
+            break;
+
+        case 2://brochure
+            imgs[0].src='../image/gallery/Brochure-1.jpg';
+            banners[0].style="padding-left: 10%;";
+            imgs[1].src='../image/gallery/Brochure-2.jpg';
+            banners[1].style="padding-left: 76%;";
+            imgs[2].src='../image/gallery/Brochure-5.jpg';
+            banners[2].style="padding-left: 2%;";
+            imgs[3].src='../image/gallery/Brochure-4.jpg';
+            banners[3].style="padding-left: 10%;";
+            break;
+
+        case 3://signage
+            imgs[0].src='../image/gallery/Sign-1.jpg';
+            banners[0].style="padding-left: 10%;";
+            imgs[1].src='../image/gallery/Sign-2.jpg';
+            banners[1].style="padding-left: 10%;";
+            imgs[2].src='../image/gallery/Sign-4.jpg';
+            banners[2].style="padding-left: 10%;";
+            imgs[3].src='../image/gallery/Sign-5.jpg';
+            banners[3].style="padding-left: 10%;";
+            break;
+        case 4://bcard
+            imgs[0].src='../image/gallery/bc1.jpg';
+            banners[0].style="padding-left: 76%;";
+            imgs[1].src='../image/gallery/bc2.jpg';
+            banners[1].style="padding-left: 76%;";
+            for (var i = 1; i < 6; i=i+2){
+                banners[1].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[1].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[1].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            banners[1].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            imgs[2].src='../image/gallery/bc3.jpg';
+            banners[2].style="padding-left: 76%;";
+            imgs[3].src='../image/gallery/bc4.jpg';
+            banners[3].style="padding-left: 76%;color:black;";
+            for (var i = 1; i < 6; i=i+2){
+                banners[3].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[3].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+        case 5://banner
+            imgs[0].src='../image/gallery/Banner-1.jpg';
+            banners[0].style="padding-left: 2%;";
+            imgs[1].src='../image/gallery/Banner-2.jpg';
+            banners[1].style="padding-left: 10%;";
+            imgs[2].src='../image/gallery/Banner-4.jpg';
+            banners[2].style="padding-left: 2%;";
+            imgs[3].src='../image/gallery/Banner-3.jpg';
+            banners[3].style="padding-left: 10%;";
+            for (var i = 1; i < 6; i=i+2){
+                banners[3].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[3].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            for (var i = 1; i < 6; i=i+2){
+                banners[0].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[0].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            break;
+        case 6://banner
+            imgs[0].src='../image/gallery/Flyer1.jpg';
+            banners[0].style="padding-left: 10%;";
+            imgs[1].src='../image/gallery/Flyer2.jpg';
+            banners[1].style="padding-left: 10%;";
+            imgs[2].src='../image/gallery/Flyer4.jpg';
+            banners[2].style="padding-left: 5%;";
+            imgs[3].src='../image/gallery/Flyer6.jpg';
+            banners[3].style="padding-left: 5%;";
+            for (var i = 1; i < 6; i=i+2){
+                banners[1].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[1].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[1].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            banners[1].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            for (var i = 1; i < 6; i=i+2){
+                banners[0].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            }
+            for (var i = 2; i < 7; i=i+2){
+                banners[0].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            }
+            banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            break;
+        case 7://letterhead
+            imgs[0].src='../image/gallery/LH-1.jpg';
+            banners[0].style="padding-left: 3%;";
+            imgs[1].src='../image/gallery/LH-2.jpg';
+            banners[1].style="padding-left: 10%;";
+            imgs[2].src='../image/gallery/LH-5.jpg';
+            banners[2].style="padding-left: 5%;";
+            imgs[3].src='../image/gallery/LH-6.jpg';
+            banners[3].style="padding-left: 45%;";
+            break;
+        case 8://postercard
+            imgs[0].src='../image/gallery/pc1.jpg';
+            banners[0].style="padding-left: 3%;";
+            imgs[1].src='../image/gallery/Postcard2.jpg';
+            banners[1].style="padding-left: 10%;";
+            imgs[2].src='../image/gallery/pc3.jpg';
+            banners[2].style="padding-left: 5%;";
+            imgs[3].src='../image/gallery/Postcard6.jpg';
+            banners[3].style="padding-left: 10%;";
+            break;
+        case 9://poster
+            imgs[0].src='../image/gallery/Poster-1.jpg';
+            banners[0].style="padding-left: 3%;";
+            imgs[1].src='../image/gallery/Poster-3.jpg';
+            banners[1].style="padding-left: 5%;";
+            imgs[2].src='../image/gallery/Poster-4.jpg';
+            banners[2].style="padding-left: 10%;";
+            imgs[3].src='../image/gallery/Poster-5.jpg';
+            banners[3].style="padding-left: 10%;";
+            break;
+        case 10://Dl Complients
+            imgs[0].src='../image/gallery/dl-1.jpg';
+            banners[0].style="padding-left: 5%;";
+            imgs[1].src='../image/gallery/dl-2.jpg';
+            banners[1].style="padding-left: 5%;";
+            imgs[2].src='../image/gallery/dl-3.jpg';
+            banners[2].style="padding-left: 5%;";
+            imgs[3].src='../image/gallery/dl2.jpg';
+            banners[3].style="padding-left: 45%;";
+            break;
+    }
+}
+
 
 
 

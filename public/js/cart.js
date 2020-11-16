@@ -129,9 +129,9 @@ function cartDataInsert(productMessage) {
             } else if(productMessage[0] == 'bcard') {
                 productMessage[0] = 'Business Card';
             } else if(productMessage[0] == 'signage') {
-                productMessage[0] = 'Docket Books';
+                productMessage[0] = 'Signage';
             } else if(productMessage[0] == 'banner') {
-                productMessage[0] = 'Express Printing';
+                productMessage[0] = 'Banner';
             } else if(productMessage[0] == 'flyer') {
                 productMessage[0] = 'Flyers';
             } else if(productMessage[0] == 'lw') {

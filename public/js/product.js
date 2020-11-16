@@ -106,11 +106,13 @@ function showProductPage(headerName) {
         case 1:
             $(".product1").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(2);
             document.getElementById("product_div_id_2").style.display = "block";
             break;
         case 2:
             $(".product2").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(4);
             document.getElementById("product_div_id_3").style.display = "block";
             break;
         case 3:
@@ -126,21 +128,25 @@ function showProductPage(headerName) {
         case 5:
             $(".product5").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(3);
             document.getElementById("product_div_id_6").style.display = "block";
             break;
         case 6:
             $(".product6").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(1);
             document.getElementById("product_div_id_7").style.display = "block";
             break;
         case 7:
             $(".product7").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(5);
             document.getElementById("product_div_id_8").style.display = "block";
             break;
         case 8:
             $(".product8").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(6);
             document.getElementById("product_div_id_9").style.display = "block";
             break;
         case 9:
@@ -151,16 +157,19 @@ function showProductPage(headerName) {
         case 10:
             $(".product10").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(7);
             document.getElementById("product_div_id_11").style.display = "block";
             break;
         case 11:
             $(".product11").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(8);
             document.getElementById("product_div_id_12").style.display = "block";
             break;
         case 12:
             $(".product12").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(9);
             document.getElementById("product_div_id_13").style.display = "block";
             break;
         case 13:
@@ -171,6 +180,7 @@ function showProductPage(headerName) {
         case 14:
             $(".product14").addClass("clickOnli");
             $(".product").addClass("clickOn");
+            changeDisplaybox(10);
             document.getElementById("product_div_id_15").style.display = "block";
             break;
         case 15:
