@@ -27,6 +27,7 @@ class UserController extends Controller
       }
       catch (\Exception $e) {
          $loginCheck = "wrong";
+         // return
       }
       
       if($message[0]->user_name == null) {
@@ -60,7 +61,13 @@ class UserController extends Controller
       $user_postcode = $request->input('postcode');
       $user_date = $request->input('registerDdata');
 
-      $userCheck = DB::table('oneprint_user')->select('user_name')->where('user_name',$user_name)->get();
+      try {
+         $userCheck = DB::table('oneprint_user')->select('user_name')->where('user_name',$user_name)->get();
+      }
+      catch (\Exception $e) {
+         // return 
+      }
+      
       if(!$userCheck->isEmpty()) {
          $register = "repeat";
          return response()->json($register);
@@ -68,7 +75,8 @@ class UserController extends Controller
          // user id set
          $user_id = DB::table('oneprint_user')->order_by('user_id', 'desc')->first() + 1;
          // insert data
-         DB::table('oneprint_user')->insert([
+         try {
+            DB::table('oneprint_user')->insert([
                'user_name' => $user_name,
                'user_type' => 0,
                'user_bsName' => $user_businessName,
@@ -85,6 +93,10 @@ class UserController extends Controller
                'user_date' => $user_date,
                'user_id' => $user_id
         ]);
+         }
+         catch (\Exception $e) {
+            // return 
+         }
         $register = "success";
         return response()->json($register);
         
@@ -105,22 +117,26 @@ class UserController extends Controller
       $user_subrub = $request->input('subrub');
       $user_state = $request->input('state');
       $user_postcode = $request->input('postcode');
-      
-      DB::table('oneprint_user')->where('user_name',$user_name)->update([
+      try {
+         DB::table('oneprint_user')->where('user_name',$user_name)->update([
 
-         'user_bsName' => $user_businessName,
-         'user_firstName' => $user_firstName,
-         'user_lastName' => $user_lastName,
-
-         'user_password' => $user_password,
-         'user_email' => $user_email,
-         'user_phonenum' => $user_phonenum,
-         'user_address' => $user_address,
-         'user_subrub' => $user_subrub,
-         'user_state' => $user_state,
-         'user_postcode' => $user_postcode
-
-      ]);
+            'user_bsName' => $user_businessName,
+            'user_firstName' => $user_firstName,
+            'user_lastName' => $user_lastName,
+   
+            'user_password' => $user_password,
+            'user_email' => $user_email,
+            'user_phonenum' => $user_phonenum,
+            'user_address' => $user_address,
+            'user_subrub' => $user_subrub,
+            'user_state' => $user_state,
+            'user_postcode' => $user_postcode
+   
+         ]);
+      }
+      catch (\Exception $e) {
+         // return 
+      }
       
       $result = "true";
       return response()->json($result);

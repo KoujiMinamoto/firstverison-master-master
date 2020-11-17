@@ -52,29 +52,8 @@ use Illuminate\Support\Facades\Storage;
 
         $toMail = 'anmouer@163.com';
 
-        // $handler = opendir('files/');
-        // $filename = readdir($handler);
         $file_path = opendir('files\\');
-        // $file_base_name = basename($file_path);
-        // $f_name = substr($file_base_name,0,strrpos($file_base_name,'.'));
-        // $change = dir('files');
         $sendFile = 'empty';
-        // while( ($filename = readdir($file_path)) != false ) {
-        //     if( ($filename != ".") && ($filename != "..") ) {
-        //         $test = $filename;
-        //         break;
-        //     }
-        // }
-        // while ($file = $change ->read()){  
-        //     if($file !="." && $file !=".."){ 
-        //         if(is_file('files/'.$file)){//当前为文件
-        //              $files[]= $file;
-        //              $sendFile = $file;
-        //         }else{//当前为目录  
-                     
-        //         }               
-        //     } 
-        // }
 
         while( ($filename = readdir($file_path)) !== false) {
             if ( $filename !="." && $filename !='..') {
@@ -87,11 +66,6 @@ use Illuminate\Support\Facades\Storage;
             Mail::raw($content, function ($message) use ($toMail, $title) {
                 $message->subject($title);
                 $message->to($toMail);
-                
-                //$attachment = $sendFile; // 'files/'.
-                //在邮件中上传附件
-                //$message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode('file1')."?=.doc"]);
-                // $message->attach($attachment,['as'=>'file1.doc']);
             });
     
         } else {
@@ -99,16 +73,31 @@ use Illuminate\Support\Facades\Storage;
             Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
                 $message->subject($title);
                 $message->to($toMail);
-                
-                // $attachment=['file'=>storage_path('files\\').$sendFile];
-                $attachment = storage_path( 'app\\files\\'.$sendFile );
+                $attachment = public_path( 'files\\'.$sendFile );
                 $message->attach($attachment,['as'=>$sendFile]);
-                //$message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
-                // $message->attach($attachment,['as'=>'file1.doc']);
             });
             
         }
-        closedir($file_path);        
+        closedir($file_path); 
+        
+        if(is_dir($path)){
+            // 扫描一个文件夹内的所有文件夹和文件并返回数组
+            $p = scandir($path);
+            foreach($p as $val){
+                if($val !="." && $val !=".."){
+                    if(is_dir($path.$val)){
+              // 子目录中操作删除文件夹和文件
+                        deldir($path.$val.'/');
+              // 目录清空后删除空文件夹
+                        @rmdir($path.$val.'/');
+                    }else{
+              // 如果是文件直接删除
+                        unlink($path.$val);
+                    }
+                }
+            }
+        }
+
         return true;
      }
 
@@ -198,10 +187,8 @@ use Illuminate\Support\Facades\Storage;
             Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
                 $message->subject($title);
                 $message->to($toMail);
-                
-                $attachment = $sendFile; 
-                //在邮件中上传附件
-                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
+                $attachment = public_path( 'files\\'.$sendFile );
+                $message->attach($attachment,['as'=>$sendFile]);
             });    
         }
         closedir($file_path);
@@ -331,14 +318,13 @@ use Illuminate\Support\Facades\Storage;
             Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
                 $message->subject($title);
                 $message->to($toMail);
-                
-                $attachment = $sendFile; 
-                //在邮件中上传附件
-                $message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
+                $attachment = public_path( 'files\\'.$sendFile );
+                $message->attach($attachment,['as'=>$sendFile]);
             });    
         }
         closedir($file_path);
         return true;
+        
     }
 
     public function uploadFile(Request $request){
@@ -363,8 +349,6 @@ use Illuminate\Support\Facades\Storage;
                     }
                 }
             }
-
-
 
             $file=$request->file('file');
             

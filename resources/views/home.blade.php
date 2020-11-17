@@ -10095,7 +10095,7 @@
 
                     <tr>
                     <td height="25" align="left">Preview</td>
-                        <td><input type="file" name="file1" id="contact_file1" accept=".docx,"></td>
+                        <td><input type="file" name="file1" id="contact_file1" ></td>
                     </tr>
                     {{-- <tr>
                     <td height="25" align="left">Preview 2</td>
@@ -10318,6 +10318,8 @@
 
                 <div id="cart_upload" style="display: none;">
                     <h1>Upload your Files</h1>
+                    <h3>select your file</h3>
+                    <input type="file" id="cart_uploadFile" >
                     <div class = "cart_next" onclick = "cartProcess('payment')">Next</div>
                     <div class = "cart_back" onclick = "cartProcess('confirm')">Back</div>
                 </div>
