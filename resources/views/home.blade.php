@@ -12398,7 +12398,7 @@
 </div>
 
 
-<div class="dashboard_admin" id="dashboard_admin_div_id" style="display:block">
+<div class="dashboard_admin" id="dashboard_admin_div_id" style="display:none">
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
