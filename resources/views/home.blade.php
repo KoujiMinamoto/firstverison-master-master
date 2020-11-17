@@ -155,7 +155,7 @@
                             </span>
                         </p>
                     </span>
-                
+
                     <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;">
                 </div>
 
@@ -1459,7 +1459,7 @@
                 </div>
                 <div class="clear"></div>
                 <div class="main_left_bottom1">
-                    <div class="product_info_design">
+                    <div class="product_info_design no_margin">
                         <a href="/design">
                             <div class="product_info_design_img">
                             </div>
@@ -1503,17 +1503,6 @@
 {{--                                more+</a>--}}
 {{--                        </a>--}}
 {{--                    </div>--}}
-                    <div class="product_info_templates">
-                        <a href="/contact">
-                            <div class="product_info_templates_img">
-                            </div>
-                            <h4>Artwork Templates</h4>
-                            <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link"
-                               href="/contact">read
-                                more+</a>
-                        </a>
-                    </div>
                     <div class="clear"></div>
                 </div>
                 <div style="clear: both;"></div>
@@ -1590,11 +1579,6 @@
                                     <div class="fold_info">Single Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">4 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
@@ -1603,6 +1587,11 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
+                                </div>
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">4 Pages</div>
+                                    <div class="bro_sizing_sml">297 x 420m(folded)</div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1616,11 +1605,6 @@
                                     <div class="fold_info">Landscape</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">4 Page Landscape</div>
-                                    <div class="bro_sizing_sml">99 x 420m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">148 x 420m(folded)</div>
@@ -1629,6 +1613,11 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">210 x 594mm (folded)</div>
+                                </div>
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">4 Page Landscape</div>
+                                    <div class="bro_sizing_sml">297 x 840m(folded)</div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1642,11 +1631,6 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">6 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
@@ -1656,7 +1640,11 @@
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
                                 </div>
-
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">6 Pages</div>
+                                    <div class="bro_sizing_sml">297 x 420m(folded)</div>
+                                </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
@@ -1670,11 +1658,6 @@
                                     <div class="fold_info">Z Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">6 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
@@ -1683,6 +1666,11 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
+                                </div>
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">6 Pages</div>
+                                    <div class="bro_sizing_sml">297 x 420m(folded)</div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1771,19 +1759,7 @@
 
                     <div class="main_left_bottom1">
 
-                        <div class="product_info_express no_margin">
-                            <a href="javascript:void(0);" onclick="clickProduct(7)">
-                                <div class="product_info_express_img">
-                                </div>
-                                <h4>Express Printing</h4>
-                                <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                                <a class="blue_link" href="javascript:void(0);"
-                                    onclick="clickProduct(7)">read
-                                    more+</a>
-                            </a>
-                        </div>
-
-                        <div class="product_info_design margin_left20">
+                        <div class="product_info_design no_margin">
                             <a href="javascript:void(0);" onclick="clickHeader(2)">
                                 <div class="product_info_design_img">
                                 </div>
@@ -2329,19 +2305,8 @@
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
-                    <div class="product_info_express no_margin">
-                        <a href="/product/expressPrinting">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                        </a><a class="blue_link"
-                               href="/product/expressPrinting">read
-                            more+</a>
-                    </div>
 
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -2363,13 +2328,14 @@
                             more+</a>
 
                     </div>
-                    <div class="product_info_templates">
-                        <a href="/templates/sample-buisness-card-templates.pdf" target="_blank">
-                            <div class="product_info_templates_img">
+                    <div class="product_info_order">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
+                            <div class="product_info_order_img">
                             </div>
-                            <h4>Artwork Templates</h4>
-                            <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link" href="/templates/sample-buisness-card-templates.pdf" target="_blank">read
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                        </a><a class="blue_link"
+                               href="javascript:void(0);" onclick="clickHeader(14)">read
                             more+</a>
 
                     </div>
@@ -3406,14 +3372,15 @@
                     </p>
                     <p>&nbsp;</p>
                     <p class="black">
-                        For more information <b>Call</b> (03) 9584 4708 or <b>email</b> <a
-                            href="mailto:gerard@yellowstarpress.com.au"
-                            class="black_link">gerard@yellowstarpress.com.au</a>
+                        For more information <b>Call</b> (03)  or <b>email</b> <a
+                            href="mailto:sales@yellowstarpress.com.au"
+                            class="black_link">sales@yellowstarpress.com.au</a>
                     </p>
                 </div>
                 <div class="container_right">
                     <h2>Data Solutions</h2>
-                    <p>Choose the target audience for your business and your direct marketing campaigns. We have an
+                    <p>Choose the target audience for your bus
+                        iness and your direct marketing campaigns. We have an
                         extensive list of names and addresses that you can choose by industries and demographics.
                     </p>
                     <p>&nbsp;</p>
@@ -3483,18 +3450,10 @@
 
                     <div class="option_size_list docket_templates">
 
-                        <div class="bro_setup">
-                            <div class="bro_sizing">A5</div>
-                            <div class="bro_title" style="color:#959595;">Docket Book</div>
-                            <div class="bro_sizing_sml">148 x 210mm</div>
+                        <div class="bro_setup" style="height:7rem">
+                            <div class="bro_sizing" style="font-size:22px;line-height:20px;padding-top:10px;">Metal with TEKflute</div>
+                            <div class="bro_sizing_sml">600 x 900mm</div>
                         </div>
-                        <div class="bro_setup">
-                            <div class="bro_sizing">A4</div>
-                            <div class="bro_title" style="color:#959595;">Docket Book</div>
-                            <div class="bro_sizing_sml">210 x 297m</div>
-                        </div>
-
-
                         <div class="clear"></div>
 
                     </div>
@@ -3545,21 +3504,7 @@
 
                 <div class="main_left_bottom1">
 
-
-                    <div class="product_info_express no_margin" style="margin-left: 0rem">
-                        <a href="javascript:void(0);" onclick="clickProduct(7)">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link"
-                               href="javascript:void(0);" onclick="clickProduct(7)">read
-                                more+</a>
-                        </a>
-                    </div>
-
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin" style="margin-left: 0rem">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -3992,22 +3937,22 @@
                         <div class="bro_setup">
                             <div class="bro_sizing">DL</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                            <div class="bro_sizing_sml">110 x 220m(folded)</div>
                         </div>
                         <div class="bro_setup">
                             <div class="bro_sizing">DLX</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing_sml">120 x 235m(folded)</div>
                         </div>
                         <div class="bro_setup">
                             <div class="bro_sizing">C5</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">210 x 297mm (folded)</div>
+                            <div class="bro_sizing_sml">162 x 229mm (folded)</div>
                         </div>
                         <div class="bro_setup">
                             <div class="bro_sizing">C4</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 420m(folded)</div>
+                            <div class="bro_sizing_sml">229 x 324m(folded)</div>
                         </div>
                         <div class="clear"></div>
                         <div style="clear: both;"></div>
@@ -4620,30 +4565,25 @@
                 <div style="clear: both;"></div>
 
                 <div class="option_size_list express_templates" style="padding-top: 2rem">
-                    <div class="bro_setup" style="height:7rem;margin-left:0rem">
-                        <div class="small_bro_sizing">DL</div>
-                        <div class="bro_sizing_sml">99 x 210mm</div>
-                    </div>
                     <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A6</div>
-                        <div class="bro_sizing_sml">105 x 148mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A5</div>
-                        <div class="bro_sizing_sml">148 x 210mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A4</div>
-                        <div class="bro_sizing_sml">210 x 297mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A3</div>
-                        <div class="bro_sizing_sml">297 x 420mm</div>
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        </div>
+                        <div class="bro_sizing_sml">850mm</div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
                         <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
                         </div>
-                        <div class="bro_sizing_sml">90 x 55mm</div>
+                        <div class="bro_sizing_sml">1200mm</div>
+                    </div>
+                    <div class="bro_setup" style="height:7rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        </div>
+                        <div class="bro_sizing_sml">1800mm</div>
+                    </div>
+                    <div class="bro_setup" style="height:7rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        </div>
+                        <div class="bro_sizing_sml">2400mm</div>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
@@ -5052,22 +4992,26 @@
                     </a>
                         <div class="clear"></div>
 
-                        <div class="option_size_list flyer_templates" style="display:inline-flex">
+                        <div class="option_size_list flyer_templates" style="display:inline-flex;margin-top:10rem">
                             <div class="bro_setup" style="height:7rem;margin:0rem">
-                                <div class="small_bro_sizing">DLX</div>
+                                <div class="small_bro_sizing">DL</div>
                                 <div class="bro_sizing_sml">99 x 210mm</div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
                                 <div class="small_bro_sizing">A6</div>
-                                <div class="bro_sizing_sml">105 x 148mm</div>
+                                <div class="bro_sizing_sml">105 x 148.5mm</div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
                                 <div class="small_bro_sizing">A5</div>
-                                <div class="bro_sizing_sml">148 x 210mm</div>
+                                <div class="bro_sizing_sml">148.5 x 210mm</div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
                                 <div class="small_bro_sizing">A4</div>
                                 <div class="bro_sizing_sml">210 x 297mm</div>
+                            </div>
+                            <div class="bro_setup" style="height:7rem">
+                                <div class="small_bro_sizing">A3</div>
+                                <div class="bro_sizing_sml">297 x 420mm</div>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -5115,20 +5059,7 @@
 
                 <div class="main_left_bottom1">
 
-
-                    <div class="product_info_express no_margin">
-                        <a href="javascript:void(0);" onclick="clickProduct(7)">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickProduct(7)">read more+</a>
-                        </a>
-                    </div>
-
-
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -6588,9 +6519,8 @@
                             <div class="bro_sizing_sml">148 x 210mm</div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <div class="small_bro_sizing">2DL</div>
-                            <div class="bro_title" style="line-height:0.1rem;height:0.2rem">Envelope</div>
-                            <div class="bro_sizing_sml" style="line-height:2rem;height:2.1rem">198 x 210mm</div>
+                            <div class="small_bro_sizing">A4</div>
+                            <div class="bro_sizing_sml">210 x 297mm</div>
                         </div>
                     </div>
 
@@ -6627,15 +6557,6 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-
-                    <div class="panel_marketing">
-                        <h4 class="padding_top">Personalised Printing and Mailing</h4>
-                        <p class="black">We can also personalise each postcard with unique printing options as well as
-                            oversee your mail marketing campaigns. <a
-                                href="/directMarketing"
-                                class="blue_link">Click here</a></p>
-                        <p>&nbsp;</p>
-                    </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
                         <a class="bcards500link"></a>
@@ -6648,20 +6569,7 @@
 
                 <div class="main_left_bottom1">
 
-
-                    <div class="product_info_express no_margin">
-                        <a href="javascript:void(0);" onclick="clickProduct(7)">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickProduct(7)">read more+</a>
-                        </a>
-                    </div>
-
-
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -7201,16 +7109,6 @@
                         <div class="small_bro_sizing">A1</div>
                         <div class="bro_sizing_sml">594 x 841mm</div>
                     </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A0*</div>
-                        <div class="bro_sizing_sml">841 x 1189mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">B0*</div>
-                        <div class="bro_sizing_sml">1000 x 1414mm</div>
-                    </div>
-
-
                 </div>
 
 
@@ -9079,7 +8977,7 @@
 
                         <div class="bro_setup"style="height:7rem;margin-left:0rem;margin-top:2rem">
                             <div class="small_bro_sizing">DL</div>
-                            <div class="bro_sizing_sml">99 x 210mm</div>
+                            <div class="bro_sizing_sml">210 x 99mm</div>
                         </div>
 
                     </div>
@@ -9675,7 +9573,7 @@
                         We work closely with our clients to ensure a smooth transition from design to the finished product. YellowStar Press charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
                     </p><p>&nbsp;</p>
                     <p>
-                        Call (03) 9584 4708 or email <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a> for more information and prices.
+                        Call (03) 9878 6999 or email <a href="mailto:sales@yellowstarpress.com.au" class="black_link">sales@yellowstarpress.com.au</a> for more information and prices.
                     </p>
 
                 </div>
@@ -10052,25 +9950,25 @@
                 <ul class="black_bullets">
                     <li>Annual Reports</li>
                     <li>Business Forms</li>
-                    <li><a class="click_a" href="">Envelopes</a></li>
-                    <li><a class="click_a" href="">Folders</a></li>
+                    <li>Envelopes</li>
+                    <li>Folders</li>
                     <li>Labels</li>
                     <li>Manuals</li>
                     <li>NCR Books</li>
-                    <li><a class="click_a" href="">Posters</a></li>
-                    <li><a class="click_a" href="">Postcards</a></li>
+                    <li>Posters</li>
+                    <li>Postcards</li>
                 </ul>
             </div>
             <div class="about_col2">
                 <ul class="black_bullets">
-                    <li><a class="click_a" href="">Pads</a></li>
-                    <li><a class="click_a" href="">Presentation Folders</a></li>
-                    <li><a class="click_a" href="">Booklets</a></li>
-                    <li><a class="click_a" href="">Books</a></li>
+                    <li>ads</li>
+                    <li>Presentation Folders</li>
+                    <li>Booklets</li>
+                    <li>Books</li>
                     <li>Calendars</li>
-                    <li><a class="click_a" href="">Catalogues</a></li>
-                    <li><a class="click_a" href="">Desk Pads</a></li>
-                    <li><a class="click_a" href="">Flyers</a></li>
+                    <li>Catalogues</li>
+                    <li>Desk Pads</li>
+                    <li>Flyers</li>
                     <li>Greeting Cards</li>
                 </ul>
             </div>
@@ -10109,30 +10007,30 @@
                 <div class="contact_div_leftContainer">
                     <h1>Contact us</h1>
                     <div class="contact_phone">
-                        <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">(03) 9584 4708</span>
+                        <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">(03) 9878 6999</span>
                     </div>
                     <div class="contact_fax">
-                        <span class="black_bold">Fax</span> (03) 9584 4708
+                        <span class="black_bold">Fax</span> (03) 9878 6999
                     </div>
 
 
                     <div class="contact_email">
                         <span class="contact-align-left">Quotes</span>
                         <span class="contact-align"><a
-                                href="mailto:gerard@yellowstarpress.com.au"
-                                class="black_link">gerard@yellowstarpress.com.au</a></span>
+                                href="mailto:sales@yellowstarpress.com.au"
+                                class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email">
                         <span class="contact-align-left">Orders</span>
                         <span class="contact-align"><a
-                        href="mailto:gerard@yellowstarpress.com.au"
-                                class="black_link">gerard@yellowstarpress.com.au</a></span>
+                        href="mailto:sales@yellowstarpress.com.au"
+                                class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
                     <div class="contact_email_last">
                         <span class="contact-align-left">Accounts</span>
                         <span class="contact-align"><a
-                        href="mailto:gerard@yellowstarpress.com.au"
-                                class="black_link">gerard@yellowstarpress.com.au</a></span>
+                        href="mailto:sales@yellowstarpress.com.au"
+                                class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
                     <p class="black_heading">You can visit us at:</p>
                     <p style="color: #323232;"> 26 Metropolitan Av, Nunawarding 3131 Australia</p>
@@ -10214,12 +10112,14 @@
                     <tr>
                         <td></td>
                         <td valign="top" colspan="3">
-                        <div class="subscribe_holder">
+                            <div style="display:inline-flex;">
+                        <div class="subscribe_holder" style="width:2rem;position:relative;top:1rem;">
                         <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="contact_subscribe" value="yes" checked="">
                         </div>
-                        <div class="subscribe_text">
-                        Subscribe to our newsletter for special offers
+                        <div class="subscribe_text" style="padding-left:0.5rem;">
+                            Subscribe to our newsletter for special offers
                         </div>
+                            </div>
                         <div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes"></div>
                         <div class="clear"></div>
                         </td>
@@ -10379,7 +10279,7 @@
                                     </div>
                                     <div class="col-50">
                                         <label for="zip">Zip</label>
-                                        <input type="text" id="zip" name="zip">
+                                        <input type="text" id="information_zip" name="zip">
                                         <div class="checkmsg" id="zipck"></div>
                                     </div>
                                     </div>
@@ -10600,7 +10500,7 @@
                     statement discloses our current privacy practices, if we make any changes to this policy, we will
                     announce it via an e-mail and on our web site. If you have any questions or concerns regarding this
                     statement, please e-mail <a
-                        href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
+                        href="mailto:sales@yellowstarpress.com.au" class="blue_link">sales@yellowstarpress.com.au</a>
                 </p>
                 <p>&nbsp;</p>
                 <p class="black_bold">What information does YellowStar Press gather about it's customers?</p>
@@ -10696,7 +10596,7 @@
                 </p>
                 <p>&nbsp;</p>
                 <p>
-                    To change your account details simply email gerard@yellowstarpress.com.au with your new details. To cancel your
+                    To change your account details simply email sales@yellowstarpress.com.au with your new details. To cancel your
                     account with YellowStar Press you must make your request in writing or facsimile on company letterhead.
                 </p>
                 <p>&nbsp;</p>
@@ -10712,7 +10612,7 @@
                 <p>&nbsp;</p>
                 <p>
                     If you have any further questions regarding your privacy policy of YellowStar Press please <b
-                        class="black_bold">email</b> gerard@yellowstarpress.com.au
+                        class="black_bold">email</b> sales@yellowstarpress.com.au
                 </p>
 
 
@@ -10983,7 +10883,7 @@
         <div class="main_container">
             <div class="container_left">
             <h1>Ordering Options</h1>
-            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.</p>
+            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9878 6999</span>.</p>
             <h2 class="order_title_cart">Shopping Cart</h2>
             <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
             </p>
@@ -11053,7 +10953,7 @@
             </div>
             <div class="container_right">.
             <h2 class="order_title_email">Email Orders</h2>
-            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a>, detailing what you require along with the attached print ready file.</p>
+            <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a>, detailing what you require along with the attached print ready file.</p>
             <p>&nbsp;</p>
             <p>Upon receiving your email, our office will generate an invoice and contact you to process your payment. Payment methods for email orders are shown below.</p>
             <p class="black_heading padding_top">Payment Methods Accepted</p>
@@ -11079,7 +10979,7 @@
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
             <p>We are Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
-            Please email <a class="black_link" href="mailto:gerard@yellowstarpress.com.au">gerard@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.
+            Please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9878 6999</span>.
             </p>
             </div>
         <div class="clear"></div>
@@ -11381,7 +11281,7 @@
         </p>
         <h3 class="pre_flight_title">free setup</h3>
         <p>YellowStar Press offer free setup on some of our products. Free setup includes setting up basic print ready artwork based on your existing branding (supplied logo, text, photos etc.)<br style="">
-        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:gerard@yellowstarpress.com.au" class="blue_link">gerard@yellowstarpress.com.au</a>
+        Free setup does not include creating new logo's or creating complex imagery. If you are unsure of what you require falls under our free setup terms, please call or email us at <a href="mailto:sales@yellowstarpress.com.au" class="blue_link">sales@yellowstarpress.com.au</a>
         </p>
 
 {{--        <h3 class="pre_flight_title">converting files to a press ready format</h3>--}}
@@ -11389,7 +11289,7 @@
 {{--        </p>--}}
         <p>&nbsp;</p>
         <p>
-        For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> gerard@yellowstarpress.com.au
+        For more information <span class="black_bold">Call</span> (03) 9878 6999 or <span class="black_bold">email</span> sales@yellowstarpress.com.au
         </p>
 
 
@@ -11418,11 +11318,11 @@
                 <div class="container_right">
                 <h2 class="large">How to order a proof</h2>
                 <p>
-                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="mailto:gerard@yellowstarpress.com.au" class="black_link">gerard@yellowstarpress.com.au</a>.
+                To order your hard copy proof, add your chosen product to your shopping cart. Once you are in your shopping cart, you can then select a High resolution hard copy proof. Alternatively, you can order your hard copy proof by emailing us at <a href="mailto:sales@yellowstarpress.com.au" class="black_link">sales@yellowstarpress.com.au</a>.
             </p><p>&nbsp;</p><p>
             We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
             </p><p>&nbsp;</p><p>
-            For more information <b class="black">Call</b> (03) 9584 4708 or <b class="black">email</b> gerard@yellowstarpress.com.au
+            For more information <b class="black">Call</b> (03) 9878 6999 or <b class="black">email</b> sales@yellowstarpress.com.au
             </p>
                 </div>
                 <div class="clear"></div>
@@ -12455,19 +12355,18 @@
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
-                <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
+                <a href="/index.html">
+                    <div class="companyLogo" id="companyLogo_id">
+                        <img src="{{URL::asset('/image/logonew.png') }} "style="margin-left: -65px;margin-top: 5px;">
+                    </div>
+                </a>
                 <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
             </div><!-- az-header-left -->
             <div class="az-header-menu">
-                <div class="az-header-menu-header">
-                    <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
-                    <a href="" class="close">×</a>
-                </div><!-- az-header-menu-header -->
                 <ul class="nav">
                     <li class="nav-item" id="nav-dashboard_id" onclick="onclickHeader(0)">
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
                     </li>
-
                     <li class="nav-item" id="nav-profile_id" onclick="onclickHeader(1)">
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-bar-outline"></i> Profile</a>
                     </li>
