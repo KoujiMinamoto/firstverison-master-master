@@ -6604,15 +6604,6 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-
-                    <div class="panel_marketing">
-                        <h4 class="padding_top">Personalised Printing and Mailing</h4>
-                        <p class="black">We can also personalise each postcard with unique printing options as well as
-                            oversee your mail marketing campaigns. <a
-                                href="/directMarketing"
-                                class="blue_link">Click here</a></p>
-                        <p>&nbsp;</p>
-                    </div>
                     <div class="clear"></div>
                     <div class="bcards500 notop">
                         <a class="bcards500link"></a>
@@ -10168,12 +10159,14 @@
                     <tr>
                         <td></td>
                         <td valign="top" colspan="3">
-                        <div class="subscribe_holder">
+                            <div style="display:inline-flex;">
+                        <div class="subscribe_holder" style="width:2rem;position:relative;top:1rem;">
                         <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="contact_subscribe" value="yes" checked="">
                         </div>
-                        <div class="subscribe_text">
-                        Subscribe to our newsletter for special offers
+                        <div class="subscribe_text" style="padding-left:0.5rem;">
+                            Subscribe to our newsletter for special offers
                         </div>
+                            </div>
                         <div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes"></div>
                         <div class="clear"></div>
                         </td>
@@ -12405,23 +12398,22 @@
 </div>
 
 
-<div class="dashboard_admin" id="dashboard_admin_div_id" style="display:none">
+<div class="dashboard_admin" id="dashboard_admin_div_id" style="display:block">
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
-                <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
+                <a href="/index.html">
+                    <div class="companyLogo" id="companyLogo_id">
+                        <img src="{{URL::asset('/image/logonew.png') }} "style="margin-left: -65px;margin-top: 5px;">
+                    </div>
+                </a>
                 <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
             </div><!-- az-header-left -->
             <div class="az-header-menu">
-                <div class="az-header-menu-header">
-                    <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
-                    <a href="" class="close">×</a>
-                </div><!-- az-header-menu-header -->
                 <ul class="nav">
                     <li class="nav-item" id="nav-dashboard_id" onclick="onclickHeader(0)">
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
                     </li>
-
                     <li class="nav-item" id="nav-profile_id" onclick="onclickHeader(1)">
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-bar-outline"></i> Profile</a>
                     </li>
