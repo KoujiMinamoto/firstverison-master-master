@@ -380,14 +380,40 @@ body.gallary_div {
   background: black url(../image/gallery/gallery\ icons-04.png) no-repeat center center;
   opacity: 0;
 }
-.mask5{
+.mask5,
+.mask6,
+.mask7,
+.mask8,
+.mask9,
+.mask10,
+.mask11{
   position: relative;
   top: 0;
   left: 0;
   width: 165px;
   height: 150px;
-  background: black url(../image/gallery/gallery\ icons-05.png) no-repeat center center;
   opacity: 0;
+}
+.mask5{
+  background: black url(../image/gallery/gallery\ icons-05.png) no-repeat center center;
+}
+.mask6{
+  background: black url(../image/gallery/gallery\ icons-06.png) no-repeat center center;
+}
+.mask7{
+  background: black url(../image/gallery/gallery\ icons-07.png) no-repeat center center;
+}
+.mask8{
+  background: black url(../image/gallery/gallery\ icons-08.png) no-repeat center center;
+}
+.mask9{
+  background: black url(../image/gallery/gallery\ icons-09.png) no-repeat center center;
+}
+.mask10{
+  background: black url(../image/gallery/gallery\ icons-11.png) no-repeat center center;
+}
+.mask11{
+  background: black url(../image/gallery/gallery\ icons-12.png) no-repeat center center;
 }
 .gallery_info_for6_1:hover .mask,
 .gallery_info_for6_2:hover .mask,
@@ -439,7 +465,9 @@ body.gallary_div {
 .gallery_info_for15_10{
   background: url(../image/gallery/s1.jpeg) no-repeat center center;
 }
-.gallery_info_for15_11,
+.gallery_info_for15_11{
+  background: url(../image/gallery/Banner-1.jpg) no-repeat center center;
+}
 .gallery_info_for15_12,
 .gallery_info_for15_13,
 .gallery_info_for15_14,
@@ -474,12 +502,12 @@ body.gallary_div {
 .gallery_info_for15_3:hover .mask3,
 .gallery_info_for15_4:hover .mask4,
 .gallery_info_for15_5:hover .mask5,
-.gallery_info_for15_6:hover .mask1,
-.gallery_info_for15_7:hover .mask1,
-.gallery_info_for15_8:hover .mask1,
-.gallery_info_for15_9:hover .mask1,
-.gallery_info_for15_10:hover .mask1,
-.gallery_info_for15_11:hover .mask1,
+.gallery_info_for15_6:hover .mask6,
+.gallery_info_for15_7:hover .mask7,
+.gallery_info_for15_8:hover .mask8,
+.gallery_info_for15_9:hover .mask9,
+.gallery_info_for15_10:hover .mask10,
+.gallery_info_for15_11:hover .mask11,
 .gallery_info_for15_12:hover .mask1,
 .gallery_info_for15_13:hover .mask1,
 .gallery_info_for15_14:hover .mask1,

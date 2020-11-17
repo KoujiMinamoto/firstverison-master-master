@@ -75,8 +75,8 @@ a.gallery_link{
 .gallery_button{
     display:block;
     width:575px;
-    height:300px;
-    background:url(../image/gallery_button_hover.jpg) no-repeat;
+    height:290px;
+    background: green url(../image/gallery/pen-tool\ \(1\).png) no-repeat center center;
     transition:opacity 0.5s;
     -moz-transition: opacity 0.5s; /* Firefox 4 */
     -webkit-transition:opacity 0.5s; /* Safari and Chrome */
@@ -86,9 +86,10 @@ a.gallery_link{
     -webkit-border-radius: 3px;
     -khtml-border-radius: 3px;
     border-radius: 3px;
+    
 }
 a.gallery_link:hover .gallery_button{
-    opacity:1;
+    opacity:0.5;
 }
 .container_left{
     float:left;

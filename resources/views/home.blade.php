@@ -1887,20 +1887,12 @@
                                                         name="productpagelist2" id="brochure_page"
                                                         style="width: 225px; font-size: 12px;"
                                                         onchange="UpdateProductPriceBrochure('size')">
-                                                        <option value="A5">A5</option>
+                                                        <span><option value="A5">A5</option></span>
                                                         <option value="A4">A4</option>
-                                                        <option value="A3">A3</option>
+                                                        <span><option value="A3">A3</option></span>
                                                     </select></td>
                                             </tr>
-                                            <tr id="brochure_page2" style="display: none;">
-                                                <td id="brouchernopagesupdate" class="content_left"><select
-                                                        name="productpagelist2" id="brochure_page"
-                                                        style="width: 225px; font-size: 12px;"
-                                                        onchange="UpdateProductPriceBrochure('size')">
-                                                        <option value="A4">A4</option>
 
-                                                    </select></td>
-                                            </tr>
 
 
 
@@ -1918,52 +1910,15 @@
                                                         </option>
                                                         <option value="170GSM Gloss or Matt">170GSM Gloss or Matt
                                                         </option>
-                                                        <option value="250GSM Gloss or Matt">250GSM Gloss or Matt
-                                                        </option>
-                                                    </select></td>
-                                            </tr>
-                                            <tr id="brochure_page4" style="display: none;">
-                                                <td class="content_left"><select name="productstocklist"
-                                                                                 id="brochure_stock"
-                                                                                 style="width: 225px; font-size: 12px;"
-                                                                                 onchange="UpdateProductPriceBrochure('size')">
-
-                                                        <option value="115GSM Gloss or Matt">115GSM Gloss or Matt
-                                                        </option>
-                                                        <option value="150GSM Goss or Matt">150GSM Goss or Matt
-                                                        </option>
-                                                        <option value="170GSM Gloss or Matt">170GSM Gloss or Matt
-                                                        </option>
+                                                        <span><option value="250GSM Gloss or Matt">250GSM Gloss or Matt
+                                                        </option></span>
                                                     </select></td>
                                             </tr>
 
 
 
-                                            <tr style="display:none; ">
-                                                <td class="content_left"><select name="productqtylist"
-                                                                                 id="productqtylist"
-                                                                                 style="width: 225px; font-size: 12px;"
-                                                                                 onchange="UpdateProductPrice(57)">
-                                                        <option value="50">50</option>
-                                                        <option value="100">100</option>
-                                                        <option value="150">150</option>
-                                                        <option value="200">200</option>
-                                                        <option value="250">250</option>
-                                                        <option value="500">500</option>
-                                                        <option value="1000">1000</option>
-                                                        <option value="1500">1500</option>
-                                                        <option value="2000">2000</option>
-                                                        <option value="2500">2500</option>
-                                                        <option value="3000">3000</option>
-                                                        <option value="4000">4000</option>
-                                                        <option value="5000">5000</option>
-                                                        <option value="6000">6000</option>
-                                                        <option value="7000">7000</option>
-                                                        <option value="8000">8000</option>
-                                                        <option value="9000">9000</option>
-                                                        <option value="10000">10000</option>
-                                                    </select></td>
-                                            </tr>
+
+ 
 
 
                                             </tbody>
@@ -4250,22 +4205,21 @@
 
 
                                         <tr>
-                                            <td class="pulldown"><strong>Envelope Type:&nbsp;</strong><br style="">White
-                                                100gsm, peel 'n' seal or self seal,<br style="">30% ink coverage
+                                            <td class="pulldown"><strong>Envelope Type:&nbsp;</strong>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="content_left"><select name="productenvlist" id="env_type"
                                                                              style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateEnvProductPrice(type)">
-                                                    <option value="DL PLAIN">DL PLAIN 110 x 220mm</option>
-                                                    <option value="DL WINDOW">DL WINDOW 110 x 220mm</option>
-                                                    <option value="DLX PLAIN">DLX PLAIN 120 x 235mm</option>
-                                                    <option value="DLX WINDOW">DLX WINDOW 120 x 235mm</option>
-                                                    <option value="C5 PLAIN">C5 PLAIN 162 x 229mm</option>
-                                                    <option value="C5 WINDOW">C5 WINDOW 162 x 229mm</option>
-                                                    <option value="C4 PLAIN">C4 PLAIN 229 x 324mm</option>
-                                                    <option value="C4 WINDOW">C4 WINDOW 229 x 324mm</option>
+                                                                             onchange="UpdateEnvProductPrice('type')">
+                                                    <option value="DL(110x220mm) Wallet Peel & Seal">DL(110x220mm) Wallet Peel & Seal</option>
+                                                    <option value="DL(110x220mm) Banker Moist Seal">DL(110x220mm) Banker Moist Seal</option>
+                                                    <option value="DLX(120x235mm) Wallet Peel & Seal">DLX(120x235mm) Wallet Peel & Seal</option>
+                                                    <option value="DLX(120x235mm) Banker Moist Seal">DLX(120x235mm) Banker Moist Seal</option>
+                                                    <option value="B4 Plain Pocket">B4 Plain Pocket</option>
+                                                    <option value="C5(229x162mm) Pocket Peel & Seal">C5(229x162mm) Pocket Peel & Seal</option>
+                                                    <option value="C5(169x229mm) Wallet Peel & Seal">C5(169x229mm) Wallet Peel & Seal</option>
+                                                    <option value="C5(169x229mm) Wallet Moist Seal">C5(169x229mm) Wallet Moist Seal</option>
                                                 </select></td>
                                         </tr>
 
@@ -4277,20 +4231,34 @@
                                             <td class="content_left" id="envcolor"><select name="productcolorlist"
                                                                                            id="env_colour"
                                                                                            style="width: 225px; font-size: 12px;"
-                                                                                           onchange="UpdateEnvProductPrice(colour)">
-                                                    <option value="FULL COLOUR">FULL COLOUR</option>
-                                                    <option value="2 PMS COLOURS">2 PMS COLOURS</option>
-                                                    <option value="1 PMS COLOUR">1 PMS COLOUR</option>
+                                                                                           onchange="UpdateEnvProductPrice('type')">
+                                                    <span><option value="Plain printed full colour">Plain printed full colour </option></span>
+                                                    <span><option value="Plain Secretive Printed Full Colour">Plain Secretive Printed Full Colour </option></span>
+                                                    <span><option value="Window(28x95) Secretive printed full colour">Window(28x95) Secretive printed full colour</option></span>
+                                                    <span><option value="Plain printed 1 PMS">Plain printed 1 PMS </option></span>
+                                                    <span> <option value="Plain Secretive printed 1 PMS">Plain Secretive printed 1 PMS</option></span>
+                                                    <span><option value="Window(28x95) Secretive Printed 1 PMS">Window(28x95) Secretive Printed 1 PMS</option></span>
+                                                    <span><option value="Plain printed 2 PMS">Plain printed 2 PMS </option></span>
+                                                    <span><option value="Plain Secretive Printed 2 PMS">Plain Secretive Printed 2 PMS </option></span>
+                                                    <span><option value="Window(28x95) Secretive Printed 2 PMS">Window(28x95) Secretive Printed 2 PMS</option></span>
+                                                    <span ><option value="Printed 1S + Strip Seal">Printed 1S + Strip Seal </option></span>
+                                                    <span ><option value="Window(38x95) Secretive printed full colour">Window(38x95) Secretive printed full colour</option></span>
+                                                    <span ><option value="Window(38x95) Secretive printed 1 PMS">Window(38x95) Secretive printed 1 PMS</option></span>
+                                                    <span ><option value="Window(38x95) Secretive printed 2 PMS">Window(38x95) Secretive printed 2 PMS</option></span>
                                                 </select></td>
                                         </tr>
                                         <tr style="display: none;">
                                             <td id="envcolorupdate" class="content_left"><select name="productcolorlist"
                                                                                                  id="env_colour"
                                                                                                  style="width: 225px; font-size: 12px;"
-                                                                                                 onchange="UpdateEnvProductPrice(colour)">
-                                                    <option value="FULL COLOUR">FULL COLOUR</option>
-                                                    <option value="2 PMS COLOURS">2 PMS COLOURS</option>
-                                                    <option value="1 PMS COLOUR">1 PMS COLOUR</option>
+                                                                                                 onchange="UpdateEnvProductPrice('type')">
+                                                    <option value="1">Plain printed full colour </option>                                                    
+                                                    <option value="2">Window(38x95) Secretive printed full colour</option>
+                                                    <option value="3">Plain printed 1 PMS </option>
+                                                    <option value="4">Window(38x95) Secretive printed 1 PMS 1 side</option>
+                                                    <option value="5">Plain printed 2 PMS </option>
+                                                    <option value="6">Window(38x95) Secretive printed full colour </option>
+                                                    <option value="7">Window(38x95) Secretive printed 2 PMS 1 side</option>
                                                 </select></td>
                                         </tr>
                                         <tr style="display: none;">
@@ -4298,24 +4266,25 @@
                                                     name="productcolorlist" id="env_colour"
                                                     style="width: 225px; font-size: 12px;"
                                                     onchange="UpdateEnvProductPrice(colour)">
-                                                    <option value="1 PMS COLOUR">1 PMS COLOUR</option>
-                                                    <option value="2 PMS COLOURS">2 PMS COLOURS</option>
+                                                    <option value="1">Plain printed full colour </option>                                                    
+                                                    
+                                                    <option value="2">Plain printed 1 PMS </option>
+                                                    
+                                                    <option value="3">Plain printed 2 PMS </option>
+                                                    
                                                 </select></td>
                                         </tr>
+                                        <tr style="display: none;">
+                                            <td id="envcolorupdate2" class="content_left"><select
+                                                    name="productcolorlist" id="env_colour"
+                                                    style="width: 225px; font-size: 12px;"
+                                                    onchange="UpdateEnvProductPrice(colour)">
+                                                    <option value="1">Printed 1S + Strip Seal </option>                                                    
+                                                </select></td>
+                                        </tr>
+                                        
 
-                                        <tr style="display:none; ">
-                                            <td class="content_left"><select name="productqtylist" id="productqtylist"
-                                                                             style="width: 225px; font-size: 12px;"
-                                                                             onchange="UpdateProductPrice(62)">
-                                                    <option value="500">500</option>
-                                                    <option value="1000">1000</option>
-                                                    <option value="2000">2000</option>
-                                                    <option value="3000">3000</option>
-                                                    <option value="4000">4000</option>
-                                                    <option value="5000">5000</option>
-                                                    <option value="10000">10000</option>
-                                                </select></td>
-                                        </tr>
+                                        
 
 
                                         </tbody>
@@ -4373,141 +4342,124 @@
                                                     <tr>
                                                         <td class="qty_left">500</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_500-productid_62"
-                                                                                       id="usersetqty_500-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_500-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;120.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="env_inputbox_500"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('env','inputbox','500',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice500" width="50px">
-                                                            $120.00<input type="hidden"
-                                                                          name="updateselectedproductprice500"
-                                                                          id="updateselectedproductprice500"
-                                                                          value="120.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_500-productid_62-price_120.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_500-productid_62&quot;)">
+                                                        <td id="env_td_500" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="env_price_500"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="env_checkbox_500"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('env','checkbox','500')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_1000-productid_62"
-                                                                                       id="usersetqty_1000-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_1000-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;1000&quot;, &quot;62&quot;, &quot;160.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="env_inputbox_1000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('env','inputbox','1000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice1000" width="50px">
-                                                            $160.00<input type="hidden"
-                                                                          name="updateselectedproductprice1000"
-                                                                          id="updateselectedproductprice1000"
-                                                                          value="160.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_1000-productid_62-price_160.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_1000-productid_62&quot;)">
+                                                        <td id="env_td_1000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="env_price_1000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="env_checkbox_1000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('env','checkbox','1000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_2000-productid_62"
-                                                                                       id="usersetqty_2000-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_2000-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;2000&quot;, &quot;62&quot;, &quot;225.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="env_inputbox_2000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('env','inputbox','2000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice2000" width="50px">
-                                                            $225.00<input type="hidden"
-                                                                          name="updateselectedproductprice2000"
-                                                                          id="updateselectedproductprice2000"
-                                                                          value="225.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_2000-productid_62-price_225.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_2000-productid_62&quot;)">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="qty_left">3000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_3000-productid_62"
-                                                                                       id="usersetqty_3000-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_3000-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;3000&quot;, &quot;62&quot;, &quot;305.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice3000" width="50px">
-                                                            $305.00<input type="hidden"
-                                                                          name="updateselectedproductprice3000"
-                                                                          id="updateselectedproductprice3000"
-                                                                          value="305.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_3000-productid_62-price_305.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_3000-productid_62&quot;)">
+                                                        <td id="env_td_2000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="env_price_2000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="env_checkbox_2000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('env','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td class="qty_left">4000</td>
-                                                        <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_4000-productid_62"
-                                                                                       id="usersetqty_4000-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_4000-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;4000&quot;, &quot;62&quot;, &quot;380.00&quot;)">&nbsp;
-                                                        </td>
-                                                        <td id="updateselectedproductprice4000" width="50px">
-                                                            $380.00<input type="hidden"
-                                                                          name="updateselectedproductprice4000"
-                                                                          id="updateselectedproductprice4000"
-                                                                          value="380.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_4000-productid_62-price_380.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_4000-productid_62&quot;)">
-                                                        </td>
-                                                    </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_5000-productid_62"
-                                                                                       id="usersetqty_5000-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_5000-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;5000&quot;, &quot;62&quot;, &quot;499.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="env_inputbox_5000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('env','inputbox','5000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice5000" width="50px">
-                                                            $499.00<input type="hidden"
-                                                                          name="updateselectedproductprice5000"
-                                                                          id="updateselectedproductprice5000"
-                                                                          value="499.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_5000-productid_62-price_499.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_5000-productid_62&quot;)">
+                                                        <td id="env_td_5000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="env_price_5000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="env_checkbox_5000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('env','checkbox','5000')">
                                                         </td>
                                                     </tr>
+                                                            
+                                                    
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
-                                                                                       name="usersetqty_10000-productid_62"
-                                                                                       id="usersetqty_10000-productid_62"
-                                                                                       value="1" maxlength="2"
-                                                                                       style="width:30px"
-                                                                                       onkeyup="UpdateSelectedProductEnv(&quot;usersetqty_10000-productid_62&quot;, &quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;10000&quot;, &quot;62&quot;, &quot;950.00&quot;)">&nbsp;
+                                                                                    name="usersetqty_50-productid_57"
+                                                                                    id="env_inputbox_10000"
+                                                                                    value="1" maxlength="2"
+                                                                                    style="width:30px"
+                                                                                    oninput="UpdateProductPrice('env','inputbox','10000',value);
+                                                                                            this.value=this.value.replace(/^[0]+[0-9]*$/gi,'');
+                                                                                            value = value.replace(/[^0-9]/g,'');
+                                                                                ">&nbsp;
                                                         </td>
-                                                        <td id="updateselectedproductprice10000" width="50px">
-                                                            $950.00<input type="hidden"
-                                                                          name="updateselectedproductprice10000"
-                                                                          id="updateselectedproductprice10000"
-                                                                          value="950.00"></td>
-                                                        <td><input type="checkbox" id="selectproduct[]"
-                                                                   name="selectproduct[]"
-                                                                   value="usersetqty_10000-productid_62-price_950.00"
-                                                                   onclick="AddEnvProduct(this.value, &quot;usersetqty_10000-productid_62&quot;)">
+                                                        <td id="env_td_10000" width="50px">
+                                                            $95.00<input type="hidden"
+                                                                        name="updateselectedproductprice50"
+                                                                        id="env_price_10000"
+                                                                        value="95.00"></td>
+                                                        <td><input type="checkbox" id="env_checkbox_10000"
+                                                                name="selectproduct[]"
+                                                                value="usersetqty_50-productid_57-price_95.00"
+                                                                onclick="UpdateProductPrice('env','checkbox','10000')">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -4522,7 +4474,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td colspan="4" id="totalpriceupdate">
-                                                            <center><span style="font-weight: bold;">Total Price: AUD 0.00</span><div id="flyItem_envelope" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
+                                                            <center><span style="font-weight: bold;">Total Price: AUD<p id="env_totalPrice">0.00</p></span><div id="flyItem_env" class="fly-item"><img src="{{URL::asset('/image/shopping-cart.png')}} "></div>
                                                             </center>
                                                         </td>
                                                     </tr>
@@ -4543,11 +4495,12 @@
                                                             <table>
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td><a href="javascript:void(0);" class="clear_btn"
-                                                                           onclick="ClearEnvCache(&quot;FULL COLOUR&quot;, &quot;DL PLAIN&quot;, &quot;500&quot;, &quot;62&quot;, &quot;0&quot;);"></a>
-                                                                    </td>
-                                                                    <td><input type="submit" class="add_to_cart" id="add_to_cart_id"
-                                                                               onclick="addToCard(envelope)"></td>
+                                                                <td>
+                                                                    <a href="javascript:void(0);" class="clear_btn" onclick="clearprice('env');"></a>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="add_to_cart" onclick="addToCart('env')">
+                                                                </td>
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
@@ -4555,7 +4508,7 @@
                                                     </tr>
                                                     <tr>
                                                             <td colspan="4" class="price_msg_1">
-                                                                <center><span class="price_msg_first" id="alert_msg" style="color:red;"></span>
+                                                                <center><span class="price_msg_first" id="alert_msg_env" style="color:red;"></span>
                                                                 </center>
                                                             </td>
                                                         </tr>
@@ -9816,7 +9769,7 @@
                         </div>
                         <div class="gallery_info_for15_6 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(6)">
-                            <div class="mask1"><p>postercards</p></div>
+                            <div class="mask6"><p>postercards</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -9824,17 +9777,17 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_7 no_margin">
                             <a href="javascript:void(0);" onclick="clickGallery(7)">
-                            <div class="mask1"><p>envelopers</p></div>
+                            <div class="mask7"><p>envelopers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_8 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(8)">
-                            <div class="mask1"><p>flyers</p></div>
+                            <div class="mask8"><p>flyers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_9 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(9)">
-                            <div class="mask1"><p>letterhead</p></div>
+                            <div class="mask9"><p>letterhead</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -9842,16 +9795,16 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_10 no_margin">
                             <a href="javascript:void(0);" onclick="clickGallery(10)">
-                            <div class="mask1"><p>signage</p></div>
+                            <div class="mask10"><p>signage</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_11 margin_left20">
-                            <a href="javascript:void(0);" onclick="clickGallery(1)">
-                            <div class="mask1"><p>Coming Soon</p></div>
+                            <a href="javascript:void(0);" onclick="clickGallery(11)">
+                            <div class="mask11"><p>banner</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_12 margin_left20">
-                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
@@ -9859,17 +9812,17 @@
                     </div>
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_13 no_margin">
-                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_14 margin_left20">
-                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_15 margin_left20">
-                            <a href="javascript:void(0);" onclick="clickGallery(1)">
+                            <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
                             </a>
                         </div>

@@ -135,6 +135,8 @@ function showProductPage(headerName) {
             $(".product6").addClass("clickOnli");
             $(".product").addClass("clickOn");
             changeDisplaybox(1);
+            env_reset();
+            UpdateEnvProductPrice("type")
             document.getElementById("product_div_id_7").style.display = "block";
             break;
         case 7:
@@ -226,12 +228,30 @@ function showProductPage(headerName) {
 function UpdateProductPriceBrochure(type) {
     let price = new Array;
     let length = brochurePrice.hfa5115.length;
+    //将select通过clone方法保存
+    var select= $("#brochure_stock").clone();
+
+
+    // var ft1 = $("#brochure_type"),ft2=$("#brochure_stock");
+    //     ft1.bind("change",function(){
+    //         let nums = $(this).val();
+    //         if(nums == "Roll Fold to DL"){
+    //             console.log("test");
+    //         $(".ft2 option:contains(250GSM Gloss or Matt)").remove();
+    //         ft2.removeChild(ft2.querySelectorAll('opition')[3]);
+    //     }
+    //     })
     if(type == "size") {
         if ( $("#brochure_type option:selected").val() == "Folding in Half" ){
-            document.getElementById("brochure_page1").style.display = "block";
-            document.getElementById("brochure_page2").style.display = "none";
-            document.getElementById("brochure_page3").style.display = "block";
-            document.getElementById("brochure_page4").style.display = "none";
+            var option =  $("#brochure_stock option[value='250GSM Gloss or Matt']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            var option1 =$("#brochure_page option[value='A5']");
+            var span = option1.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            var option2 =$("#brochure_page option[value='A3']");
+            var span = option2.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
             if ( $("#brochure_page option:selected").val() == "A5" ){
                 if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
                     price = brochurePrice.hfa5115;
@@ -269,14 +289,18 @@ function UpdateProductPriceBrochure(type) {
 
 
         } else if (  $("#brochure_type option:selected").val() == "Roll Fold to DL" ) {
-            document.getElementById("brochure_page1").style.display = "none";
-            document.getElementById("brochure_page2").style.display = "block";
-            document.getElementById("brochure_page3").style.display = "none";
-            document.getElementById("brochure_page4").style.display = "block";
+
+            $("#brochure_stock option[value='250GSM Gloss or Matt']").wrap('<span style="display:none"></span>');
+            $("#brochure_page option[value='A5']").wrap('<span style="display:none"></span>');
+            $("#brochure_page option[value='A3']").wrap('<span style="display:none"></span>');
+             
 
             if ( $("#brochure_stock option:selected").val() == "115GSM Gloss or Matt" ){
+                
                 price = brochurePrice.dla4115;
+                
             } else if (  $("#brochure_stock option:selected").val() == "150GSM Goss or Matt" ) {
+                
                 price = brochurePrice.dla4150;
             } else if (  $("#brochure_stock option:selected").val() == "170GSM Gloss or Matt" ) {
                 price = brochurePrice.dla4170;
@@ -309,6 +333,7 @@ function UpdateProductPriceBrochure(type) {
         //FULL COLOUR
 
     }
+    
 
 
 }
@@ -431,23 +456,297 @@ function UpdateDockProductPrice(type) {
 }
 
 //Envelope
+function restwrap(){
+            var option =  $("#env_colour option[value='Plain printed full colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain Secretive Printed Full Colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(28x95) Secretive printed full colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain printed 1 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain Secretive printed 1 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(28x95) Secretive Printed 1 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain printed 2 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain Secretive Printed 2 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(28x95) Secretive Printed 2 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Printed 1S + Strip Seal']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed full colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+  
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed 1 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed full colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed 2 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+}
+function env_reset(){
+    restwrap();
+
+            // var option =  $("#env_colour option[value='Plain printed full colour']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Plain Secretive Printed Full Colour']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Window(28x95) Secretive printed full colour']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Plain printed 1 PMS']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Plain Secretive printed 1 PMS']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Window(28x95) Secretive Printed 1 PMS']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Plain printed 2 PMS']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Plain Secretive Printed 2 PMS']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);
+            // var option =  $("#env_colour option[value='Window(28x95) Secretive Printed 2 PMS']");
+            // var span = option.parent("span");
+            // span.children().clone().replaceAll(span);//去除包裹的span
+            $("#env_colour option[value='Printed 1S + Strip Seal']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed 2 PMS']").wrap('<span style="display:none"></span>');
+}
+function env_reset2(){
+    restwrap();
+            $("#env_colour option[value='Window(38x95) Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed 2 PMS']").wrap('<span style="display:none"></span>');
+            var option =  $("#env_colour option[value='Printed 1S + Strip Seal']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            $("#env_colour option[value='Plain printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive Printed Full Colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive Printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain printed 2 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+
+}
+function env_reset3(){
+    restwrap();
+            $("#env_colour option[value='Plain printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive Printed Full Colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive Printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain printed 2 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(38x95) Secretive printed 2 PMS']").wrap('<span style="display:none"></span>');
+            var option =  $("#env_colour option[value='Plain printed full colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed full colour']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain printed 1 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed 1 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Plain printed 2 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);
+            var option =  $("#env_colour option[value='Window(38x95) Secretive printed 2 PMS']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+console.log("1111");
+    $("#env_colour option[value='Plain Secretive Printed Full Colour']").wrap('<span style="display:none"></span>');
+    $("#env_colour option[value='Window(28x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+
+    $("#env_colour option[value='Plain Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+    $("#env_colour option[value='Window(28x95) Secretive Printed 1 PMS']").wrap('<span style="display:none"></span>');
+
+    $("#env_colour option[value='Plain Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+    $("#env_colour option[value='Window(28x95) Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+    $("#env_colour option[value='Printed 1S + Strip Seal']").wrap('<span style="display:none"></span>');
+
+}
 function UpdateEnvProductPrice(type) {
-    if(type == "size") {
-        if ( $("#env_type option:selected").val() == "DL PLAIN 110 x 220mm" ){
+    let price = new Array;
+    let length = envPrice.dlw1.length;
+    if(type == "type") {
+        if ( $("#env_type option:selected").val() == "DL(110x220mm) Wallet Peel & Seal" ){
+            env_reset();
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.dlw1;
 
-        } else if (  $("#env_type option:selected").val() == "DL WINDOW 110 x 220mm" ) {
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed Full Colour" ) {
+                price=envPrice.dlw2;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive printed full colour" ) {
+                price=envPrice.dlw3;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.dlw4;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive printed 1 PMS" ) {
+                price=envPrice.dlw5;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 1 PMS" ) {
+                price=envPrice.dlw6;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.dlw7;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed 2 PMS" ) {
+                price=envPrice.dlw8;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 2 PMS" ) {
+                price=envPrice.dlw9;
+            }
 
-        } else if (  $("#env_type option:selected").val() == "DLX PLAIN 120 x 235mm" ) {
+        } else if (  $("#env_type option:selected").val() == "DL(110x220mm) Banker Moist Seal" ) {
+            env_reset();
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.dlb1;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed Full Colour" ) {
+                price=envPrice.dlb2;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive printed full colour" ) {
+                price=envPrice.dlb3;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.dlb4;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive printed 1 PMS" ) {
+                price=envPrice.dlb5;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 1 PMS" ) {
+                price=envPrice.dlb6;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.dlb7;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed 2 PMS" ) {
+                price=envPrice.dlb8;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 2 PMS" ) {
+                price=envPrice.dlb9;
+            }
 
-        } else if (  $("#env_type option:selected").val() == "DLX WINDOW 120 x 235mm" ) {
+        } else if (  $("#env_type option:selected").val() == "DLX(120x235mm) Wallet Peel & Seal" ) {
+            env_reset();
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.dlxw1;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed Full Colour" ) {
+                price=envPrice.dlxw2;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive printed full colour" ) {
+                price=envPrice.dlxw3;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.dlxw4;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive printed 1 PMS" ) {
+                price=envPrice.dlxw5;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 1 PMS" ) {
+                price=envPrice.dlxw6;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.dlxw7;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed 2 PMS" ) {
+                price=envPrice.dlxw8;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 2 PMS" ) {
+                price=envPrice.dlxw9;
+            }
 
-        } else if (  $("#env_type option:selected").val() == "C5 PLAIN 162 x 229mm" ) {
+        } else if (  $("#env_type option:selected").val() == "DLX(120x235mm) Banker Moist Seal" ) {
+            env_reset();
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.dlxb1;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed Full Colour" ) {
+                price=envPrice.dlxb2;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive printed full colour" ) {
+                price=envPrice.dlxb3;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.dlxb4;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive printed 1 PMS" ) {
+                price=envPrice.dlxb5;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 1 PMS" ) {
+                price=envPrice.dlxb6;
+            } else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.dlxb7;
+            } else if (  $("#env_colour option:selected").val() == "Plain Secretive Printed 2 PMS" ) {
+                price=envPrice.dlxb8;
+            } else if (  $("#env_colour option:selected").val() == "Window(28x95) Secretive Printed 2 PMS" ) {
+                price=envPrice.dlxb9;
+            }
 
-        } else if (  $("#env_type option:selected").val() == "C5 WINDOW 162 x 229mm" ) {
+        } else if (  $("#env_type option:selected").val() == "B4 Plain Pocket" ) {
+            env_reset2();
+            price= envPrice.b4;
 
-        } else if (  $("#env_type option:selected").val() == "C4 PLAIN 229 x 324mm" ) {
+        } else if (  $("#env_type option:selected").val() == "C5(229x162mm) Pocket Peel & Seal" ) {
+            env_reset();
+            $("#env_colour option[value='Printed 1S + Strip Seal']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive Printed Full Colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive Printed 1 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Plain Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+            $("#env_colour option[value='Window(28x95) Secretive Printed 2 PMS']").wrap('<span style="display:none"></span>');
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.c5p1;
+            }else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.c5p2;
+            }else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.c5p3;
+            }
 
-        } else if (  $("#env_type option:selected").val() == "C4 WINDOW 229 x 324mm" ) {
+
+        } else if (  $("#env_type option:selected").val() == "C5(169x229mm) Wallet Peel & Seal" ) {
+            env_reset3();
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.c5w1;
+            }else if (  $("#env_colour option:selected").val() == "Window(38x95) Secretive printed full colour" ) {
+                price=envPrice.c5w2;
+            }else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.c5w3;
+            }else if (  $("#env_colour option:selected").val() == "Window(38x95) Secretive printed 1 PMS" ) {
+                price=envPrice.c5w4;
+            }else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.c5w5;
+            }else if (  $("#env_colour option:selected").val() == "Window(38x95) Secretive printed 2 PMS" ) {
+                price=envPrice.c5w7;
+            }
+
+        } else if (  $("#env_type option:selected").val() == "C5(169x229mm) Wallet Moist Seal" ) {
+            env_reset3();
+            if ( $("#env_colour option:selected").val() == "Plain printed full colour" ){
+                price=envPrice.c5wm1;
+            }else if (  $("#env_colour option:selected").val() == "Window(38x95) Secretive printed full colour" ) {
+                price=envPrice.c5wm2;
+            }else if (  $("#env_colour option:selected").val() == "Plain printed 1 PMS" ) {
+                price=envPrice.c5wm3;
+            }else if (  $("#env_colour option:selected").val() == "Window(38x95) Secretive printed 1 PMS" ) {
+                price=envPrice.c5wm4;
+            }else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+                price=envPrice.c5wm5;
+            }else if (  $("#env_colour option:selected").val() == "Window(38x95) Secretive printed 2 PMS" ) {
+                price=envPrice.c5wm7;
+            }
 
         }
     }else if (type == "colour") {
@@ -457,8 +756,14 @@ function UpdateEnvProductPrice(type) {
 
         } else if (  $("#env_colour option:selected").val() == "1 PMS COLOUR" ) {
 
+        }else if (  $("#env_colour option:selected").val() == "Plain printed 2 PMS" ) {
+    
         }
 
+    }
+    for (let i = 0; i<length ; ++i) {
+        $("#env_td_"+PRODUCT_QTY.ENVELOPE[i]).text("$"+price[i].toFixed(2) );
+        $("#env_td_"+PRODUCT_QTY.ENVELOPE[i]).append("<input type='hidden' id='env_price_"+PRODUCT_QTY.ENVELOPE[i]+"' value='"+price[i].toFixed(2)+"'> ");
     }
 }
 //Express Printing

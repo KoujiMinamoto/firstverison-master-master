@@ -87,6 +87,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Booklet\n150gsm Gloss Stock\n200gsm Cover Gloss Machine Varnish\nSaddlestitched";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(1);
@@ -112,6 +115,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Folded Brochure\n We do 4 pages A5 and 4 pages A4 Size, 6 pages DL Size, and even Large Size 6 pages A4 Size\nPaper Type: 115GSM, 120GSM, 150GSM，170GSM，200GSM, 250GSM,";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(1);
@@ -137,6 +143,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Business Cards\nWe print business Card on 350GSM, 450GSM. \nAnd Matt and Gloss Lamination one sided or double sided.  \nNew Velvet Lamination";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(2);
@@ -162,6 +171,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="DL With Compliments\nWe print the with compliments on 100GSM Laser Bond.  \nAlso we can order A5, A4 Pads available in 50 sheets or 100 sheets per pad";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(14);
@@ -187,6 +199,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Poster\nPaper Weight: 200GSM , 250GSM Gloss or Matt \nWe also can do Custome Size";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(12);
@@ -212,6 +227,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Postcards\nPaper Weight: 310GSM, 350GSM\nAvailable in customer Size\nMatt or Gloss Lamination.";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(13);
@@ -237,6 +255,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Envelopes\nWe print the DL, DLX, C4, C5, B4 Size";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(6);
@@ -262,6 +283,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Flyers\nPaper Weight: 100GSM, 120GSM, 150GSM, 170GSM, 200GSM, 250GSM Gloss and Matt.\nEven Customer Size";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(8);
@@ -287,6 +311,9 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Letterhead\nPaper Weight: 100GSM, 110GSM , 120GSM Laser Bond\nWe also can do Custome Name Data Printing.";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(10);
@@ -312,9 +339,40 @@ function clickGallery(headerName){
             document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
             document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
             document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Signage\nWe do Roll Media, Rigid Media, Large Adhesives, Stickers";
+            };
             for (var i=0; i < button.length; i++) {
                 button[i].onclick = function(){
                     clickProduct(5);
+                }
+            };
+            break;
+        case 11:
+            document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Banner-1.jpg)";
+            document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/Banner-1.jpg)";
+            document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/Banner-2.jpg)";
+            document.getElementById("gallery_info_for6-2_id").style.backgroundImage="url(../image/gallery/Banner-2.jpg)";
+            document.getElementById("gallery_info_for6_3_id").style.backgroundImage="url(../image/gallery/Banner-3.jpg)";
+            document.getElementById("gallery_info_for6-3_id").style.backgroundImage="url(../image/gallery/Banner-3.jpg)";
+            document.getElementById("gallery_info_for6_4_id").style.backgroundImage="url(../image/gallery/Banner-4.jpg)";
+            document.getElementById("gallery_info_for6-4_id").style.backgroundImage="url(../image/gallery/Banner-4.jpg)";
+            document.getElementById("gallery_info_for6_5_id").style.backgroundImage="url(../image/gallery/Banner-3.jpg)";
+            document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/Banner-3.jpg)";
+            document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/Banner-4.jpg)";
+            document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/Banner-4.jpg)";
+            document.getElementById("gallery_silde_note_id1").innerText = "Pull-Up Banner \n Grey blockout back\n Size Also Available: 600 x 1600mm, 850 x 2000mm, 1000 x 2200mm";
+            document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
+            document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
+            document.getElementById("gallery_silde_note_id4").innerText = "Product directions4";
+            document.getElementById("gallery_silde_note_id5").innerText = "Product directions5";
+            document.getElementById("gallery_silde_note_id6").innerText = "Product directions6";
+            for (var a=1; a < 7; a++) {
+                document.getElementById("gallery_silde_note_id"+a).innerText ="Pull-Up Banner \n Grey blockout back\n Size Also Available: 600 x 1600mm, 850 x 2000mm, 1000 x 2200mm";
+            };
+            for (var i=0; i < button.length; i++) {
+                button[i].onclick = function(){
+                    clickProduct(7);
                 }
             };
             break;

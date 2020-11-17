@@ -97,6 +97,9 @@ function productPriceCal(product) {
     if (product == 'signage') {
         qtyArray = PRODUCT_QTY.SIGNAGE;
     }
+    if (product == 'env') {
+        qtyArray = PRODUCT_QTY.ENVELOPE;
+    }
     let length = qtyArray.length;
 
     for(let i = 0;i<length;++i){
@@ -109,6 +112,9 @@ function productPriceCal(product) {
     totalPrice = totalPrice.toFixed(2);
 
     return totalPrice;
+}
+function celarmsgProduct(product){
+    document.getElementById('alert_msg_'+product).innerText="";
 }
 
 function clearPrice(product) {
@@ -142,6 +148,9 @@ function clearPrice(product) {
     }
     if (product == 'signage') {
         qtyArray = PRODUCT_QTY.SIGNAGE;
+    }
+    if (product == 'env') {
+        qtyArray = PRODUCT_QTY.ENVELOPE;
     }
     let length = qtyArray.length;
 
@@ -259,6 +268,12 @@ function addToCart (product) {
         var eleFlyItem = document.getElementById('flyItem_'+product);
         var eleBtn = document.getElementById('flyItem_'+product);
     }
+    if (product == 'env') {
+        qtyArray = PRODUCT_QTY.ENVELOPE;
+        option = PRODUCT_OPTIONS.ENVELOPE;
+        var eleFlyItem = document.getElementById('flyItem_'+product);
+        var eleBtn = document.getElementById('flyItem_'+product);
+    }
     let productMessage = new Array;
 
     // for(let i = 0;i < option.length ;++i) {
@@ -332,10 +347,19 @@ function addToCart (product) {
         cartProcess('myCart');
         //alert('Successfully added to cart');
         document.getElementById('alert_msg_'+product).innerText="Successfully added to cart";
+        //setTimeout(document.getElementById('alert_msg_'+product).innerText="", 5000);
+       // setTimeout("celarmsgProduct("+product+")",3000);
+        setTimeout(function() {
+            celarmsgProduct(product);
+          }, 2000);
         clearPrice('fridge');
         clearPrice('bcard');
+        clearPrice(product);
     } else {    
         //alert('nothing to add');
         document.getElementById('alert_msg_'+product).innerText="nothing to add!";
+        setTimeout(function() {
+            celarmsgProduct(product);
+          }, 2000);
     }
 }
