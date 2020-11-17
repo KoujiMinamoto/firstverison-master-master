@@ -10006,25 +10006,25 @@
                 <ul class="black_bullets">
                     <li>Annual Reports</li>
                     <li>Business Forms</li>
-                    <li><a class="click_a" href="">Envelopes</a></li>
-                    <li><a class="click_a" href="">Folders</a></li>
+                    <li>Envelopes</li>
+                    <li>Folders</li>
                     <li>Labels</li>
                     <li>Manuals</li>
                     <li>NCR Books</li>
-                    <li><a class="click_a" href="">Posters</a></li>
-                    <li><a class="click_a" href="">Postcards</a></li>
+                    <li>Posters</li>
+                    <li>Postcards</li>
                 </ul>
             </div>
             <div class="about_col2">
                 <ul class="black_bullets">
-                    <li><a class="click_a" href="">Pads</a></li>
-                    <li><a class="click_a" href="">Presentation Folders</a></li>
-                    <li><a class="click_a" href="">Booklets</a></li>
-                    <li><a class="click_a" href="">Books</a></li>
+                    <li>ads</li>
+                    <li>Presentation Folders</li>
+                    <li>Booklets</li>
+                    <li>Books</li>
                     <li>Calendars</li>
-                    <li><a class="click_a" href="">Catalogues</a></li>
-                    <li><a class="click_a" href="">Desk Pads</a></li>
-                    <li><a class="click_a" href="">Flyers</a></li>
+                    <li>Catalogues</li>
+                    <li>Desk Pads</li>
+                    <li>Flyers</li>
                     <li>Greeting Cards</li>
                 </ul>
             </div>
