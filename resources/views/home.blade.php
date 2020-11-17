@@ -1459,7 +1459,7 @@
                 </div>
                 <div class="clear"></div>
                 <div class="main_left_bottom1">
-                    <div class="product_info_design">
+                    <div class="product_info_design no_margin">
                         <a href="/design">
                             <div class="product_info_design_img">
                             </div>
@@ -1503,17 +1503,6 @@
 {{--                                more+</a>--}}
 {{--                        </a>--}}
 {{--                    </div>--}}
-                    <div class="product_info_templates">
-                        <a href="/contact">
-                            <div class="product_info_templates_img">
-                            </div>
-                            <h4>Artwork Templates</h4>
-                            <p>Need artwork setup? Our team of experienced designers can help</p>
-                            <a class="blue_link"
-                               href="/contact">read
-                                more+</a>
-                        </a>
-                    </div>
                     <div class="clear"></div>
                 </div>
                 <div style="clear: both;"></div>
@@ -1590,11 +1579,6 @@
                                     <div class="fold_info">Single Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">4 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
@@ -1603,6 +1587,11 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
+                                </div>
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">4 Pages</div>
+                                    <div class="bro_sizing_sml">297 x 420m(folded)</div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1616,11 +1605,6 @@
                                     <div class="fold_info">Landscape</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">4 Page Landscape</div>
-                                    <div class="bro_sizing_sml">99 x 420m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">148 x 420m(folded)</div>
@@ -1629,6 +1613,11 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">210 x 594mm (folded)</div>
+                                </div>
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">4 Page Landscape</div>
+                                    <div class="bro_sizing_sml">297 x 840m(folded)</div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1642,11 +1631,6 @@
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">6 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
@@ -1656,7 +1640,11 @@
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
                                 </div>
-
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">6 Pages</div>
+                                    <div class="bro_sizing_sml">297 x 420m(folded)</div>
+                                </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
@@ -1670,11 +1658,6 @@
                                     <div class="fold_info">Z Fold</div>
                                 </div>
                                 <div class="bro_setup">
-                                    <div class="bro_sizing">DL</div>
-                                    <div class="bro_title">6 Pages</div>
-                                    <div class="bro_sizing_sml">99 x 210m(folded)</div>
-                                </div>
-                                <div class="bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
@@ -1683,6 +1666,11 @@
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
+                                </div>
+                                <div class="bro_setup">
+                                    <div class="bro_sizing">A3</div>
+                                    <div class="bro_title">6 Pages</div>
+                                    <div class="bro_sizing_sml">297 x 420m(folded)</div>
                                 </div>
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
@@ -1771,19 +1759,7 @@
 
                     <div class="main_left_bottom1">
 
-                        <div class="product_info_express no_margin">
-                            <a href="javascript:void(0);" onclick="clickProduct(7)">
-                                <div class="product_info_express_img">
-                                </div>
-                                <h4>Express Printing</h4>
-                                <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                                <a class="blue_link" href="javascript:void(0);"
-                                    onclick="clickProduct(7)">read
-                                    more+</a>
-                            </a>
-                        </div>
-
-                        <div class="product_info_design margin_left20">
+                        <div class="product_info_design no_margin">
                             <a href="javascript:void(0);" onclick="clickHeader(2)">
                                 <div class="product_info_design_img">
                                 </div>
@@ -2374,19 +2350,8 @@
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
-                    <div class="product_info_express no_margin">
-                        <a href="/product/expressPrinting">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                        </a><a class="blue_link"
-                               href="/product/expressPrinting">read
-                            more+</a>
-                    </div>
 
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -2408,13 +2373,14 @@
                             more+</a>
 
                     </div>
-                    <div class="product_info_templates">
-                        <a href="/templates/sample-buisness-card-templates.pdf" target="_blank">
-                            <div class="product_info_templates_img">
+                    <div class="product_info_order">
+                        <a href="javascript:void(0);" onclick="clickHeader(14)">
+                            <div class="product_info_order_img">
                             </div>
-                            <h4>Artwork Templates</h4>
-                            <p>Need artwork setup? Our team of experienced designers can help</p>
-                        </a><a class="blue_link" href="/templates/sample-buisness-card-templates.pdf" target="_blank">read
+                            <h4>Order process</h4>
+                            <p>The ordering process explained</p>
+                        </a><a class="blue_link"
+                               href="javascript:void(0);" onclick="clickHeader(14)">read
                             more+</a>
 
                     </div>
@@ -3451,7 +3417,7 @@
                     </p>
                     <p>&nbsp;</p>
                     <p class="black">
-                        For more information <b>Call</b> (03) 9584 4708 or <b>email</b> <a
+                        For more information <b>Call</b> (03)  or <b>email</b> <a
                             href="mailto:sales@yellowstarpress.com.au"
                             class="black_link">sales@yellowstarpress.com.au</a>
                     </p>
@@ -3529,18 +3495,10 @@
 
                     <div class="option_size_list docket_templates">
 
-                        <div class="bro_setup">
-                            <div class="bro_sizing">A5</div>
-                            <div class="bro_title" style="color:#959595;">Docket Book</div>
-                            <div class="bro_sizing_sml">148 x 210mm</div>
+                        <div class="bro_setup" style="height:7rem">
+                            <div class="bro_sizing" style="font-size:22px;line-height:20px;padding-top:10px;">Metal with TEKflute</div>
+                            <div class="bro_sizing_sml">600 x 900mm</div>
                         </div>
-                        <div class="bro_setup">
-                            <div class="bro_sizing">A4</div>
-                            <div class="bro_title" style="color:#959595;">Docket Book</div>
-                            <div class="bro_sizing_sml">210 x 297m</div>
-                        </div>
-
-
                         <div class="clear"></div>
 
                     </div>
@@ -3591,21 +3549,7 @@
 
                 <div class="main_left_bottom1">
 
-
-                    <div class="product_info_express no_margin" style="margin-left: 0rem">
-                        <a href="javascript:void(0);" onclick="clickProduct(7)">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link"
-                               href="javascript:void(0);" onclick="clickProduct(7)">read
-                                more+</a>
-                        </a>
-                    </div>
-
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin" style="margin-left: 0rem">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -4038,22 +3982,22 @@
                         <div class="bro_setup">
                             <div class="bro_sizing">DL</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">99 x 210m(folded)</div>
+                            <div class="bro_sizing_sml">110 x 220m(folded)</div>
                         </div>
                         <div class="bro_setup">
                             <div class="bro_sizing">DLX</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 210m(folded)</div>
+                            <div class="bro_sizing_sml">120 x 235m(folded)</div>
                         </div>
                         <div class="bro_setup">
                             <div class="bro_sizing">C5</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">210 x 297mm (folded)</div>
+                            <div class="bro_sizing_sml">162 x 229mm (folded)</div>
                         </div>
                         <div class="bro_setup">
                             <div class="bro_sizing">C4</div>
                             <div class="bro_title">Envelope</div>
-                            <div class="bro_sizing_sml">148 x 420m(folded)</div>
+                            <div class="bro_sizing_sml">229 x 324m(folded)</div>
                         </div>
                         <div class="clear"></div>
                         <div style="clear: both;"></div>
@@ -4668,30 +4612,25 @@
                 <div style="clear: both;"></div>
 
                 <div class="option_size_list express_templates" style="padding-top: 2rem">
-                    <div class="bro_setup" style="height:7rem;margin-left:0rem">
-                        <div class="small_bro_sizing">DL</div>
-                        <div class="bro_sizing_sml">99 x 210mm</div>
-                    </div>
                     <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A6</div>
-                        <div class="bro_sizing_sml">105 x 148mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A5</div>
-                        <div class="bro_sizing_sml">148 x 210mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A4</div>
-                        <div class="bro_sizing_sml">210 x 297mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A3</div>
-                        <div class="bro_sizing_sml">297 x 420mm</div>
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        </div>
+                        <div class="bro_sizing_sml">850mm</div>
                     </div>
                     <div class="bro_setup" style="height:7rem">
                         <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
                         </div>
-                        <div class="bro_sizing_sml">90 x 55mm</div>
+                        <div class="bro_sizing_sml">1200mm</div>
+                    </div>
+                    <div class="bro_setup" style="height:7rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        </div>
+                        <div class="bro_sizing_sml">1800mm</div>
+                    </div>
+                    <div class="bro_setup" style="height:7rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                        </div>
+                        <div class="bro_sizing_sml">2400mm</div>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
@@ -5100,22 +5039,26 @@
                     </a>
                         <div class="clear"></div>
 
-                        <div class="option_size_list flyer_templates" style="display:inline-flex">
+                        <div class="option_size_list flyer_templates" style="display:inline-flex;margin-top:10rem">
                             <div class="bro_setup" style="height:7rem;margin:0rem">
-                                <div class="small_bro_sizing">DLX</div>
+                                <div class="small_bro_sizing">DL</div>
                                 <div class="bro_sizing_sml">99 x 210mm</div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
                                 <div class="small_bro_sizing">A6</div>
-                                <div class="bro_sizing_sml">105 x 148mm</div>
+                                <div class="bro_sizing_sml">105 x 148.5mm</div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
                                 <div class="small_bro_sizing">A5</div>
-                                <div class="bro_sizing_sml">148 x 210mm</div>
+                                <div class="bro_sizing_sml">148.5 x 210mm</div>
                             </div>
                             <div class="bro_setup" style="height:7rem">
                                 <div class="small_bro_sizing">A4</div>
                                 <div class="bro_sizing_sml">210 x 297mm</div>
+                            </div>
+                            <div class="bro_setup" style="height:7rem">
+                                <div class="small_bro_sizing">A3</div>
+                                <div class="bro_sizing_sml">297 x 420mm</div>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -5163,20 +5106,7 @@
 
                 <div class="main_left_bottom1">
 
-
-                    <div class="product_info_express no_margin">
-                        <a href="javascript:void(0);" onclick="clickProduct(7)">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickProduct(7)">read more+</a>
-                        </a>
-                    </div>
-
-
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -6636,9 +6566,8 @@
                             <div class="bro_sizing_sml">148 x 210mm</div>
                         </div>
                         <div class="bro_setup" style="height:7rem;">
-                            <div class="small_bro_sizing">2DL</div>
-                            <div class="bro_title" style="line-height:0.1rem;height:0.2rem">Envelope</div>
-                            <div class="bro_sizing_sml" style="line-height:2rem;height:2.1rem">198 x 210mm</div>
+                            <div class="small_bro_sizing">A4</div>
+                            <div class="bro_sizing_sml">210 x 297mm</div>
                         </div>
                     </div>
 
@@ -6696,20 +6625,7 @@
 
                 <div class="main_left_bottom1">
 
-
-                    <div class="product_info_express no_margin">
-                        <a href="javascript:void(0);" onclick="clickProduct(7)">
-                            <div class="product_info_express_img">
-                            </div>
-                            <h4>Express Printing</h4>
-                            <p>For a guaranteed 48 hour despatch after your order is placed</p>
-                            <a class="blue_link" href="javascript:void(0);" onclick="clickProduct(7)">read more+</a>
-                        </a>
-                    </div>
-
-
-
-                    <div class="product_info_design margin_left20">
+                    <div class="product_info_design no_margin">
                         <a href="javascript:void(0);" onclick="clickHeader(2)">
                             <div class="product_info_design_img">
                             </div>
@@ -7249,16 +7165,6 @@
                         <div class="small_bro_sizing">A1</div>
                         <div class="bro_sizing_sml">594 x 841mm</div>
                     </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">A0*</div>
-                        <div class="bro_sizing_sml">841 x 1189mm</div>
-                    </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing">B0*</div>
-                        <div class="bro_sizing_sml">1000 x 1414mm</div>
-                    </div>
-
-
                 </div>
 
 
@@ -9127,7 +9033,7 @@
 
                         <div class="bro_setup"style="height:7rem;margin-left:0rem;margin-top:2rem">
                             <div class="small_bro_sizing">DL</div>
-                            <div class="bro_sizing_sml">99 x 210mm</div>
+                            <div class="bro_sizing_sml">210 x 99mm</div>
                         </div>
 
                     </div>
@@ -9723,7 +9629,7 @@
                         We work closely with our clients to ensure a smooth transition from design to the finished product. YellowStar Press charge an hourly rate for our services and always provide an estimate for each project, whether it's the first for an individual client or the hundredth - No suprises and no problems.
                     </p><p>&nbsp;</p>
                     <p>
-                        Call (03) 9584 4708 or email <a href="mailto:sales@yellowstarpress.com.au" class="black_link">sales@yellowstarpress.com.au</a> for more information and prices.
+                        Call (03) 9878 6999 or email <a href="mailto:sales@yellowstarpress.com.au" class="black_link">sales@yellowstarpress.com.au</a> for more information and prices.
                     </p>
 
                 </div>
@@ -10157,10 +10063,10 @@
                 <div class="contact_div_leftContainer">
                     <h1>Contact us</h1>
                     <div class="contact_phone">
-                        <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">(03) 9584 4708</span>
+                        <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">(03) 9878 6999</span>
                     </div>
                     <div class="contact_fax">
-                        <span class="black_bold">Fax</span> (03) 9584 4708
+                        <span class="black_bold">Fax</span> (03) 9878 6999
                     </div>
 
 
@@ -11031,7 +10937,7 @@
         <div class="main_container">
             <div class="container_left">
             <h1>Ordering Options</h1>
-            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.</p>
+            <p>YellowStar Press makes every effort to be flexible and make it as easy as possible to do business with us. Choose your preferred ordering method from the options below. If you require any further assistance please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9878 6999</span>.</p>
             <h2 class="order_title_cart">Shopping Cart</h2>
             <p>You can use our safe and secure online ordering facility if you wish to pay by MasterCard, Visa or Paypal. This is the fastest way to get your order processed.
             </p>
@@ -11127,7 +11033,7 @@
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
             <p>We are Here to Help! If you have any questions, you can always contact us first and we can guide you through the registering and online ordering process.
-            Please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9584 4708</span>.
+            Please email <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a> or call us <span class="black">(03) 9878 6999</span>.
             </p>
             </div>
         <div class="clear"></div>
@@ -11437,7 +11343,7 @@
 {{--        </p>--}}
         <p>&nbsp;</p>
         <p>
-        For more information <span class="black_bold">Call</span> (03) 9584 4708 or <span class="black_bold">email</span> sales@yellowstarpress.com.au
+        For more information <span class="black_bold">Call</span> (03) 9878 6999 or <span class="black_bold">email</span> sales@yellowstarpress.com.au
         </p>
 
 
@@ -11470,7 +11376,7 @@
             </p><p>&nbsp;</p><p>
             We will send your proof to you in the mail and wait for your confirmation before we proceed with the final product.
             </p><p>&nbsp;</p><p>
-            For more information <b class="black">Call</b> (03) 9584 4708 or <b class="black">email</b> sales@yellowstarpress.com.au
+            For more information <b class="black">Call</b> (03) 9878 6999 or <b class="black">email</b> sales@yellowstarpress.com.au
             </p>
                 </div>
                 <div class="clear"></div>
