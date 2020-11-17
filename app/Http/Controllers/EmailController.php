@@ -54,10 +54,10 @@ use Illuminate\Support\Facades\Storage;
 
         // $handler = opendir('files/');
         // $filename = readdir($handler);
-        $file_path = opendir('files');
+        $file_path = opendir('files\\');
         // $file_base_name = basename($file_path);
         // $f_name = substr($file_base_name,0,strrpos($file_base_name,'.'));
-        $change = dir('files');
+        // $change = dir('files');
         $sendFile = 'empty';
         // while( ($filename = readdir($file_path)) != false ) {
         //     if( ($filename != ".") && ($filename != "..") ) {
@@ -65,15 +65,21 @@ use Illuminate\Support\Facades\Storage;
         //         break;
         //     }
         // }
-        while ($file = $change ->read()){  
-            if($file !="." && $file !=".."){ 
-                if(is_file('files/'.$file)){//当前为文件
-                     $files[]= $file;
-                     $sendFile = $file;
-                }else{//当前为目录  
+        // while ($file = $change ->read()){  
+        //     if($file !="." && $file !=".."){ 
+        //         if(is_file('files/'.$file)){//当前为文件
+        //              $files[]= $file;
+        //              $sendFile = $file;
+        //         }else{//当前为目录  
                      
-                }               
-            } 
+        //         }               
+        //     } 
+        // }
+
+        while( ($filename = readdir($file_path)) !== false) {
+            if ( $filename !="." && $filename !='..') {
+                $sendFile = $filename;
+            }
         }
 
         if ($sendFile == 'empty') {
@@ -94,7 +100,8 @@ use Illuminate\Support\Facades\Storage;
                 $message->subject($title);
                 $message->to($toMail);
                 
-                $attachment=['file'=>storage_path('public/files/').$sendFile];
+                // $attachment=['file'=>storage_path('files\\').$sendFile];
+                $attachment = storage_path( 'app\\files\\'.$sendFile );
                 $message->attach($attachment,['as'=>$sendFile]);
                 //$message->attach($attachment,['as'=>"=?UTF-8?B?".base64_encode($sendFile)]);
                 // $message->attach($attachment,['as'=>'file1.doc']);

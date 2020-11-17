@@ -162,7 +162,7 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
     // cart
     $api->post('cartEmail','EmailController@orderEmail');
 
-    // uoload file
+    // upload file
     $api->post('uploadFile','EmailController@uploadFile');
 
 

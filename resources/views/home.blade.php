@@ -10333,7 +10333,7 @@
                                     </div>
                                     <div class="col-50">
                                         <label for="zip">Zip</label>
-                                        <input type="text" id="zip" name="zip">
+                                        <input type="text" id="information_zip" name="zip">
                                         <div class="checkmsg" id="zipck"></div>
                                     </div>
                                     </div>
