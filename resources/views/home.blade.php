@@ -4722,8 +4722,9 @@
                                                         style="width: 225px; font-size: 12px;" id="banner_size">
                                                     <option value="850">850mm</option>
                                                     <option value="1200">1200mm</option>
-                                                    <option value="1800mm">1800mm</option>
-                                                    <option value="2400mm">2400mm</option>
+                                                    <span><option value="1800mm">1800mm</option></span>
+                                                    <span><option value="2400mm">2400mm</option></span>
+                                                    <span><option value="600x1600mm">600x1600mm + Eyelets + Frame + Carry Bag</option></span>
 
                                                 </select></td>
                                         </tr>
@@ -6682,8 +6683,8 @@
                                                                                               id="post_stock"
                                                                                               style="width: 225px; font-size: 12px;"
                                                                                               onchange="UpdatePostProductPrice('size')">
-                                                        <option value="250GSM Gloss or Matt">250GSM Gloss or Matt
-                                                        </option>
+                                                        <span><option value="250GSM Gloss or Matt">250GSM Gloss or Matt
+                                                        </option></span>
                                                         <option value="350GSM Gloss or Matt">350GSM Gloss or Matt
                                                         </option>
                                                 </select></td>

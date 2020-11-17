@@ -143,6 +143,7 @@ function showProductPage(headerName) {
             $(".product7").addClass("clickOnli");
             $(".product").addClass("clickOn");
             changeDisplaybox(5);
+            UpdateBannerProductPrice("size");
             document.getElementById("product_div_id_8").style.display = "block";
             break;
         case 8:
@@ -228,19 +229,7 @@ function showProductPage(headerName) {
 function UpdateProductPriceBrochure(type) {
     let price = new Array;
     let length = brochurePrice.hfa5115.length;
-    //将select通过clone方法保存
-    var select= $("#brochure_stock").clone();
 
-
-    // var ft1 = $("#brochure_type"),ft2=$("#brochure_stock");
-    //     ft1.bind("change",function(){
-    //         let nums = $(this).val();
-    //         if(nums == "Roll Fold to DL"){
-    //             console.log("test");
-    //         $(".ft2 option:contains(250GSM Gloss or Matt)").remove();
-    //         ft2.removeChild(ft2.querySelectorAll('opition')[3]);
-    //     }
-    //     })
     if(type == "size") {
         if ( $("#brochure_type option:selected").val() == "Folding in Half" ){
             var option =  $("#brochure_stock option[value='250GSM Gloss or Matt']");
@@ -289,6 +278,15 @@ function UpdateProductPriceBrochure(type) {
 
 
         } else if (  $("#brochure_type option:selected").val() == "Roll Fold to DL" ) {
+            var option =  $("#brochure_stock option[value='250GSM Gloss or Matt']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            var option1 =$("#brochure_page option[value='A5']");
+            var span = option1.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            var option2 =$("#brochure_page option[value='A3']");
+            var span = option2.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
 
             $("#brochure_stock option[value='250GSM Gloss or Matt']").wrap('<span style="display:none"></span>');
             $("#brochure_page option[value='A5']").wrap('<span style="display:none"></span>');
@@ -589,7 +587,6 @@ function env_reset3(){
             var option =  $("#env_colour option[value='Window(38x95) Secretive printed 2 PMS']");
             var span = option.parent("span");
             span.children().clone().replaceAll(span);//去除包裹的span
-console.log("1111");
     $("#env_colour option[value='Plain Secretive Printed Full Colour']").wrap('<span style="display:none"></span>');
     $("#env_colour option[value='Window(28x95) Secretive printed full colour']").wrap('<span style="display:none"></span>');
 
@@ -1058,8 +1055,9 @@ function UpdatePostProductPrice(type) {
     let price = new Array;
     if(type == "size") {
         if ( $("#post_size option:selected").val() == "DL" ){
-            document.getElementById("poststockfinishupdate").style.display = "none";
-            document.getElementById("poststockfinish").style.display = "block";
+            var option =  $("#post_stock option[value='250GSM Gloss or Matt']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
             if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
                 if ( $("#post_stock option:selected").val() == "250GSM Gloss or Matt" ){
                     price=postercardPrice.dl2501;
@@ -1076,8 +1074,9 @@ function UpdatePostProductPrice(type) {
             }
 
         } else if (  $("#post_size option:selected").val() == "A6" ) {
-            document.getElementById("poststockfinishupdate").style.display = "none";
-            document.getElementById("poststockfinish").style.display = "block";
+            var option =  $("#post_stock option[value='250GSM Gloss or Matt']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
             if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
                 if ( $("#post_stock option:selected").val() == "250GSM Gloss or Matt" ){
                     price=postercardPrice.a62501;
@@ -1094,8 +1093,11 @@ function UpdatePostProductPrice(type) {
             }
 
         } else if (  $("#post_size option:selected").val() == "A5" ) {
-            document.getElementById("poststockfinishupdate").style.display = "block";
-            document.getElementById("poststockfinish").style.display = "none";
+            var option =  $("#post_stock option[value='250GSM Gloss or Matt']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#post_stock option[value='250GSM Gloss or Matt']").wrap('<span style="display:none"></span>');
+
             if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
 
                     price=postercardPrice.a53501;
@@ -1108,8 +1110,11 @@ function UpdatePostProductPrice(type) {
             }
 
         } else if (  $("#post_size option:selected").val() == "A4" ) {
-            document.getElementById("poststockfinishupdate").style.display = "block";
-            document.getElementById("poststockfinish").style.display = "none";
+            var option =  $("#post_stock option[value='250GSM Gloss or Matt']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#post_stock option[value='250GSM Gloss or Matt']").wrap('<span style="display:none"></span>');
+
             if ( $("#post_side option:selected").val() == "FULL COLOUR 1 SIDE" ){
 
                 price=postercardPrice.a43501;
@@ -1314,14 +1319,54 @@ function UpdateCompsProductPrice(type) {
     }
 }
 //Banner 放在expressing里面了
+function bannerreset(){
+            var option =  $("#banner_size option[value='1200']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            
+            var option =  $("#banner_size option[value='850']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            var option =  $("#banner_size option[value='1800mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            
+            var option =  $("#banner_size option[value='2400mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            
+            var option =  $("#banner_size option[value='600x1600mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+}
 function UpdateBannerProductPrice(type) {
     let length = bannerPrice.ss1200.length;
     let price = new Array;
     if(type == "size") {
         if( $("#banner_stock option:selected").val() == "Premium" ){
-            document.getElementById("bannersizecontainer2").style.display = "block";
-            document.getElementById("bannersizecontainer1").style.display = "none";
-            document.getElementById("bannersizecontainer3").style.display = "none";
+            bannerreset();
+            var option =  $("#banner_size option[value='1200']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            
+            var option =  $("#banner_size option[value='850']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            var option =  $("#banner_size option[value='1800mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            
+            var option =  $("#banner_size option[value='2400mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            
+            var option =  $("#banner_size option[value='600x1600mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='600x1600mm']").wrap('<span style="display:none"></span>');
+
+
+
             if ( $("#banner_size option:selected").val() == "850" ){
                 price=bannerPrice.pb850;
             }else if ( $("#banner_size option:selected").val() == "1200" ){
@@ -1334,9 +1379,21 @@ function UpdateBannerProductPrice(type) {
             }
 
         }else if ( $("#banner_stock option:selected").val() == "Standard" ){
-            document.getElementById("bannersizecontainer1").style.display = "block";
-            document.getElementById("bannersizecontainer2").style.display = "none";
-            document.getElementById("bannersizecontainer3").style.display = "none";
+            bannerreset();
+            var option =  $("#banner_size option[value='1800mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='1800mm']").wrap('<span style="display:none"></span>');
+            var option =  $("#banner_size option[value='2400mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='2400mm']").wrap('<span style="display:none"></span>');
+
+            var option =  $("#banner_size option[value='600x1600mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='600x1600mm']").wrap('<span style="display:none"></span>');
+
 
             if ( $("#banner_size option:selected").val() == "850" ){
                 price=bannerPrice.ss850;
@@ -1344,9 +1401,31 @@ function UpdateBannerProductPrice(type) {
                 price = bannerPrice.ss1200;
             }
         }else if( $("#banner_stock option:selected").val() == "440GSM" ){
-            document.getElementById("bannersizecontainer3").style.display = "block";
-            document.getElementById("bannersizecontainer1").style.display = "none";
-            document.getElementById("bannersizecontainer2").style.display = "none";
+            bannerreset();
+            var option =  $("#banner_size option[value='2400mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='2400mm']").wrap('<span style="display:none"></span>');
+
+            var option =  $("#banner_size option[value='1800mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='1800mm']").wrap('<span style="display:none"></span>');
+            var option =  $("#banner_size option[value='850']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='850']").wrap('<span style="display:none"></span>');
+            var option =  $("#banner_size option[value='1200']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+            $("#banner_size option[value='1200']").wrap('<span style="display:none"></span>');
+            var option =  $("#banner_size option[value='600x1600mm']");
+            var span = option.parent("span");
+            span.children().clone().replaceAll(span);//去除包裹的span
+
+
+
+
             price=bannerPrice.px600;
 
         }
@@ -1354,22 +1433,7 @@ function UpdateBannerProductPrice(type) {
             $("#banner_td_"+PRODUCT_QTY.BANNER[i]).text("$"+price[i].toFixed(2) );
             $("#banner_td_"+PRODUCT_QTY.BANNER[i]).append("<input type='hidden' id='banner_price_"+PRODUCT_QTY.BANNER[i]+"' value='"+price[i].toFixed(2)+"'> ");
         }
-    }else if(type == "size2") {
-        if ( $("#banner_stock option:selected").val() == "Standard" ){
-            document.getElementById("bannersizecontainer1").style.display = "block";
-            document.getElementById("bannersizecontainer2").style.display = "none";
-            document.getElementById("bannersizecontainer3").style.display = "none";
-
-            if ( $("#banner_size2 option:selected").val() == "850" ){
-                price=bannerPrice.ss850;
-            }else if ( $("#banner_size2 option:selected").val() == "1200" ){
-                price = bannerPrice.ss1200;
-            }
-        }
-        for (let i = 0; i<length ; ++i) {
-            $("#banner_td_"+PRODUCT_QTY.BANNER[i]).text("$"+price[i].toFixed(2) );
-            $("#banner_td_"+PRODUCT_QTY.BANNER[i]).append("<input type='hidden' id='banner_price_"+PRODUCT_QTY.BANNER[i]+"' value='"+price[i].toFixed(2)+"'> ");
-        }
+    }else {
 
     }
 }
