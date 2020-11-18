@@ -49,18 +49,21 @@ class OrderController extends Controller
         $order_date = $request->input('orderDdata');
 
         $order_id = $user_name . $order_date;
-
-        DB::table('oneprint_order')->insert([
-            'order_name' => $order_name,
-            'order_password' => $order_password,
-            'order_email' => $order_email,
-            'order_phonenum' => $order_phonenum,
-            'order_address' => $order_address,
-            'order_subrub' => $order_subrub,
-            'order_state' => $order_state,
-            'order_postcode' => $order_postcode,
-            'order_date' => $order_date
-        ]);
+        try {
+            DB::table('oneprint_order')->insert([
+                'order_name' => $order_name,
+                'order_password' => $order_password,
+                'order_email' => $order_email,
+                'order_phonenum' => $order_phonenum,
+                'order_address' => $order_address,
+                'order_subrub' => $order_subrub,
+                'order_state' => $order_state,
+                'order_postcode' => $order_postcode,
+                'order_date' => $order_date
+            ]);
+        } catch (\Exception $e) {
+            DB::rollBack();
+        }
         $register = "success";
         return response()->json($register);
     }   
