@@ -312,6 +312,34 @@ function cartUpdateFile() {
 
 
 }
+// 支付
+function ewayAjax(e) {
+    // call eWAY to process the request 
+    eWAY.process(
+      document.getElementById("payment_form"), 
+      { 
+        autoRedirect: false, 
+        onComplete: function (data) { 
+          // this is a callback to hook into when the requests completes 
+          alert('The JSONP request has completed.'); 
+          if (data.Is3DSecure) { 
+            //支付成功
+            window.location.replace(data.RedirectUrl); 
+          } 
+        }, 
+        onError: function (e) { 
+          // this is a callback you can hook into when an error occurs 
+          alert('There was an error processing the request'); 
+        }, 
+        onTimeout: function (e) { 
+          // this is a callback you can hook into when the request times out
+          alert('The request has timed out.'); 
+        } 
+      }
+    );
+    // Stop the form from submitting
+    e.preventDefault();
+  }
 
 // 支付成功后，生成订单号，发送邮件
 function cartSendEamil() {
@@ -362,6 +390,36 @@ function cartSendEamil() {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//card verify
 
 
 
