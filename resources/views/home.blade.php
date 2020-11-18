@@ -36,8 +36,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"></script>
 
-    <link rel="icon" href="./image/title_yellowpress.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./image/title_yellowpress.png" type="image/x-icon">
+    <link rel="icon" href="{{URL::asset('/image/title_yellowpress.png') }} " type="image/x-icon">
+    <link rel="shortcut icon" href="{{URL::asset('/image/title_yellowpress.png') }} " type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="./image/title_yellowpress.png" type="image/x-icon"> -->
 </head>
 <body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->
@@ -56,7 +57,8 @@
             <ul id="product_ul">
                 <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Banner</a></li>
                 <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
-                <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>DL Compliment</a></li>
+                <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>Booklets</a></li>
+                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;<a>DL Compliments</a></li>
                 <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
                 <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;&nbsp;<a>Flyers</a></li>
                 <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;<a>Folded Brochures</a></li>
@@ -68,7 +70,6 @@
 {{--                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>--}}
                 <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Signage</a></li>
 {{--                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>--}}
-{{--                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;<a>With Compliments</a></li>--}}
 {{--                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;<a>Website Design</a></li>--}}
             </ul>
         </div>
@@ -674,7 +675,7 @@
                 </div>
                 <div class="product_main_left">
                     <div class="product_main_left_left">
-                        <h1>Online DL Compliment Printing</h1>
+                        <h1>Online Booklets Printing</h1>
                         <h2>Promote your company's products and services with quality booklets.</h2>
                         <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you
                             receive a quality product at the lowest possible price.
@@ -9743,28 +9744,46 @@
             <div class="gallery_silde" id ="gallery_silde_id">
                 <div class="mySlides" >
                     <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id1">
-                Product directions1
+                    Booklet<br/>
+                    150gsm Gloss Stock<br/>
+                    200gsm Cover Gloss Machine Varnish<br/>
+                    Saddlestitched
                 </p></div>
                     <button type="button" class="gallery_page_next" onclick="clickProduct(1)"><a href="/product/brochures"></a><i class="fas fa-chevron-right"></i></button>
                 </div>
                 <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id2">
-                Product directions2
+                Booklet<br/>
+                    150gsm Gloss Stock<br/>
+                    200gsm Cover Gloss Machine Varnish<br/>
+                    Saddlestitched
                 </p></div>
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
                 <div class="mySlides" ><div class="gallery_info_for6-3"  id="gallery_info_for6-3_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id3">
-                Product directions3
+                Booklet<br/>
+                    150gsm Gloss Stock<br/>
+                    200gsm Cover Gloss Machine Varnish<br/>
+                    Saddlestitched
                 </p></div>
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
                 <div class="mySlides" ><div class="gallery_info_for6-4"  id="gallery_info_for6-4_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id4">
-                Product directions4
+                Booklet<br/>
+                    150gsm Gloss Stock<br/>
+                    200gsm Cover Gloss Machine Varnish<br/>
+                    Saddlestitched
                 </p></div>
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
                 <div class="mySlides" ><div class="gallery_info_for6-5" id="gallery_info_for6-5_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id5">
-                Product directions5
+                Booklet<br/>
+                    150gsm Gloss Stock<br/>
+                    200gsm Cover Gloss Machine Varnish<br/>
+                    Saddlestitched
                 </p></div>
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
                 <div class="mySlides" ><div class="gallery_info_for6-6" id="gallery_info_for6-6_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id6">
-                Product directions6
+                Booklet<br/>
+                    150gsm Gloss Stock<br/>
+                    200gsm Cover Gloss Machine Varnish<br/>
+                    Saddlestitched
                 </p></div>
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
             </div>
@@ -10044,8 +10063,8 @@
                 </div>
                 <div class="contact_right_quote">
                     <div class="contact_form_left">
-                    <h2>Request a</h2>
-                    <h2> quote</h2>
+                    <h2>Request</h2>
+                    <h2>a quote</h2>
                     </div>
                     <div class="contact_form_right">
 
@@ -10144,47 +10163,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-                {{--<div class="design_div_rightContainer">
-                    <!-- Feedback Form Starts Here -->
-                    <div id="feedback">
-                        <!-- Heading Of The Form -->
-                        <div class="head">
-                            <h3 class="contact_title" align="center">FeedBack Form</h3>
-                            <p>This is feedback form. Send us your feedback !</p>
-                        </div>
-                        <!-- Feedback Form -->
-                        <form action="mailto:sy135673@gmail.com" id="form" method="post" name="form"
-                              enctype="text/plain">
-                            <input class="contact_div_vname" id="contact_div_vname" placeholder="Your Name" type="text"
-                                   name="Name" align="center">
-                            <input class="contact_div_vemail" id="contact_div_vemail" placeholder="Your Email"
-                                   type="text" name="Email" align="center">
-                            <input class="contact_div_sub" id="contact_div_sub" placeholder="Subject" type="text"
-                                   name="Subject" align="center">
-                            <p>Your Suggestion/Feedback</p>
-                            <textarea class="contact_div_msg" id="contact_div_msg" placeholder="Type your text here..."
-                                      name="Message"></textarea>
-                            <p></p>
-                            <input class="contact_div_send" id="contact_div_send" type="submit" value="Send Feedback">
-                        </form>
-                    </div>
-                    <!-- Feedback Form Ends Here -->
-                </div>--}}
-
                 <div style="clear: both;"></div>
 
-                <h3 align="center">Address</h3>
+                <!-- <h3 align="center">Address</h3> -->
                 <!--The div element for the map -->
                 <div id="map" style="width:100%;height:400px;margin:auto;">
                     <div style="overflow:hidden;width: 80%;position: relative;margin:auto;">
