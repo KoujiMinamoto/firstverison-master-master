@@ -12474,7 +12474,7 @@
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
-                <a href="/index.html">
+                <a href="javascript:void(0);" onclick="onclickHeader(0)">
                     <div class="companyLogo" id="companyLogo_id">
                         <img src="{{URL::asset('/image/logonew.png') }} "style="margin-left: -65px;margin-top: 5px;">
                     </div>
@@ -12487,7 +12487,7 @@
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
                     </li>
                     <li class="nav-item" id="nav-profile_id" onclick="onclickHeader(1)">
-                        <a class="nav-link" type="button"><i class="typcn typcn-chart-bar-outline"></i> Profile</a>
+                        <a class="nav-link" type="button"><i class="typcn typcn-chart-bar-outline"></i>Edit Profile</a>
                     </li>
                     <li class="nav-item" id="nav-home_id" onclick="onclickHeader(2)">
                         <a class="nav-link" type="button"><i class="typcn typcn-chart-bar-outline"></i> HomePage</a>
@@ -12624,6 +12624,7 @@
                             <thead>
                             <tr>
                                 <th>User Name</th>
+                                <th>Business Name</th>
                                 <th>Order Price</th>
                                 <th>Order Id</th>
                                 <th>Order Description</th>
@@ -12647,7 +12648,7 @@
                             <thead>
                             <tr>
                                 <th>User</th>
-                                <th>User Type</th>
+                                <th>Business Name</th>
                                 <th>Email</th>
                                 <th>Address</th>
                                 <th>Phone Number</th>
@@ -12702,12 +12703,12 @@
     <div class="az-header">
         <div class="container">
             <div class="az-header-left">
-                <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
+                <a href="javascript:void(0);" onclick="onclickHeader(4)" class="az-logo"><span></span> YELLOWSTARPress</a>
                 <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
             </div><!-- az-header-left -->
             <div class="az-header-menu">
                 <div class="az-header-menu-header">
-                    <a href="index.html" class="az-logo"><span></span> YELLOWSTARPress</a>
+                    <a href="javascript:void(0);" onclick="onclickHeader(4)"class="az-logo"><span></span> YELLOWSTARPress</a>
                     <a href="" class="close">×</a>
                 </div><!-- az-header-menu-header -->
                 <ul class="nav">
@@ -12741,14 +12742,14 @@
                         <div class="media">
                             <div class="media-body">
                                 <label>Now</label>
-                                <h6 id="nowuserdate"></h6>
+                                <h6 id="nowuserdate1"></h6>
                             </div><!-- media-body -->
                         </div><!-- media -->
                     </div>
                 </div><!-- az-dashboard-one-title -->
 
 
-                <div class="row row-sm mg-b-20">
+                <div class="row row-sm mg-b-20" style="display:none">
                     <div class="col-lg-7 ht-lg-100p">
                         <div class="card card-dashboard-one">
                             <div class="card-header">
@@ -12876,6 +12877,12 @@
 
                     <label for=email>Email</label>
                     <input type="email" class="form-control" id="email_change_user">
+
+                </div>
+                <div class="form-group">
+
+                    <label for=busName>Business Name</label>
+                    <input type="text" class="form-control" id="busName_change_user">
 
                 </div>
                 <div class="form-group">

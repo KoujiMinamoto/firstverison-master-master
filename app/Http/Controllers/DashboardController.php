@@ -92,10 +92,20 @@ class DashboardController extends Controller
         //$orders = DB::table('oneprint_order')->whereBetween('order_date', [$startDate,$endDate])->get();
         $orders = DB::table('oneprint_order')->whereBetween('order_date', [$startDate,$endDate])->get();
         //print($orders);
+        $x ="";
+        foreach ($orders as $order){
 
+            $x = DB::table('oneprint_user')->selectRaw('user_bsName')->where('user_name',$order->order_user)->get();
+            $arr = json_encode($x[0]);
+            $arr1 = json_decode($arr, true);
+            $b = $arr1['user_bsName'];
+            
+            $order->order_postcode = $b;
+            
+        }
 
         return json_encode($orders);
-        //return $orders;
+
 
     }
 

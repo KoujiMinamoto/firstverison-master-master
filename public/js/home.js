@@ -616,9 +616,11 @@ function showHeaderPage(headerName) {
                 document.getElementById("homepage_div_id").style.display = "none";
                 if(usertype == '1'){
                     document.getElementById("dashboard_admin_div_id").style.display = "block";
+                    onclickHeader(0);
                 }
                 else{
                     document.getElementById("dashboard_user_div_id").style.display = "block";
+                    onclickHeader(4);
                 }
             }else
             {

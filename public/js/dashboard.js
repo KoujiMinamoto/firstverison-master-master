@@ -340,6 +340,7 @@ function inituserprofile(user){
         dataType:'json',
         success: function (profile) {
             document.getElementById("email_change_user").value=profile[0].user_email;
+            document.getElementById("busName_change_user").value=profile[0].user_bsName;
             document.getElementById("pass_change_user").value=profile[0].user_password;
             document.getElementById("phonenum_change_user").value=profile[0].user_phonenum;
             document.getElementById("address_change_user").value=profile[0].user_address;
@@ -400,6 +401,7 @@ function initDashboard(msg) {
         },
         columns: [
             { data: "order_user" },
+            { data: "order_postcode" },
             { data: "order_price" },
             { data: "order_id" },
             { data: "order_description" },
@@ -416,7 +418,7 @@ function initDashboard(msg) {
             },
             columns: [
                 { data: "user_name" },
-                { data: "user_type" },
+                { data: "user_bsName" },
                 { data: "user_email" },
                 { data: "user_address" },
                 { data: "user_phonenum" }
@@ -428,7 +430,7 @@ function initDashboard(msg) {
     getNumberofOrdersByUser(user);
     generateIncomeBarChartByUser(start,end,user);
     inituserprofile(user);
-    $('#nowdate').html(getNowFormatDate()); 
+    $('#nowuserdate1').html(getNowFormatDate()); 
     $('#nowdate').html(getNowFormatDate()); 
 
     $('#table_orders_user').DataTable( {
