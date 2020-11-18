@@ -10510,7 +10510,7 @@
     </div>
 
     <!-- register -->
-    <div class="register_div" id="register_div_id" style="display:none">
+    <div class="register_div" id="register_div_id" style="display:none;padding-top:1rem">
         <div class="login_title">
 		    <h3>welcome.</h3>
 		    <h1>please register</h1>
