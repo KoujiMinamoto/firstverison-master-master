@@ -10323,8 +10323,11 @@
 
                 <div id="cart_upload" style="display: none;">
                     <h1>Upload your Files</h1>
-                    <h3>select your file</h3>
-                    <input type="file" id="cart_uploadFile" >
+                    <div>
+                        <button class="cart_a">select your file
+                            <input type="file" id="cart_uploadFile" >
+                        </button>
+                    </div>
                     <div class = "cart_next" onclick = "cartProcess('payment')">Next</div>
                     <div class = "cart_back" onclick = "cartProcess('confirm')">Back</div>
                 </div>
