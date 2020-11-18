@@ -395,14 +395,14 @@
     margin: 0 -16px;
   }
 .cart_div input[type=text] {
-    
+
     margin-bottom: 2px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 98%;
   }
-  
+
 .cart_div label {
     margin-bottom: 10px;
     display: block;
@@ -517,3 +517,30 @@
     vertical-align: middle;
     font-size: 13px;
 }
+.cart_a{
+    width: 15rem;
+    height: 5rem;
+    padding: 0px 15px;
+    line-height: 30px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #29ABE2;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border:0px solid;
+    border-radius:5px;
+}
+#cart_uploadFile{
+    width: 16.5rem;
+    height: 5rem;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity:0;
+    cursor: pointer;
+    font-size: 0;
+}
+
