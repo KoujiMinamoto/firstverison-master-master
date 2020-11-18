@@ -47,7 +47,7 @@
     <div class="header_background" id="header_id" style="box-shadow: 0px 1px 8px 2px #eee!important;">
     <div class="header" id="header_id">
         <div class="companyLogo" id="companyLogo_id">
-            <img src="{{URL::asset('/image/logonew.png') }} " width=440px height=64% style="margin-left: -55px;margin-top: 15px;">
+            <img src="{{URL::asset('/image/logonew.png') }} " width=440px height=64% style="margin-left: -25px;margin-top: 15px;">
         </div>
         <div class="home clickOn" id="home_id" onclick="clickHeader(0)">
             <p>home</p>
@@ -9788,8 +9788,8 @@
             <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
             </div>
             <div class="slider-controls1">
-                <button type="button" class="gallery_next" onclick="plusDivs(-1)"><i class="fas fa-chevron-right"></i></button>
-                <button type="button" class="gallery_previous" onclick="plusDivs(1)"><i class="fas fa-chevron-left"></i></button>
+                <button type="button" class="gallery_next" onclick="plusDivs(1)"><i class="fas fa-chevron-right"></i></button>
+                <button type="button" class="gallery_previous" onclick="plusDivs(-1)"><i class="fas fa-chevron-left"></i></button>
             </div>
 
         </div>
