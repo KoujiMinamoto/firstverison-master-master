@@ -799,6 +799,7 @@ function changeDisplaybox(headerName){
             }
             banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
             banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            break;
         case 5://banner
             imgs[0].src='../image/gallery/Banner-1.jpg';
             banners[0].style="padding-left: 2%;";
