@@ -40,7 +40,7 @@ function bookletsSendEmail() {
     } else {
 
         // type check
-        let type = $("#contact_file1")[0].files[0].type;
+        let type = $("#booklets_file")[0].files[0].type;
         let typeChange = 0;
         for ( let i = 0 ; i < fileType.length ; ++i ) {
             // 判断一下格式对不对
@@ -55,7 +55,7 @@ function bookletsSendEmail() {
             return false;
         }
         // name check
-        let fileName = $("#contact_file1")[0].files[0].name;
+        let fileName = $("#booklets_file")[0].files[0].name;
         let nameCheck = 0;
         for ( let i = 0 ; i < fileSuffix.length ; ++i ) {
             
@@ -70,13 +70,13 @@ function bookletsSendEmail() {
             return false;
         }
 
-        let size = $("#contact_file1")[0].files[0].size;
+        let size = $("#booklets_file")[0].files[0].size;
         if (size > 52428800) {
             alert("The uploaded file cannot exceed 50MB");
             return false;				
         } else {
 
-            formData.append(types,$("#contact_file1")[0].files[0]);
+            formData.append(types,$("#booklets_file")[0].files[0]);
             emailFileUp(formData);
 
         }
@@ -238,7 +238,7 @@ function emailFileUp(formData) {
     $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
-        url: "api/uploadFile",
+        url: "../api/uploadFile",
         processData: false,
         contentType: false,
         dataType:'json',

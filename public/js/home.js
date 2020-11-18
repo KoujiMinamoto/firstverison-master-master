@@ -894,15 +894,13 @@ function userRegister() {
     let year = date.getFullYear();
     let month = date.getMonth() + 1;
     let strDate = date.getDate();
-    let hour = date.getHours();
-    let minute = date.getMinutes();
     if (month >= 1 && month <= 9) {
         month = "0" + month;
     }
     if (strDate >= 0 && strDate <= 9) {
         strDate = "0" + strDate;
     }
-    let currentdate = year + seperator1 + month + seperator1 + strDate + hour + minute;
+    let currentdate = year + seperator1 + month + seperator1 + strDate;
 
 
     let regExp = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
@@ -925,26 +923,39 @@ function userRegister() {
 
     if(register.userName == null || register.userName ==""){
         document.getElementById('usernamecheckmsg').innerHTML='Please enter your username';
+        return;
     }else if(register.email == null || register.email ==""){
         document.getElementById('emailcheckmsg').innerHTML='Please enter your email';
+        return;
     }else if(!regExp.test(register.email)){
         document.getElementById('emailcheckmsg').innerHTML='Email Address must be valid';
+        return;
     }else if(register.password == null || register.password ==""|| register.password.length < 8){
         document.getElementById('passwdcheckmsg').innerHTML='Password must be at least 8 characters long';
+        return;
     }else if(register.password != $(".register_div_form_input").eq(6).val() ){
         document.getElementById('passwdcheckmsg1').innerHTML='Two Password must be same';
+        return;
     }else if(register.phoneNumber == null || register.phoneNumber =="" || register.phoneNumber.length != 10){
         document.getElementById('phonenumcheckmsg').innerHTML='Please enter your phonenumber, should be in 10 numbers';
+        return;
     }else if(register.address == null || register.address ==""){
         document.getElementById('addresscheckmsg').innerHTML='Please enter your address';
+        return;
     }else if(register.subrub == null || register.subrub ==""){
         document.getElementById('suburbcheckmsg').innerHTML='Please enter your suburb';
+        return;
     }else if(register.state == null || register.state ==""){
         document.getElementById('statecheckmsg').innerHTML='Please enter your state';
+        return;
     }else if(register.postcode == null || register.postcode ==""){
         document.getElementById('postcodecheckmsg').innerHTML='Please enter your postcode';
+        return;
     }else{
-        $.ajax({
+
+    }
+
+    $.ajax({
         headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
         type: "POST",
         url: "api/userRegister",
@@ -952,20 +963,19 @@ function userRegister() {
         data: register,
         success: function (msg) {
             //console.log(msg);
-            if (msg[0] == "success") {
+            if (msg.result == "success") {
                 alert("register success");
-                console.log(reyes);
                 clickHeader(8);
-            }else if (msg == "repeat") {
+            }else if (msg.result == "repeat") {
                 document.getElementById('usernamecheckmsg').innerHTML="the username is used by others";
             }else {
                 alert("unknow error");
             }
         },
-        error: function (XMLHttpRequest, textStatus, thrownError) {
+        error: function (){
+            alert(" request error");
         }
     });
-    }
 
 }
 
@@ -985,16 +995,7 @@ function forgetPassword() {
         dataType:'json',
         data: message,
         success: function (msg) {
-            //console.log(msg);
-            if (msg[0] == "success") {
-                alert("register success");
-                //console.log(reyes);
-                clickHeader(8);
-            }else if (msg == "repeat") {
-                document.getElementById('usernamecheckmsg').innerHTML="the username is used by others";
-            }else {
-                alert("unknow error");
-            }
+            alert(msg.result);
         },
         error: function () {
             alert('error');

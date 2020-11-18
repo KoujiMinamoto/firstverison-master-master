@@ -69,13 +69,15 @@ class UserController extends Controller
          DB::rollBack();
          // return 
       }
-      
+      $register['result'] = '';
       if(!$userCheck->isEmpty()) {
-         $register = "repeat";
+         $register['result'] = "repeat";
          return response()->json($register);
+
       } else {
          // user id set
-         $user_id = DB::table('oneprint_user')->order_by('user_id', 'desc')->first() + 1;
+         $user_id = DB::table('oneprint_user')->orderBy('user_id', 'desc')->first()->user_id;
+         $user_id = $user_id + 1;
          // insert data
          try {
             DB::table('oneprint_user')->insert([
@@ -94,13 +96,14 @@ class UserController extends Controller
                'user_postcode' => $user_postcode,
                'user_date' => $user_date,
                'user_id' => $user_id
-        ]);
+            ]);
+            $register['result'] = 'success';
          }
          catch (\Exception $e) {
             DB::rollBack();
             // return 
          }
-        $register = "success";
+        
         return response()->json($register);
         
       }
@@ -151,7 +154,7 @@ class UserController extends Controller
       $username = $request->input('userName');
       $useremail = $request->input('email');
 
-      $loginCheck = '';
+      $loginCheck['result'] = '';
       try {
          $message = DB::table('oneprint_user')
                       ->select('user_name','user_password','user_email')
@@ -161,12 +164,13 @@ class UserController extends Controller
          // return 
       }
 
-      if($message[0]->user_name == null) {
+      if($message ->isEmpty() ) {
 
-         $loginCheck = "user don't exist";
+         $loginCheck['result'] = "user don't exist";
+
       } else if ($message[0]->user_email == $useremail) {
 
-         $loginCheck = "password email has been send to your email";
+         $loginCheck['result'] = "password email has been send to your email";
          $title = "Your password";
          $content = "Password: ".$message[0]->user_password."\n";
          $toMail = $useremail;

@@ -58,6 +58,7 @@ use Illuminate\Support\Facades\Storage;
         while( ($filename = readdir($file_path)) !== false) {
             if ( $filename !="." && $filename !='..') {
                 $sendFile = $filename;
+                break;
             }
         }
 
@@ -79,7 +80,7 @@ use Illuminate\Support\Facades\Storage;
             
         }
         closedir($file_path); 
-        
+        $path = "files/";
         if(is_dir($path)){
             // 扫描一个文件夹内的所有文件夹和文件并返回数组
             $p = scandir($path);
@@ -192,6 +193,26 @@ use Illuminate\Support\Facades\Storage;
             });    
         }
         closedir($file_path);
+
+        $path = "files/";
+        if(is_dir($path)){
+            // 扫描一个文件夹内的所有文件夹和文件并返回数组
+            $p = scandir($path);
+            foreach($p as $val){
+                if($val !="." && $val !=".."){
+                    if(is_dir($path.$val)){
+              // 子目录中操作删除文件夹和文件
+                        deldir($path.$val.'/');
+              // 目录清空后删除空文件夹
+                        @rmdir($path.$val.'/');
+                    }else{
+              // 如果是文件直接删除
+                        unlink($path.$val);
+                    }
+                }
+            }
+        }
+
         return true;
 
      }
@@ -372,12 +393,12 @@ use Illuminate\Support\Facades\Storage;
                 $file->move($destinationPath,$fileName);
                 $filePath = asset($destinationPath.$fileName);
 
+                return true;
             }else{
                 return false;
             }
 
-        }else{
-            
         }
+        return false;
     }
  }
