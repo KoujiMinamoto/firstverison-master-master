@@ -44,7 +44,7 @@ function initPage() {
     window.localStorage.setItem('login', "logout");
     var storage=window.localStorage;
     var login =storage.login;
-    console.log(login);
+    //console.log(login);
     if (login == "login"){
         $("#login_id").html('my account');
         $("#register_id").html('logout');
@@ -246,7 +246,6 @@ function initPage() {
         
         //pop in the appropriate card icon when detected
         cardnumber_mask.on("accept", function () {
-            console.log(cardnumber_mask.masked.currentMask.cardtype);
             switch (cardnumber_mask.masked.currentMask.cardtype) {
                 case 'american express':
                     ccicon.innerHTML = amex;
@@ -469,9 +468,9 @@ function clickHeader(headerName) {
 
 }
 function nextslide(){
-    console.log("nexts");
+    
     $('#myCarousel').carousel('next');
-    console.log("nexts");
+    
 }
 function reset() {
     topFunction();
@@ -950,7 +949,7 @@ function userRegister() {
         dataType:'json',
         data: register,
         success: function (msg) {
-            console.log(msg);
+            //console.log(msg);
             if (msg[0] == "success") {
                 alert("register success");
                 console.log(reyes);
@@ -984,10 +983,10 @@ function forgetPassword() {
         dataType:'json',
         data: message,
         success: function (msg) {
-            console.log(msg);
+            //console.log(msg);
             if (msg[0] == "success") {
                 alert("register success");
-                console.log(reyes);
+                //console.log(reyes);
                 clickHeader(8);
             }else if (msg == "repeat") {
                 document.getElementById('usernamecheckmsg').innerHTML="the username is used by others";
