@@ -26,7 +26,8 @@ class UserController extends Controller
                      ->where('user_name',$userName)->get();
       }
       catch (\Exception $e) {
-         $loginCheck = "wrong";
+         DB::rollBack();
+         $loginCheck = false;
          // return
       }
       
@@ -65,6 +66,7 @@ class UserController extends Controller
          $userCheck = DB::table('oneprint_user')->select('user_name')->where('user_name',$user_name)->get();
       }
       catch (\Exception $e) {
+         DB::rollBack();
          // return 
       }
       
@@ -95,6 +97,7 @@ class UserController extends Controller
         ]);
          }
          catch (\Exception $e) {
+            DB::rollBack();
             // return 
          }
         $register = "success";
@@ -133,8 +136,8 @@ class UserController extends Controller
             'user_postcode' => $user_postcode
    
          ]);
-      }
-      catch (\Exception $e) {
+      } catch (\Exception $e) {
+         DB::rollBack();
          // return 
       }
       
@@ -149,7 +152,14 @@ class UserController extends Controller
       $useremail = $request->input('email');
 
       $loginCheck = '';
-      $message = DB::table('oneprint_user')->select('user_name','user_password','user_email')->where('user_name',$username)->get();
+      try {
+         $message = DB::table('oneprint_user')
+                      ->select('user_name','user_password','user_email')
+                      ->where('user_name',$username)->get();
+      } catch (\Exception $e) {
+         DB::rollBack();
+         // return 
+      }
 
       if($message[0]->user_name == null) {
 
