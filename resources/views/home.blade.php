@@ -11070,7 +11070,7 @@
 
 
             </div>
-            <div class="container_right">.
+            <div class="container_right">
             <h2 class="order_title_email">Email Orders</h2>
             <p>If you'd prefer to email your order, or simply choose not to use your credit card when ordering, send an email to <a class="black_link" href="mailto:sales@yellowstarpress.com.au">sales@yellowstarpress.com.au</a>, detailing what you require along with the attached print ready file.</p>
             <p>&nbsp;</p>
@@ -11082,7 +11082,7 @@
             <img src="{{URL::asset('/image/cheque.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/mastercard-curved-64px.png') }}" alt="" width="61" height="38">
             <img src="{{URL::asset('/image/visa-curved-64px.png') }}" alt="" width="61" height="38">
-            <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38">
+            <!-- <img src="{{URL::asset('/image/paypal-curved-64px.png') }}" alt="" width="61" height="38"> -->
 
             </div>
             <p class="black_heading padding_top">File Transfers</p>
@@ -11093,7 +11093,7 @@
             <img src="{{URL::asset('/image/artwork methods-01.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-02.jpg') }}" alt="" width="55" height="55">
             <img src="{{URL::asset('/image/artwork methods-03.jpg') }}" alt="" width="55" height="55">
-            <img src="{{URL::asset('/image/artwork methods-04.jpg') }}" alt="" width="55" height="55">
+            <!-- <img src="{{URL::asset('/image/artwork methods-04.jpg') }}" alt="" width="55" height="55"> -->
 
             <p>Please contact us for more information.</p>
             <p>&nbsp;</p>
