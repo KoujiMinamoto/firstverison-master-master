@@ -112,7 +112,7 @@ h1.hp_title {
 
 .home_menu {
     z-index: 50;
-    width: 16.7rem;
+    width: 24rem;
     min-height: 2.4rem;
     border-width: 0.1rem;
     border-style: solid;
@@ -132,8 +132,8 @@ h1.hp_title {
 .home_menu a {
     display: block;
     padding-left: 0.6rem;
-    padding-right: 0.6rem;
-    padding-top: 9.8rem;
+    padding-right: 1.6rem;
+    padding-top: 14rem;
     padding-bottom: 0.6rem;
     color: #959595;
     text-decoration: none;

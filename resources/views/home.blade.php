@@ -54,21 +54,21 @@
         <div class="product" id="product_id">
             <p>product</p>
             <ul id="product_ul">
-                <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>Booklets</a></li>
-                <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;<a>Brochures</a></li>
-                <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
-{{--                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a></li>--}}
-{{--                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>--}}
-                <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Signage</a></li>
-                <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
                 <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Banner</a></li>
+                <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
+                <li class="product0" onclick="clickProduct(0)" id="product0_id">&nbsp;&nbsp;&nbsp;<a>DL Compliment</a></li>
+                <li class="product6" onclick="clickProduct(6)" id="product6_id">&nbsp;&nbsp;&nbsp;<a>Envelopes</a></li>
                 <li class="product8" onclick="clickProduct(8)" id="product8_id">&nbsp;&nbsp;&nbsp;<a>Flyers</a></li>
-{{--                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>--}}
+                <li class="product1" onclick="clickProduct(1)" id="product1_id">&nbsp;&nbsp;&nbsp;<a>Folded Brochures</a></li>
+{{--                <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;<a>Presentation Folders</a></li>--}}
                 <li class="product10" onclick="clickProduct(10)" id="product10_id">&nbsp;&nbsp;&nbsp;<a>Letterheads</a></li>
                 <li class="product11" onclick="clickProduct(11)" id="product11_id">&nbsp;&nbsp;&nbsp;<a>Postcards</a></li>
                 <li class="product12" onclick="clickProduct(12)" id="product12_id">&nbsp;&nbsp;&nbsp;<a>Posters</a></li>
-                <li class="product13" onclick="clickProduct(13)" id="product13_id">&nbsp;&nbsp;&nbsp;<a>Presentation Folders</a></li>
-                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;<a>With Compliments</a></li>
+                {{--                <li class="product3" onclick="clickProduct(3)" id="product3_id">&nbsp;&nbsp;&nbsp;<a>Deskpads / Notepads</a></li>--}}
+{{--                <li class="product4" onclick="clickProduct(4)" id="product4_id">&nbsp;&nbsp;&nbsp;<a>Direct Marketing</a></li>--}}
+                <li class="product5" onclick="clickProduct(5)" id="product5_id">&nbsp;&nbsp;&nbsp;<a>Signage</a></li>
+{{--                <li class="product9" onclick="clickProduct(9)" id="product9_id">&nbsp;&nbsp;&nbsp;<a>Fridge Magnets</a></li>--}}
+{{--                <li class="product14" onclick="clickProduct(14)" id="product14_id">&nbsp;&nbsp;&nbsp;<a>With Compliments</a></li>--}}
 {{--                <li class="product15" onclick="clickProduct(15)" id="product15_id">&nbsp;&nbsp;&nbsp;<a>Website Design</a></li>--}}
             </ul>
         </div>
@@ -281,23 +281,24 @@
 
         <div class="home_icon_holder">
             <div class="booklets_holder home_menu">
-                <a  href="javascript:void(0);" onclick="clickProduct(0)" title="Online Booklet Printing Services">
+                <a  href="javascript:void(0);" onclick="clickProduct(7)" title="Online Booklet Printing Services">
                     <div class="home_panel_img booklets_img"></div>
-                    Booklets
+                    Banner
                 </a>
             </div>
 
+
             <div class="brochures_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(1)" title="Online Brochure Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(2)" title="Online Business Cards Printing Services">
                     <div class="home_panel_img brochures_img"></div>
-                    Brochures
+                    Business Cards
                 </a>
             </div>
 
             <div class="business_cards_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(2)" title="Online Business Card Printing Services">
+                <a href="javascript:void(0);" onclick="clickProduct(0)" title="Online DL Compliment Printing Services">
                     <div class="home_panel_img business_cards_img"></div>
-                    Business Cards
+                    DL Compliment
                 </a>
             </div>
 
@@ -307,31 +308,35 @@
 {{--                    Deskpads / Notepads--}}
 {{--                </a>--}}
 {{--            </div>--}}
-
-            <div class="docketbooks_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(5)" title="Online Docket Book Printing Services">
-                    <div class="home_panel_img docketbooks_img"></div>
-                    Docket Books
-                </a>
-            </div>
-
             <div class="envelopes_holder home_menu">
                 <a href="javascript:void(0);" onclick="clickProduct(6)" title="Online Envelope Printing Services">
                     <div class="home_panel_img envelopes_img"></div>
                     Envelopes
                 </a>
             </div>
-
             <div class="flyers_holder home_menu">
                 <a href="javascript:void(0);" onclick="clickProduct(8)" title="Online Flyer Printing Services">
                     <div class="home_panel_img flyers_img"></div>
                     Flyers
                 </a>
             </div>
+
+            <div class="docketbooks_holder home_menu">
+                <a href="javascript:void(0);" onclick="clickProduct(1)" title="Online Brochures Printing Services">
+                    <div class="home_panel_img docketbooks_img"></div>
+                    Folded Brochures
+                </a>
+            </div>
 {{--            <div class="magnets_holder home_menu">--}}
 {{--                <a href="javascript:void(0);" onclick="clickProduct(9)" title="Buy Fridge Magnets Online">--}}
 {{--                    <div class="home_panel_img magnets_img"></div>--}}
 {{--                    Fridge Magnets--}}
+{{--                </a>--}}
+{{--            </div>--}}
+{{--            <div class="presentation_folders_holder home_menu">--}}
+{{--                <a href="javascript:void(0);" onclick="clickProduct(13)" title="Online Presentation Folder">--}}
+{{--                    <div class="home_panel_img presentation_folders_img"></div>--}}
+{{--                    Presentation Folders--}}
 {{--                </a>--}}
 {{--            </div>--}}
             <div class="letterheads_holder home_menu">
@@ -352,18 +357,18 @@
                     Posters
                 </a>
             </div>
-            <div class="presentation_folders_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(13)" title="Online Presentation Folder">
-                    <div class="home_panel_img presentation_folders_img"></div>
-                    Presentation Folders
-                </a>
-            </div>
             <div class="with_comps_holder home_menu">
-                <a href="javascript:void(0);" onclick="clickProduct(14)">
+                <a href="javascript:void(0);" onclick="clickProduct(5)" title="Online Poster Printing Services">
                     <div class="home_panel_img with_comps_img"></div>
-                    With Compliments
+                    Signage
                 </a>
             </div>
+{{--            <div class="with_comps_holder home_menu">--}}
+{{--                <a href="javascript:void(0);" onclick="clickProduct(14)">--}}
+{{--                    <div class="home_panel_img with_comps_img"></div>--}}
+{{--                    With Compliments--}}
+{{--                </a>--}}
+{{--            </div>--}}
 {{--            <div class="web_design_holder home_menu">--}}
 {{--                <a href="javascript:void(0);" onclick="clickProduct(15)">--}}
 {{--                    <div class="home_panel_img web_design_img"></div>--}}
@@ -669,7 +674,7 @@
                 </div>
                 <div class="product_main_left">
                     <div class="product_main_left_left">
-                        <h1>Online Booklet Printing</h1>
+                        <h1>Online DL Compliment Printing</h1>
                         <h2>Promote your company's products and services with quality booklets.</h2>
                         <p>Our booklets are produced on top-of-the-line offset and digital machines, ensuring you
                             receive a quality product at the lowest possible price.
@@ -1529,7 +1534,7 @@
 
                 <div class="main_left">
                     <div class="main_left_left">
-                        <h1>Online Brochure Printing</h1>
+                        <h1>Online Folded Brochure Printing</h1>
                         <h3>Make a lasting impression with a professionally printed brochure.</h3>
                         <p>Brochures are used for everything from targeted letterbox drops, direct mail marketing, to
                             customer acquisition via handouts. They can effectively express what your company does
@@ -1894,7 +1899,7 @@
 
 
 
- 
+
 
 
                                             </tbody>
@@ -4197,7 +4202,7 @@
                                                                                                  id="env_colour"
                                                                                                  style="width: 225px; font-size: 12px;"
                                                                                                  onchange="UpdateEnvProductPrice('type')">
-                                                    <option value="1">Plain printed full colour </option>                                                    
+                                                    <option value="1">Plain printed full colour </option>
                                                     <option value="2">Window(38x95) Secretive printed full colour</option>
                                                     <option value="3">Plain printed 1 PMS </option>
                                                     <option value="4">Window(38x95) Secretive printed 1 PMS 1 side</option>
@@ -4211,12 +4216,12 @@
                                                     name="productcolorlist" id="env_colour"
                                                     style="width: 225px; font-size: 12px;"
                                                     onchange="UpdateEnvProductPrice(colour)">
-                                                    <option value="1">Plain printed full colour </option>                                                    
-                                                    
+                                                    <option value="1">Plain printed full colour </option>
+
                                                     <option value="2">Plain printed 1 PMS </option>
-                                                    
+
                                                     <option value="3">Plain printed 2 PMS </option>
-                                                    
+
                                                 </select></td>
                                         </tr>
                                         <tr style="display: none;">
@@ -4224,12 +4229,12 @@
                                                     name="productcolorlist" id="env_colour"
                                                     style="width: 225px; font-size: 12px;"
                                                     onchange="UpdateEnvProductPrice(colour)">
-                                                    <option value="1">Printed 1S + Strip Seal </option>                                                    
+                                                    <option value="1">Printed 1S + Strip Seal </option>
                                                 </select></td>
                                         </tr>
-                                        
 
-                                        
+
+
 
 
                                         </tbody>
@@ -4307,8 +4312,8 @@
                                                                 onclick="UpdateProductPrice('env','checkbox','500')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">1000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -4332,8 +4337,8 @@
                                                                 onclick="UpdateProductPrice('env','checkbox','1000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">2000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -4357,8 +4362,8 @@
                                                                 onclick="UpdateProductPrice('env','checkbox','2000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">5000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -4382,8 +4387,8 @@
                                                                 onclick="UpdateProductPrice('env','checkbox','5000')">
                                                         </td>
                                                     </tr>
-                                                            
-                                                    
+
+
                                                     <tr>
                                                         <td class="qty_left">10000</td>
                                                         <td class="kinds_input"><input type="text"
@@ -4512,12 +4517,12 @@
                         <a href="/home" >YellowStar Press</a>
                         »
                             <a href="/product/expressPrinting" >
-                            Express Printing
+                                Banner
                             </a>
             </div>
             <div class="main_left">
                 <div class="main_left_left">
-                    <h1>Express Printing</h1>
+                    <h1>Banner</h1>
                     <h3>Guaranteed 48 Hours Despatch Ex Factory*</h3>
                     <p>*Orders must be placed daily by 2pm, excluding Saturday &amp; Sunday. Despatch will occur 48
                         Hours upon receipt of your order. Despatch ex. factory does not guarantee a delivery time and
