@@ -9654,7 +9654,7 @@
                         </div>
                         <div class="gallery_info_for15_2 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(2)">
-                            <div class="mask2"><p>Brochurew</p></div>
+                            <div class="mask2"><p>Brochures</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_3 margin_left20">
@@ -10174,9 +10174,9 @@
 
                 <!-- <h3 align="center">Address</h3> -->
                 <!--The div element for the map -->
-                <div id="map" style="width:100%;height:400px;margin:auto;">
-                    <div style="overflow:hidden;width: 80%;position: relative;margin:auto;">
-                        <iframe width="1000" height="440"
+                <div id="map" style="width:100%;height:400px;margin:auto;margin-top: 30px;">
+                    <div style="overflow:hidden;width: 90%;position: relative;margin:auto;">
+                        <iframe width="1200" height="440"
                                 src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=26%20Metropolital%20Ave%20Nunawading%20VIC%203131+(%E6%A0%87%E9%A2%98)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         <div
@@ -10487,7 +10487,7 @@
 				<p>You are also provided with the opportunity to update your personal details if necessary, and you can check any previous orders made.</p>
 				<p>&nbsp;</p>
             </div>
-            <button class="login_div_submit" align="center" onclick="">Register</button>
+            <button class="login_div_submit" align="center" onclick="clickHeader(9)">Register</button>
 		</div>
     </div>
 
@@ -10504,9 +10504,9 @@
 
             <div class="clear" style="padding-top: 40px"></div>
             <input id="forget_username_id" class="login_div_un " type="text" align="center" placeholder="Username">
-            <div class="checkmsg" id="usernamecheck"></div>
+            <div class="checkmsg" id="usernamecheck1"></div>
             <input id="forget_email_id" class="login_div_un" type="email" align="center" placeholder="Email">
-            <div class="checkmsg" id="passwordnamecheck"></div>
+            <div class="checkmsg" id="passwordnamecheck1"></div>
             <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Back to Log in</a></p>
             <button class="login_div_submit" align="center" onclick="forgetPassword()">Send</button>
 

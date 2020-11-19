@@ -982,6 +982,11 @@ function userRegister() {
 // user forger password
 
 function forgetPassword() {
+    if ($('#forget_username_id').val() == "") {
+        document.getElementById('usernamecheck1').innerHTML='Please enter your username';
+    }else if ($('#forget_email_id').val() == ""){
+        document.getElementById('passwordnamecheck1').innerHTML='Please enter your email';
+    } else {
 
     let message = {
         username:$("#forget_username_id").val(),
@@ -995,12 +1000,14 @@ function forgetPassword() {
         dataType:'json',
         data: message,
         success: function (msg) {
-            alert(msg.result);
+            document.getElementById('passwordnamecheck1').innerHTML=msg.result;
+            //alert(msg.result);
         },
         error: function () {
-            alert('error');
+            document.getElementById('passwordnamecheck1').innerHTML=('error');
         }
     });
+    }
 }
 
 
