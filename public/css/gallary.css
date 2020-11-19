@@ -607,6 +607,7 @@ body.gallary_div {
     width: 14rem;
     margin-top: 1rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 .gallary_next:hover
 {
