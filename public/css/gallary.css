@@ -8,14 +8,14 @@ body.gallary_div {
     font-family: 'Roboto', sans-serif;
     color: white;
   }
-  
+
 .gallary_div_credit {
     position: absolute;
     bottom: 20px;
     left: 20px;
     color: #000;
   }
-  
+
 .gallary_div_options {
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@ body.gallary_div {
     min-height: 400px;
     max-height: 800px;
   }
-  
+
   @media screen and (max-width: 718px) {
     .gallary_div_options {
       min-width: 520px;
@@ -43,7 +43,7 @@ body.gallary_div {
       display: none;
     }
   }
-  
+
   @media screen and (max-width: 638px) {
     .gallary_div_options {
       min-width: 440px;
@@ -52,7 +52,7 @@ body.gallary_div {
       display: none;
     }
   }
-  
+
   @media screen and (max-width: 558px) {
     .gallary_div_options {
       min-width: 360px;
@@ -61,7 +61,7 @@ body.gallary_div {
       display: none;
     }
   }
-  
+
   @media screen and (max-width: 478px) {
     .gallary_div_options {
       min-width: 280px;
@@ -70,7 +70,7 @@ body.gallary_div {
       display: none;
     }
   }
-  
+
   .gallary_div_option {
     position: relative;
     overflow: hidden;
@@ -82,31 +82,31 @@ body.gallary_div {
     cursor: pointer;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
   }
-  
+
   .gallary_div_option:nth-child(1) {
     --defaultBackground:#ED5565;
   }
-  
+
   .gallary_div_option:nth-child(2) {
     --defaultBackground:#FC6E51;
   }
-  
+
   .gallary_div_option:nth-child(3) {
     --defaultBackground:#FFCE54;
   }
-  
+
   .gallary_div_option:nth-child(4) {
     --defaultBackground:#2ECC71;
   }
-  
+
   .gallary_div_option:nth-child(5) {
     --defaultBackground:#5D9CEC;
   }
-  
+
 .gallary_div_option:nth-child(6) {
     --defaultBackground:#AC92EC;
   }
-  
+
   .gallary_div_option.active {
     flex-grow: 10000;
     transform: scale(1);
@@ -119,48 +119,48 @@ body.gallary_div {
               }*/
   }
   .gallary_div_article{
-    position: absolute; 
-    top: 0; 
+    position: absolute;
+    top: 0;
     left: 50px
 
   }
   .gallary_div_shadow {
     box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
   }
-  
+
   .gallary_div_label {
     bottom: 20px;
     left: 20px;
     color: white;
   }
-  
+
   .gallary_div_info > div {
     left: 0px;
     opacity: 1;
   }
-  
+
   .gallary_div_option:not(.gallary_div_active) {
     flex-grow: 1;
     border-radius: 30px;
   }
-  
+
   .gallary_div_option:not(.active) .gallary_div_shadow {
     bottom: -40px;
     box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
   }
-  
+
   .gallary_div_option:not(.active) .gallary_div_label {
     bottom: 10px;
     left: 10px;
     color: white;
   }
-  
+
   .gallary_div_option:not(.gallary_div_active) .gallary_div_label .gallary_div_info > div {
     left: 20px;
     opacity: 0;
     color: white;
   }
-  
+
   .gallary_div_shadow {
     position: absolute;
     bottom: 0px;
@@ -169,7 +169,7 @@ body.gallary_div {
     height: 120px;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
   }
-  
+
   .gallary_div_label {
     display: flex;
     position: absolute;
@@ -178,7 +178,7 @@ body.gallary_div {
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
     color: white;
   }
-  
+
   .gallary_div_icon {
     display: flex;
     flex-direction: row;
@@ -191,7 +191,7 @@ body.gallary_div {
     background-color: white;
     color: var(--defaultBackground);
   }
-  
+
   .gallary_div_info {
     display: flex;
     flex-direction: column;
@@ -200,18 +200,18 @@ body.gallary_div {
     color: white;
     white-space: pre;
   }
-  
+
   .gallary_div_info > div {
     position: relative;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
   }
-  
+
   .gallary_div_main {
     font-weight: bold;
     font-size: 1.2rem;
     color: white;
   }
-  
+
   .gallary_div_sub {
     transition-delay: .1s;
     color: white;
@@ -225,7 +225,7 @@ body.gallary_div {
     padding-left: 15px;
     margin-top: 10rem;
     height: 900px;
-    
+
 }
 .gallery_span{
   width:495px;
@@ -237,7 +237,7 @@ body.gallary_div {
 }
 .gallery_span:hover{
   width:495px;
-  
+
   height: 48px;
   float:left;
   background: url(../image/home/gallery_spanhover.jpg) no-repeat right top;
@@ -245,7 +245,7 @@ body.gallary_div {
 }
 .gallery_span:focus{
   width:495px;
-  
+
   height: 48px;
   float:left;
   outline: none;
@@ -256,7 +256,7 @@ body.gallary_div {
     position:absolute;
     width: 500px;
     height: 750px;
-    
+
 }
 
 .gallery_info_for6_1,
@@ -280,7 +280,7 @@ body.gallary_div {
   width:75rem;
   float:left;
   height: 69rem;
-  
+
 }
 .gallery_info_for6_1{
     background: url(../image/gallery/bro-1.jpg) no-repeat center center;
@@ -421,7 +421,7 @@ body.gallary_div {
 .gallery_info_for6_4:hover .mask,
 .gallery_info_for6_5:hover .mask,
 .gallery_info_for6_6:hover .mask {
-    opacity: 0.8;           
+    opacity: 0.8;
 }
 
 
@@ -512,7 +512,7 @@ body.gallary_div {
 .gallery_info_for15_13:hover .mask1,
 .gallery_info_for15_14:hover .mask1,
 .gallery_info_for15_15:hover .mask1{
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 .gallery_right{
   float: left;
@@ -520,7 +520,7 @@ body.gallary_div {
   padding-left: 10px;
   margin-top: 10rem;
   height: 900px;
-  
+
 }
 .gallery_silde{
     position:relative;
@@ -528,7 +528,7 @@ body.gallary_div {
     margin-right: auto;
     height: 70rem;
     width: 100%;
-    
+
 }
 .mySlides{
     position:relative;
@@ -536,8 +536,8 @@ body.gallary_div {
     margin-right: auto;
     height: 69rem;
     width: 100%;
-    
-    
+
+
 }
 .slider-controls1 {
   width: 75rem;
@@ -567,19 +567,19 @@ body.gallary_div {
 .slider-controls1>.gallery_next {
   right: 0px;
   color: white;
-  
+
 }
 .slider-controls1>.gallery_previous {
  left: 0px;
  color: white;
-  
+
 }
 .gallery_silde_note{
   float: left;
   margin-top: 10px;
   color: white!important;
   position:relative;
-    
+
     height: 10rem;
     width: 60rem;
     background-color: #504d4d;
@@ -601,3 +601,14 @@ body.gallary_div {
   padding-top: 10px;
 }
 
+.gallary_next
+{
+    height: 10rem;
+    width: 14rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.gallary_next:hover
+{
+   content: url('/image/gallary_next_hover.png');
+}

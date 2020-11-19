@@ -9746,13 +9746,16 @@
 
             <div class="gallery_silde" id ="gallery_silde_id">
                 <div class="mySlides" >
-                    <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id1">
-                    Booklet<br/>
-                    150gsm Gloss Stock<br/>
-                    200gsm Cover Gloss Machine Varnish<br/>
-                    Saddlestitched
-                </p></div>
-                    <button type="button" class="gallery_page_next" onclick="clickProduct(1)"><a href="/product/brochures"></a><i class="fas fa-chevron-right"></i></button>
+                    <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" >
+                        <p id ="gallery_silde_note_id1">
+                            Booklet<br/>
+                            150gsm Gloss Stock<br/>
+                            200gsm Cover Gloss Machine Varnish<br/>
+                            Saddlestitched
+                        </p>
+                    </div>
+{{--                    <button type="button" class="gallery_page_next" onclick="clickProduct(1)"><a href="/product/brochures"></a><i class="fas fa-chevron-right"></i></button>--}}
+                    <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img>
                 </div>
                 <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id2">
                 Booklet<br/>
@@ -10441,7 +10444,7 @@
                             <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
                         </div>
                     </div>
-                    
+
                     <div class = "cart_back" onclick = "cartProcess('upload')">Back</div>
                 </div>
 
