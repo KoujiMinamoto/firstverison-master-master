@@ -9649,17 +9649,17 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_1 no_margin">
                             <a href="javascript:void(0);" onclick="clickGallery(1)">
-                            <div class="mask1"><p>booklets</p></div>
+                            <div class="mask1"><p>Booklets</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_2 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(2)">
-                            <div class="mask2"><p>brochure</p></div>
+                            <div class="mask2"><p>Brochurew</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_3 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(3)">
-                            <div class="mask3"><p>bussinesscard</p></div>
+                            <div class="mask3"><p>Business Cards</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -9667,17 +9667,17 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_4 no_margin">
                             <a href="javascript:void(0);" onclick="clickGallery(4)">
-                            <div class="mask4"><p>DL Compliment</p></div>
+                            <div class="mask4"><p>DL Compliments</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_5 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(5)">
-                            <div class="mask5"><p>posters</p></div>
+                            <div class="mask5"><p>Posters</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_6 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(6)">
-                            <div class="mask6"><p>postercards</p></div>
+                            <div class="mask6"><p>Postercards</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -9685,17 +9685,17 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_7 no_margin">
                             <a href="javascript:void(0);" onclick="clickGallery(7)">
-                            <div class="mask7"><p>envelopers</p></div>
+                            <div class="mask7"><p>Envelopers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_8 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(8)">
-                            <div class="mask8"><p>flyers</p></div>
+                            <div class="mask8"><p>Flyers</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_9 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(9)">
-                            <div class="mask9"><p>letterhead</p></div>
+                            <div class="mask9"><p>Letterheads</p></div>
                             </a>
                         </div>
                         <div style="clear: both;"></div>
@@ -9703,12 +9703,12 @@
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_10 no_margin">
                             <a href="javascript:void(0);" onclick="clickGallery(10)">
-                            <div class="mask10"><p>signage</p></div>
+                            <div class="mask10"><p>Signages</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_11 margin_left20">
                             <a href="javascript:void(0);" onclick="clickGallery(11)">
-                            <div class="mask11"><p>banner</p></div>
+                            <div class="mask11"><p>Banners</p></div>
                             </a>
                         </div>
                         <div class="gallery_info_for15_12 margin_left20">
@@ -9747,8 +9747,9 @@
             <div class="gallery_silde" id ="gallery_silde_id">
                 <div class="mySlides" >
                     <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" >
+                        <p class="gallery_silde_title">Booklet</p>
                         <p id ="gallery_silde_note_id1">
-                            Booklet<br/>
+                            
                             150gsm Gloss Stock<br/>
                             200gsm Cover Gloss Machine Varnish<br/>
                             Saddlestitched
@@ -9757,41 +9758,41 @@
 {{--                    <button type="button" class="gallery_page_next" onclick="clickProduct(1)"><a href="/product/brochures"></a><i class="fas fa-chevron-right"></i></button>--}}
                     <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img>
                 </div>
-                <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id2">
-                Booklet<br/>
+                <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id2">
+                
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
-            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
-                <div class="mySlides" ><div class="gallery_info_for6-3"  id="gallery_info_for6-3_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id3">
-                Booklet<br/>
+                <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
+                <div class="mySlides" ><div class="gallery_info_for6-3"  id="gallery_info_for6-3_id"></div><div class="gallery_silde_note"><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id3">
+                
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
-            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
-                <div class="mySlides" ><div class="gallery_info_for6-4"  id="gallery_info_for6-4_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id4">
-                Booklet<br/>
+                <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
+                <div class="mySlides" ><div class="gallery_info_for6-4"  id="gallery_info_for6-4_id"></div><div class="gallery_silde_note" ><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id4">
+                
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
-            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
-                <div class="mySlides" ><div class="gallery_info_for6-5" id="gallery_info_for6-5_id"></div><div class="gallery_silde_note"><p id ="gallery_silde_note_id5">
-                Booklet<br/>
+                <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
+                <div class="mySlides" ><div class="gallery_info_for6-5" id="gallery_info_for6-5_id"></div><div class="gallery_silde_note"><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id5">
+                
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
-            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
-                <div class="mySlides" ><div class="gallery_info_for6-6" id="gallery_info_for6-6_id"></div><div class="gallery_silde_note" ><p id ="gallery_silde_note_id6">
-                Booklet<br/>
+                <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
+                <div class="mySlides" ><div class="gallery_info_for6-6" id="gallery_info_for6-6_id"></div><div class="gallery_silde_note" ><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id6">
+                
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
-            <button type="button" class="gallery_page_next" ><i class="fas fa-chevron-right"></i></button></div>
+                <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
             </div>
             <div class="slider-controls1">
                 <button type="button" class="gallery_next" onclick="plusDivs(1)"><i class="fas fa-chevron-right"></i></button>

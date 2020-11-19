@@ -1028,11 +1028,26 @@ function topFunction() {
 }
 
 //displaybox change
+function hideBanner(){
+   for (var a=0; a < 4; a++){
+    var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
+    banners[a].style = "display: none;";
+   }
+
+}
+function showBanner(){
+    for (var a=0; a < 4; a++){
+        var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
+        banners[a].style.display = "block";
+       }
+    
+}
 function changeDisplaybox(headerName){
     var imgs = document.getElementById("myCarousel").getElementsByTagName("img");
     var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
     switch (headerName) {
         case 0://home
+        showBanner();
             imgs[0].src='../image/1.jpg';
             banners[0].style="padding-left: 10%;";
             imgs[1].src='../image/2.jpg';
@@ -1043,6 +1058,7 @@ function changeDisplaybox(headerName){
             banners[3].style="padding-left: 76%;";
             break;
         case 1://envelopes
+
             imgs[0].src='../image/gallery/Envelope-2.jpg';
             banners[0].style="padding-left: 10%;";
             imgs[1].src='../image/gallery/Envelope-4.jpg';
@@ -1051,9 +1067,11 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 5%;";
             imgs[3].src='../image/gallery/Envelope-6.jpg';
             banners[3].style="padding-left: 10%;";
+            hideBanner();
             break;
 
         case 2://brochure
+
             imgs[0].src='../image/gallery/Brochure-1.jpg';
             banners[0].style="padding-left: 10%;";
             imgs[1].src='../image/gallery/Brochure-2.jpg';
@@ -1062,9 +1080,11 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 2%;";
             imgs[3].src='../image/gallery/Brochure-4.jpg';
             banners[3].style="padding-left: 10%;";
+            hideBanner();
             break;
 
         case 3://signage
+        hideBanner();
             imgs[0].src='../image/gallery/Sign-1.jpg';
             banners[0].style="padding-left: 10%;";
             imgs[1].src='../image/gallery/Sign-2.jpg';
@@ -1073,8 +1093,10 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 10%;";
             imgs[3].src='../image/gallery/Sign-5.jpg';
             banners[3].style="padding-left: 10%;";
+            hideBanner();
             break;
         case 4://bcard
+        hideBanner();
             imgs[0].src='../image/gallery/bc1.jpg';
             banners[0].style="padding-left: 76%;";
             imgs[1].src='../image/gallery/bc2.jpg';
@@ -1099,8 +1121,10 @@ function changeDisplaybox(headerName){
             }
             banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
             banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            hideBanner();
             break;
         case 5://banner
+        hideBanner();
             imgs[0].src='../image/gallery/Banner-1.jpg';
             banners[0].style="padding-left: 2%;";
             imgs[1].src='../image/gallery/Banner-2.jpg';
@@ -1125,8 +1149,10 @@ function changeDisplaybox(headerName){
             }
             banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
             banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            hideBanner();
             break;
         case 6://banner
+        hideBanner();
             imgs[0].src='../image/gallery/Flyer1.jpg';
             banners[0].style="padding-left: 10%;";
             imgs[1].src='../image/gallery/Flyer2.jpg';
@@ -1151,8 +1177,10 @@ function changeDisplaybox(headerName){
             }
             banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
             banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            hideBanner();
             break;
         case 7://letterhead
+        hideBanner();
             imgs[0].src='../image/gallery/LH-1.jpg';
             banners[0].style="padding-left: 3%;";
             imgs[1].src='../image/gallery/LH-2.jpg';
@@ -1161,8 +1189,10 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 5%;";
             imgs[3].src='../image/gallery/LH-6.jpg';
             banners[3].style="padding-left: 45%;";
+            hideBanner();
             break;
         case 8://postercard
+        hideBanner();
             imgs[0].src='../image/gallery/pc1.jpg';
             banners[0].style="padding-left: 3%;";
             imgs[1].src='../image/gallery/Postcard2.jpg';
@@ -1171,8 +1201,10 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 5%;";
             imgs[3].src='../image/gallery/Postcard6.jpg';
             banners[3].style="padding-left: 10%;";
+            hideBanner();
             break;
         case 9://poster
+        hideBanner();
             imgs[0].src='../image/gallery/Poster-1.jpg';
             banners[0].style="padding-left: 3%;";
             imgs[1].src='../image/gallery/Poster-3.jpg';
@@ -1181,8 +1213,10 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 10%;";
             imgs[3].src='../image/gallery/Poster-5.jpg';
             banners[3].style="padding-left: 10%;";
+            hideBanner();
             break;
         case 10://Dl Complients
+        hideBanner();
             imgs[0].src='../image/gallery/dl-1.jpg';
             banners[0].style="padding-left: 5%;";
             imgs[1].src='../image/gallery/dl-2.jpg';
@@ -1191,6 +1225,7 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 5%;";
             imgs[3].src='../image/gallery/dl2.jpg';
             banners[3].style="padding-left: 45%;";
+            hideBanner();
             break;
     }
 }

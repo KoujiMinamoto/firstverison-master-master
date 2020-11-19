@@ -581,7 +581,7 @@ body.gallary_div {
   position:relative;
 
     height: 10rem;
-    width: 60rem;
+    width: 62rem;
     background-color: #504d4d;
 }
 .gallery_page_next{
@@ -604,7 +604,7 @@ body.gallary_div {
 .gallary_next
 {
     height: 10rem;
-    width: 14rem;
+    width: 12rem;
     margin-top: 1rem;
     margin-left: 1rem;
     cursor: pointer;
@@ -612,4 +612,8 @@ body.gallary_div {
 .gallary_next:hover
 {
    content: url('/image/gallary_next_hover.png');
+}
+.gallery_silde_title{
+    font-size: x-large;
+    font-weight: bold;
 }
