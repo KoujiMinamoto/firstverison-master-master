@@ -9955,9 +9955,10 @@
         <div class="main_container_au">
             <div class="container_left">
             <h1>About us</h1>
-            <p>YellowStar Press has a state the art production facility to meet all your demands, from short digital to large
-                commercial runs. More importantly, we have the people with the skills and creativity to meet your
-                needs.</p>
+            <p>Yellow Star Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers, 
+            and Signages anything you need.</p>
+            <p>&nbsp;</p>
+            <p>With over 15 years experience in the Priinting industry, the founders aim to make this a hassle free experience for all clients, focusing on building personal relationships with its clients to ensure maximum satisfaction and positive outcomes in all areas of the print process. Yellow Star Press Pty Ltd works to ensure it’s clients receive the best quality printing at the most cost effective price whilst still ensuring high quality work.</p>
             <p>&nbsp;</p>
             <p class="black_heading">Our Printing facilities include</p>
             <ul class="black_bullets">
