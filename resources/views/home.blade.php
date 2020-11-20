@@ -1576,9 +1576,7 @@
                                 </div>
                             </div>
                         </a>
-
                         <div class="clear"></div>
-
                         <div class="size_menu">
                             <div class="size_4pages size_row">
                                 <div class="size_col1">
@@ -1587,17 +1585,17 @@
                                     <div class="fold_title">4 Pages</div>
                                     <div class="fold_info">Single Fold</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A3</div>
                                     <div class="bro_title">4 Pages</div>
                                     <div class="bro_sizing_sml">297 x 420m(folded)</div>
@@ -1605,7 +1603,6 @@
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
-
                             <div class="size_6rpages size_row">
                                 <div class="size_col1">
                                     <img src="{{URL::asset('/image/brochure folds-09.jpg') }} " alt="4 Page Landscape"
@@ -1613,17 +1610,17 @@
                                     <div class="fold_title">4 Page</div>
                                     <div class="fold_info">Landscape</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">148 x 420m(folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">210 x 594mm (folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A3</div>
                                     <div class="bro_title">4 Page Landscape</div>
                                     <div class="bro_sizing_sml">297 x 840m(folded)</div>
@@ -1631,7 +1628,6 @@
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
-
                             <div class="size_6rpages size_row">
                                 <div class="size_col1">
                                     <img src="{{URL::asset('/image/brochure-6pages-roll.png') }} "
@@ -1639,17 +1635,17 @@
                                     <div class="fold_title">6 Pages</div>
                                     <div class="fold_info">Roll Fold</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A3</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">297 x 420m(folded)</div>
@@ -1657,8 +1653,6 @@
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
-
-
                             <div class="size_6zpages size_row">
                                 <div class="size_col1">
                                     <img src="{{URL::asset('/image/brochure-6pages-z.png') }} " alt="6 Pages Z Fold"
@@ -1666,17 +1660,17 @@
                                     <div class="fold_title">6 Pages</div>
                                     <div class="fold_info">Z Fold</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A5</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">148 x 210m(folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A4</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">210 x 297mm (folded)</div>
                                 </div>
-                                <div class="bro_setup">
+                                <div class="f_bro_setup">
                                     <div class="bro_sizing">A3</div>
                                     <div class="bro_title">6 Pages</div>
                                     <div class="bro_sizing_sml">297 x 420m(folded)</div>
@@ -1684,20 +1678,12 @@
                                 <div class="clear"></div>
                                 <div style="clear: both;"></div>
                             </div>
-
-
-
-
-
-
-
                         </div>
-
                     </div>
-                    <div class="main_left_right">
-                        <a>
-                            <div class="advertisement2"></div>
-                        </a>
+{{--                    <div class="main_left_right">--}}
+{{--                        <a>--}}
+{{--                            <div class="advertisement2"></div>--}}
+{{--                        </a>--}}
 {{--                        <div class="panel_pricing">--}}
 {{--                            <h4>Pricing includes</h4>--}}
 {{--                            <span class="option_indent"><a--}}
@@ -1727,40 +1713,40 @@
 {{--                                    href="/pre-flight-checks">Hard Copy Proofs</a></span>--}}
 {{--                            <p>&nbsp;</p>--}}
 {{--                        </div>--}}
-                        <div class="clear"></div>
-                        <h4>Brochure Folding</h4>
-                        <div class="folding_list">
-                            <img src="{{URL::asset('/image/brochure folds-01.png') }} ">
-                            <strong>Single Fold</strong>
-                            <span>4 Pages</span>
-                        </div>
-                        <div class="folding_list">
-                            <img src="{{URL::asset('/image/brochure folds-04.png') }} ">
-                            <strong>Roll Fold</strong>
-                            <span>6 Pages</span>
-                        </div>
-                        <div class="folding_list">
-                            <img src="{{URL::asset('/image/brochure folds-05.png') }} ">
-                            <strong>Z Fold</strong>
-                            <span>6 Pages</span>
-                        </div>
-                        <div class="folding_list">
-                            <img src="{{URL::asset('/image/brochure folds-02.png') }} ">
-                            <strong>Roll Fold</strong>
-                            <span>8 Pages</span>
-                        </div>
-                        <div class="folding_list">
-                            <img src="{{URL::asset('/image/brochure folds-03.png') }} ">
-                            <strong>Concertina</strong>
-                            <span>8 Pages</span>
-                        </div>
-                        <div class="clear"></div>
+{{--                        <div class="clear"></div>--}}
+{{--                        <h4>Brochure Folding</h4>--}}
+{{--                        <div class="folding_list">--}}
+{{--                            <img src="{{URL::asset('/image/brochure folds-01.png') }} ">--}}
+{{--                            <strong>Single Fold</strong>--}}
+{{--                            <span>4 Pages</span>--}}
+{{--                        </div>--}}
+{{--                        <div class="folding_list">--}}
+{{--                            <img src="{{URL::asset('/image/brochure folds-04.png') }} ">--}}
+{{--                            <strong>Roll Fold</strong>--}}
+{{--                            <span>6 Pages</span>--}}
+{{--                        </div>--}}
+{{--                        <div class="folding_list">--}}
+{{--                            <img src="{{URL::asset('/image/brochure folds-05.png') }} ">--}}
+{{--                            <strong>Z Fold</strong>--}}
+{{--                            <span>6 Pages</span>--}}
+{{--                        </div>--}}
+{{--                        <div class="folding_list">--}}
+{{--                            <img src="{{URL::asset('/image/brochure folds-02.png') }} ">--}}
+{{--                            <strong>Roll Fold</strong>--}}
+{{--                            <span>8 Pages</span>--}}
+{{--                        </div>--}}
+{{--                        <div class="folding_list">--}}
+{{--                            <img src="{{URL::asset('/image/brochure folds-03.png') }} ">--}}
+{{--                            <strong>Concertina</strong>--}}
+{{--                            <span>8 Pages</span>--}}
+{{--                        </div>--}}
+{{--                        <div class="clear"></div>--}}
 
-                        <a>
-                            <div class="bcards500 notop"></div>
-                        </a>
+{{--                        <a>--}}
+{{--                            <div class="bcards500 notop"></div>--}}
+{{--                        </a>--}}
 
-                    </div>
+{{--                    </div>--}}
 
                     <div class="clear"></div>
                     <div style="clear: both;"></div>
@@ -2277,10 +2263,10 @@
                 </div>
 
 
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -2305,12 +2291,12 @@
 {{--                        <span class="option_indent black">Priority Delivery</span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
+{{--                    <div class="clear"></div>--}}
 
-                    <a>
-                        <div class="bcards500"></div>
-                    </a>
-                </div>
+{{--                    <a>--}}
+{{--                        <div class="bcards500"></div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
@@ -2363,7 +2349,7 @@
 
                     <div class="clear"></div>
 
-                    <div style="width:95%;text-align:justify">
+                    <div style="width:87rem;text-align:justify">
                         <p>
                             Even in today's digitally-driven world, business cards are still hugely popular, and are
                             used by virtually every business. They're still considered a
@@ -2791,40 +2777,40 @@
 
 
                 </div>
-                <div class="main_left_right">
+{{--                <div class="main_left_right">--}}
 
-                    <div class="panel_pricing">
-                        <h4>FREE Setup</h4>
-                        <span class="option_indent"><a
-                                href="/contact">If print ready artwork is required, send us your logo and details and we'll setup your artwork for FREE*</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">
-                            * Digital files remain the property of YellowStar Press, files can be purchased once the design is
-                            approved. This offer cannot be used in conjunction with any other promotion.
-                        </p>
-                        <p>&nbsp;</p>
-                    </div>
-                    <div class="panel_pricing">
-                        <h4>Pricing includes</h4>
-                        <span class="option_indent"><a
-                                href="/pre-flight-checks">Free Flight Check</a></span>
-                        <span class="option_indent"><a
-                                href="/contact">PDF Proof for your approval*</a></span>
-                        <span class="option_indent"><a
-                                href="/support">Free Job Tracking</a></span>
-                        <span class="option_indent"><a
-                                href="/delivery">Free Delivery</a></span>
-                        <p>&nbsp;</p>
-                        <p class="small">* Limited to one PDF proof per print job.<br>
-                            Additional proofs will incur extra charges.</p>
-                    </div>
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>FREE Setup</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/contact">If print ready artwork is required, send us your logo and details and we'll setup your artwork for FREE*</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">--}}
+{{--                            * Digital files remain the property of YellowStar Press, files can be purchased once the design is--}}
+{{--                            approved. This offer cannot be used in conjunction with any other promotion.--}}
+{{--                        </p>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="panel_pricing">--}}
+{{--                        <h4>Pricing includes</h4>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/pre-flight-checks">Free Flight Check</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/contact">PDF Proof for your approval*</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/support">Free Job Tracking</a></span>--}}
+{{--                        <span class="option_indent"><a--}}
+{{--                                href="/delivery">Free Delivery</a></span>--}}
+{{--                        <p>&nbsp;</p>--}}
+{{--                        <p class="small">* Limited to one PDF proof per print job.<br>--}}
+{{--                            Additional proofs will incur extra charges.</p>--}}
+{{--                    </div>--}}
 
-                    <div class="clear"></div>
-                    <br>
-                    <a>
-                        <div class="bcards500"></div>
-                    </a>
-                </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <br>--}}
+{{--                    <a>--}}
+{{--                        <div class="bcards500"></div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
 
@@ -3459,7 +3445,7 @@
 
                     <div class="option_size_list docket_templates">
 
-                        <div class="bro_setup" style="height:7rem">
+                        <div class="bro_setup no_margin" style="height:7rem">
                             <div class="bro_sizing" style="font-size:22px;line-height:20px;padding-top:10px;">Metal with TEKflute</div>
                             <div class="bro_sizing_sml">600 x 900mm</div>
                         </div>
@@ -3469,10 +3455,10 @@
 
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -3497,16 +3483,16 @@
 
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <div class="bx-up" style="margin-top:25%">
-                        <div class="bcards500 notop">
-                            <a
-                               class="bcards500link"></a>
-                        </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bx-up" style="margin-top:25%">--}}
+{{--                        <div class="bcards500 notop">--}}
+{{--                            <a--}}
+{{--                               class="bcards500link"></a>--}}
+{{--                        </div>--}}
 
-                    </div>
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div style="clear: both;"></div>
                 <div class="clear"></div>
 
@@ -3904,10 +3890,10 @@
                         quality paper using our state-of-the-art printing facilities, you can be sure that YellowStar Press will
                         deliver clean and beautifully designed envelopes. </p>
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -3923,13 +3909,13 @@
 {{--                            Additional proofs will incur extra charges.</p>--}}
 {{--                    </div>--}}
 
-                    <div class="clear"></div>
-                    <br style="">
-                    <div class="bcards500 notop">
-                        <a class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <br style="">--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
 
@@ -3943,7 +3929,7 @@
                         {{--                            <div class="fold_title">Envelope</div>--}}
                         {{--                            <div class="fold_info">Plain</div>--}}
                         {{--                        </div>--}}
-                        <div class="bro_setup">
+                        <div class="bro_setup no_margin">
                             <div class="bro_sizing">DL</div>
                             <div class="bro_title">Envelope</div>
                             <div class="bro_sizing_sml">110 x 220m(folded)</div>
@@ -4025,7 +4011,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div style="width:87rem">
                     <p>&nbsp;</p>
                     <h3>A powerful marketing tool</h3>
                     <p>
@@ -4540,10 +4526,10 @@
                           target="_blank">Click here to view our factory location.</a></p>
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -4561,20 +4547,20 @@
 {{--                                           href="/contact">custom--}}
 {{--                                quote form</a> or call us</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <br style="">
-                    <div class="bcards500 notop">
-                        <a
-                           class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <br style="">--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a--}}
+{{--                           class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
 
                 <div class="option_size_list express_templates" style="padding-top: 2rem">
-                    <div class="bro_setup" style="height:7rem">
+                    <div class="bro_setup no_margin" style="height:7rem">
                         <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
                         </div>
                         <div class="bro_sizing_sml">850mm</div>
@@ -5002,7 +4988,7 @@
                     </a>
                         <div class="clear"></div>
 
-                        <div class="option_size_list flyer_templates" style="display:inline-flex;margin-top:10rem">
+                        <div class="option_size_list flyer_templates" style="display:inline-flex">
                             <div class="bro_setup" style="height:7rem;margin:0rem">
                                 <div class="small_bro_sizing">DL</div>
                                 <div class="bro_sizing_sml">99 x 210mm</div>
@@ -5026,10 +5012,10 @@
                         </div>
                         <div class="clear"></div>
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -5055,14 +5041,14 @@
 {{--                        href="/pre-flight-checks">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a
-                           class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a--}}
+{{--                           class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
 
@@ -5575,10 +5561,10 @@
                     <p>&nbsp;</p>
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -5606,14 +5592,14 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
+{{--                    <div class="clear"></div>--}}
 
-                    <div class="bcards500 notop">
-                        <a
-                           class="bcards500link"></a>
-                    </div>
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a--}}
+{{--                           class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
@@ -6010,16 +5996,16 @@
 
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
-                    <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a class="bcards500link"></a>
-                    </div>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div style="clear: both;"></div>
                 <div class="main_left_bottom1">
@@ -6536,10 +6522,10 @@
 
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -6567,12 +6553,12 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
 
                 <div style="clear: both;"></div>
@@ -7064,10 +7050,10 @@
 
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -7095,14 +7081,14 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a
-                           class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a--}}
+{{--                           class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
 
                 <div style="clear: both;"></div>
@@ -7648,10 +7634,10 @@
                     </p>
                 </div>
 
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a href="javascript:void(0)">Free folder setup included. Maximum of 2 copy changes</a></span>--}}
@@ -7685,13 +7671,13 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a
-                           class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a--}}
+{{--                           class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div id="u71355-10">
                     <p id="u71355-8"><span id="u71355">short run presentation folders now available.</span><span id="u71355-3"><br></span><span id="u71355-6">with minimum quantities starting at 50 units.<br></span>
@@ -8976,8 +8962,6 @@
                     </p>
                     <p>&nbsp;</p>
                     <p>
-
-
                         When sending a promotional pack, thanking someone or sending a gift on behalf of your business,
                         add a personal touch with a compliment slip.</p>
                     <p>&nbsp;</p>
@@ -8994,10 +8978,10 @@
 
 
                 </div>
-                <div class="main_left_right">
-                    <a>
-                        <div class="advertisement2"></div>
-                    </a>
+{{--                <div class="main_left_right">--}}
+{{--                    <a>--}}
+{{--                        <div class="advertisement2"></div>--}}
+{{--                    </a>--}}
 {{--                    <div class="panel_pricing">--}}
 {{--                        <h4>Pricing includes</h4>--}}
 {{--                        <span class="option_indent"><a--}}
@@ -9027,12 +9011,12 @@
 {{--                                href="/colour-critical">Hard Copy Proofs</a></span>--}}
 {{--                        <p>&nbsp;</p>--}}
 {{--                    </div>--}}
-                    <div class="clear"></div>
-                    <div class="bcards500 notop">
-                        <a class="bcards500link"></a>
-                    </div>
+{{--                    <div class="clear"></div>--}}
+{{--                    <div class="bcards500 notop">--}}
+{{--                        <a class="bcards500link"></a>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <div class="clear"></div>
                 <div class="main_left_bottom1">
 
@@ -9749,7 +9733,7 @@
                     <div class="gallery_info_for6-1" id="gallery_info_for6-1_id"></div><div class="gallery_silde_note" >
                         <p class="gallery_silde_title">Booklet</p>
                         <p id ="gallery_silde_note_id1">
-                            
+
                             150gsm Gloss Stock<br/>
                             200gsm Cover Gloss Machine Varnish<br/>
                             Saddlestitched
@@ -9759,35 +9743,35 @@
                     <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img>
                 </div>
                 <div class="mySlides" ><div class="gallery_info_for6-2"  id="gallery_info_for6-2_id"></div><div class="gallery_silde_note"><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id2">
-                
+
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
                 <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
                 <div class="mySlides" ><div class="gallery_info_for6-3"  id="gallery_info_for6-3_id"></div><div class="gallery_silde_note"><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id3">
-                
+
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
                 <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
                 <div class="mySlides" ><div class="gallery_info_for6-4"  id="gallery_info_for6-4_id"></div><div class="gallery_silde_note" ><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id4">
-                
+
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
                 <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
                 <div class="mySlides" ><div class="gallery_info_for6-5" id="gallery_info_for6-5_id"></div><div class="gallery_silde_note"><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id5">
-                
+
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
                 </p></div>
                 <img class="gallary_next" onclick="clickProduct(1)" src="{{URL::asset('/image/gallary_next.png')}}"></img></div>
                 <div class="mySlides" ><div class="gallery_info_for6-6" id="gallery_info_for6-6_id"></div><div class="gallery_silde_note" ><p class="gallery_silde_title">Booklet</p><p id ="gallery_silde_note_id6">
-                
+
                     150gsm Gloss Stock<br/>
                     200gsm Cover Gloss Machine Varnish<br/>
                     Saddlestitched
@@ -9955,7 +9939,7 @@
         <div class="main_container_au">
             <div class="container_left">
             <h1>About us</h1>
-            <p>Yellow Star Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers, 
+            <p>Yellow Star Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers,
             and Signages anything you need.</p>
             <p>&nbsp;</p>
             <p>With over 15 years experience in the Priinting industry, the founders aim to make this a hassle free experience for all clients, focusing on building personal relationships with its clients to ensure maximum satisfaction and positive outcomes in all areas of the print process. Yellow Star Press Pty Ltd works to ensure it’s clients receive the best quality printing at the most cost effective price whilst still ensuring high quality work.</p>
