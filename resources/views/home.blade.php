@@ -42,10 +42,49 @@
     <script src="https://secure.ewaypayments.com/scripts/eCrypt.min.js"></script>
 
     <script src="https://unpkg.com/imask"></script>
+    <link rel="stylesheet" type="text/css" href="css/loading.css" />
 </head>
 <body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->
-<div class="homepage" id="homepage_div_id" style="display:block">
+
+<div class="loader_backgorund">
+    <div class="loader">
+        <div class="text">Loading...</div>
+        <div class="horizontal">
+            <div class="circlesup">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="circlesdwn">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="vertical">
+            <div class="circlesup">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="circlesdwn">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="homepage" id="homepage_div_id" style="display:none">
     <!-- header -->
     <div class="header_background" id="header_id" style="box-shadow: 0px 1px 8px 2px #eee!important;">
     <div class="header" id="header_id">
