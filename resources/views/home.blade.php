@@ -91,7 +91,7 @@
         <div class="home clickOn" id="home_id" onclick="clickHeader(0)">
             <p>home</p>
         </div>
-        <div class="product" id="product_id">
+        <div class="product" id="product_id" style="cursor:default">
             <p>product</p>
             <ul id="product_ul">
                 <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Banner</a></li>
@@ -134,7 +134,7 @@
                     </ul> -->
         </div>
         <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>gallary</p></div>
-        <div class="support" id="support_id">
+        <div class="support" id="support_id" style="cursor:default">
             <p>support</p>
             <ul id="support_ul" style="left:84.6rem">
                 <li class="support0" onclick="clickHeader(14)" id="support0_id">&nbsp;&nbsp;&nbsp;<a>Order Process</a></li>

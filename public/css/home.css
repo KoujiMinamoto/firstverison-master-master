@@ -89,6 +89,7 @@ h1.hp_title {
     box-shadow: 3px 0px 8px #888888;
     border-right: solid;
     border-width: thin;
+    cursor: pointer;
 }
 #product_ul li:hover,
 #support_ul li:hover,
