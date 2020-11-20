@@ -85,10 +85,11 @@ h1.hp_title {
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif ;
     line-height: 3rem;
-    -moz-box-shadow: 1px 0px 8px #888888; /* 老的 Firefox */
-    box-shadow: 3px 0px 8px #888888;
+    -moz-box-shadow: 4px 4px 5px #888888; /* 老的 Firefox */
+    box-shadow: 4px 4px 5px #888888;
     border-right: solid;
     border-width: thin;
+    border-color: #454d55;
     cursor: pointer;
 }
 #product_ul li:hover,
@@ -97,7 +98,7 @@ h1.hp_title {
 #gallary_ul li:hover{
     background: gray;
     color: white;
-    border-color: black;
+    border-color: #454d55;
     line-height: 3rem;
 }
 /* home */
