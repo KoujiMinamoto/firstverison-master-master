@@ -96,7 +96,7 @@ function clickProduct(headerName) {
 
 function showProductPage(headerName) {
     reset();
-    setTimeout('showMain()',(Math.random()*3+1)*1000);
+    setTimeout('showMain()',(Math.random()+1)*1000);
     switch (headerName) {
         //product
         case 0:
