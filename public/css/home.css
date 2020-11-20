@@ -4,7 +4,7 @@ html {
 }
 .clickOn{
     color:white;
-    background: linear-gradient(to bottom,#29ABE2 ,#2a57a7 100%);
+    background: linear-gradient(to bottom,#29ABE2 ,#2a57a7 40%);
 }
 .clickOnli{
     color:white !important;
