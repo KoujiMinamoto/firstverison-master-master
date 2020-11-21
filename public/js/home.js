@@ -611,7 +611,7 @@ function showHeaderPage(headerName) {
             break;
         case 7:
             $(".cart").addClass("clickOn");
-            changeDisplaybox(0);
+            document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("cart_div_id").style.display = "block";
             break;
         case 8:
@@ -632,6 +632,7 @@ function showHeaderPage(headerName) {
             }else
             {
                 $(".login").addClass("clickOn");
+                document.getElementById("displayBox_id").style.display = "none";
                 changeDisplaybox(0);
                 document.getElementById("login_div_id").style.display = "block";
             }
@@ -649,6 +650,7 @@ function showHeaderPage(headerName) {
             else{
                 $(".register").addClass("clickOn");
                 changeDisplaybox(0);
+                document.getElementById("displayBox_id").style.display = "none";
                 document.getElementById("register_div_id").style.display = "block";
             }
             break;
@@ -659,6 +661,7 @@ function showHeaderPage(headerName) {
         case 10:
             $(".login").addClass("clickOn");
             changeDisplaybox(0);
+            document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("login_div_forgetpasswd_id").style.display = "block";
             break;
         case 11:

@@ -338,7 +338,7 @@ h1.hp_title {
 .cart_div,
 .login_div_forgetpasswd,
 .login_div{
-    margin-top: 30px;
+    margin-top: 90px;
     width: 128rem;
     min-height: 63rem;
     padding-bottom: 2rem;
@@ -348,6 +348,7 @@ h1.hp_title {
 }
 .register_div{
     width: 144rem;
+    margin-top: 90px;
     min-height: 60rem;
     padding-bottom:10rem;
     margin-left: auto;
@@ -447,7 +448,7 @@ h1.hp_title {
     z-index:0;
     width: 100%;
     /* max-width: 190rem; */
-    height: 60rem;
+    height: 50rem;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -604,6 +605,7 @@ h1.hp_title {
 /*  footer  */
 .footer_background {
     width: 100%;
+    min-width: 1300px;
     min-height: 20rem;
     background: #101114;
     margin: 0 auto;
