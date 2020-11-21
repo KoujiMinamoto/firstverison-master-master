@@ -11,7 +11,7 @@ function show_hidden() {
         }
         eleMore.style.height = height + "px";
         if (height > 0 && height < 750) {
-            timer = setTimeout(step, 60);
+            timer = setTimeout(step, 10);
         }
     };
 
@@ -31,8 +31,14 @@ function show_hidden() {
 
     }
     
-    
-
+}
+function hidden_15(){
+    document.getElementById("galleryfor15_id").style.display = 'none';
+    document.getElementById("loader").style.display="block";
+    // document.getElementById("homepage_div_id").style.display = "none";
+    //document.getElementById("loader").style.display="none";
+    //showMain();
+    setTimeout(function(){document.getElementById("loader").style.display="none";},500);
 }
 function showPhotos(n) {
     var i;
@@ -96,6 +102,7 @@ function clickGallery(headerName){
                     clickProduct(1);
                 }
             };
+            hidden_15();
             break;
         case 2:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Brochure1.jpg)";
@@ -125,6 +132,7 @@ function clickGallery(headerName){
                     clickProduct(1);
                 }
             };
+            hidden_15();
             break;
         case 3:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/bc1.jpg)";
@@ -154,6 +162,7 @@ function clickGallery(headerName){
                     clickProduct(2);
                 }
             };
+            hidden_15();
             break;
         case 4:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/dl1.jpg)";
@@ -183,6 +192,7 @@ function clickGallery(headerName){
                     clickProduct(14);
                 }
             };
+            hidden_15();
             break;
         case 5:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Poster1.jpg)";
@@ -212,6 +222,7 @@ function clickGallery(headerName){
                     clickProduct(12);
                 }
             };
+            hidden_15();
             break;
         case 6:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/pc1.jpg)";
@@ -241,6 +252,7 @@ function clickGallery(headerName){
                     clickProduct(13);
                 }
             };
+            hidden_15();
             break;
         case 7:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/ev1.jpg)";
@@ -270,6 +282,7 @@ function clickGallery(headerName){
                     clickProduct(6);
                 }
             };
+            hidden_15();
             break;
         case 8:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/fy1.jpg)";
@@ -299,6 +312,7 @@ function clickGallery(headerName){
                     clickProduct(8);
                 }
             };
+            hidden_15();
             break;
         case 9:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/lh1.jpg)";
@@ -328,6 +342,7 @@ function clickGallery(headerName){
                     clickProduct(10);
                 }
             };
+            hidden_15();
             break;
         case 10:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/s1.jpeg)";
@@ -357,6 +372,7 @@ function clickGallery(headerName){
                     clickProduct(5);
                 }
             };
+            hidden_15();
             break;
         case 11:
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Banner-1.jpg)";
@@ -386,6 +402,7 @@ function clickGallery(headerName){
                     clickProduct(7);
                 }
             };
+            hidden_15();
             break;
 
     }

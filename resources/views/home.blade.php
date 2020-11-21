@@ -159,6 +159,7 @@
 
     <!-- diaplayBox -->
     <div class="displayBox" id="displayBox_id">
+        <div class="displayBox_inner" id="displayBox_inner_id">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
@@ -195,8 +196,8 @@
                             </span>
                         </p>
                     </span>
-
-                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;">
+                    <div class="c_item_img" style="text-align: center;">
+                    <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;"></div>
                 </div>
 
                 <div class="carousel-item">
@@ -230,7 +231,8 @@
                             </span>
                         </p>
                     </span>
-                    <img src="{{URL::asset('/image/2.jpg') }}" alt="Chicago" style="width:100%;">
+                    <div class="c_item_img" style="text-align: center;">
+                    <img src="{{URL::asset('/image/2.jpg') }}" alt="Chicago" style="width:100%;"></div>
                 </div>
 
                 <div class="carousel-item">
@@ -264,7 +266,8 @@
                             </span>
                         </p>
                     </span>
-                    <img src="{{URL::asset('/image/gallery/pc1.jpg') }}" alt="New york" style="width:100%;">
+                    <div class="c_item_img" style="text-align: center;">
+                    <img src="{{URL::asset('/image/gallery/pc1.jpg') }}" alt="New york" style="width:100%;"></div>
                 </div>
 
                 <div class="carousel-item">
@@ -298,12 +301,13 @@
                             </span>
                         </p>
                     </span>
-                    <img src="{{URL::asset('/image/gallery/test23.jpg') }}" alt="New york" style="width:100%;">
+                    <div class="c_item_img" style="text-align: center;">
+                    <img src="{{URL::asset('/image/gallery/test23.jpg') }}" alt="New york" style="width:100%;"></div>
                 </div>
             </div>
 
             <!-- Left and right controls -->
-
+            </div>
         </div>
 
 

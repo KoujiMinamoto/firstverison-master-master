@@ -21,12 +21,15 @@ html {
     width: 124rem;
     height: 10rem;
     display: grid;
-    position: sticky;
+    position: fixed;
     z-index:999;
     top: 0;
     background:white;
     grid-template-columns: 47% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3%;
     margin: 0 auto;
+    left:0;
+right:0;
+
 }
 div{
     -webkit-transition: all 0.2s ease-in-out;
@@ -333,6 +336,7 @@ h1.hp_title {
 .cart_div,
 .login_div_forgetpasswd,
 .login_div{
+    margin-top: 30px;
     width: 128rem;
     min-height: 63rem;
     padding-bottom: 2rem;
@@ -441,7 +445,7 @@ h1.hp_title {
     z-index:0;
     width: 100%;
     /* max-width: 190rem; */
-    height: 45rem;
+    height: 60rem;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -449,15 +453,38 @@ h1.hp_title {
     margin-bottom:3rem;
     top:10.2rem;
 }
+.displayBox .active{
+    background-color:transparent;
+}
+.displayBox_inner{
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 103px;
+
+}
 .carousel-inner{
     position: relative;
+    background-color: black;
     width: 100%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     max-width: 190rem;
-    max-height: 43rem;
+    max-height: 53rem;
 }
+.carousel-inner img {
+    max-height: 530px;  
+    /* max-width: 100%; 
+    /* position: absolute;   */
+    /* top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto; */
+    width: auto !important;
+    }
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
   background-color:red!important;
@@ -536,7 +563,7 @@ h1.hp_title {
 .slider-controls {
     width: 100%;
     position:fixed;
-    top: 260px;
+    top: 320px;
     -webkit-transform: translate3d(0px, -50%, 0px);
     transform: translate3d(0px, -50%, 0px);
     z-index: 0;
@@ -978,6 +1005,7 @@ input.btn_search {
 .home_background{
     position: relative;;
     width: 100%;
+    min-width: 1300px;
     min-height: 63rem;
     padding-bottom: 2rem;
     margin-left: auto;
@@ -989,9 +1017,9 @@ input.btn_search {
 }
 .header_background{
     width: 100%;
-    position: sticky;
+    position: fixed;
     top:0;
-    height: 10.1rem;
+    height: 10.2rem;
     -moz-box-shadow: 0px 1px 8px 2px #eee;
     -webkit-box-shadow: 0px 1px 8px 2px #eee;
     box-shadow: 0px 1px 8px 2px #eee!important;
@@ -1000,6 +1028,7 @@ input.btn_search {
     background: white;
     z-index: 9999;
 }
+
 #header_shadow{
 	height:1px;
 	display:none;
