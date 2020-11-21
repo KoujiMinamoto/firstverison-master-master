@@ -167,34 +167,10 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" >
                     <span class= "c-banner" style="display:inline-block;">
-                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
-                        <ul style="font-size:23px; color:#fff; line-height:28px;">
-                            <li style="list-style-type:disc;">400gsm premium artboard</li>
-                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
-                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
-                        </ul>
-                        <div style="margin-top: 20px;">
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">250</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
-                            </div>
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">500</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
-                            </div>
-                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">1000</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
-                            </div>
+                        <div class="banner-subheading"><br style="">Digital<br style="">& Off-set Printing<br style="">
+                        & Signage Printing
+                        <div class="banner-subheading">& Wide-format Printing</div>
                         </div>
-
-                        <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
-
-                        <p style="margin-top:15px; margin-left:10px">
-                            <span class="button_click_here" href="/product/businessCards">
-                                <span style="color:#fff">click here</span>
-                            </span>
-                        </p>
                     </span>
                     <div class="c_item_img" style="text-align: center;">
                     <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;"></div>
@@ -202,30 +178,12 @@
 
                 <div class="carousel-item">
                     <span class= "c-banner" style="display:inline-block;">
-                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
-                        <ul style="font-size:23px; color:#fff; line-height:28px;">
-                            <li style="list-style-type:disc;">400gsm premium artboard</li>
-                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
-                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
-                        </ul>
-                        <div style="margin-top: 20px;">
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">250</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
-                            </div>
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">500</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
-                            </div>
-                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">1000</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
-                            </div>
-                        </div>
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Envlopes<br style="">Printing</p>
+                        
 
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
 
-                        <p style="margin-top:15px; margin-left:10px">
+                        <p style="margin-top:115px; margin-left:10px">
                             <span class="button_click_here" href="/product/businessCards">
                                 <span style="color:#fff">click here</span>
                             </span>
@@ -237,25 +195,14 @@
 
                 <div class="carousel-item">
                 <span class= "c-banner" style="display:inline-block;">
-                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
-                        <ul style="font-size:23px; color:#fff; line-height:28px;">
-                            <li style="list-style-type:disc;">400gsm premium artboard</li>
-                            <li style="list-style-type:disc;">full colour printing 2 sides</li>
-                            <li style="list-style-type:disc;">matt lamination 2 sides</li>
-                        </ul>
-                        <div style="margin-top: 20px;">
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">250</p>
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Postercard <br style="">Printing</p>
+                        
+                        <div style="margin-top: 60px;">
+                            <div style="display:inline-block; overflow: hidden;  width: 90px; min-height: 60px;">
+                                <p style="font-size:21px; color: #fff;">From</p>
                                 <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
                             </div>
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">500</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
-                            </div>
-                            <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">1000</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
-                            </div>
+                            
                         </div>
 
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
@@ -274,23 +221,16 @@
                 <span class= "c-banner" style="display:inline-block; padding-left: 76%; ">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
                         <ul style="font-size:23px; color:#fff; line-height:28px;">
-                            <li style="list-style-type:disc;">400gsm premium artboard</li>
+                            <li style="list-style-type:disc;">450gsm or 350gsm premium artboard</li>
                             <li style="list-style-type:disc;">full colour printing 2 sides</li>
                             <li style="list-style-type:disc;">matt lamination 2 sides</li>
                         </ul>
                         <div style="margin-top: 20px;">
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">250</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
-                            </div>
-                            <div style="display:inline-block; overflow: hidden; border-right: 1px solid #29ABE2; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">500</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$69</p>
-                            </div>
                             <div style="display:inline-block; overflow: hidden; width: 90px; min-height: 60px;">
-                                <p style="font-size:21px; color: #fff;">1000</p>
-                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$74</p>
+                                <p style="font-size:21px; color: #fff;">From</p>
+                                <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$80</p>
                             </div>
+                            
                         </div>
 
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
@@ -9624,6 +9564,11 @@
 
     <!-- gallary -->
     <div class="gallary_div" id="gallary_div_id" style="display:none">
+        <div style='position:fixed'>
+            <div class='modal' id='modal'>
+                <img id='bgImg' />
+            </div>
+        </div>
         <div class="gallery_left" id="gallery_left_id">
             <div>
                 <button class="gallery_span"id="gallery_span_id" type="button" onclick="show_hidden()"></button>

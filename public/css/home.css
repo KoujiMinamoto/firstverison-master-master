@@ -161,27 +161,29 @@ h1.hp_title {
     -moz-transition:background 0.7s; /* Firefox 4 */
     -webkit-transition:background 0.7s; /* Safari and Chrome */
     -o-transition:background 0.7s; /* Opera */
+    
 }
 
 .booklets_holder {
-    background: #FFFFFF url(../image/home/booklets.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/Banner.jpg) no-repeat center top;
+    /* background-size: cover; */
 }
 .booklets_holder:hover {
-    background: #FFFFFF url(../image/home/bookletsHover.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/Banner_hover.jpg) no-repeat center top;
 }
 
 .brochures_holder {
-    background: #FFFFFF url(../image/home/brochures.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/business.jpg) no-repeat center top;
 }
 .brochures_holder:hover {
-    background: #FFFFFF url(../image/home/brochuresHover.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/businessHover.jpg) no-repeat center top;
 }
 
 .business_cards_holder {
-    background: #FFFFFF url(../image/home/business.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/with.jpg) no-repeat center top;
 }
 .business_cards_holder:hover {
-    background: #FFFFFF url(../image/home/businessHover.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/withHover.jpg) no-repeat center top;
 }
 
 .notepads_holder {
@@ -192,10 +194,10 @@ h1.hp_title {
 }
 
 .docketbooks_holder {
-    background: #FFFFFF url(../image/home/docket.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/brochures.jpg) no-repeat center top;
 }
 .docketbooks_holder:hover {
-    background: #FFFFFF url(../image/home/docketHover.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/brochuresHover.jpg) no-repeat center top;
 }
 
 .envelopes_holder {
@@ -250,10 +252,10 @@ h1.hp_title {
 }
 
 .with_comps_holder {
-    background: #FFFFFF url(../image/home/with.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/signage.jpg) no-repeat center top;
 }
 .with_comps_holder:hover {
-    background: #FFFFFF url(../image/home/withHover.jpg) no-repeat center top;
+    background: #FFFFFF url(../image/home/signageHover.jpg) no-repeat center top;
 }
 
 .web_design_holder {
@@ -903,8 +905,11 @@ input.btn_search {
     display:block;
 }
 .home_panel1 {
+    width: 16.5rem;
+    height: 14.2rem;
     margin-left:0;
-    background:url(../image/home/home_order.jpg) no-repeat left top;
+    background-size: cover !important;
+    background:url(../image/home/order_home.jpg) no-repeat left top;
 }
 .home_panel2 {
     background:url(../image/home/home_delivery.jpg) no-repeat left top;
@@ -928,7 +933,7 @@ input.btn_search {
 .home_panel1_img {
     width: 16.5rem;
     height: 14.2rem;
-    background: transparent url(../image/home/home_order_hover.jpg) no-repeat center center;
+    background: transparent url(../image/home/order_homehover.jpg) no-repeat center center;
     background-size: cover !important;
     transition:opacity 0.5s;
     -moz-transition: opacity 0.5s;
@@ -1068,6 +1073,7 @@ input.btn_search {
 }
 .c-banner{
     display: inline-block;
+    margin-top: 80px;
     z-index: 14;
     width: 452px;
     min-height: 168px;
@@ -1101,7 +1107,7 @@ input.black_button:hover,
 a.black_button:hover,
 button.black_button:hover {
 
-    background: #29ABE2;
+    background: #2a57a7;
 }
 .button_click_here {
     background-color: #111111;
@@ -1132,4 +1138,11 @@ button.black_button:hover {
 .pre_flight_div p,
 .pre_flight_div h4{
  margin-bottom: 10px!important;
+}
+
+.banner-subheading{
+	font-size: 41px;
+    line-height: 55px;
+    padding-bottom:20px;
+    color:white!important;
 }

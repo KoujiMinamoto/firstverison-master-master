@@ -553,17 +553,17 @@ function reset() {
     document.getElementById("pre_flight_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
     var imgs = document.getElementById("myCarousel").getElementsByTagName("img");
-    var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
-    for(var a = 0; a < 4; a++){
-            for (var i = 1; i < 6; i=i+2){
-                banners[a].getElementsByTagName("p")[i].style="font-size:21px; color:white;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[a].getElementsByTagName("p")[i].style="font-size:42px; color:white; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[a].getElementsByTagName("p")[0].style="color:white;font-size:42px;margin-bottom: 20px;";
-            banners[a].getElementsByTagName("ul")[0].style="font-size:23px; color:white; line-height:28px;";
-        }
+    // var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
+    // for(var a = 0; a < 4; a++){
+    //         for (var i = 1; i < 6; i=i+2){
+    //             banners[a].getElementsByTagName("p")[i].style="font-size:21px; color:white;";
+    //         }
+    //         for (var i = 2; i < 7; i=i+2){
+    //             banners[a].getElementsByTagName("p")[i].style="font-size:42px; color:white; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+    //         }
+    //         banners[a].getElementsByTagName("p")[0].style="color:white;font-size:42px;margin-bottom: 20px;";
+    //         banners[a].getElementsByTagName("ul")[0].style="font-size:23px; color:white; line-height:28px;";
+    //     }
 }
 function showMain() {
     document.getElementById("loader").style.display = "none";
@@ -1119,26 +1119,26 @@ function changeDisplaybox(headerName){
             banners[0].style="padding-left: 76%;";
             imgs[1].src='../image/gallery/bc2.jpg';
             banners[1].style="padding-left: 76%;";
-            for (var i = 1; i < 6; i=i+2){
-                banners[1].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[1].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[1].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
-            banners[1].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            // for (var i = 1; i < 6; i=i+2){
+            //     banners[1].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            // }
+            // for (var i = 2; i < 7; i=i+2){
+            //     banners[1].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            // }
+            // banners[1].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            // banners[1].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
             imgs[2].src='../image/gallery/bc3.jpg';
             banners[2].style="padding-left: 76%;";
             imgs[3].src='../image/gallery/bc4.jpg';
             banners[3].style="padding-left: 76%;color:black;";
-            for (var i = 1; i < 6; i=i+2){
-                banners[3].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[3].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
-            banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            // for (var i = 1; i < 6; i=i+2){
+            //     banners[3].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            // }
+            // for (var i = 2; i < 7; i=i+2){
+            //     banners[3].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            // }
+            // banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            // banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
             hideBanner();
             break;
         case 5://banner
@@ -1151,22 +1151,22 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 2%;";
             imgs[3].src='../image/gallery/Banner-3.jpg';
             banners[3].style="padding-left: 10%;";
-            for (var i = 1; i < 6; i=i+2){
-                banners[3].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[3].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
-            banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
-            for (var i = 1; i < 6; i=i+2){
-                banners[0].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[0].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
-            banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            // for (var i = 1; i < 6; i=i+2){
+            //     banners[3].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            // }
+            // for (var i = 2; i < 7; i=i+2){
+            //     banners[3].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            // }
+            // banners[3].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            // banners[3].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            // for (var i = 1; i < 6; i=i+2){
+            //     banners[0].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            // }
+            // for (var i = 2; i < 7; i=i+2){
+            //     banners[0].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            // }
+            // banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            // banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
             hideBanner();
             break;
         case 6://banner
@@ -1179,22 +1179,22 @@ function changeDisplaybox(headerName){
             banners[2].style="padding-left: 5%;";
             imgs[3].src='../image/gallery/Flyer6.jpg';
             banners[3].style="padding-left: 5%;";
-            for (var i = 1; i < 6; i=i+2){
-                banners[1].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[1].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[1].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
-            banners[1].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
-            for (var i = 1; i < 6; i=i+2){
-                banners[0].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
-            }
-            for (var i = 2; i < 7; i=i+2){
-                banners[0].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
-            }
-            banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
-            banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            // for (var i = 1; i < 6; i=i+2){
+            //     banners[1].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            // }
+            // for (var i = 2; i < 7; i=i+2){
+            //     banners[1].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            // }
+            // banners[1].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            // banners[1].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
+            // for (var i = 1; i < 6; i=i+2){
+            //     banners[0].getElementsByTagName("p")[i].style="font-size:21px; color:black;";
+            // }
+            // for (var i = 2; i < 7; i=i+2){
+            //     banners[0].getElementsByTagName("p")[i].style="font-size:42px; color:black; line-height: 35px; letter-spacing: -2px; margin-bottom:15px";
+            // }
+            // banners[0].getElementsByTagName("p")[0].style="color:black;font-size:42px;margin-bottom: 20px;";
+            // banners[0].getElementsByTagName("ul")[0].style="font-size:23px; color:black; line-height:28px;";
             hideBanner();
             break;
         case 7://letterhead

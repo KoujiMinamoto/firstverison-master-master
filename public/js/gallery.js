@@ -40,6 +40,13 @@ function hidden_15(){
     //showMain();
     setTimeout(function(){document.getElementById("loader").style.display="none";},500);
 }
+function showBgImg(e) {
+    var modal = document.getElementById('modal');
+    var bgImg = document.getElementById('bgImg');
+    modal.style.display = 'block';
+    bgImg.src = e.src;
+}
+
 function showPhotos(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
