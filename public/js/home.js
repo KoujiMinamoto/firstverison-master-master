@@ -1076,7 +1076,7 @@ function changeDisplaybox(headerName){
             imgs[2].src='../image/gallery/pc1.jpg';
             banners[2].style="padding-left: 10%;";
             imgs[3].src='../image/gallery/test23.jpg';
-            banners[3].style="padding-left: 76%;";
+            banners[3].style="right:6%;";
             break;
         case 1://envelopes
 

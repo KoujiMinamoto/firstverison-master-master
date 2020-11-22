@@ -166,17 +166,20 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" >
-                    <span class= "c-banner" style="display:inline-block;">
-                        <div class="banner-subheading"><br style="">Digital<br style="">& Off-set Printing<br style="">
-                        & Signage Printing
-                        <div class="banner-subheading">& Wide-format Printing</div>
-                        </div>
-                    </span>
+                    <div class="banner_div">
+                        <span class= "c-banner" style="display:inline-block;">
+                            <div class="banner-subheading"><br style="">Digital<br style="">& Off-set Printing<br style="">
+                            & Signage Printing
+                            <div class="banner-subheading">& Wide-format Printing</div>
+                            </div>
+                        </span>
+                    </div>
                     <div class="c_item_img" style="text-align: center;">
                     <img src="{{URL::asset('/image/1.jpg') }}" alt="Los Angeles" style="width:100%;"></div>
                 </div>
 
                 <div class="carousel-item">
+                <div class="banner_div">
                     <span class= "c-banner" style="display:inline-block;">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Envlopes<br style="">Printing</p>
                         
@@ -188,12 +191,13 @@
                                 <span style="color:#fff">click here</span>
                             </span>
                         </p>
-                    </span>
+                    </span></div>
                     <div class="c_item_img" style="text-align: center;">
                     <img src="{{URL::asset('/image/2.jpg') }}" alt="Chicago" style="width:100%;"></div>
                 </div>
 
                 <div class="carousel-item">
+                <div class="banner_div">
                 <span class= "c-banner" style="display:inline-block;">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Postercard <br style="">Printing</p>
                         
@@ -212,13 +216,14 @@
                                 <span style="color:#fff">click here</span>
                             </span>
                         </p>
-                    </span>
+                    </span></div>
                     <div class="c_item_img" style="text-align: center;">
                     <img src="{{URL::asset('/image/gallery/pc1.jpg') }}" alt="New york" style="width:100%;"></div>
                 </div>
 
                 <div class="carousel-item">
-                <span class= "c-banner" style="display:inline-block; padding-left: 76%; ">
+                <div class="banner_div">
+                <span class= "c-banner" style="display:inline-block; right: 6%; ">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">premium<br style="">business cards</p>
                         <ul style="font-size:23px; color:#fff; line-height:28px;">
                             <li style="list-style-type:disc;">450gsm or 350gsm premium artboard</li>
@@ -240,7 +245,7 @@
                                 <span style="color:#fff">click here</span>
                             </span>
                         </p>
-                    </span>
+                    </span></div>
                     <div class="c_item_img" style="text-align: center;">
                     <img src="{{URL::asset('/image/gallery/test23.jpg') }}" alt="New york" style="width:100%;"></div>
                 </div>
@@ -2210,8 +2215,8 @@
                 <div class="main_left_left">
                     <h1 class="card_title">Online Business Card Printing</h1>
                     <h3>We are dedicated to creating high quality business cards at the cheapest price possible.</h3>
-                    <p>YellowStar Press Premium Business cards are printed on thick, heavy premium 400gsm and are trimmed to the
-                        size you request. Express, gloss and unlaminated Business cards are printed on 310gsm.<br
+                    <p>YellowStar Press Premium Business cards are printed on thick, heavy premium 450gsm and are trimmed to the
+                        size you request. Express, gloss and unlaminated Business cards are printed on 350gsm.<br
                             style=""><br style="">
                         Our cards can be either matt or gloss laminated, printed on one or both sides and are available
                         in full CMYK colour. Make a great first impression with a custom business card that expresses
@@ -2331,6 +2336,8 @@
 
                     <div style="width:87rem;text-align:justify">
                         <p>
+                        <br style="">
+                        <br style="">
                             Even in today's digitally-driven world, business cards are still hugely popular, and are
                             used by virtually every business. They're still considered a
                             vital part of a business's marketing arsenal: as well as simply providing a potential client
@@ -12432,7 +12439,7 @@
                 <div style="clear: both;"></div>
                 <div class="credentials">
                     Copyright © YellowStar 2020-2023. All Rights Reserved.&nbsp;&nbsp;
-                    <a href="" target="_blank">Web Design</a> by <strong>XXX</strong>
+                    <a>Web Developed</a> by <strong><a href="" target="_blank">W1</a></strong>
                 </div>
             </div>
             <div style="clear: both;"></div>

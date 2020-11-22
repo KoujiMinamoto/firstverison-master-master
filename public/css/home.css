@@ -467,6 +467,13 @@ h1.hp_title {
     top: 103px;
 
 }
+.banner_div{
+    width: 1300px;
+    position: absolute;
+    height: 500px;
+    left: 50%;
+    margin-left: -650px;
+}
 .carousel-inner{
     position: relative;
     background-color: black;
@@ -1085,6 +1092,7 @@ input.btn_search {
     font-weight: bold;
     position: absolute;
     padding-left: 10%;
+    float: left;
 }
 input.black_button {
     background: #323232;
