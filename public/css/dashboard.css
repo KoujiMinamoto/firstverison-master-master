@@ -1,0 +1,233 @@
+/* *My account: Begin
+*/ 
+
+/*---------------------------------------------------------------
+Account dashboard
+*/
+.account .pad-1015{
+  padding: 10px 15px;
+}
+.dashboard .cart-banner-top{
+	margin:25px 0;
+}
+.acc-title{
+  background: #2a57a7;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 16px;
+  overflow: hidden;
+}
+.acc-title.lg{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.acc-title .acc-edit{
+  float: right;
+  color: #ffffff;
+}
+.account-sidebar ul li{
+  border-bottom: 1px solid #f1f1f1;
+  list-style: none;
+}
+.account-sidebar ul li a{
+  font-size: 14px;
+  padding: 10px 15px;
+  display: block;
+}
+.account-sidebar ul li.active a{
+  color:#2a57a7;
+}
+.account-main .hello-user{
+  font-weight: bold;
+  font-size:16px;
+}
+.account-main .db-info .acc-sub-tit-i{
+  font-size: 14px;
+  color: #2a57a7;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.account-main .db-info .acc-sub-tit-i i{
+  margin-right: 5px;
+}
+.account-main .db-info .acc-info-content{
+  border: 1px solid #f1f1f1;
+  margin-bottom: 30px;
+  border-top: none;
+}
+.account-main .bs-address{
+  margin: 0 15px 30px 15px;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+  /*width: 100%;*/
+}
+.account-main .acc-info-content a{
+  display: block;
+  color: #2a57a7;
+  margin-top: 5px;
+}
+.account-main .db-contact .acc-info-content span,
+.account-main .bs-address .acc-info-content span{
+  display: block;
+  padding: 3px 0px;
+}
+.account-main .bs-address .acc-info-content span.title{
+  display: block;
+  margin-bottom: 5px;
+}
+.bs-address > .col-md-6:nth-child(1){
+  padding-left: 0; 
+}
+.bs-address > .col-md-6:nth-child(2){
+  padding-right: 0; 
+} 
+@media(max-width: 767px){
+  .db-address,
+  .account-sidebar{
+    margin-bottom: 30px;
+  }
+  .account-sidebar{
+    margin-top: 30px;
+  }
+  .bs-address > .col-md-6:nth-child(2){
+    padding-left: 0;
+  }
+  .db-address .acc-title .acc-edit{
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
+
+/*---------------------------------------------------------------
+Edit account information
+*/
+.form-edit-info{
+  padding: 0 15px 30px;
+  background: #ffffff;
+  overflow: hidden;
+}
+h4.acc-sub-title{
+  font-size: 16px;
+  border-bottom: 1px solid #2a57a7;
+  padding-bottom: 5px;
+  margin: 15px 0;
+  float: left;
+}
+.form-edit-info form {
+    clear: both;
+}
+.form-edit-info form .account-bottom-action .gbtn.btn-edit-acc-info{
+    font-size: 18px;
+    padding: 0 55px;
+    height: 48px;
+    border-bottom: 2px solid #666666;
+}
+.form-edit-info label{
+  font-weight: normal;
+}
+.form-edit-info input{
+  border-radius: 0;
+  border: 1px solid #d7d7d7;
+  max-width: 378px;
+  font-size: 12px;
+}
+.account-bottom-action{
+  overflow: hidden;
+  margin: 30px 0px;
+}
+.form-edit-info .account-bottom-action{
+    margin: 0;
+}
+.account-bottom-action .back{
+  text-transform: uppercase;
+  left: left;
+}
+.account-bottom-action button{
+  float: right;
+}
+.checkbox-w.label-text label{
+  width: 200px;
+  left: 30px;
+}
+.checkbox-w.label-text label i{
+  left: -15px;
+  top: 93%;
+}
+span.required{
+  margin-left: 3px;
+  color: #f48784;
+}
+aside.account-sidebar.sidebar ul{
+    background: #ffffff;
+}
+.acc-dashboard .account-main .db-content{
+    background: #ffffff;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.acc-dashboard .account-main .db-content .acc-title{
+    font-size: 14px;
+    padding: 7px 15px;
+}
+.acc-info-content.pad-1015{
+    min-height: 100px;
+}
+/*Account New Page address Tfix add*/
+.acc-address ul li{
+  display: block;
+  margin-bottom: 5px;
+}
+.acc-address ul li span.alabel{
+  min-width: 100px;
+  margin-right: 10px;
+  color: #444444; 
+  float: left;
+}
+.account-main span.nobr{
+	font-weight:bold;
+}
+.acc-address ul{
+  clear: both;
+}
+.acc-address a.change-address{
+  text-decoration: underline;
+  margin-top: 10px;
+  display: block;
+}
+.acc-address a.change-address:hover{
+  color: #2a57a7;
+}
+.account-sidebar{
+  margin-bottom: 30px;
+}
+/*
+* My Order
+*/
+#my-orders-table{
+  width: 100%;
+  margin-top: 30px;
+  border: 1px solid #cecece;
+}
+#my-orders-table th{
+  padding: 5px  0px;
+  text-align: center;
+  border-bottom: 1px solid #cecece;
+  font-weight: bold;
+}
+#my-orders-table td{
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #cecece;
+}
+
+.acc-newsletter ul.form-list{
+  padding-top: 30px;
+}
+.acc-newsletter .control .checkbox{
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+}
+/*
+*My account: End
+=================================================================*/

@@ -15,6 +15,7 @@
     <link rel="styleSheet" href="{{URL::asset('/css/flaticon.css') }}" type="text/css">
     <link rel="styleSheet" href="{{URL::asset('/css/gallary.css') }}" type="text/css">
     <link rel="styleSheet" href="{{URL::asset('/css/cart.css') }}" type="text/css">
+    <link rel="styleSheet" href="{{URL::asset('/css/dashboard.css') }}" type="text/css">
     <script type="text/javascript" src="{{URL::asset('/js/home.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/jquery-3.5.1.js') }}"></script>
     <script type="text/javascript" src="{{URL::asset('/js/jquery-3.5.1.min.js') }}"></script>
@@ -199,7 +200,7 @@
                 <div class="carousel-item">
                 <div class="banner_div">
                 <span class= "c-banner" style="display:inline-block;">
-                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Postercard <br style="">Printing</p>
+                        <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Postcard <br style="">Printing</p>
                         
                         <div style="margin-top: 60px;">
                             <div style="display:inline-block; overflow: hidden;  width: 90px; min-height: 60px;">
@@ -12439,7 +12440,7 @@
                 <div style="clear: both;"></div>
                 <div class="credentials">
                     Copyright © YellowStar 2020-2023. All Rights Reserved.&nbsp;&nbsp;
-                    <a>Web Developed</a> by <strong><a href="" target="_blank">W1</a></strong>
+                    <a>Developed</a> by <strong><a href="" target="_blank">W1</a></strong>
                 </div>
             </div>
             <div style="clear: both;"></div>
@@ -12709,10 +12710,94 @@
         </div><!-- container -->
     </div>
 
+    
 
     <div class="az-content az-content-dashboard" id="dashboard_user_div_div_id" style="display:block">
         <div class="container">
+
+
+
+
+
+
+
             <div class="az-content-body">
+
+                <div class="row acc-order" id="dashboard_user_div_1" style="display:none">
+					<!--Account Sidebar: End-->
+					<aside class="col-md-3 col-sm-4 col-xs-12 account-sidebar sidebar">
+						<h3 class="acc-title lg">Account</h3>
+						<ul>
+							<li>
+								<a href="myaccount-dashboard.html" title="account dashboard">Account Dashboard</a>
+							</li>
+							<li>
+								<a href="myaccount-information.html" title="account dashboard">Account information</a>
+							</li>
+							<li>
+								<a href="myaccount-address.html" title="account dashboard">Address Book</a>
+							</li>
+							<li class="active">
+								<a href="myaccount-order.html" title="account dashboard">My Orders</a>
+							</li>
+							<li>
+								<a href="wishlist.html" title="account dashboard">Wishlist</a>
+							</li>
+							<li>
+								<a href="myaccount-newsletter.html" title="account dashboard">Newsletter Subscriptions</a>
+							</li>
+						</ul>
+					</aside><!--Account Sidebar: End-->
+					<!--Account main content : Begin -->
+					<section class="account-main col-md-9 col-sm-8 col-xs-12">
+						<h3 class="acc-title lg">My Orders</h3>
+						<div class="form-edit-info">
+							<table class="data-table" id="my-orders-table">
+						        <tbody><tr class="">
+						            <th>Order #</th>
+						            <th>Date</th>
+						            <th>Ship To</th>
+						            <th class="th_hidden"><span class="nobr">Order Total</span></th>
+						            <th class="th_hidden"><span class="nobr">Order Status</span></th>
+						            <th>&nbsp;</th>
+						        </tr>
+							    <tr class="">
+						            <td>100000001</td>
+						            <td><span class="nobr">8/18/2015</span></td>
+						            <td>Cmsmart</td>
+						            <td><span class="price">$134.99</span></td>
+						            <td class="th_hidden"><em>Pending</em></td>
+						            <td class="th_hidden a-center last">
+						                <span class="nobr">
+						                	<a href="#">View Order</a>
+							                <span class="separator">|</span> 
+							                <a href="#" class="link-reorder">Reorder</a>
+							            </span>
+							        </td>
+							   	</tr>
+							   	<tr class="">
+						            <td>100000001</td>
+						            <td><span class="nobr">8/18/2015</span></td>
+						            <td>Cmsmart</td>
+						            <td><span class="price">$134.99</span></td>
+						            <td class="th_hidden"><em>Pending</em></td>
+						            <td class="th_hidden a-center last">
+						                <span class="nobr">
+						                	<a href="#">View Order</a>
+							                <span class="separator">|</span> 
+							                <a href="#" class="link-reorder">Reorder</a>
+							            </span>
+							        </td>
+							   	</tr>
+							</tbody></table>					
+						</div>
+					</section><!-- Cart main content : End -->
+	            </div>
+
+
+
+
+
                 <div class="az-dashboard-one-title">
                     <div>
                         <h2 class="az-dashboard-title">Hi, welcome back!</h2>
@@ -13310,6 +13395,7 @@
 <link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/ionicons/ionicons.js') }}" type="text/css">
 {{-- <link rel="styleSheet" href="{{URL::asset('/azia-admin-master/lib/peity/jquery.peity.min.js') }}" type="text/css"> --}}
 <link rel="styleSheet" href="{{URL::asset('/azia-admin-master/js/azia.js') }}" type="text/css">
+
 <link rel="styleSheet" href="{{URL::asset('') }}" type="text/css">
 <!-- vendor css -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
