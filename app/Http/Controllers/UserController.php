@@ -12,10 +12,13 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
+use Illuminate\Support\Facades\Auth;
+
 class UserController extends Controller
 {
    public function userLogin(Request $request) {
-
+      // session处理
+      session_start();
       $userName=$request->input('username');
       $userPassword=$request->input('password');
 
@@ -39,10 +42,37 @@ class UserController extends Controller
          $loginCheck = "success";
       };
       
+      $_SESSION['username'] = $userName;
+      $_SESSION['type'] = $message[0]->user_type;
+
       $userMessage['username'] = $userName;
       $userMessage['logincheck'] = $loginCheck;
       $userMessage['type'] = $message[0]->user_type;
+
       return response()->json($userMessage);
+   }
+
+   public function loginStatus() {
+
+      session_start();
+      if (isset($_SESSION['username'])) {
+         
+         $loginStatus['username'] = $_SESSION['username'];
+         $loginStatus['type'] = $_SESSION['type'];
+         $loginStatus['flag'] = true;
+         return response()->json($loginStatus);
+
+      } else {
+         $loginStatus['flag'] = false;
+         return response()->json($loginStatus);
+      }
+   }
+
+   public function loginOut() {
+      session_start();
+      unset($_SESSION['username']); 
+      $loginOut['result'] = 'success';
+      return response()->json($loginOut);
    }
 
    public function userRegister(Request $request) {

@@ -1,16 +1,47 @@
 //节点加载完毕后显示body
 document.onreadystatechange = function () {
+
     if (document.readyState === "complete") {
-        document.body.style.display = "block";
+        $.ajax({
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            type: "POST",
+            url: "api/checkUserStatus",
+            dataType:'json',
+            success: function (msg) {
+                if (msg.flag !== false && msg !== undefined) {
+
+                    window.localStorage.setItem('username', msg.username);
+                    window.localStorage.setItem('usertype', msg.type);
+                    window.localStorage.setItem('login', "login");
+                    var storage = window.localStorage;
+                    var usertype = storage.usertype;
+                    document.getElementById("homepage_div_id").style.display = "none";
+                    //console.log(msgd);
+                    if(usertype == "1"){
+                        initDashboard(msg);
+                        document.getElementById("dashboard_admin_div_id").style.display = "block";}
+                    else{
+                        initDashboard(msg);
+                        document.getElementById("dashboard_user_div_id").style.display = "block";
+                    }
+                         
+                } else {
+                    document.body.style.display = "block";
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, thrownError) {
+                return false;
+            }
+
+        });
+
     } else {
         document.body.style.display = "none";
     };
+
 };
 window.onload=function(){
 
-
-    var username;
-    var usertype;
     var oDiv  =  document.getElementById('displayBox');
     var oUl = document.getElementsByTagName('ul')[0];
     var Li = oUl.getElementsByTagName('li');
@@ -638,21 +669,34 @@ function showHeaderPage(headerName) {
             }
             break;
         case 9:
-            var storage=window.localStorage;
-            var login =storage.login;
-            if (login == "login"){
-                window.localStorage.setItem('login', "logout");
-                $(".home").addClass("clickOn");
-                document.getElementById("home_div_id").style.display = "block";
-                $("#login_id").html('login');
-                $("#register_id").html('register');
-            }
-            else{
-                $(".register").addClass("clickOn");
-                changeDisplaybox(0);
-                document.getElementById("displayBox_id").style.display = "none";
-                document.getElementById("register_div_id").style.display = "block";
-            }
+            $.ajax({
+                headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+                type: "POST",
+                url: "api/userLogput",
+                dataType:'json',
+                success: function () {
+                    var storage=window.localStorage;
+                    var login =storage.login;
+                    if (login == "login"){
+                        window.localStorage.setItem('login', "logout");
+                        $(".home").addClass("clickOn");
+                        document.getElementById("home_div_id").style.display = "block";
+                        $("#login_id").html('login');
+                        $("#register_id").html('register');
+                    }
+                    else{
+                        $(".register").addClass("clickOn");
+                        changeDisplaybox(0);
+                        document.getElementById("displayBox_id").style.display = "none";
+                        document.getElementById("register_div_id").style.display = "block";
+                    }
+                    
+                },
+                error: function (XMLHttpRequest, textStatus, thrownError) {
+                    return false;
+                }
+    
+            });
             break;
 
 

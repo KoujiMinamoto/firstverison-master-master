@@ -147,11 +147,13 @@ $api = app(\Dingo\Api\Routing\Router::class);
 
 $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
 
-    $api->post('userLogin', 'UserController@userLogin');
+    $api->post('userLogin', 'UserController@userLogin')->middleware('web');
     $api->post('userRegister','UserController@userRegister');
     $api->post('forgetPassword','UserController@forgetPassword');
     $api->post('userUpdateMessage','UserController@userUpdateMessage');
 
+    $api->post('checkUserStatus','UserController@loginStatus')->middleware('web');
+    $api->post('userLogput','UserController@loginOut')->middleware('web');
 
     $api->post('card','OrderController@addOrder');
     // eamil
