@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
 
     $transaction = [
         'Payment' => [
-            'TotalAmount' => 1000,
+            'TotalAmount' => 1,
         ],
         'RedirectUrl' => 'http://www.eway.com.au',
         'TransactionType' => \Eway\Rapid\Enum\TransactionType::PURCHASE,

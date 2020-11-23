@@ -139,6 +139,10 @@ function linkTo(link){
             window.history.pushState('colour-critical', null, '/colour-critical');
             break;
         }
+        case "account":{
+            window.history.pushState('account', null, '/account');
+            break;
+        }
       default:
         return;
 

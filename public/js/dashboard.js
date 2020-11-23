@@ -277,10 +277,12 @@ function onclickHeader(headerName) {
     switch (headerName) {
         //product
         case 0:
+            document.getElementById("loader").style.display = "none";
             $(".nav-dashboard_id").addClass("clickOn");
             document.getElementById("dashboard_div_id").style.display = "block";
             break;
         case 1:
+            document.getElementById("loader").style.display = "none";
             $(".nav-profile_id").addClass("clickOn");
             document.getElementById("profile_div_id").style.display = "block";
             break;
@@ -289,16 +291,19 @@ function onclickHeader(headerName) {
             $(".home").addClass("clickOn");
             $("#login_id").html('account');
             $("#register_id").html('logout');
-            document.getElementById("home_div_id").style.display = "block";
+            showMain();
+            clickHeader(0);
             document.getElementById("dashboard_user_div_id").style.display = "none";
             document.getElementById("dashboard_admin_div_id").style.display = "none";
             break;
         case 3:
+            document.getElementById("loader").style.display = "none";
             document.getElementById("dashboard_user_div_id").style.display = "block";  
             document.getElementById("dashboard_user_div_div_id").style.display = "none";
             document.getElementById("profile_user_div_id").style.display = "block";
             break;
         case 4:
+            document.getElementById("loader").style.display = "none";
             document.getElementById("dashboard_user_div_id").style.display = "block";
             document.getElementById("dashboard_user_div_div_id").style.display = "block";
             break;

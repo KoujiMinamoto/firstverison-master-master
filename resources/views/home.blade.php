@@ -53,7 +53,7 @@
 <body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->
 <div class="loader" style="display:none" id="loader">
-    <div class="text">Loading...</div>
+    <div class="text"></div>
     <div class="horizontal">
             <div class="circlesup">
                 <div class="circle"></div>
@@ -156,6 +156,7 @@
         <div class="contact" id="contact_id" onclick="clickHeader(6)"><p>contact</p></div>
         <div class="cart" id="cart_id" onclick="clickHeader(7)"><p>cart</p><div class="checkbutton" id="checkbutton_id"></div></div>
         <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
+        <div class="login" id="account_id" onclick="clickHeader(20)"style="display: none;"><p>account</p></div>
         <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
     </div>
     <!-- <div id="header_shadow" style="display: block;"></div> -->
