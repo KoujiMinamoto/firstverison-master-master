@@ -4554,23 +4554,23 @@
                 <div style="clear: both;"></div>
 
                 <div class="option_size_list express_templates" style="padding-top: 2rem">
-                    <div class="bro_setup no_margin" style="height:7rem">
-                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                    <div class="bro_setup no_margin" style="height:10rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;    padding-top: 20px;color: #7F7F7F">Banner
                         </div>
                         <div class="bro_sizing_sml">850mm</div>
                     </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                    <div class="bro_setup" style="height:10rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;    padding-top: 20px;color: #7F7F7F">Banner
                         </div>
                         <div class="bro_sizing_sml">1200mm</div>
                     </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                    <div class="bro_setup" style="height:10rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;    padding-top: 20px;color: #7F7F7F">Banner
                         </div>
                         <div class="bro_sizing_sml">1800mm</div>
                     </div>
-                    <div class="bro_setup" style="height:7rem">
-                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;color: #7F7F7F">Business<br/>Cards
+                    <div class="bro_setup" style="height:10rem">
+                        <div class="small_bro_sizing" style="font-size: 2rem;line-height: 2rem;    padding-top: 20px;color: #7F7F7F">Banner
                         </div>
                         <div class="bro_sizing_sml">2400mm</div>
                     </div>
@@ -10182,7 +10182,7 @@
     </div>
 
     <!-- cart -->
-    <div class="cart_div" id="cart_div_id" style="display:none">
+    <div class="cart_div" id="cart_div_id" style="display:none;margin-top: 190px;">
         <div class="text_holder" style="padding-top:11rem">
         <div class="main_product_container checkout_holder">
             <div class="cart_left">
@@ -10441,7 +10441,7 @@
 
 
     <!-- login -->
-    <div class="login_div" id="login_div_id" style="display:none">
+    <div class="login_div" id="login_div_id" style="display:none;margin-top: 190px;">
         <div class="login_title">
 		    <h3>welcome.</h3>
 		    <h1>please sign in</h1>
@@ -10477,7 +10477,7 @@
 
 
     <!-- forget passwd -->
-    <div class="login_div_forgetpasswd" id="login_div_forgetpasswd_id" style="display:none">
+    <div class="login_div_forgetpasswd" id="login_div_forgetpasswd_id" style="display:none;margin-top: 190px;">
         <div class="login_title">
 		    <h3>welcome.</h3>
 		    <h1>please enter your details</h1>
@@ -10498,7 +10498,7 @@
     </div>
 
     <!-- register -->
-    <div class="register_div" id="register_div_id" style="display:none;padding-top:1rem">
+    <div class="register_div" id="register_div_id" style="display:none;padding-top:1rem;margin-top: 190px;">
         <div class="login_title">
 		    <h3>welcome.</h3>
 		    <h1>please register</h1>
