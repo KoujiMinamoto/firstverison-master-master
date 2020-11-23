@@ -141,6 +141,9 @@ Route::get( '/colour-critical', function () {
 // Route::get('/test1', function () {
 //     return view('dashboard_user');
 // });
+Route::get( '/account', function () {
+    return view('home');
+});
 
 
 $api = app(\Dingo\Api\Routing\Router::class);

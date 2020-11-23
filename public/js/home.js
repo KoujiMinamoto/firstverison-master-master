@@ -16,17 +16,25 @@ document.onreadystatechange = function () {
                     var storage = window.localStorage;
                     var usertype = storage.usertype;
                     document.getElementById("homepage_div_id").style.display = "none";
+                    document.getElementById("login_id").style.display = "none";
+                    document.getElementById("account_id").style.display = "block";
+                    $("#register_id").html('logout');
                     //console.log(msgd);
                     if(usertype == "1"){
                         initDashboard(msg);
-                        document.getElementById("dashboard_admin_div_id").style.display = "block";}
+                        console.log("loading comp");
+                        //document.getElementById("dashboard_admin_div_id").style.display = "block";
+                    }
                     else{
                         initDashboard(msg);
-                        document.getElementById("dashboard_user_div_id").style.display = "block";
+                        //document.getElementById("dashboard_user_div_id").style.display = "block";
                     }
                          
                 } else {
                     document.body.style.display = "block";
+                    document.getElementById("login_id").style.display = "block";
+                    document.getElementById("account_id").style.display = "none";
+                    $("#register_id").html('register');
                 }
             },
             error: function (XMLHttpRequest, textStatus, thrownError) {
@@ -36,7 +44,8 @@ document.onreadystatechange = function () {
         });
 
     } else {
-        document.body.style.display = "none";
+        document.body.style.display = "block";
+        console.log("no loading");
     };
 
 };
@@ -76,13 +85,13 @@ function initPage() {
     var storage=window.localStorage;
     var login =storage.login;
     //console.log(login);
-    if (login == "login"){
-        $("#login_id").html('my account');
-        $("#register_id").html('logout');
-    }else{
-        $("#login_id").html('login');
-        $("#register_id").html('register');
-    }
+    // if (login == "login"){
+    //     $("#login_id").html('my account');
+    //     $("#register_id").html('logout');
+    // }else{
+    //     $("#login_id").html('login');
+    //     $("#register_id").html('register');
+    // }
     footerPosition();
     $(window).resize(footerPosition);
 
@@ -493,6 +502,11 @@ function clickHeader(headerName) {
             showHeaderPage(18);
             linkTo('colour-critical');
             break;
+        case 20:
+            showHeaderPage(20);
+            document.getElementById("loader").style.display = "none";
+            linkTo('account');
+            break;
         default :
             break;
     }
@@ -598,14 +612,62 @@ function reset() {
 }
 function showMain() {
     document.getElementById("loader").style.display = "none";
+    document.getElementById("dashboard_admin_div_id").style.display = "none";
+    document.getElementById("dashboard_user_div_id").style.display = "none";
     document.getElementById("homepage_div_id").style.display = "block";
+    
+}
+function showDash(){
+    document.getElementById("loader").style.display = "none";
+    //document.getElementById("homepage_div_id").style.display = "block";
+    $.ajax({
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "api/checkUserStatus",
+        dataType:'json',
+        success: function (msg) {
+            if (msg.flag !== false && msg !== undefined) {
+
+                window.localStorage.setItem('username', msg.username);
+                window.localStorage.setItem('usertype', msg.type);
+                window.localStorage.setItem('login', "login");
+                var storage = window.localStorage;
+                var usertype = storage.usertype;
+                document.getElementById("homepage_div_id").style.display = "none";
+                $("#login_id").html('account');
+                $("#register_id").html('logout');
+                //console.log(msgd);
+                if(usertype == "1"){
+                    initDashboard(msg);
+                    //console.log("loading comp");
+                    document.getElementById("dashboard_admin_div_id").style.display = "block";
+                    onclickHeader(0);
+                }
+                else{
+                    initDashboard(msg);
+                    document.getElementById("dashboard_user_div_id").style.display = "block";
+                    onclickHeader(4);
+                }
+                     
+            } else {
+                document.body.style.display = "block";
+                $("#login_id").html('login');
+                $("#register_id").html('register');
+            }
+        },
+        error: function (XMLHttpRequest, textStatus, thrownError) {
+            return false;
+        }
+
+    });
 }
 function showHeaderPage(headerName) {
     reset();
-    setTimeout('showMain()',(Math.random()+1)*1000);
+    //setTimeout('showMain()',(Math.random()+1)*1000);
     switch (headerName) {
         //product
         case 0:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".home").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("home_div_id").style.display = "block";
@@ -615,60 +677,67 @@ function showHeaderPage(headerName) {
         //     document.getElementById("product_div_id").style.display = "block";
         //     break;
         case 2:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".design").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("design_div_id").style.display = "block";
             break;
         case 3:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".gallary").addClass("clickOn");
             document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("gallary_div_id").style.display = "block";
             break;
         case 4:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support").addClass("clickOn");
             $(".support4").addClass("clickOnli");
             changeDisplaybox(0);
             document.getElementById("support_div_id").style.display = "block";
             break;
         case 5:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".aboutUs").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("aboutUs_div_id").style.display = "block";
             break;
         case 6:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".contact").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("contact_div_id").style.display = "block";
             break;
         case 7:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".cart").addClass("clickOn");
             document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("cart_div_id").style.display = "block";
             break;
         case 8:
-            var storage=window.localStorage;
-            var login =storage.login;
-            if (login == "login"){
-                var usertype = storage.usertype;
-                var username = storage.username;
-                document.getElementById("homepage_div_id").style.display = "none";
-                if(usertype == '1'){
-                    document.getElementById("dashboard_admin_div_id").style.display = "block";
-                    onclickHeader(0);
-                }
-                else{
-                    document.getElementById("dashboard_user_div_id").style.display = "block";
-                    onclickHeader(4);
-                }
-            }else
-            {
+            // var storage=window.localStorage;
+            // var login =storage.login;
+            // if (login == "login"){
+            //     showDash();
+            //     // var usertype = storage.usertype;
+            //     // if(usertype == '1'){
+            //     //     //document.getElementById("dashboard_admin_div_id").style.display = "block";
+            //     //     onclickHeader(0);
+            //     // }
+            //     // else{
+            //     //     //document.getElementById("dashboard_user_div_id").style.display = "block";
+            //     //     onclickHeader(4);
+            //     // }
+            // }else
+            // {
+                setTimeout('showMain()',(Math.random()+1)*1000);
                 $(".login").addClass("clickOn");
                 document.getElementById("displayBox_id").style.display = "none";
                 changeDisplaybox(0);
                 document.getElementById("login_div_id").style.display = "block";
-            }
+            // }
             break;
         case 9:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $.ajax({
                 headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
                 type: "POST",
@@ -683,6 +752,9 @@ function showHeaderPage(headerName) {
                         document.getElementById("home_div_id").style.display = "block";
                         $("#login_id").html('login');
                         $("#register_id").html('register');
+                        document.getElementById("login_id").style.display = "block";
+                        document.getElementById("account_id").style.display = "none";
+                        linkTo('home');
                     }
                     else{
                         $(".register").addClass("clickOn");
@@ -703,48 +775,62 @@ function showHeaderPage(headerName) {
         default :
             break;
         case 10:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".login").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("displayBox_id").style.display = "none";
             document.getElementById("login_div_forgetpasswd_id").style.display = "block";
             break;
         case 11:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             document.getElementById("terms_div_id").style.display = "block";
             break;
         case 12:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             document.getElementById("privacy_div_id").style.display = "block";
             break;
         case 13:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support3").addClass("clickOnli");
             $(".support").addClass("clickOn");
             document.getElementById("sample_div_id").style.display = "block";
             break;
         case 14:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support0").addClass("clickOnli");
             $(".support").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("orderprocess_div_id").style.display = "block";
             break;
         case 15:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support1").addClass("clickOnli");
             $(".support").addClass("clickOn");
             document.getElementById("delivery_div_id").style.display = "block";
             break;
         case 16:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support2").addClass("clickOnli");
             $(".support").addClass("clickOn");
             document.getElementById("file_guidelines_div_id").style.display = "block";
             break;
         case 17:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support5").addClass("clickOnli");
             $(".support").addClass("clickOn");
             document.getElementById("pre_flight_div_id").style.display = "block";
             break;
         case 18:
+            setTimeout('showMain()',(Math.random()+1)*1000);
             $(".support6").addClass("clickOnli");
             $(".support").addClass("clickOn");
             changeDisplaybox(0);
             document.getElementById("color_div_id").style.display = "block";
+            break;
+        case 20:
+            //setTimeout('showMain()',(Math.random()+1)*1000);
+            showDash();
+            document.getElementById("loader").style.display = "none";
             break;
     }
 
@@ -874,6 +960,10 @@ function beforeInitPage() {
         case "/colour-critical":
             showHeaderPage(18);
             break;
+        case "/account":
+            showHeaderPage(20);
+            document.getElementById("loader").style.display = "none";
+            break;
 
     }
 }
@@ -918,15 +1008,19 @@ function userLogin(){
                     var storage=window.localStorage;
                     var usertype = storage.usertype;
                     let msgd = msg;
-                    document.getElementById("homepage_div_id").style.display = "none";
+                    document.getElementById("login_id").style.display = "none";
+                    document.getElementById("account_id").style.display = "block";
+                    showHeaderPage(0);
+                    linkTo('home');
+                    //document.getElementById("homepage_div_id").style.display = "none";
                     //console.log(msgd);
-                    if(usertype == "1"){
-                        initDashboard(msg);
-                        document.getElementById("dashboard_admin_div_id").style.display = "block";}
-                    else{
-                        initDashboard(msg);
-                        document.getElementById("dashboard_user_div_id").style.display = "block";
-                    }
+                    // if(usertype == "1"){
+                    //     initDashboard(msg);
+                    //     document.getElementById("dashboard_admin_div_id").style.display = "block";}
+                    // else{
+                    //     initDashboard(msg);
+                    //     document.getElementById("dashboard_user_div_id").style.display = "block";
+                    // }
 
                 }else if (msg.logincheck == false) {
                     document.getElementById('passwordnamecheck').innerHTML="username or password is wrong";
