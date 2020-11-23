@@ -49,6 +49,7 @@
 
     <script src="https://unpkg.com/imask"></script>
     <link rel="styleSheet" href="{{URL::asset('/css/loading.css') }}" type="text/css">
+    <script type="text/javascript" src="https://api.ewaypayments.com/JSONP/v3/js"></script>
 </head>
 <body onload="initPage()" style="display:none">
 <!-- <div id="container"> -->

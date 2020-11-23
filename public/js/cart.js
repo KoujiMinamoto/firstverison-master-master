@@ -169,7 +169,7 @@ function payMoney() {
     // expirationdate
     // securitycode
     // 08/2021
-    let cartData = $("#securitycode").val();
+    let cartData = $("#expirationdate").val();
     cartData = cartData.split("/");
 
     $.ajax({

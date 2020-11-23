@@ -23,7 +23,7 @@ class PayController extends Controller
             'Payment' => [
                 'TotalAmount' => 1,//分为单位
             ],
-            'RedirectUrl' => 'http://localhost:8081/cart',
+            'RedirectUrl' => 'http://localhost/cart',
             'TransactionType' => \Eway\Rapid\Enum\TransactionType::PURCHASE,
         ];
         
