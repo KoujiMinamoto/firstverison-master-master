@@ -1,3 +1,5 @@
+var accessCode = '';
+var formUrl = '';
 //检查是否cart里是否已经有了产品
 function cartTableCheck() {
 
@@ -77,8 +79,6 @@ function cartProcess(process) {
 
         //  产品table
 
-
-
     } else if (process == "confirm") {
         if( $("#address_2_in_id").css("display")=="block" ) {
             let addressdetail = {
@@ -136,6 +136,23 @@ function cartProcess(process) {
         $("#cart_payment").css('display','none');
 
     } else if (process == "payment") {
+        // get access code
+        $.ajax({
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            type: "POST",
+            url: "api/getAccessCode",
+            dataType:'json',
+            success:function (result) {
+                accessCode = result.accessCode;
+                formUrl = result.formUrl;
+                alert("send message success");
+            },
+            error:function () {
+                alert("error");
+            }
+        }); 
+
+
         $('.checkout_step').eq(3).removeClass("cartOn");
         $('.checkout_step').eq(4).addClass("cartOn");
 
@@ -143,6 +160,67 @@ function cartProcess(process) {
         $("#cart_payment").css('display','block');
 
     }
+}
+
+function payMoney() {
+
+    // pay_name
+    // cardnumber
+    // expirationdate
+    // securitycode
+    // 08/2021
+    let cartData = $("#securitycode").val();
+    cartData = cartData.split("/");
+
+    $.ajax({
+        headers:{
+            'Content-Type':'application/x-www-form-urlencoded'
+        },
+        type: "POST",
+        url: formUrl,
+        dataType:'json',
+        data:{
+            EWAY_ACCESSCODE : accessCode,
+            EWAY_PAYMENTTYPE : 'Credit Card',
+            EWAY_CARDNAME : $("#pay_name").val(),
+            EWAY_CARDNUMBER : $("#cardnumber").val(),
+            EWAY_CARDEXPIRYMONTH : cartData[0],
+            EWAY_CARDEXPIRYYEAR : cartData[1],
+            EWAY_CARDCVN : $("#securitycode").val()
+        },
+        success:function () {
+            alert("pay money success");
+            let payStatus = getPayResult();
+
+            if (payStatus.Errors == 'none') {
+                console.log(payStatus.TransactionStatus);
+            } else {
+                console.log(payStatus.Errors);
+            }
+
+        },
+        error:function () {
+            alert("error");
+        }
+    }); 
+
+}
+function getPayResult() {
+    $.ajax({
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "api/getPayResult",
+        dataType:'json',
+        data:{
+            accessCode:accessCode
+        },
+        success:function (result) {
+            return result;
+        },
+        error:function () {
+            alert("error");
+        }
+    }); 
 }
 
 

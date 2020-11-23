@@ -10409,7 +10409,7 @@
                     <div class="form-container">
                         <div class="field-container">
                             <label for="name">Name</label>
-                            <input id="name" maxlength="20" type="text">
+                            <input id="pay_name" maxlength="20" type="text">
                         </div>
                         <div class="field-container">
                             <label for="cardnumber">Card Number</label><span id="generatecard">generate random</span>
@@ -10428,7 +10428,7 @@
                             <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
                         </div>
                     </div>
-
+                    <div class = "cart_back" onclick = "payMoney()">Pay</div>
                     <div class = "cart_back" onclick = "cartProcess('upload')">Back</div>
                 </div>
 

@@ -167,6 +167,10 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
     // upload file
     $api->post('uploadFile','EmailController@uploadFile');
 
+    //pay money
+    $api->post('getAccessCode','PayController@getAccessCode');
+    $api->post('getPayResult','PayController@getPayResult');
+
 
 
 
