@@ -61,7 +61,7 @@ div#feedback {
 }
 .contact_right_quote {
 	float: left;
-	width: 45%;
+	width: 560px;
 	padding: 23px 23px 0 23px;
 	margin-left: 10px;
 	background: #EBEBEB;
@@ -319,6 +319,7 @@ h4.delivery_conditions{
 }
 .contact_email{
     padding: 5px 0;
+    margin-top: 10px;
 }
 .contact_email_last{
     padding-bottom:35px;
@@ -335,6 +336,8 @@ h4.delivery_conditions{
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
+    font-size: 14px;
+    font-family: Arial;
 }
 .contact-align { margin-left: 180px; display: block;}
 .black_heading{

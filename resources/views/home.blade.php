@@ -2488,7 +2488,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -3021,7 +3021,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -3641,7 +3641,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -4236,7 +4236,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -4778,7 +4778,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -5215,7 +5215,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -5735,7 +5735,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -6142,7 +6142,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -6704,7 +6704,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -7254,7 +7254,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -7877,7 +7877,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -9152,7 +9152,7 @@
                             <tr>
                                 <td class="product_options_quote">
                                     <div class="product_quote_text">Looking for more options?</div>
-                                    <div class="product_quote_link"><a href="custom-quotes.php">Custom Quote</a></div>
+                                    <div class="product_quote_link"><a href="/contact">Custom Quote</a></div>
                                     <div class="clear"></div>
                                 </td>
                             </tr>
@@ -10040,8 +10040,8 @@
                         href="mailto:sales@yellowstarpress.com.au"
                                 class="black_link">sales@yellowstarpress.com.au</a></span>
                     </div>
-                    <p class="black_heading">You can visit us at:</p>
-                    <p style="color: #323232;"> 26 Metropolitan Av, Nunawarding 3131 Australia</p>
+                    <p class="black_heading"style="margin-top: 10px;font-size: 14px;">You can visit us at:</p>
+                    <p style="color: #323232;margin-top: 10px;"> 26 Metropolitan Av, Nunawarding 3131 Australia</p>
 {{--                    <img src="{{URL::asset('/image/Contact.jpg') }}" width=90% height=80%>--}}
                 </div>
                 <div class="contact_right_quote">
@@ -10049,7 +10049,7 @@
                     <h2>Request</h2>
                     <h2>a quote</h2>
                     </div>
-                    <div class="contact_form_right">
+                    <div class="contact_form_right"   style="padding-left: 40px;">
 
                     <br style="">
                     <form method="post" name="customquotes" id="customquotes" enctype="text/plain" action="mailto:sy135673@gmail.com">
@@ -10060,7 +10060,7 @@
                         <td height="25" valign="top">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" class="quote_product_list">
                                 <tbody><tr>
-                                    <td><select name="custom_product" id="contact_product"><option value="Select Product" selected="">Select Product</option><option value="Booklets">Booklets</option><option value="Brochures">Brochures</option><option value="Business Cards">Business Cards</option><option value="Flyers">Flyers</option><option value="Letterheads">Letterheads</option><option value="Notepads/Deskpads">Notepads/Deskpads</option><option value="Postcards">Postcards</option><option value="Posters">Posters</option><option value="Presentation Folders">Presentation Folders</option><option value="With Compliment Slips">With Compliment Slips</option><option value="Envelopes">Envelopes</option><option value="Calendars">Calendars</option><option value="Swing Tags">Swing Tags</option><option value="Other Products">Other Products</option></select></td>
+                                    <td><select name="custom_product" id="contact_product"><option value="Select Product" selected="">Select Product</option><option value="Booklets">Booklets</option><option value="Brochures">Brochures</option><option value="Business Cards">Business Cards</option><option value="Flyers">Flyers</option><option value="Letterheads">Letterheads</option><option value="Signage">Signage</option><option value="Postcards">Postcards</option><option value="Posters">Posters</option><option value="Banners">Banners</option><option value="DL Compliment Slips">DL Compliment Slips</option><option value="Envelopes">Envelopes</option><option value="Other Products">Other Products</option></select></td>
                                 </tr>
                             </tbody></table>
                         </td>
@@ -10151,7 +10151,7 @@
                 <!-- <h3 align="center">Address</h3> -->
                 <!--The div element for the map -->
                 <div id="map" style="width:100%;height:400px;margin:auto;margin-top: 30px;">
-                    <div style="overflow:hidden;width: 90%;position: relative;margin:auto;">
+                    <div style="overflow:hidden;width: 96%;position: relative;margin:auto;">
                         <iframe width="1200" height="440"
                                 src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=26%20Metropolital%20Ave%20Nunawading%20VIC%203131+(%E6%A0%87%E9%A2%98)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>

@@ -44,8 +44,8 @@ document.onreadystatechange = function () {
         });
 
     } else {
-        document.body.style.display = "block";
-        console.log("no loading");
+        //document.body.style.display = "block";
+        //console.log("no loading");
     };
 
 };
@@ -133,7 +133,7 @@ function initPage() {
 
 
     //////
-    const name = document.getElementById('name');
+        const name = document.getElementById('pay_name');
         const cardnumber = document.getElementById('cardnumber');
         const expirationdate = document.getElementById('expirationdate');
         const securitycode = document.getElementById('securitycode');
