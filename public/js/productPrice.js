@@ -355,9 +355,10 @@ function addToCart (product) {
         clearPrice('fridge');
         clearPrice('bcard');
         clearPrice(product);
+        clickHeader(7);
     } else {    
         //alert('nothing to add');
-        document.getElementById('alert_msg_'+product).innerText="nothing to add!";
+        document.getElementById('alert_msg_'+product).innerText="There is no selected item !";
         setTimeout(function() {
             celarmsgProduct(product);
           }, 2000);

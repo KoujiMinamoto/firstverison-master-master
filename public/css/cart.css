@@ -86,7 +86,7 @@
 }
 
 #cart_haveProduct table td input {
-    background: #e5e5e5 none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
     color: #6f6f6f;
@@ -96,6 +96,7 @@
     height: 40px;
     padding: 0 5px 0 10px;
     width: 60px;
+    text-align: center;
 }
 #cart_haveProduct table td.product-subtotal {
     font-size: 14px;
@@ -445,7 +446,7 @@
     border-width: 1px 0 0 1px;
     margin: 0 0 50px;
     text-align: center;
-    width: 100rem;
+    width: 87rem;
 }
 #cart_confirmOrder table th, #cart_confirmOrder table td {
     border-bottom: 1px solid #e5e5e5;
@@ -495,7 +496,7 @@
 }
 
 #cart_confirmOrder table td input {
-    background: #e5e5e5 none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
     color: #6f6f6f;
@@ -505,6 +506,7 @@
     height: 40px;
     padding: 0 5px 0 10px;
     width: 60px;
+    text-align: center;
 }
 #cart_confirmOrder table td.product-subtotal {
     font-size: 14px;

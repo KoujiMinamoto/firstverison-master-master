@@ -8,10 +8,12 @@ function clickProduct(headerName) {
             break;
         case 1:
             showProductPage(1);
+            UpdateProductPriceBrochure('size');
             linkTo('brochures');
             break;
         case 2:
             showProductPage(2);
+            UpdateBCPrice('side');
             linkTo('businessCards');
             break;
         case 3:
@@ -36,6 +38,7 @@ function clickProduct(headerName) {
             break;
         case 8:
             showProductPage(8);
+            UpdateFlyerProductPrice('size');
             linkTo('flyers');
             break;
         case 9:
@@ -44,14 +47,17 @@ function clickProduct(headerName) {
             break;
         case 10:
             showProductPage(10);
+            UpdateLWProductPrice('stock');
             linkTo('letterheads');
             break;
         case 11:
             showProductPage(11);
+            UpdatePostProductPrice('size');
             linkTo('postcards');
             break;
         case 12:
             showProductPage(12);
+            UpdatePosterProductPrice('size');
             linkTo('posters');
             break;
         case 13:

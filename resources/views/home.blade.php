@@ -51,7 +51,7 @@
     <link rel="styleSheet" href="{{URL::asset('/css/loading.css') }}" type="text/css">
     <script type="text/javascript" src="https://api.ewaypayments.com/JSONP/v3/js"></script>
 </head>
-<body onload="initPage()" style="display:none">
+<body onload="initPage()" style="display:block">
 <!-- <div id="container"> -->
 <div class="loader" style="display:none" id="loader">
     <div class="text"></div>
