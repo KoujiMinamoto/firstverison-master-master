@@ -190,7 +190,7 @@
                 <div class="banner_div">
                     <span class= "c-banner" style="display:inline-block;">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Envlopes<br style="">Printing</p>
-                        
+
 
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
 
@@ -208,13 +208,13 @@
                 <div class="banner_div">
                 <span class= "c-banner" style="display:inline-block;">
                         <p style="font-size:42px; color: #fff; margin-bottom: 20px;">Postcard <br style="">Printing</p>
-                        
+
                         <div style="margin-top: 60px;">
                             <div style="display:inline-block; overflow: hidden;  width: 90px; min-height: 60px;">
                                 <p style="font-size:21px; color: #fff;">From</p>
                                 <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$65</p>
                             </div>
-                            
+
                         </div>
 
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
@@ -243,7 +243,7 @@
                                 <p style="font-size:21px; color: #fff;">From</p>
                                 <p style="font-size:42px; color: #fff; line-height: 35px; letter-spacing: -2px; margin-bottom:15px">$80</p>
                             </div>
-                            
+
                         </div>
 
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
@@ -10500,8 +10500,9 @@
                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
                         <h1 class="register_div_user_title">Register form</h1>
                     </header> -->
-            <p class="login_div_sign" align="center">Register</p>
-            <p class="login_div_forgot" align="center" onclick="clickHeader(8)"><a href="#">Have registered? Back to Log in</a></p>
+            <p class="login_div_sign">Register</p>
+            <p class="login_div_forgot">If you already have an account with us, please login at the
+                <a onclick="clickHeader(8)" class="blue_link">login page</a></p>
 
             <form class="register_div_form">
                 <div class="register_div_form_group">
@@ -10573,7 +10574,10 @@
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Country</a></label>
                     <input type="text" placeholder="Australia" class="register_div_form_input" readonly="readonly"/>
-                    <div class="checkmsg" id="statecheckmsg"><p class="login_div_forgot" align="center" onclick="clickHeader(6)"><a class="blue_link" href="#">Not in Australia? Please contact us</a></p></div>
+                    <div class="checkmsg" id="statecheckmsg">
+                        <p class="login_div_forgot" style="font-size:1.4rem">
+                            (Not in Australia? Please <span class="blue_link" onclick="clickHeader(6)">contact us</span>.)</p>
+                    </div>
                 </div>
 
                 <div class="register_div_form_group">
@@ -12708,7 +12712,7 @@
         </div><!-- container -->
     </div>
 
-    
+
 
     <div class="az-content az-content-dashboard" id="dashboard_user_div_div_id" style="display:block">
         <div class="container">
@@ -12768,7 +12772,7 @@
 						            <td class="th_hidden a-center last">
 						                <span class="nobr">
 						                	<a href="#">View Order</a>
-							                <span class="separator">|</span> 
+							                <span class="separator">|</span>
 							                <a href="#" class="link-reorder">Reorder</a>
 							            </span>
 							        </td>
@@ -12782,12 +12786,12 @@
 						            <td class="th_hidden a-center last">
 						                <span class="nobr">
 						                	<a href="#">View Order</a>
-							                <span class="separator">|</span> 
+							                <span class="separator">|</span>
 							                <a href="#" class="link-reorder">Reorder</a>
 							            </span>
 							        </td>
 							   	</tr>
-							</tbody></table>					
+							</tbody></table>
 						</div>
 					</section><!-- Cart main content : End -->
 	            </div>

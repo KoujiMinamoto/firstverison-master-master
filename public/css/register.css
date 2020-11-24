@@ -42,10 +42,15 @@ a.blue_link {
 }
 
 #register_div_id .login_div_sign{
-    padding-bottom: 15px;
+    padding-bottom: 30px;
+    padding-left: 5rem;
 }
 #register_div_id .login_div_forgot{
     padding-bottom: 15px;
+    padding-left: 5rem;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 17px;
 }
 
 .register_div_user_header {
@@ -65,7 +70,7 @@ a.blue_link {
 }
 
 .register_div_form {
-    margin-top: 2px;
+    margin-top: 40px;
     border-radius: 6px;
     overflow: hidden;
     opacity: 0;
@@ -131,13 +136,12 @@ a.blue_link {
     -khtml-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
-    width: 139px;
-    padding: 7px 0 !important;
-    margin: 5px 0;
+    width: 30rem;
+    padding: 6px 0 !important;
     cursor: pointer;
     border: none !important;
     font-weight: bold !important;
-    margin-left: 40%;
+    margin-left: 21rem;
 
 }
 .register_div_btn:hover{
