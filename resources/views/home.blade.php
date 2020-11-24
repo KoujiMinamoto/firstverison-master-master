@@ -10026,9 +10026,6 @@
                     <div class="contact_phone">
                         <!-- <span class="black_bold ">Call</span>--> <span class="phone_lg">(03) 9878 6999</span>
                     </div>
-                    <div class="contact_fax">
-                        <span class="black_bold">Fax</span> (03) 9878 6999
-                    </div>
 
 
                     <div class="contact_email">
@@ -10039,12 +10036,6 @@
                     </div>
                     <div class="contact_email">
                         <span class="contact-align-left">Orders</span>
-                        <span class="contact-align"><a
-                        href="mailto:sales@yellowstarpress.com.au"
-                                class="black_link">sales@yellowstarpress.com.au</a></span>
-                    </div>
-                    <div class="contact_email_last">
-                        <span class="contact-align-left">Accounts</span>
                         <span class="contact-align"><a
                         href="mailto:sales@yellowstarpress.com.au"
                                 class="black_link">sales@yellowstarpress.com.au</a></span>
@@ -10515,67 +10506,67 @@
             <form class="register_div_form">
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>UserName</a></label>
-                    <input type="text" placeholder="Enter Your Username" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="usernamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Business Name</a></label>
-                    <input type="text" placeholder="Enter Your Business Name" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="businessnamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>First Name</a></label>
-                    <input type="text" placeholder="Enter Your First Name" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="firstnamecheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Last Name</a></label>
-                    <input type="text" placeholder="Enter Your Last Name" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="firstnamecheckmsg"></div>
                 </div>
 
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Email</a></label>
-                    <input type="email" placeholder="Enter Your Email" class="register_div_form_input"/>
+                    <input type="email"  class="register_div_form_input"/>
                     <div class="checkmsg" id="emailcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Password</a></label>
-                    <input type="password" placeholder="Enter Your Password" class="register_div_form_input"/>
+                    <input type="password"  class="register_div_form_input"/>
                     <div class="checkmsg" id="passwdcheckmsg"></div>
                 </div>
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Repeat Password</a></label>
-                    <input type="password" placeholder="Enter Your Password" class="register_div_form_input"/>
+                    <input type="password"  class="register_div_form_input"/>
                     <div class="checkmsg" id="passwdcheckmsg1"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Phone number</a></label>
-                    <input type="tel" placeholder="Enter Your Phone number" class="register_div_form_input"/>
+                    <input type="tel"  class="register_div_form_input"/>
                     <div class="checkmsg" id="phonenumcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Address</a></label>
-                    <input type="text" placeholder="Enter Your Address" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="addresscheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Suburb</a></label>
-                    <input type="text" placeholder="Enter Your Suburb" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="suburbcheckmsg"></div>
                 </div>
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>State</a></label>
-                    <input type="text" placeholder="Enter Your State" class="register_div_form_input"/>
+                    <input type="text" class="register_div_form_input"/>
                     <div class="checkmsg" id="statecheckmsg"></div>
                 </div>
 
@@ -10587,7 +10578,7 @@
 
                 <div class="register_div_form_group">
                     <label class="reg_col1"><a>Postcode</a></label>
-                    <input type="text" placeholder="Enter Your Postcode" class="register_div_form_input"/>
+                    <input type="text"  class="register_div_form_input"/>
                     <div class="checkmsg" id="postcodecheckmsg"></div>
                 </div>
 

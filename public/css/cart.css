@@ -19,7 +19,7 @@
 }
 
 .cart_price {
-    margin-left: 80rem;
+    margin-left: 67rem;
     height: 15rem;
     width: 20rem;
 }
@@ -31,7 +31,7 @@
     border-width: 1px 0 0 1px;
     margin: 0 0 50px;
     text-align: center;
-    width: 100rem;
+    width: 87rem;
 }
 #cart_haveProduct table th, #cart_haveProduct table td {
     border-bottom: 1px solid #e5e5e5;
@@ -296,7 +296,7 @@
 .cart_next {
     width: 12rem;
     height: 4rem;
-    background: #29ABE2;
+    background: #2a57a7;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -318,7 +318,7 @@
 .cart_back {
     width: 12rem;
     height: 4rem;
-    background: #29ABE2;
+    background: #2a57a7;
     display: inline-block;
     text-decoration: none;
     color: #fff;
