@@ -27,7 +27,7 @@ Route::get( '/home', function () {
 Route::get( '/design', function () {
     return view('home');
 });
-Route::get( '/gallary', function () {
+Route::get( '/gallery', function () {
     return view('home');
 });
 //Route::get( '/support', function () {

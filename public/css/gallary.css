@@ -228,15 +228,15 @@ body.gallary_div {
 
 }
 .gallery_span{
-  width:495px;
+  width:496px;
   margin-bottom: 0;
   height: 48px;
   float:left;
   background: url(../image/product/gallert_swan.png) no-repeat right top;
-  background-color: #504d4d;
+  background-color: #323232;
 }
 .gallery_span:hover{
-  width:495px;
+  width:496px;
 
   height: 48px;
   float:left;
@@ -244,7 +244,7 @@ body.gallary_div {
   background-color: black;
 }
 .gallery_span:focus{
-  width:495px;
+  width:496px;
 
   height: 48px;
   float:left;
@@ -473,7 +473,9 @@ body.gallary_div {
 .gallery_info_for15_13,
 .gallery_info_for15_14,
 .gallery_info_for15_15{
-  background: url(../image/gallery/coming.jpg) no-repeat center center;
+  background: url(../image/gallery/comingsoon.png) no-repeat center center;
+  background-size: 75% auto!important;
+  background-color: white!important ;
 }
 .gallery_info_for15_1,
 .gallery_info_for15_2,
@@ -519,7 +521,7 @@ body.gallary_div {
   float: left;
   width: 750px;
   padding-left: 10px;
-  margin-top: 10rem;
+  margin-top: 110px;
   height: 900px;
 
 }

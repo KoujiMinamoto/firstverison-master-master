@@ -140,7 +140,7 @@
                         <li>&nbsp;&nbsp;gallary3</li>
                     </ul> -->
         </div>
-        <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>GALLARY</p></div>
+        <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>GALLERY</p></div>
         <div class="support" id="support_id" style="cursor:default">
             <p>SUPPORT</p>
             <ul id="support_ul" style="left:74.1rem">
@@ -1473,13 +1473,13 @@
                         </a>
                     </div>
                     <div class="product_info_gallery">
-                        <a href="/gallary">
+                        <a href="/gallery">
                             <div class="product_info_gallery_img">
                             </div>
                             <h4>Gallery</h4>
                             <p>Looking for design inspiration? See examples of our work</p>
                             <a class="blue_link"
-                               href="/gallary">read
+                               href="/gallery">read
                                 more+</a>
                         </a>
                     </div>
@@ -9582,12 +9582,25 @@
 
     <!-- gallary -->
     <div class="gallary_div" id="gallary_div_id" style="display:none">
+        
         <div style='position:fixed'>
             <div class='modal' id='modal'>
                 <img id='bgImg' />
             </div>
         </div>
         <div class="gallery_left" id="gallery_left_id">
+            <div id="breadcrumbs">
+                        You are here:
+                            <a href="/home" >YellowStar Press</a>
+                            »
+                                <a href="/gallery" >
+                                Gallery
+                                </a>
+                                »
+                                <a id="id_forgallery" href="/gallery" >
+                                Booklets
+                                </a>
+            </div>
             <div>
                 <button class="gallery_span"id="gallery_span_id" type="button" onclick="show_hidden()"></button>
                 <div style="clear: both;"></div>
@@ -9699,27 +9712,27 @@
                             </a>
                         </div>
                         <div class="gallery_info_for15_12 margin_left20">
-                            <a href="javascript:void(0);" >
+                            <!-- <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
-                            </a>
+                            </a> -->
                         </div>
                         <div style="clear: both;"></div>
                     </div>
                     <div class="size_rowfor3">
                         <div class="gallery_info_for15_13 no_margin">
-                            <a href="javascript:void(0);" >
+                            <!-- <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
-                            </a>
+                            </a> -->
                         </div>
                         <div class="gallery_info_for15_14 margin_left20">
-                            <a href="javascript:void(0);" >
+                            <!-- <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
-                            </a>
+                            </a> -->
                         </div>
                         <div class="gallery_info_for15_15 margin_left20">
-                            <a href="javascript:void(0);" >
+                            <!-- <a href="javascript:void(0);" >
                             <div class="mask1"><p>Coming Soon</p></div>
-                            </a>
+                            </a> -->
                         </div>
                         <div style="clear: both;"></div>
                     </div>
@@ -11011,7 +11024,7 @@
                 <h5>Existing Customers</h5>
                 <p>If you have already created an account, login to your account before proceeding with your order.
                 </p>
-                <a onclick="clickHeader(8)" class="blue_button" style="margin-top:3.7rem">Login</a>
+                <a onclick="clickHeader(8)" class="blue_button" >Login</a>
             </div>
             <div class="clear"></div>
 

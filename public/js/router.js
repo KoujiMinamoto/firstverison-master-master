@@ -15,8 +15,8 @@ function linkTo(link){
         window.history.pushState('design', null, '/design');
         break;
       }
-      case "gallary": {
-        window.history.pushState('gallary', null, '/gallary');
+      case "gallery": {
+        window.history.pushState('gallery', null, '/gallery');
         break;
       }
       case "support": {
@@ -164,7 +164,7 @@ window.addEventListener('popstate',function(e){
                 showHeaderPage(2);
                 break;
             }
-            case "gallary":
+            case "gallery":
                 showHeaderPage(3);
                 break;
             case "support":

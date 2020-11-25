@@ -18,7 +18,7 @@ document.onreadystatechange = function () {
                     document.getElementById("homepage_div_id").style.display = "none";
                     document.getElementById("login_id").style.display = "none";
                     document.getElementById("account_id").style.display = "block";
-                    $("#register_id").html('logout');
+                    $("#register_id").html('LOGOUT');
                     //console.log(msgd);
                     if(usertype == "1"){
                         initDashboard(msg);
@@ -34,7 +34,7 @@ document.onreadystatechange = function () {
                     document.body.style.display = "block";
                     document.getElementById("login_id").style.display = "block";
                     document.getElementById("account_id").style.display = "none";
-                    $("#register_id").html('register');
+                    $("#register_id").html('REGISTER');
                 }
             },
             error: function (XMLHttpRequest, textStatus, thrownError) {
@@ -440,7 +440,7 @@ function clickHeader(headerName) {
             break;
         case 3:
             showHeaderPage(3);
-            linkTo('gallary');
+            linkTo('gallery');
             break;
         case 4:
             showHeaderPage(4);
@@ -598,6 +598,7 @@ function reset() {
     document.getElementById("pre_flight_div_id").style.display = "none";
     document.getElementById("displayBox_id").style.display = "block";
     var imgs = document.getElementById("myCarousel").getElementsByTagName("img");
+    open2();
     // var banners = document.getElementById("myCarousel").getElementsByClassName("c-banner");
     // for(var a = 0; a < 4; a++){
     //         for (var i = 1; i < 6; i=i+2){
@@ -652,7 +653,7 @@ function showDash(){
             } else {
                 document.body.style.display = "block";
                 $("#login_id").html('login');
-                $("#register_id").html('register');
+                $("#register_id").html('REGISTER');
             }
         },
         error: function (XMLHttpRequest, textStatus, thrownError) {
@@ -847,7 +848,7 @@ function beforeInitPage() {
         case "/design":
             showHeaderPage(2);
             break;
-        case "/gallary":
+        case "/gallery":
             showHeaderPage(3);
             break;
         case "/support":

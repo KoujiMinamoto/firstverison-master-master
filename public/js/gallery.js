@@ -78,10 +78,25 @@ function clickPhoto(headerName){
     }
 
 }
+function open2(){
+    document.getElementById("gallery_info_for6_5_id").style.display="block";
+
+    document.getElementById("gallery_info_for6_6_id").style.display="block";
+
+}
+function close2(){
+    document.getElementById("gallery_info_for6_5_id").style.display="none";
+
+    document.getElementById("gallery_info_for6_6_id").style.display="none";
+
+}
 function clickGallery(headerName){
     var button = document.getElementsByClassName("gallery_page_next");
+    open2();
     switch (headerName) {
         case 1:
+            
+            document.getElementById("id_forgallery").innerText="Booklet";
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/bro-1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/bro-1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/bro-2.jpg)";
@@ -112,6 +127,7 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 2:
+            document.getElementById("id_forgallery").innerText="Folded Brochure";
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Brochure1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/Brochure1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/Brochure2.jpg)";
@@ -142,6 +158,7 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 3:
+            document.getElementById("id_forgallery").innerText="Business Card";
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/bc1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/bc1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/bc2.jpg)";
@@ -172,6 +189,7 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 4:
+            document.getElementById("id_forgallery").innerText="DL With Compliments";
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/dl1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/dl1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/dl2.jpg)";
@@ -184,6 +202,7 @@ function clickGallery(headerName){
             document.getElementById("gallery_info_for6-5_id").style.backgroundImage="url(../image/gallery/dl3.jpg)";
             document.getElementById("gallery_info_for6_6_id").style.backgroundImage="url(../image/gallery/dl4.jpg)";
             document.getElementById("gallery_info_for6-6_id").style.backgroundImage="url(../image/gallery/dl4.jpg)";
+            close2();
             document.getElementById("gallery_silde_note_id1").innerText = "Product directions1";
             document.getElementById("gallery_silde_note_id2").innerText = "Product directions2";
             document.getElementById("gallery_silde_note_id3").innerText = "Product directions3";
@@ -202,6 +221,8 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 5:
+            document.getElementById("id_forgallery").innerText="Poster";
+            close2();
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Poster1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/Poster1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/Poster2.jpg)";
@@ -232,6 +253,8 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 6:
+            document.getElementById("id_forgallery").innerText="Postcards";
+            close2();
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/pc1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/pc1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/pc2.jpg)";
@@ -262,6 +285,8 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 7:
+            document.getElementById("id_forgallery").innerText="Envelopes";
+            close2();
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/ev1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/ev1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/ev2.jpg)";
@@ -292,6 +317,8 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 8:
+            document.getElementById("id_forgallery").innerText="Flyers";
+            close2();
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/fy1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/fy1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/fy2.jpg)";
@@ -322,6 +349,7 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 9:
+            document.getElementById("id_forgallery").innerText="Letterhead";
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/lh1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/lh1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/lh2.jpg)";
@@ -352,6 +380,8 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 10:
+            document.getElementById("id_forgallery").innerText="Signage";
+            close2();
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/s1.jpeg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/s1.jpeg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/s2.png)";
@@ -382,6 +412,8 @@ function clickGallery(headerName){
             hidden_15();
             break;
         case 11:
+            document.getElementById("id_forgallery").innerText="Banner";
+            close2();
             document.getElementById("gallery_info_for6_1_id").style.backgroundImage="url(../image/gallery/Banner-1.jpg)";
             document.getElementById("gallery_info_for6-1_id").style.backgroundImage="url(../image/gallery/Banner-1.jpg)";
             document.getElementById("gallery_info_for6_2_id").style.backgroundImage="url(../image/gallery/Banner-2.jpg)";
