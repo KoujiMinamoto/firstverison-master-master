@@ -435,7 +435,7 @@ button.blue_button:hover {
 	font-weight:bold;
 }
 .size_col1 .fold_info{
-	font-size: 12px;
+	font-size: 14px;
     line-height: 14px;
 	color:#323232;
 	font-weight:bold;
@@ -2413,4 +2413,10 @@ h2.folder_title {
     font-weight: bold;
     line-height: 3.1rem;
     padding-top: 2.5rem;
+}
+.main_left_left p{
+    font-size: 15px;
+}
+.product_main_left_left p{
+    font-size: 15px;
 }

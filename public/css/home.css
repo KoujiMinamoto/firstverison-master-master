@@ -4,7 +4,7 @@ html {
 }
 .clickOn{
     color:white;
-    background: linear-gradient(to bottom,#29ABE2 ,#2a57a7 40%);
+    background: #2a57a7 !important;
 }
 .clickOnli{
     color:white !important;
@@ -25,7 +25,7 @@ html {
     z-index:999;
     top: 0;
     background:white;
-    grid-template-columns: 47% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3% 5.3%;
+    grid-template-columns: 33% 6.7% 6.7% 6.7% 6.7% 6.7% 6.7% 6.7% 6.7% 6.7% 6.7%;
     margin: 0 auto;
     left:0;
 right:0;
@@ -66,7 +66,7 @@ h1.hp_title {
     pointer-events:auto;
     /* top: 10.3rem; */
     top: 100%;
-    left: 64.8rem;
+    left: 49.2rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -161,7 +161,7 @@ h1.hp_title {
     -moz-transition:background 0.7s; /* Firefox 4 */
     -webkit-transition:background 0.7s; /* Safari and Chrome */
     -o-transition:background 0.7s; /* Opera */
-    
+
 }
 
 .booklets_holder {
@@ -486,13 +486,13 @@ h1.hp_title {
     max-height: 43rem;
 }
 .carousel-inner img {
-    max-height: 430px;  
-    /* max-width: 100%; 
+    max-height: 430px;
+    /* max-width: 100%;
     /* position: absolute;   */
-    /* top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto; */
     width: auto !important;
     }

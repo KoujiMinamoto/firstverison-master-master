@@ -96,10 +96,10 @@
             <img src="{{URL::asset('/image/logonew.png') }} " width=440px height=64% style="margin-left: -25px;margin-top: 15px;">
         </div>
         <div class="home clickOn" id="home_id" onclick="clickHeader(0)">
-            <p>home</p>
+            <p>HOME</p>
         </div>
         <div class="product" id="product_id" style="cursor:default">
-            <p>product</p>
+            <p>PRODUCT</p>
             <ul id="product_ul">
                 <li class="product7" onclick="clickProduct(7)" id="product7_id">&nbsp;&nbsp;&nbsp;<a>Banner</a></li>
                 <li class="product2" onclick="clickProduct(2)" id="product2_id">&nbsp;&nbsp;&nbsp;<a>Business Cards</a></li>
@@ -120,7 +120,7 @@
             </ul>
         </div>
         <div class="design" id="design_id" onclick="clickHeader(2)">
-            <p>design</p>
+            <p>DESIGN</p>
             <!-- <ul id="design_ul">
                         <li>&nbsp;&nbsp;Logo Design</li>
                         <li>&nbsp;&nbsp;Brochure Design</li>
@@ -140,10 +140,10 @@
                         <li>&nbsp;&nbsp;gallary3</li>
                     </ul> -->
         </div>
-        <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>gallary</p></div>
+        <div class="gallary" id="gallary_id" onclick="clickHeader(3)"><p>GALLARY</p></div>
         <div class="support" id="support_id" style="cursor:default">
-            <p>support</p>
-            <ul id="support_ul" style="left:84.6rem">
+            <p>SUPPORT</p>
+            <ul id="support_ul" style="left:74.1rem">
                 <li class="support0" onclick="clickHeader(14)" id="support0_id">&nbsp;&nbsp;&nbsp;<a>Order Process</a></li>
 {{--                <li class="support1" onclick="clickHeader(15)" id="support1_id">&nbsp;&nbsp;&nbsp;<a>Delivery</a></li>--}}
 {{--                <li class="support2" onclick="clickHeader(16)" id="support2_id">&nbsp;&nbsp;&nbsp;<a>File Guidelines</a></li>--}}
@@ -153,12 +153,12 @@
                 <li class="support6" onclick="clickHeader(18)" id="support6_id">&nbsp;&nbsp;&nbsp;<a>Colour Critical</a></li>
             </ul>
         </div>
-        <div class="aboutUs" id="aboutUs_id" onclick="clickHeader(5)"><p>about us</p></div>
-        <div class="contact" id="contact_id" onclick="clickHeader(6)"><p>contact</p></div>
-        <div class="cart" id="cart_id" onclick="clickHeader(7)"><p>cart</p><div class="checkbutton" id="checkbutton_id"></div></div>
-        <div class="login" id="login_id" onclick="clickHeader(8)"><p>login</p></div>
-        <div class="login" id="account_id" onclick="clickHeader(20)"style="display: none;"><p>account</p></div>
-        <div class="register" id="register_id" onclick="clickHeader(9)"><p>register</p></div>
+        <div class="aboutUs" id="aboutUs_id" onclick="clickHeader(5)"><p>ABOUT US</p></div>
+        <div class="contact" id="contact_id" onclick="clickHeader(6)"><p>CONTACT</p></div>
+        <div class="cart" id="cart_id" onclick="clickHeader(7)"><p>CART</p><div class="checkbutton" id="checkbutton_id"></div></div>
+        <div class="login" id="login_id" onclick="clickHeader(8)"><p>LOGIN</p></div>
+        <div class="login" id="account_id" onclick="clickHeader(20)"style="display: none;"><p>ACCOUNT</p></div>
+        <div class="register" id="register_id" onclick="clickHeader(9)"><p>REGISTER</p></div>
     </div>
     <!-- <div id="header_shadow" style="display: block;"></div> -->
     </div>
@@ -392,7 +392,7 @@
                     </div>
                 </div>
                 <div class="home_content_right">
-                    <p class="home_content_p1">Yellow Star Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>
+                    <p class="home_content_p1">YellowStar Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>
                     <p class="home_content_p2">You send it, We Print It. It's That Easy!</p>
                     <p >Our printing service is of the highest quality, at the lowest possible price.</p>
                     <p >Design your own graphics and send the file to us ordering process. Our printing services are the </p>
@@ -479,7 +479,7 @@
 {{--                        onclick="clickHeader(4)">read--}}
 {{--                            more+</a>--}}
 {{--                </div>--}}
-                {{--                        <p class="home_content_p1">Yellow Star Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>--}}
+                {{--                        <p class="home_content_p1">YellowStar Press offers full colour offset printing and short run digital printing service for those urgent jobs.</p>--}}
                 {{--                        <p class="home_content_p2">You send it, We Print It. It's That Easy!</p>--}}
                 {{--                        <p >Our printing service is of the highest quality, at the lowest possible price.</p>--}}
                 {{--                        <p >Design your own graphics and send the file to us ordering process. Our printing services are the </p>--}}
@@ -9939,10 +9939,10 @@
         <div class="main_container_au">
             <div class="container_left">
             <h1>About us</h1>
-            <p>Yellow Star Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers,
+            <p>YellowStar Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers,
             and Signages anything you need.</p>
             <p>&nbsp;</p>
-            <p>With over 15 years experience in the Priinting industry, the founders aim to make this a hassle free experience for all clients, focusing on building personal relationships with its clients to ensure maximum satisfaction and positive outcomes in all areas of the print process. Yellow Star Press Pty Ltd works to ensure it’s clients receive the best quality printing at the most cost effective price whilst still ensuring high quality work.</p>
+            <p>With over 15 years experience in the Priinting industry, the founders aim to make this a hassle free experience for all clients, focusing on building personal relationships with its clients to ensure maximum satisfaction and positive outcomes in all areas of the print process. YellowStar Press Pty Ltd works to ensure it’s clients receive the best quality printing at the most cost effective price whilst still ensuring high quality work.</p>
             <p>&nbsp;</p>
             <p class="black_heading">Our Printing facilities include</p>
             <ul class="black_bullets">
@@ -11008,7 +11008,7 @@
                 <h5>Existing Customers</h5>
                 <p>If you have already created an account, login to your account before proceeding with your order.
                 </p>
-                <a onclick="clickHeader(8)" class="blue_button">Login</a>
+                <a onclick="clickHeader(8)" class="blue_button" style="margin-top:3.7rem">Login</a>
             </div>
             <div class="clear"></div>
 
