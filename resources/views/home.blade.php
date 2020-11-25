@@ -2342,7 +2342,7 @@
 
                     <div class="clear"></div>
 
-                    <div style="width:87rem;text-align:justify">
+                    <div style="width:87rem;text-align:justify;margin-top: 9rem;">
                         <p>
                         <br style="">
                         <br style="">
@@ -9571,6 +9571,9 @@
                     <a class="gallery_link" href="javascript:void(0);" onclick="clickHeader(3)">
                         <div class="gallery_button"></div>
                     </a>
+                    <a class="gallery_link2" href="javascript:void(0);" onclick="clickHeader(3)">
+                        <div class="gallery_button"></div>
+                    </a>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -9939,13 +9942,13 @@
         <div class="main_container_au">
             <div class="container_left">
             <h1>About us</h1>
-            <p>YellowStar Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers,
+            <p class="about_us_context">YellowStar Press has a state the art production facility to meet all your demands, from short digital to large commercial runs. More importantly, we have the people with the skills and creativity to meet your needs. We produce all print solutions from business cards, stationery, large format print, digital print, stickers, books, brochures, flyers,
             and Signages anything you need.</p>
             <p>&nbsp;</p>
-            <p>With over 15 years experience in the Priinting industry, the founders aim to make this a hassle free experience for all clients, focusing on building personal relationships with its clients to ensure maximum satisfaction and positive outcomes in all areas of the print process. YellowStar Press Pty Ltd works to ensure it’s clients receive the best quality printing at the most cost effective price whilst still ensuring high quality work.</p>
+            <p class="about_us_context">With over 15 years experience in the Priinting industry, the founders aim to make this a hassle free experience for all clients, focusing on building personal relationships with its clients to ensure maximum satisfaction and positive outcomes in all areas of the print process. YellowStar Press Pty Ltd works to ensure it’s clients receive the best quality printing at the most cost effective price whilst still ensuring high quality work.</p>
             <p>&nbsp;</p>
-            <p class="black_heading">Our Printing facilities include</p>
-            <ul class="black_bullets">
+            <p class="black_heading about_us_context ">Our Printing facilities include</p>
+            <ul class="black_bullets about_us_context">
                 <li>A1, A2 and A3 offset pressess</li>
                 <li>Full colour on Demand Digital Print System</li>
                 <li>Inhouse Design Services</li>
@@ -9956,7 +9959,7 @@
                 <li> Signage Design and more..</li>
             </ul>
             <p>&nbsp;</p>
-            <p>Our vibrant, full colour, offset printing is of exceptional quality and our highly trained operators
+            <p class="about_us_context">Our vibrant, full colour, offset printing is of exceptional quality and our highly trained operators
                 possess a keen eye for detail.</p>
         </div>
 
