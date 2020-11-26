@@ -10318,7 +10318,7 @@
                         <h1>Payment Information</h1>
                     </div>
                     <div class="container preload">
-                        <div class="creditcard">
+                        {{-- <div class="creditcard">
                             <div class="front">
                                 <div id="ccsingle"></div>
                                 <svg version="1.1" id="cardfront" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -10413,9 +10413,24 @@
                                     </g>
                                 </svg>
                             </div>
-                        </div>
+                        </div> --}}
+
+                        <form method="POST" action="" id="payment_form" target="iframe">
+                            <input type="hidden" name="EWAY_ACCESSCODE" value="" id="payment_accesscode"/>
+                            <input type="hidden" name="EWAY_PAYMENTTYPE" value="Credit Card" />
+                            Card Name: <input type="text" name="EWAY_CARDNAME" />
+                            Card Number: <input type="text" name="EWAY_CARDNUMBER" />
+                            Card Expiry Month: <input type="text" name="EWAY_CARDEXPIRYMONTH" />
+                            Card Expiry Year: <input type="text" name="EWAY_CARDEXPIRYYEAR" />
+                            Card Start Date: <input type="text" name="EWAY_CARDSTARTMONTH" />
+                            Card Start Year: <input type="text" name="EWAY_CARDSTARTYEAR" />
+                            Card Issue Number: <input type="text" name="EWAY_CARDISSUENUMBER" />
+                            Card CVN: <input type="text" name="EWAY_CARDCVN" />
+                            <input type="submit" value="Process" text="Process" />
+                          </form> 
+                          <iframe id="iframe" name="iframe" style="display:none;"></iframe>
                     </div>
-                    <div class="form-container">
+                    {{-- <div class="form-container">
                         <div class="field-container">
                             <label for="name">Name</label>
                             <input id="pay_name" maxlength="20" type="text">
@@ -10436,7 +10451,7 @@
                             <label for="securitycode">Security Code</label>
                             <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
                         </div>
-                    </div>
+                    </div> --}}
                     <div class = "cart_back" onclick = "payMoney()">Pay</div>
                     <div class = "cart_back" onclick = "cartProcess('upload')">Back</div>
                 </div>

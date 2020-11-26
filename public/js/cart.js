@@ -146,6 +146,8 @@ function cartProcess(process) {
                 accessCode = result.accessCode;
                 formUrl = result.formUrl;
                 alert("send message success");
+                $("#payment_form").attr( 'action',formUrl);
+                $("#payment_accesscode").attr( 'value' ,accessCode);
             },
             error:function () {
                 alert("error");
@@ -173,12 +175,14 @@ function payMoney() {
     cartData = cartData.split("/");
 
     $.ajax({
-        headers:{
-            'Content-Type':'application/x-www-form-urlencoded'
-        },
+        // headers:{
+        //     'Content-Type':'application/x-www-form-urlencoded'
+        // },
         type: "POST",
         url: formUrl,
         dataType:'json',
+        // dataType: 'jsonp',  
+        crossDomain: true,
         data:{
             EWAY_ACCESSCODE : accessCode,
             EWAY_PAYMENTTYPE : 'Credit Card',
