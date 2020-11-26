@@ -10137,11 +10137,11 @@
                         <td></td>
                         <td valign="top" colspan="3">
                             <div style="display:inline-flex;">
-                        <div class="subscribe_holder" style="width:2rem;position:relative;top:1rem;">
+                        <div class="subscribe_holder" style="width:2rem;position:relative;top:1px;">
                         <input class="newsletter_subscribe" type="checkbox" name="sigin_in_newsletter" id="contact_subscribe" value="yes" checked="">
                         </div>
                         <div class="subscribe_text" style="padding-left:0.5rem;">
-                            Subscribe to our newsletter for special offers
+                            Subscribe for special offers
                         </div>
                             </div>
                         <div style="display:none"><input type="checkbox" name="validate_form" id="validate_form" value="yes"></div>
