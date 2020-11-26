@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-<div class="homepage" id="homepage_div_id" style="display:block">
+<div class="homepage" id="homepage_div_id" style="display:none">
     <!-- header -->
     <div class="header_background" id="header_id" style="box-shadow: 0px 1px 8px 2px #eee!important;">
     <div class="header" id="header_id">
@@ -9582,7 +9582,7 @@
 
     <!-- gallary -->
     <div class="gallary_div" id="gallary_div_id" style="display:none">
-        
+
         <div style='position:fixed'>
             <div class='modal' id='modal'>
                 <img id='bgImg' />

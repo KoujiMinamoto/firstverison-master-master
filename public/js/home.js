@@ -1,7 +1,12 @@
 //节点加载完毕后显示body
 document.onreadystatechange = function () {
 
+    if(document.readyState === "interactive")
+    {
+        document.getElementById('loader').style.display = "block";
+    }
     if (document.readyState === "complete") {
+        document.getElementById('homepage_div_id').style.display = "block";
         $.ajax({
             headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
             type: "POST",
@@ -29,7 +34,7 @@ document.onreadystatechange = function () {
                         initDashboard(msg);
                         //document.getElementById("dashboard_user_div_id").style.display = "block";
                     }
-                         
+
                 } else {
                     document.body.style.display = "block";
                     document.getElementById("login_id").style.display = "block";
@@ -616,7 +621,7 @@ function showMain() {
     document.getElementById("dashboard_admin_div_id").style.display = "none";
     document.getElementById("dashboard_user_div_id").style.display = "none";
     document.getElementById("homepage_div_id").style.display = "block";
-    
+
 }
 function showDash(){
     document.getElementById("loader").style.display = "none";
@@ -649,7 +654,7 @@ function showDash(){
                     document.getElementById("dashboard_user_div_id").style.display = "block";
                     onclickHeader(4);
                 }
-                     
+
             } else {
                 document.body.style.display = "block";
                 $("#login_id").html('login');
@@ -763,12 +768,12 @@ function showHeaderPage(headerName) {
                         document.getElementById("displayBox_id").style.display = "none";
                         document.getElementById("register_div_id").style.display = "block";
                     }
-                    
+
                 },
                 error: function (XMLHttpRequest, textStatus, thrownError) {
                     return false;
                 }
-    
+
             });
             break;
 
