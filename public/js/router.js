@@ -23,8 +23,8 @@ function linkTo(link){
         window.history.pushState('support', null, '/support');
         break;
       }
-      case "aboutUs": {
-        window.history.pushState('aboutUs', null, '/aboutUs');
+      case "about_us": {
+        window.history.pushState('about_us', null, '/about_us');
         break;
       }
       case "contact": {
@@ -51,8 +51,8 @@ function linkTo(link){
           window.history.pushState('brochures', null, '/product/brochures');
           break;
       }
-      case "businessCards": {
-          window.history.pushState('businessCards', null, '/product/businessCards');
+      case "businesscards": {
+          window.history.pushState('businesscards', null, '/product/businesscards');
           break;
       }
         case "deskpadsNotepads": {
@@ -63,16 +63,16 @@ function linkTo(link){
             window.history.pushState('directMarketing', null, '/product/directMarketing');
             break;
         }
-        case "docketBooks": {
-            window.history.pushState('docketBooks', null, '/product/docketBooks');
+        case "signage": {
+            window.history.pushState('signage', null, '/product/signage');
             break;
         }
         case "envelopes": {
             window.history.pushState('envelopes', null, '/product/envelopes');
             break;
         }
-        case "expressPrinting": {
-            window.history.pushState('expressPrinting', null, '/product/expressPrinting');
+        case "banner": {
+            window.history.pushState('banner', null, '/product/banner');
             break;
         }
         case "flyers": {
@@ -99,8 +99,8 @@ function linkTo(link){
             window.history.pushState('presentationFolders', null, '/product/presentationFolders');
             break;
         }
-        case "withCompliments": {
-            window.history.pushState('withCompliments', null, '/product/withCompliments');
+        case "dl_compliments": {
+            window.history.pushState('dl_compliments', null, '/product/dl_compliments');
             break;
         }
         case "websiteDesign": {
@@ -170,7 +170,7 @@ window.addEventListener('popstate',function(e){
             case "support":
                 showHeaderPage(4);
                 break;
-            case "aboutUs":
+            case "about_us":
                 showHeaderPage(5);
                 break;
             case "contact":
@@ -191,7 +191,7 @@ window.addEventListener('popstate',function(e){
             case "brochures":
                 showProductPage(1);
                 break;
-            case "businessCards":
+            case "businesscards":
                 showProductPage(2);
                 break;
             case "deskpadsNotepads":
@@ -200,13 +200,13 @@ window.addEventListener('popstate',function(e){
             case "directMarketing":
                 showProductPage(4);
                 break;
-            case "docketBooks":
+            case "signage":
                 showProductPage(5);
                 break;
             case "envelopes":
                 showProductPage(6);
                 break;
-            case "expressPrinting":
+            case "banner":
                 showProductPage(7);
                 break;
             case "flyers":
@@ -227,7 +227,7 @@ window.addEventListener('popstate',function(e){
             case "presentationFolders":
                 showProductPage(13);
                 break;
-            case "withCompliments":
+            case "dl_compliments":
                 showProductPage(14);
                 break;
             case "websiteDesign":

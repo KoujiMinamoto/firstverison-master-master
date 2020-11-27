@@ -33,7 +33,7 @@ Route::get( '/gallery', function () {
 //Route::get( '/support', function () {
 //    return view('home');
 //});
-Route::get( '/aboutUs', function () {
+Route::get( '/about_us', function () {
     return view('home');
 });
 Route::get( '/contact', function () {
@@ -54,19 +54,19 @@ Route::get( '/product/booklets', function () {
 Route::get( '/product/brochures', function () {
     return view('home');
 });
-Route::get( '/product/businessCards', function () {
+Route::get( '/product/businesscards', function () {
     return view('home');
 });
 //Route::get( '/product/deskpadsNotepads', function () {
 //    return view('home');
 //});
-Route::get( '/product/docketBooks', function () {
+Route::get( '/product/signage', function () {
     return view('home');
 });
 Route::get( '/product/envelopes', function () {
     return view('home');
 });
-Route::get( '/product/expressPrinting', function () {
+Route::get( '/product/banner', function () {
     return view('home');
 });
 Route::get( '/product/flyers', function () {
@@ -90,7 +90,7 @@ Route::get( '/product/presentationFolders', function () {
 //Route::get( '/product/directMarketing', function () {
 //    return view('home');
 //});
-Route::get( '/product/withCompliments', function () {
+Route::get( '/product/dl_compliments', function () {
     return view('home');
 });
 //Route::get( '/product/websiteDesign', function () {

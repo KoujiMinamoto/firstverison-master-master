@@ -195,7 +195,7 @@
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
 
                         <p style="margin-top:115px; margin-left:10px">
-                            <span class="button_click_here" href="/product/businessCards">
+                            <span class="button_click_here" href="/product/businesscards">
                                 <span style="color:#fff">click here</span>
                             </span>
                         </p>
@@ -220,7 +220,7 @@
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
 
                         <p style="margin-top:15px; margin-left:10px">
-                            <span class="button_click_here" href="/product/businessCards">
+                            <span class="button_click_here" href="/product/businesscards">
                                 <span style="color:#fff">click here</span>
                             </span>
                         </p>
@@ -249,7 +249,7 @@
                         <!-- <p style="font-size:42px; color: #323232; line-height: 45px; letter-spacing: -2px; margin-bottom:15px">250 $65<br/>500 $69<br/>1000 $75</p> -->
 
                         <p style="margin-top:15px; margin-left:10px">
-                            <span class="button_click_here" href="/product/businessCards">
+                            <span class="button_click_here" href="/product/businesscards">
                                 <span style="color:#fff">click here</span>
                             </span>
                         </p>
@@ -2214,7 +2214,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/businessCards" >
+                            <a href="/product/businesscards" >
                                  BusinessCards Printing
                             </a>
                 </div>
@@ -2741,7 +2741,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                        <a href="/product/businessCards" >
+                        <a href="/product/businesscards" >
                                 BusinessCards Printing
                         </a>
             </div>
@@ -3411,7 +3411,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/docketBooks" >
+                            <a href="/product/signage" >
                             Signage
                             </a>
             </div>
@@ -4501,7 +4501,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/expressPrinting" >
+                            <a href="/product/banner" >
                                 Banner
                             </a>
             </div>
@@ -8942,7 +8942,7 @@
                     You are here:
                         <a href="/home" >YellowStar Press</a>
                         »
-                            <a href="/product/withCompliments" >
+                            <a href="/product/dl_compliments" >
                             Compliments Printing
                             </a>
             </div>
@@ -10427,7 +10427,7 @@
                             Card Issue Number: <input type="text" name="EWAY_CARDISSUENUMBER" />
                             Card CVN: <input type="text" name="EWAY_CARDCVN" />
                             <input type="submit" value="Process" text="Process" />
-                          </form> 
+                          </form>
                           <iframe id="iframe" name="iframe" style="display:none;"></iframe>
                     </div>
                     {{-- <div class="form-container">
@@ -11623,7 +11623,7 @@
                         <p>&nbsp;</p>
                         <p>our designs come with a free flight check and PDF proof to ensure the presentation and quality of your designs prior to printing. This product can be ordered in full colour on single or both sides in 150, 170 or 200gsm on either satin or gloss paper.</p>
                         <p>&nbsp;</p>
-                        <p>Depending on order quantity deliveries are dispatched in 3-10 working days. If you need your order fast-tracked request <a href="/expressPrinting">urgent
+                        <p>Depending on order quantity deliveries are dispatched in 3-10 working days. If you need your order fast-tracked request <a href="/banner">urgent
                         shipping</a>.</p>
                         <p>&nbsp;</p>
                         <p><b>Please note</b>: Custom sizes are available, please contact us for more information.</p>

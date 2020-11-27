@@ -14,7 +14,7 @@ function clickProduct(headerName) {
         case 2:
             showProductPage(2);
             UpdateBCPrice('side');
-            linkTo('businessCards');
+            linkTo('businesscards');
             break;
         case 3:
             showProductPage(3);
@@ -26,7 +26,7 @@ function clickProduct(headerName) {
             break;
         case 5:
             showProductPage(5);
-            linkTo('docketBooks');
+            linkTo('signage');
             break;
         case 6:
             showProductPage(6);
@@ -34,7 +34,7 @@ function clickProduct(headerName) {
             break;
         case 7:
             showProductPage(7);
-            linkTo('expressPrinting');
+            linkTo('banner');
             break;
         case 8:
             showProductPage(8);
@@ -66,7 +66,7 @@ function clickProduct(headerName) {
             break;
         case 14:
             showProductPage(14);
-            linkTo('withCompliments');
+            linkTo('dl_compliments');
             break;
         case 15:
             showProductPage(15);

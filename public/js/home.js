@@ -453,7 +453,7 @@ function clickHeader(headerName) {
             break;
         case 5:
             showHeaderPage(5);
-            linkTo('aboutUs');
+            linkTo('about_us');
             break;
         case 6:
             showHeaderPage(6)
@@ -859,7 +859,7 @@ function beforeInitPage() {
         case "/support":
             showHeaderPage(4);
             break;
-        case "/aboutUs":
+        case "/about_us":
             showHeaderPage(5);
             break;
         case "/contact":
@@ -880,7 +880,7 @@ function beforeInitPage() {
         case "/product/brochures":
             showProductPage(1);
             break;
-        case "/product/businessCards":
+        case "/product/businesscards":
             showProductPage(2);
             break;
         case "/product/deskpadsNotepads":
@@ -889,13 +889,13 @@ function beforeInitPage() {
         case "/product/directMarketing":
             showProductPage(4);
             break;
-        case "/product/docketBooks":
+        case "/product/signage":
             showProductPage(5);
             break;
         case "/product/envelopes":
             showProductPage(6);
             break;
-        case "/product/expressPrinting":
+        case "/product/banner":
             showProductPage(7);
             break;
         case "/product/flyers":
@@ -916,7 +916,7 @@ function beforeInitPage() {
         case "/product/presentationFolders":
             showProductPage(13);
             break;
-        case "/product/withCompliments":
+        case "/product/dl_compliments":
             showProductPage(14);
             break;
         case "/product/websiteDesign":
