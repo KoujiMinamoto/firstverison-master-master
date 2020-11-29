@@ -162,8 +162,8 @@ $api->version('v1',['namespace' => 'App\Http\Controllers'],function ($api) {
     // eamil
     $api->post('contactUs','EmailController@contactEmail');
     $api->post('booklets','EmailController@bookletsEmail');
-    $api->post('websiteDesign','EmailController@websiteDesignEmail');
-    $api->post('samplePack','EmailController@samplePackEmail');
+    // $api->post('websiteDesign','EmailController@websiteDesignEmail');
+    // $api->post('samplePack','EmailController@samplePackEmail');
     // cart
     $api->post('cartEmail','EmailController@orderEmail');
 

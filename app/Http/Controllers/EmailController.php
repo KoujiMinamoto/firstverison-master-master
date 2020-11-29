@@ -63,21 +63,30 @@ use Illuminate\Support\Facades\Storage;
         }
 
         if ($sendFile == 'empty') {
-
-            Mail::raw($content, function ($message) use ($toMail, $title) {
-                $message->subject($title);
-                $message->to($toMail);
-            });
+            try {
+                Mail::raw($content, function ($message) use ($toMail, $title) {
+                    $message->subject($title);
+                    $message->to($toMail);
+                });
+            } catch (\Exception $e) {
+                DB::rollBack();
+                return false;
+                // return 
+            }
     
         } else {
-            
-            Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
-                $message->subject($title);
-                $message->to($toMail);
-                $attachment = public_path( 'files\\'.$sendFile );
-                $message->attach($attachment,['as'=>$sendFile]);
-            });
-            
+            try {
+                Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+                    $message->subject($title);
+                    $message->to($toMail);
+                    $attachment = public_path( 'files\\'.$sendFile );
+                    $message->attach($attachment,['as'=>$sendFile]);
+                });
+            } catch (\Exception $e) {
+                DB::rollBack();
+                return false;
+                // return 
+            }
         }
         closedir($file_path); 
         $path = "files/";
@@ -179,18 +188,30 @@ use Illuminate\Support\Facades\Storage;
         }
         
         if ($sendFile == 'empty') {
-            Mail::raw($content, function ($message) use ($toMail, $title) {
-                $message->subject($title);
-                $message->to($toMail);
-            });
-    
+            try {
+                Mail::raw($content, function ($message) use ($toMail, $title) {
+                    $message->subject($title);
+                    $message->to($toMail);
+                });
+            } catch (\Exception $e) {
+                DB::rollBack();
+                return false;
+                // return 
+            }
+
         } else {
-            Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
-                $message->subject($title);
-                $message->to($toMail);
-                $attachment = public_path( 'files\\'.$sendFile );
-                $message->attach($attachment,['as'=>$sendFile]);
-            });    
+            try {
+                Mail::raw($content, function ($message) use ($toMail, $title , $sendFile) {
+                    $message->subject($title);
+                    $message->to($toMail);
+                    $attachment = public_path( 'files\\'.$sendFile );
+                    $message->attach($attachment,['as'=>$sendFile]);
+                });
+            } catch (\Exception $e) {
+                DB::rollBack();
+                return false;
+                // return 
+            }
         }
         closedir($file_path);
 
@@ -217,76 +238,80 @@ use Illuminate\Support\Facades\Storage;
 
      }
 
-     function websiteDesignEmail(Request $request) {
+    //  function websiteDesignEmail(Request $request) {
 
-        $contactName = $request->input('contactName');
-        $businessName = $request->input('businessName');
+    //     $contactName = $request->input('contactName');
+    //     $businessName = $request->input('businessName');
 
-        $phone = $request->input('phone');
-        $email = $request->input('email');
-        $date = $request->input('date');
-        $title = $date." website design message";
-        // 获取邮箱内容
-        $content = "Contact Name: ".$contactName."\n";
-        $content = $content."Business Name: ".$businessName."\n";
-        $content = $content . "Telephone: " . $phone . "\n";
-        $content = $content . "Email Address: " . $email . "\n";
+    //     $phone = $request->input('phone');
+    //     $email = $request->input('email');
+    //     $date = $request->input('date');
+    //     $title = $date." website design message";
+    //     // 获取邮箱内容
+    //     $content = "Contact Name: ".$contactName."\n";
+    //     $content = $content."Business Name: ".$businessName."\n";
+    //     $content = $content . "Telephone: " . $phone . "\n";
+    //     $content = $content . "Email Address: " . $email . "\n";
 
-        $toMail = 'anmouer@163.com';
+    //     $toMail = 'anmouer@163.com';
+    //     try {
+    //         Mail::raw($content, function ($message) use ($toMail, $title) {
+    //             $message->subject($title);
+    //             $message->to($toMail);
+    //         });
+    //     } catch (\Exception $e) {
+    //         DB::rollBack();
+    //         return false;
+    //         // return 
+    //     }
+    //     return true;
 
-        Mail::raw($content, function ($message) use ($toMail, $title) {
-            $message->subject($title);
-            $message->to($toMail);
-        });
+    //  }
 
-        return true;
+    //  public function samplePackEmail(Request $request){
 
-     }
+    //     $businessName = $request->input('businessName');
+    //     $name = $request->input('name');
+    //     $email = $request->input('email');
+    //     $address = $request->input('address');
+    //     $subrub = $request->input('subrub');
+    //     $state = $request->input('state');
+    //     $postcode = $request->input('postcode');
+    //     $phone = $request->input('phone');
+    //     $comment = $request->input('comment');
+    //     $subscribe = $request->input('subscribe');
+    //     $date = $request->input('date');
+    //     if ($subscribe == true) {
+    //         $subscribe = "yes";
+    //     } else {
+    //         $subscribe = "no";
+    //     }
 
-     public function samplePackEmail(Request $request){
-
-        $businessName = $request->input('businessName');
-        $name = $request->input('name');
-        $email = $request->input('email');
-        $address = $request->input('address');
-        $subrub = $request->input('subrub');
-        $state = $request->input('state');
-        $postcode = $request->input('postcode');
-        $phone = $request->input('phone');
-        $comment = $request->input('comment');
-        $subscribe = $request->input('subscribe');
-        $date = $request->input('date');
-        if ($subscribe == true) {
-            $subscribe = "yes";
-        } else {
-            $subscribe = "no";
-        }
-
-        $title = $date." sample pack";
-        // 获取邮箱内容
-        $content = "Business Name: ".$businessName."\n";
-        $content = $content."Your Name: ".$name."\n";
-        $content = $content . "Email: " . $email . "\n";
-        $content = $content . "Address: " . $address . "\n";
-        $content = $content."Suburb: ".$subrub."\n";
-        $content = $content . "State: " . $state . "\n";
-        $content = $content . "Postcode: " . $postcode . "\n";
-        $content = $content . "Telephone: ".$phone."\n";
-        $content = $content . "Comment: " . $comment . "\n";
-        $content = $content . "Subscribe: " . $subscribe . "\n";
-
-
-        $toMail = 'anmouer@163.com';
-
-        Mail::raw($content, function ($message) use ($toMail, $title) {
-            $message->subject($title);
-            $message->to($toMail);
-        });
-
-        return true;
+    //     $title = $date." sample pack";
+    //     // 获取邮箱内容
+    //     $content = "Business Name: ".$businessName."\n";
+    //     $content = $content."Your Name: ".$name."\n";
+    //     $content = $content . "Email: " . $email . "\n";
+    //     $content = $content . "Address: " . $address . "\n";
+    //     $content = $content."Suburb: ".$subrub."\n";
+    //     $content = $content . "State: " . $state . "\n";
+    //     $content = $content . "Postcode: " . $postcode . "\n";
+    //     $content = $content . "Telephone: ".$phone."\n";
+    //     $content = $content . "Comment: " . $comment . "\n";
+    //     $content = $content . "Subscribe: " . $subscribe . "\n";
 
 
-     }
+    //     $toMail = 'anmouer@163.com';
+
+    //     Mail::raw($content, function ($message) use ($toMail, $title) {
+    //         $message->subject($title);
+    //         $message->to($toMail);
+    //     });
+
+    //     return true;
+
+
+    //  }
      // 支付成功后，发送邮件
     public function orderEmail(Request $request) {
 

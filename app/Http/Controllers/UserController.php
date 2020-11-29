@@ -19,6 +19,7 @@ class UserController extends Controller
    public function userLogin(Request $request) {
       // session处理
       session_start();
+      
       $userName=$request->input('username');
       $userPassword=$request->input('password');
 
@@ -31,7 +32,8 @@ class UserController extends Controller
       catch (\Exception $e) {
          DB::rollBack();
          $loginCheck = false;
-         // return
+         $userMessage['logincheck'] = $loginCheck;
+         return response()->json($userMessage);
       }
       
       if($message[0]->user_name == null) {
@@ -51,7 +53,7 @@ class UserController extends Controller
 
       return response()->json($userMessage);
    }
-
+   // check login status
    public function loginStatus() {
 
       session_start();
@@ -67,7 +69,7 @@ class UserController extends Controller
          return response()->json($loginStatus);
       }
    }
-
+   // user loginOut and delete session
    public function loginOut() {
       session_start();
       unset($_SESSION['username']); 
@@ -97,6 +99,8 @@ class UserController extends Controller
       }
       catch (\Exception $e) {
          DB::rollBack();
+         $register['result'] = 'fail';
+         return response()->json($register);
          // return 
       }
       $register['result'] = '';
@@ -131,6 +135,8 @@ class UserController extends Controller
          }
          catch (\Exception $e) {
             DB::rollBack();
+            $register['result'] = 'fail';
+            return response()->json($register);
             // return 
          }
         
@@ -171,6 +177,8 @@ class UserController extends Controller
          ]);
       } catch (\Exception $e) {
          DB::rollBack();
+         $result = "fail";
+         return response()->json($result);
          // return 
       }
       

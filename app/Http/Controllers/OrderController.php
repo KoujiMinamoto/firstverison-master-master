@@ -63,6 +63,8 @@ class OrderController extends Controller
             ]);
         } catch (\Exception $e) {
             DB::rollBack();
+            $register = "fail";
+            return response()->json($register);
         }
         $register = "success";
         return response()->json($register);
