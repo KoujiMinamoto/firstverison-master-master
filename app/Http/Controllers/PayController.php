@@ -14,8 +14,8 @@ class PayController extends Controller
 {
 
     public function getAccessCode() {
-        $apiKey = 'C3AB9CdBjrJYBFYOrYw0h2c/22Gsq8rWGt/mM4CAZiKadjYSNqovpGpcvT693tWW6cMyKb';
-        $apiPassword = '57356kBW';
+        $apiKey = ''; //use apikey
+        $apiPassword = '';
         $apiEndpoint = \Eway\Rapid\Client::MODE_SANDBOX; // Use \Eway\Rapid\Client::MODE_PRODUCTION when you go live
         $client = \Eway\Rapid::createClient($apiKey, $apiPassword, $apiEndpoint);
 
